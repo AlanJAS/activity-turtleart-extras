@@ -1,0 +1,2601 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-02 00:32-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
+
+#. TRANS: "name" option from activity.info file
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "turtleart-extras (master)"
+msgstr ""
+
+#: taextras.py:36
+msgid "Turtle Art Mini"
+msgstr ""
+
+#: taextras.py:40
+msgid "Turtle Confusion"
+msgstr ""
+
+#: taextras.py:41 taextras.py:46
+msgid "Select a challenge"
+msgstr ""
+
+#: taextras.py:45
+msgid "Amazonas Tortuga"
+msgstr ""
+
+#: taextras.py:52
+msgid "Palette of Mexican pesos"
+msgstr ""
+
+#: taextras.py:53
+msgid "Palette of Colombian pesos"
+msgstr ""
+
+#: taextras.py:54
+msgid "Palette of Rwandan francs"
+msgstr ""
+
+#: taextras.py:55
+msgid "Palette of US dollars"
+msgstr ""
+
+#: taextras.py:56
+msgid "Palette of Australian dollars"
+msgstr ""
+
+#: taextras.py:57
+msgid "Palette of Paraguayan Guaranies"
+msgstr ""
+
+#: taextras.py:58
+msgid "Palette of Peruvian Nuevo Soles"
+msgstr ""
+
+#: taextras.py:59
+msgid "Palette of Uruguayan Pesos"
+msgstr ""
+
+#. TRANS: Butia is the Arduino Robot Project from Uruguay
+#. (http://www.fing.edu.uy/inco/proyectos/butia/)
+#: taextras.py:65
+msgid "TurtleBots"
+msgstr ""
+
+#: taextras.py:66
+msgid "adjust LED intensity between 0 and 255"
+msgstr ""
+
+#: taextras.py:67
+msgid "returns the object gray level as a number between 0 and 1023"
+msgstr ""
+
+#: taextras.py:68
+msgid "returns 1 when the button is press and 0 otherwise"
+msgstr ""
+
+#: taextras.py:69
+msgid "returns the ambient light level as a number between 0 and 1023"
+msgstr ""
+
+#: taextras.py:70
+msgid "returns the ambient temperature as a number between 0 and 255"
+msgstr ""
+
+#: taextras.py:71
+msgid ""
+"returns the distance from the object in front of the sensor as a number "
+"between 0 and 255"
+msgstr ""
+
+#: taextras.py:73
+msgid "returns 0 or 1 depending on the sensor inclination"
+msgstr ""
+
+#: taextras.py:74
+msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
+msgstr ""
+
+#: taextras.py:75
+msgid "switches from 0 to 1, the frequency depends on the vibration"
+msgstr ""
+
+#: taextras.py:76
+msgid "returns the value of the resistance"
+msgstr ""
+
+#: taextras.py:77
+msgid "LED"
+msgstr ""
+
+#: taextras.py:78
+msgid "button"
+msgstr ""
+
+#: taextras.py:79
+msgid "grayscale"
+msgstr ""
+
+#: taextras.py:80
+msgid "ambient light"
+msgstr ""
+
+#: taextras.py:81
+msgid "temperature"
+msgstr ""
+
+#: taextras.py:82 taextras.py:291
+msgid "distance"
+msgstr ""
+
+#: taextras.py:83 taextras.py:288
+msgid "tilt"
+msgstr ""
+
+#: taextras.py:84
+msgid "magnetic induction"
+msgstr ""
+
+#: taextras.py:85
+msgid "vibration"
+msgstr ""
+
+#: taextras.py:86
+msgid "resistance"
+msgstr "điện trở"
+
+#: taextras.py:87
+msgid "Butia Robot"
+msgstr ""
+
+#: taextras.py:88
+msgid "refresh Butia"
+msgstr ""
+
+#: taextras.py:89
+msgid "refresh the state of the Butia palette and blocks"
+msgstr ""
+
+#. TRANS: This string is shorthand for "battery charge of Butia"
+#: taextras.py:91
+msgid "battery charge Butia"
+msgstr ""
+
+#: taextras.py:92
+msgid "returns the battery charge as a number between 0 and 255"
+msgstr ""
+
+#. TRANS: This string is shorthand for "speed of Butia"
+#: taextras.py:94
+msgid "speed Butia"
+msgstr ""
+
+#: taextras.py:95
+msgid "set the speed of the Butia motors"
+msgstr ""
+
+#: taextras.py:96
+msgid "the speed must be a value between 0 and 1023"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move Butia forward"
+#: taextras.py:98
+msgid "forward Butia"
+msgstr ""
+
+#: taextras.py:99
+msgid "move the Butia robot forward"
+msgstr ""
+
+#: taextras.py:100
+msgid "move the Butia robot forward a predefined distance"
+msgstr ""
+
+#. TRANS: This string is shorthand for "turn Butia left"
+#: taextras.py:102
+msgid "left Butia"
+msgstr ""
+
+#: taextras.py:103
+msgid "turn the Butia robot at left"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move Butia backward"
+#: taextras.py:105
+msgid "backward Butia"
+msgstr ""
+
+#: taextras.py:106
+msgid "move the Butia robot backward"
+msgstr ""
+
+#: taextras.py:107
+msgid "move the Butia robot backward a predefined distance"
+msgstr ""
+
+#. TRANS: This string is shorthand for "turn Butia right"
+#: taextras.py:109
+msgid "right Butia"
+msgstr ""
+
+#: taextras.py:110
+msgid "turn the Butia robot at right"
+msgstr ""
+
+#: taextras.py:111
+msgid "turn Butia"
+msgstr ""
+
+#: taextras.py:112
+msgid "turn the Butia robot x degrees"
+msgstr ""
+
+#: taextras.py:113
+msgid "stop Butia"
+msgstr ""
+
+#: taextras.py:114
+msgid "stop the Butia robot"
+msgstr ""
+
+#: taextras.py:115
+msgid "Butia"
+msgstr ""
+
+#: taextras.py:119
+msgid "Error importing Pygame. This plugin require Pygame 1.9"
+msgstr ""
+
+#: taextras.py:120
+msgid "Error on initialization of the camera"
+msgstr ""
+
+#: taextras.py:121
+msgid "No camera was found"
+msgstr ""
+
+#: taextras.py:122
+msgid "Error stopping camera"
+msgstr ""
+
+#: taextras.py:123
+msgid "Error starting camera"
+msgstr ""
+
+#. TRANS: The "mask" is used to restrict processing to a region in the image
+#: taextras.py:125
+msgid "Error in get mask"
+msgstr ""
+
+#: taextras.py:126
+msgid "FollowMe"
+msgstr ""
+
+#: taextras.py:127
+msgid "refresh FollowMe"
+msgstr ""
+
+#: taextras.py:128
+msgid "Search for a connected camera."
+msgstr ""
+
+#. TRANS: the calibration is used to match an RGB color to a target
+#: taextras.py:130
+msgid "calibration"
+msgstr ""
+
+#: taextras.py:131
+msgid "store a personalized calibration"
+msgstr ""
+
+#: taextras.py:132
+msgid "return a personalized calibration"
+msgstr ""
+
+#: taextras.py:133
+msgid "follow"
+msgstr ""
+
+#: taextras.py:134
+msgid "follow a color or calibration"
+msgstr ""
+
+#: taextras.py:135
+msgid "brightness"
+msgstr "độ sáng"
+
+#: taextras.py:136
+msgid "set the camera brightness as a value between 0 to 255."
+msgstr ""
+
+#: taextras.py:137
+msgid "minimum pixels"
+msgstr ""
+
+#: taextras.py:138
+msgid "set the minimal number of pixels to follow"
+msgstr ""
+
+#: taextras.py:139
+msgid "threshold"
+msgstr ""
+
+#. TRANS: RGB color space (red, green, blue)
+#: taextras.py:141
+msgid "set a threshold for a RGB color"
+msgstr ""
+
+#: taextras.py:142
+msgid "camera mode"
+msgstr ""
+
+#. TRANS: RGB, YUV, and HSV are color spaces
+#: taextras.py:144
+msgid "set the color mode of the camera: RGB; YUV or HSV"
+msgstr ""
+
+#: taextras.py:145
+msgid "get brightness"
+msgstr ""
+
+#: taextras.py:146
+msgid "get the brightness of the ambient light"
+msgstr ""
+
+#: taextras.py:147
+msgid "average color"
+msgstr ""
+
+#: taextras.py:148
+msgid ""
+"if set to 0 then color averaging is off during calibration; for other values "
+"it is on"
+msgstr ""
+
+#: taextras.py:149
+msgid "x position"
+msgstr ""
+
+#: taextras.py:150
+msgid "return x position"
+msgstr ""
+
+#: taextras.py:151
+msgid "y position"
+msgstr ""
+
+#: taextras.py:152
+msgid "return y position"
+msgstr ""
+
+#: taextras.py:153
+msgid "pixels"
+msgstr ""
+
+#: taextras.py:154
+msgid "return the number of pixels of the biggest blob"
+msgstr ""
+
+#. TRANS: RGB color space (red, green, blue)
+#: taextras.py:156
+msgid "set the color mode of the camera to RGB"
+msgstr ""
+
+#. TRANS: YUV color space (luminance, chrominance)
+#: taextras.py:158
+msgid "set the color mode of the camera to YUV"
+msgstr ""
+
+#. TRANS: HSV color space (hue, saturation, value)
+#: taextras.py:160
+msgid "set the color mode of the camera to HSV"
+msgstr ""
+
+#: taextras.py:161
+msgid "empty calibration"
+msgstr ""
+
+#: taextras.py:162
+msgid "error in string conversion"
+msgstr ""
+
+#. TRANS: SumBot is a robot programmed for "Sumo wrestling"
+#: taextras.py:167
+msgid "SumBot"
+msgstr ""
+
+#: taextras.py:168
+msgid "speed SumBot"
+msgstr ""
+
+#: taextras.py:169
+msgid "submit the speed to the SumBot"
+msgstr ""
+
+#: taextras.py:170
+msgid "set the default speed for the movement commands"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move SumBot forward"
+#: taextras.py:172
+msgid "forward SumBot"
+msgstr ""
+
+#: taextras.py:173
+msgid "move SumBot forward"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move SumBot backward"
+#: taextras.py:175
+msgid "backward SumBot"
+msgstr ""
+
+#: taextras.py:176
+msgid "move SumBot backward"
+msgstr ""
+
+#: taextras.py:177
+msgid "stop SumBot"
+msgstr ""
+
+#: taextras.py:178
+msgid "stop the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "turn SumBot left"
+#: taextras.py:180
+msgid "left SumBot"
+msgstr ""
+
+#: taextras.py:181
+msgid "turn left the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move SumBot right"
+#: taextras.py:183
+msgid "right SumBot"
+msgstr ""
+
+#: taextras.py:184
+msgid "turn right the SumBot"
+msgstr ""
+
+#. TRANS: The angle to the center is the angle SumBot must turn to
+#. face the center of the playing field
+#: taextras.py:187
+msgid "angle to center"
+msgstr ""
+
+#. TRANS: dohyo is the playing field
+#: taextras.py:189
+msgid "get the angle to the center of the dohyo"
+msgstr ""
+
+#. TRANS: The angle to the center is the angle SumBot must turn to
+#. face the Enemy (opponent)
+#: taextras.py:192
+msgid "angle to Enemy"
+msgstr ""
+
+#: taextras.py:193
+msgid "get the angle to the Enemy"
+msgstr ""
+
+#. TRANS: This string is shorthand for "x coordinate of SumBot"
+#: taextras.py:195
+msgid "x coor. SumBot"
+msgstr ""
+
+#: taextras.py:196
+msgid "get the x coordinate of the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "y coordinate of SumBot"
+#: taextras.py:198
+msgid "y coor. SumBot"
+msgstr ""
+
+#: taextras.py:199
+msgid "get the y coordinate of the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "x coordinate of SumBot's enemy"
+#: taextras.py:201
+msgid "x coor. Enemy"
+msgstr ""
+
+#: taextras.py:202
+msgid "get the x coordinate of the Enemy"
+msgstr ""
+
+#. TRANS: This string is shorthand for "y coordinate of SumBot's enemy"
+#: taextras.py:204
+msgid "y coor. Enemy"
+msgstr ""
+
+#: taextras.py:205
+msgid "get the y coordinate of the Enemy"
+msgstr ""
+
+#. TRANS: This string is shorthand for "rotation of SumBot"
+#: taextras.py:207
+msgid "rotation SumBot"
+msgstr ""
+
+#: taextras.py:208
+msgid "get the rotation of the Sumbot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "rotation of SumBot's enemy"
+#: taextras.py:210
+msgid "rotation Enemy"
+msgstr ""
+
+#: taextras.py:211
+msgid "get the rotation of the Enemy"
+msgstr ""
+
+#: taextras.py:212
+msgid "distance to center"
+msgstr ""
+
+#. TRANS: dohyo is the playing field
+#: taextras.py:214
+msgid "get the distance to the center of the dohyo"
+msgstr ""
+
+#: taextras.py:215
+msgid "distance to Enemy"
+msgstr ""
+
+#: taextras.py:216
+msgid "get the distance to the Enemy"
+msgstr ""
+
+#: taextras.py:217
+msgid "update information"
+msgstr ""
+
+#: taextras.py:218
+msgid "update information from the server"
+msgstr ""
+
+#. TRANS: Please use similar terms to those used in the Physics Activity
+#: taextras.py:223
+#, fuzzy
+msgid "Palette of physics blocks"
+msgstr "Bảng chọn của khối cảm biến"
+
+#: taextras.py:224
+msgid "start polygon"
+msgstr ""
+
+#: taextras.py:225
+msgid "Begin defining a new polygon based on the current Turtle xy position."
+msgstr ""
+
+#: taextras.py:227
+msgid "add point"
+msgstr ""
+
+#: taextras.py:228
+msgid ""
+"Add a new point to the current polygon based on the current Turtle xy "
+"position."
+msgstr ""
+
+#: taextras.py:230
+msgid "end polygon"
+msgstr ""
+
+#: taextras.py:231
+#, fuzzy
+msgid "Define a new polygon."
+msgstr "Định nghĩa một đa giác lồi mới"
+
+#: taextras.py:232
+msgid "end filled polygon"
+msgstr ""
+
+#: taextras.py:233
+msgid "Not a simple polygon"
+msgstr "Không phải là hình đa giác đơn giản"
+
+#: taextras.py:234
+msgid "Define a new filled polygon."
+msgstr "Định nghĩa một đa giác lồi mới"
+
+#: taextras.py:235
+msgid "triangle"
+msgstr ""
+
+#. TRANS: base of a triangle
+#: taextras.py:237
+msgid "base"
+msgstr ""
+
+#: taextras.py:238 taextras.py:244
+msgid "height"
+msgstr "độ cao"
+
+#: taextras.py:239
+msgid "Add a triangle object to the project."
+msgstr ""
+
+#: taextras.py:240
+msgid "circle"
+msgstr ""
+
+#: taextras.py:241
+msgid "Add a circle object to the project."
+msgstr ""
+
+#: taextras.py:242
+msgid "rectangle"
+msgstr ""
+
+#: taextras.py:243
+msgid "width"
+msgstr "rộng"
+
+#: taextras.py:245
+msgid "Add a rectangle object to the project."
+msgstr ""
+
+#: taextras.py:246
+msgid "reset"
+msgstr ""
+
+#: taextras.py:247
+msgid "Reset the project; clear the object list."
+msgstr ""
+
+#: taextras.py:248
+msgid "motor"
+msgstr ""
+
+#. TRANS: torque as in engine torque
+#: taextras.py:250
+msgid "torque"
+msgstr ""
+
+#: taextras.py:251
+msgid "speed"
+msgstr ""
+
+#: taextras.py:252
+msgid ""
+"Motor torque and speed range from 0 (off) to positive numbers; motor is "
+"placed on the most recent object created."
+msgstr ""
+
+#: taextras.py:254 taextras.py:417
+msgid "pin"
+msgstr ""
+
+#: taextras.py:255
+msgid "Pin an object down so that it cannot fall."
+msgstr ""
+
+#: taextras.py:256
+msgid "joint"
+msgstr ""
+
+#: taextras.py:257
+msgid "x"
+msgstr "x"
+
+#: taextras.py:258
+msgid "y"
+msgstr "y"
+
+#: taextras.py:259
+msgid ""
+"Join two objects together (the most recent object created and the object at "
+"point x, y)."
+msgstr ""
+
+#: taextras.py:261
+msgid "save as Physics activity"
+msgstr ""
+
+#: taextras.py:262
+msgid "Save the project to the Journal as a Physics activity."
+msgstr ""
+
+#. TRANS: Here, gear means a toothed wheel, as in a clock-works
+#: taextras.py:264
+msgid "gear"
+msgstr ""
+
+#: taextras.py:265
+msgid "Add a gear object to the project."
+msgstr ""
+
+#: taextras.py:266
+#, fuzzy
+msgid "density"
+msgstr "nhận dạng"
+
+#: taextras.py:267
+msgid ""
+"Set the density property for objects (density can be any positive number)."
+msgstr ""
+
+#: taextras.py:269
+msgid "friction"
+msgstr ""
+
+#: taextras.py:270
+msgid ""
+"Set the friction property for objects (value from 0 to 1, where 0 turns "
+"friction off and 1 is strong friction)."
+msgstr ""
+
+#. TRANS: bounciness is coefficient of restitution
+#: taextras.py:273
+msgid "bounciness"
+msgstr ""
+
+#: taextras.py:274
+msgid ""
+"Set the bounciness property for objects (a value from 0 to 1, where 0 means "
+"no bounce and 1 is very bouncy)."
+msgstr ""
+
+#. TRANS: dynamic here means moving vs in a fixed position
+#: taextras.py:277
+msgid "dynamic"
+msgstr ""
+
+#: taextras.py:278
+msgid ""
+"If dynamic = 1, the object can move; if dynamic = 0, it is fixed in position."
+msgstr ""
+
+#. TRANS: WeDo is a robotics product of the LEGO company
+#: taextras.py:284
+#, fuzzy
+msgid "Palette of WeDo blocks"
+msgstr "Bảng chọn của khối cảm biến"
+
+#: taextras.py:285
+msgid "WeDo"
+msgstr ""
+
+#: taextras.py:286
+msgid "set current WeDo device"
+msgstr ""
+
+#: taextras.py:287
+msgid "number of WeDo devices"
+msgstr ""
+
+#: taextras.py:289
+msgid ""
+"tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
+"tilt left, 2 == tilt right)"
+msgstr ""
+
+#. TRANS: This string is shorthand for "output of the distance sensor"
+#: taextras.py:293
+msgid "distance sensor output"
+msgstr ""
+
+#: taextras.py:294
+msgid "Motor A"
+msgstr ""
+
+#: taextras.py:295
+msgid "returns the current value of Motor A"
+msgstr ""
+
+#: taextras.py:296
+msgid "Motor B"
+msgstr ""
+
+#: taextras.py:297
+msgid "returns the current value of Motor B"
+msgstr ""
+
+#: taextras.py:298
+msgid "set the value for Motor A"
+msgstr ""
+
+#: taextras.py:299
+msgid "set the value for Motor B"
+msgstr ""
+
+#: taextras.py:300
+msgid "WeDo is unavailable"
+msgstr ""
+
+#. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
+#: taextras.py:302
+#, python-format
+msgid "WeDo %d is unavailable; defaulting to 1"
+msgstr ""
+
+#. TRANS: %(device)s and %(wedo_number)d are substitution strings;
+#. please leave untranslated
+#: taextras.py:305
+#, python-format
+msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
+msgstr ""
+
+#. TRANS: Lego NXT is a robotics product of the LEGO company
+#: taextras.py:311
+msgid "Palette of LEGO NXT blocks of motors"
+msgstr ""
+
+#: taextras.py:312
+msgid "Palette of LEGO NXT blocks of sensors"
+msgstr ""
+
+#. TRANS: touch sensor (implemented as a button)
+#: taextras.py:314
+msgid "touch"
+msgstr ""
+
+#. TRANS: distance sensor (implemented using ultrasonics)
+#: taextras.py:316
+msgid "ultrasonic"
+msgstr ""
+
+#: taextras.py:317
+msgid "color"
+msgstr "màu"
+
+#: taextras.py:318
+#, fuzzy
+msgid "light"
+msgstr "phải"
+
+#: taextras.py:319
+msgid "sound"
+msgstr "âm thanh"
+
+#: taextras.py:320
+msgid "grey"
+msgstr ""
+
+#. TRANS: The brick is the NXT controller
+#: taextras.py:322
+msgid "Please check the connection with the brick"
+msgstr ""
+
+#: taextras.py:323
+#, python-format
+msgid "Invalid port '%s'. Port must be: PORT A, B or C"
+msgstr ""
+
+#: taextras.py:324
+#, python-format
+msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
+msgstr ""
+
+#: taextras.py:325
+msgid "The value of power must be between -127 to 127"
+msgstr ""
+
+#: taextras.py:326
+#, python-format
+msgid "The parameter must be a integer, not '%s'"
+msgstr ""
+
+#: taextras.py:327
+msgid "An error has occurred: check all connections and try to reconnect"
+msgstr ""
+
+#: taextras.py:328
+#, python-format
+msgid "NXT found %s bricks"
+msgstr ""
+
+#: taextras.py:329
+msgid "NXT not found"
+msgstr ""
+
+#: taextras.py:330
+#, python-format
+msgid "Brick number %s was not found"
+msgstr ""
+
+#: taextras.py:331
+msgid "refresh NXT"
+msgstr ""
+
+#: taextras.py:332
+msgid "Search for a connected NXT brick."
+msgstr ""
+
+#: taextras.py:333
+msgid "NXT"
+msgstr ""
+
+#: taextras.py:334
+msgid "set current NXT device"
+msgstr ""
+
+#: taextras.py:335
+msgid "number of NXT devices"
+msgstr ""
+
+#: taextras.py:336
+msgid "brick name"
+msgstr ""
+
+#: taextras.py:337
+msgid "Get the name of a brick."
+msgstr ""
+
+#: taextras.py:338
+msgid "play tone"
+msgstr ""
+
+#: taextras.py:339
+msgid "frequency"
+msgstr ""
+
+#: taextras.py:340
+msgid "time"
+msgstr "Thời gian"
+
+#: taextras.py:341
+msgid "Play a tone at frequency for time."
+msgstr ""
+
+#. TRANS: turn is the action
+#: taextras.py:343
+msgid ""
+"turn motor\n"
+"\n"
+msgstr ""
+
+#: taextras.py:344
+#, fuzzy
+msgid "port"
+msgstr "Cổng"
+
+#: taextras.py:345
+msgid "power"
+msgstr ""
+
+#. TRANS: rotations is quantity of turns
+#: taextras.py:347
+msgid "rotations"
+msgstr ""
+
+#: taextras.py:348
+msgid "turn a motor"
+msgstr ""
+
+#: taextras.py:349
+msgid ""
+"synchronize\n"
+"\n"
+"motors"
+msgstr ""
+
+#: taextras.py:350
+msgid "steering"
+msgstr ""
+
+#: taextras.py:351
+msgid "synchronize two motors connected in PORT B and PORT C"
+msgstr ""
+
+#: taextras.py:352
+msgid "PORT A"
+msgstr ""
+
+#: taextras.py:353
+msgid "PORT A of the brick"
+msgstr ""
+
+#: taextras.py:354
+msgid "PORT B"
+msgstr ""
+
+#: taextras.py:355
+msgid "PORT B of the brick"
+msgstr ""
+
+#: taextras.py:356
+msgid "PORT C"
+msgstr ""
+
+#: taextras.py:357
+msgid "PORT C of the brick"
+msgstr ""
+
+#: taextras.py:358
+msgid "start motor"
+msgstr ""
+
+#: taextras.py:359
+msgid "Run a motor forever."
+msgstr ""
+
+#: taextras.py:360
+msgid "brake motor"
+msgstr ""
+
+#: taextras.py:361
+msgid "Stop a specified motor."
+msgstr ""
+
+#. TRANS: reset is used to reset the counter associated with the motor
+#: taextras.py:363
+msgid "reset motor"
+msgstr ""
+
+#: taextras.py:364
+msgid "Reset the motor counter."
+msgstr ""
+
+#: taextras.py:365
+msgid "motor position"
+msgstr ""
+
+#: taextras.py:366
+msgid "Get the motor position."
+msgstr ""
+
+#: taextras.py:367
+msgid "PORT 1"
+msgstr ""
+
+#: taextras.py:368
+msgid "PORT 1 of the brick"
+msgstr ""
+
+#: taextras.py:369
+#, fuzzy
+msgid "read"
+msgstr "đỏ"
+
+#: taextras.py:370
+msgid "sensor"
+msgstr ""
+
+#: taextras.py:371
+msgid "Read sensor output."
+msgstr ""
+
+#: taextras.py:372
+msgid "PORT 2"
+msgstr ""
+
+#: taextras.py:373
+msgid "PORT 2 of the brick"
+msgstr ""
+
+#: taextras.py:374
+msgid "light sensor"
+msgstr ""
+
+#: taextras.py:375
+msgid "grey sensor"
+msgstr ""
+
+#: taextras.py:376
+msgid "PORT 3"
+msgstr ""
+
+#: taextras.py:377
+msgid "PORT 3 of the brick"
+msgstr ""
+
+#: taextras.py:378
+msgid "touch sensor"
+msgstr ""
+
+#: taextras.py:379
+msgid "distance sensor"
+msgstr ""
+
+#: taextras.py:380
+msgid "PORT 4"
+msgstr ""
+
+#: taextras.py:381
+msgid "PORT 4 of the brick"
+msgstr ""
+
+#: taextras.py:382
+msgid "sound sensor"
+msgstr ""
+
+#: taextras.py:383
+msgid "color sensor"
+msgstr ""
+
+#. TRANS: set light is used to set the light level associated with
+#. the color sensor (which can emit light as well as sense it)
+#: taextras.py:386
+msgid "set light"
+msgstr ""
+
+#: taextras.py:387
+msgid "Set color sensor light."
+msgstr ""
+
+#. TRANS: the battery level is the charge level of the brick
+#: taextras.py:389
+msgid "battery level"
+msgstr ""
+
+#: taextras.py:390
+msgid "Get battery level of the brick"
+msgstr ""
+
+#. TRANS: Arduino plugin to control an Arduino board
+#: taextras.py:395
+msgid "HIGH"
+msgstr ""
+
+#: taextras.py:396
+msgid "LOW"
+msgstr ""
+
+#: taextras.py:397
+msgid "INPUT"
+msgstr ""
+
+#: taextras.py:398
+msgid "OUTPUT"
+msgstr ""
+
+#. TRANS: PWM is pulse-width modulation
+#: taextras.py:400
+msgid "PWM"
+msgstr ""
+
+#: taextras.py:401
+msgid "SERVO"
+msgstr ""
+
+#: taextras.py:402
+msgid "ERROR: Check the Arduino and the number of port."
+msgstr ""
+
+#: taextras.py:403
+msgid "ERROR: Value must be a number from 0 to 255."
+msgstr ""
+
+#: taextras.py:404
+msgid "ERROR: Value must be either HIGH or LOW."
+msgstr ""
+
+#: taextras.py:405
+msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
+msgstr ""
+
+#: taextras.py:406
+msgid "refresh Arduino"
+msgstr ""
+
+#: taextras.py:407
+msgid "Search for connected Arduinos."
+msgstr ""
+
+#: taextras.py:408
+msgid "Arduino"
+msgstr ""
+
+#: taextras.py:409
+msgid "set current Arduino board"
+msgstr ""
+
+#: taextras.py:410
+msgid "number of Arduinos"
+msgstr ""
+
+#: taextras.py:411
+msgid "number of Arduino boards"
+msgstr ""
+
+#: taextras.py:412
+msgid "Arduino name"
+msgstr ""
+
+#: taextras.py:413
+msgid "Get the name of an Arduino."
+msgstr ""
+
+#. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
+#. in which an I/O pin is being used.
+#: taextras.py:416
+msgid "pin mode"
+msgstr ""
+
+#: taextras.py:418
+#, fuzzy
+msgid "mode"
+msgstr "sửa"
+
+#: taextras.py:419
+msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
+msgstr ""
+
+#: taextras.py:420
+msgid "analog write"
+msgstr ""
+
+#: taextras.py:421
+msgid "value"
+msgstr "giá trị"
+
+#: taextras.py:422
+msgid "Write analog value in specified port."
+msgstr ""
+
+#: taextras.py:423
+msgid "analog read"
+msgstr ""
+
+#: taextras.py:424
+msgid ""
+"Read value from analog port. Value may be between 0 and 1023. Use Vref to "
+"determine voltage. For USB, volt=((read)*5)/1024) approximately."
+msgstr ""
+
+#: taextras.py:426
+msgid "digital write"
+msgstr ""
+
+#: taextras.py:427
+msgid "Write digital value to specified port."
+msgstr ""
+
+#: taextras.py:428
+msgid "digital read"
+msgstr ""
+
+#: taextras.py:429
+msgid "Read value from digital port."
+msgstr ""
+
+#: taextras.py:430
+msgid "Set HIGH value for digital port."
+msgstr ""
+
+#: taextras.py:431
+msgid "Configure Arduino port for digital input."
+msgstr ""
+
+#: taextras.py:432
+msgid "Configure Arduino port to drive a servo."
+msgstr ""
+
+#: taextras.py:433
+msgid "Set LOW value for digital port."
+msgstr ""
+
+#: taextras.py:434
+msgid "Configure Arduino port for digital output."
+msgstr ""
+
+#: taextras.py:435
+msgid "Configure Arduino port for PWM (pulse-width modulation)."
+msgstr ""
+
+#. TRANS: plugin to control an ExpEyes device
+#: taextras.py:440
+#, fuzzy
+msgid "Palette of Expeyes blocks"
+msgstr "Bảng chọn của khối cảm biến"
+
+#. TRANS: Programmable voltage output
+#: taextras.py:442
+msgid "set PVS"
+msgstr ""
+
+#: taextras.py:443
+msgid "set programmable voltage output"
+msgstr ""
+
+#. TRANS: Square wave 1 voltage output
+#: taextras.py:445
+msgid "set SQR1 voltage"
+msgstr ""
+
+#: taextras.py:446
+msgid "set square wave 1 voltage output"
+msgstr ""
+
+#. TRANS: Square wave 2 voltage output
+#: taextras.py:448
+msgid "set SQR2 voltage"
+msgstr ""
+
+#: taextras.py:449
+msgid "set square wave 2 voltage output"
+msgstr ""
+
+#. TRANS: Digital output level
+#: taextras.py:451
+msgid "set OD1"
+msgstr ""
+
+#: taextras.py:452
+msgid "set digital output level (OD1) low (0) or high (1)"
+msgstr ""
+
+#. TRANS: Input 1 voltage level
+#: taextras.py:454
+msgid "IN1 level"
+msgstr ""
+
+#: taextras.py:455
+msgid ""
+"returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
+"volts"
+msgstr ""
+
+#. TRANS: Input 2 voltage level
+#: taextras.py:458
+msgid "IN2 level"
+msgstr ""
+
+#: taextras.py:459
+msgid ""
+"returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
+"volts"
+msgstr ""
+
+#. TRANS: Resistive sensor voltage level
+#: taextras.py:462
+msgid "SEN level"
+msgstr ""
+
+#: taextras.py:463
+msgid ""
+"returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
+"voltage level <= 2.5 volts"
+msgstr ""
+
+#: taextras.py:465
+msgid "capture"
+msgstr ""
+
+#: taextras.py:466
+msgid "input"
+msgstr ""
+
+#: taextras.py:467
+msgid "samples"
+msgstr ""
+
+#: taextras.py:468
+msgid "interval"
+msgstr ""
+
+#. TRANS: MS is microseconds
+#: taextras.py:470
+msgid ""
+"capture multiple samples from input at interval (MS); results pushed to FIFO"
+msgstr ""
+
+#. TRANS: Analog input 1 voltage level
+#: taextras.py:473
+msgid "A1"
+msgstr ""
+
+#: taextras.py:474
+msgid "read analog input 1 voltage"
+msgstr ""
+
+#. TRANS: Analog input 2 voltage level
+#: taextras.py:476
+msgid "A2"
+msgstr ""
+
+#: taextras.py:477
+msgid "read analog input 2 voltage"
+msgstr ""
+
+#. TRANS: Read input 1 voltage
+#: taextras.py:479
+msgid "IN1"
+msgstr ""
+
+#: taextras.py:480
+msgid "read input 1 voltage"
+msgstr ""
+
+#. TRANS: Read input 2 voltage
+#: taextras.py:482
+msgid "IN2"
+msgstr ""
+
+#: taextras.py:483
+msgid "read input 2 voltage"
+msgstr ""
+
+#. TRANS: Read analog sensor input voltage
+#: taextras.py:485
+msgid "SEN"
+msgstr ""
+
+#: taextras.py:486
+msgid "read analog sensor input voltage"
+msgstr ""
+
+#. TRANS: Read square wave 1 input voltage
+#: taextras.py:488
+msgid "SQR1"
+msgstr ""
+
+#: taextras.py:489
+msgid "read square wave 1 voltage"
+msgstr ""
+
+#. TRANS: Read square wave 2 input voltage
+#: taextras.py:491
+msgid "SQR2"
+msgstr ""
+
+#: taextras.py:492
+msgid "read square wave 2 voltage"
+msgstr ""
+
+#. TRANS: Read programmable voltage
+#: taextras.py:494
+msgid "PVS"
+msgstr ""
+
+#: taextras.py:495
+msgid "read programmable voltage"
+msgstr ""
+
+#: taextras.py:496
+msgid "Expeyes device not found"
+msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "Tiêu đề"
+
+#~ msgid "Average RGB color from camera is pushed to the stack"
+#~ msgstr "màu sắc Trung bình RGB từ máy ảnh được đẩy vào ngăp xếp"
+
+#~ msgid "yellow"
+#~ msgstr "vàng"
+
+#~ msgid "displays polar coordinates"
+#~ msgstr "hiển thị toạ độ cực"
+
+#~ msgid "emptys FILO (first-in-last-out heap)"
+#~ msgstr "trống miền FILO ( vào trước, ra sau)"
+
+#~ msgid "camera output"
+#~ msgstr "đầu ra máy ảnh"
+
+#~ msgid "push acceleration in x, y, z to heap"
+#~ msgstr "đẩy gia tốc trong x, y, z xếp thành đống"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr "toán tử nếu-thì mà sử dụng toán tử lôgic từ bảng chọn Số"
+
+#~ msgid "jogs stack right"
+#~ msgstr "đẩy nhẹ đống qua phải"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "đối tượng phương tiện truyền thông Nhật ký Sugar"
+
+#~ msgid "box 2"
+#~ msgstr "hộp 2"
+
+#~ msgid "box 1"
+#~ msgstr "hộp 1"
+
+#~ msgid "Step"
+#~ msgstr "Bước"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "nhân lên nhau hai đầu vào thuộc số"
+
+#~ msgid "Show/hide blocks"
+#~ msgstr "Hiện/ẩn khối"
+
+#~ msgid "Hide palette"
+#~ msgstr "Ẩn bảng chọn"
+
+#~ msgid "Buddies"
+#~ msgstr "Bạn"
+
+#~ msgid "My Turtle Art session"
+#~ msgstr "Buổi học Turtle Art của tôi"
+
+#~ msgid "Sugar Journal video object"
+#~ msgstr "đối tượng hình ảnh chuyển động Nhật ký Sugar"
+
+#~ msgid "cyan"
+#~ msgstr "lục lam"
+
+#~ msgid "xcor of right of screen"
+#~ msgstr "xcor bên phải màn hình"
+
+#~ msgid "Palette of extra options"
+#~ msgstr "Bảng chọn tuỳ chọn bổ sung"
+
+#~ msgid "Load example"
+#~ msgstr "Tải ví dụ"
+
+#~ msgid "list"
+#~ msgstr "danh sách"
+
+#~ msgid "heading"
+#~ msgstr "tiêu đề"
+
+#~ msgid "saves turtle graphics as an SVG file in the Sugar Journal"
+#~ msgstr "lưu đồ họa rùa dưới dạng một tập tin SVG trong Nhật ký Sugar"
+
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "vẽ văn bản hoặc hiển thị phương tiện truyền thông từ Nhật ký"
+
+# http://en.wikipedia.org/wiki/Radio-frequency_identification
+#~ msgid "RFID"
+#~ msgstr "Nhận dạng tần số vô tuyến"
+
+#~ msgid "video"
+#~ msgstr "hình ảnh chuyển động"
+
+#~ msgid "blue"
+#~ msgstr "xanh"
+
+#~ msgid "displays Cartesian coordinates"
+#~ msgstr "hiển thị toạ độ thuyết Đê-các-tơ"
+
+#~ msgid "jogs stack down"
+#~ msgstr "đẩy nhẹ đống xuống dưới"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "toán tử đơn thể (phần dư)"
+
+#~ msgid "bottom y"
+#~ msgstr "tọa độ y phía dưới"
+
+#~ msgid "save SVG"
+#~ msgstr "lưu SVG"
+
+#~ msgid "runs code found in the tamyblock.py module found in the Journal"
+#~ msgstr "chạy mã nguồn được tìm trong mô-đun tamyblock.py có trong Nhật ký"
+
+#~ msgid "pen down"
+#~ msgstr "bút xuống"
+
+#~ msgid "wait"
+#~ msgstr "đợi"
+
+#~ msgid "box"
+#~ msgstr "hộp"
+
+#~ msgid "Failed to upload!"
+#~ msgstr "tải lên thất bại"
+
+#~ msgid "invokes named action stack"
+#~ msgstr "gọi đống hành vi đặt tên"
+
+#~ msgid "action"
+#~ msgstr "hành vi"
+
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr "toán tử làm-đến-khi-Đúng mà sử dụng toán tử lôgic từ bảng chọn Số"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "Biến 2 (giá trị thuộc số)"
+
+#~ msgid "divide"
+#~ msgstr "chia"
+
+#~ msgid "picture name"
+#~ msgstr "tên ảnh"
+
+#~ msgid "while"
+#~ msgstr "trong khi"
+
+#~ msgid "the canvas width"
+#~ msgstr "chiều rộng vùng vẽ"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "miền nhớ trống"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "biến đặt tên (giá trị thuộc số)"
+
+#~ msgid "next"
+#~ msgstr "tiếp"
+
+#~ msgid "if then"
+#~ msgstr "nếu thì"
+
+#~ msgid "set pen size"
+#~ msgstr "đặt kích cỡ bút"
+
+#~ msgid "presentation template: select Journal object (no description)"
+#~ msgstr "mẫu trình diễn: chọn đối tượng Nhật ký (không mô tả)"
+
+#~ msgid "until"
+#~ msgstr "đến khi"
+
+#~ msgid "permanently deletes items in trash"
+#~ msgstr "xoá hoàn toàn các mục trong thùng rác"
+
+#~ msgid "top of Action 1 stack"
+#~ msgstr "đầu của đống Hành vi 1"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced single-variable math equations, e."
+#~ "g., sin(x)"
+#~ msgstr ""
+#~ "Một cách lập trình:sử dụng bằng cách thêm các phương trình đơn biến như "
+#~ "sin(x)"
+
+#~ msgid "Palette of flow operators"
+#~ msgstr "Bảng chọn toán tử luồng"
+
+#~ msgid "top of a collapsed stack"
+#~ msgstr "đầu của một đống đã thu gọn"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr "toán tử nếu-thì-không_thì mà sử dụng toán tử lôgic từ bảng chọn Số"
+
+#~ msgid "returns mouse y coordinate"
+#~ msgstr "Trả về tọa độ y của con trỏ chuột"
+
+#~ msgid "holds current pen shade"
+#~ msgstr "giữ sắc màu bút hiện thời"
+
+#~ msgid "sinewave"
+#~ msgstr "Sóng hình sin"
+
+#~ msgid "Login failed"
+#~ msgstr "Đăng nhập thất bại"
+
+#~ msgid "left x"
+#~ msgstr "tọa độ x phía trái"
+
+#
+#~ msgid "set heading"
+#~ msgstr "đặt hướng về"
+
+#~ msgid "RGB color under the turtle is pushed to the stack"
+#~ msgstr "Khối màu RGB theo màu mà con rùa nhìn thấy được đưa vào stack"
+
+#~ msgid "declutters canvas by hiding blocks"
+#~ msgstr "làm sạch sẽ vùng vẽ bằng cách ẩn các khối"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "Tổ hợp phím Ctrl+w"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "Tổ hợp phím Ctrl+r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "Tổ hợp phím Ctrl+s"
+
+# Phím tắt này tương ứng với hành động nào?
+#~ msgid "<Ctrl>p"
+#~ msgstr "Tổ hợp phím Ctrl+p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "Tổ hợp phím Ctrl+e"
+
+#~ msgid "horizontal space"
+#~ msgstr "khoảng nằm ngang"
+
+#~ msgid "Metric coordinates"
+#~ msgstr "Tọa độ theo hệ Mét"
+
+#~ msgid "string value"
+#~ msgstr "giá trị chuỗi"
+
+#~ msgid "description"
+#~ msgstr "mô tả"
+
+#~ msgid "I don't know how to"
+#~ msgstr "Tôi chưa biết cách"
+
+#~ msgid "set text size"
+#~ msgstr "đặt kích cỡ chữ"
+
+#~ msgid "Username:"
+#~ msgstr "Tên người dùng:"
+
+#~ msgid "starts filled polygon (used with end fill block)"
+#~ msgstr "bắt đầu việc lấp đầy đa giác (bằng cách kết thúc việc lấp đầy khối)"
+
+#~ msgid "presentation template: select four Journal objects"
+#~ msgstr "mẫu trình diễn: chọn 4 đối tượng Nhật ký"
+
+#~ msgid "View"
+#~ msgstr "Xem"
+
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "tô xám đường được rùa vẽ"
+
+#~ msgid "Password:"
+#~ msgstr "Mật khẩu:"
+
+# Số màu rùa thấy được
+#~ msgid "turtle sees"
+#~ msgstr "Màu mà rùa nhìn thấy"
+
+#~ msgid "stop action"
+#~ msgstr "dừng hành vi"
+
+#~ msgid "green"
+#~ msgstr "lục"
+
+#~ msgid "shade"
+#~ msgstr "sắc màu"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "tô đầy nền bằng (màu, sắc)"
+
+#~ msgid "save picture"
+#~ msgstr "lưu ảnh"
+
+#~ msgid "pitch"
+#~ msgstr "cường độ"
+
+#~ msgid "returns 1 if mouse button is pressed"
+#~ msgstr "trả về 1 nếu nhấn chuột"
+
+#~ msgid "Rescale coordinates up"
+#~ msgstr "Tăng toạ độ theo tỷ lệ"
+
+#~ msgid "pen up"
+#~ msgstr "bút lên"
+
+#~ msgid "orange"
+#~ msgstr "cam"
+
+#~ msgid "pauses program execution a specified number of seconds"
+#~ msgstr "tạm dừng thực hiện chương trình trong một số giây đưa ra"
+
+#~ msgid "pushes value onto FILO (first-in last-out heap)"
+#~ msgstr "đẩy giá trị vào miền nhớ FILO (vào trước thì ra sau)"
+
+#~ msgid "then"
+#~ msgstr "thì"
+
+#~ msgid "Register"
+#~ msgstr "Đăng ký"
+
+#~ msgid "not"
+#~ msgstr "không phải"
+
+#~ msgid "if then else"
+#~ msgstr "nếu thì không thì"
+
+#~ msgid "stops current action"
+#~ msgstr "dừng hành vi đang làm"
+
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "quay rùa theo chiều kim đồng hồ (góc theo độ)"
+
+#, fuzzy
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr ""
+#~ "giữ giá trị tỷ lệ hiện thời của rùa (cũng có thể được sử dụng để thay thế "
+#~ "một khối con số)"
+
+#~ msgid "xcor of left of screen"
+#~ msgstr "xcor bên trái màn hình"
+
+#~ msgid "Reset block size"
+#~ msgstr "Đặt lại kích cỡ khối"
+
+# Tên: không nên dịch
+#~ msgid "turtle"
+#~ msgstr "rùa"
+
+#~ msgid "displays next palette"
+#~ msgstr "hiển thị bảng chọn kế tiếp"
+
+#~ msgid "hide blocks"
+#~ msgstr "ẩn khối"
+
+#~ msgid "light level detected by camera"
+#~ msgstr "mức độ ánh sáng được phát hiện bởi máy ảnh"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "toán tử nhỏ hơn lôgic"
+
+#~ msgid "restore all blocks from trash"
+#~ msgstr "phục hồi từ sọt rác tất cả các khối"
+
+#~ msgid "Save"
+#~ msgstr "Lưu"
+
+#~ msgid "store in box 1"
+#~ msgstr "lưu vào hộp 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "lưu vào hộp 2"
+
+#~ msgid "hides the Sugar toolbars"
+#~ msgstr "ẩn các thanh công cụ Sugar"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "giữ giá trị đồ hoạ X hiện thời của rùa (cũng có thể được sử dụng để thay thế "
+#~ "một khối con số)"
+
+#~ msgid "print"
+#~ msgstr "in"
+
+#~ msgid "returns mouse x coordinate"
+#~ msgstr "Trả về toạ độ x của con trỏ chuột"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Lưu dạng Biểu hình"
+
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "thiết lập màu sắc cho đường do rùa vẽ"
+
+#~ msgid "set text color"
+#~ msgstr "đặt màu chữ"
+
+#~ msgid "loudness"
+#~ msgstr "độ lớn"
+
+#~ msgid "Enable collaboration"
+#~ msgstr "Kích hoạt tính năng cộng tác"
+
+#, fuzzy
+#~ msgid "returns True if mouse button is pressed"
+#~ msgstr "trả về 1 nếu nhấn chuột"
+
+#~ msgid "number"
+#~ msgstr "số"
+
+#~ msgid "query keyboard"
+#~ msgstr "truy vấn bàn phím"
+
+#~ msgid "top"
+#~ msgstr "trên"
+
+#~ msgid "Submit to Web"
+#~ msgstr "Gửi lên web"
+
+#~ msgid "Cartesian coordinates"
+#~ msgstr "Toạ độ thuyết Đê-các-tơ"
+
+#~ msgid "Nickname"
+#~ msgstr "Tên riêng"
+
+#~ msgid "set scale"
+#~ msgstr "đặt tỷ lệ"
+
+#, fuzzy
+#~ msgid "white"
+#~ msgstr "trong khi"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "kết nối hành vi đến nút chạy thanh công cụ"
+
+#~ msgid "elapsed time (in seconds) since program started"
+#~ msgstr "Thời gian trôi qua từ khi khởi động chương trình"
+
+#~ msgid "Cancel"
+#~ msgstr "Hủy bỏ"
+
+#~ msgid "the canvas height"
+#~ msgstr "chiều cao vùng vẽ"
+
+#~ msgid "presentation 2x1"
+#~ msgstr "trình diễn 2×1"
+
+#~ msgid "minus"
+#~ msgstr "trừ"
+
+#~ msgid "and"
+#~ msgstr "và"
+
+#~ msgid "top of a collapsible stack"
+#~ msgstr "đầu của một đống có thể thu gọn"
+
+#~ msgid "as input"
+#~ msgstr "làm đầu vào"
+
+#~ msgid "Python block"
+#~ msgstr "Khối ngôn ngữ lập trình Python"
+
+#~ msgid "media wait"
+#~ msgstr "Chờ chạy chương trình chơi nhạc"
+
+#~ msgid "acceleration"
+#~ msgstr "gia tốc"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr ""
+#~ "giữ kích cỡ bút hiện thời (cũng có thể dùng để thay thế một khối con số)"
+
+#~ msgid "set color"
+#~ msgstr "đặt màu"
+
+#~ msgid "min"
+#~ msgstr "tiểu"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "nạp khối của mình"
+
+#~ msgid "Palette of pen commands"
+#~ msgstr "Bảng chọn lệnh bút"
+
+#~ msgid "shows values in FILO (first-in last-out heap)"
+#~ msgstr "hiển thị các giá trị trong miền nhớ FILO (vào trước thì ra sau)"
+
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr "toán tử làm-trong-khi-Đúng mà sử dụng toán tử lôgic từ bảng chọn Số"
+
+#~ msgid "File"
+#~ msgstr "Tập tin"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "toán tử KHÔNG_PHẢI lôgic"
+
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "ycor bên dưới màn hình"
+
+#~ msgid "presentation template: select Journal object (with description)"
+#~ msgstr "mẫu trình diễn: chọn đối tượng Nhật ký (với mô tả)"
+
+#~ msgid "Palette of numeric operators"
+#~ msgstr "Bảng chọn toán tử thuộc số"
+
+#~ msgid "multiply"
+#~ msgstr "nhân"
+
+#~ msgid "forever"
+#~ msgstr "hẳn"
+
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "đặt sắc màu của đường được rùa vẽ"
+
+#~ msgid "speaks text"
+#~ msgstr "Nguyên bản lời nói"
+
+#~ msgid "snapshot"
+#~ msgstr "hiện trạng"
+
+#~ msgid "clean"
+#~ msgstr "gột"
+
+#~ msgid "presentation template: select two Journal objects"
+#~ msgstr "mẫu trình diễn: chọn 2 đối tượng Nhật ký"
+
+#~ msgid "Grow blocks"
+#~ msgstr "Khối lớn hơn"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Toàn màn hình"
+
+#~ msgid "show"
+#~ msgstr "hiển thị"
+
+#~ msgid "text"
+#~ msgstr "văn bản"
+
+#~ msgid "random"
+#~ msgstr "ngẫu nhiên"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "toán tử lớn-hơn lôgic"
+
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "quay rùa theo ngược chiều kim đồng hồ (góc theo độ)"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "lùi"
+
+#~ msgid "calculates square root"
+#~ msgstr "tính căn bậc hai"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "giữ giá trị đồ hoạ Y hiện thời của rùa (cũng có thể được sử dụng để thay thế "
+#~ "một khối con số)"
+
+#~ msgid "mouse x"
+#~ msgstr "Tọa độ x của chuột(vói x là tọa độ của trục hoành)"
+
+#~ msgid "mouse y"
+#~ msgstr "Tọa độ y của chuột(vói y là tọa độ của trục hoành)"
+
+#~ msgid "stop"
+#~ msgstr "dừng"
+
+#~ msgid "greater than"
+#~ msgstr "lớn hơn"
+
+#~ msgid "xcor"
+#~ msgstr "xcor"
+
+#~ msgid "Help"
+#~ msgstr "Trợ giúp"
+
+#~ msgid "chooses which turtle to command"
+#~ msgstr "chọn con rùa nào cần điều khiển"
+
+#~ msgid "right x"
+#~ msgstr "tọa độ x phía phải"
+
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "đặt màu của các chữ được rùa vẽ"
+
+#~ msgid "light level detected by light sensor"
+#~ msgstr "mức độ ánh sáng được phát hiện bởi bộ cảm biến ánh sáng"
+
+#~ msgid "keyboard"
+#~ msgstr "bàn phím"
+
+#~ msgid "arc"
+#~ msgstr "cung"
+
+#~ msgid "radius"
+#~ msgstr "bán kính"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "Toạ độ cực"
+
+#~ msgid "set shade"
+#~ msgstr "Tô bóng"
+
+#~ msgid "logical AND operator"
+#~ msgstr "toán tử VÀ lôgic"
+
+#~ msgid ""
+#~ "You must have an account at http://turtleartsite.sugarlabs.org to upload "
+#~ "your project."
+#~ msgstr ""
+#~ "Bạn phải có một tài khoản ở trang Web http://turtleartsite.sugarlabs.org để "
+#~ "tải lên dự án của bạn"
+
+#~ msgid "Run"
+#~ msgstr "Chạy"
+
+#~ msgid "show heap"
+#~ msgstr "hiện miền nhớ"
+
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "đặt sự hướng về của rùa (0 là hướng về đầu màn hình)"
+
+#~ msgid "microphone input volume"
+#~ msgstr "âm lượng đầu vào máy vi âm"
+
+#~ msgid "Title:"
+#~ msgstr "Tiêu đề:"
+
+#~ msgid "Palette of media objects"
+#~ msgstr "Bảng chọn của đối tượng phương tiện truyền thông"
+
+#, fuzzy
+#~ msgid "Restore blocks from trash"
+#~ msgstr "phục hồi từ sọt rác tất cả các khối"
+
+#~ msgid "Palette of variable blocks"
+#~ msgstr "Bảng chọn khối biến đổi"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "dùng để nhập thuộc số trong toán tử toán học"
+
+#~ msgid "Upload"
+#~ msgstr "Tải lên"
+
+#~ msgid "Server"
+#~ msgstr "Máy chủ"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "trình diễn 2×2"
+
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "Biến 1 (giá trị thuộc số)"
+
+#~ msgid "Neighborhood"
+#~ msgstr "Hàng xóm"
+
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "thêm hai đầu vào chữ số, chử cái"
+
+#~ msgid "equal"
+#~ msgstr "bằng"
+
+#~ msgid "else"
+#~ msgstr "không thì"
+
+#~ msgid "doesn't like"
+#~ msgstr "không thích"
+
+#~ msgid "restores hidden blocks"
+#~ msgstr "phục hồi các khối bị ẩn"
+
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "Con rùa sẽ không vẽ khi được di chuyển."
+
+#~ msgid "pop"
+#~ msgstr "Đẩy"
+
+#~ msgid "pen size"
+#~ msgstr "kích cỡ bút"
+
+#~ msgid "turtle shell"
+#~ msgstr "mai rùa"
+
+#~ msgid "plays a sinewave at frequency, amplitude, and duration (in seconds)"
+#~ msgstr "Sử dụng sóng hình sin tai tần số, biên độ và thời gian( tính bằng giây)"
+
+#~ msgid "√"
+#~ msgstr "√"
+
+#~ msgid "speak"
+#~ msgstr "Nói"
+
+#~ msgid "read value from RFID device"
+#~ msgstr "đọc giá trị từ thiết bị Nhận dạng tần số vô tuyến"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "chuyển rùa theo một hình cung"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "toán tử bằng-với lôgic"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "Bảng chọn màu sắc bút"
+
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "cất giữ giá trị thuộc số trong Biến 1"
+
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "cất giữ giá trị thuộc số trong Biến 2"
+
+#~ msgid "put a custom 'shell' on the turtle"
+#~ msgstr "đặt một chiếc mai tùy thích lên chú rùa"
+
+#~ msgid "button down"
+#~ msgstr "nút xuống( trong bàn phím vi tính)"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "chuyển rùa đi lùi"
+
+#~ msgid "ycor of top of screen"
+#~ msgstr "ycor bên trên màn hình"
+
+#~ msgid "Show blocks"
+#~ msgstr "Hiện khối"
+
+#~ msgid "play"
+#~ msgstr "chơi"
+
+#~ msgid "save"
+#~ msgstr "lưu"
+
+#~ msgid "Colors"
+#~ msgstr "Màu"
+
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "đặt kích cỡ của đường được rùa vẽ"
+
+#~ msgid "Open"
+#~ msgstr "Mở"
+
+#~ msgid "orientation"
+#~ msgstr "hướng"
+
+#~ msgid "ycor"
+#~ msgstr "ycor"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sqrt(x*x+y*y)"
+#~ msgstr ""
+#~ "Một phương thức lập trình: được sử dụng để thêm nhiều phương trình toán học "
+#~ "đa biến"
+
+#~ msgid "if"
+#~ msgstr "nếu"
+
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr "di chuyển rùa tới vị trí xcor, ycor; (0, 0) là trung tâm của màn hình."
+
+# Tên ngôn ngữ lập trình: đừng dịch
+#~ msgid "Python"
+#~ msgstr "Python"
+
+#~ msgid "Stop"
+#~ msgstr "Dừng"
+
+#~ msgid "action 2"
+#~ msgstr "hành vi 2"
+
+#~ msgid "action 1"
+#~ msgstr "hành vi 1"
+
+#~ msgid "Copy"
+#~ msgstr "Chép"
+
+#~ msgid "Paste"
+#~ msgstr "Dán"
+
+#~ msgid "did not output to"
+#~ msgstr "đã không xuất tới"
+
+#~ msgid "Activities"
+#~ msgstr "Hoạt động"
+
+#~ msgid "Upload to Web"
+#~ msgstr "Tải lên Web"
+
+#~ msgid "empty heap"
+#~ msgstr "miền nhớ trống"
+
+#~ msgid "pops value off FILO (first-in last-out heap)"
+#~ msgstr "đẩy giá trị ra miền nhớ FILO (vào trước thì ra sau)"
+
+#~ msgid "Clean"
+#~ msgstr "Làm sạch"
+
+#~ msgid "Palette of presentation templates"
+#~ msgstr "Bảng chọn mẫu trình diễn"
+
+#~ msgid "angle"
+#~ msgstr "góc"
+
+#~ msgid "top y"
+#~ msgstr "tọa độ y phía trên"
+
+#~ msgid "audio"
+#~ msgstr "âm thanh"
+
+#~ msgid "Tools"
+#~ msgstr "Công cụ"
+
+#~ msgid "left"
+#~ msgstr "trái"
+
+#~ msgid "comment"
+#~ msgstr "ghi chú"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "trừ đầu vào thuộc số dưới từ đầu vào thuộc số trên"
+
+#~ msgid "query for keyboard input (results stored in keyboard block)"
+#~ msgstr "yêu cầu đầu vào bàn phím (kết quả được lưu vào khối bàn phím)"
+
+#~ msgid "Cartesian"
+#~ msgstr "thuyết Đê-các-tơ"
+
+#~ msgid "voltage"
+#~ msgstr "điện áp"
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "xoá màn hình và đặt lại rùa"
+
+#~ msgid "raw microphone input signal"
+#~ msgstr "tín hiệu thô đầu vào máy vi âm"
+
+#~ msgid "returns the color that the turtle \"sees\""
+#~ msgstr "trả về màu mà con rùa nhìn thấy"
+
+#~ msgid "invokes Action 1 stack"
+#~ msgstr "gọi đống Hành vi 1"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "Bảng chọn lệnh rùa"
+
+#~ msgid "loops forever"
+#~ msgstr "lặp lại vô hạn"
+
+#~ msgid "show aligned"
+#~ msgstr "hiện liên kết"
+
+# Tên: không nên dịch
+#~ msgid "Turtle Art"
+#~ msgstr "Turtle Art"
+
+#~ msgid "Project"
+#~ msgstr "Dự án"
+
+#~ msgid "Debug"
+#~ msgstr "Gỡ lỗi"
+
+#~ msgid "Password"
+#~ msgstr "Mật khẩu"
+
+#~ msgid "vertical space"
+#~ msgstr "khoảng nằm dọc"
+
+#, fuzzy
+#~ msgid "completes filled polygon (used with start fill block)"
+#~ msgstr "bắt đầu việc lấp đầy đa giác (bằng cách kết thúc việc lấp đầy khối)"
+
+#~ msgid "Share"
+#~ msgstr "Chia sẻ"
+
+#~ msgid "less than"
+#~ msgstr "nhỏ hơn"
+
+#~ msgid "square root"
+#~ msgstr "căn bậc hai"
+
+#~ msgid "Rescale coordinates"
+#~ msgstr "Đặt lại tỷ lệ toạ độ"
+
+#~ msgid "show blocks"
+#~ msgstr "hiện khối"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "trường mô tả Nhật ký Sugar"
+
+#~ msgid "set gray"
+#~ msgstr "tô xám"
+
+#~ msgid "presentation bulleted list"
+#~ msgstr "trình diễn danh sách nút"
+
+#~ msgid "duration"
+#~ msgstr "Duy trỳ"
+
+#~ msgid "places a comment in your code"
+#~ msgstr "đặt một ghi chú vào mã nguồn của bạn"
+
+#~ msgid "read pixel"
+#~ msgstr "Đọc điểm ảnh"
+
+#~ msgid "scale"
+#~ msgstr "tỷ lệ"
+
+#~ msgid "bottom"
+#~ msgstr "dưới"
+
+#~ msgid "purple"
+#~ msgstr "tím"
+
+#~ msgid "Rescale coordinates down"
+#~ msgstr "Giảm toạ độ theo tỷ lệ"
+
+#~ msgid "click to open"
+#~ msgstr "nhấn để mở"
+
+#~ msgid "microphone input pitch"
+#~ msgstr "cường độ đầu vào máy vi âm"
+
+#~ msgid "Configuration"
+#~ msgstr "Cấu hình"
+
+#~ msgid "Description:"
+#~ msgstr "Mô tả:"
+
+#~ msgid "journal"
+#~ msgstr "nhật ký"
+
+#~ msgid "empty trash"
+#~ msgstr "đổ rác"
+
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "Con rùa sẽ vẽ khi được di chuyển."
+
+#~ msgid "Load..."
+#~ msgstr "tải xuống"
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "đối tượng âm thanh Nhật ký Sugar"
+
+#~ msgid "Stop turtle"
+#~ msgstr "Dừng rùa"
+
+# Tên: không nên dịch
+#~ msgid "Turtle"
+#~ msgstr "Rùa"
+
+#~ msgid "changes the orientation of the palette of blocks"
+#~ msgstr "thay đổi hướng của bảng chọn khối"
+
+#~ msgid "store in"
+#~ msgstr "lưu vào"
+
+#~ msgid "Hide blocks"
+#~ msgstr "Ẩn khối"
+
+#~ msgid "Load Python block"
+#~ msgstr "Tải khối Python"
+
+#~ msgid "plus"
+#~ msgstr "cộng"
+
+#~ msgid "or"
+#~ msgstr "hoặc"
+
+#~ msgid "presentation template: list of bullets"
+#~ msgstr "mẫu trình diễn: danh sách chấm điểm"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "toán tử nhận diện dùng để mở rộng khối"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "Khối nhỏ hơn"
+
+#, fuzzy
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "đặt kích cỡ của các chữ được rùa vẽ"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr ""
+#~ "giữ hướng về hiện thời của rùa (cũng có thể được sử dụng để thay thế một "
+#~ "khối con số)"
+
+#~ msgid "image"
+#~ msgstr "ảnh"
+
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr ""
+#~ "trả lại một số ngẫu nhiên nằm giữa hai giá trị là tối thiểu (bên trên) và "
+#~ "tối đa (bên dưới)"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr "giữ màu bút hiện thời (cũng có thể dùng để thay thế một khối con số)"
+
+#~ msgid "Show palette"
+#~ msgstr "Hiện bảng chọn"
+
+#~ msgid "saves a picture to the Sugar Journal"
+#~ msgstr "lưu một ảnh vào Nhật ký Sugar"
+
+#~ msgid "Save snapshot"
+#~ msgstr "Lưu ảnh chụp"
+
+#~ msgid "start"
+#~ msgstr "đầu"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "chuyển rùa đi tới"
+
+#~ msgid "forward"
+#~ msgstr "tiếp"
+
+#~ msgid "my box"
+#~ msgstr "hộp mình"
+
+#~ msgid "Account ID"
+#~ msgstr "Tài khoản"
+
+#~ msgid "back"
+#~ msgstr "lùi"
+
+#~ msgid "sets the scale of media"
+#~ msgstr "đặt tỷ lệ của phương tiện truyền thông"
+
+#~ msgid "holds current scale value"
+#~ msgstr "giữ giá trị tỷ lệ hiện thời"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "trình diễn 1×1"
+
+#~ msgid "presentation 1x2"
+#~ msgstr "trình diễn 1×2"
+
+#~ msgid "top of nameable action stack"
+#~ msgstr "đầu của đống hành vi có thể đặt tên"
+
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "cất giữ giá trị thuộc số trong biến đặt tên"
+
+#~ msgid "logical OR operator"
+#~ msgstr "toán tử HOẶC lôgic"
+
+#~ msgid "microphone input voltage"
+#~ msgstr "điện áp đầu vào máy vi âm"
+
+#~ msgid "loops specified number of times"
+#~ msgstr "lặp lại một số lần được ghi rõ"
+
+#~ msgid "Save..."
+#~ msgstr "lưu lại"
+
+#~ msgid "invokes Action 2 stack"
+#~ msgstr "gọi đống Hành vi 2"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "đặt xy"
+
+#~ msgid "title y"
+#~ msgstr "tiêu đề y"
+
+#~ msgid "title x"
+#~ msgstr "tiêu đề x"
+
+#~ msgid "fill screen"
+#~ msgstr "đầy màn hình"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "Lưu dạng"
+
+#~ msgid "set xy"
+#~ msgstr "đặt xy"
+
+#~ msgid "trash"
+#~ msgstr "thùng rác"
+
+#~ msgid "polar"
+#~ msgstr "cực"
+
+#~ msgid "repeat"
+#~ msgstr "lặp lại"
+
+#~ msgid "wait for current video or audio to complete"
+#~ msgstr "đợi cho đoạn video hoặc âm thanh chạy hết"
+
+#~ msgid "Save as image"
+#~ msgstr "Lưu dạng ảnh"
+
+#~ msgid "Edit"
+#~ msgstr "Sửa"
+
+#~ msgid "microphone input resistance"
+#~ msgstr "điện trở đầu vào máy vi âm"
+
+#~ msgid "top of Action 2 stack"
+#~ msgstr "đầu của đống Hành vi 2"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr "chia đầu vào thuộc số trên (tử số) cho đầu vào thuộc số dưới (mẫu số)"
+
+#~ msgid "max"
+#~ msgstr "đại"
+
+#~ msgid "prints value in status block at bottom of the screen"
+#~ msgstr "in giá trị trạng thái ở phần dưới màn hình"
+
+#~ msgid "start fill"
+#~ msgstr "bắt đầu lấp đầy"
+
+#, fuzzy
+#~ msgid "holds results of query-keyboard block as ASCII"
+#~ msgstr "giữ kết quả của khối yêu-cầu-bàn-phím"
+
+#~ msgid "push"
+#~ msgstr "đẩy"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sin(x+y+z)"
+#~ msgstr ""
+#~ "Một cách lập trình:sử dụng bằng cách thêm các phương trình đabiến như "
+#~ "sin(x+y+z)"
+
+#~ msgid "restore all"
+#~ msgstr "phục hồi tất cả"
+
+#~ msgid "hello"
+#~ msgstr "Chào"

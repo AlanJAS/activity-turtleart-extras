@@ -1,0 +1,2605 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-02 00:32-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
+
+#. TRANS: "name" option from activity.info file
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "turtleart-extras (master)"
+msgstr ""
+
+#: taextras.py:36
+msgid "Turtle Art Mini"
+msgstr "டர்டலின் மிகச்சிறிய கலை"
+
+#: taextras.py:40
+msgid "Turtle Confusion"
+msgstr "டர்டலின் குழப்பம்"
+
+#: taextras.py:41 taextras.py:46
+msgid "Select a challenge"
+msgstr "கடினமானதை தெரிவு செய்"
+
+#: taextras.py:45
+msgid "Amazonas Tortuga"
+msgstr ""
+
+#: taextras.py:52
+msgid "Palette of Mexican pesos"
+msgstr "Mexican pesos யின் தட்டு"
+
+#: taextras.py:53
+msgid "Palette of Colombian pesos"
+msgstr "Colombian pesos யின் தட்டு"
+
+#: taextras.py:54
+msgid "Palette of Rwandan francs"
+msgstr "Rwandan francs யின் தட்டு"
+
+#: taextras.py:55
+msgid "Palette of US dollars"
+msgstr ""
+
+#: taextras.py:56
+msgid "Palette of Australian dollars"
+msgstr ""
+
+#: taextras.py:57
+msgid "Palette of Paraguayan Guaranies"
+msgstr ""
+
+#: taextras.py:58
+msgid "Palette of Peruvian Nuevo Soles"
+msgstr ""
+
+#: taextras.py:59
+msgid "Palette of Uruguayan Pesos"
+msgstr ""
+
+#. TRANS: Butia is the Arduino Robot Project from Uruguay
+#. (http://www.fing.edu.uy/inco/proyectos/butia/)
+#: taextras.py:65
+msgid "TurtleBots"
+msgstr ""
+
+#: taextras.py:66
+msgid "adjust LED intensity between 0 and 255"
+msgstr ""
+
+#: taextras.py:67
+msgid "returns the object gray level as a number between 0 and 1023"
+msgstr ""
+
+#: taextras.py:68
+msgid "returns 1 when the button is press and 0 otherwise"
+msgstr ""
+
+#: taextras.py:69
+msgid "returns the ambient light level as a number between 0 and 1023"
+msgstr ""
+
+#: taextras.py:70
+msgid "returns the ambient temperature as a number between 0 and 255"
+msgstr ""
+
+#: taextras.py:71
+msgid ""
+"returns the distance from the object in front of the sensor as a number "
+"between 0 and 255"
+msgstr ""
+
+#: taextras.py:73
+msgid "returns 0 or 1 depending on the sensor inclination"
+msgstr ""
+
+#: taextras.py:74
+msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
+msgstr ""
+
+#: taextras.py:75
+msgid "switches from 0 to 1, the frequency depends on the vibration"
+msgstr ""
+
+#: taextras.py:76
+msgid "returns the value of the resistance"
+msgstr ""
+
+#: taextras.py:77
+msgid "LED"
+msgstr ""
+
+#: taextras.py:78
+msgid "button"
+msgstr ""
+
+#: taextras.py:79
+msgid "grayscale"
+msgstr ""
+
+#: taextras.py:80
+msgid "ambient light"
+msgstr ""
+
+#: taextras.py:81
+msgid "temperature"
+msgstr ""
+
+#: taextras.py:82 taextras.py:291
+msgid "distance"
+msgstr ""
+
+#: taextras.py:83 taextras.py:288
+msgid "tilt"
+msgstr ""
+
+#: taextras.py:84
+msgid "magnetic induction"
+msgstr ""
+
+#: taextras.py:85
+msgid "vibration"
+msgstr ""
+
+#: taextras.py:86
+msgid "resistance"
+msgstr "எதிர்ப்பு"
+
+#: taextras.py:87
+msgid "Butia Robot"
+msgstr ""
+
+#: taextras.py:88
+msgid "refresh Butia"
+msgstr ""
+
+#: taextras.py:89
+msgid "refresh the state of the Butia palette and blocks"
+msgstr ""
+
+#. TRANS: This string is shorthand for "battery charge of Butia"
+#: taextras.py:91
+msgid "battery charge Butia"
+msgstr ""
+
+#: taextras.py:92
+msgid "returns the battery charge as a number between 0 and 255"
+msgstr ""
+
+#. TRANS: This string is shorthand for "speed of Butia"
+#: taextras.py:94
+msgid "speed Butia"
+msgstr ""
+
+#: taextras.py:95
+msgid "set the speed of the Butia motors"
+msgstr ""
+
+#: taextras.py:96
+msgid "the speed must be a value between 0 and 1023"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move Butia forward"
+#: taextras.py:98
+msgid "forward Butia"
+msgstr ""
+
+#: taextras.py:99
+msgid "move the Butia robot forward"
+msgstr ""
+
+#: taextras.py:100
+msgid "move the Butia robot forward a predefined distance"
+msgstr ""
+
+#. TRANS: This string is shorthand for "turn Butia left"
+#: taextras.py:102
+msgid "left Butia"
+msgstr ""
+
+#: taextras.py:103
+msgid "turn the Butia robot at left"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move Butia backward"
+#: taextras.py:105
+msgid "backward Butia"
+msgstr ""
+
+#: taextras.py:106
+msgid "move the Butia robot backward"
+msgstr ""
+
+#: taextras.py:107
+msgid "move the Butia robot backward a predefined distance"
+msgstr ""
+
+#. TRANS: This string is shorthand for "turn Butia right"
+#: taextras.py:109
+msgid "right Butia"
+msgstr ""
+
+#: taextras.py:110
+msgid "turn the Butia robot at right"
+msgstr ""
+
+#: taextras.py:111
+msgid "turn Butia"
+msgstr ""
+
+#: taextras.py:112
+msgid "turn the Butia robot x degrees"
+msgstr ""
+
+#: taextras.py:113
+msgid "stop Butia"
+msgstr ""
+
+#: taextras.py:114
+msgid "stop the Butia robot"
+msgstr ""
+
+#: taextras.py:115
+msgid "Butia"
+msgstr ""
+
+#: taextras.py:119
+msgid "Error importing Pygame. This plugin require Pygame 1.9"
+msgstr ""
+
+#: taextras.py:120
+msgid "Error on initialization of the camera"
+msgstr ""
+
+#: taextras.py:121
+msgid "No camera was found"
+msgstr ""
+
+#: taextras.py:122
+msgid "Error stopping camera"
+msgstr ""
+
+#: taextras.py:123
+msgid "Error starting camera"
+msgstr ""
+
+#. TRANS: The "mask" is used to restrict processing to a region in the image
+#: taextras.py:125
+msgid "Error in get mask"
+msgstr ""
+
+#: taextras.py:126
+msgid "FollowMe"
+msgstr ""
+
+#: taextras.py:127
+msgid "refresh FollowMe"
+msgstr ""
+
+#: taextras.py:128
+msgid "Search for a connected camera."
+msgstr ""
+
+#. TRANS: the calibration is used to match an RGB color to a target
+#: taextras.py:130
+msgid "calibration"
+msgstr ""
+
+#: taextras.py:131
+msgid "store a personalized calibration"
+msgstr ""
+
+#: taextras.py:132
+msgid "return a personalized calibration"
+msgstr ""
+
+#: taextras.py:133
+msgid "follow"
+msgstr ""
+
+#: taextras.py:134
+msgid "follow a color or calibration"
+msgstr ""
+
+#: taextras.py:135
+msgid "brightness"
+msgstr "வெளிச்சம்"
+
+#: taextras.py:136
+msgid "set the camera brightness as a value between 0 to 255."
+msgstr ""
+
+#: taextras.py:137
+msgid "minimum pixels"
+msgstr ""
+
+#: taextras.py:138
+msgid "set the minimal number of pixels to follow"
+msgstr ""
+
+#: taextras.py:139
+msgid "threshold"
+msgstr ""
+
+#. TRANS: RGB color space (red, green, blue)
+#: taextras.py:141
+msgid "set a threshold for a RGB color"
+msgstr ""
+
+#: taextras.py:142
+msgid "camera mode"
+msgstr ""
+
+#. TRANS: RGB, YUV, and HSV are color spaces
+#: taextras.py:144
+msgid "set the color mode of the camera: RGB; YUV or HSV"
+msgstr ""
+
+#: taextras.py:145
+msgid "get brightness"
+msgstr ""
+
+#: taextras.py:146
+msgid "get the brightness of the ambient light"
+msgstr ""
+
+#: taextras.py:147
+msgid "average color"
+msgstr ""
+
+#: taextras.py:148
+msgid ""
+"if set to 0 then color averaging is off during calibration; for other values "
+"it is on"
+msgstr ""
+
+#: taextras.py:149
+msgid "x position"
+msgstr ""
+
+#: taextras.py:150
+msgid "return x position"
+msgstr ""
+
+#: taextras.py:151
+msgid "y position"
+msgstr ""
+
+#: taextras.py:152
+msgid "return y position"
+msgstr ""
+
+#: taextras.py:153
+msgid "pixels"
+msgstr ""
+
+#: taextras.py:154
+msgid "return the number of pixels of the biggest blob"
+msgstr ""
+
+#. TRANS: RGB color space (red, green, blue)
+#: taextras.py:156
+msgid "set the color mode of the camera to RGB"
+msgstr ""
+
+#. TRANS: YUV color space (luminance, chrominance)
+#: taextras.py:158
+msgid "set the color mode of the camera to YUV"
+msgstr ""
+
+#. TRANS: HSV color space (hue, saturation, value)
+#: taextras.py:160
+msgid "set the color mode of the camera to HSV"
+msgstr ""
+
+#: taextras.py:161
+msgid "empty calibration"
+msgstr ""
+
+#: taextras.py:162
+msgid "error in string conversion"
+msgstr ""
+
+#. TRANS: SumBot is a robot programmed for "Sumo wrestling"
+#: taextras.py:167
+msgid "SumBot"
+msgstr ""
+
+#: taextras.py:168
+msgid "speed SumBot"
+msgstr ""
+
+#: taextras.py:169
+msgid "submit the speed to the SumBot"
+msgstr ""
+
+#: taextras.py:170
+msgid "set the default speed for the movement commands"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move SumBot forward"
+#: taextras.py:172
+msgid "forward SumBot"
+msgstr ""
+
+#: taextras.py:173
+msgid "move SumBot forward"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move SumBot backward"
+#: taextras.py:175
+msgid "backward SumBot"
+msgstr ""
+
+#: taextras.py:176
+msgid "move SumBot backward"
+msgstr ""
+
+#: taextras.py:177
+msgid "stop SumBot"
+msgstr ""
+
+#: taextras.py:178
+msgid "stop the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "turn SumBot left"
+#: taextras.py:180
+msgid "left SumBot"
+msgstr ""
+
+#: taextras.py:181
+msgid "turn left the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move SumBot right"
+#: taextras.py:183
+msgid "right SumBot"
+msgstr ""
+
+#: taextras.py:184
+msgid "turn right the SumBot"
+msgstr ""
+
+#. TRANS: The angle to the center is the angle SumBot must turn to
+#. face the center of the playing field
+#: taextras.py:187
+msgid "angle to center"
+msgstr ""
+
+#. TRANS: dohyo is the playing field
+#: taextras.py:189
+msgid "get the angle to the center of the dohyo"
+msgstr ""
+
+#. TRANS: The angle to the center is the angle SumBot must turn to
+#. face the Enemy (opponent)
+#: taextras.py:192
+msgid "angle to Enemy"
+msgstr ""
+
+#: taextras.py:193
+msgid "get the angle to the Enemy"
+msgstr ""
+
+#. TRANS: This string is shorthand for "x coordinate of SumBot"
+#: taextras.py:195
+msgid "x coor. SumBot"
+msgstr ""
+
+#: taextras.py:196
+msgid "get the x coordinate of the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "y coordinate of SumBot"
+#: taextras.py:198
+msgid "y coor. SumBot"
+msgstr ""
+
+#: taextras.py:199
+msgid "get the y coordinate of the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "x coordinate of SumBot's enemy"
+#: taextras.py:201
+msgid "x coor. Enemy"
+msgstr ""
+
+#: taextras.py:202
+msgid "get the x coordinate of the Enemy"
+msgstr ""
+
+#. TRANS: This string is shorthand for "y coordinate of SumBot's enemy"
+#: taextras.py:204
+msgid "y coor. Enemy"
+msgstr ""
+
+#: taextras.py:205
+msgid "get the y coordinate of the Enemy"
+msgstr ""
+
+#. TRANS: This string is shorthand for "rotation of SumBot"
+#: taextras.py:207
+msgid "rotation SumBot"
+msgstr ""
+
+#: taextras.py:208
+msgid "get the rotation of the Sumbot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "rotation of SumBot's enemy"
+#: taextras.py:210
+msgid "rotation Enemy"
+msgstr ""
+
+#: taextras.py:211
+msgid "get the rotation of the Enemy"
+msgstr ""
+
+#: taextras.py:212
+msgid "distance to center"
+msgstr ""
+
+#. TRANS: dohyo is the playing field
+#: taextras.py:214
+msgid "get the distance to the center of the dohyo"
+msgstr ""
+
+#: taextras.py:215
+msgid "distance to Enemy"
+msgstr ""
+
+#: taextras.py:216
+msgid "get the distance to the Enemy"
+msgstr ""
+
+#: taextras.py:217
+msgid "update information"
+msgstr ""
+
+#: taextras.py:218
+msgid "update information from the server"
+msgstr ""
+
+#. TRANS: Please use similar terms to those used in the Physics Activity
+#: taextras.py:223
+#, fuzzy
+msgid "Palette of physics blocks"
+msgstr "பட்டைகளின் உணரும் பகுதி"
+
+#: taextras.py:224
+msgid "start polygon"
+msgstr ""
+
+#: taextras.py:225
+msgid "Begin defining a new polygon based on the current Turtle xy position."
+msgstr ""
+
+#: taextras.py:227
+msgid "add point"
+msgstr ""
+
+#: taextras.py:228
+msgid ""
+"Add a new point to the current polygon based on the current Turtle xy "
+"position."
+msgstr ""
+
+#: taextras.py:230
+msgid "end polygon"
+msgstr ""
+
+#: taextras.py:231
+msgid "Define a new polygon."
+msgstr ""
+
+#: taextras.py:232
+msgid "end filled polygon"
+msgstr ""
+
+#: taextras.py:233
+msgid "Not a simple polygon"
+msgstr ""
+
+#: taextras.py:234
+msgid "Define a new filled polygon."
+msgstr ""
+
+#: taextras.py:235
+msgid "triangle"
+msgstr ""
+
+#. TRANS: base of a triangle
+#: taextras.py:237
+msgid "base"
+msgstr ""
+
+#: taextras.py:238 taextras.py:244
+msgid "height"
+msgstr "உயரம்"
+
+#: taextras.py:239
+msgid "Add a triangle object to the project."
+msgstr ""
+
+#: taextras.py:240
+msgid "circle"
+msgstr ""
+
+#: taextras.py:241
+msgid "Add a circle object to the project."
+msgstr ""
+
+#: taextras.py:242
+msgid "rectangle"
+msgstr ""
+
+#: taextras.py:243
+msgid "width"
+msgstr "அகலம்"
+
+#: taextras.py:245
+msgid "Add a rectangle object to the project."
+msgstr ""
+
+#: taextras.py:246
+msgid "reset"
+msgstr ""
+
+#: taextras.py:247
+msgid "Reset the project; clear the object list."
+msgstr ""
+
+#: taextras.py:248
+msgid "motor"
+msgstr ""
+
+#. TRANS: torque as in engine torque
+#: taextras.py:250
+msgid "torque"
+msgstr ""
+
+#: taextras.py:251
+msgid "speed"
+msgstr ""
+
+#: taextras.py:252
+msgid ""
+"Motor torque and speed range from 0 (off) to positive numbers; motor is "
+"placed on the most recent object created."
+msgstr ""
+
+#: taextras.py:254 taextras.py:417
+msgid "pin"
+msgstr ""
+
+#: taextras.py:255
+msgid "Pin an object down so that it cannot fall."
+msgstr ""
+
+#: taextras.py:256
+msgid "joint"
+msgstr ""
+
+#: taextras.py:257
+msgid "x"
+msgstr "எக்ஸ்"
+
+#: taextras.py:258
+msgid "y"
+msgstr "y"
+
+#: taextras.py:259
+msgid ""
+"Join two objects together (the most recent object created and the object at "
+"point x, y)."
+msgstr ""
+
+#: taextras.py:261
+msgid "save as Physics activity"
+msgstr ""
+
+#: taextras.py:262
+msgid "Save the project to the Journal as a Physics activity."
+msgstr ""
+
+#. TRANS: Here, gear means a toothed wheel, as in a clock-works
+#: taextras.py:264
+msgid "gear"
+msgstr ""
+
+#: taextras.py:265
+msgid "Add a gear object to the project."
+msgstr ""
+
+#: taextras.py:266
+#, fuzzy
+msgid "density"
+msgstr "அடையாளம்"
+
+#: taextras.py:267
+msgid ""
+"Set the density property for objects (density can be any positive number)."
+msgstr ""
+
+#: taextras.py:269
+msgid "friction"
+msgstr ""
+
+#: taextras.py:270
+msgid ""
+"Set the friction property for objects (value from 0 to 1, where 0 turns "
+"friction off and 1 is strong friction)."
+msgstr ""
+
+#. TRANS: bounciness is coefficient of restitution
+#: taextras.py:273
+msgid "bounciness"
+msgstr ""
+
+#: taextras.py:274
+msgid ""
+"Set the bounciness property for objects (a value from 0 to 1, where 0 means "
+"no bounce and 1 is very bouncy)."
+msgstr ""
+
+#. TRANS: dynamic here means moving vs in a fixed position
+#: taextras.py:277
+msgid "dynamic"
+msgstr ""
+
+#: taextras.py:278
+msgid ""
+"If dynamic = 1, the object can move; if dynamic = 0, it is fixed in position."
+msgstr ""
+
+#. TRANS: WeDo is a robotics product of the LEGO company
+#: taextras.py:284
+#, fuzzy
+msgid "Palette of WeDo blocks"
+msgstr "பட்டைகளின் உணரும் பகுதி"
+
+#: taextras.py:285
+msgid "WeDo"
+msgstr ""
+
+#: taextras.py:286
+msgid "set current WeDo device"
+msgstr ""
+
+#: taextras.py:287
+msgid "number of WeDo devices"
+msgstr ""
+
+#: taextras.py:289
+msgid ""
+"tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
+"tilt left, 2 == tilt right)"
+msgstr ""
+
+#. TRANS: This string is shorthand for "output of the distance sensor"
+#: taextras.py:293
+msgid "distance sensor output"
+msgstr ""
+
+#: taextras.py:294
+msgid "Motor A"
+msgstr ""
+
+#: taextras.py:295
+msgid "returns the current value of Motor A"
+msgstr ""
+
+#: taextras.py:296
+msgid "Motor B"
+msgstr ""
+
+#: taextras.py:297
+msgid "returns the current value of Motor B"
+msgstr ""
+
+#: taextras.py:298
+msgid "set the value for Motor A"
+msgstr ""
+
+#: taextras.py:299
+msgid "set the value for Motor B"
+msgstr ""
+
+#: taextras.py:300
+msgid "WeDo is unavailable"
+msgstr ""
+
+#. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
+#: taextras.py:302
+#, python-format
+msgid "WeDo %d is unavailable; defaulting to 1"
+msgstr ""
+
+#. TRANS: %(device)s and %(wedo_number)d are substitution strings;
+#. please leave untranslated
+#: taextras.py:305
+#, python-format
+msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
+msgstr ""
+
+#. TRANS: Lego NXT is a robotics product of the LEGO company
+#: taextras.py:311
+msgid "Palette of LEGO NXT blocks of motors"
+msgstr ""
+
+#: taextras.py:312
+msgid "Palette of LEGO NXT blocks of sensors"
+msgstr ""
+
+#. TRANS: touch sensor (implemented as a button)
+#: taextras.py:314
+msgid "touch"
+msgstr ""
+
+#. TRANS: distance sensor (implemented using ultrasonics)
+#: taextras.py:316
+msgid "ultrasonic"
+msgstr ""
+
+#: taextras.py:317
+msgid "color"
+msgstr "நிறம்"
+
+#: taextras.py:318
+#, fuzzy
+msgid "light"
+msgstr "வலது"
+
+#: taextras.py:319
+msgid "sound"
+msgstr "சத்தம்"
+
+#: taextras.py:320
+#, fuzzy
+msgid "grey"
+msgstr "கிறே"
+
+#. TRANS: The brick is the NXT controller
+#: taextras.py:322
+msgid "Please check the connection with the brick"
+msgstr ""
+
+#: taextras.py:323
+#, python-format
+msgid "Invalid port '%s'. Port must be: PORT A, B or C"
+msgstr ""
+
+#: taextras.py:324
+#, python-format
+msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
+msgstr ""
+
+#: taextras.py:325
+msgid "The value of power must be between -127 to 127"
+msgstr ""
+
+#: taextras.py:326
+#, python-format
+msgid "The parameter must be a integer, not '%s'"
+msgstr ""
+
+#: taextras.py:327
+msgid "An error has occurred: check all connections and try to reconnect"
+msgstr ""
+
+#: taextras.py:328
+#, python-format
+msgid "NXT found %s bricks"
+msgstr ""
+
+#: taextras.py:329
+msgid "NXT not found"
+msgstr ""
+
+#: taextras.py:330
+#, python-format
+msgid "Brick number %s was not found"
+msgstr ""
+
+#: taextras.py:331
+msgid "refresh NXT"
+msgstr ""
+
+#: taextras.py:332
+msgid "Search for a connected NXT brick."
+msgstr ""
+
+#: taextras.py:333
+msgid "NXT"
+msgstr ""
+
+#: taextras.py:334
+msgid "set current NXT device"
+msgstr ""
+
+#: taextras.py:335
+msgid "number of NXT devices"
+msgstr ""
+
+#: taextras.py:336
+msgid "brick name"
+msgstr ""
+
+#: taextras.py:337
+msgid "Get the name of a brick."
+msgstr ""
+
+#: taextras.py:338
+msgid "play tone"
+msgstr ""
+
+#: taextras.py:339
+msgid "frequency"
+msgstr ""
+
+#: taextras.py:340
+msgid "time"
+msgstr "நேரம்"
+
+#: taextras.py:341
+msgid "Play a tone at frequency for time."
+msgstr ""
+
+#. TRANS: turn is the action
+#: taextras.py:343
+msgid ""
+"turn motor\n"
+"\n"
+msgstr ""
+
+#: taextras.py:344
+#, fuzzy
+msgid "port"
+msgstr "நுழைவு"
+
+#: taextras.py:345
+msgid "power"
+msgstr ""
+
+#. TRANS: rotations is quantity of turns
+#: taextras.py:347
+msgid "rotations"
+msgstr ""
+
+#: taextras.py:348
+msgid "turn a motor"
+msgstr ""
+
+#: taextras.py:349
+msgid ""
+"synchronize\n"
+"\n"
+"motors"
+msgstr ""
+
+#: taextras.py:350
+msgid "steering"
+msgstr ""
+
+#: taextras.py:351
+msgid "synchronize two motors connected in PORT B and PORT C"
+msgstr ""
+
+#: taextras.py:352
+msgid "PORT A"
+msgstr ""
+
+#: taextras.py:353
+msgid "PORT A of the brick"
+msgstr ""
+
+#: taextras.py:354
+msgid "PORT B"
+msgstr ""
+
+#: taextras.py:355
+msgid "PORT B of the brick"
+msgstr ""
+
+#: taextras.py:356
+msgid "PORT C"
+msgstr ""
+
+#: taextras.py:357
+msgid "PORT C of the brick"
+msgstr ""
+
+#: taextras.py:358
+msgid "start motor"
+msgstr ""
+
+#: taextras.py:359
+msgid "Run a motor forever."
+msgstr ""
+
+#: taextras.py:360
+msgid "brake motor"
+msgstr ""
+
+#: taextras.py:361
+msgid "Stop a specified motor."
+msgstr ""
+
+#. TRANS: reset is used to reset the counter associated with the motor
+#: taextras.py:363
+msgid "reset motor"
+msgstr ""
+
+#: taextras.py:364
+msgid "Reset the motor counter."
+msgstr ""
+
+#: taextras.py:365
+msgid "motor position"
+msgstr ""
+
+#: taextras.py:366
+msgid "Get the motor position."
+msgstr ""
+
+#: taextras.py:367
+msgid "PORT 1"
+msgstr ""
+
+#: taextras.py:368
+msgid "PORT 1 of the brick"
+msgstr ""
+
+#: taextras.py:369
+#, fuzzy
+msgid "read"
+msgstr "சிவப்பு"
+
+#: taextras.py:370
+msgid "sensor"
+msgstr ""
+
+#: taextras.py:371
+msgid "Read sensor output."
+msgstr ""
+
+#: taextras.py:372
+msgid "PORT 2"
+msgstr ""
+
+#: taextras.py:373
+msgid "PORT 2 of the brick"
+msgstr ""
+
+#: taextras.py:374
+msgid "light sensor"
+msgstr ""
+
+#: taextras.py:375
+msgid "grey sensor"
+msgstr ""
+
+#: taextras.py:376
+msgid "PORT 3"
+msgstr ""
+
+#: taextras.py:377
+msgid "PORT 3 of the brick"
+msgstr ""
+
+#: taextras.py:378
+msgid "touch sensor"
+msgstr ""
+
+#: taextras.py:379
+msgid "distance sensor"
+msgstr ""
+
+#: taextras.py:380
+msgid "PORT 4"
+msgstr ""
+
+#: taextras.py:381
+msgid "PORT 4 of the brick"
+msgstr ""
+
+#: taextras.py:382
+msgid "sound sensor"
+msgstr ""
+
+#: taextras.py:383
+msgid "color sensor"
+msgstr ""
+
+#. TRANS: set light is used to set the light level associated with
+#. the color sensor (which can emit light as well as sense it)
+#: taextras.py:386
+msgid "set light"
+msgstr ""
+
+#: taextras.py:387
+msgid "Set color sensor light."
+msgstr ""
+
+#. TRANS: the battery level is the charge level of the brick
+#: taextras.py:389
+msgid "battery level"
+msgstr ""
+
+#: taextras.py:390
+msgid "Get battery level of the brick"
+msgstr ""
+
+#. TRANS: Arduino plugin to control an Arduino board
+#: taextras.py:395
+msgid "HIGH"
+msgstr ""
+
+#: taextras.py:396
+msgid "LOW"
+msgstr ""
+
+#: taextras.py:397
+msgid "INPUT"
+msgstr ""
+
+#: taextras.py:398
+msgid "OUTPUT"
+msgstr ""
+
+#. TRANS: PWM is pulse-width modulation
+#: taextras.py:400
+msgid "PWM"
+msgstr ""
+
+#: taextras.py:401
+msgid "SERVO"
+msgstr ""
+
+#: taextras.py:402
+msgid "ERROR: Check the Arduino and the number of port."
+msgstr ""
+
+#: taextras.py:403
+msgid "ERROR: Value must be a number from 0 to 255."
+msgstr ""
+
+#: taextras.py:404
+msgid "ERROR: Value must be either HIGH or LOW."
+msgstr ""
+
+#: taextras.py:405
+msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
+msgstr ""
+
+#: taextras.py:406
+msgid "refresh Arduino"
+msgstr ""
+
+#: taextras.py:407
+msgid "Search for connected Arduinos."
+msgstr ""
+
+#: taextras.py:408
+msgid "Arduino"
+msgstr ""
+
+#: taextras.py:409
+msgid "set current Arduino board"
+msgstr ""
+
+#: taextras.py:410
+msgid "number of Arduinos"
+msgstr ""
+
+#: taextras.py:411
+msgid "number of Arduino boards"
+msgstr ""
+
+#: taextras.py:412
+msgid "Arduino name"
+msgstr ""
+
+#: taextras.py:413
+msgid "Get the name of an Arduino."
+msgstr ""
+
+#. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
+#. in which an I/O pin is being used.
+#: taextras.py:416
+msgid "pin mode"
+msgstr ""
+
+#: taextras.py:418
+#, fuzzy
+msgid "mode"
+msgstr "புதுப்பி"
+
+#: taextras.py:419
+msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
+msgstr ""
+
+#: taextras.py:420
+msgid "analog write"
+msgstr ""
+
+#: taextras.py:421
+msgid "value"
+msgstr "மதிப்பு"
+
+#: taextras.py:422
+msgid "Write analog value in specified port."
+msgstr ""
+
+#: taextras.py:423
+msgid "analog read"
+msgstr ""
+
+#: taextras.py:424
+msgid ""
+"Read value from analog port. Value may be between 0 and 1023. Use Vref to "
+"determine voltage. For USB, volt=((read)*5)/1024) approximately."
+msgstr ""
+
+#: taextras.py:426
+msgid "digital write"
+msgstr ""
+
+#: taextras.py:427
+msgid "Write digital value to specified port."
+msgstr ""
+
+#: taextras.py:428
+msgid "digital read"
+msgstr ""
+
+#: taextras.py:429
+msgid "Read value from digital port."
+msgstr ""
+
+#: taextras.py:430
+msgid "Set HIGH value for digital port."
+msgstr ""
+
+#: taextras.py:431
+msgid "Configure Arduino port for digital input."
+msgstr ""
+
+#: taextras.py:432
+msgid "Configure Arduino port to drive a servo."
+msgstr ""
+
+#: taextras.py:433
+msgid "Set LOW value for digital port."
+msgstr ""
+
+#: taextras.py:434
+msgid "Configure Arduino port for digital output."
+msgstr ""
+
+#: taextras.py:435
+msgid "Configure Arduino port for PWM (pulse-width modulation)."
+msgstr ""
+
+#. TRANS: plugin to control an ExpEyes device
+#: taextras.py:440
+#, fuzzy
+msgid "Palette of Expeyes blocks"
+msgstr "பட்டைகளின் உணரும் பகுதி"
+
+#. TRANS: Programmable voltage output
+#: taextras.py:442
+msgid "set PVS"
+msgstr ""
+
+#: taextras.py:443
+msgid "set programmable voltage output"
+msgstr ""
+
+#. TRANS: Square wave 1 voltage output
+#: taextras.py:445
+msgid "set SQR1 voltage"
+msgstr ""
+
+#: taextras.py:446
+msgid "set square wave 1 voltage output"
+msgstr ""
+
+#. TRANS: Square wave 2 voltage output
+#: taextras.py:448
+msgid "set SQR2 voltage"
+msgstr ""
+
+#: taextras.py:449
+msgid "set square wave 2 voltage output"
+msgstr ""
+
+#. TRANS: Digital output level
+#: taextras.py:451
+msgid "set OD1"
+msgstr ""
+
+#: taextras.py:452
+msgid "set digital output level (OD1) low (0) or high (1)"
+msgstr ""
+
+#. TRANS: Input 1 voltage level
+#: taextras.py:454
+msgid "IN1 level"
+msgstr ""
+
+#: taextras.py:455
+msgid ""
+"returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
+"volts"
+msgstr ""
+
+#. TRANS: Input 2 voltage level
+#: taextras.py:458
+msgid "IN2 level"
+msgstr ""
+
+#: taextras.py:459
+msgid ""
+"returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
+"volts"
+msgstr ""
+
+#. TRANS: Resistive sensor voltage level
+#: taextras.py:462
+msgid "SEN level"
+msgstr ""
+
+#: taextras.py:463
+msgid ""
+"returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
+"voltage level <= 2.5 volts"
+msgstr ""
+
+#: taextras.py:465
+msgid "capture"
+msgstr ""
+
+#: taextras.py:466
+msgid "input"
+msgstr ""
+
+#: taextras.py:467
+msgid "samples"
+msgstr ""
+
+#: taextras.py:468
+msgid "interval"
+msgstr ""
+
+#. TRANS: MS is microseconds
+#: taextras.py:470
+msgid ""
+"capture multiple samples from input at interval (MS); results pushed to FIFO"
+msgstr ""
+
+#. TRANS: Analog input 1 voltage level
+#: taextras.py:473
+msgid "A1"
+msgstr ""
+
+#: taextras.py:474
+msgid "read analog input 1 voltage"
+msgstr ""
+
+#. TRANS: Analog input 2 voltage level
+#: taextras.py:476
+msgid "A2"
+msgstr ""
+
+#: taextras.py:477
+msgid "read analog input 2 voltage"
+msgstr ""
+
+#. TRANS: Read input 1 voltage
+#: taextras.py:479
+msgid "IN1"
+msgstr ""
+
+#: taextras.py:480
+msgid "read input 1 voltage"
+msgstr ""
+
+#. TRANS: Read input 2 voltage
+#: taextras.py:482
+msgid "IN2"
+msgstr ""
+
+#: taextras.py:483
+msgid "read input 2 voltage"
+msgstr ""
+
+#. TRANS: Read analog sensor input voltage
+#: taextras.py:485
+msgid "SEN"
+msgstr ""
+
+#: taextras.py:486
+msgid "read analog sensor input voltage"
+msgstr ""
+
+#. TRANS: Read square wave 1 input voltage
+#: taextras.py:488
+msgid "SQR1"
+msgstr ""
+
+#: taextras.py:489
+msgid "read square wave 1 voltage"
+msgstr ""
+
+#. TRANS: Read square wave 2 input voltage
+#: taextras.py:491
+msgid "SQR2"
+msgstr ""
+
+#: taextras.py:492
+msgid "read square wave 2 voltage"
+msgstr ""
+
+#. TRANS: Read programmable voltage
+#: taextras.py:494
+msgid "PVS"
+msgstr ""
+
+#: taextras.py:495
+msgid "read programmable voltage"
+msgstr ""
+
+#: taextras.py:496
+msgid "Expeyes device not found"
+msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "தலைப்பு"
+
+#~ msgid "Average RGB color from camera is pushed to the stack"
+#~ msgstr "புகைப்பட கருவியிலிருந்து சமமான RGB வண்ணம் அடுக்கிக்கு தள்ளப்பட்டது"
+
+#~ msgid "yellow"
+#~ msgstr "மஞ்சள்"
+
+#~ msgid "displays polar coordinates"
+#~ msgstr "போலார் இணைப்புள்ளிகளை தெறியப்படுத்து"
+
+#~ msgid "emptys FILO (first-in-last-out heap)"
+#~ msgstr "காலியான FILO(முதலில் வந்தது கடைசியில் போகும் அடுக்கி)"
+
+#~ msgid "camera output"
+#~ msgstr "புகைப்பட கருவி வெளியீடு"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "if-then இயக்குனர் பூலியன் இயக்குனரை பட்டை எண்களிலிருந்து பயன்படுத்திகிறார்"
+
+#~ msgid "jogs stack right"
+#~ msgstr "இடது அடுக்கின் ஜாக்ஸ்"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "சுகர் சஞ்சிகை ஊடகப்பொருள்"
+
+#~ msgid "box 2"
+#~ msgstr "இரண்டாவது பெட்டி"
+
+#~ msgid "box 1"
+#~ msgstr "முதலாவது பெட்டி"
+
+#~ msgid "Step"
+#~ msgstr "படி"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "இரட்டிப்பகளில் இரண்டு எண்ணிலக்க உள்ளீடுகள்"
+
+#~ msgid "Show/hide blocks"
+#~ msgstr "பிரிவுகளை காட்டு/மறை"
+
+#~ msgid "Hide palette"
+#~ msgstr "நிறப்பட்டையை மறை"
+
+#~ msgid "Buddies"
+#~ msgstr "நண்பர்கள்"
+
+#~ msgid "My Turtle Art session"
+#~ msgstr "என்னுடைய டர்டல் கலை பகுதி நேரம்"
+
+#~ msgid "Sugar Journal video object"
+#~ msgstr "சுகர் சஞ்சிகையின் ஒலி பொருள்"
+
+#~ msgid "cyan"
+#~ msgstr "ஆகாய நிறம்"
+
+#~ msgid "xcor of right of screen"
+#~ msgstr "வலது திரையின் xcor"
+
+#~ msgid "Palette of extra options"
+#~ msgstr "பட்டைகளின் அதிகமான விருப்பங்கள்"
+
+#~ msgid "Load example"
+#~ msgstr "உதாரணத்தை ஏற்று"
+
+#~ msgid "move all blocks to trash"
+#~ msgstr "எல்லா அடைக்கிகளையும் குப்பைக்கு நகர்த்து"
+
+#~ msgid "list"
+#~ msgstr "பட்டியல்"
+
+#, python-format
+#~ msgid "Configuration directory not writable: %s"
+#~ msgstr "கட்டமைப்புகளின் அடைவுக்கு எழுதும் உறிமை இல்லை: %s"
+
+#~ msgid "heading"
+#~ msgstr "தலைப்பு"
+
+#~ msgid "saves turtle graphics as an SVG file in the Sugar Journal"
+#~ msgstr "சுகர் சஞ்சிகையில் ஆமை வரைபடத்தை SVG கோப்பாக சேமித்து வைக்கவும்."
+
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "உரையை வரை (அ) சஞ்சிகையிலிருந்து உடகத்தைக் காட்டு"
+
+#~ msgid "RFID"
+#~ msgstr "RFID"
+
+#~ msgid "video"
+#~ msgstr "காணொளி Video"
+
+#~ msgid "blue"
+#~ msgstr "நீலம்"
+
+#~ msgid "displays Cartesian coordinates"
+#~ msgstr "கார்டீஷியன் இணைப்புள்ளிகளை தெறியப்படுத்து"
+
+#~ msgid "No option action:"
+#~ msgstr "செயல் என்ற தேர்வில்லை:"
+
+#~ msgid "jogs stack down"
+#~ msgstr "ஜேகஸ் அடுக்கு கீழே"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "மாறும்(மீதமுள்ள) இயக்கி"
+
+#~ msgid "bottom y"
+#~ msgstr "அடிப்க்க y"
+
+#~ msgid "save SVG"
+#~ msgstr "SVG ஆக சேமி"
+
+#~ msgid "runs code found in the tamyblock.py module found in the Journal"
+#~ msgstr ""
+#~ "இயக்க குறி tamyblock.py லும் படிமம் சஞ்சிகையிலிருந்தும் கண்டுபிடிக்கப்பட்டன"
+
+#~ msgid "pen down"
+#~ msgstr "பேனை கீழே"
+
+#~ msgid "wait"
+#~ msgstr "பொறு"
+
+#~ msgid "box"
+#~ msgstr "பெட்டி"
+
+#~ msgid "Failed to upload!"
+#~ msgstr "எற்றம் தோழ்வியில்!"
+
+#~ msgid "invokes named action stack"
+#~ msgstr "பெயருள்ள செயல் அடுக்கை தூண்டுகிறது"
+
+#~ msgid "action"
+#~ msgstr "செயற்படு"
+
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "எண்கள் நிறப்பட்டையிலிருந்து பூலியன் இயக்கிகளை பயன்படுத்தும் இயக்கி do-until-"
+#~ "True"
+
+#~ msgid "usage is"
+#~ msgstr "பயன்பாடு என்பது"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "மாறிலி 2 (எண்மதிப்பு)"
+
+#~ msgid "divide"
+#~ msgstr "பிரி"
+
+#~ msgid "picture name"
+#~ msgstr "படத்தின் தலைப்பு"
+
+#~ msgid "while"
+#~ msgstr "நிகழும்போது"
+
+#~ msgid "the canvas width"
+#~ msgstr "சாளர அகலம்"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "வெற்றுக்குவியல்"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "பெயர்களின் மாறிலி(எண்மதிப்பு)"
+
+#~ msgid "next"
+#~ msgstr "அடுத்து"
+
+#~ msgid "if then"
+#~ msgstr "இப்படியானால்"
+
+#~ msgid "set pen size"
+#~ msgstr "பேனையின் அளவினை ஒழுங்குபடுத்து"
+
+#~ msgid "presentation template: select Journal object (no description)"
+#~ msgstr "அளிக்கை மாதிரி: சஞ்சிகை பொருளை தெரிவு செய் (விரிவாக்கமில்லாமல்)"
+
+#~ msgid "until"
+#~ msgstr "இதுவரை"
+
+#~ msgid "permanently deletes items in trash"
+#~ msgstr "குப்பையில் உள்ள உருப்படிகளை நிரந்திரமாள அழி"
+
+#~ msgid "uturn"
+#~ msgstr "ப வளைவு"
+
+#~ msgid "top of Action 1 stack"
+#~ msgstr "உச்சி செயல் 1ன் அடுக்கு"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced single-variable math equations, e."
+#~ "g., sin(x)"
+#~ msgstr ""
+#~ "ஒரு நிரலாக்கத்தொகுதி: முன்னேரிய தனித்த-மாறிலி கணித வாய்ப்பாடுகளை "
+#~ "சேர்க்கப்பயன்படுகிறது, எ.கா. sin(x)"
+
+#~ msgid "Palette of flow operators"
+#~ msgstr "செயலிகள் செல்லும் பட்டை"
+
+#~ msgid "top of a collapsed stack"
+#~ msgstr "களைந்த அடுக்கின் உச்சி"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "if-then-else இயக்குனர் பூலியன் இயக்குனரை பட்டை எண்களிலிருந்து "
+#~ "பயன்படுத்திகிறார்"
+
+#~ msgid "holds current pen shade"
+#~ msgstr "தற்ப்போதுள்ள எழுதுகோளின் நிழலை வைத்துள்ளது"
+
+#~ msgid "Login failed"
+#~ msgstr "நுழைவு தோழ்வியுற்றது"
+
+#~ msgid "left x"
+#~ msgstr "இடது x"
+
+#~ msgid "set heading"
+#~ msgstr "தலைப்பை ஒழுங்கு செய்"
+
+#~ msgid "RGB color under the turtle is pushed to the stack"
+#~ msgstr "RGB நிறமானது டர்டிலிக்கு கீழடுக்கில் தள்ளப்பட்டது"
+
+#~ msgid "declutters canvas by hiding blocks"
+#~ msgstr "தொகுதிகளை மறைப்பதினால் சாளரத்தை வெட்டாத"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>w"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>s"
+
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrl>e"
+
+#~ msgid "horizontal space"
+#~ msgstr "கிடைமட்ட வெளி"
+
+#~ msgid "Metric coordinates"
+#~ msgstr "அளவியல் இணைப்புள்ளிகள்"
+
+#~ msgid "string value"
+#~ msgstr "வார்த்தை மதிப்பு"
+
+#~ msgid "description"
+#~ msgstr "விரிவாக்கம்:"
+
+#~ msgid "I don't know how to"
+#~ msgstr "எப்படி என்று எனக்கு தெறியாது"
+
+#~ msgid "set text size"
+#~ msgstr "உரை அளவினை ஒழுங்குபடுத்து"
+
+#~ msgid "Username:"
+#~ msgstr "பயனர்பெயர்:"
+
+#~ msgid "starts filled polygon (used with end fill block)"
+#~ msgstr "ஆரம்பங்கள் பல்வடித்தை நிரப்பியது (கடைசி பகுதியுடன் பயன்படுத்தப்பட்டது)"
+
+#~ msgid "presentation template: select four Journal objects"
+#~ msgstr "அளிக்கை மாதிரி: நான்கு சஞ்சிகை பொருட்களை தெரிவு செய்"
+
+#~ msgid "View"
+#~ msgstr "பார்"
+
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "ஆமையால் வரையப்பட்ட கோட்டின் மட்டத்திற்கு கிரே அளவை அமைத்தது"
+
+#~ msgid "Password:"
+#~ msgstr "கடவுச்சொல்:"
+
+#~ msgid "turtle sees"
+#~ msgstr "டர்டல் பார்க்கிறது"
+
+#~ msgid "stop action"
+#~ msgstr "செயலை நிறுத்து"
+
+#~ msgid "green"
+#~ msgstr "பச்சை"
+
+#~ msgid "shade"
+#~ msgstr "நிழல்"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "பின் பக்கத்தை உடன்(நிறம், நிழல்) நிரப்பு"
+
+#~ msgid "save picture"
+#~ msgstr "படத்தை சேமி"
+
+#~ msgid "pitch"
+#~ msgstr "சுருதி"
+
+#~ msgid "Rescale coordinates up"
+#~ msgstr "மேழ் நோக்கிய இணைப்புள்ளிகளை மறுஅளவீடவும்"
+
+#~ msgid "pen up"
+#~ msgstr "பேனை மேலே"
+
+#~ msgid "orange"
+#~ msgstr "ஆரஞ்சு"
+
+#~ msgid "pauses program execution a specified number of seconds"
+#~ msgstr "ஒரு குறிப்பிட்ட வினாடிகளுக்கு நிரலின் இயக்கமானது இடைநிறுத்தப்படுகிறது"
+
+#~ msgid "pushes value onto FILO (first-in last-out heap)"
+#~ msgstr ""
+#~ "பில்லோ(முதல்-சென்று கடைசி-வெளிவரும் அடுக்க முறை)வில் மதிப்புகள் "
+#~ "தள்ளப்படுகின்றன."
+
+#~ msgid "clear all"
+#~ msgstr "எல்லாத்தையும் நீக்கு"
+
+#~ msgid "then"
+#~ msgstr "அதன்பின்"
+
+#~ msgid "Register"
+#~ msgstr "பதிவு"
+
+#~ msgid "not"
+#~ msgstr "இல்லை"
+
+#~ msgid "if then else"
+#~ msgstr "இப்படியானால் என்ன"
+
+#~ msgid "stops current action"
+#~ msgstr "தற்ப்போது செயலை நுறுத்துகிறது"
+
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "ஆமையானது கடிகார திசையில் திரும்புகிறது (கோணம் டிகிரியில்)"
+
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr ""
+#~ "தற்ப்போது எழுதுகோளின் அளவை வைத்திருக்கிறது (எண்ணிலக்க தொகுதி இடத்தில் "
+#~ "பயன்படுத்திக்கொள்ள முடியும்)"
+
+#~ msgid "xcor of left of screen"
+#~ msgstr "இடது திரையின் xcor"
+
+#~ msgid "Reset block size"
+#~ msgstr "பட்டை அளவை மீழச்செய்"
+
+#~ msgid "turtle"
+#~ msgstr "ஆமை"
+
+#~ msgid "displays next palette"
+#~ msgstr "அடுத்த நிறப்பட்டையை தெறியப்படுத்து"
+
+#~ msgid "hide blocks"
+#~ msgstr "மறைந்துள்ள தொகுதி"
+
+#~ msgid "light level detected by camera"
+#~ msgstr "புகைப்பட கருவியின் ஓளி அளவு உணரப்பட்டது"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "லாஜிக்கல் less-than இயக்கி"
+
+#~ msgid "restore all blocks from trash"
+#~ msgstr "குப்பையிலிருந்து அனைத்து தொகுதிகளையும் திரும்பச்சேமி"
+
+#~ msgid "Save"
+#~ msgstr "சேமி"
+
+#~ msgid "store in box 1"
+#~ msgstr "1 வது பெட்டியில் சேமி"
+
+#~ msgid "store in box 2"
+#~ msgstr "2 ஆவது பெட்டியில் சேமி"
+
+#~ msgid "hides the Sugar toolbars"
+#~ msgstr "சுகர் கருவிபட்டைகளை மறை"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "தற்ப்போது ஆமையின் x-coordinate மதிப்பைக் கொண்டுள்ளது (எண் மாறிலி தொகுதி "
+#~ "இடத்தில் பயன்படுத்தலாம்)"
+
+#~ msgid "print"
+#~ msgstr "அச்சு"
+
+#~ msgid "Save as Logo"
+#~ msgstr "சிறிய படமாக சேமி"
+
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "ஆமையால் வரையப்பட்ட கோட்டுக்கு நிறத்தை அமைக்கவும்"
+
+#~ msgid "set text color"
+#~ msgstr "உரைக்கான நிறத்தை தெரிவு செய்"
+
+#~ msgid "loudness"
+#~ msgstr "சத்தமான.."
+
+#~ msgid "Enable collaboration"
+#~ msgstr "தொகுப்பிணைப்புகளை தோற்றுவி"
+
+#~ msgid "number"
+#~ msgstr "எண்"
+
+#~ msgid "query keyboard"
+#~ msgstr "விசைப்பலகை கேள்வி"
+
+#~ msgid "top"
+#~ msgstr "உச்சி"
+
+#~ msgid "Submit to Web"
+#~ msgstr "இணையதடதிற்கு அளிக்கவும்"
+
+#~ msgid "Cartesian coordinates"
+#~ msgstr "கார்டீஷியன் இணைப்புள்ளிகள்"
+
+#~ msgid "Nickname"
+#~ msgstr "புனைப்பெயர்"
+
+#~ msgid "set scale"
+#~ msgstr "அளவீடுகளை ஒழுங்கு படுத்து"
+
+#~ msgid "white"
+#~ msgstr "வெள்ளை"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "பொத்தான்களை இயக்கி கருவிப்பட்டைக்கு செயல்களை இணைக்கிறது"
+
+#~ msgid "elapsed time (in seconds) since program started"
+#~ msgstr "நிகழ்ச்சியானது தொடங்கியதிலிருந்து முடிந்த காலம் (நொடிகளில்)"
+
+#~ msgid "Cancel"
+#~ msgstr "இரத்துசெய்"
+
+#~ msgid "the canvas height"
+#~ msgstr "சாளர உயரம்"
+
+#~ msgid "presentation 2x1"
+#~ msgstr "அளிக்கை 2x1"
+
+#~ msgid "minus"
+#~ msgstr "கழித்தல்"
+
+#~ msgid "and"
+#~ msgstr "உடன்"
+
+#~ msgid "top of a collapsible stack"
+#~ msgstr "களையும் அடுக்கின் உச்சி"
+
+#~ msgid "as input"
+#~ msgstr "உள்ளீடாக"
+
+#~ msgid "Python block"
+#~ msgstr "பைத்தான் அடைக்கி"
+
+#~ msgid "media wait"
+#~ msgstr "ஊடக தாமதம்"
+
+#~ msgid "acceleration"
+#~ msgstr "கூட்டல்"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr ""
+#~ "தற்ப்போது எழுதுகோளின் அளவை வைத்திருக்கிறது (எண்ணிலக்க தொகுதி இடத்தில் "
+#~ "பயன்படுத்திக்கொள்ள முடியும்)"
+
+#~ msgid "set color"
+#~ msgstr "நிறத்தை  ஒழுங்கு படுத்து"
+
+#~ msgid "min"
+#~ msgstr "மிகக்குறைய"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "எனது தொகுதியை  நிரப்பு"
+
+#~ msgid "Palette of pen commands"
+#~ msgstr "நிறப்பட்டை எழுதுகோளின் கட்டளைகள்"
+
+#~ msgid "shows values in FILO (first-in last-out heap)"
+#~ msgstr ""
+#~ "பில்லோ(முதல்-சென்று கடைசி-வெளிவரும் அடுக்க முறை)வின் மதிப்புகளை காட்டுகிறது"
+
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "எண்கள் நிறப்பட்டையிலிருந்து பூலியன் இயக்கிகளை பயன்படுத்தும் இயக்கி do-while-"
+#~ "True எனப்படுகிறது"
+
+#~ msgid "File"
+#~ msgstr "கோப்பு"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "லாஜிக்கல் இயக்கி"
+
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "ycor அடிமட்ட திரை"
+
+#~ msgid "presentation template: select Journal object (with description)"
+#~ msgstr "அளிக்கை மாதிரி: சஞ்சிகை பொருளை தெரிவு செய் (விரிவாக்கத்துடன்)"
+
+#~ msgid "Palette of numeric operators"
+#~ msgstr "பட்டை எண்ணியக்கிகள்"
+
+#~ msgid "multiply"
+#~ msgstr "பெருக்கல்"
+
+#~ msgid "forever"
+#~ msgstr "எப்போதும்"
+
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "ஆமையால் வரையப்பட்ட கோட்டடின் நிழலை அமைக்கவும்"
+
+#~ msgid "snapshot"
+#~ msgstr "மாதிறி எடுத்தல்"
+
+#~ msgid "clean"
+#~ msgstr "சுத்தம்"
+
+#~ msgid "presentation template: select two Journal objects"
+#~ msgstr "அளிக்கை மாதிரி: இரண்டு சஞ்சிகை பொருட்களை தெரிவு செய்"
+
+#~ msgid "Grow blocks"
+#~ msgstr "தொகுதியை வளர்"
+
+#~ msgid "Fullscreen"
+#~ msgstr "முழுத்திரை"
+
+#~ msgid "File not found"
+#~ msgstr "கோப்பை கண்டுபிடிக்கவில்லை"
+
+#~ msgid "show"
+#~ msgstr "காட்டு"
+
+#~ msgid "text"
+#~ msgstr "உரை"
+
+#~ msgid "random"
+#~ msgstr "எழுமாறாக"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "லாஜிக்கல் மிகை எண்"
+
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "ஆமையை கடிகார சுழற்சியில் திரும்பியது (கோணம் டிகிரி அளவில்)"
+
+#~ msgid "black"
+#~ msgstr "தடு"
+
+#~ msgid "calculates square root"
+#~ msgstr "இரட்டை வீத்தை கணிக்கவும்"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "தற்ப்போது ஆமையின் ல-coordinate மதிப்பைக் கொண்டுள்ளது (எண் மாறிலி தொகுதி "
+#~ "இடத்தில் பயன்படுத்தலாம்)"
+
+#~ msgid "stop"
+#~ msgstr "நிறுத்து"
+
+#~ msgid "greater than"
+#~ msgstr "இதைவிட அதிகம்"
+
+#~ msgid "xcor"
+#~ msgstr "xcor"
+
+#~ msgid "Help"
+#~ msgstr "உதவி"
+
+#~ msgid "Save project?"
+#~ msgstr "திட்டத்தை சேமிக்கவா?"
+
+#~ msgid "chooses which turtle to command"
+#~ msgstr "தெரிவுசெய் எந்த ஆமைக்கு கட்டளையிடுவதென்று"
+
+#~ msgid "right x"
+#~ msgstr "வலது x"
+
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "ஆமையால் வரையப்பட்ட உரையின் நிறத்தை அமைத்தது"
+
+#~ msgid "light level detected by light sensor"
+#~ msgstr "ஒளி உணர்வானால் ஒளியின் அளவு அறியப்பட்டது"
+
+#~ msgid "keyboard"
+#~ msgstr "விசைப்பலகை"
+
+#~ msgid "arc"
+#~ msgstr "வில்"
+
+#~ msgid "radius"
+#~ msgstr "குறை"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "போலார் இணைப்புள்ளிகள்"
+
+#~ msgid "set shade"
+#~ msgstr "நிழலை ஒழுங்கு படுத்து"
+
+#~ msgid "logical AND operator"
+#~ msgstr "சரியான அன்டு இயக்குனர்"
+
+#~ msgid ""
+#~ "You must have an account at http://turtleartsite.sugarlabs.org to upload "
+#~ "your project."
+#~ msgstr ""
+#~ "திட்டங்களை http://turtleartsite.sugarlabs.org இந்த தளத்தில் எற்ற அதில் "
+#~ "கட்டாயம் ஒரு கணக்கு வைத்திருக்க வேண்டும்."
+
+#~ msgid "Run"
+#~ msgstr "இயக்கு"
+
+#~ msgid "show heap"
+#~ msgstr "குவியலைக்காட்டு"
+
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "ஆமையின் தலைப்பை வை (0 ஆனது திரையின் உச்சை நேக்குகிறது.)"
+
+#~ msgid "microphone input volume"
+#~ msgstr "ஒலிவாங்கியில் உள்ளீடு சத்தத்தினளவு"
+
+#~ msgid "Title:"
+#~ msgstr "தலைப்பு:"
+
+#~ msgid "Palette of media objects"
+#~ msgstr "ஊடக பொருட்களின் பட்டை"
+
+#, fuzzy
+#~ msgid "Restore blocks from trash"
+#~ msgstr "குப்பையிலிருந்து அனைத்து தொகுதிகளையும் திரும்பச்சேமி"
+
+#~ msgid "Palette of variable blocks"
+#~ msgstr "மாறிலிகளின் தொகுதி பட்டை"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "கணித இயக்கிகளில் எண்ணிலக்கங்கள் உள்ளீடாக பயன்படுத்தப்படுகிறது"
+
+#~ msgid "Upload"
+#~ msgstr "பதிவேற்று"
+
+#~ msgid "Server"
+#~ msgstr "வழங்கி (கணினி)"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "அளிக்கை 2x2"
+
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "மாறிலி 1 (எண்மதிப்பு)"
+
+#~ msgid "Neighborhood"
+#~ msgstr "அயல்"
+
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "இரண்டு ஆஃல்பா எண்ணிலக்க உள்ளீடுகள் சேர்க்கப்படுகிறது"
+
+#~ msgid "equal"
+#~ msgstr "சமம்"
+
+#~ msgid "else"
+#~ msgstr "வேறு"
+
+#~ msgid "doesn't like"
+#~ msgstr "பிடிக்காது"
+
+#~ msgid "You have unsaved work. Would you like to save before quitting?"
+#~ msgstr ""
+#~ "நீங்கள் வைத்திருக்கும் வேலை சேமிக்கப்படாதது. வெளியேறும் முன் சேமிக்க "
+#~ "விரும்புகிறீர்களா?"
+
+#~ msgid "restores hidden blocks"
+#~ msgstr "மறைந்துள்ள தொகுதிகளைக் திரும்ப வை"
+
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "ஆமை நகர்ந்த பிறகு வரையாது"
+
+#~ msgid "pop"
+#~ msgstr "வரல்"
+
+#~ msgid "pen size"
+#~ msgstr "பேனை அளவு"
+
+#~ msgid "turtle shell"
+#~ msgstr "டர்டல் அறை"
+
+#~ msgid "√"
+#~ msgstr "√"
+
+#~ msgid "read value from RFID device"
+#~ msgstr "RFID கருவியிலிருந்து மதிப்பை படிக்கவும்"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "ஆமையானது வளைவு கோட்டை ஒட்டி நகர்கிறது"
+
+#~ msgid "make a uturn"
+#~ msgstr "ப வளைவுவை உருவாக்கு"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "லாஜிக்கல் சமநிலை செயலி"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "பட்டைகளாக எழுதுகொளின் நிறம்"
+
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "மாறிலி 1 ல் எண்ணிலக்க மதிப்பு சேமிக்கப்படுகின்றன."
+
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "மாறிலி 2 ல் எண்ணிலக்க மதிப்பு சேமிக்கப்படுகின்றன."
+
+#~ msgid "put a custom 'shell' on the turtle"
+#~ msgstr "டர்டல் மேல் மாற்றதகுந்த `அறை` யை வை"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "ஆமையை பின் நகர்த்து"
+
+#~ msgid "ycor of top of screen"
+#~ msgstr "திரையின் உச்சம் ycor"
+
+#~ msgid "Show blocks"
+#~ msgstr "தொகுதிகளைக்காட்டு"
+
+#~ msgid "play"
+#~ msgstr "இயக்கு"
+
+#~ msgid "save"
+#~ msgstr "சேமி"
+
+#~ msgid "Colors"
+#~ msgstr "நிறங்கள்"
+
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "ஆமையால் வரையப்பட்ட கோட்டுக்கு அளவை அமைக்கவும்"
+
+#~ msgid "Open"
+#~ msgstr "திற"
+
+#~ msgid "orientation"
+#~ msgstr "ஒத்தமைவு"
+
+#~ msgid "ycor"
+#~ msgstr "வை கோ"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sqrt(x*x+y*y)"
+#~ msgstr ""
+#~ "ஒரு நிரலாக்கத்தொகுதி: முன்னேரிய பன்-மாறிலி கணித வாய்ப்பாடுகளை "
+#~ "சேர்க்கப்பயன்படுகிறது, எ.கா. sqrt(x*x+y*y)"
+
+#~ msgid "if"
+#~ msgstr "எனின்"
+
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr "xcor,ycor:(0,0) நிலைக்கு ஆமை நகர்கிறது. இது திரையின் மையப்பகுதியாகும்"
+
+#~ msgid "Python"
+#~ msgstr "பைத்தன்"
+
+#~ msgid "Stop"
+#~ msgstr "நிறுத்து"
+
+#~ msgid "action 2"
+#~ msgstr "செயற்படு 2"
+
+#~ msgid "action 1"
+#~ msgstr "செயற்படு 1"
+
+#~ msgid "end fill"
+#~ msgstr "கடைசி நிரப்பல்"
+
+#~ msgid "Copy"
+#~ msgstr "பிரதி செய்"
+
+#~ msgid "Paste"
+#~ msgstr "ஒட்டு"
+
+#~ msgid "did not output to"
+#~ msgstr "வெளியீடு வெளியீடி இல்லவே இல்லை"
+
+#~ msgid "Activities"
+#~ msgstr "செயற்பாடுகள்"
+
+#~ msgid "Upload to Web"
+#~ msgstr "இணையத்திற்கு எற்று"
+
+#~ msgid "empty heap"
+#~ msgstr "வெற்றுக்குவியல்"
+
+#~ msgid "pops value off FILO (first-in last-out heap)"
+#~ msgstr ""
+#~ "பில்லோ(முதல்-சென்று கடைசி-வெளிவரும் அடுக்க முறை) மதிப்பை வெளிவாங்குகிறது"
+
+#~ msgid "Clean"
+#~ msgstr "சுத்தமக்கு"
+
+#~ msgid "Palette of presentation templates"
+#~ msgstr "அளிக்கை மாதிரிகளின் நிறப்பட்டை"
+
+#~ msgid "angle"
+#~ msgstr "கோணம்"
+
+#~ msgid "top y"
+#~ msgstr "உச்சி y"
+
+#~ msgid "audio"
+#~ msgstr "ஒலி"
+
+#~ msgid "Tools"
+#~ msgstr "கருவிகள்"
+
+#~ msgid "left"
+#~ msgstr "இடது"
+
+#~ msgid "comment"
+#~ msgstr "கருத்து தெறிவி"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr ""
+#~ "மேல் மட்ட உள்ளீட்டு எண்ணிலிருந்து கீழ் அடிமட்ட உள்ளீட்டு எண்ணானது "
+#~ "கழிக்கப்படுகிறது"
+
+#~ msgid "query for keyboard input (results stored in keyboard block)"
+#~ msgstr ""
+#~ "விசைப்பலகையை உள்ளீடுக்காக கேள் (முடிவுகள் விசைப்பலகை தொகுதியில் "
+#~ "சேமிக்கப்பட்டுள்ளது)"
+
+#~ msgid "Cartesian"
+#~ msgstr "கார்டீஷியன்"
+
+#~ msgid "voltage"
+#~ msgstr "மின்னழுத்தம்"
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "திரையை தூய்மைப்படுத்து மற்றும் ஆமையை பாழையதாக்கு"
+
+#~ msgid "raw microphone input signal"
+#~ msgstr "உண்மையான ஒலிவாங்கியின் உள்ளீட்டு ஒலி"
+
+#~ msgid "returns the color that the turtle \"sees\""
+#~ msgstr "டர்டல் அது `பார்க்கிற` வண்ணத்தை திருப்பும்"
+
+#~ msgid "invokes Action 1 stack"
+#~ msgstr "செயல் அடுக்கு 1 தூண்டல்"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "ஆமை நிறப்பட்டையின் கட்டளைகள்"
+
+#~ msgid "loops forever"
+#~ msgstr "எப்பொழுதும் தொடர்படுத்து"
+
+#~ msgid "show aligned"
+#~ msgstr "ஒத்தமைவை காண்பி"
+
+#~ msgid "Turtle Art"
+#~ msgstr "ஆமைச்சித்திரம்"
+
+#~ msgid "Project"
+#~ msgstr "செயற்றிட்டம்"
+
+#~ msgid "Debug"
+#~ msgstr "வலு கண்டுபிடி"
+
+#~ msgid "Password"
+#~ msgstr "கடவுச்சொல்"
+
+#~ msgid "vertical space"
+#~ msgstr "நெடு வெளி"
+
+#~ msgid "completes filled polygon (used with start fill block)"
+#~ msgstr ""
+#~ "நிரப்பற்ற ஒழுங்கற்ற வடிவம் முடிவடைகிறது (முதல் நிரம்பிய பகுதியுடன் "
+#~ "பயன்படுத்தப்பட்டது)"
+
+#~ msgid "Share"
+#~ msgstr "பங்கீடு"
+
+#~ msgid "less than"
+#~ msgstr "இதற்க்கு குறைவாக"
+
+#~ msgid "square root"
+#~ msgstr "இரட்டிப்பு வீதம்"
+
+#~ msgid "Rescale coordinates"
+#~ msgstr "இணைப்புள்ளிகளை மறு அளவீடு"
+
+#~ msgid "show blocks"
+#~ msgstr "தொகுதியைக்காட்டு"
+
+#~ msgid "Quit"
+#~ msgstr "வெளியேறு"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "சுகர் சஞ்சிகை விரிவாக்க புலம்"
+
+#~ msgid "set gray"
+#~ msgstr "கிறேவை அமை"
+
+#~ msgid "presentation bulleted list"
+#~ msgstr "அளைக்கை புள்ளி பட்டியலில்"
+
+#~ msgid "New"
+#~ msgstr "புதிய"
+
+#~ msgid "places a comment in your code"
+#~ msgstr "உங்களின் குறிகளில் கருத்துக்களை இடு"
+
+#~ msgid "read pixel"
+#~ msgstr "புள்ளியை படி"
+
+#~ msgid "scale"
+#~ msgstr "அளவீடு"
+
+#~ msgid "bottom"
+#~ msgstr "அடிப்பகுதி"
+
+#~ msgid "purple"
+#~ msgstr "பழுப்பு"
+
+#~ msgid "Rescale coordinates down"
+#~ msgstr "கீழ் நோக்கிய இணைப்புள்ளிகளை மறுஅளவீடவும்"
+
+#~ msgid "click to open"
+#~ msgstr "திறப்பதற்கு சொடுக்கவும்"
+
+#~ msgid "microphone input pitch"
+#~ msgstr "ஒலி வாங்கியின் உள்ளீட்டு சுருதி"
+
+#~ msgid "Configuration"
+#~ msgstr "கட்டமைப்பு"
+
+#~ msgid "Description:"
+#~ msgstr "விரிவாக்கம்:"
+
+#~ msgid "journal"
+#~ msgstr "சஞ்சிகை"
+
+#~ msgid "empty trash"
+#~ msgstr "குப்பையை துய்மையாக்கு"
+
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "ஆமை நகர்ந்த பிறகு வரையும்"
+
+#~ msgid "Load..."
+#~ msgstr "ஏற்று..."
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "சுகர் சஞ்சிகையின் ஒலி பொருள்"
+
+#~ msgid "Stop turtle"
+#~ msgstr "ஆமையை நிறுத்து"
+
+#~ msgid "Turtle"
+#~ msgstr "ஆமை"
+
+#~ msgid "changes the orientation of the palette of blocks"
+#~ msgstr "நிறப்பட்டைகளின் தொகுதி ஒத்தமைந்த மாற்றங்கள்"
+
+#~ msgid "store in"
+#~ msgstr "சேமிப்புக்கலனில்"
+
+#~ msgid "Hide blocks"
+#~ msgstr "தொகுதிகளை மறை"
+
+#~ msgid "Load Python block"
+#~ msgstr "பைத்தான் அடைப்பை ஏற்று"
+
+#~ msgid "plus"
+#~ msgstr "கூட்டல்"
+
+#~ msgid "or"
+#~ msgstr "அல்லது"
+
+#~ msgid "presentation template: list of bullets"
+#~ msgstr "அளிக்கை மாதிரி: புள்ளிப்பட்டியல்"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "அடையாள இயக்குனர் தொகுதிகளை நீட்டிக்க பயன்படுகிறார்"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "தொகுதியை சுருக்கு"
+
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "ஆமையால் வரையப்பட்ட உரையின் அளவை அமைத்தது"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr ""
+#~ "தற்ப்போதுள்ள ஆமையின் தலைப்பை பிடித்துவை(எண் தொகுதியின் இடத்தில் "
+#~ "பயன்படுத்தலாம்)"
+
+#~ msgid "image"
+#~ msgstr "படம்"
+
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr "மிக-அதிக மற்றும் மிக-குறைவு எண்களுக்கிடையே எழுமாறான எண் கிடைக்ப்பெறும்"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr ""
+#~ "இப்பொழுதுள்ள எழுதுகோளின் நிறம்(எண் தொகுதியின் இடத்தில் பயன்படுத்தலாம்)"
+
+#~ msgid "Show palette"
+#~ msgstr "நிறப்பட்டையை காட்டு"
+
+#~ msgid "saves a picture to the Sugar Journal"
+#~ msgstr "சுகர் சஞ்சிகைக்கு ஒரு படத்தை சேமிக்கவும்"
+
+#~ msgid "Save snapshot"
+#~ msgstr "எடுத்த மாதிறியை சேமிக்கவும்"
+
+#~ msgid "start"
+#~ msgstr "ஆரம்பி"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "ஆமையை முன்னோக்கி நகர்த்து"
+
+#~ msgid "forward"
+#~ msgstr "முன்னோக்கி அனுப்பு"
+
+#~ msgid "my box"
+#~ msgstr "என் பெட்டி"
+
+#~ msgid "Account ID"
+#~ msgstr "கணக்கு குறியெண்"
+
+#~ msgid "back"
+#~ msgstr "பின்னால்"
+
+#~ msgid "sets the scale of media"
+#~ msgstr "ஊடகத்தின் அளவை அமை"
+
+#~ msgid "holds current scale value"
+#~ msgstr "தற்ப்போதைய அளவீடு மதிப்பை வைத்துள்ளது"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "அளிக்கை 1x1"
+
+#~ msgid "presentation 1x2"
+#~ msgstr "அளிக்கை 1x2"
+
+#~ msgid "top of nameable action stack"
+#~ msgstr "பெயற்சொல்லும் செயலின் உச்சி அடுக்கு"
+
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "பெயரிடப்பட்ட மாறிலியில் எண்ணிலக்க மதிப்பு சேமிக்கப்படுகின்றன."
+
+#~ msgid "logical OR operator"
+#~ msgstr "லாஜிக்கல் NOT இயக்கி"
+
+#~ msgid "microphone input voltage"
+#~ msgstr "ஒலிவாங்கியில் உள்ளீடு சத்த மின்னளவு"
+
+#~ msgid "loops specified number of times"
+#~ msgstr "தொடர்படுத்தல் எத்தனை மறை என்பது குறிப்பிடப்படுகின்றது"
+
+#~ msgid "Save..."
+#~ msgstr "சேமி..."
+
+#~ msgid "invokes Action 2 stack"
+#~ msgstr "செயல் அடுக்கு 2 தூண்டல்"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "ஒழுங்கு  படுத்துக"
+
+#~ msgid "title y"
+#~ msgstr "y தலைப்பு"
+
+#~ msgid "title x"
+#~ msgstr "x தலைப்பு"
+
+#~ msgid "fill screen"
+#~ msgstr "முழுத்திரை"
+
+#~ msgid "Save as"
+#~ msgstr "மாற்றி சேமி"
+
+#~ msgid "set xy"
+#~ msgstr "ஒழுங்கு  படுத்துக"
+
+#~ msgid "trash"
+#~ msgstr "குப்பை"
+
+#~ msgid "polar"
+#~ msgstr "போலார்"
+
+#~ msgid "repeat"
+#~ msgstr ", திருப்பிச்செய்"
+
+#~ msgid "wait for current video or audio to complete"
+#~ msgstr "தற்பொழுதுள்ள காணொளி Video/ ஒலி முடியும்வரை காத்திருக்கவும்"
+
+#~ msgid "Save as image"
+#~ msgstr "படமாக சேமி"
+
+#~ msgid "Edit"
+#~ msgstr "திருத்து"
+
+#~ msgid "microphone input resistance"
+#~ msgstr "ஒலிவாங்கியில் உள்ளீட்டு எதிர்ப்பு"
+
+#~ msgid "top of Action 2 stack"
+#~ msgstr "உச்சி செயல் 2ன் அடுக்கு"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr ""
+#~ "அடியிலுள்ள(கீழெண்) எண்ணிலக்கத்தை உச்சி(மேலெண்) எண்ணிலக்கத்தை கொண்டு பிரி"
+
+#~ msgid "max"
+#~ msgstr "மிகக்கூடிய"
+
+#~ msgid "prints value in status block at bottom of the screen"
+#~ msgstr "திரையின் அடிப்பக்க தொகுதியில் நிலைமாறலின் மதிப்ப அச்சடிக்கப்படுகிறது"
+
+#~ msgid "start fill"
+#~ msgstr "தொடக்க நிரப்பி"
+
+#, fuzzy
+#~ msgid "holds results of query-keyboard block as ASCII"
+#~ msgstr "முடிவுகள் விசைப்பலகை தொகுதியில் அடக்கப்பட்டுள்ளது"
+
+#~ msgid "push"
+#~ msgstr "தள்ளு"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sin(x+y+z)"
+#~ msgstr ""
+#~ "ஒரு நிரலாக்கத்தொகுதி: முன்னேரிய பன்-மாறிலி கணித வாய்ப்பாடுகளை "
+#~ "சேர்க்கப்பயன்படுகிறது, எ.கா. sin(x+y+z)"
+
+#~ msgid "restore all"
+#~ msgstr "எல்லாத்தையும் சேமி"

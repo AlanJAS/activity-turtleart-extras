@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -862,7 +862,7 @@ msgstr ""
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "ⵉⵎⵙⵍⵉ"
 
 #: taextras.py:320
 msgid "grey"
@@ -1458,3 +1458,72 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Step"
+#~ msgstr "ⴱⴷ"
+
+#, fuzzy
+#~ msgid "next"
+#~ msgstr "ⴰⴹⵕⵉⵙ"
+
+#~ msgid "View"
+#~ msgstr "ⵥⵕ"
+
+#~ msgid "Save"
+#~ msgstr "ⵃⵟⵟ"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "ⴱⴷ"
+
+#~ msgid "Cancel"
+#~ msgstr "ⴰⵙⴽⴽⵉⵍ"
+
+#~ msgid "Fullscreen"
+#~ msgstr "ⴰⴳⴷⵉⵍ ⴰⴽⵯⵓⵔⴰⵏ"
+
+#~ msgid "text"
+#~ msgstr "ⴰⴹⵕⵉⵙ"
+
+#~ msgid "stop"
+#~ msgstr "ⴱⴷ"
+
+#~ msgid "play"
+#~ msgstr "ⵙⴽⴽⴻⵔ"
+
+#~ msgid "save"
+#~ msgstr "ⵃⵟⵟ"
+
+#~ msgid "Open"
+#~ msgstr "ⴰⵔⵉ"
+
+#~ msgid "Stop"
+#~ msgstr "ⴱⴷ"
+
+#~ msgid "Copy"
+#~ msgstr "ⵜⵓⵏⵖⵉⵍⵜ"
+
+#~ msgid "left"
+#~ msgstr "ⵣⵍⵎⴻⴷ"
+
+#~ msgid "scale"
+#~ msgstr "ⵜⴰⵙⴽⴰⵍⴰ"
+
+#~ msgid "journal"
+#~ msgstr "ⴰⵖⵎⵉⵙ"
+
+#~ msgid "Load..."
+#~ msgstr "ⵓⴽⵡⵎ"
+
+#~ msgid "image"
+#~ msgstr "ⵜⵓⴳⵏⴰ"
+
+#~ msgid "start"
+#~ msgstr "ⵙⴽⴽⴻⵔ"
+
+#~ msgid "Save..."
+#~ msgstr "ⵃⵟⵟ"
+
+#~ msgid "Edit"
+#~ msgstr "ⴱⴷⴷⴻⵍ"

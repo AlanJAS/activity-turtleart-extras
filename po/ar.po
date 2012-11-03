@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "س"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "ص"
 
 #: taextras.py:259
 msgid ""
@@ -854,11 +854,12 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "لون"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "يمين"
 
 #: taextras.py:319
 msgid "sound"
@@ -1218,8 +1219,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "باقي"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1460,153 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "box 2"
+#~ msgstr "الصندوق 2"
+
+#~ msgid "box 1"
+#~ msgstr "الصندوق 1"
+
+#~ msgid "heading"
+#~ msgstr "عنوان"
+
+#~ msgid "pen down"
+#~ msgstr "ضع القلم"
+
+#~ msgid "wait"
+#~ msgstr "انتظر"
+
+#~ msgid "set pen size"
+#~ msgstr "حدد حجم القلم"
+
+#~ msgid "set heading"
+#~ msgstr "حدد العنوان"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "حدد حجم القلم"
+
+#~ msgid "shade"
+#~ msgstr "ظل"
+
+#~ msgid "pen up"
+#~ msgstr "ارفع القلم"
+
+#~ msgid "then"
+#~ msgstr "عندها"
+
+#~ msgid "not"
+#~ msgstr "ليس"
+
+#, fuzzy
+#~ msgid "turtle"
+#~ msgstr "سلحفاة"
+
+#~ msgid "store in box 1"
+#~ msgstr "احفظ في الصندوق 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "احفظ في الصندوق 2"
+
+#~ msgid "print"
+#~ msgstr "اطبع"
+
+#~ msgid "number"
+#~ msgstr "عدد"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "حدد التظليل"
+
+#~ msgid "and"
+#~ msgstr "و"
+
+#~ msgid "set color"
+#~ msgstr "حدد اللون"
+
+#~ msgid "min"
+#~ msgstr "أقل"
+
+#~ msgid "forever"
+#~ msgstr "للأبد"
+
+#, fuzzy
+#~ msgid "clean"
+#~ msgstr "نظف"
+
+#, fuzzy
+#~ msgid "Fullscreen"
+#~ msgstr "ملء الشاشه"
+
+#~ msgid "random"
+#~ msgstr "عشوائي"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "السابق:: للخلف"
+
+#~ msgid "arc"
+#~ msgstr "قوس"
+
+#~ msgid "radius"
+#~ msgstr "نصف القطر"
+
+#~ msgid "set shade"
+#~ msgstr "حدد التظليل"
+
+#~ msgid "else"
+#~ msgstr "وإلا"
+
+#~ msgid "pen size"
+#~ msgstr "حجم القلم"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "لون"
+
+#~ msgid "if"
+#~ msgstr "إذا"
+
+#, fuzzy
+#~ msgid "Clean"
+#~ msgstr "نظف"
+
+#~ msgid "angle"
+#~ msgstr "زاوية"
+
+#~ msgid "left"
+#~ msgstr "يسار"
+
+#~ msgid "Turtle Art"
+#~ msgstr "السلحفاة"
+
+#~ msgid "Project"
+#~ msgstr "مشروع"
+
+#~ msgid "Turtle"
+#~ msgstr "سلحفاة"
+
+#~ msgid "or"
+#~ msgstr "أو"
+
+#~ msgid "forward"
+#~ msgstr "للأمام"
+
+#~ msgid "back"
+#~ msgstr "السابق:: للخلف"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "حدد س ص"
+
+#~ msgid "fill screen"
+#~ msgstr "ملء الشاشه"
+
+#~ msgid "set xy"
+#~ msgstr "حدد س ص"
+
+#~ msgid "repeat"
+#~ msgstr "كرر"
+
+#~ msgid "max"
+#~ msgstr "أاكثر"

@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -156,7 +156,7 @@ msgstr ""
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "odpor"
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "výška"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -854,15 +854,16 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "barva"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "vpravo"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "zvuk"
 
 #: taextras.py:320
 msgid "grey"
@@ -1218,8 +1219,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "mód"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1231,7 +1233,7 @@ msgstr ""
 
 #: taextras.py:421
 msgid "value"
-msgstr ""
+msgstr "hodnota"
 
 #: taextras.py:422
 msgid "Write analog value in specified port."
@@ -1458,3 +1460,343 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "nadpis"
+
+#~ msgid "box 2"
+#~ msgstr "schránka 2"
+
+#~ msgid "box 1"
+#~ msgstr "schránka 1"
+
+#, fuzzy
+#~ msgid "Step"
+#~ msgstr "Krok"
+
+#, fuzzy
+#~ msgid "Hide palette"
+#~ msgstr "Schovat paletu"
+
+#~ msgid "heading"
+#~ msgstr "nadpis"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "dolu"
+
+#~ msgid "pen down"
+#~ msgstr "vypnout pero"
+
+#~ msgid "wait"
+#~ msgstr "čekat"
+
+#~ msgid "box"
+#~ msgstr "schránka"
+
+#~ msgid "next"
+#~ msgstr "další"
+
+#~ msgid "set pen size"
+#~ msgstr "nastavit velikost pera"
+
+#~ msgid "set heading"
+#~ msgstr "nastavit záhlaví"
+
+#~ msgid "description"
+#~ msgstr "popis"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "nastavit velikost pera"
+
+#~ msgid "Username:"
+#~ msgstr "Jméno:"
+
+#~ msgid "Password:"
+#~ msgstr "Heslo:"
+
+#~ msgid "shade"
+#~ msgstr "odstín"
+
+#~ msgid "pitch"
+#~ msgstr "výška"
+
+#~ msgid "pen up"
+#~ msgstr "zapnout pero"
+
+#~ msgid "then"
+#~ msgstr "potom"
+
+#~ msgid "not"
+#~ msgstr "ne"
+
+#, fuzzy
+#~ msgid "turtle"
+#~ msgstr "Želva"
+
+#~ msgid "hide blocks"
+#~ msgstr "skrýt bloky"
+
+#~ msgid "Save"
+#~ msgstr "Uložit"
+
+#~ msgid "store in box 1"
+#~ msgstr "uložiště ve schránce 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "uložiště ve schránce 2"
+
+#~ msgid "print"
+#~ msgstr "tisknout"
+
+#, fuzzy
+#~ msgid "Save as Logo"
+#~ msgstr "uložit Logo"
+
+#~ msgid "set text color"
+#~ msgstr "nastavit barvu textu"
+
+#~ msgid "number"
+#~ msgstr "číslo"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "Krok"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "nastavit odstín"
+
+#~ msgid "Cancel"
+#~ msgstr "Zrušit"
+
+#, fuzzy
+#~ msgid "presentation 2x1"
+#~ msgstr "orientace"
+
+#~ msgid "and"
+#~ msgstr "a"
+
+#~ msgid "set color"
+#~ msgstr "nastavit barvu"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#, fuzzy
+#~ msgid "Palette of pen commands"
+#~ msgstr "Paleta Turtle příkazů"
+
+#~ msgid "File"
+#~ msgstr "Složka"
+
+#~ msgid "forever"
+#~ msgstr "navždy"
+
+#~ msgid "clean"
+#~ msgstr "smazat"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "zobrazit bloky"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Celá obrazovka"
+
+#~ msgid "show"
+#~ msgstr "ukázat"
+
+#~ msgid "text"
+#~ msgstr "text"
+
+#~ msgid "random"
+#~ msgstr "náhodný"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "zpět"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "Krok"
+
+#~ msgid "xcor"
+#~ msgstr "xcor"
+
+#~ msgid "keyboard"
+#~ msgstr "klávesnice"
+
+#~ msgid "arc"
+#~ msgstr "oblouk"
+
+#~ msgid "radius"
+#~ msgstr "poloměr"
+
+#~ msgid "set shade"
+#~ msgstr "nastavit odstín"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "nadpis"
+
+#, fuzzy
+#~ msgid "presentation 2x2"
+#~ msgstr "orientace"
+
+#~ msgid "equal"
+#~ msgstr "rovno"
+
+#~ msgid "else"
+#~ msgstr "jinak"
+
+#~ msgid "pop"
+#~ msgstr "bouchnout"
+
+#~ msgid "pen size"
+#~ msgstr "velikost pera"
+
+#, fuzzy
+#~ msgid "Palette of pen colors"
+#~ msgstr "Paleta Turtle příkazů"
+
+#, fuzzy
+#~ msgid "Show blocks"
+#~ msgstr "zobrazit bloky"
+
+#~ msgid "save"
+#~ msgstr "uložit"
+
+#~ msgid "Colors"
+#~ msgstr "Barva"
+
+#~ msgid "Open"
+#~ msgstr "Otevřít"
+
+#~ msgid "orientation"
+#~ msgstr "orientace"
+
+#~ msgid "ycor"
+#~ msgstr "ycor"
+
+#~ msgid "if"
+#~ msgstr "jestli"
+
+#, fuzzy
+#~ msgid "Stop"
+#~ msgstr "Krok"
+
+#~ msgid "Copy"
+#~ msgstr "Kopírovat"
+
+#~ msgid "Paste"
+#~ msgstr "Vložit"
+
+#, fuzzy
+#~ msgid "Clean"
+#~ msgstr "Smazat"
+
+#~ msgid "angle"
+#~ msgstr "roh"
+
+#~ msgid "audio"
+#~ msgstr "poslech"
+
+#~ msgid "left"
+#~ msgstr "vlevo"
+
+#~ msgid "voltage"
+#~ msgstr "napětí"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "Paleta Turtle příkazů"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Turtle Art"
+
+#~ msgid "Project"
+#~ msgstr "Projekt"
+
+#, fuzzy
+#~ msgid "Password"
+#~ msgstr "Heslo:"
+
+#~ msgid "show blocks"
+#~ msgstr "zobrazit bloky"
+
+#~ msgid "New"
+#~ msgstr "Nový"
+
+#~ msgid "bottom"
+#~ msgstr "dolu"
+
+#~ msgid "Description:"
+#~ msgstr "Popis:"
+
+#~ msgid "journal"
+#~ msgstr "deník"
+
+#, fuzzy
+#~ msgid "Stop turtle"
+#~ msgstr "Zastavit želvu"
+
+#~ msgid "Turtle"
+#~ msgstr "Želva"
+
+#, fuzzy
+#~ msgid "Hide blocks"
+#~ msgstr "skrýt bloky"
+
+#~ msgid "or"
+#~ msgstr "nebo"
+
+#, fuzzy
+#~ msgid "Show palette"
+#~ msgstr "Ukázat paletu"
+
+#~ msgid "start"
+#~ msgstr "spustit"
+
+#~ msgid "forward"
+#~ msgstr "vpřed"
+
+#~ msgid "back"
+#~ msgstr "zpět"
+
+#, fuzzy
+#~ msgid "presentation 1x1"
+#~ msgstr "orientace"
+
+#, fuzzy
+#~ msgid "presentation 1x2"
+#~ msgstr "orientace"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "nastavit xy"
+
+#~ msgid "fill screen"
+#~ msgstr "vyplnit obrazovku"
+
+#~ msgid "Save as"
+#~ msgstr "Uložit jako"
+
+#~ msgid "set xy"
+#~ msgstr "nastavit xy"
+
+#~ msgid "repeat"
+#~ msgstr "opakovat"
+
+#, fuzzy
+#~ msgid "Save as image"
+#~ msgstr "Uložit jako obrázek"
+
+#~ msgid "Edit"
+#~ msgstr "Úpravy"
+
+#~ msgid "max"
+#~ msgstr "max"
+
+#~ msgid "push"
+#~ msgstr "tlačit"

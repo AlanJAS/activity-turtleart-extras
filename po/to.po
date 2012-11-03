@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -857,12 +857,13 @@ msgid "color"
 msgstr ""
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "totonu"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "ongo"
 
 #: taextras.py:320
 msgid "grey"
@@ -1059,8 +1060,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "lau"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1458,3 +1460,186 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "Taitolo"
+
+#~ msgid "yellow"
+#~ msgstr "engeenga"
+
+#~ msgid "box 2"
+#~ msgstr "puha 2"
+
+#~ msgid "box 1"
+#~ msgstr "puha 1"
+
+#~ msgid "Step"
+#~ msgstr "Sitepu"
+
+#, fuzzy
+#~ msgid "list"
+#~ msgstr "lisi"
+
+#~ msgid "heading"
+#~ msgstr "'ulu'itohi"
+
+#, fuzzy
+#~ msgid "video"
+#~ msgstr "vitio"
+
+#~ msgid "blue"
+#~ msgstr "lanu pulu"
+
+#~ msgid "save SVG"
+#~ msgstr "Seivi SVG"
+
+#~ msgid "box"
+#~ msgstr "puha"
+
+#, fuzzy
+#~ msgid "next"
+#~ msgstr "hoko"
+
+#, fuzzy
+#~ msgid "left x"
+#~ msgstr "to'ohema x"
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "Viu"
+
+#, fuzzy
+#~ msgid "not"
+#~ msgstr "'Ikai"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Seivi'i koe Logo"
+
+#, fuzzy
+#~ msgid "number"
+#~ msgstr "fika"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "olunga"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Kaniseli"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "Faile"
+
+#, fuzzy
+#~ msgid "Fullscreen"
+#~ msgstr "Sikulini kakato"
+
+#, fuzzy
+#~ msgid "show"
+#~ msgstr "fakaha"
+
+#~ msgid "text"
+#~ msgstr "text"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "mui"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "olunga"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "Tokoni"
+
+#, fuzzy
+#~ msgid "right x"
+#~ msgstr "totonu x"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "Taitolo:"
+
+#~ msgid "√"
+#~ msgstr "√"
+
+#, fuzzy
+#~ msgid "Open"
+#~ msgstr "Fakaava"
+
+#, fuzzy
+#~ msgid "Stop"
+#~ msgstr "Sitepu"
+
+#, fuzzy
+#~ msgid "Copy"
+#~ msgstr "Kopi"
+
+#, fuzzy
+#~ msgid "Paste"
+#~ msgstr "Fakapipisi"
+
+#, fuzzy
+#~ msgid "top y"
+#~ msgstr "olunga y"
+
+#, fuzzy
+#~ msgid "audio"
+#~ msgstr "'otio"
+
+#, fuzzy
+#~ msgid "left"
+#~ msgstr "to'ohema"
+
+#, fuzzy
+#~ msgid "Share"
+#~ msgstr "Vahevahe"
+
+#, fuzzy
+#~ msgid "Quit"
+#~ msgstr "Fo'i"
+
+#, fuzzy
+#~ msgid "scale"
+#~ msgstr "sikeili"
+
+#, fuzzy
+#~ msgid "journal"
+#~ msgstr "konga tohi"
+
+#, fuzzy
+#~ msgid "Load..."
+#~ msgstr "Fakaheka..."
+
+#, fuzzy
+#~ msgid "image"
+#~ msgstr "'Imisi"
+
+#, fuzzy
+#~ msgid "start"
+#~ msgstr "kamata"
+
+#, fuzzy
+#~ msgid "forward"
+#~ msgstr "foueti"
+
+#, fuzzy
+#~ msgid "back"
+#~ msgstr "mui"
+
+#, fuzzy
+#~ msgid "title y"
+#~ msgstr "taitolo y"
+
+#, fuzzy
+#~ msgid "title x"
+#~ msgstr "taitolo x"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "Seivi koe"
+
+#~ msgid "Edit"
+#~ msgstr "'Etita"

@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -156,7 +156,7 @@ msgstr ""
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "resistans"
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "höjd"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "bredd"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +725,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "identititet"
 
 #: taextras.py:267
 msgid ""
@@ -854,15 +855,16 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "färg"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "höger"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "ljud"
 
 #: taextras.py:320
 msgid "grey"
@@ -1218,8 +1220,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "rest"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1461,791 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "titel"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr "om-så operatör som använder booleanska operatörer från Nummer-paletten"
+
+#, fuzzy
+#~ msgid "jogs stack right"
+#~ msgstr "rör stacken till höger"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "mediaobjekt från Sugar-Dagboken"
+
+#~ msgid "box 2"
+#~ msgstr "box 2"
+
+#~ msgid "box 1"
+#~ msgstr "box 1"
+
+#~ msgid "Step"
+#~ msgstr "Steg"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "multiplicerar två numeriska indata"
+
+#~ msgid "Hide palette"
+#~ msgstr "dölj palett"
+
+#, fuzzy
+#~ msgid "Sugar Journal video object"
+#~ msgstr "ljudobjekt från Sugar-Dagboken"
+
+#~ msgid "xcor of right of screen"
+#~ msgstr "x-koordinaten för skärmens högra sida"
+
+#, fuzzy
+#~ msgid "Palette of extra options"
+#~ msgstr "palett med extra alternativ"
+
+#~ msgid "heading"
+#~ msgstr "riktning"
+
+#, fuzzy
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "rita text eller visa media från dagboken"
+
+#~ msgid "blue"
+#~ msgstr "blått"
+
+#, fuzzy
+#~ msgid "jogs stack down"
+#~ msgstr "rör stacken nedåt"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "modulär (rest) operator"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "botten"
+
+#~ msgid "runs code found in the tamyblock.py module found in the Journal"
+#~ msgstr "kör kod ur tamyblock.py modulen som finns i Dagboken"
+
+#~ msgid "pen down"
+#~ msgstr "Sätt ned penna"
+
+#~ msgid "wait"
+#~ msgstr "vänta"
+
+#~ msgid "box"
+#~ msgstr "låda"
+
+#, fuzzy
+#~ msgid "invokes named action stack"
+#~ msgstr "anropa en namngiven aktions stack"
+
+#~ msgid "action"
+#~ msgstr "händelse"
+
+#, fuzzy
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "om-så-annars operatör som använder booleanska operatörer från Nummer-"
+#~ "paletten"
+
+#, fuzzy
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "variabel 2 (tal)"
+
+#, fuzzy
+#~ msgid "while"
+#~ msgstr "Vitt"
+
+#~ msgid "the canvas width"
+#~ msgstr "dukens bredd"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "töm stapel"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "namngiven variabel (tal)"
+
+#~ msgid "next"
+#~ msgstr "nästa"
+
+#~ msgid "set pen size"
+#~ msgstr "Ange pennstorlek"
+
+#~ msgid "presentation template: select Journal object (no description)"
+#~ msgstr "presentationsmall: välj Dagboksobjekt (ingen förklaring)"
+
+#, fuzzy
+#~ msgid "top of Action 1 stack"
+#~ msgstr "början av stacken för aktion 1"
+
+#, fuzzy
+#~ msgid "Palette of flow operators"
+#~ msgstr "palett med flödesoperatorer"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "om-så-annars operatör som använder booleanska operatörer från Nummer-"
+#~ "paletten"
+
+#
+#~ msgid "set heading"
+#~ msgstr "ange riktning"
+
+#, fuzzy
+#~ msgid "declutters canvas by hiding blocks"
+#~ msgstr "rensa duken genom att gömma block"
+
+#, fuzzy
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>b"
+
+#, fuzzy
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>b"
+
+#, fuzzy
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>b"
+
+#, fuzzy
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>b"
+
+#, fuzzy
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrl>b"
+
+#~ msgid "string value"
+#~ msgstr "sträng"
+
+#, fuzzy
+#~ msgid "description"
+#~ msgstr "Beskrivning:"
+
+#~ msgid "I don't know how to"
+#~ msgstr "Jag vet hur jag ska göra för att "
+
+#~ msgid "set text size"
+#~ msgstr "ange textstorlek"
+
+#~ msgid "Username:"
+#~ msgstr "Användarnamn:"
+
+#~ msgid "presentation template: select four Journal objects"
+#~ msgstr "presentationsmall: välj fyra Dagboksobjekt"
+
+#~ msgid "View"
+#~ msgstr "Visa"
+
+#, fuzzy
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "sätt nyans på linjen som ritas av sköldpaddan"
+
+#~ msgid "Password:"
+#~ msgstr "Lösenord:"
+
+#~ msgid "stop action"
+#~ msgstr "avsluta aktion"
+
+#~ msgid "green"
+#~ msgstr "grönt"
+
+#~ msgid "shade"
+#~ msgstr "skugga"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "fyller backgrunden med (färg, nyans)"
+
+#~ msgid "pitch"
+#~ msgstr "lutning"
+
+#~ msgid "pen up"
+#~ msgstr "Ta upp penna"
+
+#, fuzzy
+#~ msgid "pushes value onto FILO (first-in last-out heap)"
+#~ msgstr "för värdet till FILO (first-in-last-out) stacken"
+
+#~ msgid "then"
+#~ msgstr "då"
+
+#~ msgid "not"
+#~ msgstr "inte"
+
+#, fuzzy
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "flytta sköldpaddan medsols (vinkel i grader)"
+
+#, fuzzy
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr ""
+#~ "håller det nuvarande skalvärdet (kan användas istället för ett nummberblock)"
+
+#~ msgid "xcor of left of screen"
+#~ msgstr "x-koordinaten för skärmens vänstra sida"
+
+#, fuzzy
+#~ msgid "turtle"
+#~ msgstr "Sköldpadda"
+
+#~ msgid "hide blocks"
+#~ msgstr "dölj block"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "logisk mindre än-operator"
+
+#~ msgid "Save"
+#~ msgstr "Spara"
+
+#~ msgid "store in box 1"
+#~ msgstr "spara i box 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "spara i box 2"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "Håller sköldpaddans nuvarande x-koordinat (kan användas istället för ett "
+#~ "nummerblock)"
+
+#~ msgid "print"
+#~ msgstr "skriv"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Spara som Logo"
+
+#, fuzzy
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "sätt färg på linjen som ritas av sköldpaddan"
+
+#~ msgid "set text color"
+#~ msgstr "ange textfärg"
+
+#~ msgid "number"
+#~ msgstr "tal"
+
+#~ msgid "top"
+#~ msgstr "topp"
+
+#~ msgid "Cartesian coordinates"
+#~ msgstr "Kartesiska koordinater"
+
+#~ msgid "set scale"
+#~ msgstr "ange skala"
+
+#~ msgid "white"
+#~ msgstr "Vitt"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "kopplar ihop aktion med verktygsbalkens kör-knappar"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "the canvas height"
+#~ msgstr "dukens höjd"
+
+#, fuzzy
+#~ msgid "presentation 2x1"
+#~ msgstr "presentation"
+
+#~ msgid "and"
+#~ msgstr "och"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr ""
+#~ "håller nuvarande penn-storlek (kan användas istället för ett nummerblock)"
+
+#~ msgid "set color"
+#~ msgstr "ange färg"
+
+#~ msgid "min"
+#~ msgstr "minsta"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "läs in mitt block"
+
+#, fuzzy
+#~ msgid "Palette of pen commands"
+#~ msgstr "palett med penn-kommandon"
+
+#, fuzzy
+#~ msgid "shows values in FILO (first-in last-out heap)"
+#~ msgstr "för värdet till FILO (first-in-last-out) stacken"
+
+#, fuzzy
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "om-så-annars operatör som använder booleanska operatörer från Nummer-"
+#~ "paletten"
+
+#~ msgid "File"
+#~ msgstr "Fil"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "logisk ICKE operator"
+
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "y-koordinaten för skärmens nedre sida"
+
+#~ msgid "presentation template: select Journal object (with description)"
+#~ msgstr "presentationsmall: välj Dagboksobjekt (med förklaring)"
+
+#, fuzzy
+#~ msgid "Palette of numeric operators"
+#~ msgstr "palett med numeriska operatörer"
+
+#~ msgid "forever"
+#~ msgstr "alltid"
+
+#, fuzzy
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "sätt nyans på linjen som ritas av sköldpaddan"
+
+#~ msgid "clean"
+#~ msgstr "rensa"
+
+#~ msgid "presentation template: select two Journal objects"
+#~ msgstr "presentationsmall: välj två Dagboksobjekt"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "Visa block"
+
+#~ msgid "Fullscreen"
+#~ msgstr "helskärm"
+
+#~ msgid "File not found"
+#~ msgstr "Hittar inte filen"
+
+#~ msgid "show"
+#~ msgstr "visa"
+
+#~ msgid "text"
+#~ msgstr "text"
+
+#~ msgid "random"
+#~ msgstr "slumpmässig"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "logiskt större än-operator"
+
+#, fuzzy
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "flytta sköldpaddan motsols (vinkel i grader)"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "tillbaka"
+
+#, fuzzy
+#~ msgid "calculates square root"
+#~ msgstr "beräkna kvadratroten"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "håller sköldpaddans nuvarande y-koordinat (kan användas istället för ett "
+#~ "nummerblock)"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "topp"
+
+# förkortningen kor. torde fungera för både koordinat och korrelation... Jämförde med andra språk så det motsvarar vad de översatt.
+#~ msgid "xcor"
+#~ msgstr "xkor"
+
+#~ msgid "Help"
+#~ msgstr "Hjälp"
+
+#, fuzzy
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "sätt färg på texten som ritas av sköldpaddan"
+
+#~ msgid "keyboard"
+#~ msgstr "Tangentbord"
+
+#~ msgid "arc"
+#~ msgstr "cirkelbåge"
+
+#~ msgid "radius"
+#~ msgstr "radie"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "Polära koordinater"
+
+#~ msgid "set shade"
+#~ msgstr "Ange skugga"
+
+#~ msgid "logical AND operator"
+#~ msgstr "logisk OCH operator"
+
+#~ msgid "Run"
+#~ msgstr "Utför"
+
+#~ msgid "show heap"
+#~ msgstr "visa stapel"
+
+#, fuzzy
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "Sätt sköldpaddans riktning (0 är mot skärmens topp.)"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "titel"
+
+#, fuzzy
+#~ msgid "Palette of variable blocks"
+#~ msgstr "palett med variabla block"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "används som numerisk indata i matematiska operatorer"
+
+#, fuzzy
+#~ msgid "presentation 2x2"
+#~ msgstr "presentation"
+
+#, fuzzy
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "variabel 1 (tal)"
+
+#, fuzzy
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "adderar två numeriska indata"
+
+#~ msgid "else"
+#~ msgstr "annars"
+
+#~ msgid "doesn't like"
+#~ msgstr "tycker inte om"
+
+#, fuzzy
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "sköldpaddan kommer inte att rita medan den flyttas"
+
+#~ msgid "pop"
+#~ msgstr "ta bort"
+
+#~ msgid "pen size"
+#~ msgstr "pennstorlek"
+
+#, fuzzy
+#~ msgid "moves turtle along an arc"
+#~ msgstr "flytta skldpaddan längs båge"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "logisk lika med-operator"
+
+#, fuzzy
+#~ msgid "Palette of pen colors"
+#~ msgstr "palett med penn-kommandon"
+
+#, fuzzy
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "spara tal i variabel 1"
+
+#, fuzzy
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "spara tal i variabel 2"
+
+#, fuzzy
+#~ msgid "moves turtle backward"
+#~ msgstr "flytta sköldpaddan bakåt"
+
+#~ msgid "ycor of top of screen"
+#~ msgstr "y-koordinaten för skärmens övre sida"
+
+#~ msgid "Show blocks"
+#~ msgstr "Visa block"
+
+#, fuzzy
+#~ msgid "save"
+#~ msgstr "Spara"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "färg"
+
+#, fuzzy
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "sätt tjockleken på linjen som ritas av sköldpaddan"
+
+#~ msgid "Open"
+#~ msgstr "Öppna"
+
+#~ msgid "orientation"
+#~ msgstr "riktning"
+
+# se ovan
+#~ msgid "ycor"
+#~ msgstr "ykor"
+
+#~ msgid "if"
+#~ msgstr "om"
+
+#, fuzzy
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr ""
+#~ "flytta sködpadden till position xcor, ycor; (0, 0) är i mitten av skärmen."
+
+#, fuzzy
+#~ msgid "Stop"
+#~ msgstr "topp"
+
+#, fuzzy
+#~ msgid "action 2"
+#~ msgstr "händelse"
+
+#, fuzzy
+#~ msgid "action 1"
+#~ msgstr "händelse"
+
+#~ msgid "Copy"
+#~ msgstr "Kopiera"
+
+#~ msgid "Paste"
+#~ msgstr "Klistra"
+
+#~ msgid "empty heap"
+#~ msgstr "töm stapel"
+
+#, fuzzy
+#~ msgid "pops value off FILO (first-in last-out heap)"
+#~ msgstr "för värdet till FILO (first-in-last-out) stacken"
+
+#~ msgid "Clean"
+#~ msgstr "rensa"
+
+#, fuzzy
+#~ msgid "Palette of presentation templates"
+#~ msgstr "palett med presentationsmallar"
+
+#~ msgid "angle"
+#~ msgstr "vinkel"
+
+#~ msgid "audio"
+#~ msgstr "Ljud"
+
+#~ msgid "Tools"
+#~ msgstr "Verktyg"
+
+#~ msgid "left"
+#~ msgstr "vänster"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "subtraherar undre numeriskt indata från övre numeriskt indata"
+
+#~ msgid "query for keyboard input (results stored in keyboard block)"
+#~ msgstr ""
+#~ "förfrågan för tangentbordsinmatning (resultat sparas i tangentbord blocket)"
+
+#~ msgid "voltage"
+#~ msgstr "spänning"
+
+#, fuzzy
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "rensa skärmen och återställ sköldpaddan"
+
+#, fuzzy
+#~ msgid "invokes Action 1 stack"
+#~ msgstr "anropa stacken för aktion 1"
+
+#, fuzzy
+#~ msgid "Palette of turtle commands"
+#~ msgstr "palett med skölpaddskommandon"
+
+#, fuzzy
+#~ msgid "loops forever"
+#~ msgstr "repetera oändligt"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Sköldpaddskonst"
+
+#~ msgid "Project"
+#~ msgstr "Projekt"
+
+#~ msgid "Debug"
+#~ msgstr "Felsök"
+
+#, fuzzy
+#~ msgid "Password"
+#~ msgstr "Lösenord:"
+
+#, fuzzy
+#~ msgid "show blocks"
+#~ msgstr "Visa block"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "Förklaringsfält för Sugar-Journalen"
+
+#~ msgid "New"
+#~ msgstr "Ny"
+
+#~ msgid "scale"
+#~ msgstr "skala"
+
+#~ msgid "bottom"
+#~ msgstr "botten"
+
+#~ msgid "click to open"
+#~ msgstr "Klicka för att öppna"
+
+#~ msgid "Description:"
+#~ msgstr "Beskrivning:"
+
+#~ msgid "journal"
+#~ msgstr "dagbok"
+
+#, fuzzy
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "sköldpaddan kommer att rita medan den flyttas"
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "ljudobjekt från Sugar-Dagboken"
+
+#~ msgid "Stop turtle"
+#~ msgstr "stoppa sköldpadda"
+
+#~ msgid "Turtle"
+#~ msgstr "Sköldpadda"
+
+#~ msgid "store in"
+#~ msgstr "spara i"
+
+#~ msgid "Hide blocks"
+#~ msgstr "dölj block"
+
+#~ msgid "or"
+#~ msgstr "eller"
+
+#, fuzzy
+#~ msgid "presentation template: list of bullets"
+#~ msgstr "presentationsmall: sju punkter"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "identitetsoperator används för att utöka block"
+
+#, fuzzy
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "sätt storlek på text som ritas av sköldpaddan"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr ""
+#~ "håller sköldpaddans nuvarande riktningsvärde (kan användas istället för ett "
+#~ "nummerblock)"
+
+#~ msgid "image"
+#~ msgstr "bild"
+
+#, fuzzy
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr ""
+#~ "returnerar slumpmässigt tal mellan minimum (vänster) och maximum (höger)"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr "håller nuvarande penn-färg (kan användas istället för ett nummerblock)"
+
+# visa palett
+#~ msgid "Show palette"
+#~ msgstr "Visa palett"
+
+#~ msgid "Save snapshot"
+#~ msgstr "Spara snabb-bild"
+
+#~ msgid "start"
+#~ msgstr "starta"
+
+#, fuzzy
+#~ msgid "moves turtle forward"
+#~ msgstr "flytta sköldpaddan framåt"
+
+#~ msgid "forward"
+#~ msgstr "framåt"
+
+#~ msgid "back"
+#~ msgstr "tillbaka"
+
+#, fuzzy
+#~ msgid "sets the scale of media"
+#~ msgstr "Sätt skalan på mediet"
+
+#, fuzzy
+#~ msgid "presentation 1x1"
+#~ msgstr "presentation"
+
+#, fuzzy
+#~ msgid "presentation 1x2"
+#~ msgstr "presentation"
+
+#~ msgid "top of nameable action stack"
+#~ msgstr "början av en stack för en aktion som kan namnges"
+
+#, fuzzy
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "spara tal i namngiven variabel"
+
+#~ msgid "logical OR operator"
+#~ msgstr "logisk ELLER operator"
+
+#, fuzzy
+#~ msgid "loops specified number of times"
+#~ msgstr "repetera specifierat antal gånger"
+
+#, fuzzy
+#~ msgid "invokes Action 2 stack"
+#~ msgstr "anropa stacken för aktion 2"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "ange x,y"
+
+#~ msgid "fill screen"
+#~ msgstr "fyll skärm"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "Spara som"
+
+#~ msgid "set xy"
+#~ msgstr "ange x,y"
+
+#~ msgid "repeat"
+#~ msgstr "upprepa"
+
+#~ msgid "Save as image"
+#~ msgstr "Spara som bild"
+
+#~ msgid "Edit"
+#~ msgstr "Redigera"
+
+#, fuzzy
+#~ msgid "top of Action 2 stack"
+#~ msgstr "början av stacken för aktion 2"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr ""
+#~ "dividerar övre numeriskt indata (täljare) med undre numeriskt indata "
+#~ "(nämnare)"
+
+#~ msgid "max"
+#~ msgstr "största"
+
+#~ msgid "prints value in status block at bottom of the screen"
+#~ msgstr "skriver ut värde i statusblock vid botten av skärmen"
+
+#, fuzzy
+#~ msgid "holds results of query-keyboard block as ASCII"
+#~ msgstr "innehåller resultat från förfrågan-tangentbord blocket"
+
+#~ msgid "push"
+#~ msgstr "lägg till sist"

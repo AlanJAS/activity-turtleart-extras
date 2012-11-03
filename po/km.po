@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -316,7 +316,7 @@ msgstr ""
 
 #: taextras.py:135
 msgid "brightness"
-msgstr ""
+msgstr "ពន្លឺ"
 
 #: taextras.py:136
 msgid "set the camera brightness as a value between 0 to 255."
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "កម្ពស់"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "ទទឹង"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +725,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "អត្ដសញ្ញាណ"
 
 #: taextras.py:267
 msgid ""
@@ -854,19 +855,21 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "ពណ៌"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "ស្តាំ"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "សំឡេង"
 
 #: taextras.py:320
+#, fuzzy
 msgid "grey"
-msgstr ""
+msgstr "​ប្រផេះ"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
@@ -948,7 +951,7 @@ msgstr ""
 
 #: taextras.py:340
 msgid "time"
-msgstr ""
+msgstr "ពេល​វេលា"
 
 #: taextras.py:341
 msgid "Play a tone at frequency for time."
@@ -962,8 +965,9 @@ msgid ""
 msgstr ""
 
 #: taextras.py:344
+#, fuzzy
 msgid "port"
-msgstr ""
+msgstr "ច្រក"
 
 #: taextras.py:345
 msgid "power"
@@ -1059,8 +1063,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "ក្រហម"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1218,8 +1223,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "ផ្លាស់ទី"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1231,7 +1237,7 @@ msgstr ""
 
 #: taextras.py:421
 msgid "value"
-msgstr ""
+msgstr "តម្លៃ​"
 
 #: taextras.py:422
 msgid "Write analog value in specified port."
@@ -1458,3 +1464,413 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "ចំណង​ជើង"
+
+#~ msgid "yellow"
+#~ msgstr "​លឿង"
+
+#~ msgid "Step"
+#~ msgstr "ជំហាន"
+
+#~ msgid "Buddies"
+#~ msgstr "មិត្តជិតស្និទ្ធិ"
+
+#~ msgid "cyan"
+#~ msgstr "ពណ៌​កាប់​ស្តាំង​"
+
+#~ msgid "list"
+#~ msgstr "បញ្ជី"
+
+#, fuzzy
+#~ msgid "heading"
+#~ msgstr "ការអាន​ "
+
+#~ msgid "video"
+#~ msgstr "វីដេអូ"
+
+#~ msgid "blue"
+#~ msgstr "​​ខៀវ"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "ខាង​ក្រោម"
+
+#~ msgid "wait"
+#~ msgstr "រង់​ចាំ"
+
+#~ msgid "box"
+#~ msgstr "ប្រអប់​"
+
+#~ msgid "action"
+#~ msgstr "សកម្មភាព"
+
+#~ msgid "divide"
+#~ msgstr "ចែក"
+
+#, fuzzy
+#~ msgid "while"
+#~ msgstr "ស"
+
+#~ msgid "next"
+#~ msgstr "បន្ទាប់"
+
+#~ msgid "Login failed"
+#~ msgstr "បាន​បរាជ័យ​ក្នុងការ​ចូល"
+
+#~ msgid "string value"
+#~ msgstr "តម្លៃ​ខ្សែអក្សរ"
+
+#~ msgid "description"
+#~ msgstr "ការពិពណ៌នា"
+
+#~ msgid "Username:"
+#~ msgstr "ឈ្មោះអ្នក​ប្រើ ៖"
+
+#~ msgid "View"
+#~ msgstr "ទិដ្ឋភាព"
+
+#~ msgid "Password:"
+#~ msgstr "ពាក្យ​សម្ងាត់ ៖"
+
+#, fuzzy
+#~ msgid "stop action"
+#~ msgstr "បង្ហាញ​រូបតំណាង​ក្នុង​ថាស​ប្រព័ន្ធ"
+
+#~ msgid "green"
+#~ msgstr "​​បៃតង"
+
+#~ msgid "shade"
+#~ msgstr "ស្រមោល​"
+
+#~ msgid "pitch"
+#~ msgstr "កម្ពស់សំឡេង"
+
+#~ msgid "orange"
+#~ msgstr "ពណ៌​ទឹក​ក្រូច​"
+
+#~ msgid "clear all"
+#~ msgstr "ជម្រះ​ទាំង​អស់"
+
+#~ msgid "then"
+#~ msgstr "នោះ"
+
+#~ msgid "Register"
+#~ msgstr "ចុះឈ្មោះ"
+
+#~ msgid "not"
+#~ msgstr "មិន"
+
+#~ msgid "turtle"
+#~ msgstr "អណ្ដើក"
+
+#~ msgid "Save"
+#~ msgstr "​រក្សា​ទុក"
+
+#~ msgid "print"
+#~ msgstr "បោះពុម្ព"
+
+#, fuzzy
+#~ msgid "Save as Logo"
+#~ msgstr "บันทึกเป็น .ogg"
+
+#~ msgid "set text color"
+#~ msgstr "ជ្រើស​ពណ៌​អត្ថបទ"
+
+#~ msgid "loudness"
+#~ msgstr "ភាពឮ"
+
+#~ msgid "number"
+#~ msgstr "លេខ"
+
+#~ msgid "top"
+#~ msgstr "កំពូល"
+
+#~ msgid "Nickname"
+#~ msgstr "សម្មតិនាម"
+
+#~ msgid "white"
+#~ msgstr "ស"
+
+#~ msgid "Cancel"
+#~ msgstr "បោះបង់"
+
+#, fuzzy
+#~ msgid "presentation 2x1"
+#~ msgstr "ទិស"
+
+#~ msgid "minus"
+#~ msgstr "ដក"
+
+#, fuzzy
+#~ msgid "set color"
+#~ msgstr "កំណត់​ពណ៌"
+
+#~ msgid "min"
+#~ msgstr "នាទី"
+
+#~ msgid "File"
+#~ msgstr "ឯកសារ"
+
+#~ msgid "multiply"
+#~ msgstr "គុណ"
+
+#~ msgid "forever"
+#~ msgstr "ជារៀង​រហូត"
+
+#~ msgid "snapshot"
+#~ msgstr "រូបថត"
+
+#~ msgid "clean"
+#~ msgstr "ស្អាត"
+
+#~ msgid "Fullscreen"
+#~ msgstr "ពេញ​អេក្រង់"
+
+#~ msgid "File not found"
+#~ msgstr "រក​មិន​ឃើញ​ឯកសារ"
+
+#~ msgid "show"
+#~ msgstr "បង្ហាញ"
+
+#~ msgid "text"
+#~ msgstr "អត្ថបទ"
+
+#~ msgid "random"
+#~ msgstr "ព្រាវ"
+
+#~ msgid "black"
+#~ msgstr "ខ្មៅ"
+
+#~ msgid "stop"
+#~ msgstr "បញ្ឈប់"
+
+#~ msgid "greater than"
+#~ msgstr "​ធំជាង"
+
+#~ msgid "xcor"
+#~ msgstr "ตำแหน่ง x"
+
+#~ msgid "Help"
+#~ msgstr "ជំនួយ"
+
+#~ msgid "keyboard"
+#~ msgstr "ក្ដារ​ចុច"
+
+#~ msgid "arc"
+#~ msgstr "ធ្នូ"
+
+#~ msgid "radius"
+#~ msgstr "កាំ"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "កូអរដោនេ​ប៉ូល"
+
+#~ msgid "Run"
+#~ msgstr "រត់"
+
+#, fuzzy
+#~ msgid "show heap"
+#~ msgstr "បង្ហាញ​ជំនួយ"
+
+#~ msgid "Title:"
+#~ msgstr "ចំណងជើង ៖"
+
+#~ msgid "Upload"
+#~ msgstr "ផ្ទុកឡើង"
+
+#~ msgid "Server"
+#~ msgstr "ម៉ាស៊ីន​បម្រើ"
+
+#, fuzzy
+#~ msgid "presentation 2x2"
+#~ msgstr "ទិស"
+
+#~ msgid "Neighborhood"
+#~ msgstr "ភាព​ជិត​ខាង"
+
+#~ msgid "equal"
+#~ msgstr "ស្មើ"
+
+#~ msgid "pop"
+#~ msgstr "លេច​ឡើង"
+
+#~ msgid "play"
+#~ msgstr "ចាក់"
+
+#, fuzzy
+#~ msgid "save"
+#~ msgstr "​រក្សា​ទុក"
+
+#~ msgid "Colors"
+#~ msgstr "ពណ៌"
+
+#~ msgid "Open"
+#~ msgstr "បើក"
+
+#~ msgid "orientation"
+#~ msgstr "ទិស"
+
+#~ msgid "ycor"
+#~ msgstr "ตำแหน่ง y"
+
+#~ msgid "Python"
+#~ msgstr "Python"
+
+#~ msgid "Stop"
+#~ msgstr "ឈប់"
+
+#, fuzzy
+#~ msgid "action 2"
+#~ msgstr "សកម្មភាព"
+
+#, fuzzy
+#~ msgid "action 1"
+#~ msgstr "សកម្មភាព"
+
+#~ msgid "Copy"
+#~ msgstr "ចំលង"
+
+#~ msgid "Paste"
+#~ msgstr "បិទភ្ជាប់​"
+
+#~ msgid "Activities"
+#~ msgstr "សកម្មភាព"
+
+#~ msgid "Clean"
+#~ msgstr "ស្អាត"
+
+#~ msgid "angle"
+#~ msgstr "មុំ"
+
+#~ msgid "audio"
+#~ msgstr "សំលេង"
+
+#~ msgid "Tools"
+#~ msgstr "ឧបករណ៍"
+
+#~ msgid "left"
+#~ msgstr "ឆ្វេង"
+
+#~ msgid "comment"
+#~ msgstr "មតិ​យោបល់"
+
+#~ msgid "Project"
+#~ msgstr "គម្រោង"
+
+#~ msgid "Debug"
+#~ msgstr "បំបាត់​កំហុស"
+
+#~ msgid "Password"
+#~ msgstr "ពាក្យ​សម្ងាត់"
+
+#~ msgid "Share"
+#~ msgstr "ចែករំលែក"
+
+#~ msgid "less than"
+#~ msgstr "​តូចជាង"
+
+#~ msgid "square root"
+#~ msgstr "ប្រភាគ"
+
+#~ msgid "Quit"
+#~ msgstr "បោះបង់"
+
+#~ msgid "New"
+#~ msgstr "ថ្មី"
+
+#~ msgid "scale"
+#~ msgstr "មាត្រដ្ឋាន"
+
+#~ msgid "bottom"
+#~ msgstr "ខាង​ក្រោម"
+
+#, fuzzy
+#~ msgid "purple"
+#~ msgstr "ស្វាយ"
+
+#~ msgid "click to open"
+#~ msgstr "กดเปิด"
+
+#~ msgid "Configuration"
+#~ msgstr "ការ​កំណត់​រចនាសម្ព័ន្ធ"
+
+#~ msgid "Description:"
+#~ msgstr "សេចក្ដី​ពិពណ៌នា ៖"
+
+#~ msgid "journal"
+#~ msgstr "ទានានុប្បវត្តិ"
+
+#~ msgid "empty trash"
+#~ msgstr "សម្អាត​ធុង​សំរាម"
+
+#~ msgid "Load..."
+#~ msgstr "ផ្ទុក..."
+
+#~ msgid "Turtle"
+#~ msgstr "អណ្ដើក"
+
+#~ msgid "plus"
+#~ msgstr "បូក"
+
+#~ msgid "or"
+#~ msgstr "ឬ"
+
+#~ msgid "image"
+#~ msgstr "រូប​ភាព"
+
+#~ msgid "Save snapshot"
+#~ msgstr "រក្សាទុក​រូបថត"
+
+#~ msgid "start"
+#~ msgstr "ចាប់ផ្ដើម"
+
+#~ msgid "forward"
+#~ msgstr "បញ្ជូនបន្ត"
+
+#~ msgid "Account ID"
+#~ msgstr "លេខ​សម្គាល់​គណនី"
+
+#~ msgid "back"
+#~ msgstr "ថយ​ក្រោយ"
+
+#, fuzzy
+#~ msgid "presentation 1x1"
+#~ msgstr "ទិស"
+
+#, fuzzy
+#~ msgid "presentation 1x2"
+#~ msgstr "ទិស"
+
+#~ msgid "Save..."
+#~ msgstr "រក្សា​ទុក..."
+
+#, fuzzy
+#~ msgid "fill screen"
+#~ msgstr "អេក្រង់​ពេញ"
+
+#~ msgid "Save as"
+#~ msgstr "រក្សាទុក​ជា"
+
+#~ msgid "trash"
+#~ msgstr "ធុង​សំរាម"
+
+#~ msgid "polar"
+#~ msgstr "ប៉ូល"
+
+#~ msgid "repeat"
+#~ msgstr "ធ្វើម្តង​ទៀត​"
+
+#~ msgid "Edit"
+#~ msgstr "កែសម្រួល"
+
+#~ msgid "max"
+#~ msgstr "អតិ"
+
+#, fuzzy
+#~ msgid "start fill"
+#~ msgstr "ចាប់ផ្ដើម​ទាំងអស់"
+
+#~ msgid "push"
+#~ msgstr "ចុច"

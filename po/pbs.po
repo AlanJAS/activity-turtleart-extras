@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -156,7 +156,7 @@ msgstr ""
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "ne se lu'ujuñ manajap xikich'"
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: taextras.py:135
 msgid "brightness"
-msgstr ""
+msgstr "vanjial'"
 
 #: taextras.py:136
 msgid "set the camera brightness as a value between 0 to 255."
@@ -576,8 +576,9 @@ msgstr ""
 
 #. TRANS: Please use similar terms to those used in the Physics Activity
 #: taextras.py:223
+#, fuzzy
 msgid "Palette of physics blocks"
-msgstr ""
+msgstr "Nijang se lumei re me'ets kily'e lu'uei vani'at matsjau"
 
 #: taextras.py:224
 msgid "start polygon"
@@ -695,11 +696,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +726,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "jui malep"
 
 #: taextras.py:267
 msgid ""
@@ -766,8 +768,9 @@ msgstr ""
 
 #. TRANS: WeDo is a robotics product of the LEGO company
 #: taextras.py:284
+#, fuzzy
 msgid "Palette of WeDo blocks"
-msgstr ""
+msgstr "Nijang se lumei re me'ets kily'e lu'uei vani'at matsjau"
 
 #: taextras.py:285
 msgid "WeDo"
@@ -854,19 +857,21 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "xikjia'"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "majaap"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "lijiu"
 
 #: taextras.py:320
+#, fuzzy
 msgid "grey"
-msgstr ""
+msgstr "tsundué"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
@@ -962,8 +967,9 @@ msgid ""
 msgstr ""
 
 #: taextras.py:344
+#, fuzzy
 msgid "port"
-msgstr ""
+msgstr "Ndejei'"
 
 #: taextras.py:345
 msgid "power"
@@ -1059,8 +1065,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "nu'ua"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1218,8 +1225,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "mod"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1231,7 +1239,7 @@ msgstr ""
 
 #: taextras.py:421
 msgid "value"
-msgstr ""
+msgstr "liñjú"
 
 #: taextras.py:422
 msgid "Write analog value in specified port."
@@ -1289,8 +1297,9 @@ msgstr ""
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:440
+#, fuzzy
 msgid "Palette of Expeyes blocks"
-msgstr ""
+msgstr "Nijang se lumei re me'ets kily'e lu'uei vani'at matsjau"
 
 #. TRANS: Programmable voltage output
 #: taextras.py:442
@@ -1458,3 +1467,942 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "resume playing video or audio"
+#~ msgstr "tsukuet maleiñ ne se lijiu maka'an leet"
+
+#~ msgid "Title"
+#~ msgstr "Ngunjiu' re kily'e me'ets"
+
+#~ msgid "Average RGB color from camera is pushed to the stack"
+#~ msgstr "Majau masau' re xikjiap' RGB ne ndake'eik leet maa pu manajap"
+
+#~ msgid "yellow"
+#~ msgstr "niján'"
+
+#~ msgid "camera output"
+#~ msgstr "xikji'ik se lumei ne ndake'eik leet"
+
+#~ msgid "push acceleration in x, y, z to heap"
+#~ msgstr "lamejep pu se lu'uei lutsjau likiu' manei ravu x, y z ne manajap"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr "katsjau lik'iajam kujui vake' ne nijang se lumei rabe'en"
+
+#~ msgid "jogs stack right"
+#~ msgstr "vikjiu't pu manajap nimia mamajap"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "sania' se vania'at me'ets xiñi'iu xiñi'iu ne sugar"
+
+#~ msgid "box 2"
+#~ msgstr "ndakjaat nui"
+
+#~ msgid "box 1"
+#~ msgstr "ndakjaat nda"
+
+#~ msgid "Step"
+#~ msgstr "Kigyuá"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "vilyip lamejep nui ndejei' rabe'en"
+
+#~ msgid "Hide palette"
+#~ msgstr "ma'aung nijang"
+
+#~ msgid "Buddies"
+#~ msgstr "Majau tily'ajau"
+
+#~ msgid "My Turtle Art session"
+#~ msgstr "pu kauk tijiap ne tortugArte"
+
+#~ msgid "Sugar Journal video object"
+#~ msgstr "sania' ndaka'an leet xiñi'iu xiñi'iu ne sugar"
+
+#~ msgid "cyan"
+#~ msgstr "cian"
+
+#~ msgid "Load example"
+#~ msgstr "Maveje'p manu peuk me'ei matsjau"
+
+#~ msgid "move all blocks to trash"
+#~ msgstr "vikia'aut mi'ia re se xik'iai'"
+
+#~ msgid "media resume"
+#~ msgstr "ma nuap laku'"
+
+#~ msgid "heading"
+#~ msgstr "peuk manamaa"
+
+#~ msgid "Sharing blocks disabled"
+#~ msgstr "Skad-a make' se keich' kily'e"
+
+#~ msgid "saves turtle graphics as an SVG file in the Sugar Journal"
+#~ msgstr ""
+#~ "vikjiat ravu se nichjaú pu kiñkie' kumu' nkjai' navú makjat ngk'uix SVG pu "
+#~ "xiñi'iu xiñi'iu matsjau kad-ua ninchaul"
+
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "me'es matsjau ma'u'up kad-er se limi xiñi'iu xiñi'iu"
+
+#~ msgid "RFID"
+#~ msgstr "RFID"
+
+#~ msgid "video"
+#~ msgstr "ndaka'an let"
+
+#~ msgid "blue"
+#~ msgstr "skusuá'"
+
+#~ msgid "jogs stack down"
+#~ msgstr "vikjiu't pu manap nimia kupu'"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "katsjau sad-ia' (lijeng)"
+
+#~ msgid "save SVG"
+#~ msgstr "makjat SVG"
+
+#~ msgid "pen down"
+#~ msgstr "mapuu' ne nde'ets kily'e"
+
+#~ msgid "wait"
+#~ msgstr "mapee"
+
+#~ msgid "box"
+#~ msgstr "ndakjaat"
+
+#~ msgid "Failed to upload!"
+#~ msgstr "Matsu' se mave'eje'p"
+
+#~ msgid "shift"
+#~ msgstr "mantsux"
+
+#~ msgid "invokes named action stack"
+#~ msgstr "ma'ajau ne manajap matsjau mamejep ngunju'"
+
+#~ msgid "action"
+#~ msgstr "matsjau"
+
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "katsjau lik'iajam kujui nip peuk vake't katsjau vupaat se lumei pu nijang "
+#~ "lumei kily'e"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "se lu'uei liviaun' (kusau rabe'en)"
+
+#~ msgid "divide"
+#~ msgstr "masajaik"
+
+#~ msgid "picture name"
+#~ msgstr "ngunjiu' xikji'ik"
+
+#~ msgid "while"
+#~ msgstr "vupee sad-ia'"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "se lu'uei liviaun' mamejep ngunjiu' (kusau rabe'en)"
+
+#~ msgid "next"
+#~ msgstr "likiu'uch'"
+
+#~ msgid "if then"
+#~ msgstr "lik'iajam xi'iap"
+
+#~ msgid "set pen size"
+#~ msgstr "makeje' ngutue'p"
+
+#~ msgid "until"
+#~ msgstr "lamee"
+
+#~ msgid "media stop"
+#~ msgstr "mama'ai re se limi"
+
+#~ msgid "Turn on hover help"
+#~ msgstr "Make' nabaik ta'ats"
+
+#~ msgid "permanently deletes items in trash"
+#~ msgstr "viviun lem re se lumei ndakal' ngk'uix"
+
+#~ msgid "top of Action 1 stack"
+#~ msgstr "kutap se ne manajap matsjau nda"
+
+#~ msgid "Palette of flow operators"
+#~ msgstr "Nijang se katsjau lumei kute"
+
+#, fuzzy
+#~ msgid "top of a collapsed stack"
+#~ msgstr "kimvia' nda manajap se vani'at mave'et"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "katsjau lik'iajam-kujui-nipeuk vake't katsjau vupaat se lumei pu nijang "
+#~ "lumei kily'e"
+
+#~ msgid "holds current pen shade"
+#~ msgstr "lumei majau masau' xikjia' ne nde'ets kily'e"
+
+#~ msgid "Login failed"
+#~ msgstr "Ndich'u se me'ei maní"
+
+#~ msgid "set heading"
+#~ msgstr "makeje' peuk manamá"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>w"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>s"
+
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrol>e"
+
+#~ msgid "horizontal space"
+#~ msgstr "tejiap mameje'p"
+
+#~ msgid "string value"
+#~ msgstr "liñjup ne ngulje'e"
+
+#~ msgid "description"
+#~ msgstr "mamang peuk vakja"
+
+#~ msgid "I don't know how to"
+#~ msgstr "nip la'u' peuk munu'uei mu nutsjau"
+
+#~ msgid "set text size"
+#~ msgstr "makeje' mandap re kily'e me'ets"
+
+#~ msgid "Username:"
+#~ msgstr "k'ua' vake':"
+
+#~ msgid "starts filled polygon (used with end fill block)"
+#~ msgstr ""
+#~ "Mapup mane´p pu ranju'muu se me'ei mata'aun( make' se me'ei mane'ei ravú "
+#~ "kad-a)"
+
+#~ msgid "View"
+#~ msgstr "Man´´u"
+
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "mamejep majau masau se tsundue ne niñ'eje se ve'es pu kumú'"
+
+#~ msgid "Password:"
+#~ msgstr "Kily'e se liji vupai:"
+
+#~ msgid "stop action"
+#~ msgstr "Mama'ai kanen vatsjau"
+
+#~ msgid "green"
+#~ msgstr "niñkijily'"
+
+#~ msgid "shade"
+#~ msgstr "lijiú"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "viñee't pu kimviu'p lamejep (xikjia't, nixaú)"
+
+#~ msgid "save picture"
+#~ msgstr "makjat xikji'ik"
+
+#~ msgid "pitch"
+#~ msgstr "lunep lijiu"
+
+#~ msgid "Rescale coordinates up"
+#~ msgstr "tajaich' maku'uts sad-ia ma kujaich'"
+
+#~ msgid "pen up"
+#~ msgstr "majáu ne nde'ets kil'e"
+
+#~ msgid "orange"
+#~ msgstr "ni'an"
+
+#~ msgid "pauses program execution a specified number of seconds"
+#~ msgstr "luma'ai se sania' lustjau na'a kad-a kusau rabe'en tijia'p"
+
+#~ msgid "clear all"
+#~ msgstr "matseiñ' mi'ia"
+
+#~ msgid "then"
+#~ msgstr "xi'iap"
+
+#~ msgid "Register"
+#~ msgstr "Matsjau"
+
+#~ msgid "not"
+#~ msgstr "mut"
+
+#~ msgid "if then else"
+#~ msgstr "lik'iajam kujui nipeuk"
+
+#~ msgid "stops current action"
+#~ msgstr "luma'ai kanen vatsjau chu'maní"
+
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "vikia't pu kumú' nimia ma kutau (angulo engrados)"
+
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr ""
+#~ "lumei majau masau' se tsunduep ( lania'at lakje kujui nip manakje rabe'en)"
+
+#~ msgid "displays next palette"
+#~ msgstr "ma'u'up ne nijang likiu'uch'"
+
+#, fuzzy
+#~ msgid "hide blocks"
+#~ msgstr "Ma'aung me'ets kily'e"
+
+#~ msgid "light level detected by camera"
+#~ msgstr "vakjap ne xikich ndukueje ne ndake'eik leet"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "katsjau kapat mana'p navú"
+
+#~ msgid "restore all blocks from trash"
+#~ msgstr "vichjaut mi'ia re se lumei ngk'uix"
+
+#, fuzzy
+#~ msgid "Save"
+#~ msgstr "Makjat"
+
+#~ msgid "store in box 1"
+#~ msgstr "makjaat kiñkie' nda ndajul'"
+
+#~ msgid "store in box 2"
+#~ msgstr "makjaat kiñkie' ndakjaat nui"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "lumei peuk se ma nat'ei ma nanju sad-ia' x lumei ne kumu' (lania'at lakje "
+#~ "kujui nip manakje' rabe'en)"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Makjaat matsjau"
+
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "kiji'it ne xikjia' se mane'eima nad-es niñ'eje' ne kumu´"
+
+#~ msgid "set text color"
+#~ msgstr "makeje' kad-er xikjia' me'ets kily'e"
+
+#~ msgid "loudness"
+#~ msgstr "manaja"
+
+#~ msgid "Enable collaboration"
+#~ msgstr "Manuap ma tabaik"
+
+#~ msgid "Load plugin"
+#~ msgstr "Maveje'p plugin"
+
+#~ msgid "number"
+#~ msgstr "rabe'en"
+
+#~ msgid "top"
+#~ msgstr "kimvia'"
+
+#~ msgid "Submit to Web"
+#~ msgstr "Mapai nama web"
+
+#~ msgid "Nickname"
+#~ msgstr "vum'ejep ngunjiu'"
+
+#~ msgid "set scale"
+#~ msgstr "makeje' peuk lu'ue lijiú"
+
+#~ msgid "Share selected blocks"
+#~ msgstr "Skad-a make' re se vu-ua me'ets"
+
+#~ msgid "white"
+#~ msgstr "kad-uá"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "kia'an ne ndavaí re ndaleiñ se me'e make'"
+
+#~ msgid "Cancel"
+#~ msgstr "Mapejeel'"
+
+#~ msgid "minus"
+#~ msgstr "maleje'p"
+
+#~ msgid "and"
+#~ msgstr "y"
+
+#~ msgid "top of a collapsible stack"
+#~ msgstr "kimvia' nda manajap se vani'at mave'et"
+
+#~ msgid "as input"
+#~ msgstr "njai' ndejei'"
+
+#~ msgid "media wait"
+#~ msgstr "mapé re se limi"
+
+#~ msgid "acceleration"
+#~ msgstr "navu se lu'uei lutsjau manei"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr ""
+#~ "lumei ne ngutue'p se chu' lumei ne nde'ets kily'e (lania'at make kujui nip "
+#~ "make' rabe'en)"
+
+#~ msgid "set color"
+#~ msgstr "makeje' xikjia'"
+
+#~ msgid "min"
+#~ msgstr "sau' lakejé"
+
+#~ msgid "Palette of pen commands"
+#~ msgstr "Nijang se vupai re nde'ets kily'e"
+
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "katsjau lik'iajam-kujui-nipeuk vake't katsjau vupaat se lumei pu nijang "
+#~ "lumei kily'e"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "katsjau nip lupat"
+
+#~ msgid "Palette of numeric operators"
+#~ msgstr "Nijang se lumei rabe'en make'"
+
+#~ msgid "multiply"
+#~ msgstr "vilyip lamejep"
+
+#~ msgid "forever"
+#~ msgstr "Leem"
+
+#, python-format
+#~ msgid "Plugin %s already installed."
+#~ msgstr "Ne plugin %s majau mamejep."
+
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "kiji'it peuk ma vakja ne niñ'eje' se pu kumú' ve'es"
+
+#~ msgid "speaks text"
+#~ msgstr "ve'eje' re kily'e"
+
+#~ msgid "snapshot"
+#~ msgstr "manei"
+
+#~ msgid "clean"
+#~ msgstr "matseiñ'"
+
+#~ msgid "Grow blocks"
+#~ msgstr "Mandap re kily'e me'ets"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Mi'ia kutau nak'uju'ly"
+
+#~ msgid "show"
+#~ msgstr "nda'u'up"
+
+#~ msgid "text"
+#~ msgstr "kily'e keich'"
+
+#~ msgid "random"
+#~ msgstr "kensemakeje'"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "katsjau kapaat mad-uajap navú"
+
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "vikia't pu kumú' nimia ngupeix (angelo en grados)"
+
+#~ msgid "black"
+#~ msgstr "numvúu"
+
+#~ msgid "calculates square root"
+#~ msgstr "vichjaut vipiat ne nikji kiñuimuu"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "lumei peuk se ma nat'ei nanju sad-ia' y lumei ne kumú' (lania'at lakje' "
+#~ "kujui nip manakje rabe'en)"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "ndama'ai"
+
+#~ msgid "greater than"
+#~ msgstr "mad-uajap navú"
+
+#~ msgid "xcor"
+#~ msgstr "coorx"
+
+#~ msgid "Help"
+#~ msgstr "Nabaik"
+
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "makeje' peuk vakja xikjia'p re kily'e se ndutsjau pu kumú'"
+
+#~ msgid "light level detected by light sensor"
+#~ msgstr "majau masau' kutsja'au ndukueje ne se lutsjau vani'at make'"
+
+#~ msgid "Plugin could not be installed."
+#~ msgstr "navú plugin nip mvania'at manam'ejep."
+
+#~ msgid "arc"
+#~ msgstr "ngulja'"
+
+#~ msgid "radius"
+#~ msgstr "ngube'ei"
+
+#~ msgid "set shade"
+#~ msgstr "makeje' peuk lu'ue lijiú"
+
+#~ msgid "logical AND operator"
+#~ msgstr "katsjau kad-ep lupat"
+
+#~ msgid ""
+#~ "You must have an account at http://turtleartsite.sugarlabs.org to upload "
+#~ "your project."
+#~ msgstr ""
+#~ "tumei numei peuk nu'uei njui pu http://turtleartesite.sugarlabs.org kujui "
+#~ "luju'u lupu navu se ndul'ueje ma natsjau."
+
+#~ msgid "Run"
+#~ msgstr "Mapai latsjau"
+
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "kiji'it peuk mane'ei pu kumú' (0 se maa kibia ne kutau nak'ujuly"
+
+#~ msgid "microphone input volume"
+#~ msgstr "manaja se vat'ei vum'ejep ndape'et leet"
+
+#~ msgid "Title:"
+#~ msgstr "Ngunjiu' kily'e me'ets:"
+
+#~ msgid "Palette of media objects"
+#~ msgstr "Nijang se lumei kily'e nop lik'iajam ndu'et"
+
+#~ msgid "Restore blocks from trash"
+#~ msgstr "Vichjaut mi'ia re se lumei ngk'uix"
+
+#~ msgid "Palette of variable blocks"
+#~ msgstr "Nijang se lumei valei me'ets kad-er ndavai"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "make' nkjai' rabe'en se vat'ei vatsjau rabe'en"
+
+#~ msgid "Upload"
+#~ msgstr "Maveje'p"
+
+#~ msgid "Server"
+#~ msgstr "Katsjau"
+
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "lu'uei liviaun (kusau' rave'en)"
+
+#~ msgid "Neighborhood"
+#~ msgstr "Rim'ijip"
+
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "lamejep lasalt nui ndejei' se lumei rabe'en"
+
+#~ msgid "equal"
+#~ msgstr "skad-a lulejem"
+
+#~ msgid "else"
+#~ msgstr "kad-ep"
+
+#~ msgid "doesn't like"
+#~ msgstr "nip mvandaich'"
+
+#~ msgid "stop video or audio"
+#~ msgstr "luma'ai ne se lijiu u ndaka'an leet"
+
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "Pu kumú' nip manaju'u natsjau sania' xi'iap se likia'aut."
+
+#~ msgid "pen size"
+#~ msgstr "ngutue'p"
+
+#~ msgid "√"
+#~ msgstr "√"
+
+#~ msgid "speak"
+#~ msgstr "nia"
+
+#~ msgid "read value from RFID device"
+#~ msgstr "ma'ajau ne manajap pu se lumei sad-ia' ne ngube'ei (RFID)"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "vikia'aut pu kumú' lagu'ust' pu ngulja'"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "katsjau kapat skad-a lulejem"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "Nijang se lumei xikjia' nde'ets kily'e"
+
+#~ msgid "pause video or audio"
+#~ msgstr "ma'ai ne ndaka'an leet u kad-er lijiu"
+
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "vikjiaat re rabe'en kupu se vania'at liviaun' nda"
+
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "makjaat pu rabe'en kupu se vania'at liviau'n nui"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "vikia'aut pu kumú' nimia ma ngupeix"
+
+#~ msgid "Show blocks"
+#~ msgstr "Ma'u'up re se vud-ua me'ets"
+
+#, fuzzy
+#~ msgid "save"
+#~ msgstr "makjat"
+
+#~ msgid "Colors"
+#~ msgstr "Xikjia'"
+
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "makeje' ne nixi'ip pu niñ'eje' se vakeje' ne kumú'"
+
+#, fuzzy
+#~ msgid "Open"
+#~ msgstr "Maseiñ"
+
+#~ msgid "orientation"
+#~ msgstr "masep peukma"
+
+#~ msgid "ycor"
+#~ msgstr "coory"
+
+#~ msgid "if"
+#~ msgstr "lik'iajam"
+
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr ""
+#~ "vikia't pu kumú' nimia xcor, ycor; (0,0) vanjiu' kiñkie mejep kutau "
+#~ "nak'ujuly'."
+
+#~ msgid "Stop"
+#~ msgstr "Ndama'ai"
+
+#~ msgid "action 2"
+#~ msgstr "matsjau nui"
+
+#~ msgid "action 1"
+#~ msgstr "matsjau nda"
+
+#~ msgid "end fill"
+#~ msgstr "maljung se mane'p"
+
+#~ msgid "Copy"
+#~ msgstr "Make'eik"
+
+#~ msgid "Paste"
+#~ msgstr "Makua'al"
+
+#~ msgid "did not output to"
+#~ msgstr "nip nduju'u ndu'uets man'eiñ"
+
+#~ msgid "Activities"
+#~ msgstr "Ngul'ajau"
+
+#~ msgid "Upload to Web"
+#~ msgstr "Mapai namá pu web"
+
+#~ msgid "Clean"
+#~ msgstr "Matseiñ'"
+
+#~ msgid "angle"
+#~ msgstr "ngumúu se liviuch' nui niñ'eje'"
+
+#~ msgid "Save/Load"
+#~ msgstr "Makjaat/Maveje'p"
+
+#~ msgid "audio"
+#~ msgstr "maka'an lijiu"
+
+#~ msgid "left"
+#~ msgstr "meje'ep"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr ""
+#~ "kia'ant pu ndejei' rabe'en se vanjiu' kimviu'p navé ndejei' rabe'en se "
+#~ "kimvia' njuts"
+
+#~ msgid "media pause"
+#~ msgstr "Mama'ai kad-er licjau"
+
+#~ msgid "voltage"
+#~ msgstr "xikich' manajap"
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "vichiñ' ne kutau nak'ujuly' tsukuet vimiaik majau ne kumú'"
+
+#~ msgid "raw microphone input signal"
+#~ msgstr "se vat'ei vatjei ndape'et let"
+
+#~ msgid "invokes Action 1 stack"
+#~ msgstr "maka'an ne manajap se matsjau nda"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "Nijang se lumei kad-er k'ua manague' ngunjiu' kumu'"
+
+#~ msgid "loops forever"
+#~ msgstr "Meleix leem"
+
+#~ msgid "show aligned"
+#~ msgstr "ma'u'up se makjaa't"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Kumú' majau matsjau"
+
+#, python-format
+#~ msgid "Do you want to reinstall %s?"
+#~ msgstr "¿Kimieng tsukuet manamejep %s?"
+
+#~ msgid "Load project"
+#~ msgstr "Maveje'p kanen k'ua manatsjau"
+
+#~ msgid "Project"
+#~ msgstr "Kanen se k'ua manatsjau"
+
+#~ msgid "Turn off hover help"
+#~ msgstr "kad-ep make' ne nabaik ta'ats"
+
+#~ msgid "Password"
+#~ msgstr "Kily'e se lumei liji vupai"
+
+#~ msgid "vertical space"
+#~ msgstr "tejiap mamajap"
+
+#~ msgid "Please restart Turtle Art in order to use the plugin."
+#~ msgstr "Vipiup ne TortugArte pa ke kijiu'u kigui' ne plugin."
+
+#~ msgid "completes filled polygon (used with start fill block)"
+#~ msgstr ""
+#~ "Vipiát pu ranjumuu se mata'aung nda nangaú viñe't (make' se mapup ravú kad-a"
+
+#~ msgid "Share"
+#~ msgstr "Skad-akjee'"
+
+#~ msgid "less than"
+#~ msgstr "mana'p navú"
+
+#~ msgid "square root"
+#~ msgstr "nikji ne kiñui muu"
+
+#, fuzzy
+#~ msgid "Rescale coordinates"
+#~ msgstr "tajaich' maku'uts sad-ia ma kujaich'"
+
+#, fuzzy
+#~ msgid "show blocks"
+#~ msgstr "Ma'u'up re se vud-ua me'ets"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "tijiap se vumang peuk vakja navu xiñi'iu xiñi'iu ne sugar"
+
+#~ msgid "set gray"
+#~ msgstr "mamejep tsuntué"
+
+#, fuzzy
+#~ msgid "duration"
+#~ msgstr "lujuéeu'"
+
+#~ msgid "scale"
+#~ msgstr "tajaich'"
+
+#~ msgid "purple"
+#~ msgstr "niñkijiñ"
+
+#~ msgid "Rescale coordinates down"
+#~ msgstr "Tajaich maku'uts nimia kuvú"
+
+#~ msgid "click to open"
+#~ msgstr "mates maseiñ"
+
+#~ msgid "microphone input pitch"
+#~ msgstr "manaja se vat'ei vum'ejep ndape'et leet"
+
+#~ msgid "Configuration"
+#~ msgstr "Majaumatsjau"
+
+#~ msgid "Description:"
+#~ msgstr "Mamang peuk vakja:"
+
+#~ msgid "journal"
+#~ msgstr "xiñi'iu xiñi'iu me'ets"
+
+#~ msgid "empty trash"
+#~ msgstr "majian ngk'uix"
+
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "Pu kumú' laju'u' latsjau lagueje' sania' xi'iap se likia'aut."
+
+#~ msgid "Load..."
+#~ msgstr "Maveje'p..."
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "sania' se lijiu ne xiñi'iu xiñi'iu ne sugar"
+
+#~ msgid "Stop turtle"
+#~ msgstr "Mama'ai ne kumu'"
+
+#~ msgid "changes the orientation of the palette of blocks"
+#~ msgstr "lavaun' kale nimia ne nijang se lumei re kily'e me'ets"
+
+#~ msgid "store in"
+#~ msgstr "makjaat kiñkiep'"
+
+#~ msgid "Hide blocks"
+#~ msgstr "Ma'aung me'ets kily'e"
+
+#~ msgid "Load Python block"
+#~ msgstr "Maveje'p kily'e keich' Python"
+
+#~ msgid "plus"
+#~ msgstr "masal' mamejep"
+
+#~ msgid "or"
+#~ msgstr "o"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "katsjau malep vake' manalei kad-er limi"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "Matseí re kily'e me'ets"
+
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "kiji'it ne ngutue'p re kily'e se ndutsjau pu kumú'"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr "lumei kad-er vu'u' ne kumu' (lania'at make' kujui nip make' rabe'en)"
+
+#~ msgid "image"
+#~ msgstr "xikji'ik"
+
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr ""
+#~ "vikiñ ne nabe'en semanakeje kiñyep se lu'ue lulejeñ sau' malejeiñ (kimvia) "
+#~ "maiñ kutue' lakeje (kujañ'a"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr ""
+#~ "lumei re xikjia' se chu' mani ne nde'ets kily'e (lania'at make' kijui ni "
+#~ "mvake rabe'en)"
+
+#~ msgid "Show palette"
+#~ msgstr "Ma'u'up nijang"
+
+#~ msgid "saves a picture to the Sugar Journal"
+#~ msgstr "vikjiat nda xikji'ik pu xiñi'iu se lumei ne kad-ua niñchaul'"
+
+#~ msgid "Save snapshot"
+#~ msgstr "Manei makjaat"
+
+#~ msgid "start"
+#~ msgstr "ndapup"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "vikia'aut ne kumu' nimia ma kutau"
+
+#~ msgid "forward"
+#~ msgstr "D-uaja'"
+
+#~ msgid "my box"
+#~ msgstr "ndakjaat lapai"
+
+#~ msgid "Account ID"
+#~ msgstr "Lumei"
+
+#~ msgid "Select blocks to share"
+#~ msgstr "Vixa'aun re kily'e metets skad-a makee'"
+
+#~ msgid "back"
+#~ msgstr "ma ngupeix"
+
+#~ msgid "sets the scale of media"
+#~ msgstr "tajaich rese mimi lichjau"
+
+#~ msgid "holds current scale value"
+#~ msgstr "lumei skad-a li'iajam ne tajaich"
+
+#~ msgid "top of nameable action stack"
+#~ msgstr "stiñkjia'p ne manajap se vatsjaú nam'ejep ngunjiu'"
+
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "vikjiat se liñju kupu se nam'ejep ngfunjiu' se vania'at liviaun,"
+
+#~ msgid "logical OR operator"
+#~ msgstr "katsjau nip kapat"
+
+#~ msgid "microphone input voltage"
+#~ msgstr "manajap se llu'ujuñ re xikich' se vat'ei vum'ejep ndape'et leet"
+
+#~ msgid "loops specified number of times"
+#~ msgstr "vilyix re rabe'en se me'eje valeima"
+
+#~ msgid "Save..."
+#~ msgstr "Makjaat..."
+
+#~ msgid "invokes Action 2 stack"
+#~ msgstr "maka'an ne manajap se matsjau nui"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "makeje' xy"
+
+#~ msgid "fill screen"
+#~ msgstr "mane'ep ne kutau nak'ujuly'"
+
+#~ msgid "set xy"
+#~ msgstr "makeje' xy"
+
+#~ msgid "trash"
+#~ msgstr "xik'iai'"
+
+#~ msgid "repeat"
+#~ msgstr "Maleix"
+
+#~ msgid "wait for current video or audio to complete"
+#~ msgstr "mapeé lapaá lijiu maka'an re leet"
+
+#~ msgid "Save as image"
+#~ msgstr "Makjaat njai' xikji'ik"
+
+#~ msgid "Edit"
+#~ msgstr "Malejeiñ"
+
+#~ msgid "microphone input resistance"
+#~ msgstr ""
+#~ "li'iajam ne se lu'uei lu'ujuñ xikich' se njei' pu ndejei ne ndape'et leet "
+#~ "(navu se vat'ei tsjau':700 a 14000 ohms)"
+
+#~ msgid "top of Action 2 stack"
+#~ msgstr "kutap se ne manajap matsjau nui"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr ""
+#~ "xajaik ne ndejei lumei rabe'en kuts'iñ'a (re rabe'en) kujaiñ'a ndejei' "
+#~ "rabe'en (malejeiñ re rabe'en)"
+
+#~ msgid "max"
+#~ msgstr "kutue' le'ei lakejé"
+
+#~ msgid "start fill"
+#~ msgstr "mapúp mánee"
+
+#~ msgid "restore all"
+#~ msgstr "tsukue't matsjau"
+
+#~ msgid "hello"
+#~ msgstr "hola"

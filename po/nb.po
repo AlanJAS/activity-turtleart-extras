@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "høyde"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "bredde"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -854,15 +854,16 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "farge"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "høyre"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "lyd"
 
 #: taextras.py:320
 msgid "grey"
@@ -1218,8 +1219,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "modulo"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1460,212 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "tittel"
+
+#~ msgid "box 2"
+#~ msgstr "boks 2"
+
+#~ msgid "box 1"
+#~ msgstr "boks 1"
+
+#, fuzzy
+#~ msgid "Hide palette"
+#~ msgstr "skjul verktøykasse"
+
+#~ msgid "heading"
+#~ msgstr "retning"
+
+#~ msgid "pen down"
+#~ msgstr "trykk ned penn"
+
+#~ msgid "wait"
+#~ msgstr "vent"
+
+#~ msgid "box"
+#~ msgstr "boks"
+
+#, fuzzy
+#~ msgid "next"
+#~ msgstr "tekst"
+
+#~ msgid "set pen size"
+#~ msgstr "sett størrelse"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "sett størrelse"
+
+#~ msgid "shade"
+#~ msgstr "tone"
+
+#~ msgid "pen up"
+#~ msgstr "løft penn"
+
+#~ msgid "then"
+#~ msgstr "så"
+
+#~ msgid "not"
+#~ msgstr "ikke"
+
+#, fuzzy
+#~ msgid "turtle"
+#~ msgstr "Skilpadde"
+
+#~ msgid "hide blocks"
+#~ msgstr "skjul blokker"
+
+#~ msgid "store in box 1"
+#~ msgstr "lagre i boks 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "lagre i boks 2"
+
+#, fuzzy
+#~ msgid "Save as Logo"
+#~ msgstr "lagre som Logo"
+
+#~ msgid "set text color"
+#~ msgstr "sett tekstfarge"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "sett tone"
+
+#~ msgid "and"
+#~ msgstr "og"
+
+#~ msgid "set color"
+#~ msgstr "sett farge"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "last inn blokken min"
+
+#~ msgid "forever"
+#~ msgstr "for evig"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "vis blokker"
+
+#, fuzzy
+#~ msgid "Fullscreen"
+#~ msgstr "fyll skjerm"
+
+#~ msgid "text"
+#~ msgstr "tekst"
+
+#~ msgid "random"
+#~ msgstr "tilfeldig"
+
+#~ msgid "xcor"
+#~ msgstr "x-koordinat"
+
+#~ msgid "keyboard"
+#~ msgstr "tastatur"
+
+#~ msgid "arc"
+#~ msgstr "kurve"
+
+#~ msgid "radius"
+#~ msgstr "radius"
+
+#~ msgid "set shade"
+#~ msgstr "sett tone"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "tittel"
+
+#~ msgid "else"
+#~ msgstr "ellers"
+
+#~ msgid "pop"
+#~ msgstr "ta av"
+
+#~ msgid "pen size"
+#~ msgstr "størrelse"
+
+#, fuzzy
+#~ msgid "Show blocks"
+#~ msgstr "vis blokker"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "farge"
+
+#~ msgid "ycor"
+#~ msgstr "y-koordinat"
+
+#~ msgid "if"
+#~ msgstr "hvis"
+
+#~ msgid "angle"
+#~ msgstr "vinkel"
+
+#~ msgid "left"
+#~ msgstr "venstre"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Skilpaddetegner"
+
+#~ msgid "Project"
+#~ msgstr "Prosjekt"
+
+#, fuzzy
+#~ msgid "show blocks"
+#~ msgstr "vis blokker"
+
+#, fuzzy
+#~ msgid "Stop turtle"
+#~ msgstr "stopp skilpadde"
+
+#~ msgid "Turtle"
+#~ msgstr "Skilpadde"
+
+#, fuzzy
+#~ msgid "Hide blocks"
+#~ msgstr "skjul blokker"
+
+#~ msgid "or"
+#~ msgstr "eller"
+
+#, fuzzy
+#~ msgid "Show palette"
+#~ msgstr "vis verktøykasse"
+
+#~ msgid "start"
+#~ msgstr "start"
+
+#~ msgid "forward"
+#~ msgstr "fremover"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "sett xy"
+
+#~ msgid "fill screen"
+#~ msgstr "fyll skjerm"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "Lagre som"
+
+#~ msgid "set xy"
+#~ msgstr "sett xy"
+
+#~ msgid "repeat"
+#~ msgstr "gjenta"
+
+#, fuzzy
+#~ msgid "Save as image"
+#~ msgstr "lagre som bilde"
+
+#~ msgid "max"
+#~ msgstr "maks"

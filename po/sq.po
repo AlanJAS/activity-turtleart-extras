@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "lartësia"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "gjerësia"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -854,15 +854,16 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "ngjyrë"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "djathtas"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "zëri"
 
 #: taextras.py:320
 msgid "grey"
@@ -1218,8 +1219,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "mes"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1460,284 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "Titulli"
+
+#~ msgid "box 2"
+#~ msgstr "kutija 2"
+
+#~ msgid "box 1"
+#~ msgstr "kutija 1"
+
+#~ msgid "Step"
+#~ msgstr "Hapi"
+
+#~ msgid "Hide palette"
+#~ msgstr "Fshihe paletën"
+
+#~ msgid "heading"
+#~ msgstr "kreu"
+
+#~ msgid "pen down"
+#~ msgstr "lapsi poshtë"
+
+#~ msgid "wait"
+#~ msgstr "prit"
+
+#~ msgid "box"
+#~ msgstr "kuti"
+
+#~ msgid "action"
+#~ msgstr "veprimi"
+
+#~ msgid "next"
+#~ msgstr "tjetër"
+
+#~ msgid "set pen size"
+#~ msgstr "jepe madhësinë e lapsit"
+
+#~ msgid "set heading"
+#~ msgstr "vendos kreun"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "jepe madhësinë e lapsit"
+
+#~ msgid "stop action"
+#~ msgstr "ndale veprimin"
+
+#~ msgid "shade"
+#~ msgstr "hije"
+
+#~ msgid "pen up"
+#~ msgstr "lapsi lart"
+
+#~ msgid "then"
+#~ msgstr "pastaj"
+
+#~ msgid "not"
+#~ msgstr "jo"
+
+#~ msgid "hide blocks"
+#~ msgstr "fshihni blloqet"
+
+#~ msgid "store in box 1"
+#~ msgstr "vendose në kutinë 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "vendose në kutinë 2"
+
+#~ msgid "print"
+#~ msgstr "shtyp"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Ruaje si Logo"
+
+#~ msgid "set text color"
+#~ msgstr "vëre ngjyrën e tekstit"
+
+#~ msgid "number"
+#~ msgstr "numri"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "ndal"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "vëre hijen"
+
+#~ msgid "presentation 2x1"
+#~ msgstr "prezantimi 2x1"
+
+#~ msgid "and"
+#~ msgstr "dhe"
+
+#~ msgid "set color"
+#~ msgstr "vëre ngjyrën"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "mbushi blloqet e mija"
+
+#~ msgid "forever"
+#~ msgstr "përgjithmonë"
+
+#~ msgid "clean"
+#~ msgstr "pastro"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "Shfaq blloqet"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Ekran të plot"
+
+#~ msgid "show"
+#~ msgstr "shfaq"
+
+#~ msgid "text"
+#~ msgstr "titulli"
+
+#~ msgid "random"
+#~ msgstr "e thjeshtë"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "prapa"
+
+#, fuzzy
+#~ msgid "calculates square root"
+#~ msgstr "llogaritni rrënjën katrore"
+
+#~ msgid "stop"
+#~ msgstr "ndal"
+
+#~ msgid "xcor"
+#~ msgstr "xcor"
+
+#~ msgid "Help"
+#~ msgstr "Ndihmë"
+
+#~ msgid "keyboard"
+#~ msgstr "tastiera"
+
+#~ msgid "arc"
+#~ msgstr "arc"
+
+#~ msgid "radius"
+#~ msgstr "rrezja"
+
+#~ msgid "set shade"
+#~ msgstr "vëre hijen"
+
+#~ msgid "Run"
+#~ msgstr "Ekzekuto"
+
+#~ msgid "Title:"
+#~ msgstr "Titulli:"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "prezantimi 2x2"
+
+#~ msgid "else"
+#~ msgstr "përndryshe"
+
+#~ msgid "pen size"
+#~ msgstr "madhësija e lapsit"
+
+#~ msgid "√"
+#~ msgstr "√"
+
+#~ msgid "Show blocks"
+#~ msgstr "Shfaq blloqet"
+
+#~ msgid "Colors"
+#~ msgstr "Ngjyrë"
+
+#, fuzzy
+#~ msgid "orientation"
+#~ msgstr "prezantimi"
+
+#~ msgid "ycor"
+#~ msgstr "ycor"
+
+#~ msgid "if"
+#~ msgstr "nëse"
+
+#~ msgid "Stop"
+#~ msgstr "Ndal"
+
+#~ msgid "action 2"
+#~ msgstr "veprimi 2"
+
+#~ msgid "action 1"
+#~ msgstr "veprimi 1"
+
+#~ msgid "Copy"
+#~ msgstr "Kopjo"
+
+#, fuzzy
+#~ msgid "Clean"
+#~ msgstr "Pastro"
+
+#~ msgid "angle"
+#~ msgstr "këndi"
+
+#~ msgid "left"
+#~ msgstr "majtas"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Arti i Breshkës"
+
+#~ msgid "Project"
+#~ msgstr "Projekti"
+
+#~ msgid "show blocks"
+#~ msgstr "shfaq blloqet"
+
+#~ msgid "scale"
+#~ msgstr "shkallë"
+
+#, fuzzy
+#~ msgid "Stop turtle"
+#~ msgstr "Ndalo breshkën"
+
+#~ msgid "store in"
+#~ msgstr "ruaj në"
+
+#~ msgid "Hide blocks"
+#~ msgstr "Fshihi blloqet"
+
+#~ msgid "or"
+#~ msgstr "ose"
+
+#~ msgid "Show palette"
+#~ msgstr "Shfaq paletën"
+
+#~ msgid "start"
+#~ msgstr "fillo"
+
+#~ msgid "forward"
+#~ msgstr "përpara"
+
+#~ msgid "back"
+#~ msgstr "prapa"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "prezantimi 1x1"
+
+#~ msgid "presentation 1x2"
+#~ msgstr "prezantimi 1x2"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "vendos xy"
+
+#~ msgid "fill screen"
+#~ msgstr "mbushe ekranin"
+
+#~ msgid "Save as"
+#~ msgstr "Ruaje si"
+
+#~ msgid "set xy"
+#~ msgstr "vendos xy"
+
+#~ msgid "repeat"
+#~ msgstr "përsërit"
+
+#~ msgid "Save as image"
+#~ msgstr "Ruaje si imazh"
+
+#~ msgid "Edit"
+#~ msgstr "Modifiko"
+
+#~ msgid "max"
+#~ msgstr "maks"
+
+#~ msgid "push"
+#~ msgstr "shtyj"

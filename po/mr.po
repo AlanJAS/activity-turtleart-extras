@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -316,7 +316,7 @@ msgstr ""
 
 #: taextras.py:135
 msgid "brightness"
-msgstr ""
+msgstr "प्रकाशमान"
 
 #: taextras.py:136
 msgid "set the camera brightness as a value between 0 to 255."
@@ -576,8 +576,9 @@ msgstr ""
 
 #. TRANS: Please use similar terms to those used in the Physics Activity
 #: taextras.py:223
+#, fuzzy
 msgid "Palette of physics blocks"
-msgstr ""
+msgstr "सेन्सर ब्लॉक्सची पट्टी"
 
 #: taextras.py:224
 msgid "start polygon"
@@ -766,8 +767,9 @@ msgstr ""
 
 #. TRANS: WeDo is a robotics product of the LEGO company
 #: taextras.py:284
+#, fuzzy
 msgid "Palette of WeDo blocks"
-msgstr ""
+msgstr "सेन्सर ब्लॉक्सची पट्टी"
 
 #: taextras.py:285
 msgid "WeDo"
@@ -862,7 +864,7 @@ msgstr ""
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "आवाज"
 
 #: taextras.py:320
 msgid "grey"
@@ -962,8 +964,9 @@ msgid ""
 msgstr ""
 
 #: taextras.py:344
+#, fuzzy
 msgid "port"
-msgstr ""
+msgstr "पोर्ट"
 
 #: taextras.py:345
 msgid "power"
@@ -1289,8 +1292,9 @@ msgstr ""
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:440
+#, fuzzy
 msgid "Palette of Expeyes blocks"
-msgstr ""
+msgstr "सेन्सर ब्लॉक्सची पट्टी"
 
 #. TRANS: Programmable voltage output
 #: taextras.py:442
@@ -1458,3 +1462,442 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "शिर्षक"
+
+#~ msgid "Average RGB color from camera is pushed to the stack"
+#~ msgstr "Average RGB color from camera is pushed to the stack"
+
+#~ msgid "camera output"
+#~ msgstr "कॅमे-याचे आऊटपुट"
+
+#, fuzzy
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr "do-while-True operator that uses boolean operators from Numbers palette"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "शुगर जर्नल मिडिया साधन"
+
+#~ msgid "Step"
+#~ msgstr "पायरी"
+
+#~ msgid "Show/hide blocks"
+#~ msgstr "ब्लॉक दाखवा/लपवा"
+
+#~ msgid "Hide palette"
+#~ msgstr "पट्टी लपवा"
+
+#~ msgid "Buddies"
+#~ msgstr "मित्र"
+
+#~ msgid "My Turtle Art session"
+#~ msgstr "माझा टर्टलआर्टचा सत्र"
+
+#~ msgid "Sugar Journal video object"
+#~ msgstr "शुगर जर्नल व्हिडीयो साधन"
+
+#~ msgid "Load example"
+#~ msgstr "उदाहरण दाखवा"
+
+#, python-format
+#~ msgid "Configuration directory not writable: %s"
+#~ msgstr "Configuration directory not writable: %s"
+
+#~ msgid "heading"
+#~ msgstr "शिर्षक"
+
+#~ msgid "saves turtle graphics as an SVG file in the Sugar Journal"
+#~ msgstr "शुगर जर्नलमध्ये टर्टल चित्रे SVG फाईल म्हणून जतन करा"
+
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "जर्नलमधून मजकूर किंवा मिडीया दाखवते"
+
+#~ msgid "RFID"
+#~ msgstr "RFID"
+
+#~ msgid "video"
+#~ msgstr "व्हिडीयो"
+
+#~ msgid "No option action:"
+#~ msgstr "अपर्यायी अॅक्शन"
+
+#~ msgid "save SVG"
+#~ msgstr "SVG जतन करा"
+
+#~ msgid "Failed to upload!"
+#~ msgstr "दाखल अयशस्वी"
+
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr "do-until-True operator that uses boolean operators from Numbers palette"
+
+#~ msgid "usage is"
+#~ msgstr "असा वापर करा"
+
+#~ msgid "picture name"
+#~ msgstr "चित्राचे नाव"
+
+#~ msgid "while"
+#~ msgstr "ज्यावेळी"
+
+#~ msgid "next"
+#~ msgstr "पुढिल"
+
+#~ msgid "until"
+#~ msgstr "जोपर्यंत"
+
+#~ msgid "uturn"
+#~ msgstr "युटर्न घ्या"
+
+#~ msgid "Palette of flow operators"
+#~ msgstr "फ्लो अॉपरेटरची पट्टी"
+
+#, fuzzy
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr "do-while-True operator that uses boolean operators from Numbers palette"
+
+#~ msgid "Login failed"
+#~ msgstr "प्रवेश अयशस्वी"
+
+#
+#~ msgid "set heading"
+#~ msgstr "seth"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>w"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>s"
+
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrl>e"
+
+#~ msgid "Metric coordinates"
+#~ msgstr "मेट्रीक निर्देशक"
+
+#~ msgid "string value"
+#~ msgstr "स्ट्रींग किंमत"
+
+#~ msgid "description"
+#~ msgstr "वर्णन"
+
+#~ msgid "Username:"
+#~ msgstr "वापरासाठी नाव:"
+
+#~ msgid "View"
+#~ msgstr "दृश्य"
+
+#~ msgid "Password:"
+#~ msgstr "परवलीचा शब्द (पासवर्ड):"
+
+#~ msgid "save picture"
+#~ msgstr "चित्र जतन करा"
+
+#~ msgid "Rescale coordinates up"
+#~ msgstr "निर्देशकांचे परिमाण वाढवा"
+
+#~ msgid "Register"
+#~ msgstr "नोंदणी करा"
+
+#~ msgid "Reset block size"
+#~ msgstr "ब्लॉकची साईझ पुर्ववत करा"
+
+#~ msgid "turtle"
+#~ msgstr "कासव"
+
+#~ msgid "hide blocks"
+#~ msgstr "ब्लॉक्स लपवा"
+
+#~ msgid "light level detected by camera"
+#~ msgstr "कॅमे-याने प्रकाशाची पातळी तपासली"
+
+#~ msgid "Save"
+#~ msgstr "साठवा"
+
+#~ msgid "Save as Logo"
+#~ msgstr "लोगो मध्ये जतन करा"
+
+#~ msgid "Enable collaboration"
+#~ msgstr "सहयोग कार्यान्वित करा"
+
+#~ msgid "query keyboard"
+#~ msgstr "शंका किबोर्ड"
+
+#~ msgid "top"
+#~ msgstr "वरचा"
+
+#~ msgid "Submit to Web"
+#~ msgstr "संकेतस्थळावर दाखल करा"
+
+#~ msgid "Cartesian coordinates"
+#~ msgstr "कार्टेशियन निर्देशक"
+
+#~ msgid "Nickname"
+#~ msgstr "टोपणनाव"
+
+#~ msgid "set scale"
+#~ msgstr "प्रमाण निश्चित करा"
+
+#, fuzzy
+#~ msgid "white"
+#~ msgstr "ज्यावेळी"
+
+#~ msgid "Cancel"
+#~ msgstr "रद्द करा"
+
+#~ msgid "presentation 2x1"
+#~ msgstr "प्रस्तुतीकरण 2x1"
+
+#~ msgid "media wait"
+#~ msgstr "मिडीया विश्रांती"
+
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr "do-while-True operator that uses boolean operators from Numbers palette"
+
+#~ msgid "File"
+#~ msgstr "फाईल"
+
+#, fuzzy
+#~ msgid "Palette of numeric operators"
+#~ msgstr "फ्लो अॉपरेटरची पट्टी"
+
+#~ msgid "snapshot"
+#~ msgstr "फोटो"
+
+#~ msgid "clean"
+#~ msgstr "साफ"
+
+#~ msgid "Grow blocks"
+#~ msgstr "ब्लॉक मोठे करा"
+
+#~ msgid "Fullscreen"
+#~ msgstr "मोठी स्क्रीन"
+
+#~ msgid "File not found"
+#~ msgstr "फाईल मिळाली नाही"
+
+#~ msgid "show"
+#~ msgstr "दाखवा"
+
+#~ msgid "text"
+#~ msgstr "मजकूर"
+
+#~ msgid "stop"
+#~ msgstr "थांबा"
+
+#~ msgid "xcor"
+#~ msgstr "क्ष निर्देशक"
+
+#~ msgid "Help"
+#~ msgstr "मदत"
+
+#~ msgid "Save project?"
+#~ msgstr "प्रकल्प जतन करायचा का?"
+
+#~ msgid "keyboard"
+#~ msgstr "किबोर्ड"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "पोलार निर्देशक"
+
+#~ msgid "set shade"
+#~ msgstr "रंगाचा दर्जा निश्चीत करा"
+
+#~ msgid ""
+#~ "You must have an account at http://turtleartsite.sugarlabs.org to upload "
+#~ "your project."
+#~ msgstr ""
+#~ "तुमचा प्रकल्प दाखल करण्यासाठी http://turtleartsite.sugarlabs.org या "
+#~ "संकेतस्थळावर तुमचे खाते असणे आवश्यक आहे."
+
+#~ msgid "Run"
+#~ msgstr "धावा"
+
+#~ msgid "Title:"
+#~ msgstr "शिर्षक:"
+
+#~ msgid "Palette of media objects"
+#~ msgstr "मिडिया साधनांची पट्टी"
+
+#~ msgid "Upload"
+#~ msgstr "दाखल करा"
+
+#~ msgid "Server"
+#~ msgstr "सर्वर"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "प्रस्तुतीकरण 2x2"
+
+#~ msgid "Neighborhood"
+#~ msgstr "प्रांगण (नेबरहूड)"
+
+#~ msgid "You have unsaved work. Would you like to save before quitting?"
+#~ msgstr "तुमचे काम जतन झालेले नाही. बंद करण्याआधी ते जतन करायचे का?"
+
+#~ msgid "read value from RFID device"
+#~ msgstr "RFID उपकरणातून किंमत वाचा"
+
+#~ msgid "make a uturn"
+#~ msgstr "एक युटर्न बनवा"
+
+#~ msgid "Show blocks"
+#~ msgstr "ब्लॉक्स दाखवा"
+
+#~ msgid "play"
+#~ msgstr "खेळा"
+
+#~ msgid "save"
+#~ msgstr "जतन करा"
+
+#~ msgid "Colors"
+#~ msgstr "रंग"
+
+#~ msgid "Open"
+#~ msgstr "उघडा"
+
+#~ msgid "orientation"
+#~ msgstr "अनुस्थापन"
+
+#~ msgid "ycor"
+#~ msgstr "य निर्देशक"
+
+#~ msgid "Stop"
+#~ msgstr "थांबा"
+
+#~ msgid "Copy"
+#~ msgstr "कॉपी"
+
+#~ msgid "Paste"
+#~ msgstr "पेस्ट"
+
+#~ msgid "Activities"
+#~ msgstr "कृती"
+
+#~ msgid "Upload to Web"
+#~ msgstr "इंटरनेटवर दाखल करा"
+
+#~ msgid "Clean"
+#~ msgstr "साफ"
+
+#~ msgid "audio"
+#~ msgstr "ध्वनी"
+
+#~ msgid "Tools"
+#~ msgstr "साधने"
+
+#~ msgid "query for keyboard input (results stored in keyboard block)"
+#~ msgstr "query for keyboard input (results stored in keyboard block)"
+
+#~ msgid "show aligned"
+#~ msgstr "रांगेतले दाखवा"
+
+#~ msgid "Turtle Art"
+#~ msgstr "टर्टलआर्ट"
+
+#~ msgid "Project"
+#~ msgstr "प्रकल्प"
+
+#~ msgid "Debug"
+#~ msgstr "चूक शोधा"
+
+#~ msgid "Password"
+#~ msgstr "परवलीचा शब्द (पासवर्ड)"
+
+#~ msgid "Share"
+#~ msgstr "सामायिक करा"
+
+#~ msgid "Rescale coordinates"
+#~ msgstr "निर्देशकांचे परिमाण बदला"
+
+#~ msgid "show blocks"
+#~ msgstr "ब्लॉक्स दाखवा"
+
+#~ msgid "Quit"
+#~ msgstr "बंद"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "शुगर जर्नल वर्णन क्षेत्र"
+
+#~ msgid "New"
+#~ msgstr "नवीन"
+
+#~ msgid "scale"
+#~ msgstr "प्रमाण"
+
+#~ msgid "Rescale coordinates down"
+#~ msgstr "निर्देशकांचे परिमाण कमी करा"
+
+#~ msgid "Configuration"
+#~ msgstr "संरचना (कॉन्फिगरेशन)"
+
+#~ msgid "Description:"
+#~ msgstr "वर्णन:"
+
+#~ msgid "journal"
+#~ msgstr "जर्नल"
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "शुगर जर्नल ध्वनी साधन"
+
+#~ msgid "Stop turtle"
+#~ msgstr "कासव थांबवा"
+
+#~ msgid "Turtle"
+#~ msgstr "कासव"
+
+#~ msgid "Hide blocks"
+#~ msgstr "ब्लॉक्स लपवा"
+
+#~ msgid "Load Python block"
+#~ msgstr "पायथन ब्लॉक दाखवा"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "ब्लॉक लहान करा"
+
+#~ msgid "Show palette"
+#~ msgstr "पट्टी दाखवा"
+
+#~ msgid "saves a picture to the Sugar Journal"
+#~ msgstr "शुगर जर्नलमध्ये चित्र जतन करा"
+
+#~ msgid "Save snapshot"
+#~ msgstr "फोटो जतन करा"
+
+#~ msgid "start"
+#~ msgstr "सुरूवात"
+
+#~ msgid "Account ID"
+#~ msgstr "खाते क्रमांक"
+
+#~ msgid "sets the scale of media"
+#~ msgstr "मिडीयाचे प्रमाण निश्चित करा"
+
+#~ msgid "holds current scale value"
+#~ msgstr "चालू प्रमाणाची किंमत दाखवते"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "प्रस्तुतीकरण 1x1"
+
+#~ msgid "presentation 1x2"
+#~ msgstr "प्रस्तुतीकरण 1x2"
+
+#~ msgid "fill screen"
+#~ msgstr "स्क्रीन भरा"
+
+#~ msgid "Save as"
+#~ msgstr "यानावे जतन करा"
+
+#~ msgid "wait for current video or audio to complete"
+#~ msgstr "चालू चित्रफित किंवा ध्वनीफित संपेपर्यंत थांबा"
+
+#~ msgid "Save as image"
+#~ msgstr "चित्र म्हणून जतन करा"
+
+#~ msgid "Edit"
+#~ msgstr "बदल करा"

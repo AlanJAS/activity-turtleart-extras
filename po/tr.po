@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -854,11 +854,12 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "renk"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "sağ"
 
 #: taextras.py:319
 msgid "sound"
@@ -1218,8 +1219,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "mod"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1460,145 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "box 2"
+#~ msgstr "kutu 2"
+
+#~ msgid "box 1"
+#~ msgstr "kutu 1"
+
+#~ msgid "heading"
+#~ msgstr "başlık"
+
+#~ msgid "pen down"
+#~ msgstr "kk"
+
+#~ msgid "wait"
+#~ msgstr "bekle"
+
+#~ msgid "box"
+#~ msgstr "kutu"
+
+#~ msgid "set pen size"
+#~ msgstr "kalem boyu ayan"
+
+#
+#, fuzzy
+#~ msgid "set heading"
+#~ msgstr "seth"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "kalem boyu ayan"
+
+#~ msgid "shade"
+#~ msgstr "gölge"
+
+#~ msgid "pen up"
+#~ msgstr "kb"
+
+#~ msgid "then"
+#~ msgstr "sonra"
+
+#~ msgid "not"
+#~ msgstr "değil"
+
+#~ msgid "store in box 1"
+#~ msgstr "kutu 1 de sakla"
+
+#~ msgid "store in box 2"
+#~ msgstr "kutu 1 de sakla"
+
+#~ msgid "print"
+#~ msgstr "yazdır"
+
+#, fuzzy
+#~ msgid "number"
+#~ msgstr "Sayılar"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "gölge ayarı"
+
+#~ msgid "and"
+#~ msgstr "ve"
+
+#~ msgid "set color"
+#~ msgstr "renk ayarı"
+
+#~ msgid "forever"
+#~ msgstr "sürekli"
+
+#~ msgid "clean"
+#~ msgstr "temizle"
+
+#, fuzzy
+#~ msgid "Fullscreen"
+#~ msgstr "ekranı doldur"
+
+#~ msgid "random"
+#~ msgstr "rastgele"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "geri"
+
+#~ msgid "xcor"
+#~ msgstr "x ekseni"
+
+#~ msgid "arc"
+#~ msgstr "yay"
+
+#~ msgid "radius"
+#~ msgstr "yarıçap"
+
+#~ msgid "set shade"
+#~ msgstr "gölge ayarı"
+
+#~ msgid "else"
+#~ msgstr "voska"
+
+#~ msgid "pen size"
+#~ msgstr "kalem boyu"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "renk"
+
+#~ msgid "ycor"
+#~ msgstr "y ekseni"
+
+#~ msgid "if"
+#~ msgstr "eğer"
+
+#, fuzzy
+#~ msgid "Clean"
+#~ msgstr "temizle"
+
+#~ msgid "angle"
+#~ msgstr "açı"
+
+#~ msgid "left"
+#~ msgstr "sol"
+
+#~ msgid "or"
+#~ msgstr "veya"
+
+#~ msgid "forward"
+#~ msgstr "ileri"
+
+#~ msgid "back"
+#~ msgstr "geri"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "eksen ayarla"
+
+#~ msgid "fill screen"
+#~ msgstr "ekranı doldur"
+
+#~ msgid "set xy"
+#~ msgstr "eksen ayarla"
+
+#~ msgid "repeat"
+#~ msgstr "tekrarla"

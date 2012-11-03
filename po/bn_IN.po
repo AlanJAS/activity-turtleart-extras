@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -854,7 +854,7 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "color"
 
 #: taextras.py:318
 msgid "light"
@@ -1218,8 +1218,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "mod"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1459,155 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "শিরোনাম"
+
+#~ msgid "box 2"
+#~ msgstr "box 2"
+
+#~ msgid "box 1"
+#~ msgstr "box 1"
+
+#, fuzzy
+#~ msgid "Step"
+#~ msgstr "ধাপ"
+
+#, fuzzy
+#~ msgid "Hide palette"
+#~ msgstr "প্যালেট লুকিয়ে রাখুন"
+
+#~ msgid "wait"
+#~ msgstr "wait"
+
+#~ msgid "box"
+#~ msgstr "box"
+
+#, fuzzy
+#~ msgid "next"
+#~ msgstr "টেক্সট"
+
+#
+#~ msgid "set heading"
+#~ msgstr "seth"
+
+#~ msgid "shade"
+#~ msgstr "shade"
+
+#~ msgid "then"
+#~ msgstr "then"
+
+#~ msgid "not"
+#~ msgstr "not"
+
+#~ msgid "hide blocks"
+#~ msgstr "ব্লক লুকিয়ে রাখুন"
+
+#~ msgid "store in box 1"
+#~ msgstr "store in box 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "store in box 2"
+
+#~ msgid "print"
+#~ msgstr "print"
+
+#, fuzzy
+#~ msgid "Save as Logo"
+#~ msgstr "লোগো সংরক্ষণ করুন"
+
+#~ msgid "number"
+#~ msgstr "number"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "ধাপ"
+
+#~ msgid "and"
+#~ msgstr "and"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "আমার ব্লক-ক= লোড কর"
+
+#, fuzzy
+#~ msgid "forever"
+#~ msgstr "forever"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "ব্লক দেখাও"
+
+#~ msgid "text"
+#~ msgstr "টেক্সট"
+
+#~ msgid "random"
+#~ msgstr "random"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "ধাপ"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "শিরোনাম"
+
+#~ msgid "else"
+#~ msgstr "else"
+
+#, fuzzy
+#~ msgid "Show blocks"
+#~ msgstr "ব্লক দেখাও"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "color"
+
+#~ msgid "if"
+#~ msgstr "if"
+
+#, fuzzy
+#~ msgid "Stop"
+#~ msgstr "ধাপ"
+
+#~ msgid "Turtle Art"
+#~ msgstr "টার্টেল আর্ট"
+
+#~ msgid "Project"
+#~ msgstr "প্রোজেক্ট"
+
+#, fuzzy
+#~ msgid "show blocks"
+#~ msgstr "ব্লক দেখাও"
+
+#, fuzzy
+#~ msgid "Stop turtle"
+#~ msgstr "টার্টেল-কে বন্ধ করুন"
+
+#, fuzzy
+#~ msgid "Hide blocks"
+#~ msgstr "ব্লক লুকিয়ে রাখুন"
+
+#~ msgid "or"
+#~ msgstr "or"
+
+#, fuzzy
+#~ msgid "Show palette"
+#~ msgstr "প্যালেট দেখাও"
+
+#~ msgid "start"
+#~ msgstr "start"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "এই ভাবে সংরক্ষণ করুন"
+
+#~ msgid "repeat"
+#~ msgstr "repeat"
+
+#~ msgid "max"
+#~ msgstr "max"

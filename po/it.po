@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -156,7 +156,7 @@ msgstr ""
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "resistenza"
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -576,8 +576,9 @@ msgstr ""
 
 #. TRANS: Please use similar terms to those used in the Physics Activity
 #: taextras.py:223
+#, fuzzy
 msgid "Palette of physics blocks"
-msgstr ""
+msgstr "Paletta dei blocchi sensori"
 
 #: taextras.py:224
 msgid "start polygon"
@@ -628,7 +629,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "altezza"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +649,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "larghezza"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +696,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +726,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "identità"
 
 #: taextras.py:267
 msgid ""
@@ -766,8 +768,9 @@ msgstr ""
 
 #. TRANS: WeDo is a robotics product of the LEGO company
 #: taextras.py:284
+#, fuzzy
 msgid "Palette of WeDo blocks"
-msgstr ""
+msgstr "Paletta dei blocchi sensori"
 
 #: taextras.py:285
 msgid "WeDo"
@@ -854,19 +857,21 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "colore"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "destra"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "suono"
 
 #: taextras.py:320
+#, fuzzy
 msgid "grey"
-msgstr ""
+msgstr "grigio"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
@@ -1059,8 +1064,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "rosso"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1218,8 +1224,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "mod"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1231,7 +1238,7 @@ msgstr ""
 
 #: taextras.py:421
 msgid "value"
-msgstr ""
+msgstr "valore"
 
 #: taextras.py:422
 msgid "Write analog value in specified port."
@@ -1289,8 +1296,9 @@ msgstr ""
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:440
+#, fuzzy
 msgid "Palette of Expeyes blocks"
-msgstr ""
+msgstr "Paletta dei blocchi sensori"
 
 #. TRANS: Programmable voltage output
 #: taextras.py:442
@@ -1458,3 +1466,1012 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "Titolo"
+
+#~ msgid "yellow"
+#~ msgstr "giallo"
+
+#~ msgid "displays polar coordinates"
+#~ msgstr "visualizza coordinate polari"
+
+#~ msgid "emptys FILO (first-in-last-out heap)"
+#~ msgstr "vuota catasta FILO (first-in-last-out )"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operatore if-then che utilizza operatori booleani del pannello dei Numeri"
+
+#~ msgid "jogs stack right"
+#~ msgstr "sposta la pila a destra"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "oggetto multimediale del Diario di Sugar"
+
+#~ msgid "box 2"
+#~ msgstr "scatola 2"
+
+#~ msgid "box 1"
+#~ msgstr "scatola 1"
+
+#~ msgid "Step"
+#~ msgstr "Passo"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "moltiplica fra loro i valori dei due campi"
+
+#~ msgid "Show/hide blocks"
+#~ msgstr "Mostra/Nascondi blocchi"
+
+#~ msgid "Hide palette"
+#~ msgstr "Nascondi pannello"
+
+#, fuzzy
+#~ msgid "Sugar Journal video object"
+#~ msgstr "oggetto audio del Diario di Sugar"
+
+#~ msgid "cyan"
+#~ msgstr "ciano"
+
+#~ msgid "xcor of right of screen"
+#~ msgstr "ascissa (xcor) del bordo destro dello schermo"
+
+#~ msgid "Palette of extra options"
+#~ msgstr "Pannello opzioni extra"
+
+#, python-format
+#~ msgid "Configuration directory not writable: %s"
+#~ msgstr "Impossibile scrivere nella directory di configurazione:%s"
+
+#~ msgid "heading"
+#~ msgstr "direzione"
+
+#~ msgid "saves turtle graphics as an SVG file in the Sugar Journal"
+#~ msgstr "salva i disegni della tartaruga come file SVG nel Diario"
+
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "disegna un testo o mostra un contenuto multimediale dal Diario"
+
+#~ msgid "blue"
+#~ msgstr "blu"
+
+#~ msgid "displays Cartesian coordinates"
+#~ msgstr "visualizza le coordinate cartesiane"
+
+#~ msgid "No option action:"
+#~ msgstr "Azione senza opzioni:"
+
+#~ msgid "jogs stack down"
+#~ msgstr "sposta la sequenza in basso"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "operatore modulo (resto)"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "fondo"
+
+#~ msgid "save SVG"
+#~ msgstr "salva SVG"
+
+#~ msgid "runs code found in the tamyblock.py module found in the Journal"
+#~ msgstr "esegui il codice scritto nel modulo tamyblock.py prelevato dal Diario"
+
+#~ msgid "pen down"
+#~ msgstr "penna giù"
+
+#~ msgid "wait"
+#~ msgstr "aspetta"
+
+#~ msgid "box"
+#~ msgstr "scatola"
+
+#~ msgid "Failed to upload!"
+#~ msgstr "caricamento non riuscito"
+
+#~ msgid "invokes named action stack"
+#~ msgstr "invoca la sequenza di azioni con nome"
+
+#~ msgid "action"
+#~ msgstr "azione"
+
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operatore do-until-True che utilizza operatori booleani del pannello dei "
+#~ "Numeri"
+
+#~ msgid "usage is"
+#~ msgstr "L'utilizzo è"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "Variabile 2 (valore numerico)"
+
+#~ msgid "divide"
+#~ msgstr "dividi"
+
+#~ msgid "picture name"
+#~ msgstr "nome Immagine"
+
+#~ msgid "while"
+#~ msgstr "while"
+
+#~ msgid "the canvas width"
+#~ msgstr "larghezza canvas (sfondo)"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "vuota heap"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "variabile con nome (valore numerico)"
+
+#~ msgid "next"
+#~ msgstr "prossimo"
+
+#~ msgid "if then"
+#~ msgstr "se allora"
+
+#~ msgid "set pen size"
+#~ msgstr "seleziona dimensione penna"
+
+#~ msgid "presentation template: select Journal object (no description)"
+#~ msgstr ""
+#~ "template di presentazione: selezione oggetto del Diario (senza descrizione)"
+
+#~ msgid "until"
+#~ msgstr "finoa"
+
+#~ msgid "permanently deletes items in trash"
+#~ msgstr "Cancella definitivamente il contenuto del cestino"
+
+#~ msgid "top of Action 1 stack"
+#~ msgstr "inizio dello Stack Azione 1"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced single-variable math equations, e."
+#~ "g., sin(x)"
+#~ msgstr ""
+#~ "blocco programmabile: utilizzato per aggiungere funzioni matematiche "
+#~ "avanzate a singola variabile, es. sin(x)"
+
+#~ msgid "Palette of flow operators"
+#~ msgstr "Pannello degli operatori di flusso"
+
+#~ msgid "top of a collapsed stack"
+#~ msgstr "apice di una catasta compressa"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operatore if-then-else (se-allora-altrimenti) che utilizza operatori "
+#~ "booleani del pannello dei Numeri"
+
+#~ msgid "holds current pen shade"
+#~ msgstr "mantiene l'ombreggiatura corrente della penna"
+
+#~ msgid "Login failed"
+#~ msgstr "Login non riuscito"
+
+#
+#~ msgid "set heading"
+#~ msgstr "seleziona direzione"
+
+#~ msgid "RGB color under the turtle is pushed to the stack"
+#~ msgstr "il colore RGB sotto la tartaruga è inserito nello stack"
+
+#~ msgid "declutters canvas by hiding blocks"
+#~ msgstr "svuota il canvas nascondendo i blocchi"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>D"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>s"
+
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrl>e"
+
+#~ msgid "horizontal space"
+#~ msgstr "spazio orizzontale"
+
+#~ msgid "string value"
+#~ msgstr "valore stringa"
+
+#, fuzzy
+#~ msgid "description"
+#~ msgstr "Descrizione"
+
+#~ msgid "I don't know how to"
+#~ msgstr "Non so come fare a"
+
+#~ msgid "set text size"
+#~ msgstr "seleziona dimensione testo"
+
+#~ msgid "Username:"
+#~ msgstr "Nome utente:"
+
+#~ msgid "presentation template: select four Journal objects"
+#~ msgstr "template di presentazione: seleziona quattro oggetti del Diario"
+
+#~ msgid "View"
+#~ msgstr "Vista"
+
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "seleziona illivello di grigio della linea disegnata dalla tartaruga"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "Password:"
+
+#~ msgid "turtle sees"
+#~ msgstr "tartaruga vede"
+
+#~ msgid "stop action"
+#~ msgstr "ferma azione"
+
+#~ msgid "green"
+#~ msgstr "verde"
+
+#~ msgid "shade"
+#~ msgstr "ombreggiatura"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "riempi lo sfondo con (colore, ombreggiatura)"
+
+#~ msgid "save picture"
+#~ msgstr "salva immagine"
+
+#~ msgid "pitch"
+#~ msgstr "intonazione"
+
+#~ msgid "Rescale coordinates up"
+#~ msgstr "Ridimensiona le coordinate su"
+
+#~ msgid "pen up"
+#~ msgstr "penna su"
+
+#~ msgid "orange"
+#~ msgstr "arancio"
+
+#~ msgid "pauses program execution a specified number of seconds"
+#~ msgstr ""
+#~ "sospende l'esecuzzione del programma per il numero di secondi speceficato"
+
+#~ msgid "pushes value onto FILO (first-in last-out heap)"
+#~ msgstr "spingi un valore nella heap FILO (first-in last-out)"
+
+#~ msgid "then"
+#~ msgstr "allora"
+
+#~ msgid "not"
+#~ msgstr "not"
+
+#~ msgid "if then else"
+#~ msgstr "se allora invece"
+
+#~ msgid "stops current action"
+#~ msgstr "Ferma l'azione in corso"
+
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "ruota tartaruga in senso orario (in gradi)"
+
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr ""
+#~ "ricorda il livello di grigio (può essere utilizzato in alternativa ad un "
+#~ "blocco numerico)"
+
+#~ msgid "xcor of left of screen"
+#~ msgstr "ascissa (xcor) del bordo sinistro dello schermo"
+
+#~ msgid "Reset block size"
+#~ msgstr "Reset dimensione blocco"
+
+#~ msgid "turtle"
+#~ msgstr "tartaruga"
+
+#~ msgid "displays next palette"
+#~ msgstr "visualizza la prossima paletta"
+
+#~ msgid "hide blocks"
+#~ msgstr "nascondi blocchi"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "operatore logico miniore di"
+
+#~ msgid "restore all blocks from trash"
+#~ msgstr "recupera tutti i bloccchi dal cestino"
+
+#~ msgid "Save"
+#~ msgstr "Salva"
+
+#~ msgid "store in box 1"
+#~ msgstr "memorizza nella scatola 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "memorizza nella scatola 2"
+
+#~ msgid "hides the Sugar toolbars"
+#~ msgstr "nasconde le barre di Sugar"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "ricorda la coordinata x (ascissa) della tartaruga (può essere utilizzato in "
+#~ "alternativa ad un blocco variabile numerico)"
+
+#~ msgid "print"
+#~ msgstr "stampa"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Salva come Logo"
+
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "seleziona il colore della linea disegnata dalla tartaruga"
+
+#~ msgid "set text color"
+#~ msgstr "imposta colore del testo"
+
+#~ msgid "number"
+#~ msgstr "numero"
+
+#~ msgid "query keyboard"
+#~ msgstr "interroga la tastiera"
+
+#~ msgid "top"
+#~ msgstr "cima"
+
+#~ msgid "Submit to Web"
+#~ msgstr "Invia al Web"
+
+#~ msgid "Cartesian coordinates"
+#~ msgstr "Coordinate Cartesiane"
+
+#~ msgid "set scale"
+#~ msgstr "seleziona scala"
+
+#~ msgid "white"
+#~ msgstr "bianco"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "connette l'azione al pulsante \"esegui\" della barra dei comandi"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "the canvas height"
+#~ msgstr "altezza canvas (sfondo)"
+
+#~ msgid "presentation 2x1"
+#~ msgstr "presentazione 2x1"
+
+#~ msgid "minus"
+#~ msgstr "meno"
+
+#~ msgid "and"
+#~ msgstr "and"
+
+#~ msgid "top of a collapsible stack"
+#~ msgstr "apice di una catasta comprimibile"
+
+#~ msgid "as input"
+#~ msgstr "come ingresso"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr ""
+#~ "ricorda la dimensione della penna (può essere utilizzato in alternativa ad "
+#~ "un blocco variabile numerico)"
+
+#~ msgid "set color"
+#~ msgstr "seleziona colore"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "carica i miei blocchi"
+
+#~ msgid "Palette of pen commands"
+#~ msgstr "Pannello comandi penna"
+
+#~ msgid "shows values in FILO (first-in last-out heap)"
+#~ msgstr "mostra un valore nella heap FILO (first-in last-out)"
+
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operatore do-while-True che utilizza operatori booleani del pannello dei "
+#~ "Numeri"
+
+#~ msgid "File"
+#~ msgstr "File"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "operatore logico NOT"
+
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "ordinata (ycor) del bordo inferiore dello schermo"
+
+#~ msgid "presentation template: select Journal object (with description)"
+#~ msgstr ""
+#~ "template di presentazione: selezione oggetto del Diario (con descrizione)"
+
+#~ msgid "Palette of numeric operators"
+#~ msgstr "Pannello degli operatori numerici"
+
+#~ msgid "multiply"
+#~ msgstr "moltiplica"
+
+#~ msgid "forever"
+#~ msgstr "persempre"
+
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "seleziona l'ombreggiatura della linea disegnata dalla tartaruga"
+
+#~ msgid "snapshot"
+#~ msgstr "istantanea"
+
+#~ msgid "clean"
+#~ msgstr "pulisci"
+
+#~ msgid "presentation template: select two Journal objects"
+#~ msgstr "template di presentazione: seleziona due oggetti del Diario"
+
+#~ msgid "Grow blocks"
+#~ msgstr "Ingrandisci blocchi"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Schermo intero"
+
+#~ msgid "File not found"
+#~ msgstr "File non trovato"
+
+#~ msgid "show"
+#~ msgstr "mostra"
+
+#~ msgid "text"
+#~ msgstr "testo"
+
+#~ msgid "random"
+#~ msgstr "casuale"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "operatore logico maggiore di"
+
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "ruota tartaruga in senso antiorario (in gradi)"
+
+#~ msgid "black"
+#~ msgstr "nero"
+
+#~ msgid "calculates square root"
+#~ msgstr "calcola la radice quadrata"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "ricorda la coordinata y (ordinata) della tartaruga (può essere utilizzato in "
+#~ "alternativa ad un blocco variabile numerico)"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "cima"
+
+#~ msgid "greater than"
+#~ msgstr "maggiore di"
+
+#~ msgid "xcor"
+#~ msgstr "coordinata x"
+
+#~ msgid "Help"
+#~ msgstr "Aiuto"
+
+#~ msgid "Save project?"
+#~ msgstr "Vuoi salvare il progetto?"
+
+#~ msgid "chooses which turtle to command"
+#~ msgstr "sceglie con quale tartaruga interagire"
+
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "seleziona il colore del testo disegnato dalla tartaruga"
+
+#~ msgid "keyboard"
+#~ msgstr "tastiera"
+
+#~ msgid "arc"
+#~ msgstr "arco"
+
+#~ msgid "radius"
+#~ msgstr "raggio"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "Coordinate Polari"
+
+#~ msgid "set shade"
+#~ msgstr "seleziona ombreggiatura"
+
+#~ msgid "logical AND operator"
+#~ msgstr "operatore logico AND"
+
+#~ msgid ""
+#~ "You must have an account at http://turtleartsite.sugarlabs.org to upload "
+#~ "your project."
+#~ msgstr ""
+#~ "Devi avere un account presso http://turtleartsite.sugarlabs.org per poter "
+#~ "caricare il tuo progetto."
+
+#~ msgid "Run"
+#~ msgstr "Esegui"
+
+#~ msgid "show heap"
+#~ msgstr "mostra heap"
+
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "seleziona la direzione della tartaruga (0 è verso l'alto)"
+
+#~ msgid "microphone input volume"
+#~ msgstr "volume ingresso microfono"
+
+#~ msgid "Title:"
+#~ msgstr "Titolo:"
+
+#, fuzzy
+#~ msgid "Restore blocks from trash"
+#~ msgstr "recupera tutti i bloccchi dal cestino"
+
+#~ msgid "Palette of variable blocks"
+#~ msgstr "Pannello dei blocchi variabili"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "Utilizza come valore di ingresso per operatori matematici"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "presentazione 2x2"
+
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "Variabile 1 (valore numerico)"
+
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "aggiunge due campi di inserimento numerici"
+
+#~ msgid "equal"
+#~ msgstr "uguale"
+
+#~ msgid "else"
+#~ msgstr "altrimenti"
+
+#~ msgid "doesn't like"
+#~ msgstr "non piace"
+
+#~ msgid "You have unsaved work. Would you like to save before quitting?"
+#~ msgstr "Hai del lavoro non salvato: vuoi salvare le modifiche prima di uscire?"
+
+#~ msgid "restores hidden blocks"
+#~ msgstr "recupera i blocchi nascosti"
+
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "La tartaruga non disegnerà quando mossa."
+
+#~ msgid "pop"
+#~ msgstr "pop"
+
+#~ msgid "pen size"
+#~ msgstr "dimensione penna"
+
+#~ msgid "turtle shell"
+#~ msgstr "guscio tartaruga"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "muove la tartaruga lungo un arco"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "operatore logico di uguaglianza"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "Tavolozza per i colori della penna"
+
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "memorizza il valore numerico nella Variabile 1"
+
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "memorizza il valore numerico nella Variabile 2"
+
+#~ msgid "put a custom 'shell' on the turtle"
+#~ msgstr "metti un 'guscio' personalizzato alla tartaruga"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "muove tartaruga indietro"
+
+#~ msgid "ycor of top of screen"
+#~ msgstr "ordinata (ycor) del bordo superiore dello schermo"
+
+#~ msgid "Show blocks"
+#~ msgstr "Mostra blocchi"
+
+#, fuzzy
+#~ msgid "save"
+#~ msgstr "Salva"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "colori"
+
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "seleziona la larghezza della linea disegnata dalla tartaruga"
+
+#~ msgid "Open"
+#~ msgstr "Apri"
+
+#~ msgid "orientation"
+#~ msgstr "orientamento"
+
+#~ msgid "ycor"
+#~ msgstr "coordinata y"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sqrt(x*x+y*y)"
+#~ msgstr ""
+#~ "blocco programmabile: utilizzato per aggiungere funzioni matematiche multi-"
+#~ "variabili, es., sqrt(x*x+y*y)"
+
+#~ msgid "if"
+#~ msgstr "se"
+
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr ""
+#~ "muove la tartaruga alle coordinate xcor, ycor; (0,0) è il centro dello "
+#~ "schermo."
+
+#~ msgid "Python"
+#~ msgstr "Python"
+
+#~ msgid "Stop"
+#~ msgstr "Stop"
+
+#~ msgid "action 2"
+#~ msgstr "azione 2"
+
+#~ msgid "action 1"
+#~ msgstr "azione 1"
+
+#~ msgid "end fill"
+#~ msgstr "termina riempimento"
+
+#~ msgid "Copy"
+#~ msgstr "Copia"
+
+#~ msgid "Paste"
+#~ msgstr "Incolla"
+
+#~ msgid "did not output to"
+#~ msgstr "non ho scritto su"
+
+#~ msgid "Upload to Web"
+#~ msgstr "Esporta su web"
+
+#~ msgid "empty heap"
+#~ msgstr "vuota heap"
+
+#~ msgid "pops value off FILO (first-in last-out heap)"
+#~ msgstr "estrai un valore dalla heap FILO (first-in last-out)"
+
+#~ msgid "Clean"
+#~ msgstr "Pulisci"
+
+#~ msgid "Palette of presentation templates"
+#~ msgstr "Pannello strutture / template per presentazioni"
+
+#~ msgid "angle"
+#~ msgstr "angolo"
+
+#~ msgid "audio"
+#~ msgstr "audio"
+
+#~ msgid "Tools"
+#~ msgstr "Strumenti"
+
+#~ msgid "left"
+#~ msgstr "sinistra"
+
+#~ msgid "comment"
+#~ msgstr "commento"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "sottrai il valore del campo numerico inferiore da quello superiore"
+
+#~ msgid "query for keyboard input (results stored in keyboard block)"
+#~ msgstr "interrogazione da tastiera (i risultati sono in blocco tastiera)"
+
+#~ msgid "Cartesian"
+#~ msgstr "Cartesiano"
+
+#~ msgid "voltage"
+#~ msgstr "voltaggio"
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "Pulisci lo schermo e riposiziona la tartaruga"
+
+#~ msgid "returns the color that the turtle \"sees\""
+#~ msgstr "ritorna il colore che la tartaruga \"vede\""
+
+#~ msgid "invokes Action 1 stack"
+#~ msgstr "invoca la sequenza Azione 1"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "Pannello comandi tartaruga"
+
+#~ msgid "loops forever"
+#~ msgstr "ciclo infinito"
+
+#~ msgid "show aligned"
+#~ msgstr "mostra allineati"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Turtle Art"
+
+#~ msgid "Project"
+#~ msgstr "Progetto"
+
+#~ msgid "Debug"
+#~ msgstr "Debug"
+
+#, fuzzy
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "vertical space"
+#~ msgstr "spazio verticale"
+
+#~ msgid "less than"
+#~ msgstr "minore di"
+
+#~ msgid "square root"
+#~ msgstr "radice quadrata"
+
+#~ msgid "Rescale coordinates"
+#~ msgstr "Ridimensiona coordinate"
+
+#~ msgid "show blocks"
+#~ msgstr "mostra blocchi"
+
+#~ msgid "Quit"
+#~ msgstr "Esci"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "campo descrittivo del Diario di Sugar"
+
+#~ msgid "set gray"
+#~ msgstr "seleziona grigio"
+
+#~ msgid "presentation bulleted list"
+#~ msgstr "lista per punti per presentazione"
+
+#~ msgid "New"
+#~ msgstr "Nuovo"
+
+#~ msgid "places a comment in your code"
+#~ msgstr "mette un commento nel codice"
+
+#~ msgid "read pixel"
+#~ msgstr "leggi pixel"
+
+#~ msgid "scale"
+#~ msgstr "scala"
+
+#~ msgid "bottom"
+#~ msgstr "fondo"
+
+#~ msgid "purple"
+#~ msgstr "porpora"
+
+#~ msgid "Rescale coordinates down"
+#~ msgstr "Ridimensiona le coordinate giù"
+
+#~ msgid "click to open"
+#~ msgstr "click per aprire"
+
+#~ msgid "microphone input pitch"
+#~ msgstr "intonazione ingresso microfono"
+
+#~ msgid "Description:"
+#~ msgstr "Descrizione:"
+
+#~ msgid "journal"
+#~ msgstr "diario"
+
+#~ msgid "empty trash"
+#~ msgstr "svuota cestino"
+
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "la tartaruga disegnerà quando spostata."
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "oggetto audio del Diario di Sugar"
+
+#~ msgid "Stop turtle"
+#~ msgstr "Ferma la tartaruga"
+
+#~ msgid "Turtle"
+#~ msgstr "Tartaruga"
+
+#~ msgid "changes the orientation of the palette of blocks"
+#~ msgstr "Cambia l'orientamento del pannello dei blocchi"
+
+#~ msgid "store in"
+#~ msgstr "memorizza in"
+
+#~ msgid "Hide blocks"
+#~ msgstr "Nascondi blocchi"
+
+#~ msgid "plus"
+#~ msgstr "più"
+
+#~ msgid "or"
+#~ msgstr "or"
+
+#~ msgid "presentation template: list of bullets"
+#~ msgstr "template di presentazione: lista per punti"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "operatore identità utilizzato per i blocchi programmabili"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "Rimpicciolisci blocchi"
+
+#, fuzzy
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "seleziona la dimensione del testo disegnato dalla tartaruga"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr ""
+#~ "ricorda la direzione della tartaruga (può essere utilizzato in alternativa "
+#~ "ad un blocco variabile numerico)"
+
+#~ msgid "image"
+#~ msgstr "immagine"
+
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr ""
+#~ "ritorna un valore casuale compreso fra valori minimo (alto) e massimo "
+#~ "(basso)"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr ""
+#~ "ricorda il colore della penna (può essere utilizzato in alternativa ad un "
+#~ "blocco variabile numerico)"
+
+#~ msgid "Show palette"
+#~ msgstr "mostra pannello"
+
+#~ msgid "saves a picture to the Sugar Journal"
+#~ msgstr "Salva una immagine nel Diario di Sugar"
+
+#~ msgid "Save snapshot"
+#~ msgstr "Salva snapshot"
+
+#~ msgid "start"
+#~ msgstr "avvia"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "muove tartaruga avanti"
+
+#~ msgid "forward"
+#~ msgstr "avanti"
+
+#~ msgid "my box"
+#~ msgstr "mia scatola"
+
+#~ msgid "back"
+#~ msgstr "indietro"
+
+#~ msgid "sets the scale of media"
+#~ msgstr "seleziona la scala di visualizzazione del contributo"
+
+#~ msgid "holds current scale value"
+#~ msgstr "mantiene il valore di scala corrente"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "presentazione 1x1"
+
+#~ msgid "presentation 1x2"
+#~ msgstr "presentazione 1x2"
+
+#~ msgid "top of nameable action stack"
+#~ msgstr "inizio della sequenza di azioni con nome"
+
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "memorizza il valore numerico nella variabile nominata"
+
+#~ msgid "logical OR operator"
+#~ msgstr "operatore logico OR"
+
+#, fuzzy
+#~ msgid "microphone input voltage"
+#~ msgstr "volume ingresso microfono"
+
+#~ msgid "loops specified number of times"
+#~ msgstr "ciclo ripetuto un numero dato di volte"
+
+#~ msgid "invokes Action 2 stack"
+#~ msgstr "invoca la sequenza Azione 2"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "seleziona xy"
+
+#~ msgid "title y"
+#~ msgstr "titolo y"
+
+#~ msgid "title x"
+#~ msgstr "titolo x"
+
+#~ msgid "fill screen"
+#~ msgstr "riempi schermo"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "Salva come"
+
+#~ msgid "set xy"
+#~ msgstr "seleziona xy"
+
+#~ msgid "trash"
+#~ msgstr "spazzatura"
+
+#~ msgid "polar"
+#~ msgstr "polare"
+
+#~ msgid "repeat"
+#~ msgstr "ripeti"
+
+#~ msgid "Save as image"
+#~ msgstr "Salva come immagine"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+
+#~ msgid "top of Action 2 stack"
+#~ msgstr "inizio dello Stack Azione 2"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr ""
+#~ "dividi il valore del campo numerico superiore (numeratore) per quello del "
+#~ "campo inferiore (denominatore)"
+
+#~ msgid "max"
+#~ msgstr "max"
+
+#~ msgid "prints value in status block at bottom of the screen"
+#~ msgstr "stampa il valore nel blocco di stato in basso"
+
+#~ msgid "start fill"
+#~ msgstr "avvia riempimento"
+
+#, fuzzy
+#~ msgid "holds results of query-keyboard block as ASCII"
+#~ msgstr "conserva i risultati del blocco interrogazione da tastiera"
+
+#~ msgid "push"
+#~ msgstr "spingi"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sin(x+y+z)"
+#~ msgstr ""
+#~ "blocco programmabile: utilizzato per aggiungere funzioni matematiche "
+#~ "avanzate multi-variabile, es. sin(x+y+z)"
+
+#~ msgid "restore all"
+#~ msgstr "ripristina tutti"

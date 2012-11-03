@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -156,7 +156,7 @@ msgstr ""
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "ప్రతిఘటన "
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "ఎత్తు "
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "వెడల్పు "
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +725,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "అస్థిత్వం"
 
 #: taextras.py:267
 msgid ""
@@ -854,11 +855,12 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "వర్ణము"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "కుడి"
 
 #: taextras.py:319
 msgid "sound"
@@ -1059,8 +1061,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "ఎరుపు"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1231,7 +1234,7 @@ msgstr ""
 
 #: taextras.py:421
 msgid "value"
-msgstr ""
+msgstr "విలువ"
 
 #: taextras.py:422
 msgid "Write analog value in specified port."
@@ -1458,3 +1461,666 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "పీఠిక"
+
+#~ msgid "yellow"
+#~ msgstr "పసుపు పచ్చ"
+
+#~ msgid "emptys FILO (first-in-last-out heap)"
+#~ msgstr ""
+#~ "FILO క్రమంలో ఖాళీ చేస్తుంది (మొదట-వచ్చినది - కుప్పనుండి -చరకు -వెళుతుంది )"
+
+#~ msgid "jogs stack right"
+#~ msgstr "కుప్పను కుడివైపుకు నెడుతుంది"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "శుగర్ పొద్దు   మాధ్యమ తాత్పర్యం "
+
+#~ msgid "box 2"
+#~ msgstr "పేటిక 2"
+
+#~ msgid "box 1"
+#~ msgstr "పేటిక 1"
+
+#~ msgid "Step"
+#~ msgstr "మెట్టు"
+
+#~ msgid "Show/hide blocks"
+#~ msgstr "భాగాలను చూపుము/దాచుము "
+
+#~ msgid "Hide palette"
+#~ msgstr "పలకాన్ని దాచుము"
+
+#, fuzzy
+#~ msgid "Sugar Journal video object"
+#~ msgstr "శుగర్ పొద్దు శ్రావ్య తాత్పర్యం "
+
+#, fuzzy
+#~ msgid "xcor of right of screen"
+#~ msgstr "తెర దిగువున y అక్షము "
+
+#~ msgid "Palette of extra options"
+#~ msgstr "అదనపు  ఇచ్ఛాపూర్వకాల పలకం "
+
+#~ msgid "heading"
+#~ msgstr "పీఠిక"
+
+#~ msgid "blue"
+#~ msgstr "నీలం"
+
+#~ msgid "jogs stack down"
+#~ msgstr "కుప్పను క్రింది వైపునకు నెడుతుంది"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "దిగువ "
+
+#~ msgid "save SVG"
+#~ msgstr "SVG గా దాచు "
+
+#~ msgid "pen down"
+#~ msgstr "కలం పక్కనపెట్టు"
+
+#~ msgid "wait"
+#~ msgstr "వేచి ఉండు"
+
+#~ msgid "box"
+#~ msgstr "పేటిక"
+
+#~ msgid "invokes named action stack"
+#~ msgstr "నామకరణ అయిన చర్య కుప్పను ప్రేరేపిస్తుంది"
+
+#~ msgid "action"
+#~ msgstr "చర్య"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "చరరాశి 2 ( పూర్ణసంఖ్య  విలువ )"
+
+#~ msgid "divide"
+#~ msgstr "భాగించు"
+
+#~ msgid "picture name"
+#~ msgstr "ప్రతిరూప నామం"
+
+#, fuzzy
+#~ msgid "while"
+#~ msgstr "రాయు "
+
+#~ msgid "the canvas width"
+#~ msgstr "యవనిక వెడల్పు "
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "ఖాళీ కుప్ప "
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "నామకరణం అయిన చరరాశి  ( పూర్ణసంఖ్య  విలువ )"
+
+#~ msgid "next"
+#~ msgstr "తర్వాత"
+
+#~ msgid "if then"
+#~ msgstr "ఒకవేళ అయితే"
+
+#~ msgid "set pen size"
+#~ msgstr "కలం పరిమాణాన్ని అమర్చు"
+
+#~ msgid "until"
+#~ msgstr "అప్పటివరకు "
+
+#~ msgid "permanently deletes items in trash"
+#~ msgstr "చెత్తకుండీలోని అంశాలను పూర్తిగా తొలగిస్తుంది"
+
+#~ msgid "top of Action 1 stack"
+#~ msgstr "చర్య 1 కుప్ప  పైన"
+
+#~ msgid "Palette of flow operators"
+#~ msgstr "ప్రస్రణా కార్యవాహికల పలకం"
+
+#
+#~ msgid "set heading"
+#~ msgstr "seth"
+
+#~ msgid "declutters canvas by hiding blocks"
+#~ msgstr "భాగాలను దాచటం ద్వారా యవనికను శుబ్రపరుస్తుంది "
+
+#~ msgid "horizontal space"
+#~ msgstr "అడ్డంగా ఉన్న  ప్రదేశం"
+
+#~ msgid "string value"
+#~ msgstr "పద బంధం విలువ"
+
+#~ msgid "I don't know how to"
+#~ msgstr "ఎలాగో నాకు తెలియదు"
+
+#~ msgid "set text size"
+#~ msgstr "పాఠ్య పరిమాణాన్ని అమర్చు"
+
+#~ msgid "View"
+#~ msgstr "దర్శించు"
+
+#~ msgid "stop action"
+#~ msgstr "చర్యను నిలిపివేయి"
+
+#~ msgid "green"
+#~ msgstr "ఆకుపచ్చ"
+
+#~ msgid "shade"
+#~ msgstr "ఛాయ"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "పూర్వరంగాన్ని (వర్ణము, చాయతో ) నింపుతుంది"
+
+#~ msgid "save picture"
+#~ msgstr "ప్రతిరూపాన్ని దాచు "
+
+#~ msgid "pitch"
+#~ msgstr "శృతి "
+
+#~ msgid "pen up"
+#~ msgstr "కలం పట్టుకొను"
+
+#~ msgid "orange"
+#~ msgstr "నారింజ"
+
+#~ msgid "pauses program execution a specified number of seconds"
+#~ msgstr "నిర్వర్తిస్తున్న కార్యక్రమాన్ని పేర్కొన్న సెకన్ల వరకు నిలిపి వేస్తుంది"
+
+#~ msgid "then"
+#~ msgstr "అయితే"
+
+#~ msgid "not"
+#~ msgstr "కాదు"
+
+#, fuzzy
+#~ msgid "if then else"
+#~ msgstr "కాకపోతే"
+
+#~ msgid "stops current action"
+#~ msgstr "ప్రస్థుత  చర్యను నిలిపి వేస్తుంది"
+
+#, fuzzy
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr ""
+#~ "ప్రస్థుత పాఠ్య పరిమాణాన్ని పట్టి ఉంచుతుంది (సంఖ్య  భాగాల స్థానంలో వాడవచ్చు )"
+
+#, fuzzy
+#~ msgid "xcor of left of screen"
+#~ msgstr "తెర దిగువున y అక్షము "
+
+#~ msgid "Reset block size"
+#~ msgstr "బాగం పరిమాణాన్ని  పున:స్థాపించు "
+
+#~ msgid "turtle"
+#~ msgstr "టర్టిల్ "
+
+#~ msgid "displays next palette"
+#~ msgstr "తదుపరి పలకాన్ని ప్రదర్శిస్తుంది"
+
+#~ msgid "hide blocks"
+#~ msgstr "భాగాలను దాచు "
+
+#~ msgid "logical less-than operator"
+#~ msgstr "తార్కిక తక్కువ కార్యవాహిక"
+
+#~ msgid "Save"
+#~ msgstr "దాచు "
+
+#~ msgid "store in box 1"
+#~ msgstr "1 పేటికలో దాచుము"
+
+#~ msgid "store in box 2"
+#~ msgstr "2 పేటికలో దాచుము"
+
+#~ msgid "hides the Sugar toolbars"
+#~ msgstr "శుగర్  పనిముట్ల పట్టాను దాచుతుంది "
+
+#~ msgid "print"
+#~ msgstr "ముద్రణ "
+
+#~ msgid "Save as Logo"
+#~ msgstr "ముద్రికగా దాచు"
+
+#~ msgid "set text color"
+#~ msgstr "పాఠ్య వర్ణాన్ని అమర్చు"
+
+#~ msgid "number"
+#~ msgstr "సంఖ్య"
+
+#~ msgid "query keyboard"
+#~ msgstr "query మీటల పలకం "
+
+#~ msgid "top"
+#~ msgstr "పైన "
+
+#~ msgid "set scale"
+#~ msgstr "కొలబద్దను అమర్చు "
+
+#, fuzzy
+#~ msgid "white"
+#~ msgstr "రాయు"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "చర్యను పనిముట్ల మీటలతో అనుసంధానం చేస్తుంది"
+
+#~ msgid "the canvas height"
+#~ msgstr "యవనిక ఎత్తు "
+
+#~ msgid "presentation 2x1"
+#~ msgstr "సమర్పణ  2x1 "
+
+#~ msgid "minus"
+#~ msgstr "తీసివేయు"
+
+#~ msgid "and"
+#~ msgstr "మరియు"
+
+#~ msgid "as input"
+#~ msgstr "ఎగుబడిలా"
+
+#, fuzzy
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr ""
+#~ "ప్రస్థుత పాఠ్య పరిమాణాన్ని పట్టి ఉంచుతుంది (సంఖ్య  భాగాల స్థానంలో వాడవచ్చు )"
+
+#~ msgid "set color"
+#~ msgstr "వర్ణాన్ని  అమర్చు"
+
+#~ msgid "min"
+#~ msgstr "అత్యల్ప"
+
+#, fuzzy
+#~ msgid "Palette of pen commands"
+#~ msgstr "కలం వర్ణాలతో కూడిన పలకం"
+
+#~ msgid "File"
+#~ msgstr "దస్త్రము "
+
+#~ msgid "logical NOT operator"
+#~ msgstr "తార్కిక కాదు కార్యవాహిక"
+
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "తెర దిగువున y అక్షము "
+
+#, fuzzy
+#~ msgid "Palette of numeric operators"
+#~ msgstr "ప్రస్రణా కార్యవాహికల పలకం"
+
+#~ msgid "multiply"
+#~ msgstr "గుణించు"
+
+#~ msgid "forever"
+#~ msgstr "ఎప్పటికీ"
+
+#~ msgid "snapshot"
+#~ msgstr "ఛాయా చిత్రం"
+
+#, fuzzy
+#~ msgid "clean"
+#~ msgstr "శుభ్రపరుచు"
+
+#~ msgid "Grow blocks"
+#~ msgstr "భాగాలను పెంచుము"
+
+#~ msgid "Fullscreen"
+#~ msgstr "తెర మొత్తం"
+
+#~ msgid "show"
+#~ msgstr "చూపు "
+
+#~ msgid "text"
+#~ msgstr "పాఠము"
+
+#~ msgid "random"
+#~ msgstr "విభిన్నంగా"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "తార్కిక  ఎక్కువ కార్యవాహిక"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "వెనుక"
+
+#~ msgid "calculates square root"
+#~ msgstr "మూలాన్ని గణిస్తుంది"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "పైన "
+
+#~ msgid "greater than"
+#~ msgstr "కంటే ఏక్కువ"
+
+#~ msgid "xcor"
+#~ msgstr "x అక్షము"
+
+#~ msgid "Help"
+#~ msgstr "సహాయం"
+
+#~ msgid "chooses which turtle to command"
+#~ msgstr "ఏ టర్టిల్‌ను నిర్దేశించాలో ఎంచుకొంటుంది "
+
+#~ msgid "keyboard"
+#~ msgstr "మీటల పలకం "
+
+#~ msgid "arc"
+#~ msgstr "జ్యా"
+
+#~ msgid "radius"
+#~ msgstr "వ్యాసార్ధం"
+
+#~ msgid "set shade"
+#~ msgstr "ఛాయను అమర్చు"
+
+#~ msgid "logical AND operator"
+#~ msgstr "తార్కిక AND కార్యనిర్వాహిక"
+
+#~ msgid "Run"
+#~ msgstr "నడుపు"
+
+#~ msgid "show heap"
+#~ msgstr "కుప్పను చూపుము "
+
+#~ msgid "microphone input volume"
+#~ msgstr "మైకు ఎగుబడి పరిమాణం"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "పీఠిక "
+
+#~ msgid "Palette of variable blocks"
+#~ msgstr "మారే భాగాల పలకం"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "సమర్పణ 2x2 "
+
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "చరరాశి 1 ( పూర్ణసంఖ్య  విలువ )"
+
+#~ msgid "equal"
+#~ msgstr "సమానం"
+
+#~ msgid "doesn't like"
+#~ msgstr "నచ్చని"
+
+#~ msgid "restores hidden blocks"
+#~ msgstr "దాగి ఉన్న భాగాల్ని పున:స్థాపిస్తుంది "
+
+#~ msgid "pop"
+#~ msgstr "ఎగసి "
+
+#~ msgid "pen size"
+#~ msgstr "కలం పరిమాణము"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "జ్యా వెంబడి టర్టిల్‌ని కదుపుతుంది"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "తార్కిక సమాన కార్యవాహిక"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "కలం వర్ణాలతో కూడిన పలకం"
+
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "సంఖ్యా విలువను చరరాశి 1 లో నిక్షిప్తం చేస్తుంది"
+
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "సంఖ్యా విలువను చరరాశి 2 లో నిక్షిప్తం చేస్తుంది"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "టర్టిల్‌ని వెనుకకు నడుపుతుంది"
+
+#, fuzzy
+#~ msgid "ycor of top of screen"
+#~ msgstr "తెర దిగువున y అక్షము "
+
+#~ msgid "Show blocks"
+#~ msgstr "భాగాలను చూపుము"
+
+#, fuzzy
+#~ msgid "save"
+#~ msgstr "దాచు "
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "వర్ణము"
+
+#~ msgid "Open"
+#~ msgstr "తెరుచు "
+
+#, fuzzy
+#~ msgid "orientation"
+#~ msgstr "సమర్పణ"
+
+#~ msgid "ycor"
+#~ msgstr "y అక్షము"
+
+#~ msgid "if"
+#~ msgstr "ఒక వేళ"
+
+#~ msgid "Stop"
+#~ msgstr "నిలిపివేయి "
+
+#~ msgid "action 2"
+#~ msgstr "చర్య  2"
+
+#~ msgid "action 1"
+#~ msgstr "చర్య 1"
+
+#~ msgid "Copy"
+#~ msgstr "కాపీ"
+
+#~ msgid "Paste"
+#~ msgstr "అతికించు"
+
+#~ msgid "did not output to"
+#~ msgstr "అక్కడకి దిగుబడి కాలేదు"
+
+#~ msgid "empty heap"
+#~ msgstr "ఖాళీ కుప్ప "
+
+#~ msgid "Clean"
+#~ msgstr "శుభ్రపరుచు"
+
+#~ msgid "angle"
+#~ msgstr "కోణం"
+
+#~ msgid "audio"
+#~ msgstr "శ్రావణ "
+
+#~ msgid "Tools"
+#~ msgstr "పనిముట్లు "
+
+#~ msgid "left"
+#~ msgstr "ఎడమ"
+
+#~ msgid "comment"
+#~ msgstr "వ్యాఖ్య "
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "తెరను శుభ్ర పరచి టర్టిల్‌ను పున:స్థాపిస్తుంది"
+
+#~ msgid "invokes Action 1 stack"
+#~ msgstr "చర్య 1 కుప్పను ప్రేరేపిస్తుంది"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "టర్టిల్ నిర్దేశాల పలకం"
+
+#~ msgid "loops forever"
+#~ msgstr "ఎల్లప్పిటికీ ఉండే లూపులు"
+
+#~ msgid "show aligned"
+#~ msgstr "లీనంగా చూపు "
+
+#~ msgid "Turtle Art"
+#~ msgstr "టర్టిల్ కళ"
+
+#~ msgid "Project"
+#~ msgstr "పథకం"
+
+#~ msgid "Debug"
+#~ msgstr "లోప నిర్మూలన"
+
+#~ msgid "vertical space"
+#~ msgstr "నిటారు ప్రదేశము"
+
+#~ msgid "less than"
+#~ msgstr "కంటే తక్కువ"
+
+#~ msgid "square root"
+#~ msgstr "మూలం"
+
+#~ msgid "show blocks"
+#~ msgstr "భాగాలను చూపు "
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "శుగర్ పొద్దును వివరించే ప్రాంతం "
+
+#~ msgid "presentation bulleted list"
+#~ msgstr "సమర్పణ  విశేషణ సూచిక జాబితా "
+
+#~ msgid "places a comment in your code"
+#~ msgstr "మీ సంకేతాలలో వ్యాఖ్యనుంచుతుంది "
+
+#~ msgid "scale"
+#~ msgstr "కొలబద్ద "
+
+#~ msgid "bottom"
+#~ msgstr "దిగువ "
+
+#~ msgid "purple"
+#~ msgstr "ఊద"
+
+#~ msgid "click to open"
+#~ msgstr "తెరుచుటకు నొక్కుము"
+
+#, fuzzy
+#~ msgid "microphone input pitch"
+#~ msgstr "మైకు ఎగుబడి పరిమాణం"
+
+#~ msgid "journal"
+#~ msgstr "పొద్దు "
+
+#~ msgid "empty trash"
+#~ msgstr "చెత్తకుండీ ఖాళీ చేయు"
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "శుగర్ పొద్దు శ్రావ్య తాత్పర్యం "
+
+#~ msgid "Stop turtle"
+#~ msgstr "టర్టిల్ ని ఆపు"
+
+#~ msgid "Turtle"
+#~ msgstr "టర్టిల్ "
+
+#~ msgid "store in"
+#~ msgstr "దీనిలో దాచు"
+
+#~ msgid "Hide blocks"
+#~ msgstr "భాగాలను దాచుము"
+
+#~ msgid "plus"
+#~ msgstr "కూడిక"
+
+#~ msgid "or"
+#~ msgstr "లేదా"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "భాగాలను పెంచటానికి ఉపయోగించే కార్యవాహిక గుర్తు"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "భాగాలను కుంచించుము"
+
+#~ msgid "image"
+#~ msgstr "ప్రతిరూపము"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr ""
+#~ "ప్రస్తుత కలం వర్ణాన్ని పట్టి ఉంచుతుంది ( సంఖ్య భాగం బదులు మనం దీనిని వాడ "
+#~ "వచ్చు)"
+
+#~ msgid "Show palette"
+#~ msgstr "వర్ణపలకాన్ని చూపుము"
+
+#~ msgid "Save snapshot"
+#~ msgstr "ఛాయా చిత్రాన్ని దాచుము"
+
+#~ msgid "start"
+#~ msgstr "ప్రారంభించు"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "టర్టిల్‌ను ముందుకు నడుపుతుంది"
+
+#~ msgid "forward"
+#~ msgstr "ముందుకు"
+
+#~ msgid "my box"
+#~ msgstr "నా పేటిక"
+
+#~ msgid "back"
+#~ msgstr "వెనుక"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "సమర్పణ 1x1 "
+
+#~ msgid "presentation 1x2"
+#~ msgstr "సమర్పణ 1x2 "
+
+#~ msgid "top of nameable action stack"
+#~ msgstr "నామకరణం చెయ గల చర్య  కుప్ప  పైన"
+
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "సంఖ్యా విలువను  పేరు గల చరరాశి రూపంలో నిక్షిప్తం చేస్తుంది"
+
+#, fuzzy
+#~ msgid "logical OR operator"
+#~ msgstr "తార్కిక కాదు కార్యవాహిక"
+
+#, fuzzy
+#~ msgid "microphone input voltage"
+#~ msgstr "మైకు ఎగుబడి పరిమాణం"
+
+#~ msgid "invokes Action 2 stack"
+#~ msgstr "చర్య 2 కుప్పను ప్రేరేపిస్తుంది"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "xy లను అమర్చు"
+
+#~ msgid "title y"
+#~ msgstr "పీఠిక y"
+
+#~ msgid "title x"
+#~ msgstr "పీఠిక x"
+
+#~ msgid "fill screen"
+#~ msgstr "తెరను నింపుము"
+
+#~ msgid "set xy"
+#~ msgstr "xy లను అమర్చు"
+
+#~ msgid "polar"
+#~ msgstr "ధృవ "
+
+#~ msgid "repeat"
+#~ msgstr "మళ్ళీ చేయి"
+
+#~ msgid "Save as image"
+#~ msgstr "ప్రతిరూపంగా దాచు"
+
+#~ msgid "Edit"
+#~ msgstr "సరిచేయు"
+
+#~ msgid "top of Action 2 stack"
+#~ msgstr "చర్య 2 కుప్ప  పైన"
+
+#~ msgid "max"
+#~ msgstr "అత్యధిక"
+
+#~ msgid "push"
+#~ msgstr "నెట్టు "
+
+#~ msgid "restore all"
+#~ msgstr "అన్నింటినీ పున:స్థాపించు"

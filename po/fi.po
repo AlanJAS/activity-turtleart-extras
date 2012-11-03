@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -854,11 +854,12 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "väri"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "oikea"
 
 #: taextras.py:319
 msgid "sound"
@@ -1218,8 +1219,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "mod"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1460,166 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "box 2"
+#~ msgstr "laatikko 2"
+
+#~ msgid "box 1"
+#~ msgstr "laatikko 1"
+
+#~ msgid "heading"
+#~ msgstr "otsikko"
+
+#~ msgid "pen down"
+#~ msgstr "kynä alas"
+
+#~ msgid "wait"
+#~ msgstr "odota"
+
+#~ msgid "box"
+#~ msgstr "laatikko"
+
+#~ msgid "set pen size"
+#~ msgstr "aseta kynän koko"
+
+#
+#, fuzzy
+#~ msgid "set heading"
+#~ msgstr "seth"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "aseta kynän koko"
+
+#~ msgid "shade"
+#~ msgstr "sävy"
+
+#~ msgid "pen up"
+#~ msgstr "kynä ylös"
+
+#~ msgid "then"
+#~ msgstr "sitten"
+
+#~ msgid "not"
+#~ msgstr "ei"
+
+#, fuzzy
+#~ msgid "turtle"
+#~ msgstr "Kilpikonna"
+
+#~ msgid "store in box 1"
+#~ msgstr "säilytä laatikossa 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "Säilytä laatikossa 2"
+
+#, fuzzy
+#~ msgid "Save as Logo"
+#~ msgstr "tallenna logo"
+
+#~ msgid "number"
+#~ msgstr "numero"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "aseta sävy"
+
+#~ msgid "and"
+#~ msgstr "ja"
+
+#~ msgid "set color"
+#~ msgstr "aseta väri"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#~ msgid "forever"
+#~ msgstr "ikuisesti"
+
+#~ msgid "clean"
+#~ msgstr "puhdas"
+
+#, fuzzy
+#~ msgid "Fullscreen"
+#~ msgstr "täytä näyttö"
+
+#~ msgid "random"
+#~ msgstr "sattumanvarainen"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "takaisin"
+
+#~ msgid "xcor"
+#~ msgstr "x koord"
+
+#~ msgid "keyboard"
+#~ msgstr "näppäimistö"
+
+#~ msgid "arc"
+#~ msgstr "kaari"
+
+#~ msgid "radius"
+#~ msgstr "säde"
+
+#~ msgid "set shade"
+#~ msgstr "aseta sävy"
+
+#~ msgid "else"
+#~ msgstr "muuten"
+
+#~ msgid "pen size"
+#~ msgstr "kynän koko"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "väri"
+
+#~ msgid "ycor"
+#~ msgstr "y koord"
+
+#~ msgid "if"
+#~ msgstr "jos"
+
+#~ msgid "Clean"
+#~ msgstr "Puhdas"
+
+#~ msgid "angle"
+#~ msgstr "kulma"
+
+#~ msgid "left"
+#~ msgstr "vasen"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Kilpikonnataide"
+
+#~ msgid "Turtle"
+#~ msgstr "Kilpikonna"
+
+#~ msgid "or"
+#~ msgstr "tai"
+
+#~ msgid "start"
+#~ msgstr "käynnistä"
+
+#~ msgid "forward"
+#~ msgstr "eteenpäin"
+
+#~ msgid "back"
+#~ msgstr "takaisin"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "aseta xy"
+
+#~ msgid "fill screen"
+#~ msgstr "täytä näyttö"
+
+#~ msgid "set xy"
+#~ msgstr "aseta xy"
+
+#~ msgid "repeat"
+#~ msgstr "toista"
+
+#~ msgid "max"
+#~ msgstr "max"

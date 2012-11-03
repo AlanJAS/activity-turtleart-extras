@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "hoogte"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "wydte"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -854,15 +854,16 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "kleur"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "regs"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "klank"
 
 #: taextras.py:320
 msgid "grey"
@@ -1059,8 +1060,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "rooi"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1218,8 +1220,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "modulo"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1461,685 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "titel"
+
+#, fuzzy
+#~ msgid "yellow"
+#~ msgstr "geel"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr "AS-DAN-bewerker wat boolse bewerkers van die Syferpalet gebruik"
+
+#, fuzzy
+#~ msgid "jogs stack right"
+#~ msgstr "skuif stapel regs"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "Sugar Joernaal media-objek"
+
+#~ msgid "box 2"
+#~ msgstr "hokkie 2"
+
+#~ msgid "box 1"
+#~ msgstr "hokkie 1"
+
+#~ msgid "Step"
+#~ msgstr "Stap"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "vermenigvuldig twee numeriese insetwaardes"
+
+#~ msgid "Hide palette"
+#~ msgstr "Versteek palet"
+
+#~ msgid "Sugar Journal video object"
+#~ msgstr "Sugar Joernaal video-objek"
+
+#~ msgid "xcor of right of screen"
+#~ msgstr "x-koordinaat van die regterkant van die skerm"
+
+#, fuzzy
+#~ msgid "Palette of extra options"
+#~ msgstr "palet van ekstra opsies"
+
+#~ msgid "heading"
+#~ msgstr "rigting"
+
+#, fuzzy
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "teken teks of wys media van die Joernaal"
+
+#, fuzzy
+#~ msgid "jogs stack down"
+#~ msgstr "skuif stapel af"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "modulêre (reswaarde) operateur"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "onderkant"
+
+#~ msgid "runs code found in the tamyblock.py module found in the Journal"
+#~ msgstr ""
+#~ "voer die kode uit wat in die tamyblock.py module onder die Joernaal gevind "
+#~ "word"
+
+#~ msgid "pen down"
+#~ msgstr "pen af"
+
+#~ msgid "wait"
+#~ msgstr "wag"
+
+#~ msgid "box"
+#~ msgstr "hokkie"
+
+#, fuzzy
+#~ msgid "invokes named action stack"
+#~ msgstr "roep die beoemde aksiestapel in"
+
+#~ msgid "action"
+#~ msgstr "aksie"
+
+#, fuzzy
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr "AS-DAN-ANDERS-bewerker wat boolse bewerkers van die Syferpalet gebruik"
+
+#, fuzzy
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "veranderlike 2"
+
+#~ msgid "the canvas width"
+#~ msgstr "wydte van die werksoppervlak"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "maak hoop skoon"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "benoemde veranderlike"
+
+#, fuzzy
+#~ msgid "next"
+#~ msgstr "teks"
+
+#~ msgid "set pen size"
+#~ msgstr "stel pengrootte"
+
+#~ msgid "presentation template: select Journal object (no description)"
+#~ msgstr "voorleggingstemplaat: Kies 'n Joernaalobjek (sonder beskrywing)"
+
+#, fuzzy
+#~ msgid "top of Action 1 stack"
+#~ msgstr "bokant van aksie 1 stapel"
+
+#, fuzzy
+#~ msgid "Palette of flow operators"
+#~ msgstr "palet van vloeibewerkers"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr "AS-DAN-ANDERS-bewerker wat boolse bewerkers van die Syferpalet gebruik"
+
+#
+#~ msgid "set heading"
+#~ msgstr "stel rigting"
+
+#, fuzzy
+#~ msgid "declutters canvas by hiding blocks"
+#~ msgstr "maak werksoppervlak skoon deur blokke te versteek"
+
+#~ msgid "string value"
+#~ msgstr "stringwaarde"
+
+#~ msgid "description"
+#~ msgstr "beskrywing"
+
+#~ msgid "set text size"
+#~ msgstr "stel teksgrootte"
+
+#~ msgid "presentation template: select four Journal objects"
+#~ msgstr "voorleggingstemplaat: Kies vier Joernaalobjekte"
+
+#, fuzzy
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "stel die skadu van die lyn wat die skilpad teken"
+
+#~ msgid "stop action"
+#~ msgstr "stop aksie"
+
+#~ msgid "shade"
+#~ msgstr "skadu"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "vul die agtergrond met (kleur, skadu)"
+
+#~ msgid "pen up"
+#~ msgstr "pen op"
+
+#, fuzzy
+#~ msgid "orange"
+#~ msgstr "oranje"
+
+#, fuzzy
+#~ msgid "pushes value onto FILO (first-in last-out heap)"
+#~ msgstr "druk die waarde op die EILU (eerste-in-laaste-uit) stapel"
+
+#~ msgid "then"
+#~ msgstr "dan"
+
+#~ msgid "not"
+#~ msgstr "NIE"
+
+#, fuzzy
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "draai die skilpad kloksgewys (gee die hoek in grade)"
+
+#, fuzzy
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr "hou die huidige skaal (kan gebruik word i.p.v. 'n nommerblok)"
+
+#~ msgid "xcor of left of screen"
+#~ msgstr "x-koordinaat van die linkerkant van die skerm"
+
+#, fuzzy
+#~ msgid "turtle"
+#~ msgstr "Skilpad"
+
+#~ msgid "hide blocks"
+#~ msgstr "versteek blokke"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "logiese kleiner-as bewerker"
+
+#~ msgid "store in box 1"
+#~ msgstr "stoor in hokkie 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "stoor in hokkie 2"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "hou die huidige x-koordinaat van die skilpad (kan gebruik word i.p.v. 'n "
+#~ "nommerblok)"
+
+#~ msgid "print"
+#~ msgstr "druk"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Stoor as Logo"
+
+#, fuzzy
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "stel die"
+
+#~ msgid "set text color"
+#~ msgstr "stel tekskleur"
+
+#~ msgid "number"
+#~ msgstr "syfer"
+
+#~ msgid "top"
+#~ msgstr "bokant"
+
+#~ msgid "set scale"
+#~ msgstr "stel skaal"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "koppel die aksie aan die die nutsbalk se uitvoerknoppies"
+
+#~ msgid "the canvas height"
+#~ msgstr "hoogte van die werksoppervlak"
+
+#, fuzzy
+#~ msgid "presentation 2x1"
+#~ msgstr "voorlegging"
+
+#~ msgid "and"
+#~ msgstr "EN"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr "hou die huidige pengrootte (kan gebruk word i.p.v. 'n nommerblok)"
+
+#~ msgid "set color"
+#~ msgstr "stel kleur"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "laai my blok"
+
+#, fuzzy
+#~ msgid "Palette of pen commands"
+#~ msgstr "palet van penbevele"
+
+#, fuzzy
+#~ msgid "shows values in FILO (first-in last-out heap)"
+#~ msgstr "druk die waarde op die EILU (eerste-in-laaste-uit) stapel"
+
+#, fuzzy
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr "AS-DAN-ANDERS-bewerker wat boolse bewerkers van die Syferpalet gebruik"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "logiese NIE-bewerker"
+
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "y-koordinaat van die onderkant van die skerm"
+
+#~ msgid "presentation template: select Journal object (with description)"
+#~ msgstr "voorleggingstemplaat: Kies 'n Joernaalobjek (met beskrywing)"
+
+#, fuzzy
+#~ msgid "Palette of numeric operators"
+#~ msgstr "palet van numeriese bewerkers"
+
+#~ msgid "forever"
+#~ msgstr "vir altyd"
+
+#, fuzzy
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "stel die skadu van die lyn wat die skilpad teken"
+
+#~ msgid "clean"
+#~ msgstr "maak skoon"
+
+#~ msgid "presentation template: select two Journal objects"
+#~ msgstr "voorleggingstemplaat: Kies twee Joernaalobjekte"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "Wys blokke"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Volskerm"
+
+#~ msgid "show"
+#~ msgstr "wys"
+
+#~ msgid "text"
+#~ msgstr "teks"
+
+#~ msgid "random"
+#~ msgstr "ewekansig"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "logiese groter-as bewerker"
+
+#, fuzzy
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "draai die skilpad anti-kloksgewys (gee die hoek in grade)"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "agtertoe"
+
+#, fuzzy
+#~ msgid "calculates square root"
+#~ msgstr "werk die vierkantswortel uit"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "hou die huidige y-koordinaat van die skilpad (kan gebruik word i.p.v. 'n "
+#~ "nommerblok)"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "bokant"
+
+#~ msgid "xcor"
+#~ msgstr "x-koord"
+
+#~ msgid "Help"
+#~ msgstr "Hulp"
+
+#, fuzzy
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "stel die kleur van die lyn wat die skilpad teken"
+
+#~ msgid "keyboard"
+#~ msgstr "sleutelbord"
+
+#~ msgid "arc"
+#~ msgstr "boog"
+
+#~ msgid "radius"
+#~ msgstr "radius"
+
+#~ msgid "set shade"
+#~ msgstr "stel skadu"
+
+#~ msgid "logical AND operator"
+#~ msgstr "logiese EN-bewerker"
+
+#~ msgid "Run"
+#~ msgstr "Voer uit"
+
+#~ msgid "show heap"
+#~ msgstr "wys die hoop"
+
+#, fuzzy
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "stel die rigting van die skilpad (0 is na die bokant van die skerm.)"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "Titel:"
+
+#, fuzzy
+#~ msgid "Palette of variable blocks"
+#~ msgstr "palet van veranderlike blokke"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "gebruik as numeriese insetwaarde in wiskundige operateurs"
+
+#, fuzzy
+#~ msgid "presentation 2x2"
+#~ msgstr "voorlegging"
+
+#, fuzzy
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "veranderlike 1"
+
+#, fuzzy
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "tel twee numeriese insetwaardes bymekaar"
+
+#~ msgid "else"
+#~ msgstr "andersins"
+
+#, fuzzy
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "skilpad sal nie teken wanneer hy geskuif word nie."
+
+#~ msgid "pop"
+#~ msgstr "haal af"
+
+#~ msgid "pen size"
+#~ msgstr "pengrootte"
+
+#, fuzzy
+#~ msgid "moves turtle along an arc"
+#~ msgstr "skuif die skilpad in 'n boog"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "logiese gelyk-aan bewerker"
+
+#, fuzzy
+#~ msgid "Palette of pen colors"
+#~ msgstr "palet van penbevele"
+
+#, fuzzy
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "stoor die numeriese waarde in veranderlike 1"
+
+#, fuzzy
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "stoor die numeriese waarde in veranderlike 2"
+
+#, fuzzy
+#~ msgid "moves turtle backward"
+#~ msgstr "skuif die skilpad agtertoe"
+
+#~ msgid "ycor of top of screen"
+#~ msgstr "y-koordinaat van die bokant van die skerm"
+
+#~ msgid "Show blocks"
+#~ msgstr "Wys blokke"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "kleur"
+
+#, fuzzy
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "stel die grootte van die lyn wat die skilpad teken"
+
+#, fuzzy
+#~ msgid "orientation"
+#~ msgstr "voorlegging"
+
+#~ msgid "ycor"
+#~ msgstr "y-koord"
+
+#~ msgid "if"
+#~ msgstr "as"
+
+#, fuzzy
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr "skuif die skilpad na posisie x, y; (0,0) is in die middel van die skem."
+
+#, fuzzy
+#~ msgid "Stop"
+#~ msgstr "bokant"
+
+#, fuzzy
+#~ msgid "action 2"
+#~ msgstr "aksie"
+
+#, fuzzy
+#~ msgid "action 1"
+#~ msgstr "aksie"
+
+#~ msgid "Copy"
+#~ msgstr "Kopieer"
+
+#~ msgid "Paste"
+#~ msgstr "Plak"
+
+#~ msgid "empty heap"
+#~ msgstr "maak hoop skoon"
+
+#, fuzzy
+#~ msgid "pops value off FILO (first-in last-out heap)"
+#~ msgstr "druk die waarde op die EILU (eerste-in-laaste-uit) stapel"
+
+#~ msgid "Clean"
+#~ msgstr "Maak skoon"
+
+#, fuzzy
+#~ msgid "Palette of presentation templates"
+#~ msgstr "palet van voorleggingstemplate"
+
+#~ msgid "angle"
+#~ msgstr "hoek"
+
+#~ msgid "left"
+#~ msgstr "links"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "trek die onderste numeriese insetwaarde van die boonste een af"
+
+#~ msgid "query for keyboard input (results stored in keyboard block)"
+#~ msgstr "vra vir inset van die sleutelbord (word in sleutelbord-blok gestoor)"
+
+#, fuzzy
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "maak die skerm skoon en herstel die skilpad"
+
+#, fuzzy
+#~ msgid "invokes Action 1 stack"
+#~ msgstr "roep aksie 1 stapel in"
+
+#, fuzzy
+#~ msgid "Palette of turtle commands"
+#~ msgstr "palet van skilpadbevele"
+
+#, fuzzy
+#~ msgid "loops forever"
+#~ msgstr "gaan vir altyd in 'n lus in"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Turtle Art"
+
+#~ msgid "Project"
+#~ msgstr "Projek"
+
+#~ msgid "Debug"
+#~ msgstr "Ontfout"
+
+#, fuzzy
+#~ msgid "show blocks"
+#~ msgstr "Wys blokke"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "Sugar Journal beskrywingsveld"
+
+#~ msgid "scale"
+#~ msgstr "skaal"
+
+#~ msgid "bottom"
+#~ msgstr "onderkant"
+
+#~ msgid "Description:"
+#~ msgstr "Beskrywing:"
+
+#, fuzzy
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "skilpad sal teken wanneer hy geskuif word."
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "Sugar Joernaal oudio-objek"
+
+#~ msgid "Stop turtle"
+#~ msgstr "Stop die skilpad"
+
+#~ msgid "Turtle"
+#~ msgstr "Skilpad"
+
+#~ msgid "store in"
+#~ msgstr "stoor in"
+
+#~ msgid "Hide blocks"
+#~ msgstr "Versteek blokke"
+
+#~ msgid "or"
+#~ msgstr "OF"
+
+#, fuzzy
+#~ msgid "presentation template: list of bullets"
+#~ msgstr "voorleggingstemplaat: Kollys met sewe kolle"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "identitietsbewerker om blokke uit te brei"
+
+#, fuzzy
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "stel die grootte van die teks wat die skilpad teken"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr ""
+#~ "hou die huidige rigting van die skilpad (kan gebruik word i.p.v. 'n "
+#~ "nommerblok)"
+
+#, fuzzy
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr ""
+#~ "gee 'n ewekansige nommerwaarde tussen minimum- (links) en maksimumwaardes "
+#~ "(regs)"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr ""
+#~ "hou die huidige kleur van die pen (kan gebruk word i.p.v. 'n nommerblok)"
+
+#~ msgid "Show palette"
+#~ msgstr "Wys palet"
+
+#~ msgid "Save snapshot"
+#~ msgstr "Stoor flitsbeeld"
+
+#~ msgid "start"
+#~ msgstr "begin"
+
+#, fuzzy
+#~ msgid "moves turtle forward"
+#~ msgstr "skuif die skilpad vorentoe"
+
+#~ msgid "forward"
+#~ msgstr "vorentoe"
+
+#~ msgid "back"
+#~ msgstr "agtertoe"
+
+#, fuzzy
+#~ msgid "sets the scale of media"
+#~ msgstr "stel die skaal van die media"
+
+#, fuzzy
+#~ msgid "presentation 1x1"
+#~ msgstr "voorlegging"
+
+#, fuzzy
+#~ msgid "presentation 1x2"
+#~ msgstr "voorlegging"
+
+#~ msgid "top of nameable action stack"
+#~ msgstr "bokant van benoembare aksiestapel"
+
+#, fuzzy
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "stoor numeriese waarde in benoemde veranderlike"
+
+#~ msgid "logical OR operator"
+#~ msgstr "logiese OF-bewerker"
+
+#, fuzzy
+#~ msgid "loops specified number of times"
+#~ msgstr "gaan 'n gespesifiseerde hoeveelheid kere in 'n lus in"
+
+#, fuzzy
+#~ msgid "invokes Action 2 stack"
+#~ msgstr "roep aksie 2 stapel in"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "stel xy"
+
+#~ msgid "fill screen"
+#~ msgstr "vul skerm"
+
+#~ msgid "set xy"
+#~ msgstr "stel xy"
+
+#~ msgid "repeat"
+#~ msgstr "herhaal"
+
+#~ msgid "Save as image"
+#~ msgstr "Stoor as prent"
+
+#~ msgid "Edit"
+#~ msgstr "Redigeer"
+
+#, fuzzy
+#~ msgid "top of Action 2 stack"
+#~ msgstr "bokant van aksie 2 stapel"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr ""
+#~ "deel die boonste numeriese insetwaarde (teller) deur die onderste een "
+#~ "(noemer)"
+
+#~ msgid "max"
+#~ msgstr "maks"
+
+#~ msgid "prints value in status block at bottom of the screen"
+#~ msgstr "vertoon die waarde in die statusblokkie aan die onderkant van die skerm"
+
+#, fuzzy
+#~ msgid "holds results of query-keyboard block as ASCII"
+#~ msgstr "hou die resultaat van die sleutelbord-navraagblok"
+
+#~ msgid "push"
+#~ msgstr "druk"

@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -865,8 +865,9 @@ msgid "sound"
 msgstr ""
 
 #: taextras.py:320
+#, fuzzy
 msgid "grey"
-msgstr ""
+msgstr "tenextik"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
@@ -1059,8 +1060,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "chichiltik"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1458,3 +1460,155 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "yellow"
+#~ msgstr "kostik"
+
+#, fuzzy
+#~ msgid "Step"
+#~ msgstr "Moketsas"
+
+#~ msgid "heading"
+#~ msgstr "ojtli"
+
+#~ msgid "blue"
+#~ msgstr "axoxouik"
+
+#~ msgid "pen down"
+#~ msgstr "temos tlauasantli"
+
+#, fuzzy
+#~ msgid "while"
+#~ msgstr "chipauak     -    itstak"
+
+#~ msgid "set heading"
+#~ msgstr "konke asiti"
+
+#~ msgid "green"
+#~ msgstr "xoxouik"
+
+#~ msgid "shade"
+#~ msgstr "kakistli"
+
+#, fuzzy
+#~ msgid "pitch"
+#~ msgstr "chikotemoli"
+
+#~ msgid "pen up"
+#~ msgstr "tlajkos tlauasantli"
+
+#~ msgid "orange"
+#~ msgstr "chilkostik"
+
+#, fuzzy
+#~ msgid "Register"
+#~ msgstr "TLajkuiloli"
+
+#, fuzzy
+#~ msgid "Save"
+#~ msgstr "Ajokuis"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "iixko"
+
+#~ msgid "white"
+#~ msgstr "chipauak     -    itstak"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Tlamilti"
+
+#~ msgid "clean"
+#~ msgstr "pojpoua"
+
+#~ msgid "black"
+#~ msgstr "yayauik"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "moketsas"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "Palewi"
+
+#~ msgid "arc"
+#~ msgstr "uitoli"
+
+#~ msgid "radius"
+#~ msgstr "tlajkokotonketl"
+
+#, fuzzy
+#~ msgid "play"
+#~ msgstr "tlatsinkuis"
+
+#, fuzzy
+#~ msgid "save"
+#~ msgstr "ajokuis"
+
+#, fuzzy
+#~ msgid "Open"
+#~ msgstr "Tlapolli"
+
+#, fuzzy
+#~ msgid "Stop"
+#~ msgstr "Moketsas"
+
+#~ msgid "end fill"
+#~ msgstr "tlamis kipachos"
+
+#, fuzzy
+#~ msgid "Copy"
+#~ msgstr "Ixkopina"
+
+#, fuzzy
+#~ msgid "Clean"
+#~ msgstr "pojpoua"
+
+#~ msgid "angle"
+#~ msgstr "tlajpouitoli"
+
+#~ msgid "Turtle Art"
+#~ msgstr "yeyektsi ayotl"
+
+#, fuzzy
+#~ msgid "duration"
+#~ msgstr "wajkawa"
+
+#~ msgid "purple"
+#~ msgstr "xolpaltik"
+
+#, fuzzy
+#~ msgid "Load..."
+#~ msgstr "Tlananili..."
+
+#, fuzzy
+#~ msgid "image"
+#~ msgstr "ixkopinka"
+
+#, fuzzy
+#~ msgid "back"
+#~ msgstr "tlakuepilis"
+
+#, fuzzy
+#~ msgid "Save..."
+#~ msgstr "Ajokuis..."
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "kitlalis xy"
+
+#~ msgid "fill screen"
+#~ msgstr "kixpachos tlachankayotl"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "Ajokuis katsa"
+
+#~ msgid "set xy"
+#~ msgstr "kitlalis xy"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "Tlajchichiuastli"

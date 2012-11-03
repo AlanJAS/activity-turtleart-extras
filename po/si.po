@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -32,7 +32,7 @@ msgstr ""
 
 #: taextras.py:41 taextras.py:46
 msgid "Select a challenge"
-msgstr ""
+msgstr "අභියෝගයක් තෝරන්න"
 
 #: taextras.py:45
 msgid "Amazonas Tortuga"
@@ -40,15 +40,15 @@ msgstr ""
 
 #: taextras.py:52
 msgid "Palette of Mexican pesos"
-msgstr ""
+msgstr "මෙක්සිකානු පෙසෝ ඵලකය"
 
 #: taextras.py:53
 msgid "Palette of Colombian pesos"
-msgstr ""
+msgstr "කොලොම්බියානු පෙසෝ ඵලකය"
 
 #: taextras.py:54
 msgid "Palette of Rwandan francs"
-msgstr ""
+msgstr "රුවන්ඩා ෆ්‍රෑන්ක් ඵලකය"
 
 #: taextras.py:55
 msgid "Palette of US dollars"
@@ -120,7 +120,7 @@ msgstr ""
 
 #: taextras.py:77
 msgid "LED"
-msgstr ""
+msgstr "LED"
 
 #: taextras.py:78
 msgid "button"
@@ -128,7 +128,7 @@ msgstr ""
 
 #: taextras.py:79
 msgid "grayscale"
-msgstr ""
+msgstr "කළු සුදු පරාසය"
 
 #: taextras.py:80
 msgid "ambient light"
@@ -136,11 +136,11 @@ msgstr ""
 
 #: taextras.py:81
 msgid "temperature"
-msgstr ""
+msgstr "උෂ්ණත්වය"
 
 #: taextras.py:82 taextras.py:291
 msgid "distance"
-msgstr ""
+msgstr "දුර"
 
 #: taextras.py:83 taextras.py:288
 msgid "tilt"
@@ -148,15 +148,15 @@ msgstr ""
 
 #: taextras.py:84
 msgid "magnetic induction"
-msgstr ""
+msgstr "චුම්භක ප්‍රේරණය"
 
 #: taextras.py:85
 msgid "vibration"
-msgstr ""
+msgstr "කම්පනය"
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "ප්‍රතිරෝධය"
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -283,7 +283,7 @@ msgstr ""
 
 #: taextras.py:126
 msgid "FollowMe"
-msgstr ""
+msgstr "මාව අනුගමනය කරන්න"
 
 #: taextras.py:127
 msgid "refresh FollowMe"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: taextras.py:135
 msgid "brightness"
-msgstr ""
+msgstr "දීප්තිය"
 
 #: taextras.py:136
 msgid "set the camera brightness as a value between 0 to 255."
@@ -368,19 +368,19 @@ msgstr ""
 
 #: taextras.py:149
 msgid "x position"
-msgstr ""
+msgstr "x පිහිටීම"
 
 #: taextras.py:150
 msgid "return x position"
-msgstr ""
+msgstr "x පිහිටීම ලබා දෙන්න"
 
 #: taextras.py:151
 msgid "y position"
-msgstr ""
+msgstr "y පිහිටීම"
 
 #: taextras.py:152
 msgid "return y position"
-msgstr ""
+msgstr "y පිහිටීම ලබා දෙන්න"
 
 #: taextras.py:153
 msgid "pixels"
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "උස"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "පළල"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +725,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "අනන්‍යතාව"
 
 #: taextras.py:267
 msgid ""
@@ -854,15 +855,16 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "වර්ණ"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "දකුණ"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "හඬ"
 
 #: taextras.py:320
 msgid "grey"
@@ -948,7 +950,7 @@ msgstr ""
 
 #: taextras.py:340
 msgid "time"
-msgstr ""
+msgstr "කාලය"
 
 #: taextras.py:341
 msgid "Play a tone at frequency for time."
@@ -962,8 +964,9 @@ msgid ""
 msgstr ""
 
 #: taextras.py:344
+#, fuzzy
 msgid "port"
-msgstr ""
+msgstr "පේනුව"
 
 #: taextras.py:345
 msgid "power"
@@ -1218,8 +1221,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "ඉතිරි"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1231,7 +1235,7 @@ msgstr ""
 
 #: taextras.py:421
 msgid "value"
-msgstr ""
+msgstr "අග"
 
 #: taextras.py:422
 msgid "Write analog value in specified port."
@@ -1458,3 +1462,774 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "තේමාව"
+
+#~ msgid "camera output"
+#~ msgstr "කැමරා ප්‍රතිදානය"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr "අංක ඵලකයෙන් ද්වීමය මෙහෙයුම් භාවිතා කරන if-then මෙහෙයුම"
+
+#~ msgid "box 2"
+#~ msgstr "1 වන කොටුව"
+
+#~ msgid "box 1"
+#~ msgstr "1 වන කොටුව"
+
+#~ msgid "Step"
+#~ msgstr "පියවර"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "අංකිත ආදාන දෙකක් ගුණ කරයි"
+
+#~ msgid "Show/hide blocks"
+#~ msgstr "කුට්ටි පෙන්වන්න/සඟවන්න"
+
+#~ msgid "Hide palette"
+#~ msgstr "ඵලකය සගවන්න"
+
+#~ msgid "Buddies"
+#~ msgstr "මිතුරන්"
+
+#~ msgid "Load example"
+#~ msgstr "උදාහරණය ප්‍රවේශ කරන්න"
+
+#~ msgid "move all blocks to trash"
+#~ msgstr "සියළු කුට්ටි කුණු කූඩයට දමන්න"
+
+#~ msgid "list"
+#~ msgstr "ලැයිස්තුව"
+
+#, python-format
+#~ msgid "Configuration directory not writable: %s"
+#~ msgstr "වින්‍යාසගත කිරීමේ නාමාවලිය ලිවිය නොහැක: %s"
+
+#~ msgid "heading"
+#~ msgstr "ශීර්ෂකය"
+
+#~ msgid "RFID"
+#~ msgstr "RFID"
+
+#~ msgid "video"
+#~ msgstr "දෘශ්‍ය"
+
+#~ msgid "No option action:"
+#~ msgstr "විකල්ප ක්‍රියාව නැත:"
+
+#~ msgid "bottom y"
+#~ msgstr "y පහළ"
+
+#~ msgid "save SVG"
+#~ msgstr "SVG සුරකින්න"
+
+#~ msgid "pen down"
+#~ msgstr "පැන් පහර පහළට"
+
+#~ msgid "wait"
+#~ msgstr "රැඳීසිටින්න"
+
+#~ msgid "box"
+#~ msgstr "පෙට්ටිය"
+
+#~ msgid "Failed to upload!"
+#~ msgstr "උඩුගත කිරීමට අසාර්ථක විය!"
+
+#~ msgid "action"
+#~ msgstr "ක්‍රියාව"
+
+#, fuzzy
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr "අංක ඵලකයෙන් ද්වීමය මෙහෙයුම් භාවිතා කරන if-then-else මෙහෙයුම"
+
+#~ msgid "usage is"
+#~ msgstr "භාවිතය"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "විචල්‍යය 2 (අංකිත අගය)"
+
+#~ msgid "divide"
+#~ msgstr "බෙදීම"
+
+#~ msgid "picture name"
+#~ msgstr "පින්තූර නාමය"
+
+#~ msgid "while"
+#~ msgstr "අතරතුර"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "හිස් මතක කොටස"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "නම් කරන ලද විචල්‍යය (අංකිත අගය)"
+
+#~ msgid "next"
+#~ msgstr "ඊලඟ"
+
+#, fuzzy
+#~ msgid "if then"
+#~ msgstr "if then"
+
+#~ msgid "set pen size"
+#~ msgstr "පෑනේ විශාලත්වය සකසන්න"
+
+#~ msgid "until"
+#~ msgstr "දක්වා"
+
+#~ msgid "permanently deletes items in trash"
+#~ msgstr "කුණු කූඩයේ ඇති අයිතම ස්ථිරවම මකයි"
+
+#, fuzzy
+#~ msgid "Palette of flow operators"
+#~ msgstr "අංකිත මෙහෙයුම් වල ඵලකය"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr "අංක ඵලකයෙන් ද්වීමය මෙහෙයුම් භාවිතා කරන if-then-else මෙහෙයුම"
+
+#~ msgid "Login failed"
+#~ msgstr "පිවිසීම අසාර්ථක විය"
+
+#~ msgid "left x"
+#~ msgstr "x වම"
+
+#
+#~ msgid "set heading"
+#~ msgstr "seth"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>w"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>s"
+
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrl>e"
+
+#~ msgid "horizontal space"
+#~ msgstr "තිරස් ඉඩ"
+
+#~ msgid "Metric coordinates"
+#~ msgstr "ප්‍රමිතික ඛණ්ඩාංක"
+
+#~ msgid "string value"
+#~ msgstr "අනු ලකුණු වැල අගය"
+
+#~ msgid "description"
+#~ msgstr "විස්තරය"
+
+#~ msgid "I don't know how to"
+#~ msgstr "කෙසේ කරන්නද මම දන්නෙ නෑ"
+
+#~ msgid "set text size"
+#~ msgstr "පෙළ විශාලත්වය සකසන්න"
+
+#~ msgid "Username:"
+#~ msgstr "පරිශීලක නාමය:"
+
+#~ msgid "starts filled polygon (used with end fill block)"
+#~ msgstr "පිරවූ බහුඅශ්‍රය ආරම්භ කරයි (පිරවුම් කුට්ටිය අවසාන කිරීම සමඟ භාවිතා කල)"
+
+#~ msgid "View"
+#~ msgstr "දර්ශනය කරන්න"
+
+#, fuzzy
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "කැස්බෑවා විසින් අදින රේඛාවේ ප්‍රමාණය පිහිටුවයි"
+
+#~ msgid "Password:"
+#~ msgstr "මුරපදය:"
+
+#~ msgid "stop action"
+#~ msgstr "ක්‍රියාව නවත්වන්න"
+
+#~ msgid "shade"
+#~ msgstr "අඳුරු කරන්න"
+
+#~ msgid "save picture"
+#~ msgstr "පින්තූරය සුරකින්න"
+
+#~ msgid "pitch"
+#~ msgstr "තාරතාව"
+
+#~ msgid "Rescale coordinates up"
+#~ msgstr "ඛණ්ඩාංක ඉහළට නැවත පරිමාණනය කරන්න"
+
+#~ msgid "pen up"
+#~ msgstr "පෑන ඔසවන්න"
+
+#~ msgid "pauses program execution a specified number of seconds"
+#~ msgstr "විශේෂණය කල තත්පර ගණනක් වැඩසටහන ක්‍රියාත්මක වීම තාවකාලිකව නවත්වයි"
+
+#~ msgid "clear all"
+#~ msgstr "සියල්ල පැහැදිලි කරන්න"
+
+#~ msgid "then"
+#~ msgstr "ඊළගට"
+
+#~ msgid "Register"
+#~ msgstr "ලියාපදිංවි කරන්න"
+
+#~ msgid "not"
+#~ msgstr "නැති"
+
+#, fuzzy
+#~ msgid "if then else"
+#~ msgstr "if then else"
+
+#~ msgid "stops current action"
+#~ msgstr "වත්මන් ක්‍රියාව නතර කරයි"
+
+#~ msgid "Reset block size"
+#~ msgstr "කුට්ටි ප්‍රමාණය නැවත සකසන්න"
+
+#~ msgid "turtle"
+#~ msgstr "කැස්බෑවා"
+
+#~ msgid "displays next palette"
+#~ msgstr "ඊළඟ ඵලකය ප්‍රදර්ශනය කරයි"
+
+#~ msgid "hide blocks"
+#~ msgstr "කොටස් සගවන්න"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "තාර්කික less-than මෙහෙයුම"
+
+#~ msgid "restore all blocks from trash"
+#~ msgstr "කුණු කූඩයෙන් සියළු කුට්ටි නැවත පිහිටුවන්න"
+
+#~ msgid "Save"
+#~ msgstr "සුරකින්න"
+
+#~ msgid "store in box 1"
+#~ msgstr "1 වන කොටුව තුළ තබන්න"
+
+#~ msgid "store in box 2"
+#~ msgstr "2 වන කොටුව තුළ තබන්න"
+
+#~ msgid "print"
+#~ msgstr "මුද්‍රණය"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Logo ලෙස සුරකින්න"
+
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "කැස්බෑවා විසින් අදින රේඛාවේ වර්ණය පිහිටුවයි"
+
+#~ msgid "set text color"
+#~ msgstr "පෙළ වර්ණය සකසන්න"
+
+#~ msgid "number"
+#~ msgstr "අංකය"
+
+#~ msgid "top"
+#~ msgstr "ඉහළ"
+
+#~ msgid "Submit to Web"
+#~ msgstr "වෙබයට ඉදිරිපත් කරන්න"
+
+#~ msgid "Cartesian coordinates"
+#~ msgstr "කාටිසියානු ඛණ්ඩාංක"
+
+#~ msgid "Nickname"
+#~ msgstr "අන්වර්ථ නාමය"
+
+#~ msgid "set scale"
+#~ msgstr "පරිමාණය සකසන්න"
+
+#, fuzzy
+#~ msgid "white"
+#~ msgstr "අතරතුර"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "මෙවලම් තීරු ධාවනය කරන්න බොත්තම් වලට ක්‍රියා සම්බන්ධ කරයි"
+
+#~ msgid "Cancel"
+#~ msgstr "අවලංගු කරන්න"
+
+#~ msgid "presentation 2x1"
+#~ msgstr "ඉදිරිපත් කිරීම 2x1"
+
+#~ msgid "minus"
+#~ msgstr "අඩු කිරීම"
+
+#~ msgid "and"
+#~ msgstr "සහ"
+
+#~ msgid "as input"
+#~ msgstr "ආදානය ලෙද"
+
+#~ msgid "acceleration"
+#~ msgstr "ත්වරණය"
+
+#~ msgid "set color"
+#~ msgstr "වර්ණය සකසන්න"
+
+#~ msgid "min"
+#~ msgstr "අවම"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "මාගේ කොටස පූරණය කරන්න"
+
+#~ msgid "Palette of pen commands"
+#~ msgstr "පෑන් විධාන ඵලකය"
+
+#, fuzzy
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr "අංක ඵලකයෙන් ද්වීමය මෙහෙයුම් භාවිතා කරන if-then-else මෙහෙයුම"
+
+#~ msgid "File"
+#~ msgstr "ගොනුව"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "තාර්කික NOT මෙහෙයුම"
+
+#~ msgid "Palette of numeric operators"
+#~ msgstr "අංකිත මෙහෙයුම් වල ඵලකය"
+
+#~ msgid "multiply"
+#~ msgstr "ගුණ කිරීම"
+
+#~ msgid "forever"
+#~ msgstr "සෑමවිටම"
+
+#, fuzzy
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "කැස්බෑවා විසින් අදින රේඛාවේ ප්‍රමාණය පිහිටුවයි"
+
+#~ msgid "snapshot"
+#~ msgstr "ක්ෂණික ඡායාරූපය"
+
+#~ msgid "clean"
+#~ msgstr "මකන්න"
+
+#~ msgid "Grow blocks"
+#~ msgstr "කුට්ටි වවන්න"
+
+#~ msgid "Fullscreen"
+#~ msgstr "මුළු තිරයම"
+
+#~ msgid "File not found"
+#~ msgstr "ගොනුව හමු නොවුණි"
+
+#~ msgid "show"
+#~ msgstr "පෙන්වන්න"
+
+#~ msgid "text"
+#~ msgstr "පෙළ"
+
+#~ msgid "random"
+#~ msgstr "අහඹු"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "තාර්කික greater-than මෙහෙයුම"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "පසුපසට"
+
+#~ msgid "calculates square root"
+#~ msgstr "වර්ගමූලය ගණනය කරයි"
+
+#~ msgid "stop"
+#~ msgstr "නවත්වන්න"
+
+#~ msgid "greater than"
+#~ msgstr "වඩා වැඩි"
+
+#~ msgid "xcor"
+#~ msgstr "xcor"
+
+#~ msgid "Help"
+#~ msgstr "උදව්"
+
+#~ msgid "Save project?"
+#~ msgstr "ව්‍යාපෘතිය සුරකින්නද?"
+
+#~ msgid "right x"
+#~ msgstr "x දකුණ"
+
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "කැස්බෑවා විසින් අදින පෙළෙහි වර්ණය පිහිටුවයි"
+
+#~ msgid "keyboard"
+#~ msgstr "යතුරු පුවරුව"
+
+#~ msgid "arc"
+#~ msgstr "arc"
+
+#~ msgid "radius"
+#~ msgstr "අරය"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "ධ්‍රැවක ඛණ්ඩාංක"
+
+#~ msgid "set shade"
+#~ msgstr "අඳුරුකිරීම් සකසන්න"
+
+#~ msgid "logical AND operator"
+#~ msgstr "තාර්කික AND මෙහෙයුම"
+
+#~ msgid "Run"
+#~ msgstr "ධාවනය කරන්න"
+
+#~ msgid "show heap"
+#~ msgstr "සංචිතය දක්වන්න"
+
+#~ msgid "Title:"
+#~ msgstr "තේමාව:"
+
+#, fuzzy
+#~ msgid "Restore blocks from trash"
+#~ msgstr "කුණු කූඩයෙන් සියළු කුට්ටි නැවත පිහිටුවන්න"
+
+#~ msgid "Palette of variable blocks"
+#~ msgstr "විචල්‍යය කුට්ටි සඳහා ඵලකය"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "ගණිතමය මෙහෙයුම් වලදී අංකිත මෙහෙයුම් ලෙස භාවිතා කරනු ලබයි"
+
+#~ msgid "Upload"
+#~ msgstr "උඩුගත කරන්න"
+
+#~ msgid "Server"
+#~ msgstr "සේවාදායකය"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "ඉදිරිපත් කිරීම 2x2"
+
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "විචල්‍යය 1 (අංකිත අගය)"
+
+#~ msgid "Neighborhood"
+#~ msgstr "අසල්වාසීන්"
+
+#~ msgid "equal"
+#~ msgstr "සමාන"
+
+#~ msgid "else"
+#~ msgstr "else"
+
+#~ msgid "doesn't like"
+#~ msgstr "කැමති නෑ"
+
+#~ msgid "You have unsaved work. Would you like to save before quitting?"
+#~ msgstr "ඔබ සුරැකා නැති වැඩ ඇත. ඉවත් වීමට පෙර සුරැකීමට ඔබ කැමතිද?"
+
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "කැස්බෑවා ගමන් කරවූ විට නොඅදිනු ඇත."
+
+#~ msgid "pop"
+#~ msgstr "පොප්"
+
+#~ msgid "pen size"
+#~ msgstr "පෑනේ විශාලත්වය"
+
+#~ msgid "√"
+#~ msgstr "√"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "තාර්කික equal-to මෙහෙයුම"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "පෑන් වර්ණ සඳහා ඵලකය"
+
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "අංකිත අගය විචල්‍යය 1 හි ගබඩා කරයි"
+
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "අංකිත අගය විචල්‍යය 2 හි ගබඩා කරයි"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "කැස්බෑවා පසුපසට ගමන් කරවයි"
+
+#~ msgid "Show blocks"
+#~ msgstr "කොටස් පෙන්වන්න"
+
+#~ msgid "play"
+#~ msgstr "වාදනය කරන්න"
+
+#~ msgid "save"
+#~ msgstr "සුරකින්න"
+
+#~ msgid "Colors"
+#~ msgstr "වර්ණ"
+
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "කැස්බෑවා විසින් අදින රේඛාවේ ප්‍රමාණය පිහිටුවයි"
+
+#~ msgid "Open"
+#~ msgstr "විවෘත කරන්න"
+
+#~ msgid "orientation"
+#~ msgstr "දිශානතිය"
+
+#~ msgid "ycor"
+#~ msgstr "ycor"
+
+#~ msgid "if"
+#~ msgstr "නම්"
+
+#~ msgid "Python"
+#~ msgstr "Python"
+
+#~ msgid "Stop"
+#~ msgstr "පියවර"
+
+#~ msgid "action 2"
+#~ msgstr "ක්‍රියාව 2"
+
+#~ msgid "action 1"
+#~ msgstr "ක්‍රියාව 1"
+
+#~ msgid "end fill"
+#~ msgstr "පිරවීම අවසාන කරන්න"
+
+#~ msgid "Copy"
+#~ msgstr "පිටපත් කරන්න"
+
+#~ msgid "Paste"
+#~ msgstr "අලවන්න"
+
+#~ msgid "did not output to"
+#~ msgstr "වෙත ප්‍රතිදානය කරන්න එපා"
+
+#~ msgid "Activities"
+#~ msgstr "ක්‍රියාකාරකම්"
+
+#~ msgid "Upload to Web"
+#~ msgstr "වෙබයට උඩුගත කරන්න"
+
+#~ msgid "empty heap"
+#~ msgstr "හිස් මතක කොටස"
+
+#~ msgid "Clean"
+#~ msgstr "පැහැදිලි කරන්න"
+
+#~ msgid "angle"
+#~ msgstr "ඇලය"
+
+#~ msgid "top y"
+#~ msgstr "y ඉහළ"
+
+#~ msgid "audio"
+#~ msgstr "ශ්‍රව්‍ය"
+
+#~ msgid "Tools"
+#~ msgstr "මෙවලම්"
+
+#~ msgid "left"
+#~ msgstr "වම"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "ඉහළ අංකිත ආදානයෙන් පහළ අංකිත ආදානය අඩු කරයි"
+
+#~ msgid "voltage"
+#~ msgstr "වෝල්ටීයතාව"
+
+#, fuzzy
+#~ msgid "Palette of turtle commands"
+#~ msgstr "පෑන් විධාන ඵලකය"
+
+#~ msgid "loops forever"
+#~ msgstr "සදාකාලිකවම නැවත නැවත සිදු කරයි"
+
+#~ msgid "Turtle Art"
+#~ msgstr "ටර්ටල් ආර්ට්"
+
+#~ msgid "Project"
+#~ msgstr "ව්‍යාපෘතිය"
+
+#~ msgid "Debug"
+#~ msgstr "දෝෂහරණය"
+
+#~ msgid "Password"
+#~ msgstr "මුරපදය"
+
+#~ msgid "vertical space"
+#~ msgstr "සිරස් ඉඩ"
+
+#~ msgid "completes filled polygon (used with start fill block)"
+#~ msgstr ""
+#~ "පිරවූ බහුඅශ්‍රය සම්පූර්ණ කරයි (පිරවුම් කුට්ටිය ආරම්භ කිරීම සමඟ භාවිතා කල)"
+
+#~ msgid "Share"
+#~ msgstr "හවුල් කරන්න"
+
+#~ msgid "less than"
+#~ msgstr "වඩා අඩු"
+
+#~ msgid "square root"
+#~ msgstr "වර්ගමූලය"
+
+#~ msgid "Rescale coordinates"
+#~ msgstr "ඛණ්ඩාංක ප්‍රමාණනය කරන්න"
+
+#~ msgid "show blocks"
+#~ msgstr "කොටස් පෙන්වන්න"
+
+#~ msgid "Quit"
+#~ msgstr "ඉවත් වෙන්න"
+
+#~ msgid "New"
+#~ msgstr "නව"
+
+#~ msgid "read pixel"
+#~ msgstr "පික්සලය කියවන්න"
+
+#~ msgid "scale"
+#~ msgstr "පරිමාණය"
+
+#, fuzzy
+#~ msgid "bottom"
+#~ msgstr "y පහළ"
+
+#~ msgid "Rescale coordinates down"
+#~ msgstr "ඛණ්ඩාංක පහළට නැවත පරිමාණනය කරන්න"
+
+#~ msgid "Configuration"
+#~ msgstr "වින්‍යාසය"
+
+#~ msgid "Description:"
+#~ msgstr "විස්තරය:"
+
+#~ msgid "journal"
+#~ msgstr "ජර්නලය"
+
+#~ msgid "empty trash"
+#~ msgstr "කුණු කූඩය හිස් කරන්න"
+
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "කැස්බෑවා ගමන් කරවූ විට අදිනු ඇත."
+
+#~ msgid "Load..."
+#~ msgstr "ප්‍රවේශනය කරන්න..."
+
+#~ msgid "Stop turtle"
+#~ msgstr "කැස්බෑවා නවත්වන්න"
+
+#~ msgid "Turtle"
+#~ msgstr "ටර්ටලය"
+
+#~ msgid "store in"
+#~ msgstr "මෙහි ගබඩා කරන්න"
+
+#~ msgid "Hide blocks"
+#~ msgstr "කොටස් සගවන්න"
+
+#~ msgid "Load Python block"
+#~ msgstr "Python කුට්ටිය ප්‍රවේශනය කරන්න"
+
+#~ msgid "plus"
+#~ msgstr "එකතු කිරීම"
+
+#~ msgid "or"
+#~ msgstr "හෝ"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "කුට්ටි විස්තාරණය කිරීම සඳහා භාවිතා කරන අනන්‍යතා මෙහෙයුම"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "කුට්ටු හකුළුවන්න"
+
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "කැස්බෑවා විසින් අදින පෙළෙහි ප්‍රමාණය පිහිටුවයි"
+
+#~ msgid "image"
+#~ msgstr "පින්තූරය"
+
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr "අවම (ඉහළ) සහ උපරිම (පහළ) අගයන් අතර අහඹු අංකයක් ලබා දෙයි"
+
+#~ msgid "Show palette"
+#~ msgstr "ඵලකය පෙන්වන්න"
+
+#~ msgid "Save snapshot"
+#~ msgstr "ක්ෂණික ඡායාරූපය සුරකින්න"
+
+#~ msgid "start"
+#~ msgstr "ආරම්භය"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "කැස්බෑවා ඉදිරියට ගමන් කරවයි"
+
+#~ msgid "forward"
+#~ msgstr "ඉදිරියට"
+
+#~ msgid "my box"
+#~ msgstr "මගේ පෙට්ටිය"
+
+#~ msgid "Account ID"
+#~ msgstr "ගිණුම් ID"
+
+#~ msgid "back"
+#~ msgstr "පසුපසට"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "ඉදිරිපත් කිරීම 1x1"
+
+#~ msgid "presentation 1x2"
+#~ msgstr "ඉදිරිපත් කිරීම 1x2"
+
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "අංකිත අගය නම් කරන ලද විචල්‍යයක ගබඩා කරයි"
+
+#~ msgid "logical OR operator"
+#~ msgstr "තාර්කික OR මෙහෙයුම"
+
+#~ msgid "loops specified number of times"
+#~ msgstr "විශේෂණය කල වාර ගණනක් නැවත නැවත සිදු කරයි"
+
+#~ msgid "Save..."
+#~ msgstr "සුරකින්න..."
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "xy සකසන්න"
+
+#~ msgid "title y"
+#~ msgstr "y තේමාව"
+
+#~ msgid "title x"
+#~ msgstr "x තේමාව"
+
+#~ msgid "fill screen"
+#~ msgstr "පුර්ණතිරය"
+
+#~ msgid "Save as"
+#~ msgstr "ලෙස සුරකින්න"
+
+#~ msgid "set xy"
+#~ msgstr "xy සකසන්න"
+
+#~ msgid "trash"
+#~ msgstr "කුණු කූඩය"
+
+#~ msgid "repeat"
+#~ msgstr "නැවත කරන්න"
+
+#~ msgid "Save as image"
+#~ msgstr "පින්තූරයක් ලෙස සුරකින්න"
+
+#~ msgid "Edit"
+#~ msgstr "සංස්කරනය කරන්න"
+
+#~ msgid "max"
+#~ msgstr "උපරිම"
+
+#~ msgid "start fill"
+#~ msgstr "පිරවීම ආරම්භ කරන්න"
+
+#~ msgid "push"
+#~ msgstr "ඔබන්න"
+
+#~ msgid "restore all"
+#~ msgstr "සියල්ල නැවත පිහිටුවන්න"

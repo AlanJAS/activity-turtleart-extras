@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -128,7 +128,7 @@ msgstr ""
 
 #: taextras.py:79
 msgid "grayscale"
-msgstr ""
+msgstr "rekebu-kijivu"
 
 #: taextras.py:80
 msgid "ambient light"
@@ -140,7 +140,7 @@ msgstr ""
 
 #: taextras.py:82 taextras.py:291
 msgid "distance"
-msgstr ""
+msgstr "Umbali"
 
 #: taextras.py:83 taextras.py:288
 msgid "tilt"
@@ -246,7 +246,7 @@ msgstr ""
 
 #: taextras.py:113
 msgid "stop Butia"
-msgstr ""
+msgstr "Kuacha Butia"
 
 #: taextras.py:114
 msgid "stop the Butia robot"
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "urefu"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "Upana"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -725,8 +725,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "kitambulisho"
 
 #: taextras.py:267
 msgid ""
@@ -857,12 +858,13 @@ msgid "color"
 msgstr ""
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "haki"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "sauti"
 
 #: taextras.py:320
 msgid "grey"
@@ -948,7 +950,7 @@ msgstr ""
 
 #: taextras.py:340
 msgid "time"
-msgstr ""
+msgstr "wakati"
 
 #: taextras.py:341
 msgid "Play a tone at frequency for time."
@@ -1458,3 +1460,123 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Step"
+#~ msgstr "Hatua"
+
+#~ msgid "list"
+#~ msgstr "orodha"
+
+#~ msgid "video"
+#~ msgstr "video"
+
+#~ msgid "next"
+#~ msgstr "ijayo"
+
+#, fuzzy
+#~ msgid "description"
+#~ msgstr "Maelezo:"
+
+#~ msgid "shade"
+#~ msgstr "vuli"
+
+#~ msgid "turtle"
+#~ msgstr "turtle"
+
+#, fuzzy
+#~ msgid "Save"
+#~ msgstr "kuokoa"
+
+#~ msgid "Save as Logo"
+#~ msgstr "ila kama Logo"
+
+#~ msgid "number"
+#~ msgstr "idadi"
+
+#~ msgid "top"
+#~ msgstr "juu"
+
+#~ msgid "Cancel"
+#~ msgstr "Kufuta"
+
+#~ msgid "File"
+#~ msgstr "Faili"
+
+#~ msgid "Fullscreen"
+#~ msgstr "screen kamili"
+
+#~ msgid "text"
+#~ msgstr "maandishi"
+
+#~ msgid "stop"
+#~ msgstr "kuacha"
+
+#~ msgid "Help"
+#~ msgstr "Msaada"
+
+#~ msgid "keyboard"
+#~ msgstr "baobonye"
+
+#~ msgid "equal"
+#~ msgstr "sawa"
+
+#~ msgid "play"
+#~ msgstr "kucheza"
+
+#~ msgid "save"
+#~ msgstr "kuokoa"
+
+#~ msgid "Stop"
+#~ msgstr "Kuacha"
+
+#~ msgid "Copy"
+#~ msgstr "Nakili"
+
+#~ msgid "Paste"
+#~ msgstr "Kuweka"
+
+#~ msgid "audio"
+#~ msgstr "sauti"
+
+#~ msgid "left"
+#~ msgstr "kushoto"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Turtle sanaa"
+
+#~ msgid "Quit"
+#~ msgstr "Ondoka"
+
+#~ msgid "Description:"
+#~ msgstr "Maelezo:"
+
+#~ msgid "journal"
+#~ msgstr "shajara"
+
+#~ msgid "Stop turtle"
+#~ msgstr "Kuacha turtle"
+
+#~ msgid "Turtle"
+#~ msgstr "Turtle"
+
+#~ msgid "image"
+#~ msgstr "tawsira"
+
+#~ msgid "start"
+#~ msgstr "kuanza"
+
+#~ msgid "forward"
+#~ msgstr "mbele"
+
+#~ msgid "Save..."
+#~ msgstr "Kuokoa..."
+
+#, fuzzy
+#~ msgid "fill screen"
+#~ msgstr "skrini nzima"
+
+#~ msgid "Save as"
+#~ msgstr "ila kama"
+
+#~ msgid "Edit"
+#~ msgstr "Hariri"

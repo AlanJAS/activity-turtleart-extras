@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -854,11 +854,12 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "боја"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "десно"
 
 #: taextras.py:319
 msgid "sound"
@@ -1458,3 +1459,192 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "heading"
+#~ msgstr "правац"
+
+#~ msgid "pen down"
+#~ msgstr "оловка доле"
+
+#~ msgid "set pen size"
+#~ msgstr "сетуј велићину оловке"
+
+#~ msgid "set heading"
+#~ msgstr "сетуј правац"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "сетуј велићину оловке"
+
+#~ msgid "starts filled polygon (used with end fill block)"
+#~ msgstr "почиње испуњен полигон (користи се са крајњим попуне блок)"
+
+#, fuzzy
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "сетуј велићину линје насликане од стране корњаче"
+
+#~ msgid "shade"
+#~ msgstr "нијанса"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "попуни позадину са (бојом, нијансом)"
+
+#~ msgid "pen up"
+#~ msgstr "оловка горе"
+
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "окреће корњачу у смеру казаљке на сату (угао у степенима)"
+
+#, fuzzy
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr ""
+#~ "држи садашњу величину оловке (може се користити уместо једног броја блока)"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "држи садашњу вредност x-кординату корњаче (може се користити уместо једног "
+#~ "броја блока)"
+
+#, fuzzy
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "сетуј велићину линје насликане од стране корњаче"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr ""
+#~ "држи садашњу величину оловке (може се користити уместо једног броја блока)"
+
+#~ msgid "set color"
+#~ msgstr "сетуј боју"
+
+#~ msgid "Palette of pen commands"
+#~ msgstr "Палета оловкиних команди"
+
+#, fuzzy
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "сетуј велићину линје насликане од стране корњаче"
+
+#~ msgid "clean"
+#~ msgstr "очисти"
+
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "окреће корњачу у супротном смеру казаљке на сату (угао у степенима)"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "назад"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "држи садашњу вредност y-кординате корњаче (може се користити уместо једног "
+#~ "броја блока)"
+
+#~ msgid "xcor"
+#~ msgstr "x"
+
+#, fuzzy
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "сетуј велићину линје насликане од стране корњаче"
+
+#~ msgid "arc"
+#~ msgstr "лук"
+
+#~ msgid "radius"
+#~ msgstr "полупречник"
+
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "сетује правац корњаче (0 је према врху екрана.)"
+
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "Корњача неће цртати кад се помери."
+
+#~ msgid "pen size"
+#~ msgstr "величина оловке"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "помера корњачу дуж лука"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "Палета оловкиних боја"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "помера корњачу назад"
+
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "сетуј велићину линје насликане од стране корњаче"
+
+#~ msgid "ycor"
+#~ msgstr "y"
+
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr "помера корњачу на позицију x, y; (0, 0) је центар екрана"
+
+#~ msgid "end fill"
+#~ msgstr "заврши попуњавање"
+
+#, fuzzy
+#~ msgid "Clean"
+#~ msgstr "очисти"
+
+#~ msgid "angle"
+#~ msgstr "угао"
+
+#~ msgid "left"
+#~ msgstr "лево"
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "очисти екран и ресетуј корњачу"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "Палета корњаћиних команди"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Уметност Корњаче"
+
+#~ msgid "completes filled polygon (used with start fill block)"
+#~ msgstr "комплетира испуњен полигон (користи са започели попуњавање блок)"
+
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "Корњача ће цртати кад се помери."
+
+#, fuzzy
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "сетуј велићину линје насликане од стране корњаче"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr ""
+#~ "држи садашњу вредност правца корњаче (може се користити уместо једног броја "
+#~ "блока)"
+
+#, fuzzy
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr ""
+#~ "држи садашњу величину оловке (може се користити уместо једног броја блока)"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "помера корњачу напред"
+
+#~ msgid "forward"
+#~ msgstr "напред"
+
+#~ msgid "back"
+#~ msgstr "назад"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "сетуј xy"
+
+#~ msgid "fill screen"
+#~ msgstr "попуни екран"
+
+#~ msgid "set xy"
+#~ msgstr "сетуј xy"
+
+#~ msgid "start fill"
+#~ msgstr "почни попуњавање"

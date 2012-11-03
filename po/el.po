@@ -1,0 +1,2709 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-02 00:32-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
+
+#. TRANS: "name" option from activity.info file
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "turtleart-extras (master)"
+msgstr ""
+
+#: taextras.py:36
+msgid "Turtle Art Mini"
+msgstr ""
+
+#: taextras.py:40
+msgid "Turtle Confusion"
+msgstr ""
+
+#: taextras.py:41 taextras.py:46
+msgid "Select a challenge"
+msgstr ""
+
+#: taextras.py:45
+msgid "Amazonas Tortuga"
+msgstr ""
+
+#: taextras.py:52
+msgid "Palette of Mexican pesos"
+msgstr ""
+
+#: taextras.py:53
+msgid "Palette of Colombian pesos"
+msgstr ""
+
+#: taextras.py:54
+msgid "Palette of Rwandan francs"
+msgstr ""
+
+#: taextras.py:55
+msgid "Palette of US dollars"
+msgstr ""
+
+#: taextras.py:56
+msgid "Palette of Australian dollars"
+msgstr ""
+
+#: taextras.py:57
+msgid "Palette of Paraguayan Guaranies"
+msgstr ""
+
+#: taextras.py:58
+msgid "Palette of Peruvian Nuevo Soles"
+msgstr ""
+
+#: taextras.py:59
+msgid "Palette of Uruguayan Pesos"
+msgstr ""
+
+#. TRANS: Butia is the Arduino Robot Project from Uruguay
+#. (http://www.fing.edu.uy/inco/proyectos/butia/)
+#: taextras.py:65
+msgid "TurtleBots"
+msgstr ""
+
+#: taextras.py:66
+msgid "adjust LED intensity between 0 and 255"
+msgstr ""
+
+#: taextras.py:67
+msgid "returns the object gray level as a number between 0 and 1023"
+msgstr ""
+
+#: taextras.py:68
+msgid "returns 1 when the button is press and 0 otherwise"
+msgstr ""
+
+#: taextras.py:69
+msgid "returns the ambient light level as a number between 0 and 1023"
+msgstr ""
+
+#: taextras.py:70
+msgid "returns the ambient temperature as a number between 0 and 255"
+msgstr ""
+
+#: taextras.py:71
+msgid ""
+"returns the distance from the object in front of the sensor as a number "
+"between 0 and 255"
+msgstr ""
+
+#: taextras.py:73
+msgid "returns 0 or 1 depending on the sensor inclination"
+msgstr ""
+
+#: taextras.py:74
+msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
+msgstr ""
+
+#: taextras.py:75
+msgid "switches from 0 to 1, the frequency depends on the vibration"
+msgstr ""
+
+#: taextras.py:76
+msgid "returns the value of the resistance"
+msgstr ""
+
+#: taextras.py:77
+msgid "LED"
+msgstr ""
+
+#: taextras.py:78
+msgid "button"
+msgstr ""
+
+#: taextras.py:79
+msgid "grayscale"
+msgstr ""
+
+#: taextras.py:80
+msgid "ambient light"
+msgstr ""
+
+#: taextras.py:81
+msgid "temperature"
+msgstr ""
+
+#: taextras.py:82 taextras.py:291
+msgid "distance"
+msgstr ""
+
+#: taextras.py:83 taextras.py:288
+msgid "tilt"
+msgstr ""
+
+#: taextras.py:84
+msgid "magnetic induction"
+msgstr ""
+
+#: taextras.py:85
+msgid "vibration"
+msgstr ""
+
+#: taextras.py:86
+msgid "resistance"
+msgstr "αντίσταση"
+
+#: taextras.py:87
+msgid "Butia Robot"
+msgstr ""
+
+#: taextras.py:88
+msgid "refresh Butia"
+msgstr ""
+
+#: taextras.py:89
+msgid "refresh the state of the Butia palette and blocks"
+msgstr ""
+
+#. TRANS: This string is shorthand for "battery charge of Butia"
+#: taextras.py:91
+msgid "battery charge Butia"
+msgstr ""
+
+#: taextras.py:92
+msgid "returns the battery charge as a number between 0 and 255"
+msgstr ""
+
+#. TRANS: This string is shorthand for "speed of Butia"
+#: taextras.py:94
+msgid "speed Butia"
+msgstr ""
+
+#: taextras.py:95
+msgid "set the speed of the Butia motors"
+msgstr ""
+
+#: taextras.py:96
+msgid "the speed must be a value between 0 and 1023"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move Butia forward"
+#: taextras.py:98
+msgid "forward Butia"
+msgstr ""
+
+#: taextras.py:99
+msgid "move the Butia robot forward"
+msgstr ""
+
+#: taextras.py:100
+msgid "move the Butia robot forward a predefined distance"
+msgstr ""
+
+#. TRANS: This string is shorthand for "turn Butia left"
+#: taextras.py:102
+msgid "left Butia"
+msgstr ""
+
+#: taextras.py:103
+msgid "turn the Butia robot at left"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move Butia backward"
+#: taextras.py:105
+msgid "backward Butia"
+msgstr ""
+
+#: taextras.py:106
+msgid "move the Butia robot backward"
+msgstr ""
+
+#: taextras.py:107
+msgid "move the Butia robot backward a predefined distance"
+msgstr ""
+
+#. TRANS: This string is shorthand for "turn Butia right"
+#: taextras.py:109
+msgid "right Butia"
+msgstr ""
+
+#: taextras.py:110
+msgid "turn the Butia robot at right"
+msgstr ""
+
+#: taextras.py:111
+msgid "turn Butia"
+msgstr ""
+
+#: taextras.py:112
+msgid "turn the Butia robot x degrees"
+msgstr ""
+
+#: taextras.py:113
+msgid "stop Butia"
+msgstr ""
+
+#: taextras.py:114
+msgid "stop the Butia robot"
+msgstr ""
+
+#: taextras.py:115
+msgid "Butia"
+msgstr ""
+
+#: taextras.py:119
+msgid "Error importing Pygame. This plugin require Pygame 1.9"
+msgstr ""
+
+#: taextras.py:120
+msgid "Error on initialization of the camera"
+msgstr ""
+
+#: taextras.py:121
+msgid "No camera was found"
+msgstr ""
+
+#: taextras.py:122
+msgid "Error stopping camera"
+msgstr ""
+
+#: taextras.py:123
+msgid "Error starting camera"
+msgstr ""
+
+#. TRANS: The "mask" is used to restrict processing to a region in the image
+#: taextras.py:125
+msgid "Error in get mask"
+msgstr ""
+
+#: taextras.py:126
+msgid "FollowMe"
+msgstr ""
+
+#: taextras.py:127
+msgid "refresh FollowMe"
+msgstr ""
+
+#: taextras.py:128
+msgid "Search for a connected camera."
+msgstr ""
+
+#. TRANS: the calibration is used to match an RGB color to a target
+#: taextras.py:130
+msgid "calibration"
+msgstr ""
+
+#: taextras.py:131
+msgid "store a personalized calibration"
+msgstr ""
+
+#: taextras.py:132
+msgid "return a personalized calibration"
+msgstr ""
+
+#: taextras.py:133
+msgid "follow"
+msgstr ""
+
+#: taextras.py:134
+msgid "follow a color or calibration"
+msgstr ""
+
+#: taextras.py:135
+msgid "brightness"
+msgstr "φωτεινότητα"
+
+#: taextras.py:136
+msgid "set the camera brightness as a value between 0 to 255."
+msgstr ""
+
+#: taextras.py:137
+msgid "minimum pixels"
+msgstr ""
+
+#: taextras.py:138
+msgid "set the minimal number of pixels to follow"
+msgstr ""
+
+#: taextras.py:139
+msgid "threshold"
+msgstr ""
+
+#. TRANS: RGB color space (red, green, blue)
+#: taextras.py:141
+msgid "set a threshold for a RGB color"
+msgstr ""
+
+#: taextras.py:142
+msgid "camera mode"
+msgstr ""
+
+#. TRANS: RGB, YUV, and HSV are color spaces
+#: taextras.py:144
+msgid "set the color mode of the camera: RGB; YUV or HSV"
+msgstr ""
+
+#: taextras.py:145
+msgid "get brightness"
+msgstr ""
+
+#: taextras.py:146
+msgid "get the brightness of the ambient light"
+msgstr ""
+
+#: taextras.py:147
+msgid "average color"
+msgstr ""
+
+#: taextras.py:148
+msgid ""
+"if set to 0 then color averaging is off during calibration; for other values "
+"it is on"
+msgstr ""
+
+#: taextras.py:149
+msgid "x position"
+msgstr "θέση x"
+
+#: taextras.py:150
+msgid "return x position"
+msgstr "επίστρεψε στη θέση x"
+
+#: taextras.py:151
+#, fuzzy
+msgid "y position"
+msgstr "θέση x"
+
+#: taextras.py:152
+#, fuzzy
+msgid "return y position"
+msgstr "επίστρεψε στη θέση x"
+
+#: taextras.py:153
+msgid "pixels"
+msgstr ""
+
+#: taextras.py:154
+msgid "return the number of pixels of the biggest blob"
+msgstr ""
+
+#. TRANS: RGB color space (red, green, blue)
+#: taextras.py:156
+msgid "set the color mode of the camera to RGB"
+msgstr ""
+
+#. TRANS: YUV color space (luminance, chrominance)
+#: taextras.py:158
+msgid "set the color mode of the camera to YUV"
+msgstr ""
+
+#. TRANS: HSV color space (hue, saturation, value)
+#: taextras.py:160
+msgid "set the color mode of the camera to HSV"
+msgstr ""
+
+#: taextras.py:161
+msgid "empty calibration"
+msgstr ""
+
+#: taextras.py:162
+msgid "error in string conversion"
+msgstr ""
+
+#. TRANS: SumBot is a robot programmed for "Sumo wrestling"
+#: taextras.py:167
+msgid "SumBot"
+msgstr ""
+
+#: taextras.py:168
+msgid "speed SumBot"
+msgstr ""
+
+#: taextras.py:169
+msgid "submit the speed to the SumBot"
+msgstr ""
+
+#: taextras.py:170
+msgid "set the default speed for the movement commands"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move SumBot forward"
+#: taextras.py:172
+msgid "forward SumBot"
+msgstr ""
+
+#: taextras.py:173
+msgid "move SumBot forward"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move SumBot backward"
+#: taextras.py:175
+msgid "backward SumBot"
+msgstr ""
+
+#: taextras.py:176
+msgid "move SumBot backward"
+msgstr ""
+
+#: taextras.py:177
+msgid "stop SumBot"
+msgstr ""
+
+#: taextras.py:178
+msgid "stop the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "turn SumBot left"
+#: taextras.py:180
+msgid "left SumBot"
+msgstr ""
+
+#: taextras.py:181
+msgid "turn left the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "move SumBot right"
+#: taextras.py:183
+msgid "right SumBot"
+msgstr ""
+
+#: taextras.py:184
+msgid "turn right the SumBot"
+msgstr ""
+
+#. TRANS: The angle to the center is the angle SumBot must turn to
+#. face the center of the playing field
+#: taextras.py:187
+msgid "angle to center"
+msgstr ""
+
+#. TRANS: dohyo is the playing field
+#: taextras.py:189
+msgid "get the angle to the center of the dohyo"
+msgstr ""
+
+#. TRANS: The angle to the center is the angle SumBot must turn to
+#. face the Enemy (opponent)
+#: taextras.py:192
+msgid "angle to Enemy"
+msgstr ""
+
+#: taextras.py:193
+msgid "get the angle to the Enemy"
+msgstr ""
+
+#. TRANS: This string is shorthand for "x coordinate of SumBot"
+#: taextras.py:195
+msgid "x coor. SumBot"
+msgstr ""
+
+#: taextras.py:196
+msgid "get the x coordinate of the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "y coordinate of SumBot"
+#: taextras.py:198
+msgid "y coor. SumBot"
+msgstr ""
+
+#: taextras.py:199
+msgid "get the y coordinate of the SumBot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "x coordinate of SumBot's enemy"
+#: taextras.py:201
+msgid "x coor. Enemy"
+msgstr ""
+
+#: taextras.py:202
+msgid "get the x coordinate of the Enemy"
+msgstr ""
+
+#. TRANS: This string is shorthand for "y coordinate of SumBot's enemy"
+#: taextras.py:204
+msgid "y coor. Enemy"
+msgstr ""
+
+#: taextras.py:205
+msgid "get the y coordinate of the Enemy"
+msgstr ""
+
+#. TRANS: This string is shorthand for "rotation of SumBot"
+#: taextras.py:207
+msgid "rotation SumBot"
+msgstr ""
+
+#: taextras.py:208
+msgid "get the rotation of the Sumbot"
+msgstr ""
+
+#. TRANS: This string is shorthand for "rotation of SumBot's enemy"
+#: taextras.py:210
+msgid "rotation Enemy"
+msgstr ""
+
+#: taextras.py:211
+msgid "get the rotation of the Enemy"
+msgstr ""
+
+#: taextras.py:212
+msgid "distance to center"
+msgstr ""
+
+#. TRANS: dohyo is the playing field
+#: taextras.py:214
+msgid "get the distance to the center of the dohyo"
+msgstr ""
+
+#: taextras.py:215
+msgid "distance to Enemy"
+msgstr ""
+
+#: taextras.py:216
+msgid "get the distance to the Enemy"
+msgstr ""
+
+#: taextras.py:217
+msgid "update information"
+msgstr ""
+
+#: taextras.py:218
+msgid "update information from the server"
+msgstr ""
+
+#. TRANS: Please use similar terms to those used in the Physics Activity
+#: taextras.py:223
+#, fuzzy
+msgid "Palette of physics blocks"
+msgstr "Παλέτα με μπλοκ αισθητήρων"
+
+#: taextras.py:224
+msgid "start polygon"
+msgstr ""
+
+#: taextras.py:225
+msgid "Begin defining a new polygon based on the current Turtle xy position."
+msgstr ""
+
+#: taextras.py:227
+msgid "add point"
+msgstr ""
+
+#: taextras.py:228
+msgid ""
+"Add a new point to the current polygon based on the current Turtle xy "
+"position."
+msgstr ""
+
+#: taextras.py:230
+msgid "end polygon"
+msgstr ""
+
+#: taextras.py:231
+msgid "Define a new polygon."
+msgstr ""
+
+#: taextras.py:232
+msgid "end filled polygon"
+msgstr ""
+
+#: taextras.py:233
+msgid "Not a simple polygon"
+msgstr ""
+
+#: taextras.py:234
+msgid "Define a new filled polygon."
+msgstr ""
+
+#: taextras.py:235
+msgid "triangle"
+msgstr ""
+
+#. TRANS: base of a triangle
+#: taextras.py:237
+msgid "base"
+msgstr ""
+
+#: taextras.py:238 taextras.py:244
+msgid "height"
+msgstr "ύψος"
+
+#: taextras.py:239
+msgid "Add a triangle object to the project."
+msgstr ""
+
+#: taextras.py:240
+msgid "circle"
+msgstr ""
+
+#: taextras.py:241
+msgid "Add a circle object to the project."
+msgstr ""
+
+#: taextras.py:242
+msgid "rectangle"
+msgstr ""
+
+#: taextras.py:243
+msgid "width"
+msgstr "πλάτος"
+
+#: taextras.py:245
+msgid "Add a rectangle object to the project."
+msgstr ""
+
+#: taextras.py:246
+msgid "reset"
+msgstr ""
+
+#: taextras.py:247
+msgid "Reset the project; clear the object list."
+msgstr ""
+
+#: taextras.py:248
+msgid "motor"
+msgstr ""
+
+#. TRANS: torque as in engine torque
+#: taextras.py:250
+msgid "torque"
+msgstr ""
+
+#: taextras.py:251
+msgid "speed"
+msgstr ""
+
+#: taextras.py:252
+msgid ""
+"Motor torque and speed range from 0 (off) to positive numbers; motor is "
+"placed on the most recent object created."
+msgstr ""
+
+#: taextras.py:254 taextras.py:417
+msgid "pin"
+msgstr ""
+
+#: taextras.py:255
+msgid "Pin an object down so that it cannot fall."
+msgstr ""
+
+#: taextras.py:256
+msgid "joint"
+msgstr ""
+
+#: taextras.py:257
+msgid "x"
+msgstr "χ"
+
+#: taextras.py:258
+msgid "y"
+msgstr "y"
+
+#: taextras.py:259
+msgid ""
+"Join two objects together (the most recent object created and the object at "
+"point x, y)."
+msgstr ""
+
+#: taextras.py:261
+msgid "save as Physics activity"
+msgstr ""
+
+#: taextras.py:262
+msgid "Save the project to the Journal as a Physics activity."
+msgstr ""
+
+#. TRANS: Here, gear means a toothed wheel, as in a clock-works
+#: taextras.py:264
+msgid "gear"
+msgstr ""
+
+#: taextras.py:265
+msgid "Add a gear object to the project."
+msgstr ""
+
+#: taextras.py:266
+#, fuzzy
+msgid "density"
+msgstr "ταυτότητα"
+
+#: taextras.py:267
+msgid ""
+"Set the density property for objects (density can be any positive number)."
+msgstr ""
+
+#: taextras.py:269
+msgid "friction"
+msgstr ""
+
+#: taextras.py:270
+msgid ""
+"Set the friction property for objects (value from 0 to 1, where 0 turns "
+"friction off and 1 is strong friction)."
+msgstr ""
+
+#. TRANS: bounciness is coefficient of restitution
+#: taextras.py:273
+msgid "bounciness"
+msgstr ""
+
+#: taextras.py:274
+msgid ""
+"Set the bounciness property for objects (a value from 0 to 1, where 0 means "
+"no bounce and 1 is very bouncy)."
+msgstr ""
+
+#. TRANS: dynamic here means moving vs in a fixed position
+#: taextras.py:277
+msgid "dynamic"
+msgstr ""
+
+#: taextras.py:278
+msgid ""
+"If dynamic = 1, the object can move; if dynamic = 0, it is fixed in position."
+msgstr ""
+
+#. TRANS: WeDo is a robotics product of the LEGO company
+#: taextras.py:284
+#, fuzzy
+msgid "Palette of WeDo blocks"
+msgstr "Παλέτα με μπλοκ αισθητήρων"
+
+#: taextras.py:285
+msgid "WeDo"
+msgstr ""
+
+#: taextras.py:286
+msgid "set current WeDo device"
+msgstr ""
+
+#: taextras.py:287
+msgid "number of WeDo devices"
+msgstr ""
+
+#: taextras.py:289
+msgid ""
+"tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
+"tilt left, 2 == tilt right)"
+msgstr ""
+
+#. TRANS: This string is shorthand for "output of the distance sensor"
+#: taextras.py:293
+msgid "distance sensor output"
+msgstr ""
+
+#: taextras.py:294
+msgid "Motor A"
+msgstr ""
+
+#: taextras.py:295
+msgid "returns the current value of Motor A"
+msgstr ""
+
+#: taextras.py:296
+msgid "Motor B"
+msgstr ""
+
+#: taextras.py:297
+msgid "returns the current value of Motor B"
+msgstr ""
+
+#: taextras.py:298
+msgid "set the value for Motor A"
+msgstr ""
+
+#: taextras.py:299
+msgid "set the value for Motor B"
+msgstr ""
+
+#: taextras.py:300
+msgid "WeDo is unavailable"
+msgstr ""
+
+#. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
+#: taextras.py:302
+#, python-format
+msgid "WeDo %d is unavailable; defaulting to 1"
+msgstr ""
+
+#. TRANS: %(device)s and %(wedo_number)d are substitution strings;
+#. please leave untranslated
+#: taextras.py:305
+#, python-format
+msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
+msgstr ""
+
+#. TRANS: Lego NXT is a robotics product of the LEGO company
+#: taextras.py:311
+msgid "Palette of LEGO NXT blocks of motors"
+msgstr ""
+
+#: taextras.py:312
+msgid "Palette of LEGO NXT blocks of sensors"
+msgstr ""
+
+#. TRANS: touch sensor (implemented as a button)
+#: taextras.py:314
+msgid "touch"
+msgstr ""
+
+#. TRANS: distance sensor (implemented using ultrasonics)
+#: taextras.py:316
+msgid "ultrasonic"
+msgstr ""
+
+#: taextras.py:317
+msgid "color"
+msgstr "χρώμα"
+
+#: taextras.py:318
+#, fuzzy
+msgid "light"
+msgstr "δεξιά"
+
+#: taextras.py:319
+msgid "sound"
+msgstr "ήχος"
+
+#: taextras.py:320
+#, fuzzy
+msgid "grey"
+msgstr "γκρίζο"
+
+#. TRANS: The brick is the NXT controller
+#: taextras.py:322
+msgid "Please check the connection with the brick"
+msgstr ""
+
+#: taextras.py:323
+#, python-format
+msgid "Invalid port '%s'. Port must be: PORT A, B or C"
+msgstr ""
+
+#: taextras.py:324
+#, python-format
+msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
+msgstr ""
+
+#: taextras.py:325
+msgid "The value of power must be between -127 to 127"
+msgstr ""
+
+#: taextras.py:326
+#, python-format
+msgid "The parameter must be a integer, not '%s'"
+msgstr ""
+
+#: taextras.py:327
+msgid "An error has occurred: check all connections and try to reconnect"
+msgstr ""
+
+#: taextras.py:328
+#, python-format
+msgid "NXT found %s bricks"
+msgstr ""
+
+#: taextras.py:329
+msgid "NXT not found"
+msgstr ""
+
+#: taextras.py:330
+#, python-format
+msgid "Brick number %s was not found"
+msgstr ""
+
+#: taextras.py:331
+msgid "refresh NXT"
+msgstr ""
+
+#: taextras.py:332
+msgid "Search for a connected NXT brick."
+msgstr ""
+
+#: taextras.py:333
+msgid "NXT"
+msgstr ""
+
+#: taextras.py:334
+msgid "set current NXT device"
+msgstr ""
+
+#: taextras.py:335
+msgid "number of NXT devices"
+msgstr ""
+
+#: taextras.py:336
+msgid "brick name"
+msgstr ""
+
+#: taextras.py:337
+msgid "Get the name of a brick."
+msgstr ""
+
+#: taextras.py:338
+msgid "play tone"
+msgstr ""
+
+#: taextras.py:339
+msgid "frequency"
+msgstr ""
+
+#: taextras.py:340
+msgid "time"
+msgstr "χρόνος"
+
+#: taextras.py:341
+msgid "Play a tone at frequency for time."
+msgstr ""
+
+#. TRANS: turn is the action
+#: taextras.py:343
+msgid ""
+"turn motor\n"
+"\n"
+msgstr ""
+
+#: taextras.py:344
+#, fuzzy
+msgid "port"
+msgstr "Θύρα"
+
+#: taextras.py:345
+msgid "power"
+msgstr ""
+
+#. TRANS: rotations is quantity of turns
+#: taextras.py:347
+msgid "rotations"
+msgstr ""
+
+#: taextras.py:348
+msgid "turn a motor"
+msgstr ""
+
+#: taextras.py:349
+msgid ""
+"synchronize\n"
+"\n"
+"motors"
+msgstr ""
+
+#: taextras.py:350
+msgid "steering"
+msgstr ""
+
+#: taextras.py:351
+msgid "synchronize two motors connected in PORT B and PORT C"
+msgstr ""
+
+#: taextras.py:352
+msgid "PORT A"
+msgstr ""
+
+#: taextras.py:353
+msgid "PORT A of the brick"
+msgstr ""
+
+#: taextras.py:354
+msgid "PORT B"
+msgstr ""
+
+#: taextras.py:355
+msgid "PORT B of the brick"
+msgstr ""
+
+#: taextras.py:356
+msgid "PORT C"
+msgstr ""
+
+#: taextras.py:357
+msgid "PORT C of the brick"
+msgstr ""
+
+#: taextras.py:358
+msgid "start motor"
+msgstr ""
+
+#: taextras.py:359
+msgid "Run a motor forever."
+msgstr ""
+
+#: taextras.py:360
+msgid "brake motor"
+msgstr ""
+
+#: taextras.py:361
+msgid "Stop a specified motor."
+msgstr ""
+
+#. TRANS: reset is used to reset the counter associated with the motor
+#: taextras.py:363
+msgid "reset motor"
+msgstr ""
+
+#: taextras.py:364
+msgid "Reset the motor counter."
+msgstr ""
+
+#: taextras.py:365
+msgid "motor position"
+msgstr ""
+
+#: taextras.py:366
+msgid "Get the motor position."
+msgstr ""
+
+#: taextras.py:367
+msgid "PORT 1"
+msgstr ""
+
+#: taextras.py:368
+msgid "PORT 1 of the brick"
+msgstr ""
+
+#: taextras.py:369
+#, fuzzy
+msgid "read"
+msgstr "κόκκινο"
+
+#: taextras.py:370
+msgid "sensor"
+msgstr ""
+
+#: taextras.py:371
+msgid "Read sensor output."
+msgstr ""
+
+#: taextras.py:372
+msgid "PORT 2"
+msgstr ""
+
+#: taextras.py:373
+msgid "PORT 2 of the brick"
+msgstr ""
+
+#: taextras.py:374
+msgid "light sensor"
+msgstr ""
+
+#: taextras.py:375
+msgid "grey sensor"
+msgstr ""
+
+#: taextras.py:376
+msgid "PORT 3"
+msgstr ""
+
+#: taextras.py:377
+msgid "PORT 3 of the brick"
+msgstr ""
+
+#: taextras.py:378
+msgid "touch sensor"
+msgstr ""
+
+#: taextras.py:379
+msgid "distance sensor"
+msgstr ""
+
+#: taextras.py:380
+msgid "PORT 4"
+msgstr ""
+
+#: taextras.py:381
+msgid "PORT 4 of the brick"
+msgstr ""
+
+#: taextras.py:382
+msgid "sound sensor"
+msgstr ""
+
+#: taextras.py:383
+msgid "color sensor"
+msgstr ""
+
+#. TRANS: set light is used to set the light level associated with
+#. the color sensor (which can emit light as well as sense it)
+#: taextras.py:386
+msgid "set light"
+msgstr ""
+
+#: taextras.py:387
+msgid "Set color sensor light."
+msgstr ""
+
+#. TRANS: the battery level is the charge level of the brick
+#: taextras.py:389
+msgid "battery level"
+msgstr ""
+
+#: taextras.py:390
+msgid "Get battery level of the brick"
+msgstr ""
+
+#. TRANS: Arduino plugin to control an Arduino board
+#: taextras.py:395
+msgid "HIGH"
+msgstr ""
+
+#: taextras.py:396
+msgid "LOW"
+msgstr ""
+
+#: taextras.py:397
+msgid "INPUT"
+msgstr ""
+
+#: taextras.py:398
+msgid "OUTPUT"
+msgstr ""
+
+#. TRANS: PWM is pulse-width modulation
+#: taextras.py:400
+msgid "PWM"
+msgstr ""
+
+#: taextras.py:401
+msgid "SERVO"
+msgstr ""
+
+#: taextras.py:402
+msgid "ERROR: Check the Arduino and the number of port."
+msgstr ""
+
+#: taextras.py:403
+msgid "ERROR: Value must be a number from 0 to 255."
+msgstr ""
+
+#: taextras.py:404
+msgid "ERROR: Value must be either HIGH or LOW."
+msgstr ""
+
+#: taextras.py:405
+msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
+msgstr ""
+
+#: taextras.py:406
+msgid "refresh Arduino"
+msgstr ""
+
+#: taextras.py:407
+msgid "Search for connected Arduinos."
+msgstr ""
+
+#: taextras.py:408
+msgid "Arduino"
+msgstr ""
+
+#: taextras.py:409
+msgid "set current Arduino board"
+msgstr ""
+
+#: taextras.py:410
+msgid "number of Arduinos"
+msgstr ""
+
+#: taextras.py:411
+msgid "number of Arduino boards"
+msgstr ""
+
+#: taextras.py:412
+msgid "Arduino name"
+msgstr ""
+
+#: taextras.py:413
+msgid "Get the name of an Arduino."
+msgstr ""
+
+#. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
+#. in which an I/O pin is being used.
+#: taextras.py:416
+msgid "pin mode"
+msgstr ""
+
+#: taextras.py:418
+#, fuzzy
+msgid "mode"
+msgstr "υπόλοιπο"
+
+#: taextras.py:419
+msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
+msgstr ""
+
+#: taextras.py:420
+msgid "analog write"
+msgstr ""
+
+#: taextras.py:421
+msgid "value"
+msgstr "τιμή"
+
+#: taextras.py:422
+msgid "Write analog value in specified port."
+msgstr ""
+
+#: taextras.py:423
+msgid "analog read"
+msgstr ""
+
+#: taextras.py:424
+msgid ""
+"Read value from analog port. Value may be between 0 and 1023. Use Vref to "
+"determine voltage. For USB, volt=((read)*5)/1024) approximately."
+msgstr ""
+
+#: taextras.py:426
+msgid "digital write"
+msgstr ""
+
+#: taextras.py:427
+msgid "Write digital value to specified port."
+msgstr ""
+
+#: taextras.py:428
+msgid "digital read"
+msgstr ""
+
+#: taextras.py:429
+msgid "Read value from digital port."
+msgstr ""
+
+#: taextras.py:430
+msgid "Set HIGH value for digital port."
+msgstr ""
+
+#: taextras.py:431
+msgid "Configure Arduino port for digital input."
+msgstr ""
+
+#: taextras.py:432
+msgid "Configure Arduino port to drive a servo."
+msgstr ""
+
+#: taextras.py:433
+msgid "Set LOW value for digital port."
+msgstr ""
+
+#: taextras.py:434
+msgid "Configure Arduino port for digital output."
+msgstr ""
+
+#: taextras.py:435
+msgid "Configure Arduino port for PWM (pulse-width modulation)."
+msgstr ""
+
+#. TRANS: plugin to control an ExpEyes device
+#: taextras.py:440
+#, fuzzy
+msgid "Palette of Expeyes blocks"
+msgstr "Παλέτα με μπλοκ αισθητήρων"
+
+#. TRANS: Programmable voltage output
+#: taextras.py:442
+msgid "set PVS"
+msgstr ""
+
+#: taextras.py:443
+msgid "set programmable voltage output"
+msgstr ""
+
+#. TRANS: Square wave 1 voltage output
+#: taextras.py:445
+msgid "set SQR1 voltage"
+msgstr ""
+
+#: taextras.py:446
+msgid "set square wave 1 voltage output"
+msgstr ""
+
+#. TRANS: Square wave 2 voltage output
+#: taextras.py:448
+msgid "set SQR2 voltage"
+msgstr ""
+
+#: taextras.py:449
+msgid "set square wave 2 voltage output"
+msgstr ""
+
+#. TRANS: Digital output level
+#: taextras.py:451
+msgid "set OD1"
+msgstr ""
+
+#: taextras.py:452
+msgid "set digital output level (OD1) low (0) or high (1)"
+msgstr ""
+
+#. TRANS: Input 1 voltage level
+#: taextras.py:454
+msgid "IN1 level"
+msgstr ""
+
+#: taextras.py:455
+msgid ""
+"returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
+"volts"
+msgstr ""
+
+#. TRANS: Input 2 voltage level
+#: taextras.py:458
+msgid "IN2 level"
+msgstr ""
+
+#: taextras.py:459
+msgid ""
+"returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
+"volts"
+msgstr ""
+
+#. TRANS: Resistive sensor voltage level
+#: taextras.py:462
+msgid "SEN level"
+msgstr ""
+
+#: taextras.py:463
+msgid ""
+"returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
+"voltage level <= 2.5 volts"
+msgstr ""
+
+#: taextras.py:465
+msgid "capture"
+msgstr ""
+
+#: taextras.py:466
+msgid "input"
+msgstr ""
+
+#: taextras.py:467
+msgid "samples"
+msgstr ""
+
+#: taextras.py:468
+msgid "interval"
+msgstr ""
+
+#. TRANS: MS is microseconds
+#: taextras.py:470
+msgid ""
+"capture multiple samples from input at interval (MS); results pushed to FIFO"
+msgstr ""
+
+#. TRANS: Analog input 1 voltage level
+#: taextras.py:473
+msgid "A1"
+msgstr ""
+
+#: taextras.py:474
+msgid "read analog input 1 voltage"
+msgstr ""
+
+#. TRANS: Analog input 2 voltage level
+#: taextras.py:476
+msgid "A2"
+msgstr ""
+
+#: taextras.py:477
+msgid "read analog input 2 voltage"
+msgstr ""
+
+#. TRANS: Read input 1 voltage
+#: taextras.py:479
+msgid "IN1"
+msgstr ""
+
+#: taextras.py:480
+msgid "read input 1 voltage"
+msgstr ""
+
+#. TRANS: Read input 2 voltage
+#: taextras.py:482
+msgid "IN2"
+msgstr ""
+
+#: taextras.py:483
+msgid "read input 2 voltage"
+msgstr ""
+
+#. TRANS: Read analog sensor input voltage
+#: taextras.py:485
+msgid "SEN"
+msgstr ""
+
+#: taextras.py:486
+msgid "read analog sensor input voltage"
+msgstr ""
+
+#. TRANS: Read square wave 1 input voltage
+#: taextras.py:488
+msgid "SQR1"
+msgstr ""
+
+#: taextras.py:489
+msgid "read square wave 1 voltage"
+msgstr ""
+
+#. TRANS: Read square wave 2 input voltage
+#: taextras.py:491
+msgid "SQR2"
+msgstr ""
+
+#: taextras.py:492
+msgid "read square wave 2 voltage"
+msgstr ""
+
+#. TRANS: Read programmable voltage
+#: taextras.py:494
+msgid "PVS"
+msgstr ""
+
+#: taextras.py:495
+msgid "read programmable voltage"
+msgstr ""
+
+#: taextras.py:496
+msgid "Expeyes device not found"
+msgstr ""
+
+#~ msgid "resume playing video or audio"
+#~ msgstr "συνέχιση αναπαραγωγής βίντεο ή ήχου"
+
+#~ msgid "Title"
+#~ msgstr "Τίτλος"
+
+#~ msgid "Average RGB color from camera is pushed to the stack"
+#~ msgstr "Μέσος όρος χρώματος RGB που μετακινήθηκε με ώθηση προς τη στοίβα"
+
+#~ msgid "yellow"
+#~ msgstr "κίτρινο"
+
+#~ msgid "displays polar coordinates"
+#~ msgstr "εμφανίζει τις πολικές συντεταγμένες"
+
+#~ msgid "emptys FILO (first-in-last-out heap)"
+#~ msgstr "αδειάζει το ΠΜΤΕ (Πρώτο-Μέσα Τελευταίο-Έξω)"
+
+#~ msgid "camera output"
+#~ msgstr "έξοδος κάμερας"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "εάν - τότε ο τελεστής που χρησιμοποιεί λογικές τιμές τελεστών από την παλέτα "
+#~ "αριθμών"
+
+#~ msgid "jogs stack right"
+#~ msgstr "ώθηση στοίβας προς τα δεξιά"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "Ημερολόγιο του Sugar: αντικείμενο πολυμέσων"
+
+#~ msgid "box 2"
+#~ msgstr "πλαίσιο 2"
+
+#~ msgid "box 1"
+#~ msgstr "πλαίσιο 1"
+
+#~ msgid "Step"
+#~ msgstr "Βήμα"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "πολλαπλασιάζει δύο αριθμούς"
+
+#~ msgid "Show/hide blocks"
+#~ msgstr "Εμφάνιση/Απόκρυση εντολών"
+
+#~ msgid "Hide palette"
+#~ msgstr "Απόκρυψη παλέτας"
+
+#~ msgid "Buddies"
+#~ msgstr "Φιλαράκια"
+
+#~ msgid "My Turtle Art session"
+#~ msgstr "Η δική μου συνεδρία της Τέχνης της Χελώνας"
+
+#~ msgid "Sugar Journal video object"
+#~ msgstr "Αντικείμενο ήχου του Ημερολογίου του Sugar"
+
+#~ msgid "cyan"
+#~ msgstr "κυανό"
+
+#~ msgid "xcor of right of screen"
+#~ msgstr "xσυντ από δεξιά της οθόνης"
+
+#~ msgid "Palette of extra options"
+#~ msgstr "Παλέτα πρόσθετων επιλογών"
+
+#~ msgid "Load example"
+#~ msgstr "Φόρτωση παραδείγματος"
+
+#~ msgid "move all blocks to trash"
+#~ msgstr "μετακίνηση όλων των εντολών στον κάδο ανακύκλωσης"
+
+#~ msgid "list"
+#~ msgstr "λίστα"
+
+#, python-format
+#~ msgid "Configuration directory not writable: %s"
+#~ msgstr "Κατάλογος ρυθμίσεων μη εγγράψιμος: %s"
+
+#~ msgid "media resume"
+#~ msgstr "συνέχιση μέσου"
+
+#~ msgid "heading"
+#~ msgstr "επικεφαλίδα"
+
+#~ msgid "Sharing blocks disabled"
+#~ msgstr "Ο διαμοιρασμός εντολών είναι απενεργοποιημένος"
+
+#~ msgid "saves turtle graphics as an SVG file in the Sugar Journal"
+#~ msgstr ""
+#~ "αποθηκεύει τα γραφικά της Χελώνας ως αρχεία SVG στο Ημερολόγιο του Sugar"
+
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "γράφει κείμενο ή εμφανίζει πολυμέσα από το Ημερολόγιο"
+
+#~ msgid "RFID"
+#~ msgstr "RFID"
+
+#~ msgid "video"
+#~ msgstr "βίντεο"
+
+#~ msgid "blue"
+#~ msgstr "μπλε"
+
+#~ msgid "displays Cartesian coordinates"
+#~ msgstr "εμφανίζει Καρτεσιανές συντεταγμένες"
+
+#~ msgid "No option action:"
+#~ msgstr "Δεν υπάρχει επιλογή ενέργειας:"
+
+#~ msgid "jogs stack down"
+#~ msgstr "ώθηση στοίβας προς τα κάτω"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "αρθρωτός (υπόλοιπο) τελεστής"
+
+#~ msgid "bottom y"
+#~ msgstr "κάτω y"
+
+#~ msgid "save SVG"
+#~ msgstr "αποθήκευση SVG"
+
+#~ msgid "runs code found in the tamyblock.py module found in the Journal"
+#~ msgstr ""
+#~ "εκτελεί τον κώδικα που βρέθηκε στο άρθρωμα tamyblock.py το οποίο εντοπίστηκε "
+#~ "στο Ημερολόγιο"
+
+#~ msgid "pen down"
+#~ msgstr "στιλό κάτω"
+
+#~ msgid "wait"
+#~ msgstr "αναμονή"
+
+#~ msgid "box"
+#~ msgstr "πλαίσιο"
+
+#~ msgid "Failed to upload!"
+#~ msgstr "Αποτυχία αποστολής!"
+
+#~ msgid "shift"
+#~ msgstr "μετατόπιση"
+
+#~ msgid "invokes named action stack"
+#~ msgstr "επίκληση της επώνυμης ενέργειας της στοίβας"
+
+#~ msgid "action"
+#~ msgstr "ενέργεια"
+
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "κάνε-μέχρι-Αληθής τελεστής που χρησιμοποιεί λογικές τιμές τελεστών από την "
+#~ "παλέτα αριθμών"
+
+#~ msgid "usage is"
+#~ msgstr "το σύνηθες είναι"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "μεταβλητή 2 (αριθμητική τιμή)"
+
+#~ msgid "divide"
+#~ msgstr "διαίρεση"
+
+#~ msgid "picture name"
+#~ msgstr "όνομα εικόνας"
+
+#~ msgid "while"
+#~ msgstr "λευκό"
+
+#~ msgid "the canvas width"
+#~ msgstr "το πλάτος του καμβά"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "κενός σωρός"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "μεταβλητή με όνομα (αριθμητική τιμή)"
+
+#~ msgid "next"
+#~ msgstr "επόμενο"
+
+#~ msgid "if then"
+#~ msgstr "εάν τότε"
+
+#~ msgid "set pen size"
+#~ msgstr "ορισμός μεγέθους στιλό"
+
+#~ msgid "presentation template: select Journal object (no description)"
+#~ msgstr ""
+#~ "πρότυπο παρουσίασης: επιλέξτε αντικείμενο από το Ημερολόγιο (χωρίς "
+#~ "περιγραφή)"
+
+#~ msgid "until"
+#~ msgstr "μέχρι"
+
+#~ msgid "media stop"
+#~ msgstr "διακοπή μέσου"
+
+#~ msgid "Turn on hover help"
+#~ msgstr "Άνοιγμα βοήθειας μετεωρισμού"
+
+#~ msgid "permanently deletes items in trash"
+#~ msgstr "διαγράφει μόνιμα τα αντικείμενα του κάδου ανακύκλωσης"
+
+#~ msgid "uturn"
+#~ msgstr "μεταβολή"
+
+#~ msgid "top of Action 1 stack"
+#~ msgstr "κορυφή της στοίβας της ενέργειας 1"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced single-variable math equations, e."
+#~ "g., sin(x)"
+#~ msgstr ""
+#~ "ένα προγραμματιστικό τμήμα εντολών: χρησιμοποιείται για την προσθήκη "
+#~ "προχωρημένων μαθηματικών εξισώσεων μιας μεταβλητής, π.χ. sin(x)"
+
+#~ msgid "Palette of flow operators"
+#~ msgstr "Παλέτα τελεστών ροής"
+
+#~ msgid "top of a collapsed stack"
+#~ msgstr "κορυφή μιας στοίβας που κατέρρευσε"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "εάν - τότε άλλος τελεστής που χρησιμοποιεί λογικές τιμές τελεστών από την "
+#~ "παλέτα αριθμών"
+
+#~ msgid "returns mouse y coordinate"
+#~ msgstr "επιστρέφει τη συντεταγμένη y του ποντικιού"
+
+#~ msgid "holds current pen shade"
+#~ msgstr "συγκρατεί την τρέχουσα σκιά του στιλό"
+
+#~ msgid "Login failed"
+#~ msgstr "Η σύνδεση απέτυχε"
+
+#~ msgid "left x"
+#~ msgstr "αριστερό x"
+
+#
+#~ msgid "set heading"
+#~ msgstr "ορισμός επικεφαλίδας"
+
+#~ msgid "RGB color under the turtle is pushed to the stack"
+#~ msgstr "Το χρώμα ΚΠΜ κάτω από τη χελώνα προωθήθηκε στη Στοίβα"
+
+#~ msgid "declutters canvas by hiding blocks"
+#~ msgstr "γέμισμα του καμβά με κρυμμένα εντολές"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>w"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>s"
+
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrl>e"
+
+#~ msgid "horizontal space"
+#~ msgstr "οριζόντιο διάστημα"
+
+#~ msgid "Metric coordinates"
+#~ msgstr "Μετρικές συντεταγμένες"
+
+#~ msgid "string value"
+#~ msgstr "αλφαριθμητική τιμή"
+
+#~ msgid "description"
+#~ msgstr "περιγραφή"
+
+#~ msgid "I don't know how to"
+#~ msgstr "Δεν γνωρίζω πως"
+
+#~ msgid "set text size"
+#~ msgstr "ορισμός μεγέθους κειμένου"
+
+#~ msgid "Username:"
+#~ msgstr "Όνομα χρήστη:"
+
+#~ msgid "starts filled polygon (used with end fill block)"
+#~ msgstr ""
+#~ "Έναρξη ενός γεμάτου πολύγωνου (χρησιμοποιείται μαζί με τον τερματισμό ενός "
+#~ "γεμάτου μπλοκ)"
+
+#~ msgid "presentation template: select four Journal objects"
+#~ msgstr "πρότυπο παρουσίασης: επιλέξτε τέσσερα αντικείμενα από το Ημερολόγιο"
+
+#~ msgid "View"
+#~ msgstr "Προβολή"
+
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "ορισμός του επιπέδου γκριζαρίσματος της γραμμής που σχεδιάζει η χελώνα"
+
+#~ msgid "Password:"
+#~ msgstr "Κωδικός πρόσβασης:"
+
+#~ msgid "turtle sees"
+#~ msgstr "η χελώνα βλέπει"
+
+#~ msgid "stop action"
+#~ msgstr "σταμάτημα ενέργειας"
+
+#~ msgid "green"
+#~ msgstr "πράσινο"
+
+#~ msgid "shade"
+#~ msgstr "σκιά"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "γέμισμα του παρασκηνίου με (χρώμα, σκιά)"
+
+#~ msgid "save picture"
+#~ msgstr "αποθήκευση εικόνας"
+
+#~ msgid "pitch"
+#~ msgstr "τόνος"
+
+#~ msgid "returns 1 if mouse button is pressed"
+#~ msgstr "επιστρέφει 1 εάν πατηθεί το πλήκτρο του ποντικιού"
+
+#~ msgid "Rescale coordinates up"
+#~ msgstr "Αύξηση κλιμάκωσης συντεταγμένων"
+
+#~ msgid "pen up"
+#~ msgstr "στιλό πάνω"
+
+#~ msgid "orange"
+#~ msgstr "πορτοκαλί"
+
+#~ msgid "pauses program execution a specified number of seconds"
+#~ msgstr ""
+#~ "παύει την εκτέλεση του προγράμματος για καθορισμένο αριθμό δευτερολέπτων"
+
+#~ msgid "pushes value onto FILO (first-in last-out heap)"
+#~ msgstr "προωθεί την τιμή στη ΠΜΤΕ (πρώτη-μέσα τελευταία-έξω στοίβα)"
+
+#~ msgid "clear all"
+#~ msgstr "καθαρισμός όλων"
+
+#~ msgid "then"
+#~ msgstr "τότε"
+
+#~ msgid "Register"
+#~ msgstr "Καταχώρηση"
+
+#~ msgid "not"
+#~ msgstr "όχι"
+
+#~ msgid "if then else"
+#~ msgstr "εάν τότε άλλο"
+
+#~ msgid "stops current action"
+#~ msgstr "διακόπτει την τρέχουσα ενέργεια"
+
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "περιστροφή της χελώνας δεξιόστροφα (γωνία σε μοίρες)"
+
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr ""
+#~ "διατήρηση τρέχοντος επιπέδου του γκρίζου (μπορεί να χρησιμοποιηθεί στη θέση "
+#~ "ενός τμήματος αριθμού )"
+
+#~ msgid "xcor of left of screen"
+#~ msgstr "xσυντ από αριστερά της οθόνης"
+
+#~ msgid "Reset block size"
+#~ msgstr "Ρύθμιση μεγέθους πλαισίου εντολών"
+
+#~ msgid "turtle"
+#~ msgstr "χελώνα"
+
+#~ msgid "displays next palette"
+#~ msgstr "εμφανίζει την επόμενη παλέτα"
+
+#~ msgid "hide blocks"
+#~ msgstr "απόκρυψη εντολών"
+
+#~ msgid "light level detected by camera"
+#~ msgstr "επίπεδο φωτός που εντοπίστηκε από την κάμερα"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "λογικός τελεστής - μικρότερο από (<)"
+
+#~ msgid "restore all blocks from trash"
+#~ msgstr "επαναφέρει όλες τις εντολές από τον κάδο ανακύκλωσης"
+
+#~ msgid "Save"
+#~ msgstr "Αποθήκευση"
+
+#~ msgid "store in box 1"
+#~ msgstr "αποθήκευση στο πλαίσιο 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "αποθήκευση στο πλαίσιο 2"
+
+#~ msgid "hides the Sugar toolbars"
+#~ msgstr "αποκρύπτει τις εργαλειοθήκες του Sugar"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "διατήρηση τρέχουσας τιμής της x-συντεταγμένης της χελώνας (μπορεί να "
+#~ "χρησιμοποιηθεί στη θέση ενός αριθμού τμήματος)"
+
+#~ msgid "print"
+#~ msgstr "εκτύπωση"
+
+#~ msgid "returns mouse x coordinate"
+#~ msgstr "επιστρέφει τη συντεταγμένη x του ποντικιού"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Αποθήκευση ως λογότυπο"
+
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "ορισμός χρώματος της γραμμής που σχεδιάζει η χελώνα"
+
+#~ msgid "set text color"
+#~ msgstr "ορισμός χρώματος κειμένου"
+
+#~ msgid "loudness"
+#~ msgstr "ηχηρότητα"
+
+#~ msgid "Enable collaboration"
+#~ msgstr "Έναρξη συνεργασίας"
+
+#~ msgid "Load plugin"
+#~ msgstr "Φόρτωση πρόσθετου"
+
+#~ msgid "returns True if mouse button is pressed"
+#~ msgstr "επιστρέφει 'Αληθές' εάν πατηθεί το πλήκτρο του ποντικιού"
+
+#~ msgid "number"
+#~ msgstr "αριθμός"
+
+#~ msgid "query keyboard"
+#~ msgstr "ερώτημα πληκτρολογίου"
+
+#~ msgid "top"
+#~ msgstr "κορυφή"
+
+#~ msgid "Submit to Web"
+#~ msgstr "Αποστολή στο Web"
+
+#~ msgid "Cartesian coordinates"
+#~ msgstr "Καρτεσιανές συντεταγμένες"
+
+#~ msgid "Nickname"
+#~ msgstr "Ψευδώνυμο"
+
+#~ msgid "set scale"
+#~ msgstr "ορισμός κλίμακας"
+
+#~ msgid "Share selected blocks"
+#~ msgstr "Διαμοιρασμός επιλεγμένων εντολών"
+
+#~ msgid "white"
+#~ msgstr "λευκό"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "συνδέει την ενέργεια με τα πλήκτρα εκτέλεσης της γραμμής εργαλείων"
+
+#~ msgid "elapsed time (in seconds) since program started"
+#~ msgstr ""
+#~ "χρόνος που πέρασε (σε δευτερόλεπτα) από τη στιγμή που ξεκίνησε το πρόγραμμα"
+
+#~ msgid "Cancel"
+#~ msgstr "Άκυρο"
+
+#~ msgid "the canvas height"
+#~ msgstr "το ύψος του καμβά"
+
+#~ msgid "presentation 2x1"
+#~ msgstr "παρουσίαση 2X1"
+
+#~ msgid "minus"
+#~ msgstr "πλην"
+
+#~ msgid "and"
+#~ msgstr "και"
+
+#~ msgid "top of a collapsible stack"
+#~ msgstr "κορυφή μιας στοίβας που μπορεί να καταρρεύσει"
+
+#~ msgid "as input"
+#~ msgstr "ως εισαγωγή"
+
+#~ msgid "Python block"
+#~ msgstr "Εντολές Python"
+
+#~ msgid "media wait"
+#~ msgstr "αναμονή για πολυμέσα"
+
+#~ msgid "acceleration"
+#~ msgstr "επιτάχυνση"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr ""
+#~ "διατήρηση τρέχοντος μεγέθους του στιλό (μπορεί να χρησιμοποιηθεί στη θέση "
+#~ "ενός αριθμού τμήματος)"
+
+#~ msgid "set color"
+#~ msgstr "ορισμός χρώματος"
+
+#~ msgid "min"
+#~ msgstr "ελάχιστο"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "φόρτωση του δικού μου πλαισίου"
+
+#~ msgid "Palette of pen commands"
+#~ msgstr "Παλέτα εντολών του στιλό"
+
+#~ msgid "shows values in FILO (first-in last-out heap)"
+#~ msgstr "εμφανίζει την τιμή στη ΠΜΤΕ (πρώτη-μέσα τελευταία-έξω στοίβα)"
+
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "κάνε-ενώ-Αληθής τελεστής που χρησιμοποιεί λογικές τιμές τελεστών από την "
+#~ "παλέτα αριθμών"
+
+#~ msgid "File"
+#~ msgstr "Αρχείο"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "λογικός τελεστής άρνησης (όχι)"
+
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "yσυντ από το κάτω μέρος της οθόνης"
+
+#~ msgid "presentation template: select Journal object (with description)"
+#~ msgstr ""
+#~ "πρότυπο παρουσίασης: επιλέξτε αντικείμενο από το Ημερολόγιο (με περιγραφή)"
+
+#~ msgid "Palette of numeric operators"
+#~ msgstr "Παλέτα αριθμητικών τελεστών"
+
+#~ msgid "multiply"
+#~ msgstr "πολλαπλασιασμός"
+
+#~ msgid "forever"
+#~ msgstr "για πάντα"
+
+#, python-format
+#~ msgid "Plugin %s already installed."
+#~ msgstr "Το πρόσθετο %s έχει ήδη εγκατασταθεί"
+
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "ορισμός σκιάς της γραμμής που σχεδιάζει η χελώνα"
+
+#~ msgid "speaks text"
+#~ msgstr "κείμενο ομιλίας"
+
+#~ msgid "snapshot"
+#~ msgstr "στιγμιότυπο οθόνης"
+
+#~ msgid "clean"
+#~ msgstr "καθαρισμός"
+
+#~ msgid "presentation template: select two Journal objects"
+#~ msgstr "πρότυπο παρουσίασης: επιλέξτε δύο αντικείμενο από το Ημερολόγιο"
+
+#~ msgid "Grow blocks"
+#~ msgstr "Ανάπτυξη εντολών"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Πλήρης οθόνη"
+
+#~ msgid "File not found"
+#~ msgstr "Το αρχείο δεν βρέθηκε"
+
+#~ msgid "show"
+#~ msgstr "εμφάνιση"
+
+#~ msgid "text"
+#~ msgstr "κείμενο"
+
+#~ msgid "random"
+#~ msgstr "τυχαίο"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "λογικός τελεστής - μεγαλύτερο από (>)"
+
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "περιστρέφει τη χελώνα αριστερόστροφα (γωνία σε μοίρες)"
+
+#~ msgid "black"
+#~ msgstr "μαύρο"
+
+#~ msgid "calculates square root"
+#~ msgstr "υπολογίζει την τετραγωνική ρίζα"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "διατήρηση τρέχουσας τιμής της y-συντεταγμένης της χελώνας (μπορεί να "
+#~ "χρησιμοποιηθεί στη θέση ενός αριθμού τμήματος)"
+
+#~ msgid "mouse x"
+#~ msgstr "συντεταγμένη x του ποντικιού"
+
+#~ msgid "mouse y"
+#~ msgstr "συντεταγμένη y του ποντικιού"
+
+#~ msgid "stop"
+#~ msgstr "διακοπή"
+
+#~ msgid "greater than"
+#~ msgstr "μεγαλύτερο από"
+
+#~ msgid "xcor"
+#~ msgstr "xσυντ"
+
+#~ msgid "Help"
+#~ msgstr "Βοήθεια"
+
+#~ msgid "Save project?"
+#~ msgstr "Αποθήκευση έργου;"
+
+#~ msgid "chooses which turtle to command"
+#~ msgstr "επιλέξτε σε ποια χελώνα θέλετε να δώσετε εντολή"
+
+#~ msgid "right x"
+#~ msgstr "δεξιό x"
+
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "ορισμός χρώματος του κειμένου που γράφει η χελώνα"
+
+#~ msgid "light level detected by light sensor"
+#~ msgstr "επίπεδο φωτός που έχει ανιχνευθεί από τον αισθητήρα φωτός"
+
+#~ msgid "Plugin could not be installed."
+#~ msgstr "Δεν είναι δυνατή η εγκατάσταση του πρόσθετου"
+
+#~ msgid "keyboard"
+#~ msgstr "πληκτρολόγιο"
+
+#~ msgid "arc"
+#~ msgstr "τόξο"
+
+#~ msgid "radius"
+#~ msgstr "ακτίνα"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "Πολικές συντεταγμένες"
+
+#~ msgid "set shade"
+#~ msgstr "ορισμός σκιάς"
+
+#~ msgid "logical AND operator"
+#~ msgstr "λογικός τελεστής σύζευξης (και)"
+
+#~ msgid ""
+#~ "You must have an account at http://turtleartsite.sugarlabs.org to upload "
+#~ "your project."
+#~ msgstr ""
+#~ "Πρέπει να έχετε έναν λογαριασμό στο http://turtleartsite.sugarlabs.org για "
+#~ "να ανεβάσετε το έργο σας."
+
+#~ msgid "Run"
+#~ msgstr "Εκτέλεση"
+
+#~ msgid "show heap"
+#~ msgstr "εμφάνιση στοίβας"
+
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "ορισμός επικεφαλίδας της χελώνας (0 προς την κορυφή της οθόνης)"
+
+#~ msgid "microphone input volume"
+#~ msgstr "ένταση εισόδου μικροφώνου"
+
+#~ msgid "Title:"
+#~ msgstr "Τίτλος:"
+
+#~ msgid "Palette of media objects"
+#~ msgstr "Παλέτα πολυμεσικών αντικειμένων"
+
+#~ msgid "Restore blocks from trash"
+#~ msgstr "Επαναφορά εντολών από τον κάδο ανακύκλωσης"
+
+#~ msgid "Palette of variable blocks"
+#~ msgstr "Παλέτα μεταβλητών εντολών"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "χρησιμοποιείται ως αριθμός σε μαθηματικές πράξεις"
+
+#~ msgid "Upload"
+#~ msgstr "Φόρτωση"
+
+#~ msgid "Server"
+#~ msgstr "Διακομιστής"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "παρουσίαση 2X2"
+
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "μεταβλητή 1 (αριθμητική τιμή)"
+
+#~ msgid "Neighborhood"
+#~ msgstr "Γειτονιά"
+
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "προσθέτει δύο αλφαριθμητικά"
+
+#~ msgid "equal"
+#~ msgstr "ίσο"
+
+#~ msgid "else"
+#~ msgstr "αλλιώς"
+
+#~ msgid "doesn't like"
+#~ msgstr "δεν αρέσει"
+
+#~ msgid "You have unsaved work. Would you like to save before quitting?"
+#~ msgstr ""
+#~ "Υπάρχει εργασία μη αποθηκευμένη. Θέλετε να την αποθηκεύσετε πριν την έξοδο;"
+
+#~ msgid "restores hidden blocks"
+#~ msgstr "επαναφέρει κρυμμένες εντολές"
+
+#~ msgid "stop video or audio"
+#~ msgstr "διακοπή βίντεο ή ήχου"
+
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "Η χελώνα δεν θα σχεδιάζει καθώς μετακινείται."
+
+#~ msgid "pop"
+#~ msgstr "απώθηση"
+
+#~ msgid "pen size"
+#~ msgstr "μέγεθος στιλό"
+
+#~ msgid "turtle shell"
+#~ msgstr "κέλυφος χελώνας"
+
+#~ msgid "√"
+#~ msgstr "√"
+
+#~ msgid "speak"
+#~ msgstr "ομιλία"
+
+#~ msgid "read value from RFID device"
+#~ msgstr "ανάγνωση τιμής από συσκευή RFID"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "μετακίνηση της χελώνας κατά μήκος ενός τόξου"
+
+#~ msgid "make a uturn"
+#~ msgstr "πραγματοποίηση μιας μεταβολής"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "λογικός τελεστής ισότητας (=)"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "Παλέτα χρωμάτων του στιλό"
+
+#~ msgid "pause video or audio"
+#~ msgstr "παύση βίντεο ή ήχου"
+
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "αποθηκεύει την αριθμητική τιμή στη μεταβλητή 1"
+
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "αποθηκεύει την αριθμητική τιμή στη μεταβλητή 2"
+
+#~ msgid "put a custom 'shell' on the turtle"
+#~ msgstr "τοποθετεί ένα τροποποιημένο \"κέλυφος\" πάνω στη χελώνα"
+
+#~ msgid "button down"
+#~ msgstr "πλήκτρο κάτω"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "μετακίνηση της χελώνας προς τα πίσω"
+
+#~ msgid "ycor of top of screen"
+#~ msgstr "yσυντ από την κορυφή της οθόνης"
+
+#~ msgid "Show blocks"
+#~ msgstr "Εμφάνιση εντολών"
+
+#~ msgid "play"
+#~ msgstr "αναπαραγωγή"
+
+#~ msgid "save"
+#~ msgstr "αποθήκευση"
+
+#~ msgid "Colors"
+#~ msgstr "Χρώματα"
+
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "ορισμός μεγέθους της γραμμής που σχεδιάζει η χελώνα"
+
+#~ msgid "Open"
+#~ msgstr "Άνοιγμα"
+
+#~ msgid "orientation"
+#~ msgstr "προσανατολισμός"
+
+#~ msgid "ycor"
+#~ msgstr "yσυντ"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sqrt(x*x+y*y)"
+#~ msgstr ""
+#~ "μια προγραμματιστική εντολή: χρησιμοποιείται για την προσθήκη προχωρημένων "
+#~ "μαθηματικών εξισώσεων πολλών μεταβλητών, π.χ. τ_ρ(x*x+y*y)"
+
+#~ msgid "if"
+#~ msgstr "εάν"
+
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr ""
+#~ "μετακίνηση της χελώνας στη θέση xσυντ, yσυντ; (0, 0) είναι στο κέντρο της "
+#~ "οθόνης."
+
+#~ msgid "Python"
+#~ msgstr "Python"
+
+#~ msgid "Stop"
+#~ msgstr "Διακοπή"
+
+#~ msgid "action 2"
+#~ msgstr "ενέργεια 2"
+
+#~ msgid "action 1"
+#~ msgstr "ενέργεια 1"
+
+#~ msgid "end fill"
+#~ msgstr "τέλος γεμίσματος"
+
+#~ msgid "Copy"
+#~ msgstr "Αντιγραφή"
+
+#~ msgid "Paste"
+#~ msgstr "Επικόλληση"
+
+#~ msgid "did not output to"
+#~ msgstr "δεν έγινε εξαγωγή στο"
+
+#~ msgid "Activities"
+#~ msgstr "Δραστηριότητες"
+
+#~ msgid "Upload to Web"
+#~ msgstr "Αποστολή στο Web"
+
+#~ msgid "empty heap"
+#~ msgstr "κενός σωρός"
+
+#~ msgid "pops value off FILO (first-in last-out heap)"
+#~ msgstr "ανάδυση της τιμής στον σωρό ΠΜΤΕ (πρώτη-μέσα τελευταία-έξω στοίβα)"
+
+#~ msgid "Clean"
+#~ msgstr "Καθαρισμός"
+
+#~ msgid "Palette of presentation templates"
+#~ msgstr "Παλέτα προτύπων παρουσιάσεων"
+
+#~ msgid "angle"
+#~ msgstr "γωνία"
+
+#~ msgid "Save/Load"
+#~ msgstr "Αποθήκευση/Φόρτωση"
+
+#~ msgid "top y"
+#~ msgstr "επάνω y"
+
+#~ msgid "audio"
+#~ msgstr "ήχος"
+
+#~ msgid "Tools"
+#~ msgstr "Εργαλεία"
+
+#~ msgid "left"
+#~ msgstr "αριστερά"
+
+#~ msgid "comment"
+#~ msgstr "σχόλιο"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "αφαιρεί τον κάτω αριθμό από αυτόν της κορυφής"
+
+#~ msgid "media pause"
+#~ msgstr "παύση μέσου"
+
+#~ msgid "query for keyboard input (results stored in keyboard block)"
+#~ msgstr ""
+#~ "ερώτημα για τα δεδομένα εισόδου του πληκτρολογίου (τα αποτελέσματα θα "
+#~ "αποθηκευτούν στην εντολή πληκτρολογίου)"
+
+#~ msgid "Cartesian"
+#~ msgstr "Καρτεσιανό"
+
+#~ msgid "voltage"
+#~ msgstr "τάση"
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "καθαρίζει την οθόνη και επανατοποθετεί τη χελώνα"
+
+#~ msgid "raw microphone input signal"
+#~ msgstr "ακατέργαστο σήμα εισόδου του μικροφώνου"
+
+#~ msgid "returns the color that the turtle \"sees\""
+#~ msgstr "επιστρέφει το χρώμα που \"βλέπει\" αυτή η χελώνα"
+
+#~ msgid "invokes Action 1 stack"
+#~ msgstr "επίκληση της ενέργειας 1 της στοίβας"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "Παλέτα εντολών της χελώνας"
+
+#~ msgid "loops forever"
+#~ msgstr "αδιάκοπη εκτέλεση σε βρόχο"
+
+#~ msgid "show aligned"
+#~ msgstr "εμφάνιση στοιχισμένων"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Η Χελωνοτέχνη"
+
+#, python-format
+#~ msgid "Do you want to reinstall %s?"
+#~ msgstr "Θέλετε να ξαναεγκαταστήσετε το %s;"
+
+#~ msgid "Load project"
+#~ msgstr "Φόρτωση έργου"
+
+#~ msgid "Project"
+#~ msgstr "Έργο"
+
+#~ msgid "Debug"
+#~ msgstr "Αποσφαλμάτωση"
+
+#~ msgid "Turn off hover help"
+#~ msgstr "Κλείσιμο βοήθειας μετεωρισμού"
+
+#~ msgid "Password"
+#~ msgstr "Κωδικός πρόσβασης"
+
+#~ msgid "vertical space"
+#~ msgstr "κάθετο διάστημα"
+
+#~ msgid "Please restart Turtle Art in order to use the plugin."
+#~ msgstr ""
+#~ "Παρακαλώ, επανεκκινήστε τη ΧελωνοΤέχνη για να χρησιμοποιήσετε το πρόσθετο"
+
+#~ msgid "completes filled polygon (used with start fill block)"
+#~ msgstr ""
+#~ "ολοκληρώνει ένα γεμάτο πολύγωνο (χρησιμοποιείται μαζί με την έναρξη ενός "
+#~ "γεμάτου μπλοκ)"
+
+#~ msgid "Share"
+#~ msgstr "Μοίρασμα"
+
+#~ msgid "less than"
+#~ msgstr "μικρότερο από"
+
+#~ msgid "square root"
+#~ msgstr "τετραγωνική ρίζα"
+
+#~ msgid "Rescale coordinates"
+#~ msgstr "Επανακλιμάκωση συντεταγμένων"
+
+#~ msgid "show blocks"
+#~ msgstr "εμφάνιση εντολών"
+
+#~ msgid "Quit"
+#~ msgstr "Έξοδος"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "Ημερολόγιο του Sugar: πεδίο περιγραφής"
+
+#~ msgid "set gray"
+#~ msgstr "ορισμός γκρίζου"
+
+#~ msgid "presentation bulleted list"
+#~ msgstr "παρουσίαση λίστας με κουκκίδες"
+
+#~ msgid "duration"
+#~ msgstr "διάρκεια"
+
+#~ msgid "New"
+#~ msgstr "Νέο"
+
+#~ msgid "places a comment in your code"
+#~ msgstr "τοποθετεί ένα σχόλιο στον κώδικά σας"
+
+#~ msgid "read pixel"
+#~ msgstr "ανάγνωση εικονοστοιχείου"
+
+#~ msgid "scale"
+#~ msgstr "κλίμακα"
+
+#~ msgid "bottom"
+#~ msgstr "κάτω μέρος"
+
+#~ msgid "purple"
+#~ msgstr "πορφυρό"
+
+#~ msgid "Rescale coordinates down"
+#~ msgstr "Μείωση κλιμάκωσης συντεταγμένων"
+
+#~ msgid "click to open"
+#~ msgstr "κάντε κλικ για άνοιγμα"
+
+#~ msgid "microphone input pitch"
+#~ msgstr "τόνος εισαγωγής μικροφώνου"
+
+#~ msgid "Configuration"
+#~ msgstr "Ρύθμιση"
+
+#~ msgid "Description:"
+#~ msgstr "Περιγραφή:"
+
+#~ msgid "journal"
+#~ msgstr "Ημερολόγιο"
+
+#~ msgid "empty trash"
+#~ msgstr "κενός κάδος ανακύκλωσης"
+
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "Η χελώνα θα σχεδιάζει καθώς μετακινείται."
+
+#~ msgid "Load..."
+#~ msgstr "Φόρτωση..."
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "Ημερολόγιο του Sugar: αντικείμενο ήχου"
+
+#~ msgid "Stop turtle"
+#~ msgstr "Σταμάτημα χελώνας"
+
+#~ msgid "Turtle"
+#~ msgstr "Χελώνα"
+
+#~ msgid "changes the orientation of the palette of blocks"
+#~ msgstr "αλλάζει τον προσανατολισμό των παλετών που περιέχουν τις εντολές"
+
+#~ msgid "store in"
+#~ msgstr "αποθήκευση στο"
+
+#~ msgid "Hide blocks"
+#~ msgstr "Απόκρυψη εντολών"
+
+#~ msgid "Load Python block"
+#~ msgstr "Φόρτωση εντολών της Python"
+
+#~ msgid "plus"
+#~ msgstr "συν"
+
+#~ msgid "or"
+#~ msgstr "ή"
+
+#~ msgid "presentation template: list of bullets"
+#~ msgstr "πρότυπο παρουσίασης: λίστα κουκκίδων"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "τελεστής ταυτότητας που χρησιμοποιείται για τις εκτεταμένες εντολές"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "Συρρίκνωση εντολών"
+
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "ορισμός μεγέθους του κειμένου που γράφει η χελώνα"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr ""
+#~ "διατήρηση τρέχουσας επικεφαλίδας της χελώνας (μπορεί να χρησιμοποιηθεί στη "
+#~ "θέση μιας αριθμητικής εντολής)"
+
+#~ msgid "image"
+#~ msgstr "εικόνα"
+
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr ""
+#~ "επιστρέφει έναν τυχαίο αριθμό μεταξύ των ελάχιστων (επάνω) και των μέγιστων "
+#~ "(κάτω) τιμών"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr ""
+#~ "διατήρηση τρέχοντος χρώματος του στιλό (μπορεί να χρησιμοποιηθεί στη θέση "
+#~ "μιας αριθμητικής εντολής)"
+
+#~ msgid "Show palette"
+#~ msgstr "Εμφάνιση παλέτας"
+
+#~ msgid "saves a picture to the Sugar Journal"
+#~ msgstr "αποθηκεύει την εικόνα στο Ημερολόγιο του Sugar"
+
+#~ msgid "Save snapshot"
+#~ msgstr "Αποθήκευση στιγμιότυπου"
+
+#~ msgid "start"
+#~ msgstr "έναρξη"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "μετακίνηση της χελώνας μπροστά"
+
+#~ msgid "forward"
+#~ msgstr "μπροστά"
+
+#~ msgid "my box"
+#~ msgstr "το δικό μου πλαίσιο"
+
+#~ msgid "Account ID"
+#~ msgstr "ID λογαριασμού"
+
+#~ msgid "Select blocks to share"
+#~ msgstr "Επιλογή εντολών για διαμοιρασμό"
+
+#~ msgid "back"
+#~ msgstr "πίσω"
+
+#~ msgid "sets the scale of media"
+#~ msgstr "ορισμός της κλίμακας των πολυμέσων"
+
+#~ msgid "holds current scale value"
+#~ msgstr "συγκρατεί την τρέχουσα τιμή της κλίμακας"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "παρουσίαση 1X1"
+
+#~ msgid "presentation 1x2"
+#~ msgstr "παρουσίαση 1X2"
+
+#~ msgid "top of nameable action stack"
+#~ msgstr "κορυφή της επώνυμης ενέργειας της στοίβας"
+
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "αποθηκεύει την αριθμητική τιμή στην επώνυμη μεταβλητή"
+
+#~ msgid "logical OR operator"
+#~ msgstr "λογικός τελεστής διάζευξης (ή)"
+
+#~ msgid "microphone input voltage"
+#~ msgstr "τάση εισόδου μικροφώνου"
+
+#~ msgid "loops specified number of times"
+#~ msgstr "επανάληψη σύμφωνα με τον καθορισμένο αριθμό"
+
+#~ msgid "Save..."
+#~ msgstr "Αποθήκευση..."
+
+#~ msgid "invokes Action 2 stack"
+#~ msgstr "επίκληση της ενέργειας 2 της στοίβας"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "ορισμός χy"
+
+#~ msgid "title y"
+#~ msgstr "τίτλος y"
+
+#~ msgid "title x"
+#~ msgstr "τίτλος χ"
+
+#~ msgid "fill screen"
+#~ msgstr "γέμισμα οθόνης"
+
+#~ msgid "Save as"
+#~ msgstr "Αποθήκευση ως"
+
+#~ msgid "set xy"
+#~ msgstr "ορισμός χy"
+
+#~ msgid "trash"
+#~ msgstr "κάδος ανακύκλωσης"
+
+#~ msgid "polar"
+#~ msgstr "πολική"
+
+#~ msgid "repeat"
+#~ msgstr "επανάληψη"
+
+#~ msgid "wait for current video or audio to complete"
+#~ msgstr "αναμονή για ολοκλήρωση του τρέχοντος βίντεο ή ήχου"
+
+#~ msgid "Save as image"
+#~ msgstr "Αποθήκευση ως εικόνα"
+
+#~ msgid "Edit"
+#~ msgstr "Επεξεργασία"
+
+#~ msgid "microphone input resistance"
+#~ msgstr "αντίσταση εισόδου μικροφώνου"
+
+#~ msgid "top of Action 2 stack"
+#~ msgstr "κορυφή της στοίβας της ενέργειας 2"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr ""
+#~ "διαιρεί τον αριθμό της κορυφής (αριθμητής) με τον αριθμό στο κάτω μέρος "
+#~ "(παρανομαστής)"
+
+#~ msgid "max"
+#~ msgstr "μέγιστο"
+
+#~ msgid "prints value in status block at bottom of the screen"
+#~ msgstr "εκτυπώνει την αξία στο πεδίο κατάστασης στο κάτω μέρος της οθόνης"
+
+#~ msgid "start fill"
+#~ msgstr "έναρξη γεμίσματος"
+
+#, fuzzy
+#~ msgid "holds results of query-keyboard block as ASCII"
+#~ msgstr "διατηρεί τα αποτελέσματα του ερωτήματος - εντολή πληκτρολογίου"
+
+#~ msgid "push"
+#~ msgstr "ώθηση"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sin(x+y+z)"
+#~ msgstr ""
+#~ "ένα προγραμματιστικό τμήμα εντολών: χρησιμοποιείται για την προσθήκη "
+#~ "προχωρημένων μαθηματικών εξισώσεων πολλών μεταβλητών, π.χ. ημ(x+y+z)"
+
+#~ msgid "restore all"
+#~ msgstr "επαναφορά όλων"
+
+#~ msgid "hello"
+#~ msgstr "γεια"

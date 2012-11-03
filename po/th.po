@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -156,7 +156,7 @@ msgstr ""
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "ความต้านทาน"
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: taextras.py:135
 msgid "brightness"
-msgstr ""
+msgstr "ความสว่าง"
 
 #: taextras.py:136
 msgid "set the camera brightness as a value between 0 to 255."
@@ -576,8 +576,9 @@ msgstr ""
 
 #. TRANS: Please use similar terms to those used in the Physics Activity
 #: taextras.py:223
+#, fuzzy
 msgid "Palette of physics blocks"
-msgstr ""
+msgstr "ชุดคำสั่งเซ็นเซอร์"
 
 #: taextras.py:224
 msgid "start polygon"
@@ -628,7 +629,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "ความสูง"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +649,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "ความกว้าง"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +696,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "แกน x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "แกน y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +726,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "เอกลักษณ์"
 
 #: taextras.py:267
 msgid ""
@@ -766,8 +768,9 @@ msgstr ""
 
 #. TRANS: WeDo is a robotics product of the LEGO company
 #: taextras.py:284
+#, fuzzy
 msgid "Palette of WeDo blocks"
-msgstr ""
+msgstr "ชุดคำสั่งเซ็นเซอร์"
 
 #: taextras.py:285
 msgid "WeDo"
@@ -854,19 +857,21 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "สี"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "ขวา"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "เสียง"
 
 #: taextras.py:320
+#, fuzzy
 msgid "grey"
-msgstr ""
+msgstr "สีเทา"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
@@ -948,7 +953,7 @@ msgstr ""
 
 #: taextras.py:340
 msgid "time"
-msgstr ""
+msgstr "เวลา"
 
 #: taextras.py:341
 msgid "Play a tone at frequency for time."
@@ -1059,8 +1064,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "สีแดง"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1218,8 +1224,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "หารเอาเศษ"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1231,7 +1238,7 @@ msgstr ""
 
 #: taextras.py:421
 msgid "value"
-msgstr ""
+msgstr "ค่า"
 
 #: taextras.py:422
 msgid "Write analog value in specified port."
@@ -1289,8 +1296,9 @@ msgstr ""
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:440
+#, fuzzy
 msgid "Palette of Expeyes blocks"
-msgstr ""
+msgstr "ชุดคำสั่งเซ็นเซอร์"
 
 #. TRANS: Programmable voltage output
 #: taextras.py:442
@@ -1458,3 +1466,695 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "ชื่อแทร็ก"
+
+#~ msgid "yellow"
+#~ msgstr "สีเหลือง"
+
+#~ msgid "box 2"
+#~ msgstr "กล่องที่ 2"
+
+#, fuzzy
+#~ msgid "box 1"
+#~ msgstr "กล่องที่ 2"
+
+#, fuzzy
+#~ msgid "Step"
+#~ msgstr "หยุด"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "คูณค่าตัวเลขสองตัว"
+
+#~ msgid "Buddies"
+#~ msgstr "คู่หู"
+
+#~ msgid "cyan"
+#~ msgstr "สีฟ้า"
+
+#, fuzzy
+#~ msgid "Load example"
+#~ msgstr "โหลดตัวอย่าง"
+
+#~ msgid "move all blocks to trash"
+#~ msgstr "ย้าย Block ทั้งหมดลงถังขยะ"
+
+#~ msgid "heading"
+#~ msgstr "ทิศทางปัจจุบัน"
+
+#~ msgid "RFID"
+#~ msgstr "RFID"
+
+#~ msgid "video"
+#~ msgstr "รูปภาพ"
+
+#~ msgid "blue"
+#~ msgstr "สีน้ำเงิน"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "ปุ่ม"
+
+#~ msgid "save SVG"
+#~ msgstr "บันทึก SVG"
+
+#~ msgid "pen down"
+#~ msgstr "จรดปากกา"
+
+#~ msgid "wait"
+#~ msgstr "รอ"
+
+#~ msgid "box"
+#~ msgstr "กล่อง"
+
+#~ msgid "Failed to upload!"
+#~ msgstr "อัปโหลดล้มเหลว"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "ตัวแปรที่ 2 (ค่าที่เป็นตัวเลข)"
+
+#~ msgid "divide"
+#~ msgstr "หาร"
+
+#~ msgid "picture name"
+#~ msgstr "ชื่อรูปภาพ"
+
+#, fuzzy
+#~ msgid "while"
+#~ msgstr "สีขาว"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "heap ว่าง"
+
+#~ msgid "next"
+#~ msgstr "ถ้ดไปถัดไป"
+
+#~ msgid "if then"
+#~ msgstr "ถ้า... แล้ว..."
+
+#~ msgid "set pen size"
+#~ msgstr "ตั้งค่าขนาดปากกา"
+
+#, fuzzy
+#~ msgid "Palette of flow operators"
+#~ msgstr "ชุดคำสั่งประมวลผลตัวเลข"
+
+#~ msgid "holds current pen shade"
+#~ msgstr "ค่าเฉดสีปัจจุบันของปากกา"
+
+#~ msgid "Login failed"
+#~ msgstr "เข้าใช้งานไม่ผ่าน"
+
+#~ msgid "set heading"
+#~ msgstr "กำหนดทิศทาง"
+
+#~ msgid "string value"
+#~ msgstr "ค่า String"
+
+#, fuzzy
+#~ msgid "description"
+#~ msgstr "คำอธิบาย"
+
+#~ msgid "set text size"
+#~ msgstr "ตั้งค่าขนาดตัวอักษร"
+
+#~ msgid "Username:"
+#~ msgstr "ชื่อผู้ใช้:"
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "มุมมอง"
+
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "ตั้งต่าระดับความเทาของเส้นที่เต่าวาด"
+
+#~ msgid "Password:"
+#~ msgstr "รหัสผ่าน:"
+
+#~ msgid "stop action"
+#~ msgstr "หยุดกระทำการใด ๆ"
+
+#~ msgid "green"
+#~ msgstr "สีเขียว"
+
+#~ msgid "shade"
+#~ msgstr "เฉดสี"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "เทสีพื้นหลังด้วยสีที่กำหนดโดย (สี , เฉดสี)"
+
+#~ msgid "save picture"
+#~ msgstr "บันทึกรูปภาพ"
+
+#~ msgid "pen up"
+#~ msgstr "ยกปากกาขึ้น"
+
+#~ msgid "orange"
+#~ msgstr "สีส้ม"
+
+#~ msgid "pushes value onto FILO (first-in last-out heap)"
+#~ msgstr "ใส่ค่าใน FILO (เป็น heap ประเภท เข้าก่อน ออกหลัง)"
+
+#~ msgid "clear all"
+#~ msgstr "ล้างค่าทั้งหมด"
+
+#~ msgid "then"
+#~ msgstr "แล้ว"
+
+#~ msgid "Register"
+#~ msgstr "สมัครสมาชิก"
+
+#~ msgid "not"
+#~ msgstr "ไม่"
+
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "หมุนเต่าตามเข็มนาฬิกา (องศา)"
+
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr "ค่าระดับความเทาปัจจุบัน เอาไปใช้ได้เหมือนบล็อกตัวเลข"
+
+#~ msgid "hide blocks"
+#~ msgstr "ซ่อน blocks"
+
+#~ msgid "light level detected by camera"
+#~ msgstr "ระดับแสงที่ตรวจพบโดยกล้อง"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "เครื่องหมายน้อยกว่า"
+
+#~ msgid "restore all blocks from trash"
+#~ msgstr "คืนค่า Blocks ทั้งหมดจากถังขยะ"
+
+#~ msgid "Save"
+#~ msgstr "บันทึก"
+
+#~ msgid "store in box 1"
+#~ msgstr "นำไปเก็บที่ box 1"
+
+#, fuzzy
+#~ msgid "store in box 2"
+#~ msgstr "นำไปเก็บที่ box 1"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "คือค่าตำแหน่งแกนนอน (แกน x) ของตัวเต่า ค่านี้นำไปใช้เหมือนบล็อกตัวเลขได้"
+
+#~ msgid "print"
+#~ msgstr "งานพิมพ์"
+
+#~ msgid "Save as Logo"
+#~ msgstr "บันทึกเป็นโลโก้"
+
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "ตั้งค่าสีของเส้นที่เต่าวาด"
+
+#~ msgid "set text color"
+#~ msgstr "ตั้งค่าสีตัวอักษร"
+
+#~ msgid "loudness"
+#~ msgstr "ระดับความดัง"
+
+#~ msgid "number"
+#~ msgstr "ตัวเลข"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "หยุด"
+
+#~ msgid "Nickname"
+#~ msgstr "ชื่อเล่น"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "ตั้งค่าเฉดสี"
+
+#~ msgid "white"
+#~ msgstr "สีขาว"
+
+#~ msgid "Cancel"
+#~ msgstr "ยกเลิก"
+
+#~ msgid "presentation 2x1"
+#~ msgstr "งานนำเสนอ 2x1"
+
+#~ msgid "minus"
+#~ msgstr "ลบ"
+
+#~ msgid "and"
+#~ msgstr "บวก"
+
+#~ msgid "as input"
+#~ msgstr "การนำเข้า"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr "ค่าขนาดปากกาปัจจุบัน นำไปใช้ได้เหมือนบล็อกตัวเลข"
+
+#~ msgid "set color"
+#~ msgstr "ตั้งค่าสี"
+
+#~ msgid "min"
+#~ msgstr "นาที"
+
+#~ msgid "Palette of pen commands"
+#~ msgstr "ชุดคำสั่งการวาด"
+
+#~ msgid "shows values in FILO (first-in last-out heap)"
+#~ msgstr "แสดงค่าใน FILO (เป็น heap ประเภท เข้าก่อน ออกหลัง)"
+
+#~ msgid "File"
+#~ msgstr "แฟ้ม"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "เครื่องหมาย NOT"
+
+#~ msgid "Palette of numeric operators"
+#~ msgstr "ชุดคำสั่งประมวลผลตัวเลข"
+
+#~ msgid "multiply"
+#~ msgstr "คูณ"
+
+#~ msgid "forever"
+#~ msgstr "ตลอดไป"
+
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "ตั้งค่าเฉดสีของเส้นที่เต่าวาด"
+
+#~ msgid "snapshot"
+#~ msgstr "ภาพที่จับได้"
+
+#~ msgid "clean"
+#~ msgstr "ล้างหน้าจอ"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "แสดง blocks"
+
+#~ msgid "Fullscreen"
+#~ msgstr "เต็มจอ"
+
+#~ msgid "File not found"
+#~ msgstr "ไม่พบไฟล์"
+
+#~ msgid "show"
+#~ msgstr "แสดง"
+
+#, fuzzy
+#~ msgid "text"
+#~ msgstr "ถ้ดไป"
+
+#~ msgid "random"
+#~ msgstr "สุ่ม"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "เครื่องหมายมากกว่า"
+
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "หมุนเต่าทวนเข็มนาฬิกา (องศา)"
+
+#~ msgid "black"
+#~ msgstr "สีดำ"
+
+#~ msgid "calculates square root"
+#~ msgstr "คำนวนค่า square root"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "คือค่าตำแหน่งแกนตั้ง (แกน y) ของตัวเต่า ค่านี้นำไปใช้เหมือนบล็อกตัวเลขได้"
+
+#~ msgid "stop"
+#~ msgstr "หยุด"
+
+#~ msgid "greater than"
+#~ msgstr "มากกว่า"
+
+#~ msgid "xcor"
+#~ msgstr "ตำแหน่ง x"
+
+#~ msgid "Help"
+#~ msgstr "ช่วยเหลือ"
+
+#~ msgid "Save project?"
+#~ msgstr "บันทึกโครงการ?"
+
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "ตั้งค่าสีของข้อความที่เต่าวาด"
+
+#~ msgid "light level detected by light sensor"
+#~ msgstr "ระดับแสงที่ตรวจพบโดยเซ็นเซอร์วัดแสง"
+
+#~ msgid "keyboard"
+#~ msgstr "แป้นพิมพ์"
+
+#~ msgid "arc"
+#~ msgstr "เส้นโค้ง"
+
+#~ msgid "radius"
+#~ msgstr "รัศมี"
+
+#~ msgid "set shade"
+#~ msgstr "ตั้งค่าเฉดสี"
+
+#~ msgid "logical AND operator"
+#~ msgstr "เครื่องหมายบวก"
+
+#~ msgid "Run"
+#~ msgstr "ประมวลผล"
+
+#~ msgid "show heap"
+#~ msgstr "แสดง heap"
+
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "กำหนดทิศทางของเต่า (0 ชี้ไปทางด้านบนของหน้าจอ)"
+
+#~ msgid "Title:"
+#~ msgstr "ชื่อแทร็ก:"
+
+#, fuzzy
+#~ msgid "Restore blocks from trash"
+#~ msgstr "คืนค่า Blocks ทั้งหมดจากถังขยะ"
+
+#, fuzzy
+#~ msgid "Palette of variable blocks"
+#~ msgstr "ชุดคำสั่งตัวแปร"
+
+#~ msgid "Upload"
+#~ msgstr "อัปโหลด"
+
+#~ msgid "Server"
+#~ msgstr "เครื่องแม่ข่าย"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "งานนำเสนอ 2x2"
+
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "ตัวแปรที่ 1 (ค่าที่เป็นตัวเลข)"
+
+#~ msgid "Neighborhood"
+#~ msgstr "เพื่อนบ้าน"
+
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "บวกค่าตัวเลขสองตัว"
+
+#~ msgid "equal"
+#~ msgstr "เท่ากับ"
+
+#~ msgid "doesn't like"
+#~ msgstr "ไม่เป็น"
+
+#~ msgid "You have unsaved work. Would you like to save before quitting?"
+#~ msgstr "คุณยังไม่ได้บันทึกไฟล์ คุณต้องการบันทึกก่อนปิดโปรแกรมหรือไม่?"
+
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "เวลาเคลื่อนที่เต่าจะไม่วาดเส้น"
+
+#~ msgid "pop"
+#~ msgstr "ป๊อบ"
+
+#~ msgid "pen size"
+#~ msgstr "ขนาดปากกา"
+
+#, fuzzy
+#~ msgid "read value from RFID device"
+#~ msgstr "อ่านค่าจากอุปกรณ์ RFID"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "เคลื่อนเต่าไปตามเส้นโค้ง"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "เครื่องหมายเท่ากับ"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "ชุดสีปากกา"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "เคลื่อนเต่าไปข้างหลัง"
+
+#, fuzzy
+#~ msgid "Show blocks"
+#~ msgstr "แสดง blocks"
+
+#~ msgid "play"
+#~ msgstr "เล่น"
+
+#~ msgid "save"
+#~ msgstr "บันทึก"
+
+#~ msgid "Colors"
+#~ msgstr "สี"
+
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "ตั้งขนาดของเส้นที่จะถูกวาดโดยเต่า"
+
+#~ msgid "Open"
+#~ msgstr "เปิด"
+
+#~ msgid "orientation"
+#~ msgstr "ทิศทาง"
+
+#~ msgid "ycor"
+#~ msgstr "ตำแหน่ง y"
+
+#~ msgid "if"
+#~ msgstr "ถ้า"
+
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr "ย้ายเต่าไปยังตำแหน่ง x, ตำแหน่ง y; โดย (0,0) อยู่กลางหน้าจอ"
+
+#~ msgid "Python"
+#~ msgstr "ภาษาไพทอน"
+
+#~ msgid "Stop"
+#~ msgstr "หยุด"
+
+#~ msgid "end fill"
+#~ msgstr "จบการเทสี"
+
+#~ msgid "Copy"
+#~ msgstr "คัดลอก"
+
+#~ msgid "Paste"
+#~ msgstr "วาง"
+
+#~ msgid "Activities"
+#~ msgstr "กิจกรรม"
+
+#~ msgid "Upload to Web"
+#~ msgstr "เอาขึ้นเว็บ"
+
+#~ msgid "empty heap"
+#~ msgstr "heap ว่าง"
+
+#~ msgid "pops value off FILO (first-in last-out heap)"
+#~ msgstr "นำค่าออกจาก FILO (เป็น heap ประเภท เข้าก่อน ออกหลัง)"
+
+#~ msgid "Clean"
+#~ msgstr "ล้าง"
+
+#~ msgid "angle"
+#~ msgstr "มุม"
+
+#~ msgid "audio"
+#~ msgstr "เสียง"
+
+#~ msgid "Tools"
+#~ msgstr "เครื่องมือ"
+
+#~ msgid "left"
+#~ msgstr "ซ้าย"
+
+#~ msgid "comment"
+#~ msgstr "หมายเหตุ"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "นำค่าตัวเลขตัวล่างไปลบออกจากค่าตัวบน"
+
+#~ msgid "voltage"
+#~ msgstr "แรงดันไฟฟ้า"
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "ลบภาพและนำเต่ากลับมากลางหน้าจอ"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "ชุดคำสั่งควบคุมเต่า"
+
+#~ msgid "loops forever"
+#~ msgstr "การทำซ้ำตลอดเวลา"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Turtle Art"
+
+#~ msgid "Project"
+#~ msgstr "โครงการ"
+
+#~ msgid "Debug"
+#~ msgstr "ดีบั๊ก"
+
+#~ msgid "Password"
+#~ msgstr "รหัสผ่าน"
+
+#~ msgid "Share"
+#~ msgstr "แบ่งปัน"
+
+#~ msgid "less than"
+#~ msgstr "น้อยกว่า"
+
+#~ msgid "square root"
+#~ msgstr "รากที่สอง"
+
+#~ msgid "show blocks"
+#~ msgstr "แสดง blocks"
+
+#~ msgid "Quit"
+#~ msgstr "ออก"
+
+#~ msgid "set gray"
+#~ msgstr "ตั้งค่าความเทา"
+
+#~ msgid "New"
+#~ msgstr "ไฟล์ใหม่"
+
+#~ msgid "scale"
+#~ msgstr "อัตราขยาย"
+
+#~ msgid "bottom"
+#~ msgstr "ปุ่ม"
+
+#~ msgid "purple"
+#~ msgstr "สีม่วง"
+
+#~ msgid "click to open"
+#~ msgstr "กดเปิด"
+
+#~ msgid "Configuration"
+#~ msgstr "แฟ้มค่าปรับแต่ง"
+
+#, fuzzy
+#~ msgid "Description:"
+#~ msgstr "คำอธิบาย:"
+
+#~ msgid "journal"
+#~ msgstr "บันทึกประจำวัน"
+
+#~ msgid "empty trash"
+#~ msgstr "ลบขยะ"
+
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "เวลาเคลื่อนที่เต่าจะวาดเส้น"
+
+#~ msgid "Load..."
+#~ msgstr "โหลด..."
+
+#~ msgid "Stop turtle"
+#~ msgstr "หยุดเต่า"
+
+#~ msgid "store in"
+#~ msgstr "นำไปเก็บไว้"
+
+#, fuzzy
+#~ msgid "Hide blocks"
+#~ msgstr "ซ่อน blocks"
+
+#~ msgid "plus"
+#~ msgstr "บวก"
+
+#~ msgid "or"
+#~ msgstr "หรือ"
+
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "ตั่งค่าขนาดตัวอักษรที่เต่าวาด"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr "คือค่าทิศทางปัจจุบันของเต่า ค่านี้นำไปใช้เหมือนบล็อกตัวเลขได้"
+
+#~ msgid "image"
+#~ msgstr "รูปภาพ"
+
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr "กลับสู่การสุ่มตัวเลข ระหว่าง ค่าที่น้อยที่สุด และ ค่าที่มากที่สุด"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr "ค่าสีปัจจุบันของเต่า สามารถนำไปใช้เหมือนบล็อกตัวเลข"
+
+#~ msgid "saves a picture to the Sugar Journal"
+#~ msgstr "บันทึกรูปภาพไปที่ Sugar Journal"
+
+#~ msgid "Save snapshot"
+#~ msgstr "บันทึกภาพ"
+
+#~ msgid "start"
+#~ msgstr "เริ่ม"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "เคลื่อนเต่าไปข้างหน้า"
+
+#~ msgid "forward"
+#~ msgstr "เดินหน้า"
+
+#~ msgid "Account ID"
+#~ msgstr "ค่าประจำตัวบัญชีผู้ใช้"
+
+#~ msgid "back"
+#~ msgstr "กลับ"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "งานนำเสนอ 1x1"
+
+#~ msgid "presentation 1x2"
+#~ msgstr "งานนำเสนอ 1x2"
+
+#~ msgid "logical OR operator"
+#~ msgstr "เครื่องหมาย OR"
+
+#~ msgid "Save..."
+#~ msgstr "บันทึก..."
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "ตั้งค่าแกน xy"
+
+#~ msgid "fill screen"
+#~ msgstr "สีจอ"
+
+#~ msgid "Save as"
+#~ msgstr "บันทึกเป็น"
+
+#~ msgid "set xy"
+#~ msgstr "ตั้งค่าแกน xy"
+
+#~ msgid "trash"
+#~ msgstr "ถังขยะ"
+
+#~ msgid "repeat"
+#~ msgstr "ซ้ำ"
+
+#~ msgid "Save as image"
+#~ msgstr "บันทึกเป็นรูปภาพ"
+
+#~ msgid "Edit"
+#~ msgstr "แก้ไข"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr "นำค่าตัวเลขตัวบน(ตัวตั้ง) หารด้วยตัวเลขตัวล่า(ตัวหาร)"
+
+#~ msgid "max"
+#~ msgstr "ใหญ่สุด"
+
+#~ msgid "start fill"
+#~ msgstr "เริ่มเทสี"
+
+#~ msgid "push"
+#~ msgstr "ใส่เข้าไป"
+
+#~ msgid "restore all"
+#~ msgstr "คืนค่าทั้งหมด"

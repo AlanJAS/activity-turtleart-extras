@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "کچه"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "سور"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -854,15 +854,16 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "رنګ"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "ښي"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "غږ"
 
 #: taextras.py:320
 msgid "grey"
@@ -1218,8 +1219,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "اکر"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1460,265 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "سرلیک"
+
+#~ msgid "box 2"
+#~ msgstr "دويم کوتۍ"
+
+#~ msgid "box 1"
+#~ msgstr "اول کوتی"
+
+#, fuzzy
+#~ msgid "Step"
+#~ msgstr "قدم"
+
+#, fuzzy
+#~ msgid "Hide palette"
+#~ msgstr "پالیټ پټول"
+
+#~ msgid "heading"
+#~ msgstr "سرکی"
+
+#~ msgid "pen down"
+#~ msgstr "قلم کښته"
+
+#~ msgid "wait"
+#~ msgstr "انتظار"
+
+#~ msgid "box"
+#~ msgstr "بکس"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "تش پنډ"
+
+#, fuzzy
+#~ msgid "next"
+#~ msgstr "متن"
+
+#~ msgid "set pen size"
+#~ msgstr "د قلم کچه وټاکئ"
+
+#
+#~ msgid "set heading"
+#~ msgstr "سرکی ټاکل"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "د قلم کچه وټاکئ"
+
+#~ msgid "shade"
+#~ msgstr "سيوری"
+
+#~ msgid "pen up"
+#~ msgstr "قلم پورته"
+
+#~ msgid "then"
+#~ msgstr "نو بیا"
+
+#~ msgid "not"
+#~ msgstr "ندی"
+
+#, fuzzy
+#~ msgid "turtle"
+#~ msgstr "شمشتی"
+
+#~ msgid "hide blocks"
+#~ msgstr "بلاکونه پټول"
+
+#~ msgid "store in box 1"
+#~ msgstr "په اول کوتي کې يې وځيرمئ"
+
+#~ msgid "store in box 2"
+#~ msgstr "په دويم کوتي کې يې وځيرمئ"
+
+#~ msgid "print"
+#~ msgstr "چاپ"
+
+#, fuzzy
+#~ msgid "Save as Logo"
+#~ msgstr "نښان ساتل"
+
+#~ msgid "set text color"
+#~ msgstr "د متن رنګ ټاکل"
+
+#~ msgid "number"
+#~ msgstr "شميره"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "قدم"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "سيوری وټاکئ"
+
+#~ msgid "and"
+#~ msgstr "او "
+
+#~ msgid "set color"
+#~ msgstr "رنګ وټاکئ"
+
+#~ msgid "min"
+#~ msgstr "لږترلږه"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "زما بلاک پورته کړه"
+
+#~ msgid "forever"
+#~ msgstr "د تل لپاره"
+
+#~ msgid "clean"
+#~ msgstr "پاکول"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "بلاکونه ښودل"
+
+#, fuzzy
+#~ msgid "Fullscreen"
+#~ msgstr "بشپړه پرده"
+
+#~ msgid "text"
+#~ msgstr "متن"
+
+#~ msgid "random"
+#~ msgstr "ناټاکلې"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "شاته"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "قدم"
+
+#~ msgid "xcor"
+#~ msgstr "xcor"
+
+#~ msgid "keyboard"
+#~ msgstr "کیليدړه"
+
+#~ msgid "arc"
+#~ msgstr "آرک"
+
+#~ msgid "radius"
+#~ msgstr "وړانګه"
+
+#~ msgid "set shade"
+#~ msgstr "سيوری وټاکئ"
+
+#~ msgid "show heap"
+#~ msgstr "پنډ ښودل"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "سرلیک"
+
+#~ msgid "else"
+#~ msgstr "بل څه"
+
+#~ msgid "pop"
+#~ msgstr "دنګون"
+
+#~ msgid "pen size"
+#~ msgstr "د قلم کچه"
+
+#, fuzzy
+#~ msgid "Show blocks"
+#~ msgstr "بلاکونه ښودل"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "رنګ"
+
+#~ msgid "ycor"
+#~ msgstr "ycor"
+
+#~ msgid "if"
+#~ msgstr "که"
+
+#, fuzzy
+#~ msgid "Stop"
+#~ msgstr "قدم"
+
+#~ msgid "empty heap"
+#~ msgstr "تش پنډ"
+
+#, fuzzy
+#~ msgid "Clean"
+#~ msgstr "پاکول"
+
+#~ msgid "angle"
+#~ msgstr "زاويه"
+
+#~ msgid "left"
+#~ msgstr "کيڼ"
+
+#~ msgid "Turtle Art"
+#~ msgstr "شمشتی هنر"
+
+#~ msgid "Project"
+#~ msgstr "پروژه"
+
+#, fuzzy
+#~ msgid "show blocks"
+#~ msgstr "بلاکونه ښودل"
+
+#, fuzzy
+#~ msgid "Stop turtle"
+#~ msgstr "شمشتۍ درول"
+
+#~ msgid "Turtle"
+#~ msgstr "شمشتی"
+
+#, fuzzy
+#~ msgid "Hide blocks"
+#~ msgstr "بلاکونه پټول"
+
+#~ msgid "or"
+#~ msgstr "يا"
+
+#, fuzzy
+#~ msgid "Show palette"
+#~ msgstr "پالیټ ښودل"
+
+#~ msgid "start"
+#~ msgstr "پېل"
+
+#~ msgid "forward"
+#~ msgstr "مخته"
+
+#~ msgid "back"
+#~ msgstr "شاته"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "xy وټاکئ"
+
+#~ msgid "fill screen"
+#~ msgstr "پرده ډکول"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "توګه ساتل"
+
+#~ msgid "set xy"
+#~ msgstr "xy وټاکئ"
+
+#~ msgid "repeat"
+#~ msgstr "تکرار"
+
+#, fuzzy
+#~ msgid "Save as image"
+#~ msgstr "د انځور په توګه ساتل"
+
+#~ msgid "max"
+#~ msgstr "زیات نه زیات"
+
+#~ msgid "push"
+#~ msgstr "دیکه"

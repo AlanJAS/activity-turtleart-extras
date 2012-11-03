@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -156,7 +156,7 @@ msgstr ""
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "faharetana"
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "haavo"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -854,11 +854,12 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "loko"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "havanana"
 
 #: taextras.py:319
 msgid "sound"
@@ -1059,8 +1060,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "mena"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1458,3 +1460,494 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "Lohateny"
+
+#~ msgid "yellow"
+#~ msgstr "mavo"
+
+#~ msgid "displays polar coordinates"
+#~ msgstr "mampiseho kôrdône polera"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "Zavatra fihaino sy fijery ao amin'ny Firaketana Sugar"
+
+#~ msgid "box 2"
+#~ msgstr "boaty 2"
+
+#~ msgid "box 1"
+#~ msgstr "boaty 1"
+
+#~ msgid "Step"
+#~ msgstr "Dingana"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "mampitombo iditra nomerika roa"
+
+#~ msgid "Show/hide blocks"
+#~ msgstr "Asehoy/Afeno ireo bolongana"
+
+#~ msgid "Hide palette"
+#~ msgstr "Afeno ny andiandoko"
+
+#, fuzzy
+#~ msgid "Sugar Journal video object"
+#~ msgstr "Zavatra fihaino amin'ny Firaketana Sugar"
+
+#~ msgid "cyan"
+#~ msgstr "cyan"
+
+#~ msgid "xcor of right of screen"
+#~ msgstr "xcor-n'ny faritra havanan'ny efijery"
+
+#~ msgid "Palette of extra options"
+#~ msgstr "Andian-tsafidy fanampiny"
+
+#, python-format
+#~ msgid "Configuration directory not writable: %s"
+#~ msgstr "Reperitoaram-panefena tsy azo anoratana: %s"
+
+#~ msgid "heading"
+#~ msgstr "lohateny"
+
+#~ msgid "saves turtle graphics as an SVG file in the Sugar Journal"
+#~ msgstr "mitahiry ireo sarin-tsokatra ho rakitra SVG ao amin'ny Firaketana Sugar"
+
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "misarika soratra na mampiseho haino aman-jery avy ao amin'ny Firaketana"
+
+#~ msgid "blue"
+#~ msgstr "manga"
+
+#~ msgid "displays Cartesian coordinates"
+#~ msgstr "mampiseho ireo kôrdône karteziana"
+
+#~ msgid "No option action:"
+#~ msgstr "Tsy misy asa safidy:"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "operatera (mpampatsiahy) maodilera"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "fanambaniny"
+
+#~ msgid "save SVG"
+#~ msgstr "tehirizo SVG"
+
+#~ msgid "pen down"
+#~ msgstr "ahidino ny penina"
+
+#~ msgid "wait"
+#~ msgstr "andraso"
+
+#~ msgid "box"
+#~ msgstr "boaty"
+
+#~ msgid "Failed to upload!"
+#~ msgstr "Tsy nahatafakatra!"
+
+#~ msgid "invokes named action stack"
+#~ msgstr "manambara avosan'asa nomena anarana"
+
+#~ msgid "action"
+#~ msgstr "hetsika"
+
+#~ msgid "usage is"
+#~ msgstr "ny fanao azy dia"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "Ova 2 (lanja nomerika)"
+
+#~ msgid "divide"
+#~ msgstr "zarao"
+
+#~ msgid "picture name"
+#~ msgstr "anaran-tsary"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "foana"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "ova nomena anarana (lanja nomerika)"
+
+#~ msgid "next"
+#~ msgstr "manaraka"
+
+#~ msgid "if then"
+#~ msgstr "raha izay dia"
+
+#~ msgid "set pen size"
+#~ msgstr "amboary ny haben'ny penina"
+
+#~ msgid "presentation template: select Journal object (no description)"
+#~ msgstr ""
+#~ "maodely fampisehoana: mifidiana zava-piraiketana (tsy misy mombamomba azy)"
+
+#~ msgid "until"
+#~ msgstr "mandrapaha"
+
+#~ msgid "permanently deletes items in trash"
+#~ msgstr "mamafa tanteraka ireo singa ao an-jaoridira"
+
+#~ msgid "top of Action 1 stack"
+#~ msgstr "tampon'ny avosan'ny Hetsika 1"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>w"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>s"
+
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrl>e"
+
+#~ msgid "I don't know how to"
+#~ msgstr "Tsy fantatro ny fomba"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "amboary ny haben'ny penina"
+
+#~ msgid "View"
+#~ msgstr "Hijery"
+
+#~ msgid "green"
+#~ msgstr "maitso"
+
+#~ msgid "shade"
+#~ msgstr "fahamatrohana"
+
+#~ msgid "save picture"
+#~ msgstr "tehirizo ny sary"
+
+#~ msgid "Rescale coordinates up"
+#~ msgstr "Alehibiazo ireo kaordône"
+
+#~ msgid "pen up"
+#~ msgstr "akaro ny penina"
+
+#~ msgid "orange"
+#~ msgstr "volomboasary"
+
+#~ msgid "then"
+#~ msgstr "noho izany"
+
+#~ msgid "not"
+#~ msgstr "tsy"
+
+#, fuzzy
+#~ msgid "if then else"
+#~ msgstr "raha tsy izay dia"
+
+#, fuzzy
+#~ msgid "xcor of left of screen"
+#~ msgstr "xcor-n'ny faritra havanan'ny efijery"
+
+#~ msgid "Reset block size"
+#~ msgstr "Ovao ny haben'ny bolongana"
+
+#~ msgid "turtle"
+#~ msgstr "sokatra"
+
+#~ msgid "hide blocks"
+#~ msgstr "afeno ireo bolongana"
+
+#~ msgid "Save"
+#~ msgstr "Tehirizo"
+
+#~ msgid "print"
+#~ msgstr "pirinty"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Tehirizo ho logo"
+
+#, fuzzy
+#~ msgid "number"
+#~ msgstr "isa"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "Ajanony"
+
+#~ msgid "Cartesian coordinates"
+#~ msgstr "Kaordône Karteziana"
+
+#, fuzzy
+#~ msgid "presentation 2x1"
+#~ msgstr "famelabelarana"
+
+#~ msgid "and"
+#~ msgstr "sy"
+
+#~ msgid "as input"
+#~ msgstr "ho soratra"
+
+#~ msgid "min"
+#~ msgstr "ambany indrindra"
+
+#~ msgid "File"
+#~ msgstr "Rakitra"
+
+#, fuzzy
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "xcor-n'ny faritra havanan'ny efijery"
+
+#, fuzzy
+#~ msgid "presentation template: select Journal object (with description)"
+#~ msgstr ""
+#~ "maodely fampisehoana: mifidiana zava-piraiketana (tsy misy mombamomba azy)"
+
+#~ msgid "forever"
+#~ msgstr "mandrakizay"
+
+#~ msgid "snapshot"
+#~ msgstr "sary nalaina"
+
+#~ msgid "clean"
+#~ msgstr "diovy"
+
+#~ msgid "Grow blocks"
+#~ msgstr "Ampitomboy ireo bolongana"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Mameno efijery"
+
+#~ msgid "show"
+#~ msgstr "asehoy"
+
+#~ msgid "text"
+#~ msgstr "Lahatsoratra"
+
+#~ msgid "random"
+#~ msgstr "kisendrasendra"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "miverina"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "Ajanony"
+
+#~ msgid "xcor"
+#~ msgstr "xcor"
+
+#~ msgid "Help"
+#~ msgstr "Fanampiana"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "Kaordône pôlera"
+
+#~ msgid "Run"
+#~ msgstr "Alefaso"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "Lohateny"
+
+#~ msgid "Palette of variable blocks"
+#~ msgstr "Andiandokom-bolongana miovaova"
+
+#, fuzzy
+#~ msgid "presentation 2x2"
+#~ msgstr "famelabelarana"
+
+#, fuzzy
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "Ova 2 (lanja nomerika)"
+
+#~ msgid "else"
+#~ msgstr "raha tsy izany"
+
+#~ msgid "doesn't like"
+#~ msgstr "tsy tia"
+
+#~ msgid "pen size"
+#~ msgstr "haben'ny penina"
+
+#, fuzzy
+#~ msgid "ycor of top of screen"
+#~ msgstr "xcor-n'ny faritra havanan'ny efijery"
+
+#~ msgid "Show blocks"
+#~ msgstr "Asehoy ireo bolongana"
+
+#, fuzzy
+#~ msgid "save"
+#~ msgstr "Tehirizo"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "loko"
+
+#~ msgid "Open"
+#~ msgstr "Sokafy"
+
+#~ msgid "orientation"
+#~ msgstr "fitodika"
+
+#~ msgid "ycor"
+#~ msgstr "ycor"
+
+#~ msgid "if"
+#~ msgstr "raha"
+
+#~ msgid "Stop"
+#~ msgstr "Ajanony"
+
+#~ msgid "action 2"
+#~ msgstr "hetsika 2"
+
+#~ msgid "action 1"
+#~ msgstr "hetsika 1"
+
+#~ msgid "Copy"
+#~ msgstr "Adikao"
+
+#~ msgid "Paste"
+#~ msgstr "Apetaho"
+
+#~ msgid "did not output to"
+#~ msgstr "tsy namoaka mankao amin'ny"
+
+#~ msgid "empty heap"
+#~ msgstr "foana"
+
+#~ msgid "Clean"
+#~ msgstr "Diovy"
+
+#~ msgid "angle"
+#~ msgstr "zoro"
+
+#~ msgid "Tools"
+#~ msgstr "Fitaovana"
+
+#~ msgid "left"
+#~ msgstr "havia"
+
+#~ msgid "comment"
+#~ msgstr "tsikera"
+
+#~ msgid "Cartesian"
+#~ msgstr "Karteziana"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Ara sokatra"
+
+#~ msgid "Project"
+#~ msgstr "Sahanasa"
+
+#~ msgid "Debug"
+#~ msgstr "Debageo"
+
+#~ msgid "Rescale coordinates"
+#~ msgstr "Ovao refy ireo kaordône"
+
+#~ msgid "show blocks"
+#~ msgstr "asehoy ireo bolongana"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "Saha fanoritsoritan'ny Firaketana Sugar"
+
+#~ msgid "scale"
+#~ msgstr "akelezo"
+
+#~ msgid "bottom"
+#~ msgstr "fanambaniny"
+
+#~ msgid "purple"
+#~ msgstr "voloparasy"
+
+#~ msgid "Rescale coordinates down"
+#~ msgstr "Akelezo ireo kaordône"
+
+#~ msgid "click to open"
+#~ msgstr "tsindrio raha hanokatra"
+
+#~ msgid "empty trash"
+#~ msgstr "diovy ny vatampako"
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "Zavatra fihaino amin'ny Firaketana Sugar"
+
+#~ msgid "Stop turtle"
+#~ msgstr "Ajanony ny sokatra"
+
+#~ msgid "Turtle"
+#~ msgstr "Sokatra"
+
+#~ msgid "Hide blocks"
+#~ msgstr "Afeno ireo bolongana"
+
+#~ msgid "or"
+#~ msgstr "na"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "Silaho ireo bolongana"
+
+#~ msgid "image"
+#~ msgstr "sary"
+
+#~ msgid "Show palette"
+#~ msgstr "Asehoy ny andiandoko"
+
+#~ msgid "saves a picture to the Sugar Journal"
+#~ msgstr "mitahiry sary ao amin'ny Firaketana Sugar"
+
+#~ msgid "Save snapshot"
+#~ msgstr "Tehirizo ny sary nalaina"
+
+#~ msgid "start"
+#~ msgstr "atomboy"
+
+#~ msgid "forward"
+#~ msgstr "mandroso"
+
+#~ msgid "back"
+#~ msgstr "miverina"
+
+#, fuzzy
+#~ msgid "presentation 1x1"
+#~ msgstr "famelabelarana"
+
+#, fuzzy
+#~ msgid "presentation 1x2"
+#~ msgstr "famelabelarana"
+
+#~ msgid "fill screen"
+#~ msgstr "ataovy feno efijery"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "Tehirizo ho"
+
+#~ msgid "repeat"
+#~ msgstr "avereno"
+
+#~ msgid "Save as image"
+#~ msgstr "Tehirizo ho sary"
+
+#~ msgid "Edit"
+#~ msgstr "Ovao"
+
+#, fuzzy
+#~ msgid "top of Action 2 stack"
+#~ msgstr "tampon'ny avosan'ny Hetsika 1"
+
+#~ msgid "max"
+#~ msgstr "ambony indrindra"
+
+#~ msgid "push"
+#~ msgstr "atoseho"
+
+#~ msgid "restore all"
+#~ msgstr "avereno daholo"

@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -854,11 +854,12 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "ቀለም"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "ቀኝ"
 
 #: taextras.py:319
 msgid "sound"
@@ -1458,3 +1459,95 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr " አርእስት"
+
+#~ msgid "Step"
+#~ msgstr "እርምጃ"
+
+#~ msgid "next"
+#~ msgstr "ቀጥል"
+
+#~ msgid "Password:"
+#~ msgstr "ሚስጢራዊ ቃል፦"
+
+#~ msgid "pitch"
+#~ msgstr "አጣጣል"
+
+#~ msgid "not"
+#~ msgstr "እንጂ"
+
+#~ msgid "print"
+#~ msgstr "አትም"
+
+#~ msgid "number"
+#~ msgstr "ቁጥር"
+
+#~ msgid "top"
+#~ msgstr "ላይኛ"
+
+#~ msgid "Cancel"
+#~ msgstr "ተወው ሻር"
+
+#~ msgid "Fullscreen"
+#~ msgstr "ሙሉ እስክሪን"
+
+#~ msgid "text"
+#~ msgstr "ጽሑፍ"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "ኋላ"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "ላይኛ"
+
+#~ msgid "Title:"
+#~ msgstr " አርእስት፦"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "ቀለም"
+
+#~ msgid "Open"
+#~ msgstr "ክፈት"
+
+#~ msgid "Stop"
+#~ msgstr "ቁም ቁሚ አቁም አቁሚ"
+
+#~ msgid "audio"
+#~ msgstr "ድምፅ"
+
+#~ msgid "Tools"
+#~ msgstr "መሣሪያዎች"
+
+#~ msgid "left"
+#~ msgstr "ግራ"
+
+#, fuzzy
+#~ msgid "Password"
+#~ msgstr "ሚስጢራዊ ቃል፦"
+
+#~ msgid "Quit"
+#~ msgstr "ውጣ"
+
+#~ msgid "New"
+#~ msgstr "አዲስ"
+
+#~ msgid "scale"
+#~ msgstr "ሚዛን"
+
+#~ msgid "journal"
+#~ msgstr "መጽሔት"
+
+#~ msgid "start"
+#~ msgstr "ጀምር"
+
+#~ msgid "back"
+#~ msgstr "ኋላ"
+
+#, fuzzy
+#~ msgid "fill screen"
+#~ msgstr "ሙሉ እስክሪን"

@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -156,7 +156,7 @@ msgstr ""
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "resistensia"
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "haltura"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "hanchura"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +725,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "identidat"
 
 #: taextras.py:267
 msgid ""
@@ -854,15 +855,16 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "kóló"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "drechi"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "sonido"
 
 #: taextras.py:320
 msgid "grey"
@@ -1059,8 +1061,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "kòrá"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1218,8 +1221,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "mod"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1231,7 +1235,7 @@ msgstr ""
 
 #: taextras.py:421
 msgid "value"
-msgstr ""
+msgstr "balor"
 
 #: taextras.py:422
 msgid "Write analog value in specified port."
@@ -1458,3 +1462,959 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "yellow"
+#~ msgstr "hel"
+
+#~ msgid "displays polar coordinates"
+#~ msgstr "mustra kordinantenan polar"
+
+#~ msgid "emptys FILO (first-in-last-out heap)"
+#~ msgstr "limpia FILO (first-in-last-out heap)"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "Operador si- e ora ei ku ta usa operadornan boolean di e palèt di númbernan"
+
+#, fuzzy
+#~ msgid "jogs stack right"
+#~ msgstr "jog stack man drechi"
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "Objecto di media Sugar Journal"
+
+#~ msgid "box 2"
+#~ msgstr "kaha 2"
+
+#~ msgid "box 1"
+#~ msgstr "kaha 1"
+
+#~ msgid "Step"
+#~ msgstr "Paso"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "multiplika dos introdukshon mumériko"
+
+#~ msgid "Show/hide blocks"
+#~ msgstr "Mustra/skonde blòki"
+
+#~ msgid "Hide palette"
+#~ msgstr "Skonde palete"
+
+#, fuzzy
+#~ msgid "Sugar Journal video object"
+#~ msgstr "Objecto oudio Sugar Journal"
+
+#~ msgid "cyan"
+#~ msgstr "cyan"
+
+#~ msgid "xcor of right of screen"
+#~ msgstr "xcor di banda drechi di pantaya"
+
+#, fuzzy
+#~ msgid "Palette of extra options"
+#~ msgstr "palet pa optión ekstra"
+
+#~ msgid "heading"
+#~ msgstr "titulo"
+
+#~ msgid "saves turtle graphics as an SVG file in the Sugar Journal"
+#~ msgstr "warda e imágen di turtuga komo map di e diario di Sugar"
+
+#, fuzzy
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "tou teksto of show media for di Journal"
+
+#~ msgid "blue"
+#~ msgstr "blou"
+
+#~ msgid "displays Cartesian coordinates"
+#~ msgstr "mustra kordinantenan di Cartesian"
+
+#, fuzzy
+#~ msgid "jogs stack down"
+#~ msgstr "jog stack abou"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "modular (restu) operador"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "abou"
+
+#~ msgid "save SVG"
+#~ msgstr "warda SVG"
+
+#~ msgid "runs code found in the tamyblock.py module found in the Journal"
+#~ msgstr "ehekuta e código den e módulo tamyblock.py den e Journal"
+
+#~ msgid "pen down"
+#~ msgstr "pen abou"
+
+#~ msgid "wait"
+#~ msgstr "warda"
+
+#~ msgid "box"
+#~ msgstr "kaha"
+
+#, fuzzy
+#~ msgid "invokes named action stack"
+#~ msgstr "aplá akshon yamá stack"
+
+#~ msgid "action"
+#~ msgstr "akshon"
+
+#, fuzzy
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operador si-e ora ei- sinó ku ta usa operadornan boolean di e palèt di "
+#~ "númbernan"
+
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "Variabel 2 (balor numériko)"
+
+#~ msgid "divide"
+#~ msgstr "parti"
+
+#~ msgid "picture name"
+#~ msgstr "nòmber di imágen"
+
+#~ msgid "while"
+#~ msgstr "tanten/mientras"
+
+#~ msgid "the canvas width"
+#~ msgstr "hanchura di kèimas"
+
+#, fuzzy
+#~ msgid "empty heap?"
+#~ msgstr "monton bashi"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "variabel nombrá (balor numériko )"
+
+#~ msgid "next"
+#~ msgstr "siguiente"
+
+#~ msgid "if then"
+#~ msgstr "si ora"
+
+#~ msgid "set pen size"
+#~ msgstr "instala tamánjo di pen"
+
+#~ msgid "presentation template: select Journal object (no description)"
+#~ msgstr "presentashon patronchi: selekta opheto Journal (no déskripshon)"
+
+#~ msgid "until"
+#~ msgstr "te ora ku"
+
+#~ msgid "permanently deletes items in trash"
+#~ msgstr "kita e artíkulonan for di trash bin permanentemente"
+
+#, fuzzy
+#~ msgid "top of Action 1 stack"
+#~ msgstr "tòp di akshon 1 stack"
+
+#, fuzzy
+#~ msgid ""
+#~ "a programmable block: used to add advanced single-variable math equations, e."
+#~ "g., sin(x)"
+#~ msgstr ""
+#~ "un blòki programabel: usá pa agregá single-variable matemátika, por ehèmpel, "
+#~ "sin(x)"
+
+#, fuzzy
+#~ msgid "Palette of flow operators"
+#~ msgstr "palèt di operador di flow"
+
+#~ msgid "top of a collapsed stack"
+#~ msgstr "tòp di e pila doblá"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operador si-e ora ei- sinó ku ta usa operadornan boolean di e palèt di "
+#~ "númbernan"
+
+#~ msgid "holds current pen shade"
+#~ msgstr "mantane e sombra di e pèn"
+
+#
+#~ msgid "set heading"
+#~ msgstr "instala titulo"
+
+#, fuzzy
+#~ msgid "declutters canvas by hiding blocks"
+#~ msgstr "drecha e tela dor di skonde blòkinan"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>w"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>s"
+
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrl>e"
+
+#~ msgid "horizontal space"
+#~ msgstr "espasio horizontal"
+
+#~ msgid "string value"
+#~ msgstr "balor di string"
+
+#~ msgid "I don't know how to"
+#~ msgstr "Mi no sa kon ta hasi'é"
+
+#~ msgid "set text size"
+#~ msgstr "instala tamánjo di teksto"
+
+#~ msgid "presentation template: select four Journal objects"
+#~ msgstr "presentashon patronchi: selekta kuater opheto Journal"
+
+#~ msgid "View"
+#~ msgstr "Mira"
+
+#, fuzzy
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "instala sombra di e linia dibuga ku e turtuga"
+
+#~ msgid "stop action"
+#~ msgstr "stop akshon"
+
+#~ msgid "green"
+#~ msgstr "bèrdè"
+
+#~ msgid "shade"
+#~ msgstr "sombra"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "jena e fondo ku ( kóló, sombra)"
+
+#~ msgid "save picture"
+#~ msgstr "warda imágen"
+
+#~ msgid "pitch"
+#~ msgstr "altura di tono"
+
+#~ msgid "Rescale coordinates up"
+#~ msgstr "Subi e skala di kordinantenan"
+
+#~ msgid "pen up"
+#~ msgstr "Pen ariba"
+
+#~ msgid "orange"
+#~ msgstr "oraño"
+
+#~ msgid "pauses program execution a specified number of seconds"
+#~ msgstr "pousa e proseshon di e programa den un kantidat di sekònde spesifiká"
+
+#, fuzzy
+#~ msgid "pushes value onto FILO (first-in last-out heap)"
+#~ msgstr ""
+#~ "pusha balor riba monton FILO (first-in last-out) (promé-aden delaster-afó)"
+
+#~ msgid "then"
+#~ msgstr "despues"
+
+#~ msgid "not"
+#~ msgstr "no"
+
+#~ msgid "if then else"
+#~ msgstr "si no"
+
+#~ msgid "stops current action"
+#~ msgstr "stòp e akshon/proseso aktual"
+
+#, fuzzy
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "bira e turtuga direkshon di oloshi (huki den grado)"
+
+#, fuzzy
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr "mantene balor di skal (por wordu huza oa luga di un blók di number)"
+
+#~ msgid "xcor of left of screen"
+#~ msgstr "xcor di e pantaya banda robes"
+
+#~ msgid "Reset block size"
+#~ msgstr "Reset e tamaño blòki"
+
+#~ msgid "turtle"
+#~ msgstr "Turtuga"
+
+#~ msgid "displays next palette"
+#~ msgstr "mustra siguiente palèt"
+
+#~ msgid "hide blocks"
+#~ msgstr "skonde blòkinan"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "logiko menos-ku adaptadó"
+
+#~ msgid "restore all blocks from trash"
+#~ msgstr "restourá tur e blòkinan for di trash bin"
+
+#~ msgid "Save"
+#~ msgstr "Warda"
+
+#~ msgid "store in box 1"
+#~ msgstr "warda den kaha 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "warda den kaha 2"
+
+#~ msgid "hides the Sugar toolbars"
+#~ msgstr "skonde e Sugar toolbars"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "mantené balor kordinado-x aktual di e turtuga (por wòrdú huza na luga di un "
+#~ "blòk di number)"
+
+#~ msgid "print"
+#~ msgstr "print"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Warda komo Logo"
+
+#, fuzzy
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "instala kóló di e linia dibuga ku e turtuga"
+
+#~ msgid "set text color"
+#~ msgstr "instala color di teksto"
+
+#~ msgid "number"
+#~ msgstr "number"
+
+#~ msgid "query keyboard"
+#~ msgstr "konsulta teklado"
+
+#~ msgid "top"
+#~ msgstr "tòp"
+
+#~ msgid "Cartesian coordinates"
+#~ msgstr "Kordinantenan Certesian"
+
+#~ msgid "set scale"
+#~ msgstr "instala skaal"
+
+#, fuzzy
+#~ msgid "white"
+#~ msgstr "tanten/mientras"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "konekta akshon na toolbar run buttons"
+
+#~ msgid "the canvas height"
+#~ msgstr "haltura di kèimas"
+
+#~ msgid "presentation 2x1"
+#~ msgstr "presentashon 2x1"
+
+#~ msgid "minus"
+#~ msgstr "menos/kita"
+
+#~ msgid "and"
+#~ msgstr "i"
+
+#~ msgid "top of a collapsible stack"
+#~ msgstr "tòp di e pila doblabel"
+
+#~ msgid "as input"
+#~ msgstr "komo entrada"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr ""
+#~ "mantene tamaño aktual di pen ( por wordu husa na luga di un kuadrá di "
+#~ "number)"
+
+#~ msgid "set color"
+#~ msgstr "instala kóló"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "karga mi blòki"
+
+#, fuzzy
+#~ msgid "Palette of pen commands"
+#~ msgstr "palèt di komandonan pa pèn"
+
+#, fuzzy
+#~ msgid "shows values in FILO (first-in last-out heap)"
+#~ msgstr ""
+#~ "pusha balor riba monton FILO (first-in last-out) (promé-aden delaster-afó)"
+
+#, fuzzy
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operador si-e ora ei- sinó ku ta usa operadornan boolean di e palèt di "
+#~ "númbernan"
+
+#~ msgid "File"
+#~ msgstr "File"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "logiko NO adaptadó"
+
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "ycor di fondo di pantaya"
+
+#~ msgid "presentation template: select Journal object (with description)"
+#~ msgstr "presentashon patronchi: selekta opheto Journal (ku déskriphon)"
+
+#, fuzzy
+#~ msgid "Palette of numeric operators"
+#~ msgstr "palèt operado pa number"
+
+#~ msgid "multiply"
+#~ msgstr "multipliká"
+
+#~ msgid "forever"
+#~ msgstr "pa semper"
+
+#, fuzzy
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "instala sombra di e linia dibuga ku e turtuga"
+
+#~ msgid "snapshot"
+#~ msgstr "portrèt/snapshot"
+
+#~ msgid "clean"
+#~ msgstr "Limpia"
+
+#~ msgid "presentation template: select two Journal objects"
+#~ msgstr "presentashon patronchi: selekta dos opheto Journal"
+
+#~ msgid "Grow blocks"
+#~ msgstr "Amplia blòkinan"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Pantaya kompleto"
+
+#~ msgid "show"
+#~ msgstr "Mustra"
+
+#~ msgid "text"
+#~ msgstr "teksto"
+
+#~ msgid "random"
+#~ msgstr "random"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "logiko mas grandi-ku adaptadó"
+
+#, fuzzy
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "bira e turtuga contrali di oloshi (huki den grado)"
+
+#, fuzzy
+#~ msgid "black"
+#~ msgstr "Bèk"
+
+#, fuzzy
+#~ msgid "calculates square root"
+#~ msgstr "kalkula raís kuadrá"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "mantené balor kordinado-y aktual di e turtuga (por wordu huza na luga di un "
+#~ "blòk di number)"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "tòp"
+
+#~ msgid "greater than"
+#~ msgstr "mas grandi ku"
+
+#~ msgid "xcor"
+#~ msgstr "xcor"
+
+#~ msgid "Help"
+#~ msgstr "Ousilio"
+
+#~ msgid "chooses which turtle to command"
+#~ msgstr "Skohe e turtuga ku bo ta bai komandá"
+
+#, fuzzy
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "instala kóló di e linia dibuga ku e turtuga"
+
+#~ msgid "keyboard"
+#~ msgstr "keyboard"
+
+#~ msgid "arc"
+#~ msgstr "arko/bog"
+
+#~ msgid "radius"
+#~ msgstr "radio"
+
+#~ msgid "Polar coordinates"
+#~ msgstr "Kordinantenan Polar"
+
+#~ msgid "set shade"
+#~ msgstr "instala sombra"
+
+#~ msgid "logical AND operator"
+#~ msgstr "logiko Y adaptadó"
+
+#~ msgid "Run"
+#~ msgstr "Run"
+
+#~ msgid "show heap"
+#~ msgstr "mustra monton"
+
+#, fuzzy
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "instalá e direkshon di e turtuga (0 ta tòp di e pantaya.)"
+
+#~ msgid "microphone input volume"
+#~ msgstr "entrada di volúmen di e mikrofón"
+
+#~ msgid "Title:"
+#~ msgstr "Título:"
+
+#, fuzzy
+#~ msgid "Restore blocks from trash"
+#~ msgstr "restourá tur e blòkinan for di trash bin"
+
+#, fuzzy
+#~ msgid "Palette of variable blocks"
+#~ msgstr "palèt pa kuadrá variabel"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "husa komo introdukshon mumériko den operadonan matemátiko"
+
+#~ msgid "presentation 2x2"
+#~ msgstr "presentashon 2x2"
+
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "Variabel 1 (balor numériko)"
+
+#, fuzzy
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "agrega dos introdukshon numériko"
+
+#~ msgid "equal"
+#~ msgstr "igual"
+
+#~ msgid "else"
+#~ msgstr "sinó"
+
+#~ msgid "doesn't like"
+#~ msgstr "no ta gusta"
+
+#~ msgid "restores hidden blocks"
+#~ msgstr "restourá e blòkinan skondé"
+
+#, fuzzy
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "turtuga no ta pinta si mové"
+
+#~ msgid "pop"
+#~ msgstr "pop"
+
+#~ msgid "pen size"
+#~ msgstr "tamánjo di pen"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "move turtuga kantu di un boog"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "logiko Igual-na adaptadó"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "palèt di pen di koló"
+
+#, fuzzy
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "warda balor numériko den variabel 1"
+
+#, fuzzy
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "warda balor numériko den variabel 2"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "move turtuga bai patras"
+
+#~ msgid "ycor of top of screen"
+#~ msgstr "ycor di e tòp di pantaya"
+
+#~ msgid "Show blocks"
+#~ msgstr "Mustra blòkkinan"
+
+#, fuzzy
+#~ msgid "save"
+#~ msgstr "Warda"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "kóló"
+
+#, fuzzy
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "instala tamaño di e liñaá pinta ku e morkoi"
+
+#~ msgid "Open"
+#~ msgstr "Habri"
+
+#~ msgid "orientation"
+#~ msgstr "orientashon"
+
+#~ msgid "ycor"
+#~ msgstr "ycor"
+
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sqrt(x*x+y*y)"
+#~ msgstr ""
+#~ "un blòki programabel: usá pa agregá multi-variable matemátika, por ehèmpel, "
+#~ "sin(x)sqrt(x*x+y*y)"
+
+#~ msgid "if"
+#~ msgstr "si"
+
+#, fuzzy
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr ""
+#~ "move turtuga na posishon xcor, ycor; (0, 0) ta den e centro di e pantaya."
+
+#~ msgid "Python"
+#~ msgstr "Pitòn"
+
+#~ msgid "Stop"
+#~ msgstr "Stòp"
+
+#~ msgid "action 2"
+#~ msgstr "akshon 2"
+
+#~ msgid "action 1"
+#~ msgstr "akshon 1"
+
+#~ msgid "Copy"
+#~ msgstr "Kopia"
+
+#~ msgid "Paste"
+#~ msgstr "Pega"
+
+#~ msgid "did not output to"
+#~ msgstr "no ta transferí na"
+
+#~ msgid "empty heap"
+#~ msgstr "monton bashi"
+
+#, fuzzy
+#~ msgid "pops value off FILO (first-in last-out heap)"
+#~ msgstr ""
+#~ "pusha balor riba monton FILO (first-in last-out) (promé-aden delaster-afó)"
+
+#~ msgid "Clean"
+#~ msgstr "Limpia"
+
+#, fuzzy
+#~ msgid "Palette of presentation templates"
+#~ msgstr "palèt pa presentashon di patronchi"
+
+#~ msgid "angle"
+#~ msgstr "huki"
+
+#~ msgid "audio"
+#~ msgstr "oudio"
+
+#~ msgid "Tools"
+#~ msgstr "Instrumentonan"
+
+#~ msgid "left"
+#~ msgstr "robes"
+
+#~ msgid "comment"
+#~ msgstr "komentario"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "déskonta introdukshon mumériko abou for di introdukshon mumériko ariba"
+
+#~ msgid "query for keyboard input (results stored in keyboard block)"
+#~ msgstr ""
+#~ "signo di enterogashon pa introdukshon di keyboard (resultado warda den blóki "
+#~ "keyboard)"
+
+#~ msgid "Cartesian"
+#~ msgstr "Cartesian"
+
+#~ msgid "voltage"
+#~ msgstr "vòltahe"
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "limpia e pantaya y start e turtuga di nobo"
+
+#, fuzzy
+#~ msgid "invokes Action 1 stack"
+#~ msgstr "apelá akshon 1 stack"
+
+#, fuzzy
+#~ msgid "Palette of turtle commands"
+#~ msgstr "palèt di komandonan pa tortuga"
+
+#, fuzzy
+#~ msgid "loops forever"
+#~ msgstr "las pas semper"
+
+#~ msgid "show aligned"
+#~ msgstr "mustra aliniá"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Arte di turtuga"
+
+#~ msgid "Project"
+#~ msgstr "Projecto"
+
+#~ msgid "Debug"
+#~ msgstr "Debug"
+
+#~ msgid "vertical space"
+#~ msgstr "espasio vertikal"
+
+#~ msgid "less than"
+#~ msgstr "menos ku"
+
+#~ msgid "square root"
+#~ msgstr "vierkantswortel"
+
+#~ msgid "Rescale coordinates"
+#~ msgstr "Adaptá skala di kordinantenan"
+
+#~ msgid "show blocks"
+#~ msgstr "Mustra blòkinan"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "Deskripshon di fèlt Sugar Journal"
+
+#~ msgid "presentation bulleted list"
+#~ msgstr "lista ku puntonan di presentashon"
+
+#~ msgid "places a comment in your code"
+#~ msgstr "pone un komentario na bo kodíko"
+
+#~ msgid "scale"
+#~ msgstr "skaal"
+
+#~ msgid "bottom"
+#~ msgstr "abou"
+
+#~ msgid "purple"
+#~ msgstr "lila"
+
+#~ msgid "Rescale coordinates down"
+#~ msgstr "Baha e skala di kordinantenan"
+
+#~ msgid "click to open"
+#~ msgstr "Klek pa habri"
+
+#~ msgid "microphone input pitch"
+#~ msgstr "entrada di mikrofón pa altura di tono"
+
+#~ msgid "journal"
+#~ msgstr "diaro"
+
+#~ msgid "empty trash"
+#~ msgstr "Kita e restantenan"
+
+#, fuzzy
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "turtuga ta pinta si mové"
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "Objecto oudio Sugar Journal"
+
+#~ msgid "Stop turtle"
+#~ msgstr "Stòp turtuga"
+
+#~ msgid "Turtle"
+#~ msgstr "Turtuga"
+
+#~ msgid "changes the orientation of the palette of blocks"
+#~ msgstr "kambia e orientashon di e palèt di blòkinan"
+
+#~ msgid "store in"
+#~ msgstr "waarda den"
+
+#~ msgid "Hide blocks"
+#~ msgstr "Skonde blóks"
+
+#~ msgid "plus"
+#~ msgstr "mas"
+
+#~ msgid "or"
+#~ msgstr "òf"
+
+#, fuzzy
+#~ msgid "presentation template: list of bullets"
+#~ msgstr "presentashon patronchi: shete bala di skopèt"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "identidat operadonan husa pa ekspanshon di kuadrá"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "Redusí blòkinan"
+
+#, fuzzy
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "instala midí di e linia dibuga ku e turtuga"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr ""
+#~ "mantené balor direkshon aktual di e turtuga (por wordu huza na luga di un "
+#~ "blók di number)"
+
+#~ msgid "image"
+#~ msgstr "imágen"
+
+#, fuzzy
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr ""
+#~ "returna kale number entre minimo (banda robes) i maksimo (banda drechi) "
+#~ "balor"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr ""
+#~ "mantene kóló aktual di pen ( por wordu husa na luga di un kuadrá di number)"
+
+#~ msgid "Show palette"
+#~ msgstr "Mustra palèt"
+
+#~ msgid "saves a picture to the Sugar Journal"
+#~ msgstr "warda e imágen na e diario di Sugar"
+
+#~ msgid "Save snapshot"
+#~ msgstr "Warda portrèt"
+
+#~ msgid "start"
+#~ msgstr "start"
+
+#, fuzzy
+#~ msgid "moves turtle forward"
+#~ msgstr "move turtuga pa dilanti"
+
+#~ msgid "forward"
+#~ msgstr "Dilanti"
+
+#~ msgid "my box"
+#~ msgstr "mi vak"
+
+#~ msgid "back"
+#~ msgstr "Bèk"
+
+#, fuzzy
+#~ msgid "sets the scale of media"
+#~ msgstr "instala e skal di media"
+
+#~ msgid "holds current scale value"
+#~ msgstr "mantene e balor di e skala aktual"
+
+#~ msgid "presentation 1x1"
+#~ msgstr "presentashon 1x1"
+
+#~ msgid "presentation 1x2"
+#~ msgstr "presentashon 1x2"
+
+#~ msgid "top of nameable action stack"
+#~ msgstr "tòp eligibel di akshon stack"
+
+#, fuzzy
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "warda balor numériko den nomber variabel"
+
+#~ msgid "logical OR operator"
+#~ msgstr "logiko OF adaptadó"
+
+#, fuzzy
+#~ msgid "microphone input voltage"
+#~ msgstr "entrada di volúmen di e mikrofón"
+
+#, fuzzy
+#~ msgid "loops specified number of times"
+#~ msgstr "las spesifika barios bes"
+
+#, fuzzy
+#~ msgid "invokes Action 2 stack"
+#~ msgstr "apelá akshon 2 stack"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "instala xy"
+
+#~ msgid "title y"
+#~ msgstr "título y"
+
+#~ msgid "title x"
+#~ msgstr "título x"
+
+#~ msgid "fill screen"
+#~ msgstr "Jena pantaja"
+
+#~ msgid "set xy"
+#~ msgstr "instala xy"
+
+#~ msgid "polar"
+#~ msgstr "polar"
+
+#~ msgid "repeat"
+#~ msgstr "ripití"
+
+#~ msgid "Save as image"
+#~ msgstr "Warda komo imagen"
+
+#~ msgid "Edit"
+#~ msgstr "Edita"
+
+#, fuzzy
+#~ msgid "top of Action 2 stack"
+#~ msgstr "tòp di akshon 2 stack"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr ""
+#~ "parti tòp introdukshon numériko (tèler) den bòm introdukshon numériko "
+#~ "(denominadó)"
+
+#~ msgid "max"
+#~ msgstr "max"
+
+#~ msgid "prints value in status block at bottom of the screen"
+#~ msgstr "print balor den blóki státus den fondo di e pantaya"
+
+#, fuzzy
+#~ msgid "holds results of query-keyboard block as ASCII"
+#~ msgstr "mantene resultado di signo di blóki enterogashon-keyboard"
+
+#~ msgid "push"
+#~ msgstr "Primi"
+
+#, fuzzy
+#~ msgid ""
+#~ "a programmable block: used to add advanced multi-variable math equations, e."
+#~ "g., sin(x+y+z)"
+#~ msgstr ""
+#~ "un blòki programabel: usá pa agregá multi-variable matemátika, por ehèmpel, "
+#~ "sin(x+y+z)"
+
+#~ msgid "restore all"
+#~ msgstr "restourá tur"

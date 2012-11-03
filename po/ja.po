@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -1458,3 +1458,384 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Sugar Journal media object"
+#~ msgstr "Sugarのジャーナル中のメディアオブジェクト"
+
+#~ msgid "Step"
+#~ msgstr "ステップ実行"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "２つの入力数値を掛け算します"
+
+#~ msgid "Hide palette"
+#~ msgstr "パレットを非表示にする"
+
+#, fuzzy
+#~ msgid "Sugar Journal video object"
+#~ msgstr "Sugarのジャーナル中の音声"
+
+#~ msgid "xcor of right of screen"
+#~ msgstr "画面右端のx座標値"
+
+#, fuzzy
+#~ msgid "Palette of extra options"
+#~ msgstr "追加オプションのパレット"
+
+#, fuzzy
+#~ msgid "draws text or show media from the Journal"
+#~ msgstr "テキストを描画するか、ジャーナルからメディアオブジェクトを表示する"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "剰余演算子"
+
+#, fuzzy
+#~ msgid "Variable 2 (numeric value)"
+#~ msgstr "変数2 (数値)"
+
+#~ msgid "the canvas width"
+#~ msgstr "キャンバスの幅"
+
+#~ msgid "named variable (numeric value)"
+#~ msgstr "名前つき変数（数値）"
+
+#~ msgid "presentation template: select Journal object (no description)"
+#~ msgstr "プレゼンテーションテンプレート: ジャーナルのオブジェクトを選ぶ（説明なし）"
+
+#, fuzzy
+#~ msgid "Palette of flow operators"
+#~ msgstr "処理の流れを制御するブロックのパレット"
+
+#, fuzzy
+#~ msgid "declutters canvas by hiding blocks"
+#~ msgstr "ブロックを隠してキャンバスをすっきりさせます"
+
+#~ msgid "string value"
+#~ msgstr "文字列値"
+
+#~ msgid "presentation template: select four Journal objects"
+#~ msgstr "プレゼンテーションテンプレート: ジャーナルのオブジェクトを４つ選ぶ"
+
+#, fuzzy
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "タートルが描画する線の影を設定します"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "背景を（色、影）で塗りつぶします"
+
+#, fuzzy
+#~ msgid "pushes value onto FILO (first-in last-out heap)"
+#~ msgstr "FILO（先入れ後だし）のヒープに値を入れる"
+
+#, fuzzy
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "タートルを時計周りに回す（度単位）"
+
+#, fuzzy
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr "現在の表示倍率の値を保持します（数値ブロックの代わりに使えます）"
+
+#~ msgid "xcor of left of screen"
+#~ msgstr "画面左端のx座標値"
+
+#, fuzzy
+#~ msgid "hide blocks"
+#~ msgstr "ブロックを非表示にする"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "「小なり」の比較演算子"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr "現在のタートルのx座標の値を保持します (数値ブロックの代わりに使えます）"
+
+#~ msgid "Save as Logo"
+#~ msgstr "LOGOプログラムとして保存"
+
+#, fuzzy
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "タートルが描画する線の色を設定します"
+
+#, fuzzy
+#~ msgid "top"
+#~ msgstr "ステップ実行"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "アクションをツールバーの実行ボタンに結びつける"
+
+#~ msgid "the canvas height"
+#~ msgstr "キャンバスの高さ"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr "現在のペンの大きさを保持します（数値ブロックの代わりに使えます）"
+
+#, fuzzy
+#~ msgid "loads a block"
+#~ msgstr "私のブロックを読み込む"
+
+#, fuzzy
+#~ msgid "Palette of pen commands"
+#~ msgstr "ペンについての命令のパレット"
+
+#, fuzzy
+#~ msgid "shows values in FILO (first-in last-out heap)"
+#~ msgstr "FILO（先入れ後だし）のヒープに値を入れる"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "論理否定演算子"
+
+#~ msgid "ycor of bottom of screen"
+#~ msgstr "画面下端のy座標値"
+
+#~ msgid "presentation template: select Journal object (with description)"
+#~ msgstr "プレゼンテーションテンプレート: ジャーナルオブジェクトを選ぶ（説明つき）"
+
+#, fuzzy
+#~ msgid "Palette of numeric operators"
+#~ msgstr "数値演算子のパレット"
+
+#, fuzzy
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "タートルが描画する線の影を設定します"
+
+#~ msgid "clean"
+#~ msgstr "消去"
+
+#~ msgid "presentation template: select two Journal objects"
+#~ msgstr "プレゼンテーションテンプレート: ジャーナルのオブジェクトを2つ選ぶ"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "ブロックを表示"
+
+#~ msgid "Fullscreen"
+#~ msgstr "全画面"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "「大なり」の比較演算子"
+
+#, fuzzy
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr "タートルを反時計周りに回す（度単位）"
+
+#, fuzzy
+#~ msgid "calculates square root"
+#~ msgstr "平方根を計算します"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr "現在のタートルのy座標の値を保持します（数値ブロックの代わりに使えます）"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "ステップ実行"
+
+#~ msgid "Help"
+#~ msgstr "ヘルプ"
+
+#, fuzzy
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "タートルが描画する文字の色を設定します"
+
+#~ msgid "logical AND operator"
+#~ msgstr "論理積演算子"
+
+#~ msgid "Run"
+#~ msgstr "実行"
+
+#, fuzzy
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "タートルの頭の向きを設定する（0は画面の上方向）"
+
+#, fuzzy
+#~ msgid "Palette of variable blocks"
+#~ msgstr "変数ブロックのパレット"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "数値の入力に使います"
+
+#, fuzzy
+#~ msgid "Variable 1 (numeric value)"
+#~ msgstr "変数1 (数値)"
+
+#, fuzzy
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "２つの入力数値を足し算します"
+
+#, fuzzy
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "タートルが動いても描画されません"
+
+#, fuzzy
+#~ msgid "moves turtle along an arc"
+#~ msgstr "円弧に沿ってタートルを動かす"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "「等しい」の比較演算子"
+
+#, fuzzy
+#~ msgid "Palette of pen colors"
+#~ msgstr "ペンについての命令のパレット"
+
+#, fuzzy
+#~ msgid "stores numeric value in Variable 1"
+#~ msgstr "変数1に数値を格納する"
+
+#, fuzzy
+#~ msgid "stores numeric value in Variable 2"
+#~ msgstr "変数2に数値を格納する"
+
+#, fuzzy
+#~ msgid "moves turtle backward"
+#~ msgstr "タートルを後ろに進める"
+
+#~ msgid "ycor of top of screen"
+#~ msgstr "画面上端のy座標値"
+
+#~ msgid "Show blocks"
+#~ msgstr "ブロックを表示"
+
+#, fuzzy
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "タートルによって描かれる線のサイズを設定します"
+
+#, fuzzy
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr "タートルをx,y座標の場所に移動する; (0, 0)が画面の中心です"
+
+#, fuzzy
+#~ msgid "Stop"
+#~ msgstr "ステップ実行"
+
+#~ msgid "Copy"
+#~ msgstr "コピー"
+
+#~ msgid "Paste"
+#~ msgstr "貼り付け"
+
+#, fuzzy
+#~ msgid "pops value off FILO (first-in last-out heap)"
+#~ msgstr "FILO（先入れ後だし）のヒープに値を入れる"
+
+#~ msgid "Clean"
+#~ msgstr "消去"
+
+#, fuzzy
+#~ msgid "Palette of presentation templates"
+#~ msgstr "プレゼンテーションテンプレートのパレット"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "上側の入力数値から下側の入力数値を引き算します"
+
+#~ msgid "query for keyboard input (results stored in keyboard block)"
+#~ msgstr "キー入力を問い合わせます（結果はキーボードブロックに格納されます）"
+
+#, fuzzy
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "画面を消去してタートルをリセットする"
+
+#, fuzzy
+#~ msgid "Palette of turtle commands"
+#~ msgstr "タートルについての命令のパレット"
+
+#, fuzzy
+#~ msgid "loops forever"
+#~ msgstr "無限ループ"
+
+#~ msgid "Turtle Art"
+#~ msgstr "タートルアート"
+
+#~ msgid "Project"
+#~ msgstr "プロジェクト"
+
+#~ msgid "Debug"
+#~ msgstr "デバッグ"
+
+#, fuzzy
+#~ msgid "show blocks"
+#~ msgstr "ブロックを表示"
+
+#~ msgid "Sugar Journal description field"
+#~ msgstr "Sugarのジャーナルの説明フィールド"
+
+#, fuzzy
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "タートルが動くと描画されます"
+
+#~ msgid "Sugar Journal audio object"
+#~ msgstr "Sugarのジャーナル中の音声"
+
+#~ msgid "Stop turtle"
+#~ msgstr "タートルを停止"
+
+#~ msgid "Hide blocks"
+#~ msgstr "ブロックを非表示にする"
+
+#, fuzzy
+#~ msgid "presentation template: list of bullets"
+#~ msgstr "プレゼンテーションテンプレート: 7個の箇条書き"
+
+#, fuzzy
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "タートルが描画する文字のサイズを設定します"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr "現在のタートルの向きを保持します（数値ブロックの代わりに使えます）"
+
+#, fuzzy
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr "最小値(左）と最大値（右）の間の乱数を返します"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr "現在のペンの色を保持します（数値ブロックの代わりに使えます）"
+
+#~ msgid "Show palette"
+#~ msgstr "パレットを表示"
+
+#~ msgid "Save snapshot"
+#~ msgstr "スナップショットを保存"
+
+#, fuzzy
+#~ msgid "moves turtle forward"
+#~ msgstr "タートルを前に進める"
+
+#, fuzzy
+#~ msgid "sets the scale of media"
+#~ msgstr "メディアの表示倍率を指定する"
+
+#, fuzzy
+#~ msgid "stores numeric value in named variable"
+#~ msgstr "名前つき変数に数値を格納する"
+
+#~ msgid "logical OR operator"
+#~ msgstr "論理和演算子"
+
+#, fuzzy
+#~ msgid "loops specified number of times"
+#~ msgstr "指定回数のループ"
+
+#, fuzzy
+#~ msgid "fill screen"
+#~ msgstr "全画面"
+
+#~ msgid "Save as image"
+#~ msgstr "画像として保存"
+
+#~ msgid "Edit"
+#~ msgstr "編集"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr "上側の入力数値を下側の入力数値で割ります"
+
+#~ msgid "prints value in status block at bottom of the screen"
+#~ msgstr "画面下部の状態ブロックに値を表示します"
+
+#, fuzzy
+#~ msgid "holds results of query-keyboard block as ASCII"
+#~ msgstr "query-kb（キー入力問い合わせ）ブロックの結果を保持します"

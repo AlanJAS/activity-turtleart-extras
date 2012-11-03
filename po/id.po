@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +725,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "identitas"
 
 #: taextras.py:267
 msgid ""
@@ -854,19 +855,21 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "warna"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "kanan"
 
 #: taextras.py:319
 msgid "sound"
 msgstr ""
 
 #: taextras.py:320
+#, fuzzy
 msgid "grey"
-msgstr ""
+msgstr "kelabu"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
@@ -1059,8 +1062,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "merah"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1218,8 +1222,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "mod"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1458,3 +1463,424 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "judul"
+
+#~ msgid "yellow"
+#~ msgstr "kuning"
+
+#~ msgid "if-then operator that uses boolean operators from Numbers palette"
+#~ msgstr "operator if-then yang menggunakan operator boolean dari palet Angka"
+
+#~ msgid "multiplies two numeric inputs"
+#~ msgstr "mengalikan dua masukan numerik"
+
+#~ msgid "cyan"
+#~ msgstr "cyan"
+
+#~ msgid "heading"
+#~ msgstr "arah"
+
+#~ msgid "blue"
+#~ msgstr "biru"
+
+#~ msgid "modular (remainder) operator"
+#~ msgstr "operator modulus (sisa)"
+
+#~ msgid "pen down"
+#~ msgstr "pena nyala"
+
+#~ msgid "wait"
+#~ msgstr "tunggu"
+
+#~ msgid "action"
+#~ msgstr "aksi"
+
+#, fuzzy
+#~ msgid "do-until-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operator if-then-else yang menggunakan operator boolean dari palet Angka"
+
+#~ msgid "divide"
+#~ msgstr "bagi"
+
+#, fuzzy
+#~ msgid "while"
+#~ msgstr "putih"
+
+#, fuzzy
+#~ msgid "next"
+#~ msgstr "teks"
+
+#~ msgid "if then"
+#~ msgstr "jika maka"
+
+#~ msgid "set pen size"
+#~ msgstr "atur ukuran pena"
+
+#~ msgid "Palette of flow operators"
+#~ msgstr "Palet operator-operator aliran"
+
+#~ msgid "if-then-else operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operator if-then-else yang menggunakan operator boolean dari palet Angka"
+
+#~ msgid "holds current pen shade"
+#~ msgstr "memuat gradasi pena kini"
+
+#~ msgid "set heading"
+#~ msgstr "atur arah"
+
+#~ msgid "horizontal space"
+#~ msgstr "spasi horizontal"
+
+#~ msgid "string value"
+#~ msgstr "nilai string"
+
+#~ msgid "set text size"
+#~ msgstr "atur ukuran teks"
+
+#~ msgid "starts filled polygon (used with end fill block)"
+#~ msgstr "memulai poligon terisi (dipakai dengan blok isi akhir)"
+
+#~ msgid "sets gray level of the line drawn by the turtle"
+#~ msgstr "mengatur level kelabu dari garis yang digambar oleh kura-kura"
+
+#~ msgid "stop action"
+#~ msgstr "hentikan aksi"
+
+#~ msgid "green"
+#~ msgstr "hijau"
+
+#~ msgid "shade"
+#~ msgstr "gradasi"
+
+#~ msgid "fills the background with (color, shade)"
+#~ msgstr "penuhi latar belakang dengan (warna, gradasi)"
+
+#~ msgid "pen up"
+#~ msgstr "pena mati"
+
+#~ msgid "orange"
+#~ msgstr "oranye"
+
+#~ msgid "pauses program execution a specified number of seconds"
+#~ msgstr "mengistirahatkan eksekusi program selama sekian detik yang dinyatakan"
+
+#~ msgid "then"
+#~ msgstr "maka"
+
+#~ msgid "not"
+#~ msgstr "bukan"
+
+#~ msgid "stops current action"
+#~ msgstr "hentikan aksi kini"
+
+#~ msgid "turns turtle clockwise (angle in degrees)"
+#~ msgstr "membelokkan kura-kura searah dengan jarum jam (sudut dalam derajat)"
+
+#~ msgid "holds current gray level (can be used in place of a number block)"
+#~ msgstr "memuat level kelabu kini (dapat dipakai sebagai pengganti blok angka)"
+
+#~ msgid "logical less-than operator"
+#~ msgstr "operator logika kurang-dari"
+
+#~ msgid ""
+#~ "holds current x-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "menyimpan nilai koordinat x kura-kura saat ini (dapat dipakai menggantikan "
+#~ "blok angka)"
+
+#~ msgid "sets color of the line drawn by the turtle"
+#~ msgstr "mengatur warna dari garis yang digambar oleh kura-kura"
+
+#~ msgid "set text color"
+#~ msgstr "atur warna teks"
+
+#~ msgid "number"
+#~ msgstr "nomor"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "atur gradasi"
+
+#~ msgid "white"
+#~ msgstr "putih"
+
+#~ msgid "connects action to toolbar run buttons"
+#~ msgstr "sambungkan aksi dengan tombol-tombol run di toolbar"
+
+#~ msgid "minus"
+#~ msgstr "minus"
+
+#~ msgid "and"
+#~ msgstr "dan"
+
+#~ msgid "holds current pen size (can be used in place of a number block)"
+#~ msgstr "memuat ukuran pena kini (dapat dipakai menggantikan blok angka)"
+
+#~ msgid "set color"
+#~ msgstr "atur warna"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#~ msgid "Palette of pen commands"
+#~ msgstr "Palet perintah pena"
+
+#, fuzzy
+#~ msgid "do-while-True operator that uses boolean operators from Numbers palette"
+#~ msgstr ""
+#~ "operator if-then-else yang menggunakan operator boolean dari palet Angka"
+
+#~ msgid "logical NOT operator"
+#~ msgstr "operator logika NOT"
+
+#~ msgid "Palette of numeric operators"
+#~ msgstr "Palet operator numerik"
+
+#~ msgid "multiply"
+#~ msgstr "kali"
+
+#~ msgid "forever"
+#~ msgstr "selamanya"
+
+#~ msgid "sets shade of the line drawn by the turtle"
+#~ msgstr "mengatur gradasi dari garis yang digambar oleh kura-kura"
+
+#~ msgid "clean"
+#~ msgstr "bersihkan"
+
+#~ msgid "text"
+#~ msgstr "teks"
+
+#~ msgid "random"
+#~ msgstr "acak"
+
+#~ msgid "logical greater-than operator"
+#~ msgstr "operator logika lebih-dari"
+
+#~ msgid "turns turtle counterclockwise (angle in degrees)"
+#~ msgstr ""
+#~ "membelokkan kura-kura berlawanan arah dengan jarum jam (sudut dalam derajat)"
+
+#~ msgid "black"
+#~ msgstr "hitam"
+
+#~ msgid "calculates square root"
+#~ msgstr "menghitung akar kuadrat"
+
+#~ msgid ""
+#~ "holds current y-coordinate value of the turtle (can be used in place of a "
+#~ "number block)"
+#~ msgstr ""
+#~ "menyimpan nilai koordinat y kura-kura saat ini (dapat dipakai menggantikan "
+#~ "blok angka)"
+
+#~ msgid "greater than"
+#~ msgstr "lebih dari"
+
+#~ msgid "xcor"
+#~ msgstr "xcor"
+
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "mengatur warna teks yang digambar oleh kura-kura"
+
+#~ msgid "arc"
+#~ msgstr "lengkung"
+
+#~ msgid "radius"
+#~ msgstr "jari-jari"
+
+#~ msgid "set shade"
+#~ msgstr "atur gradasi"
+
+#~ msgid "logical AND operator"
+#~ msgstr "operator logika AND"
+
+#~ msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+#~ msgstr "mengatur arah gerak kura-kura (0 mengarah ke puncak layar.)"
+
+#~ msgid "Title:"
+#~ msgstr "Judul:"
+
+#~ msgid "Palette of variable blocks"
+#~ msgstr "Palet dari blok variabel"
+
+#~ msgid "used as numeric input in mathematic operators"
+#~ msgstr "dipakai sebagai masukan numerik dalam operator matematis"
+
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "menambahkan dua masukan alfanumerik"
+
+#~ msgid "equal"
+#~ msgstr "sama dengan"
+
+#~ msgid "Turtle will not draw when moved."
+#~ msgstr "Kura-kura tak akan menggambar ketika dipindah."
+
+#~ msgid "pen size"
+#~ msgstr "ukuran pena"
+
+#~ msgid "√"
+#~ msgstr "√"
+
+#~ msgid "moves turtle along an arc"
+#~ msgstr "memindahkan kura-kura mengikuti lengkungan"
+
+#~ msgid "logical equal-to operator"
+#~ msgstr "operator logika sama-dengan"
+
+#~ msgid "Palette of pen colors"
+#~ msgstr "Palet warna pena"
+
+#~ msgid "moves turtle backward"
+#~ msgstr "menggerakkan kura-kura mundur"
+
+#~ msgid "sets size of the line drawn by the turtle"
+#~ msgstr "mengatur ukuran garis yang digambar oleh kura-kura"
+
+#~ msgid "ycor"
+#~ msgstr "ycor"
+
+#~ msgid "if"
+#~ msgstr "jika"
+
+#~ msgid ""
+#~ "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+#~ msgstr "memindahkan kura-kura ke posisi xcor, ycor; (0, 0) ada di pusat layar."
+
+#, fuzzy
+#~ msgid "action 2"
+#~ msgstr "aksi"
+
+#, fuzzy
+#~ msgid "action 1"
+#~ msgstr "aksi"
+
+#~ msgid "end fill"
+#~ msgstr "akhir memenuhi"
+
+#~ msgid "Copy"
+#~ msgstr "Salin"
+
+#, fuzzy
+#~ msgid "Clean"
+#~ msgstr "bersihkan"
+
+#~ msgid "angle"
+#~ msgstr "sudut"
+
+#~ msgid "left"
+#~ msgstr "kiri"
+
+#~ msgid "subtracts bottom numeric input from top numeric input"
+#~ msgstr "mengurangkan masukan numerik bawah dari masukan numerik atas"
+
+#~ msgid "clears the screen and reset the turtle"
+#~ msgstr "membersihkan layar dan mereset kura-kura"
+
+#~ msgid "Palette of turtle commands"
+#~ msgstr "Palet perintah kura-kura"
+
+#~ msgid "loops forever"
+#~ msgstr "pengulangan selamanya"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Seni Kura-kura"
+
+#~ msgid "vertical space"
+#~ msgstr "spasi vertikal"
+
+#~ msgid "completes filled polygon (used with start fill block)"
+#~ msgstr "melengkapi poligon terisi (dipakai dengan blok isi awal)"
+
+#~ msgid "less than"
+#~ msgstr "kurang dari"
+
+#~ msgid "square root"
+#~ msgstr "akar kuadrat"
+
+#~ msgid "set gray"
+#~ msgstr "atur kelabu"
+
+#~ msgid "purple"
+#~ msgstr "ungu"
+
+#~ msgid "Turtle will draw when moved."
+#~ msgstr "Kura-kura akan menggambar ketika dipindah."
+
+#~ msgid "plus"
+#~ msgstr "plus"
+
+#~ msgid "or"
+#~ msgstr "atau"
+
+#~ msgid "identity operator used for extending blocks"
+#~ msgstr "operator identitas dipakai untuk memperluas blok"
+
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "mengatur ukuran teks yang digambar oleh kura-kura"
+
+#~ msgid ""
+#~ "holds current heading value of the turtle (can be used in place of a number "
+#~ "block)"
+#~ msgstr ""
+#~ "menyimpan nilai arah gerak kura-kura saat ini (dapat dipakai menggantikan "
+#~ "blok angka)"
+
+#~ msgid "returns random number between minimum (top) and maximum (bottom) values"
+#~ msgstr ""
+#~ "mengembalikan bilangan acak antara nilai minimum (atas) dan maksimum (bawah)"
+
+#~ msgid "holds current pen color (can be used in place of a number block)"
+#~ msgstr "memuat warna pena kini (dapat dipakai sebagai pengganti blok angka)"
+
+#~ msgid "start"
+#~ msgstr "mulai"
+
+#~ msgid "moves turtle forward"
+#~ msgstr "menggerakkan kura-kura maju"
+
+#~ msgid "forward"
+#~ msgstr "maju"
+
+#~ msgid "back"
+#~ msgstr "mundur"
+
+#~ msgid "logical OR operator"
+#~ msgstr "operator logika OR"
+
+#~ msgid "loops specified number of times"
+#~ msgstr "mengulang sejumlah yang dinyatakan"
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "atur xy"
+
+#~ msgid "fill screen"
+#~ msgstr "penuhi layar"
+
+#~ msgid "set xy"
+#~ msgstr "atur xy"
+
+#~ msgid "repeat"
+#~ msgstr "ulangi"
+
+#~ msgid "Edit"
+#~ msgstr "Sunting"
+
+#~ msgid ""
+#~ "divides top numeric input (numerator) by bottom numeric input (denominator)"
+#~ msgstr ""
+#~ "membagi masukan numerik atas (numerator) dengan masukan numerik bawah "
+#~ "(denominator)"
+
+#~ msgid "max"
+#~ msgstr "maks"
+
+#~ msgid "start fill"
+#~ msgstr "mulai memenuhi"

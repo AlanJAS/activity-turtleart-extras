@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -136,11 +136,11 @@ msgstr ""
 
 #: taextras.py:81
 msgid "temperature"
-msgstr ""
+msgstr "температур"
 
 #: taextras.py:82 taextras.py:291
 msgid "distance"
-msgstr ""
+msgstr "хоорондын зай"
 
 #: taextras.py:83 taextras.py:288
 msgid "tilt"
@@ -156,7 +156,7 @@ msgstr ""
 
 #: taextras.py:86
 msgid "resistance"
-msgstr ""
+msgstr "эсэргүүцэл"
 
 #: taextras.py:87
 msgid "Butia Robot"
@@ -628,7 +628,7 @@ msgstr ""
 
 #: taextras.py:238 taextras.py:244
 msgid "height"
-msgstr ""
+msgstr "өндөр"
 
 #: taextras.py:239
 msgid "Add a triangle object to the project."
@@ -648,7 +648,7 @@ msgstr ""
 
 #: taextras.py:243
 msgid "width"
-msgstr ""
+msgstr "өргөн"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -854,19 +854,21 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "ѳнгѳ"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "баруун"
 
 #: taextras.py:319
 msgid "sound"
-msgstr ""
+msgstr "дуу чимээ"
 
 #: taextras.py:320
+#, fuzzy
 msgid "grey"
-msgstr ""
+msgstr "саарал"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
@@ -948,7 +950,7 @@ msgstr ""
 
 #: taextras.py:340
 msgid "time"
-msgstr ""
+msgstr "цаг"
 
 #: taextras.py:341
 msgid "Play a tone at frequency for time."
@@ -962,8 +964,9 @@ msgid ""
 msgstr ""
 
 #: taextras.py:344
+#, fuzzy
 msgid "port"
-msgstr ""
+msgstr "Порт"
 
 #: taextras.py:345
 msgid "power"
@@ -1059,8 +1062,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "улаан"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1218,8 +1222,9 @@ msgid "pin mode"
 msgstr ""
 
 #: taextras.py:418
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "үлдэгдэл"
 
 #: taextras.py:419
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
@@ -1231,7 +1236,7 @@ msgstr ""
 
 #: taextras.py:421
 msgid "value"
-msgstr ""
+msgstr "утга"
 
 #: taextras.py:422
 msgid "Write analog value in specified port."
@@ -1458,3 +1463,446 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "Гарчиг"
+
+#~ msgid "yellow"
+#~ msgstr "шар"
+
+#~ msgid "box 2"
+#~ msgstr "богц 2"
+
+#~ msgid "box 1"
+#~ msgstr "богц 1"
+
+#~ msgid "Step"
+#~ msgstr "Алхам"
+
+#~ msgid "Hide palette"
+#~ msgstr "Хавтан нуу"
+
+#~ msgid "cyan"
+#~ msgstr "хөх ногоон"
+
+#~ msgid "Load example"
+#~ msgstr "Жишээ ачаалах"
+
+#~ msgid "list"
+#~ msgstr "жагсаалт"
+
+#~ msgid "heading"
+#~ msgstr "чиг"
+
+#~ msgid "video"
+#~ msgstr "видео"
+
+#~ msgid "blue"
+#~ msgstr "хөх"
+
+#~ msgid "pen down"
+#~ msgstr "зур"
+
+#~ msgid "wait"
+#~ msgstr "хүлээ"
+
+#~ msgid "box"
+#~ msgstr "богц"
+
+#~ msgid "action"
+#~ msgstr "үйлдэл"
+
+#~ msgid "divide"
+#~ msgstr "хуваах"
+
+#~ msgid "picture name"
+#~ msgstr "зураг нэр"
+
+#, fuzzy
+#~ msgid "while"
+#~ msgstr "цагаан"
+
+#~ msgid "next"
+#~ msgstr "дараах"
+
+#~ msgid "set pen size"
+#~ msgstr "үзэгний хэмжээ өг"
+
+#~ msgid "set heading"
+#~ msgstr "чиглэл"
+
+#~ msgid "description"
+#~ msgstr "тайлбар"
+
+#~ msgid "set text size"
+#~ msgstr "үгсэнд хэмжээ өг"
+
+#~ msgid "Username:"
+#~ msgstr "Хэрэглэгчийн нэр:"
+
+#~ msgid "View"
+#~ msgstr "Харах"
+
+#~ msgid "Password:"
+#~ msgstr "Нууц үг:"
+
+#~ msgid "green"
+#~ msgstr "ногоон"
+
+#~ msgid "shade"
+#~ msgstr "сүүдэр"
+
+#~ msgid "save picture"
+#~ msgstr "зураг хадгалах"
+
+#~ msgid "pitch"
+#~ msgstr "өндөр"
+
+#~ msgid "pen up"
+#~ msgstr "бүү зур"
+
+#~ msgid "orange"
+#~ msgstr "улбар шар"
+
+#~ msgid "clear all"
+#~ msgstr "бүгдийг арилгах"
+
+#~ msgid "then"
+#~ msgstr "бол"
+
+#~ msgid "Register"
+#~ msgstr "Бүртгүүлэх"
+
+#~ msgid "not"
+#~ msgstr "үгүйсгэ"
+
+#~ msgid "turtle"
+#~ msgstr "яст мэлхий"
+
+#~ msgid "hide blocks"
+#~ msgstr "Блок нуу"
+
+#~ msgid "Save"
+#~ msgstr "Хадгалах"
+
+#~ msgid "store in box 1"
+#~ msgstr "богц 1-д хадгал"
+
+#~ msgid "store in box 2"
+#~ msgstr "богц 2-д хадгал"
+
+#~ msgid "print"
+#~ msgstr "үзүүл"
+
+#~ msgid "set text color"
+#~ msgstr "Үсгэнд өнгө өг"
+
+#~ msgid "number"
+#~ msgstr "тоо"
+
+#~ msgid "top"
+#~ msgstr "дээд"
+
+#~ msgid "set scale"
+#~ msgstr "масштаб тогтоох"
+
+#~ msgid "white"
+#~ msgstr "цагаан"
+
+#~ msgid "Cancel"
+#~ msgstr "Болих"
+
+#, fuzzy
+#~ msgid "presentation 2x1"
+#~ msgstr "үзүүлэн"
+
+#~ msgid "minus"
+#~ msgstr "хасах"
+
+#~ msgid "and"
+#~ msgstr "ба"
+
+#~ msgid "set color"
+#~ msgstr "өнгө"
+
+#~ msgid "min"
+#~ msgstr "МИН"
+
+#~ msgid "File"
+#~ msgstr "Файл"
+
+#~ msgid "multiply"
+#~ msgstr "үржүүлэх"
+
+#~ msgid "forever"
+#~ msgstr "үүрд"
+
+#~ msgid "clean"
+#~ msgstr "арилгах"
+
+#~ msgid "Grow blocks"
+#~ msgstr "Блокыг харуул"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Дзлгзц дүүргэх"
+
+#~ msgid "show"
+#~ msgstr "үзүүлэх"
+
+#~ msgid "text"
+#~ msgstr "бичвэр"
+
+# тохиолдлын аль нь ч болноо
+#~ msgid "random"
+#~ msgstr "санаандгүй"
+
+#~ msgid "black"
+#~ msgstr "ухар"
+
+#~ msgid "stop"
+#~ msgstr "зогсоох"
+
+#~ msgid "greater than"
+#~ msgstr "энэ нь арай их"
+
+#~ msgid "xcor"
+#~ msgstr "x тэнхлэг"
+
+#~ msgid "Help"
+#~ msgstr "Тусламж"
+
+#~ msgid "keyboard"
+#~ msgstr "гар"
+
+#~ msgid "arc"
+#~ msgstr "нум"
+
+#~ msgid "radius"
+#~ msgstr "радиус"
+
+#~ msgid "set shade"
+#~ msgstr "сүүдэр"
+
+#~ msgid "Run"
+#~ msgstr "Эхэл"
+
+#~ msgid "Title:"
+#~ msgstr "Гарчиг:"
+
+#~ msgid "Upload"
+#~ msgstr "Ачаалах"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#, fuzzy
+#~ msgid "presentation 2x2"
+#~ msgstr "үзүүлэн"
+
+#~ msgid "adds two alphanumeric inputs"
+#~ msgstr "хоёр тоо нэмэх"
+
+#~ msgid "equal"
+#~ msgstr "тэнцүү"
+
+#~ msgid "else"
+#~ msgstr "эсвэл"
+
+#~ msgid "pop"
+#~ msgstr "ав"
+
+#~ msgid "pen size"
+#~ msgstr "үзэг хэмжээ"
+
+#~ msgid "Show blocks"
+#~ msgstr "Блокыг харуул"
+
+#~ msgid "play"
+#~ msgstr "тоглуулах"
+
+#~ msgid "save"
+#~ msgstr "хадгалах"
+
+#~ msgid "Colors"
+#~ msgstr "Өнгѳ"
+
+#~ msgid "Open"
+#~ msgstr "Нээх"
+
+#~ msgid "orientation"
+#~ msgstr "Чиглэл"
+
+#~ msgid "ycor"
+#~ msgstr "y тэнхлэг"
+
+#~ msgid "if"
+#~ msgstr "xэpэв"
+
+#~ msgid "Stop"
+#~ msgstr "Зогсоох"
+
+#, fuzzy
+#~ msgid "action 2"
+#~ msgstr "үйлдэл"
+
+#, fuzzy
+#~ msgid "action 1"
+#~ msgstr "үйлдэл"
+
+#~ msgid "Copy"
+#~ msgstr "Хуулах"
+
+#~ msgid "Paste"
+#~ msgstr "Тавих"
+
+#~ msgid "Clean"
+#~ msgstr "Арилга"
+
+#~ msgid "angle"
+#~ msgstr "ѳнцѳг"
+
+#~ msgid "audio"
+#~ msgstr "дуу бичлэг"
+
+#~ msgid "Tools"
+#~ msgstr "Хэрэгсэл"
+
+#~ msgid "left"
+#~ msgstr "зүүн"
+
+#~ msgid "comment"
+#~ msgstr "тайлбар"
+
+#~ msgid "voltage"
+#~ msgstr "цахилгаан хүчдэл"
+
+# Зураач барималчдын ажлын өрөөг урлан гэдэгтэй адилаар Яст мэлхийн Урлан болгоё оо
+#~ msgid "Turtle Art"
+#~ msgstr "Яст мэлхий Урлан"
+
+#~ msgid "Project"
+#~ msgstr "Төсөл"
+
+#~ msgid "Debug"
+#~ msgstr "Оношилгоо"
+
+#~ msgid "Password"
+#~ msgstr "Нууц үг"
+
+#~ msgid "Share"
+#~ msgstr "Хуваалцах"
+
+#~ msgid "less than"
+#~ msgstr "энэ нь арай бага"
+
+#~ msgid "square root"
+#~ msgstr "дөрвөлжин үндэс"
+
+#~ msgid "show blocks"
+#~ msgstr "Блокыг харуул"
+
+#~ msgid "Quit"
+#~ msgstr "Гарах"
+
+#~ msgid "New"
+#~ msgstr "Шинэ"
+
+#~ msgid "scale"
+#~ msgstr "масштаб"
+
+#~ msgid "purple"
+#~ msgstr "час улаан"
+
+#~ msgid "Description:"
+#~ msgstr "Тайлбар:"
+
+#~ msgid "journal"
+#~ msgstr "журнал"
+
+#~ msgid "empty trash"
+#~ msgstr "хогийн сав хоослох"
+
+#~ msgid "Load..."
+#~ msgstr "Ачаалла..."
+
+# яст мэлхийг зогсоох эсвэл яст мэлхий зогс 2-н нэгийг аваарай
+#~ msgid "Stop turtle"
+#~ msgstr "Яст мэлхий зогс"
+
+#~ msgid "Turtle"
+#~ msgstr "Яст Мэлхий"
+
+#~ msgid "Hide blocks"
+#~ msgstr "Блок нуу"
+
+#~ msgid "plus"
+#~ msgstr "нэмэх"
+
+#~ msgid "or"
+#~ msgstr "эсвэл"
+
+#~ msgid "Shrink blocks"
+#~ msgstr "Блокыг нуу"
+
+#~ msgid "image"
+#~ msgstr "дүрслэл"
+
+# Зураачийн зураг хольж өнгө гаргадаг ХАВТАН тай ижил агуулгатай шүү
+#~ msgid "Show palette"
+#~ msgstr "Хавтанг харуул"
+
+#~ msgid "start"
+#~ msgstr "эхэл"
+
+#~ msgid "forward"
+#~ msgstr "урагшаа"
+
+#~ msgid "my box"
+#~ msgstr "миний богц"
+
+#~ msgid "back"
+#~ msgstr "ухар"
+
+#, fuzzy
+#~ msgid "presentation 1x1"
+#~ msgstr "үзүүлэн"
+
+#, fuzzy
+#~ msgid "presentation 1x2"
+#~ msgstr "үзүүлэн"
+
+#~ msgid "Save..."
+#~ msgstr "Хадгалах..."
+
+#, fuzzy
+#~ msgid "setxy"
+#~ msgstr "тэнхлэг ХУ"
+
+#~ msgid "fill screen"
+#~ msgstr "дзлгзц дүүргэх"
+
+# Нэрнээс гадна төрлөө сольж хадгалдаг тул Өөрөөр хадгалах гэдэг нь зүгээр болов уу? мөн Scratch дээр ингэж орчуулсан байгаа.
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "Өөрөөр хадгалах"
+
+#~ msgid "set xy"
+#~ msgstr "тэнхлэг ХУ"
+
+#~ msgid "trash"
+#~ msgstr "хогийн сав"
+
+#~ msgid "repeat"
+#~ msgstr "дaвтax"
+
+#~ msgid "Save as image"
+#~ msgstr "Дүрслэлээр хадгалах"
+
+#~ msgid "Edit"
+#~ msgstr "Засварлах"
+
+#~ msgid "max"
+#~ msgstr "МАКС"
+
+#~ msgid "push"
+#~ msgstr "өг"

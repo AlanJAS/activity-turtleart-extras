@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,8 +12,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -120,7 +120,7 @@ msgstr ""
 
 #: taextras.py:77
 msgid "LED"
-msgstr ""
+msgstr "LED"
 
 #: taextras.py:78
 msgid "button"
@@ -695,11 +695,11 @@ msgstr ""
 
 #: taextras.py:257
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: taextras.py:258
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: taextras.py:259
 msgid ""
@@ -725,8 +725,9 @@ msgid "Add a gear object to the project."
 msgstr ""
 
 #: taextras.py:266
+#, fuzzy
 msgid "density"
-msgstr ""
+msgstr "umwirondoro"
 
 #: taextras.py:267
 msgid ""
@@ -854,19 +855,21 @@ msgstr ""
 
 #: taextras.py:317
 msgid "color"
-msgstr ""
+msgstr "ibara"
 
 #: taextras.py:318
+#, fuzzy
 msgid "light"
-msgstr ""
+msgstr "iburyo"
 
 #: taextras.py:319
 msgid "sound"
 msgstr ""
 
 #: taextras.py:320
+#, fuzzy
 msgid "grey"
-msgstr ""
+msgstr "ikigina"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
@@ -962,8 +965,9 @@ msgid ""
 msgstr ""
 
 #: taextras.py:344
+#, fuzzy
 msgid "port"
-msgstr ""
+msgstr "Umuhuza"
 
 #: taextras.py:345
 msgid "power"
@@ -1059,8 +1063,9 @@ msgid "PORT 1 of the brick"
 msgstr ""
 
 #: taextras.py:369
+#, fuzzy
 msgid "read"
-msgstr ""
+msgstr "umutuku"
 
 #: taextras.py:370
 msgid "sensor"
@@ -1458,3 +1463,634 @@ msgstr ""
 #: taextras.py:496
 msgid "Expeyes device not found"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "Umutwe w'amagambo"
+
+#~ msgid "yellow"
+#~ msgstr "umuhondo"
+
+#, fuzzy
+#~ msgid "camera output"
+#~ msgstr "amashusho yakamera"
+
+#~ msgid "box 2"
+#~ msgstr "ikarito ya 2"
+
+#~ msgid "box 1"
+#~ msgstr "ikarito ya 1"
+
+#~ msgid "Step"
+#~ msgstr "Intambwe"
+
+#, fuzzy
+#~ msgid "Hide palette"
+#~ msgstr "Guhisha palette"
+
+#, fuzzy
+#~ msgid "Buddies"
+#~ msgstr "Inshuti"
+
+#~ msgid "cyan"
+#~ msgstr "ubururu bukeye"
+
+#, fuzzy
+#~ msgid "Load example"
+#~ msgstr "Shakisha urugero"
+
+#, fuzzy
+#~ msgid "list"
+#~ msgstr "irondora"
+
+#, fuzzy
+#~ msgid "heading"
+#~ msgstr "umutwempangano"
+
+#~ msgid "RFID"
+#~ msgstr "RFID"
+
+#, fuzzy
+#~ msgid "video"
+#~ msgstr "iyerekanamashusho"
+
+#~ msgid "blue"
+#~ msgstr "ubururu"
+
+#, fuzzy
+#~ msgid "No option action:"
+#~ msgstr "Ntaguhitamo igikorwa:"
+
+#, fuzzy
+#~ msgid "bottom y"
+#~ msgstr "buto y"
+
+#~ msgid "save SVG"
+#~ msgstr "bika SVG"
+
+#~ msgid "pen down"
+#~ msgstr "ikaramu hasi"
+
+#~ msgid "wait"
+#~ msgstr "tegereza"
+
+#~ msgid "box"
+#~ msgstr "ikarito"
+
+#, fuzzy
+#~ msgid "action"
+#~ msgstr "igikorwa"
+
+#, fuzzy
+#~ msgid "divide"
+#~ msgstr "gabanya"
+
+#, fuzzy
+#~ msgid "picture name"
+#~ msgstr "izina ry'ifoto"
+
+#, fuzzy
+#~ msgid "while"
+#~ msgstr "umweru"
+
+#, fuzzy
+#~ msgid "next"
+#~ msgstr "inyandiko"
+
+#~ msgid "set pen size"
+#~ msgstr "tunganya ingano y'ikaramu"
+
+#, fuzzy
+#~ msgid "until"
+#~ msgstr "kugeza"
+
+#, fuzzy
+#~ msgid "sinewave"
+#~ msgstr "kanda ibuto"
+
+#, fuzzy
+#~ msgid "left x"
+#~ msgstr "ibumoso x"
+
+#, fuzzy
+#~ msgid "set heading"
+#~ msgstr "shyiraho umtwe"
+
+#~ msgid "<Ctrl>w"
+#~ msgstr "<Ctrl>w"
+
+#~ msgid "<Ctrl>r"
+#~ msgstr "<Ctrl>r"
+
+#~ msgid "<Ctrl>s"
+#~ msgstr "<Ctrl>s"
+
+#~ msgid "<Ctrl>p"
+#~ msgstr "<Ctrl>p"
+
+#~ msgid "<Ctrl>e"
+#~ msgstr "<Ctrl>e"
+
+#, fuzzy
+#~ msgid "description"
+#~ msgstr "kwimenyekanisha"
+
+#, fuzzy
+#~ msgid "set text size"
+#~ msgstr "tunganya ingano y'ikaramu"
+
+#, fuzzy
+#~ msgid "Username:"
+#~ msgstr "izina ry'ukoresha:"
+
+#~ msgid "View"
+#~ msgstr "Kureba"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "Ijambobanga:"
+
+#, fuzzy
+#~ msgid "stop action"
+#~ msgstr "igikorwa cyo guhagarika"
+
+#~ msgid "green"
+#~ msgstr "icyatsi"
+
+#, fuzzy
+#~ msgid "shade"
+#~ msgstr "ubwijime"
+
+#, fuzzy
+#~ msgid "save picture"
+#~ msgstr "bika ifoto"
+
+#~ msgid "pen up"
+#~ msgstr "ikaramu hejuru"
+
+#~ msgid "orange"
+#~ msgstr "oranje"
+
+#, fuzzy
+#~ msgid "clear all"
+#~ msgstr "hanagura byose"
+
+#~ msgid "then"
+#~ msgstr "hanyuma"
+
+#, fuzzy
+#~ msgid "Register"
+#~ msgstr "Kwiyandikisha"
+
+#~ msgid "not"
+#~ msgstr "si"
+
+#, fuzzy
+#~ msgid "stops current action"
+#~ msgstr "guhagaka ibikorwa bya banjye"
+
+#~ msgid "turtle"
+#~ msgstr "akanyamashyo"
+
+#, fuzzy
+#~ msgid "hide blocks"
+#~ msgstr "Hisha amablock"
+
+#~ msgid "Save"
+#~ msgstr "Bika"
+
+#~ msgid "store in box 1"
+#~ msgstr "bika mu ikarito ya 1"
+
+#~ msgid "store in box 2"
+#~ msgstr "bika mu ikarito ya 2"
+
+#, fuzzy
+#~ msgid "print"
+#~ msgstr "gucapa"
+
+#~ msgid "Save as Logo"
+#~ msgstr "Bika nka Logo"
+
+#~ msgid "set text color"
+#~ msgstr "tunganya ibara ry'inyandiko"
+
+#, fuzzy
+#~ msgid "loudness"
+#~ msgstr "imisakurize"
+
+#~ msgid "number"
+#~ msgstr "umubare"
+
+#~ msgid "top"
+#~ msgstr "hejuru"
+
+#, fuzzy
+#~ msgid "Nickname"
+#~ msgstr "Azina kaka byiniriro"
+
+#, fuzzy
+#~ msgid "set scale"
+#~ msgstr "shyiramo igipimo"
+
+#~ msgid "white"
+#~ msgstr "umweru"
+
+#~ msgid "Cancel"
+#~ msgstr "Reka"
+
+#, fuzzy
+#~ msgid "presentation 2x1"
+#~ msgstr "icyerekezo"
+
+#~ msgid "and"
+#~ msgstr "na"
+
+#, fuzzy
+#~ msgid "as input"
+#~ msgstr "nk'inyinjiza"
+
+#, fuzzy
+#~ msgid "acceleration"
+#~ msgstr "ukwiyongera"
+
+#~ msgid "set color"
+#~ msgstr "tunganya ibara"
+
+#, fuzzy
+#~ msgid "min"
+#~ msgstr "min"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "File"
+
+#, fuzzy
+#~ msgid "multiply"
+#~ msgstr "gukuba"
+
+#, fuzzy
+#~ msgid "forever"
+#~ msgstr "igihe cyose"
+
+#, fuzzy
+#~ msgid "clean"
+#~ msgstr "gusukura"
+
+#, fuzzy
+#~ msgid "Grow blocks"
+#~ msgstr "Erekana amablock"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Ekara nini"
+
+#, fuzzy
+#~ msgid "File not found"
+#~ msgstr "File ntiboneka"
+
+#~ msgid "show"
+#~ msgstr "erekana"
+
+#, fuzzy
+#~ msgid "text"
+#~ msgstr "inyandiko"
+
+#, fuzzy
+#~ msgid "random"
+#~ msgstr "binyuranye"
+
+#~ msgid "black"
+#~ msgstr "umukara"
+
+#, fuzzy
+#~ msgid "mouse x"
+#~ msgstr "akanyerezo x"
+
+#, fuzzy
+#~ msgid "mouse y"
+#~ msgstr "akanyerezo y"
+
+#, fuzzy
+#~ msgid "stop"
+#~ msgstr "hejuru"
+
+#, fuzzy
+#~ msgid "greater than"
+#~ msgstr "byiza kurenza"
+
+#, fuzzy
+#~ msgid "xcor"
+#~ msgstr "ikirangahuriro X"
+
+#~ msgid "Help"
+#~ msgstr "Gufasha"
+
+#, fuzzy
+#~ msgid "Save project?"
+#~ msgstr "Bika umushinga?"
+
+#, fuzzy
+#~ msgid "right x"
+#~ msgstr "iburyo x"
+
+#, fuzzy
+#~ msgid "keyboard"
+#~ msgstr "mwandikisho"
+
+#, fuzzy
+#~ msgid "arc"
+#~ msgstr "agaheto"
+
+#, fuzzy
+#~ msgid "radius"
+#~ msgstr "akarambararo"
+
+#, fuzzy
+#~ msgid "set shade"
+#~ msgstr "shyiramo igipimo"
+
+#~ msgid "Run"
+#~ msgstr "Iruka"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "Umutwe:"
+
+#, fuzzy
+#~ msgid "Upload"
+#~ msgstr "Irigushakisha"
+
+#~ msgid "Server"
+#~ msgstr "Seriveri"
+
+#, fuzzy
+#~ msgid "presentation 2x2"
+#~ msgstr "icyerekezo"
+
+#, fuzzy
+#~ msgid "Neighborhood"
+#~ msgstr "Abaturanyi"
+
+#, fuzzy
+#~ msgid "equal"
+#~ msgstr "bingana"
+
+#~ msgid "pen size"
+#~ msgstr "ingano y'ikaramu"
+
+#, fuzzy
+#~ msgid "speak"
+#~ msgstr "vuga"
+
+#, fuzzy
+#~ msgid "button down"
+#~ msgstr "kanda ibuto"
+
+#~ msgid "Show blocks"
+#~ msgstr "Erekana amablock"
+
+#, fuzzy
+#~ msgid "play"
+#~ msgstr "kina"
+
+#~ msgid "save"
+#~ msgstr "bika"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "Ibara"
+
+#~ msgid "Open"
+#~ msgstr "Fungura"
+
+#~ msgid "orientation"
+#~ msgstr "icyerekezo"
+
+#, fuzzy
+#~ msgid "ycor"
+#~ msgstr "ikirangahuriro Y"
+
+#~ msgid "if"
+#~ msgstr "niba"
+
+#~ msgid "Stop"
+#~ msgstr "Hagarika"
+
+#, fuzzy
+#~ msgid "action 2"
+#~ msgstr "igkorwa 2"
+
+#, fuzzy
+#~ msgid "action 1"
+#~ msgstr "igikorwa 1"
+
+#~ msgid "end fill"
+#~ msgstr "soza kuzuza"
+
+#~ msgid "Copy"
+#~ msgstr "Koporora"
+
+#, fuzzy
+#~ msgid "Paste"
+#~ msgstr "Komeka"
+
+#, fuzzy
+#~ msgid "Activities"
+#~ msgstr "Ibikorwa"
+
+#~ msgid "Clean"
+#~ msgstr "Sukura"
+
+#, fuzzy
+#~ msgid "angle"
+#~ msgstr "imfuruka"
+
+#, fuzzy
+#~ msgid "Save/Load"
+#~ msgstr "Bika/Shakisha"
+
+#, fuzzy
+#~ msgid "top y"
+#~ msgstr "hejuru y"
+
+#, fuzzy
+#~ msgid "audio"
+#~ msgstr "isohoramajwi"
+
+#, fuzzy
+#~ msgid "Tools"
+#~ msgstr "Ibikoresho"
+
+#~ msgid "left"
+#~ msgstr "ibumoso"
+
+#, fuzzy
+#~ msgid "comment"
+#~ msgstr "ibivugwaho"
+
+#~ msgid "Turtle Art"
+#~ msgstr "Ubugeni bw'Akanyamashyo"
+
+#, fuzzy
+#~ msgid "Load project"
+#~ msgstr "Shakisha umushinga"
+
+#, fuzzy
+#~ msgid "Project"
+#~ msgstr "Umushinga"
+
+#, fuzzy
+#~ msgid "Password"
+#~ msgstr "Ijambobanga"
+
+#~ msgid "Share"
+#~ msgstr "Gusangira"
+
+#, fuzzy
+#~ msgid "less than"
+#~ msgstr "gake ho"
+
+#~ msgid "show blocks"
+#~ msgstr "erekana amablock"
+
+#, fuzzy
+#~ msgid "Quit"
+#~ msgstr "Kuvamo"
+
+#, fuzzy
+#~ msgid "set gray"
+#~ msgstr "shyiramo ikigina"
+
+#, fuzzy
+#~ msgid "New"
+#~ msgstr "Nshyashya"
+
+#, fuzzy
+#~ msgid "scale"
+#~ msgstr "igipimo"
+
+#, fuzzy
+#~ msgid "bottom"
+#~ msgstr "buto"
+
+#, fuzzy
+#~ msgid "purple"
+#~ msgstr "kimurika"
+
+#, fuzzy
+#~ msgid "click to open"
+#~ msgstr "kanda kugirango ufungure"
+
+#, fuzzy
+#~ msgid "Configuration"
+#~ msgstr "Iboneza"
+
+#, fuzzy
+#~ msgid "Description:"
+#~ msgstr "kwimenyekanisha"
+
+#, fuzzy
+#~ msgid "journal"
+#~ msgstr "ikinyamakuru"
+
+#, fuzzy
+#~ msgid "Load..."
+#~ msgstr "Shakisha..."
+
+#~ msgid "Stop turtle"
+#~ msgstr "Hagarika akanyamashyo"
+
+#~ msgid "Turtle"
+#~ msgstr "Akanyamashyo"
+
+#, fuzzy
+#~ msgid "store in"
+#~ msgstr "bika mu"
+
+#, fuzzy
+#~ msgid "Hide blocks"
+#~ msgstr "Hisha amablock"
+
+#, fuzzy
+#~ msgid "plus"
+#~ msgstr "ibindi"
+
+#~ msgid "or"
+#~ msgstr "cyangwa"
+
+#, fuzzy
+#~ msgid "image"
+#~ msgstr "ishusho"
+
+#~ msgid "start"
+#~ msgstr "tangira"
+
+#~ msgid "forward"
+#~ msgstr "oherereza"
+
+#, fuzzy
+#~ msgid "my box"
+#~ msgstr "agsanduku kanjye"
+
+#~ msgid "back"
+#~ msgstr "inyuma"
+
+#, fuzzy
+#~ msgid "sets the scale of media"
+#~ msgstr "shyiramo igipimo cya media"
+
+#, fuzzy
+#~ msgid "presentation 1x1"
+#~ msgstr "icyerekezo"
+
+#, fuzzy
+#~ msgid "presentation 1x2"
+#~ msgstr "icyerekezo"
+
+#~ msgid "Save..."
+#~ msgstr "Bika..."
+
+#, fuzzy
+#~ msgid "title y"
+#~ msgstr "umutwe y"
+
+#, fuzzy
+#~ msgid "title x"
+#~ msgstr "umutwe x"
+
+#, fuzzy
+#~ msgid "fill screen"
+#~ msgstr "ekara nini"
+
+#, fuzzy
+#~ msgid "Save as"
+#~ msgstr "Bika nka"
+
+#~ msgid "repeat"
+#~ msgstr "subiramo"
+
+#~ msgid "Save as image"
+#~ msgstr "Bika nka ishusho"
+
+#~ msgid "Edit"
+#~ msgstr "Hindura"
+
+#, fuzzy
+#~ msgid "max"
+#~ msgstr "max"
+
+#, fuzzy
+#~ msgid "start fill"
+#~ msgstr "tangira wuzuze"
+
+#, fuzzy
+#~ msgid "push"
+#~ msgstr "sunika"
+
+#, fuzzy
+#~ msgid "restore all"
+#~ msgstr "bika byose"
+
+#, fuzzy
+#~ msgid "hello"
+#~ msgstr "allo"
