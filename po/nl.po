@@ -2,25 +2,27 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-02 00:32-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-11-04 04:16+0200\n"
+"Last-Translator: JoostL <antispasm@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
+#, fuzzy
 msgid "turtleart-extras (master)"
-msgstr ""
+msgstr "schildpadkunst-extra's (hoofd)"
 
 #: taextras.py:36
 msgid "Turtle Art Mini"
@@ -36,7 +38,7 @@ msgstr "Kies een uitdaging"
 
 #: taextras.py:45
 msgid "Amazonas Tortuga"
-msgstr ""
+msgstr "Amazoneschildpad"
 
 #: taextras.py:52
 msgid "Palette of Mexican pesos"
@@ -90,7 +92,7 @@ msgstr "geeft 1 terug als knop is ingedrukt en anders 0"
 
 #: taextras.py:69
 msgid "returns the ambient light level as a number between 0 and 1023"
-msgstr "geeft omgevingslicht niveau als getal tussen 0 en 1023"
+msgstr "geeft omgevingslichtniveau als getal tussen 0 en 1023"
 
 #: taextras.py:70
 msgid "returns the ambient temperature as a number between 0 and 255"
@@ -118,7 +120,7 @@ msgstr "schakelt tussen 0 en 1, de frequentie hangt af van de trilling"
 
 #: taextras.py:76
 msgid "returns the value of the resistance"
-msgstr ""
+msgstr "geeft de waarde van de weerstand"
 
 #: taextras.py:77
 msgid "LED"
@@ -188,11 +190,11 @@ msgstr "snelheid Butia"
 
 #: taextras.py:95
 msgid "set the speed of the Butia motors"
-msgstr ""
+msgstr "stel de snelheid van de Butiamotoren in"
 
 #: taextras.py:96
 msgid "the speed must be a value between 0 and 1023"
-msgstr ""
+msgstr "de snelheid moet een waarde tussen 0 en 1023 zijn"
 
 #. TRANS: This string is shorthand for "move Butia forward"
 #: taextras.py:98
@@ -213,9 +215,8 @@ msgid "left Butia"
 msgstr "links Butia"
 
 #: taextras.py:103
-#, fuzzy
 msgid "turn the Butia robot at left"
-msgstr "draai de Butia robot naar rechts"
+msgstr "draai de Butia-robot naar links"
 
 #. TRANS: This string is shorthand for "move Butia backward"
 #: taextras.py:105
@@ -261,7 +262,7 @@ msgstr "Butia"
 
 #: taextras.py:119
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
-msgstr ""
+msgstr "Fout bij het importeren van Pygame.  Deze plugin vereist Pygame 1.9"
 
 #: taextras.py:120
 msgid "Error on initialization of the camera"
@@ -269,7 +270,7 @@ msgstr "Fout bij initialisatie van de camera"
 
 #: taextras.py:121
 msgid "No camera was found"
-msgstr ""
+msgstr "Geen camera gevonden"
 
 #: taextras.py:122
 msgid "Error stopping camera"
@@ -290,12 +291,11 @@ msgstr "VolgMe"
 
 #: taextras.py:127
 msgid "refresh FollowMe"
-msgstr ""
+msgstr "ververs VolgMij"
 
 #: taextras.py:128
-#, fuzzy
 msgid "Search for a connected camera."
-msgstr "Zoek naar een verbonden NXT steen."
+msgstr "Zoek naar een verbonden camera."
 
 #. TRANS: the calibration is used to match an RGB color to a target
 #: taextras.py:130
@@ -303,9 +303,8 @@ msgid "calibration"
 msgstr "calibratie"
 
 #: taextras.py:131
-#, fuzzy
 msgid "store a personalized calibration"
-msgstr "geeft terug een gepersonaliseerde calibratie"
+msgstr "bewaar een aangepaste calibratie"
 
 #: taextras.py:132
 msgid "return a personalized calibration"
@@ -317,7 +316,7 @@ msgstr "volg"
 
 #: taextras.py:134
 msgid "follow a color or calibration"
-msgstr "volg een kluer of een calibratie"
+msgstr "volg een kleur of calibratie"
 
 #: taextras.py:135
 msgid "brightness"
@@ -325,7 +324,7 @@ msgstr "helderheid"
 
 #: taextras.py:136
 msgid "set the camera brightness as a value between 0 to 255."
-msgstr ""
+msgstr "stel de helderheid van de camera in als een waarde tussen 0 en 255."
 
 #: taextras.py:137
 msgid "minimum pixels"
@@ -342,51 +341,52 @@ msgstr "drempel"
 #. TRANS: RGB color space (red, green, blue)
 #: taextras.py:141
 msgid "set a threshold for a RGB color"
-msgstr "zet de drempel voor een RGB kleur"
+msgstr "stel de drempel voor een RGB-kleur in"
 
 #: taextras.py:142
 msgid "camera mode"
-msgstr "camera modus"
+msgstr "cameramodus"
 
 #. TRANS: RGB, YUV, and HSV are color spaces
 #: taextras.py:144
-#, fuzzy
 msgid "set the color mode of the camera: RGB; YUV or HSV"
-msgstr "zet kleurmodus van de camera op HSV"
+msgstr "stel de kleurmodus van de camera in: RGB, YUV of HSV"
 
 #: taextras.py:145
 msgid "get brightness"
-msgstr ""
+msgstr "lees de helderheid"
 
 #: taextras.py:146
 msgid "get the brightness of the ambient light"
-msgstr ""
+msgstr "lees de helderheid van het omgevingslicht"
 
 #: taextras.py:147
 msgid "average color"
-msgstr ""
+msgstr "gemiddelde kleur"
 
 #: taextras.py:148
 msgid ""
 "if set to 0 then color averaging is off during calibration; for other values "
 "it is on"
 msgstr ""
+"indien ingesteld op 0, wordt de gemiddelde kleur niet berekend tijdens de "
+"kalibratie, bij andere waardes wel"
 
 #: taextras.py:149
 msgid "x position"
-msgstr "x positie"
+msgstr "x-positie"
 
 #: taextras.py:150
 msgid "return x position"
-msgstr "geeft x positie"
+msgstr "geef x-positie"
 
 #: taextras.py:151
 msgid "y position"
-msgstr "y positie"
+msgstr "y-positie"
 
 #: taextras.py:152
 msgid "return y position"
-msgstr "geeft y positie"
+msgstr "geef y-positie"
 
 #: taextras.py:153
 msgid "pixels"
@@ -394,183 +394,183 @@ msgstr "pixels"
 
 #: taextras.py:154
 msgid "return the number of pixels of the biggest blob"
-msgstr "geef terug het aantal pixels van de grootste blob"
+msgstr "geef het aantal pixels van de grootste blob"
 
 #. TRANS: RGB color space (red, green, blue)
 #: taextras.py:156
 msgid "set the color mode of the camera to RGB"
-msgstr "zet kleurmodus van de camera op RGB"
+msgstr "zet de kleurmodus van de camera op RGB"
 
 #. TRANS: YUV color space (luminance, chrominance)
 #: taextras.py:158
 msgid "set the color mode of the camera to YUV"
-msgstr "zet kleurmodus van de camera op YUV"
+msgstr "zet de kleurmodus van de camera op YUV"
 
 #. TRANS: HSV color space (hue, saturation, value)
 #: taextras.py:160
 msgid "set the color mode of the camera to HSV"
-msgstr "zet kleurmodus van de camera op HSV"
+msgstr "zet de kleurmodus van de camera op HSV"
 
 #: taextras.py:161
 msgid "empty calibration"
-msgstr "lege calibratie"
+msgstr "lege kalibratie"
 
 #: taextras.py:162
 msgid "error in string conversion"
-msgstr "fout in rekst expressie"
+msgstr "fout in tekenreeksconversie"
 
 #. TRANS: SumBot is a robot programmed for "Sumo wrestling"
 #: taextras.py:167
 msgid "SumBot"
-msgstr "SomBot"
+msgstr "SumBot"
 
 #: taextras.py:168
 msgid "speed SumBot"
-msgstr "snelheid SomBot"
+msgstr "snelheid SumBot"
 
 #: taextras.py:169
 msgid "submit the speed to the SumBot"
-msgstr "stel in de snelheid naar de SomBot"
+msgstr "stuur de snelheid naar de SumBot"
 
 #: taextras.py:170
 msgid "set the default speed for the movement commands"
-msgstr "stel de standaard snelheid voor de beweegcommando's"
+msgstr "stel de standaardsnelheid voor de bewegingsopdrachten in"
 
 #. TRANS: This string is shorthand for "move SumBot forward"
 #: taextras.py:172
 msgid "forward SumBot"
-msgstr "stuur door de SomBot"
+msgstr "SumBot voorwaarts"
 
 #: taextras.py:173
 msgid "move SumBot forward"
-msgstr "verplaats de SomBot voorwaarts"
+msgstr "verplaats de SumBot voorwaarts"
 
 #. TRANS: This string is shorthand for "move SumBot backward"
 #: taextras.py:175
 msgid "backward SumBot"
-msgstr "terug SomBot"
+msgstr "SumBot achterwaarts"
 
 #: taextras.py:176
 msgid "move SumBot backward"
-msgstr "verplaats SomBot achterwaarts"
+msgstr "verplaats SumBot achterwaarts"
 
 #: taextras.py:177
 msgid "stop SumBot"
-msgstr "stop SomBot"
+msgstr "stop SumBot"
 
 #: taextras.py:178
 msgid "stop the SumBot"
-msgstr "stop de SomBot"
+msgstr "stop de SumBot"
 
 #. TRANS: This string is shorthand for "turn SumBot left"
 #: taextras.py:180
 msgid "left SumBot"
-msgstr "links SomBot"
+msgstr "SumBot links"
 
 #: taextras.py:181
 msgid "turn left the SumBot"
-msgstr "draai SomBot naar links"
+msgstr "draai SumBot naar links"
 
 #. TRANS: This string is shorthand for "move SumBot right"
 #: taextras.py:183
 msgid "right SumBot"
-msgstr "rechts SomBot"
+msgstr "SumBot rechts"
 
 #: taextras.py:184
 msgid "turn right the SumBot"
-msgstr "draai SomBot naar rechts"
+msgstr "draai SumBot naar rechts"
 
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the center of the playing field
 #: taextras.py:187
 msgid "angle to center"
-msgstr "hoek van midden"
+msgstr "hoek tot midden"
 
 #. TRANS: dohyo is the playing field
 #: taextras.py:189
 msgid "get the angle to the center of the dohyo"
-msgstr "neem de hoek naar het midden van het speelveld"
+msgstr "geef de hoek naar het midden van het speelveld"
 
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the Enemy (opponent)
 #: taextras.py:192
 msgid "angle to Enemy"
-msgstr "hoek naar Vijand"
+msgstr "hoek naar vijand"
 
 #: taextras.py:193
 msgid "get the angle to the Enemy"
-msgstr "neem de afstand tot de Vijand"
+msgstr "geef de afstand tot de vijand"
 
 #. TRANS: This string is shorthand for "x coordinate of SumBot"
 #: taextras.py:195
 msgid "x coor. SumBot"
-msgstr "x coör. SomBot"
+msgstr "x-coör. SumBot"
 
 #: taextras.py:196
 msgid "get the x coordinate of the SumBot"
-msgstr "neem de x coördinaat van de Sombot"
+msgstr "geef de x-coördinaat van de Sumbot"
 
 #. TRANS: This string is shorthand for "y coordinate of SumBot"
 #: taextras.py:198
 msgid "y coor. SumBot"
-msgstr "y coör. SomBot"
+msgstr "y-coör. SumBot"
 
 #: taextras.py:199
 msgid "get the y coordinate of the SumBot"
-msgstr "neem de y coördinaat van de Sombot"
+msgstr "geef de y-coördinaat van de Sumbot"
 
 #. TRANS: This string is shorthand for "x coordinate of SumBot's enemy"
 #: taextras.py:201
 msgid "x coor. Enemy"
-msgstr "x coör. Vijand"
+msgstr "x-coör. vijand"
 
 #: taextras.py:202
 msgid "get the x coordinate of the Enemy"
-msgstr "neem de x coördinaat van de Vijand"
+msgstr "geef de x-coördinaat van de vijand"
 
 #. TRANS: This string is shorthand for "y coordinate of SumBot's enemy"
 #: taextras.py:204
 msgid "y coor. Enemy"
-msgstr "y coör. Vijand"
+msgstr "y-coör. vijand"
 
 #: taextras.py:205
 msgid "get the y coordinate of the Enemy"
-msgstr "neem de y coördinaat van de Vijand"
+msgstr "geef de y-coördinaat van de vijand"
 
 #. TRANS: This string is shorthand for "rotation of SumBot"
 #: taextras.py:207
 msgid "rotation SumBot"
-msgstr "draaiing SomBot"
+msgstr "draaiing SumBot"
 
 #: taextras.py:208
 msgid "get the rotation of the Sumbot"
-msgstr "neem de rotatie van de Sombot"
+msgstr "geef de draaiing van de Sumbot"
 
 #. TRANS: This string is shorthand for "rotation of SumBot's enemy"
 #: taextras.py:210
 msgid "rotation Enemy"
-msgstr "draaiing Vijand"
+msgstr "draaiing vijand"
 
 #: taextras.py:211
 msgid "get the rotation of the Enemy"
-msgstr "neem de rotatie van de Vijand"
+msgstr "geef de draaiing van de vijand"
 
 #: taextras.py:212
 msgid "distance to center"
-msgstr "afstand naar het midden"
+msgstr "afstand tot het midden"
 
 #. TRANS: dohyo is the playing field
 #: taextras.py:214
 msgid "get the distance to the center of the dohyo"
-msgstr "neem de afstand tot het midden van het speelveld"
+msgstr "geef de afstand tot het midden van het speelveld"
 
 #: taextras.py:215
 msgid "distance to Enemy"
-msgstr "afstand tot Vijand"
+msgstr "afstand tot vijand"
 
 #: taextras.py:216
 msgid "get the distance to the Enemy"
-msgstr "neem de afstand tot de Vijand"
+msgstr "geef de afstand tot de vijand"
 
 #: taextras.py:217
 msgid "update information"
@@ -578,12 +578,12 @@ msgstr "informatie bijwerken"
 
 #: taextras.py:218
 msgid "update information from the server"
-msgstr "informatie bijwerken van de server"
+msgstr "informatie bijwerken vanaf de server"
 
 #. TRANS: Please use similar terms to those used in the Physics Activity
 #: taextras.py:223
 msgid "Palette of physics blocks"
-msgstr "Palet van fysica blokken"
+msgstr "Palet van fysica-blokken"
 
 #: taextras.py:224
 msgid "start polygon"
@@ -592,8 +592,8 @@ msgstr "start veelhoek"
 #: taextras.py:225
 msgid "Begin defining a new polygon based on the current Turtle xy position."
 msgstr ""
-"Begin definiëren van een nieuwe veelhoek gebaseerd op de huidige xy positie "
-"van het Schildpad."
+"Begin een nieuwe veelhoek gebaseerd op de huidige xy-positie van de "
+"Schildpad."
 
 #: taextras.py:227
 msgid "add point"
@@ -793,15 +793,15 @@ msgstr "Palet van WeDo blokken"
 
 #: taextras.py:285
 msgid "WeDo"
-msgstr ""
+msgstr "WeDo"
 
 #: taextras.py:286
 msgid "set current WeDo device"
-msgstr ""
+msgstr "stel het huidige WeDo-apparaat in"
 
 #: taextras.py:287
 msgid "number of WeDo devices"
-msgstr ""
+msgstr "aantal WeDo-apparaten"
 
 #: taextras.py:289
 msgid ""
@@ -842,20 +842,20 @@ msgstr "zet de waarde voor Motor B"
 
 #: taextras.py:300
 msgid "WeDo is unavailable"
-msgstr ""
+msgstr "WeDo is niet beschikbaar"
 
 #. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
 #: taextras.py:302
 #, python-format
 msgid "WeDo %d is unavailable; defaulting to 1"
-msgstr ""
+msgstr "WeDo %d is niet beschikbaar; standaard 1 wordt gebruikt"
 
 #. TRANS: %(device)s and %(wedo_number)d are substitution strings;
 #. please leave untranslated
 #: taextras.py:305
 #, python-format
 msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
-msgstr ""
+msgstr "%(device)s is niet beschikbaar op WeDo %(wedo_number)d"
 
 #. TRANS: Lego NXT is a robotics product of the LEGO company
 #: taextras.py:311
@@ -889,42 +889,42 @@ msgid "sound"
 msgstr "geluid"
 
 #: taextras.py:320
-#, fuzzy
 msgid "grey"
 msgstr "grijs"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
 msgid "Please check the connection with the brick"
-msgstr ""
+msgstr "Gelieve de verbinding met het blok na te kijken"
 
 #: taextras.py:323
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT A, B or C"
-msgstr ""
+msgstr "Ongeldige poort '%s'. Poort moet zijn: PORT A, B of C"
 
 #: taextras.py:324
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
-msgstr ""
+msgstr "Ongeldige poort '%s'. Poort moet zijn: PORT 1, 2, 3 of 4"
 
 #: taextras.py:325
 msgid "The value of power must be between -127 to 127"
-msgstr ""
+msgstr "De waarde van de energie moet tussen -127 en 127 liggen"
 
 #: taextras.py:326
 #, python-format
 msgid "The parameter must be a integer, not '%s'"
-msgstr ""
+msgstr "De parameter moet een geheel nummer zijn, niet '%s'"
 
 #: taextras.py:327
 msgid "An error has occurred: check all connections and try to reconnect"
 msgstr ""
+"Er deed zich een fout voor: kijk alle verbindingen na en probeer opnieuw"
 
 #: taextras.py:328
 #, python-format
 msgid "NXT found %s bricks"
-msgstr ""
+msgstr "NXT vond %s blokken"
 
 #: taextras.py:329
 msgid "NXT not found"
@@ -933,7 +933,7 @@ msgstr "NXT niet gevonden"
 #: taextras.py:330
 #, python-format
 msgid "Brick number %s was not found"
-msgstr ""
+msgstr "Blok nummer %s is niet gevonden"
 
 #: taextras.py:331
 msgid "refresh NXT"
@@ -945,23 +945,23 @@ msgstr "Zoek naar een verbonden NXT steen."
 
 #: taextras.py:333
 msgid "NXT"
-msgstr ""
+msgstr "NXT"
 
 #: taextras.py:334
 msgid "set current NXT device"
-msgstr ""
+msgstr "stel huidig NXT-apparaat in"
 
 #: taextras.py:335
 msgid "number of NXT devices"
-msgstr ""
+msgstr "aantal NXT-apparaten"
 
 #: taextras.py:336
 msgid "brick name"
-msgstr ""
+msgstr "bloknaam"
 
 #: taextras.py:337
 msgid "Get the name of a brick."
-msgstr ""
+msgstr "Geef de naam van een blok."
 
 #: taextras.py:338
 msgid "play tone"
@@ -985,6 +985,8 @@ msgid ""
 "turn motor\n"
 "\n"
 msgstr ""
+"draai motor\n"
+"\n"
 
 #: taextras.py:344
 msgid "port"
@@ -1009,14 +1011,17 @@ msgid ""
 "\n"
 "motors"
 msgstr ""
+"synchroniseer\n"
+"\n"
+"motoren"
 
 #: taextras.py:350
 msgid "steering"
-msgstr ""
+msgstr "sturen"
 
 #: taextras.py:351
 msgid "synchronize two motors connected in PORT B and PORT C"
-msgstr "synchroniseer twee motoren verbonden met POORT B en POORT C"
+msgstr "synchroniseer twee motoren verbonden met PORT B en PORT C"
 
 #: taextras.py:352
 msgid "PORT A"
@@ -1109,7 +1114,7 @@ msgstr "lichtsensor"
 
 #: taextras.py:375
 msgid "grey sensor"
-msgstr ""
+msgstr "grijssensor"
 
 #: taextras.py:376
 msgid "PORT 3"
@@ -1160,7 +1165,7 @@ msgstr "accu niveau"
 
 #: taextras.py:390
 msgid "Get battery level of the brick"
-msgstr ""
+msgstr "Geef batterijniveau van het blok"
 
 #. TRANS: Arduino plugin to control an Arduino board
 #: taextras.py:395
@@ -1206,41 +1211,41 @@ msgstr "FOUT: De nodus moet zijn INVOER, UITVOER, PWM of SERVO."
 
 #: taextras.py:406
 msgid "refresh Arduino"
-msgstr ""
+msgstr "ververs Arduino"
 
 #: taextras.py:407
 msgid "Search for connected Arduinos."
-msgstr ""
+msgstr "Zoek naar verbonden Arduino's."
 
 #: taextras.py:408
 msgid "Arduino"
-msgstr ""
+msgstr "Arduino"
 
 #: taextras.py:409
 msgid "set current Arduino board"
-msgstr ""
+msgstr "stel het huidig Arduino-bord in"
 
 #: taextras.py:410
 msgid "number of Arduinos"
-msgstr ""
+msgstr "aantal Arduiono's"
 
 #: taextras.py:411
 msgid "number of Arduino boards"
-msgstr ""
+msgstr "aantal Arduino-borden"
 
 #: taextras.py:412
 msgid "Arduino name"
-msgstr ""
+msgstr "Arduino-naam"
 
 #: taextras.py:413
 msgid "Get the name of an Arduino."
-msgstr ""
+msgstr "Geef de naam van een Arduino"
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
 #: taextras.py:416
 msgid "pin mode"
-msgstr "pin modus"
+msgstr "pinmodus"
 
 #: taextras.py:418
 msgid "mode"
@@ -1316,23 +1321,22 @@ msgstr "Configureer Arduino poort voor PWM (pulsbreedte modulatie)."
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:440
-#, fuzzy
 msgid "Palette of Expeyes blocks"
-msgstr "Palet van WeDo blokken"
+msgstr "Palet van Expeyes-blokken"
 
 #. TRANS: Programmable voltage output
 #: taextras.py:442
 msgid "set PVS"
-msgstr ""
+msgstr "stel PVS in"
 
 #: taextras.py:443
 msgid "set programmable voltage output"
-msgstr ""
+msgstr "stel programmeerbare stroomuitvoer in"
 
 #. TRANS: Square wave 1 voltage output
 #: taextras.py:445
 msgid "set SQR1 voltage"
-msgstr ""
+msgstr "stel SQR1-stroomsterkte in"
 
 #: taextras.py:446
 msgid "set square wave 1 voltage output"
@@ -1399,11 +1403,11 @@ msgstr ""
 
 #: taextras.py:467
 msgid "samples"
-msgstr ""
+msgstr "voorbeelden"
 
 #: taextras.py:468
 msgid "interval"
-msgstr ""
+msgstr "interval"
 
 #. TRANS: MS is microseconds
 #: taextras.py:470
@@ -1414,7 +1418,7 @@ msgstr ""
 #. TRANS: Analog input 1 voltage level
 #: taextras.py:473
 msgid "A1"
-msgstr ""
+msgstr "A1"
 
 #: taextras.py:474
 msgid "read analog input 1 voltage"
@@ -1423,7 +1427,7 @@ msgstr ""
 #. TRANS: Analog input 2 voltage level
 #: taextras.py:476
 msgid "A2"
-msgstr ""
+msgstr "A2"
 
 #: taextras.py:477
 msgid "read analog input 2 voltage"
@@ -1432,7 +1436,7 @@ msgstr ""
 #. TRANS: Read input 1 voltage
 #: taextras.py:479
 msgid "IN1"
-msgstr ""
+msgstr "IN1"
 
 #: taextras.py:480
 msgid "read input 1 voltage"
@@ -1441,7 +1445,7 @@ msgstr ""
 #. TRANS: Read input 2 voltage
 #: taextras.py:482
 msgid "IN2"
-msgstr ""
+msgstr "IN2"
 
 #: taextras.py:483
 msgid "read input 2 voltage"
@@ -1450,7 +1454,7 @@ msgstr ""
 #. TRANS: Read analog sensor input voltage
 #: taextras.py:485
 msgid "SEN"
-msgstr ""
+msgstr "SEN"
 
 #: taextras.py:486
 msgid "read analog sensor input voltage"
@@ -1459,7 +1463,7 @@ msgstr ""
 #. TRANS: Read square wave 1 input voltage
 #: taextras.py:488
 msgid "SQR1"
-msgstr ""
+msgstr "SQR1"
 
 #: taextras.py:489
 msgid "read square wave 1 voltage"
@@ -1468,7 +1472,7 @@ msgstr ""
 #. TRANS: Read square wave 2 input voltage
 #: taextras.py:491
 msgid "SQR2"
-msgstr ""
+msgstr "SQR2"
 
 #: taextras.py:492
 msgid "read square wave 2 voltage"
@@ -1477,7 +1481,7 @@ msgstr ""
 #. TRANS: Read programmable voltage
 #: taextras.py:494
 msgid "PVS"
-msgstr ""
+msgstr "PVS"
 
 #: taextras.py:495
 msgid "read programmable voltage"
