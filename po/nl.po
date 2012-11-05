@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-02 00:32-0400\n"
-"PO-Revision-Date: 2012-11-04 04:16+0200\n"
-"Last-Translator: JoostL <antispasm@gmail.com>\n"
+"PO-Revision-Date: 2012-11-05 21:15+0200\n"
+"Last-Translator: whe <heppew@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,6 @@ msgstr ""
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
-#, fuzzy
 msgid "turtleart-extras (master)"
 msgstr "schildpadkunst-extra's (hoofd)"
 
@@ -262,7 +261,7 @@ msgstr "Butia"
 
 #: taextras.py:119
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
-msgstr "Fout bij het importeren van Pygame.  Deze plugin vereist Pygame 1.9"
+msgstr "Fout bij het importeren van Pygame. Deze plugin vereist Pygame 1.9"
 
 #: taextras.py:120
 msgid "Error on initialization of the camera"
@@ -283,7 +282,7 @@ msgstr "Fout bij starten camera"
 #. TRANS: The "mask" is used to restrict processing to a region in the image
 #: taextras.py:125
 msgid "Error in get mask"
-msgstr ""
+msgstr "Fout in geef masker"
 
 #: taextras.py:126
 msgid "FollowMe"
@@ -439,7 +438,7 @@ msgstr "stel de standaardsnelheid voor de bewegingsopdrachten in"
 #. TRANS: This string is shorthand for "move SumBot forward"
 #: taextras.py:172
 msgid "forward SumBot"
-msgstr "SumBot voorwaarts"
+msgstr "voorwaarts SumBot"
 
 #: taextras.py:173
 msgid "move SumBot forward"
@@ -448,7 +447,7 @@ msgstr "verplaats de SumBot voorwaarts"
 #. TRANS: This string is shorthand for "move SumBot backward"
 #: taextras.py:175
 msgid "backward SumBot"
-msgstr "SumBot achterwaarts"
+msgstr "achterwaarts SumBot"
 
 #: taextras.py:176
 msgid "move SumBot backward"
@@ -465,7 +464,7 @@ msgstr "stop de SumBot"
 #. TRANS: This string is shorthand for "turn SumBot left"
 #: taextras.py:180
 msgid "left SumBot"
-msgstr "SumBot links"
+msgstr "links SumBot"
 
 #: taextras.py:181
 msgid "turn left the SumBot"
@@ -474,7 +473,7 @@ msgstr "draai SumBot naar links"
 #. TRANS: This string is shorthand for "move SumBot right"
 #: taextras.py:183
 msgid "right SumBot"
-msgstr "SumBot rechts"
+msgstr "rechts SumBot"
 
 #: taextras.py:184
 msgid "turn right the SumBot"
@@ -495,11 +494,11 @@ msgstr "geef de hoek naar het midden van het speelveld"
 #. face the Enemy (opponent)
 #: taextras.py:192
 msgid "angle to Enemy"
-msgstr "hoek naar vijand"
+msgstr "hoek naar Vijand"
 
 #: taextras.py:193
 msgid "get the angle to the Enemy"
-msgstr "geef de afstand tot de vijand"
+msgstr "geef de afstand tot de Vijand"
 
 #. TRANS: This string is shorthand for "x coordinate of SumBot"
 #: taextras.py:195
@@ -522,20 +521,20 @@ msgstr "geef de y-coördinaat van de Sumbot"
 #. TRANS: This string is shorthand for "x coordinate of SumBot's enemy"
 #: taextras.py:201
 msgid "x coor. Enemy"
-msgstr "x-coör. vijand"
+msgstr "x-coör. Vijand"
 
 #: taextras.py:202
 msgid "get the x coordinate of the Enemy"
-msgstr "geef de x-coördinaat van de vijand"
+msgstr "geef de x-coördinaat van de Vijand"
 
 #. TRANS: This string is shorthand for "y coordinate of SumBot's enemy"
 #: taextras.py:204
 msgid "y coor. Enemy"
-msgstr "y-coör. vijand"
+msgstr "y-coör. Vijand"
 
 #: taextras.py:205
 msgid "get the y coordinate of the Enemy"
-msgstr "geef de y-coördinaat van de vijand"
+msgstr "geef de y-coördinaat van de Vijand"
 
 #. TRANS: This string is shorthand for "rotation of SumBot"
 #: taextras.py:207
@@ -549,11 +548,11 @@ msgstr "geef de draaiing van de Sumbot"
 #. TRANS: This string is shorthand for "rotation of SumBot's enemy"
 #: taextras.py:210
 msgid "rotation Enemy"
-msgstr "draaiing vijand"
+msgstr "draaiing Vijand"
 
 #: taextras.py:211
 msgid "get the rotation of the Enemy"
-msgstr "geef de draaiing van de vijand"
+msgstr "geef de draaiing van de Vijand"
 
 #: taextras.py:212
 msgid "distance to center"
@@ -566,11 +565,11 @@ msgstr "geef de afstand tot het midden van het speelveld"
 
 #: taextras.py:215
 msgid "distance to Enemy"
-msgstr "afstand tot vijand"
+msgstr "afstand tot Vijand"
 
 #: taextras.py:216
 msgid "get the distance to the Enemy"
-msgstr "geef de afstand tot de vijand"
+msgstr "geef de afstand tot de Vijand"
 
 #: taextras.py:217
 msgid "update information"
@@ -1239,7 +1238,7 @@ msgstr "Arduino-naam"
 
 #: taextras.py:413
 msgid "Get the name of an Arduino."
-msgstr "Geef de naam van een Arduino"
+msgstr "Geef de naam van een Arduino."
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
@@ -1340,66 +1339,72 @@ msgstr "stel SQR1-stroomsterkte in"
 
 #: taextras.py:446
 msgid "set square wave 1 voltage output"
-msgstr ""
+msgstr "stel blokgolf 1 spanningsuitvoer in"
 
 #. TRANS: Square wave 2 voltage output
 #: taextras.py:448
 msgid "set SQR2 voltage"
-msgstr ""
+msgstr "stel SQR2 spanning in"
 
 #: taextras.py:449
 msgid "set square wave 2 voltage output"
-msgstr ""
+msgstr "stel blokgolf 2 spanningsuitvoer in"
 
 #. TRANS: Digital output level
 #: taextras.py:451
 msgid "set OD1"
-msgstr ""
+msgstr "stel OD1 in"
 
 #: taextras.py:452
 msgid "set digital output level (OD1) low (0) or high (1)"
-msgstr ""
+msgstr "stel digitaal uitvoerniveau (OD1) laag (0) of hoog (1)"
 
 #. TRANS: Input 1 voltage level
 #: taextras.py:454
 msgid "IN1 level"
-msgstr ""
+msgstr "IN1 niveau"
 
 #: taextras.py:455
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
 msgstr ""
+"geeft 1 als IN1 spanningsniveau >2.5 volts, 0 als IN1 spanningsniveau <= 2.5 "
+"volts"
 
 #. TRANS: Input 2 voltage level
 #: taextras.py:458
 msgid "IN2 level"
-msgstr ""
+msgstr "IN2 niveau"
 
 #: taextras.py:459
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
 msgstr ""
+"geeft 1 als IN2 spanningsniveau >2.5 volts, 0 als IN2 spanningsniveau <= 2.5 "
+"volts"
 
 #. TRANS: Resistive sensor voltage level
 #: taextras.py:462
 msgid "SEN level"
-msgstr ""
+msgstr "SEN niveau"
 
 #: taextras.py:463
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
 msgstr ""
+"geeft 1 als weerstandssensor (SEN) spanningsniveau > 2.5 volts, 0 als SEN "
+"spanningsniveau <= 2.5 volts"
 
 #: taextras.py:465
 msgid "capture"
-msgstr ""
+msgstr "opnemen"
 
 #: taextras.py:466
 msgid "input"
-msgstr ""
+msgstr "invoer"
 
 #: taextras.py:467
 msgid "samples"
@@ -1414,6 +1419,8 @@ msgstr "interval"
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr ""
+"neem meerdere monsters op van invoer met interval (MS); resultaat gestuurd "
+"naar FIFO"
 
 #. TRANS: Analog input 1 voltage level
 #: taextras.py:473
@@ -1422,7 +1429,7 @@ msgstr "A1"
 
 #: taextras.py:474
 msgid "read analog input 1 voltage"
-msgstr ""
+msgstr "lees analoge invoer 1 voltage"
 
 #. TRANS: Analog input 2 voltage level
 #: taextras.py:476
@@ -1431,7 +1438,7 @@ msgstr "A2"
 
 #: taextras.py:477
 msgid "read analog input 2 voltage"
-msgstr ""
+msgstr "lees analoge invoer 2 voltage"
 
 #. TRANS: Read input 1 voltage
 #: taextras.py:479
@@ -1440,7 +1447,7 @@ msgstr "IN1"
 
 #: taextras.py:480
 msgid "read input 1 voltage"
-msgstr ""
+msgstr "lees invoer 1 voltage"
 
 #. TRANS: Read input 2 voltage
 #: taextras.py:482
@@ -1449,7 +1456,7 @@ msgstr "IN2"
 
 #: taextras.py:483
 msgid "read input 2 voltage"
-msgstr ""
+msgstr "lees invoer 2 voltage"
 
 #. TRANS: Read analog sensor input voltage
 #: taextras.py:485
@@ -1458,7 +1465,7 @@ msgstr "SEN"
 
 #: taextras.py:486
 msgid "read analog sensor input voltage"
-msgstr ""
+msgstr "lees analoge sensor invoer voltage"
 
 #. TRANS: Read square wave 1 input voltage
 #: taextras.py:488
@@ -1467,7 +1474,7 @@ msgstr "SQR1"
 
 #: taextras.py:489
 msgid "read square wave 1 voltage"
-msgstr ""
+msgstr "lees blokgolf 1 voltage"
 
 #. TRANS: Read square wave 2 input voltage
 #: taextras.py:491
@@ -1476,7 +1483,7 @@ msgstr "SQR2"
 
 #: taextras.py:492
 msgid "read square wave 2 voltage"
-msgstr ""
+msgstr "lees blokgolf 2 voltage"
 
 #. TRANS: Read programmable voltage
 #: taextras.py:494
@@ -1485,11 +1492,11 @@ msgstr "PVS"
 
 #: taextras.py:495
 msgid "read programmable voltage"
-msgstr ""
+msgstr "lees programmeerbaar voltage"
 
 #: taextras.py:496
 msgid "Expeyes device not found"
-msgstr ""
+msgstr "Expeyes apparaat niet gevonden"
 
 #~ msgid "resume playing video or audio"
 #~ msgstr "hervatten video of audio spelen"
