@@ -2,25 +2,26 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-02 00:32-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-11-05 22:05+0200\n"
+"Last-Translator: Aputsiaq Niels <aj@isit.gl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
 msgid "turtleart-extras (master)"
-msgstr ""
+msgstr "turtleart-extras (master)"
 
 #: taextras.py:36
 msgid "Turtle Art Mini"
@@ -36,7 +37,7 @@ msgstr "Vælg en udfordring"
 
 #: taextras.py:45
 msgid "Amazonas Tortuga"
-msgstr ""
+msgstr "Amazonas Tortuga"
 
 #: taextras.py:52
 msgid "Palette of Mexican pesos"
@@ -117,7 +118,7 @@ msgstr "skifter fra 0 til 1, frekvensen afhænger af vibrationen"
 
 #: taextras.py:76
 msgid "returns the value of the resistance"
-msgstr ""
+msgstr "returnerer værdien for modstanden"
 
 #: taextras.py:77
 msgid "LED"
@@ -187,11 +188,11 @@ msgstr "Butia hastighed"
 
 #: taextras.py:95
 msgid "set the speed of the Butia motors"
-msgstr ""
+msgstr "angiv hastigheden for Butia-motorerne"
 
 #: taextras.py:96
 msgid "the speed must be a value between 0 and 1023"
-msgstr ""
+msgstr "hastigheden skal være en værdi mellem 0 og 1023"
 
 #. TRANS: This string is shorthand for "move Butia forward"
 #: taextras.py:98
@@ -212,9 +213,8 @@ msgid "left Butia"
 msgstr "Butia til venstre"
 
 #: taextras.py:103
-#, fuzzy
 msgid "turn the Butia robot at left"
-msgstr "drej Butia-robotten mod højre"
+msgstr "drej Butia-robotten mod venstre"
 
 #. TRANS: This string is shorthand for "move Butia backward"
 #: taextras.py:105
@@ -260,7 +260,7 @@ msgstr "Butia"
 
 #: taextras.py:119
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
-msgstr ""
+msgstr "Fejl under import af Pygame. Denne udvidelse kræver Pygame 1.9"
 
 #: taextras.py:120
 msgid "Error on initialization of the camera"
@@ -268,7 +268,7 @@ msgstr "Fejl under initialisering af kameraet"
 
 #: taextras.py:121
 msgid "No camera was found"
-msgstr ""
+msgstr "Der blev ikke fundet et kamera"
 
 #: taextras.py:122
 msgid "Error stopping camera"
@@ -281,7 +281,7 @@ msgstr "Fejl under start af kamera"
 #. TRANS: The "mask" is used to restrict processing to a region in the image
 #: taextras.py:125
 msgid "Error in get mask"
-msgstr ""
+msgstr "Fejl ved hentning af maske"
 
 #: taextras.py:126
 msgid "FollowMe"
@@ -289,12 +289,11 @@ msgstr "FølgMig"
 
 #: taextras.py:127
 msgid "refresh FollowMe"
-msgstr ""
+msgstr "genopfrisk FølgMig"
 
 #: taextras.py:128
-#, fuzzy
 msgid "Search for a connected camera."
-msgstr "Søg efter en tilsluttet NXT-klods."
+msgstr "Søg efter en tilsluttet kamera."
 
 #. TRANS: the calibration is used to match an RGB color to a target
 #: taextras.py:130
@@ -302,9 +301,8 @@ msgid "calibration"
 msgstr "kalibrering"
 
 #: taextras.py:131
-#, fuzzy
 msgid "store a personalized calibration"
-msgstr "returnér en personaliseret kalibrering"
+msgstr "gem en personaliseret kalibrering"
 
 #: taextras.py:132
 msgid "return a personalized calibration"
@@ -324,7 +322,7 @@ msgstr "lysstyrke"
 
 #: taextras.py:136
 msgid "set the camera brightness as a value between 0 to 255."
-msgstr ""
+msgstr "angiv kameralysstyrken til en værdi mellem 0 og 255."
 
 #: taextras.py:137
 msgid "minimum pixels"
@@ -349,27 +347,28 @@ msgstr "kamera-tilstand"
 
 #. TRANS: RGB, YUV, and HSV are color spaces
 #: taextras.py:144
-#, fuzzy
 msgid "set the color mode of the camera: RGB; YUV or HSV"
-msgstr "angiver at farvetilstanden for kameraet er HSV"
+msgstr "angiv farvetilstanden for kameraet: RGB; YUV eller HSV"
 
 #: taextras.py:145
 msgid "get brightness"
-msgstr ""
+msgstr "hent lysstyrke"
 
 #: taextras.py:146
 msgid "get the brightness of the ambient light"
-msgstr ""
+msgstr "hent lysstyrken for det omgivende lys"
 
 #: taextras.py:147
 msgid "average color"
-msgstr ""
+msgstr "farvegennemsnit"
 
 #: taextras.py:148
 msgid ""
 "if set to 0 then color averaging is off during calibration; for other values "
 "it is on"
 msgstr ""
+"hvis angivet til 0, så er farvegennemsnit slået fra under kalibrering; for "
+"andre værdier er det slået til"
 
 #: taextras.py:149
 msgid "x position"
@@ -791,15 +790,15 @@ msgstr "Palette af WeDo-blokke"
 
 #: taextras.py:285
 msgid "WeDo"
-msgstr ""
+msgstr "WeDo"
 
 #: taextras.py:286
 msgid "set current WeDo device"
-msgstr ""
+msgstr "angiv nuværende WeDo-enhed"
 
 #: taextras.py:287
 msgid "number of WeDo devices"
-msgstr ""
+msgstr "antallet af WeDo-enheder"
 
 #: taextras.py:289
 msgid ""
@@ -840,20 +839,20 @@ msgstr "angiv værdien for Motor B"
 
 #: taextras.py:300
 msgid "WeDo is unavailable"
-msgstr ""
+msgstr "WeDo er ikke tilgængelig"
 
 #. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
 #: taextras.py:302
 #, python-format
 msgid "WeDo %d is unavailable; defaulting to 1"
-msgstr ""
+msgstr "WeDo %d er ikke tilgængelig; anvender standarden 1"
 
 #. TRANS: %(device)s and %(wedo_number)d are substitution strings;
 #. please leave untranslated
 #: taextras.py:305
 #, python-format
 msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
-msgstr ""
+msgstr "%(device)s er ikke tilgængelig på WeDo %(wedo_number)d"
 
 #. TRANS: Lego NXT is a robotics product of the LEGO company
 #: taextras.py:311
@@ -887,42 +886,41 @@ msgid "sound"
 msgstr "lyd"
 
 #: taextras.py:320
-#, fuzzy
 msgid "grey"
 msgstr "grå"
 
 #. TRANS: The brick is the NXT controller
 #: taextras.py:322
 msgid "Please check the connection with the brick"
-msgstr ""
+msgstr "Tjek venligst forbindelsen til brikken"
 
 #: taextras.py:323
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT A, B or C"
-msgstr ""
+msgstr "Ugyldig port '%s'. Porten skal være: PORT A, B eller C"
 
 #: taextras.py:324
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
-msgstr ""
+msgstr "Ugyldig port '%s'. Porten skal være: PORT 1, 2, 3 eller 4"
 
 #: taextras.py:325
 msgid "The value of power must be between -127 to 127"
-msgstr ""
+msgstr "Værdien af styrken skal være mellem -127 og 127"
 
 #: taextras.py:326
 #, python-format
 msgid "The parameter must be a integer, not '%s'"
-msgstr ""
+msgstr "Parameteret skal være et heltal, ikke '%s'"
 
 #: taextras.py:327
 msgid "An error has occurred: check all connections and try to reconnect"
-msgstr ""
+msgstr "Der er opstået en fejl: tjek alle forbindelser og for at tilslutte igen"
 
 #: taextras.py:328
 #, python-format
 msgid "NXT found %s bricks"
-msgstr ""
+msgstr "NXT fandt %s brikker"
 
 #: taextras.py:329
 msgid "NXT not found"
@@ -931,7 +929,7 @@ msgstr "NXT ikke fundet"
 #: taextras.py:330
 #, python-format
 msgid "Brick number %s was not found"
-msgstr ""
+msgstr "Brik nummer %2 blev ikke fundet"
 
 #: taextras.py:331
 msgid "refresh NXT"
@@ -943,23 +941,23 @@ msgstr "Søg efter en tilsluttet NXT-klods."
 
 #: taextras.py:333
 msgid "NXT"
-msgstr ""
+msgstr "NXT"
 
 #: taextras.py:334
 msgid "set current NXT device"
-msgstr ""
+msgstr "angiv nuværende NXT-enhed"
 
 #: taextras.py:335
 msgid "number of NXT devices"
-msgstr ""
+msgstr "antallet af NXT-enheder"
 
 #: taextras.py:336
 msgid "brick name"
-msgstr ""
+msgstr "navn på brik"
 
 #: taextras.py:337
 msgid "Get the name of a brick."
-msgstr ""
+msgstr "Hent navnet på en brik."
 
 #: taextras.py:338
 msgid "play tone"
@@ -983,6 +981,8 @@ msgid ""
 "turn motor\n"
 "\n"
 msgstr ""
+"drej motor\n"
+"\n"
 
 #: taextras.py:344
 msgid "port"
@@ -1007,10 +1007,13 @@ msgid ""
 "\n"
 "motors"
 msgstr ""
+"synkronisér\n"
+"\n"
+"motorer"
 
 #: taextras.py:350
 msgid "steering"
-msgstr ""
+msgstr "styring"
 
 #: taextras.py:351
 msgid "synchronize two motors connected in PORT B and PORT C"
@@ -1107,7 +1110,7 @@ msgstr "lys-sensor"
 
 #: taextras.py:375
 msgid "grey sensor"
-msgstr ""
+msgstr "grå-sensor"
 
 #: taextras.py:376
 msgid "PORT 3"
@@ -1158,7 +1161,7 @@ msgstr "batteri-niveau"
 
 #: taextras.py:390
 msgid "Get battery level of the brick"
-msgstr ""
+msgstr "Hent batteriniveau for en brik"
 
 #. TRANS: Arduino plugin to control an Arduino board
 #: taextras.py:395
@@ -1204,35 +1207,35 @@ msgstr "FEJL: Tilstanden skal være enten INPUT, OUTPUT, PBM eller SERVO."
 
 #: taextras.py:406
 msgid "refresh Arduino"
-msgstr ""
+msgstr "genopfrisk Arduino"
 
 #: taextras.py:407
 msgid "Search for connected Arduinos."
-msgstr ""
+msgstr "Søg efter tilsluttede Arduinoer."
 
 #: taextras.py:408
 msgid "Arduino"
-msgstr ""
+msgstr "Arduino"
 
 #: taextras.py:409
 msgid "set current Arduino board"
-msgstr ""
+msgstr "angiv nuværende Arduino-bræt"
 
 #: taextras.py:410
 msgid "number of Arduinos"
-msgstr ""
+msgstr "antallet af Arduinoer"
 
 #: taextras.py:411
 msgid "number of Arduino boards"
-msgstr ""
+msgstr "antallet af Arduino-bræt"
 
 #: taextras.py:412
 msgid "Arduino name"
-msgstr ""
+msgstr "Arduino-navn"
 
 #: taextras.py:413
 msgid "Get the name of an Arduino."
-msgstr ""
+msgstr "Hent navnet for en Arduino."
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
@@ -1314,176 +1317,183 @@ msgstr "Sæt Arduino-port til PBM (pulsbreddemodulation)."
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:440
-#, fuzzy
 msgid "Palette of Expeyes blocks"
-msgstr "Palette af WeDo-blokke"
+msgstr "Palette af Expeyes-blokke"
 
 #. TRANS: Programmable voltage output
 #: taextras.py:442
 msgid "set PVS"
-msgstr ""
+msgstr "angiv PVS"
 
 #: taextras.py:443
 msgid "set programmable voltage output"
-msgstr ""
+msgstr "angiv programmerbar udgangseffekt på spænding"
 
 #. TRANS: Square wave 1 voltage output
 #: taextras.py:445
 msgid "set SQR1 voltage"
-msgstr ""
+msgstr "angiv SQR1-spænding"
 
 #: taextras.py:446
 msgid "set square wave 1 voltage output"
-msgstr ""
+msgstr "angiv udgangseffekt på spænding for firkantet kurve 1"
 
 #. TRANS: Square wave 2 voltage output
 #: taextras.py:448
 msgid "set SQR2 voltage"
-msgstr ""
+msgstr "angiv SQR2-spænding"
 
 #: taextras.py:449
 msgid "set square wave 2 voltage output"
-msgstr ""
+msgstr "angiv udgangseffekt på spænding for firkantet kurve 2"
 
 #. TRANS: Digital output level
 #: taextras.py:451
 msgid "set OD1"
-msgstr ""
+msgstr "angiv OD1"
 
 #: taextras.py:452
 msgid "set digital output level (OD1) low (0) or high (1)"
-msgstr ""
+msgstr "angiv niveau på digitalt output (OD1), lav (0) eller høj (1)"
 
 #. TRANS: Input 1 voltage level
 #: taextras.py:454
 msgid "IN1 level"
-msgstr ""
+msgstr "IN1-niveau"
 
 #: taextras.py:455
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
 msgstr ""
+"returnerer 1 når IN1-spændingsniveau >2,5 volt, 0 når IN1-spændingsniveau <= "
+"2,5 volt"
 
 #. TRANS: Input 2 voltage level
 #: taextras.py:458
 msgid "IN2 level"
-msgstr ""
+msgstr "IN2-niveau"
 
 #: taextras.py:459
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
 msgstr ""
+"returnerer 1 når IN2-spændingsniveau >2,5 volt, 0 når IN2-spændingsniveau <= "
+"2,5 volt"
 
 #. TRANS: Resistive sensor voltage level
 #: taextras.py:462
 msgid "SEN level"
-msgstr ""
+msgstr "SEN-niveau"
 
 #: taextras.py:463
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
 msgstr ""
+"returnerer 1 når modstandssensor (SEN) >2,5 volt, 0 når modstandssensor "
+"(SEN) <= 2,5 volt"
 
 #: taextras.py:465
 msgid "capture"
-msgstr ""
+msgstr "indfang"
 
 #: taextras.py:466
 msgid "input"
-msgstr ""
+msgstr "input"
 
 #: taextras.py:467
 msgid "samples"
-msgstr ""
+msgstr "stikprøver"
 
 #: taextras.py:468
 msgid "interval"
-msgstr ""
+msgstr "interval"
 
 #. TRANS: MS is microseconds
 #: taextras.py:470
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr ""
+"tag flere stikprøver fra input ved interval (MS); resultater skubbes til "
+"FIFO"
 
 #. TRANS: Analog input 1 voltage level
 #: taextras.py:473
 msgid "A1"
-msgstr ""
+msgstr "A1"
 
 #: taextras.py:474
 msgid "read analog input 1 voltage"
-msgstr ""
+msgstr "læs spænding for analog input 1"
 
 #. TRANS: Analog input 2 voltage level
 #: taextras.py:476
 msgid "A2"
-msgstr ""
+msgstr "A2"
 
 #: taextras.py:477
 msgid "read analog input 2 voltage"
-msgstr ""
+msgstr "læs spænding for analog input 2"
 
 #. TRANS: Read input 1 voltage
 #: taextras.py:479
 msgid "IN1"
-msgstr ""
+msgstr "IN1"
 
 #: taextras.py:480
 msgid "read input 1 voltage"
-msgstr ""
+msgstr "læs spænding fra input 1"
 
 #. TRANS: Read input 2 voltage
 #: taextras.py:482
 msgid "IN2"
-msgstr ""
+msgstr "IN2"
 
 #: taextras.py:483
 msgid "read input 2 voltage"
-msgstr ""
+msgstr "læs spænding fra input 2"
 
 #. TRANS: Read analog sensor input voltage
 #: taextras.py:485
 msgid "SEN"
-msgstr ""
+msgstr "SEN"
 
 #: taextras.py:486
 msgid "read analog sensor input voltage"
-msgstr ""
+msgstr "læs input-spænding fra analog sensor"
 
 #. TRANS: Read square wave 1 input voltage
 #: taextras.py:488
 msgid "SQR1"
-msgstr ""
+msgstr "SQR1"
 
 #: taextras.py:489
 msgid "read square wave 1 voltage"
-msgstr ""
+msgstr "læs spænding for firkantet bølge 1"
 
 #. TRANS: Read square wave 2 input voltage
 #: taextras.py:491
 msgid "SQR2"
-msgstr ""
+msgstr "SQR2"
 
 #: taextras.py:492
 msgid "read square wave 2 voltage"
-msgstr ""
+msgstr "læs spænding for firkantet bølge 2"
 
 #. TRANS: Read programmable voltage
 #: taextras.py:494
 msgid "PVS"
-msgstr ""
+msgstr "PVS"
 
 #: taextras.py:495
 msgid "read programmable voltage"
-msgstr ""
+msgstr "læs programmérbar spænding"
 
 #: taextras.py:496
 msgid "Expeyes device not found"
-msgstr ""
+msgstr "Fandt ikke Expeyes-enhed"
 
 #~ msgid "resume playing video or audio"
 #~ msgstr "fortsætter afspilning af video eller lyd"
