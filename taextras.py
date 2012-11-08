@@ -317,7 +317,7 @@ LEGO_STRINGS = [
     _('color'),
     _('light'),
     _('sound'),
-    _('grey'),
+    _('gray'),
     # TRANS: The brick is the NXT controller
     _('Please check the connection with the brick'),
     _("Invalid port '%s'. Port must be: PORT A, B or C"),
@@ -372,7 +372,7 @@ LEGO_STRINGS = [
     _('PORT 2'),
     _('PORT 2 of the brick'),
     _('light sensor'),
-    _('grey sensor'),
+    _('gray sensor'),
     _('PORT 3'),
     _('PORT 3 of the brick'),
     _('touch sensor'),
