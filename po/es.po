@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-02 00:32-0400\n"
-"PO-Revision-Date: 2012-11-02 16:41+0200\n"
+"PO-Revision-Date: 2012-11-08 02:57+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -83,7 +83,7 @@ msgstr "ajusta la intensidad del LED entre 0 y 255"
 
 #: taextras.py:67
 msgid "returns the object gray level as a number between 0 and 1023"
-msgstr "devuelve el nivel de luz en el ambiente como un número entre 0 y 1023"
+msgstr "devuelve el nivel de luz de un objeto como un número entre 0 y 1023"
 
 #: taextras.py:68
 msgid "returns 1 when the button is press and 0 otherwise"
