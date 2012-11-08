@@ -2,19 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-02 00:32-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-11-08 05:28+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -599,7 +600,7 @@ msgstr "commence le polygone"
 msgid "Begin defining a new polygon based on the current Turtle xy position."
 msgstr ""
 "Commence à définir un nouveau polygone basé sur la position xy courante de "
-"la Tortue"
+"la Tortue."
 
 #: taextras.py:227
 msgid "add point"
@@ -611,7 +612,7 @@ msgid ""
 "position."
 msgstr ""
 "Ajoute un nouveau point au polygone courant sur la base de la position xy "
-"courante de la Tortue"
+"courante de la Tortue."
 
 #: taextras.py:230
 msgid "end polygon"
@@ -619,7 +620,7 @@ msgstr "fin du polygone"
 
 #: taextras.py:231
 msgid "Define a new polygon."
-msgstr "Définit un nouveau polygone"
+msgstr "Définit un nouveau polygone."
 
 #: taextras.py:232
 msgid "end filled polygon"
@@ -631,7 +632,7 @@ msgstr "Pas un polygone simple"
 
 #: taextras.py:234
 msgid "Define a new filled polygon."
-msgstr "Définit un nouveau polygone plein"
+msgstr "Définit un nouveau polygone plein."
 
 #: taextras.py:235
 msgid "triangle"
@@ -656,7 +657,7 @@ msgstr "cercle"
 
 #: taextras.py:241
 msgid "Add a circle object to the project."
-msgstr "Ajoute un objet cercle au projet"
+msgstr "Ajoute un objet cercle au projet."
 
 #: taextras.py:242
 msgid "rectangle"
@@ -668,7 +669,7 @@ msgstr "largeur"
 
 #: taextras.py:245
 msgid "Add a rectangle object to the project."
-msgstr "Ajoute un objet rectangle au projet"
+msgstr "Ajoute un objet rectangle au projet."
 
 #: taextras.py:246
 msgid "reset"
@@ -733,7 +734,7 @@ msgstr "enregistrer comme une activité Physics"
 
 #: taextras.py:262
 msgid "Save the project to the Journal as a Physics activity."
-msgstr "Enregistre le projet dans le journal comme activité Physique"
+msgstr "Enregistre le projet dans le journal comme activité Physique."
 
 #. TRANS: Here, gear means a toothed wheel, as in a clock-works
 #: taextras.py:264
@@ -814,7 +815,7 @@ msgid ""
 "tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
 "tilt left, 2 == tilt right)"
 msgstr ""
-"tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == \n"
+"tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
 "tilt left, 2 == tilt right)"
 
 #. TRANS: This string is shorthand for "output of the distance sensor"
@@ -1062,7 +1063,7 @@ msgstr "frein moteur"
 
 #: taextras.py:361
 msgid "Stop a specified motor."
-msgstr "Arrêter un moteur spécifique"
+msgstr "Arrêter un moteur spécifique."
 
 #. TRANS: reset is used to reset the counter associated with the motor
 #: taextras.py:363
@@ -1071,7 +1072,7 @@ msgstr "réinitialiser le moteur"
 
 #: taextras.py:364
 msgid "Reset the motor counter."
-msgstr "Réinitialiser le compteur du moteur"
+msgstr "Réinitialiser le compteur du moteur."
 
 #: taextras.py:365
 msgid "motor position"
@@ -1079,7 +1080,7 @@ msgstr "position du moteur"
 
 #: taextras.py:366
 msgid "Get the motor position."
-msgstr "Récupérer la position du moteur"
+msgstr "Récupérer la position du moteur."
 
 #: taextras.py:367
 msgid "PORT 1"
@@ -1099,7 +1100,7 @@ msgstr "capteur"
 
 #: taextras.py:371
 msgid "Read sensor output."
-msgstr "Lire la sortie du capteur"
+msgstr "Lire la sortie du capteur."
 
 #: taextras.py:372
 msgid "PORT 2"
@@ -1278,8 +1279,8 @@ msgid ""
 "determine voltage. For USB, volt=((read)*5)/1024) approximately."
 msgstr ""
 "Lire la valeur d'un port analogique. La valeur peut être entre 0 et 1023. "
-"Utilisez Vref pour \n"
-"déterminer le voltage. Pour l'USB, volt=((read)*5)/1024) approximativement."
+"Utilisez Vref pour déterminer le voltage. Pour l'USB, volt=((read)*5)/1024) "
+"approximativement."
 
 #: taextras.py:426
 msgid "digital write"
