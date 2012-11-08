@@ -94,6 +94,8 @@ between 0 and 255'),
     _('speed Butia'),
     _('set the speed of the Butia motors'),
     _('the speed must be a value between 0 and 1023'),
+    _('move Butia'),
+    _('moves the Butia at specify speed motors'),
     #TRANS: This string is shorthand for "move Butia forward"
     _('forward Butia'),
     _('move the Butia robot forward'),
