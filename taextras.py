@@ -64,7 +64,7 @@ BUTIA_STRINGS = [
     #(http://www.fing.edu.uy/inco/proyectos/butia/)
     _('TurtleBots'),
     _('adjust LED intensity between 0 and 255'),
-    _('returns the object gray level'),
+    _('returns the gray level'),
     _('returns 1 when the button is press and 0 otherwise'),
     _('returns the ambient light level'),
     _('returns the ambient temperature'),
