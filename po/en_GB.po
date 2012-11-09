@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-08 00:33-0500\n"
-"PO-Revision-Date: 2012-11-08 14:04+0200\n"
+"POT-Creation-Date: 2012-11-09 00:33-0500\n"
+"PO-Revision-Date: 2012-11-09 08:33+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
@@ -82,7 +82,7 @@ msgid "adjust LED intensity between 0 and 255"
 msgstr "adjust LED intensity between 0 and 255"
 
 #: taextras.py:67
-msgid "returns the object gray level"
+msgid "returns the gray level"
 msgstr "returns the object grey level"
 
 #: taextras.py:68
@@ -196,8 +196,8 @@ msgid "move Butia"
 msgstr "move Butia"
 
 #: taextras.py:97
-msgid "moves the Butia at specify speed motors"
-msgstr "moves the Butia at specified motor speeds"
+msgid "moves the Butia motors at the specified speed"
+msgstr "moves the Butia motors at the specified speed"
 
 #. TRANS: This string is shorthand for "move Butia forward"
 #: taextras.py:99
@@ -889,7 +889,7 @@ msgid "sound"
 msgstr "sound"
 
 #: taextras.py:321
-msgid "grey"
+msgid "gray"
 msgstr "grey"
 
 #. TRANS: The brick is the NXT controller
@@ -1112,7 +1112,7 @@ msgid "light sensor"
 msgstr "light sensor"
 
 #: taextras.py:376
-msgid "grey sensor"
+msgid "gray sensor"
 msgstr "grey sensor"
 
 #: taextras.py:377
@@ -1496,6 +1496,9 @@ msgstr "read programmable voltage"
 #: taextras.py:497
 msgid "Expeyes device not found"
 msgstr "Expeyes device not found"
+
+#~ msgid "moves the Butia at specify speed motors"
+#~ msgstr "moves the Butia at specified motor speeds"
 
 #~ msgid "returns the object gray level as a number between 0 and 1023"
 #~ msgstr "returns the object grey level as a number between 0 and 1023"
