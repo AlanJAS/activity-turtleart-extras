@@ -11,7 +11,7 @@ if len(sys.argv) == 2:
         print 'Using TurtleBots-style paths'
         path = os.path.join(
                 os.path.abspath('..'),
-                'tmp',
+                'mainline',
                 'po')
 else:
     print 'Using default paths'
