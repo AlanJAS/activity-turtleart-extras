@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-09 00:33-0500\n"
-"PO-Revision-Date: 2012-11-09 09:11+0200\n"
+"PO-Revision-Date: 2012-11-13 03:02+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -698,10 +698,9 @@ msgstr ""
 "números positivos; el motor es colocado en el objeto creado mas "
 "recientemente."
 
-# puede ser: alfiler, perno, clavija, clavo - En Physics es: Tachuela (asi que por coherencia, usé Tachuela)
 #: taextras.py:255 taextras.py:418
 msgid "pin"
-msgstr "tachuela"
+msgstr "pin"
 
 #: taextras.py:256
 msgid "Pin an object down so that it cannot fall."
