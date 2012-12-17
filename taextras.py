@@ -60,9 +60,13 @@ CURRENCY_STRINGS = [
     ]
 
 BUTIA_STRINGS = [
-    #TRANS: Butia is the Arduino Robot Project from Uruguay
+    #TRANS: Butia is a Robot Project from Uruguay
     #(http://www.fing.edu.uy/inco/proyectos/butia/)
     _('TurtleBots'),
+    _('ERROR: The speed must be a value between 0 and 1023'),
+    _('ERROR: The pin must be between 1 and 8'),
+    _('ERROR: The value must be 0 or 1, LOW or HIGH'),
+    _('ERROR: The mode must be INPUT or OUTPUT.'),
     _('adjust LED intensity between 0 and 255'),
     _('returns the gray level'),
     _('returns 1 when the button is press and 0 otherwise'),
@@ -73,16 +77,16 @@ BUTIA_STRINGS = [
     _('returns 1 when the sensors detects a magnetic field, 0 otherwise'),
     _('switches from 0 to 1, the frequency depends on the vibration'),
     _('returns the value of the resistance'),
+    _('returns the value of the voltage'),
+    _('gpio'),
     _('LED'),
     _('button'),
     _('grayscale'),
     _('ambient light'),
     _('temperature'),
     _('distance'),
-    _('tilt'),
-    _('magnetic induction'),
-    _('vibration'),
     _('resistance'),
+    _('voltage'),
     _('Butia Robot'),
     _('refresh Butia'),
     _('refresh the state of the Butia palette and blocks'),
@@ -92,28 +96,45 @@ BUTIA_STRINGS = [
     #TRANS: This string is shorthand for "speed of Butia"
     _('speed Butia'),
     _('set the speed of the Butia motors'),
-    _('the speed must be a value between 0 and 1023'),
     _('move Butia'),
+    _('left'),
+    _('right'),
     _('moves the Butia motors at the specified speed'),
+    _('stop Butia'),
+    _('stop the Butia robot'),
     #TRANS: This string is shorthand for "move Butia forward"
     _('forward Butia'),
     _('move the Butia robot forward'),
-    _('move the Butia robot forward a predefined distance'),
     #TRANS: This string is shorthand for "turn Butia left"
     _('left Butia'),
     _('turn the Butia robot at left'),
-    #TRANS: This string is shorthand for "move Butia backward"
-    _('backward Butia'),
-    _('move the Butia robot backward'),
-    _('move the Butia robot backward a predefined distance'),
     #TRANS: This string is shorthand for "turn Butia right"
     _('right Butia'),
     _('turn the Butia robot at right'),
-    _('turn Butia'),
-    _('turn the Butia robot x degrees'),
-    _('stop Butia'),
-    _('stop the Butia robot'),
-    _('Butia')
+    #TRANS: This string is shorthand for "move Butia backward"
+    _('backward Butia'),
+    _('move the Butia robot backward'),
+    _('Butia Robot extra blocks'),
+    _('hack pin mode'),
+    _('pin'),
+    _('mode'),
+    _('Select the pin function (INPUT, OUTPUT).'),
+    _('write hack pin Butia'),
+    _('value'),
+    _('set a hack pin to 0 or 1'),
+    _('read hack pin Butia'),
+    _('read the value of a hack pin'),
+    _('HIGH'),
+    _('Set HIGH value for digital port.'),
+    _('INPUT'),
+    _('Configure hack port for digital input.'),
+    _('LOW'),
+    _('Set LOW value for digital port.'),
+    _('OUTPUT'),
+    _('Configure hack port for digital output.'),
+    _('Butia'),
+    _('ERROR: The pin %s must be in OUTPUT mode.'),
+    _('ERROR: The pin %s must be in INPUT mode.')
 ]
 
 FOLLOWME_STRINGS = [
