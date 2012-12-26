@@ -7,7 +7,8 @@ DEFAULT = True
 
 print 'Merging strings of turtle-extras with turtleblocks'
 
-if len(sys.argv) == 2:
+n = len(sys.argv)
+if n == 2 or n == 3:
     if sys.argv[1] == 'turtlebots':
         print 'Using TurtleBots-style paths'
         DEFAULT = False
@@ -15,10 +16,15 @@ if len(sys.argv) == 2:
                 os.path.abspath('..'),
                 'mainline',
                 'po')
-        path_tmp = os.path.join(
-                os.path.abspath('..'),
-                'tmp',
-                'po')
+        if n == 3:
+            p = sys.argv[2]
+            if p == 'tmp':
+                path_tmp = os.path.join(
+                    os.path.abspath('..'),
+                    'tmp',
+                    'po')
+            else:
+                path_tmp = os.path.join(p, 'po')
 else:
     print 'Using default paths'
     path = os.path.join(
