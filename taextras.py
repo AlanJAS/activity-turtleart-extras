@@ -63,6 +63,8 @@ BUTIA_STRINGS = [
     #TRANS: Butia is a Robot Project from Uruguay
     #(http://www.fing.edu.uy/inco/proyectos/butia/)
     _('TurtleBots'),
+    #TRANS: summary of TurtleBots activity
+    _('TurtleBlocks with some robot plugins: Butia, Lego NxT, WeDo, FollowMe'),
     _('ERROR: The speed must be a value between 0 and 1023'),
     _('ERROR: The pin must be between 1 and 8'),
     _('ERROR: The value must be 0 or 1, LOW or HIGH'),
