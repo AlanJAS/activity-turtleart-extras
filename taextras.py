@@ -64,7 +64,7 @@ BUTIA_STRINGS = [
     #(http://www.fing.edu.uy/inco/proyectos/butia/)
     _('TurtleBots'),
     #TRANS: summary of TurtleBots activity
-    _('TurtleBlocks with some robot plugins: Butia, Lego NxT, WeDo, FollowMe'),
+    _('TurtleBlocks with Butia, Lego NxT, WeDo, Arduino, FollowMe plugins'),
     _('ERROR: The speed must be a value between 0 and 1023'),
     _('ERROR: The pin must be between 1 and 8'),
     _('ERROR: The value must be 0 or 1, LOW or HIGH'),
@@ -184,6 +184,15 @@ FOLLOWME_STRINGS = [
     _('set the color mode of the camera to HSV'),
     _('empty calibration'),
     _('error in string conversion')
+]
+
+PATTERN_DETECTION_STRINGS = [
+    #TRANS: Pattern detection is a plugin that allow detect signals with the camera
+    _('Pattern detection'),
+    _('Seeing signal'),
+    _('Returns True if the signal is in front of the camera'),
+    _('Distance to signal'),
+    _('Returns the distance of the siganl to the camera in milimeters')
 ]
 
 SUMO_STRINGS = [
@@ -328,7 +337,6 @@ WEDO_STRINGS = [
     # please leave untranslated
     _('%(device)s is unavailable on WeDo %(wedo_number)d')
 ]
-
 
 LEGO_STRINGS = [
     # TRANS: Lego NXT is a robotics product of the LEGO company
@@ -519,3 +527,4 @@ to FIFO"),
     _("read programmable voltage"),
     _("Expeyes device not found")
 ]
+
