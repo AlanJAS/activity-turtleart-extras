@@ -32,6 +32,11 @@ TODO: build some automated way of maintaining this file.
 
 # ACTIVITIES
 
+TURTLEBLOCK_STRINGS = [
+    _('Turtle Blocks')
+    _('Turtle Art')
+    ]
+
 TURTLEARTMINI_STRINGS = [
     _('Turtle Art Mini')
     ]
