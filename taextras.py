@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-#Copyright (c) 2011 Walter Bender
+#Copyright (c) 2011-13 Walter Bender
+#Copyright (c) 2011-13 Alan Jhonn Aguiar Schwyn
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -174,7 +175,8 @@ FOLLOWME_STRINGS = [
     _('get brightness'),
     _('get the brightness of the ambient light'),
     _('average color'),
-    _('if set to 0 then color averaging is off during calibration; for other values it is on'),
+    _('if set to 0 then color averaging is off during calibration; \
+for other values it is on'),
     _('x position'),
     _('return x position'),
     _('y position'),
@@ -192,12 +194,13 @@ FOLLOWME_STRINGS = [
 ]
 
 PATTERN_DETECTION_STRINGS = [
-    #TRANS: Pattern detection is a plugin that allow detect signals with the camera
+    #TRANS: Pattern detection is a plugin that allow detect signals
+    #with the camera
     _('Pattern detection'),
     _('Seeing signal'),
     _('Returns True if the signal is in front of the camera'),
     _('Distance to signal'),
-    _('Returns the distance of the siganl to the camera in milimeters')
+    _('Returns the distance of the signal to the camera in millimeters')
 ]
 
 SUMO_STRINGS = [
