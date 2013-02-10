@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-07 00:34-0500\n"
-"PO-Revision-Date: 2013-02-10 10:52+0200\n"
+"PO-Revision-Date: 2013-02-10 10:57+0200\n"
 "Last-Translator: Aputsiaq Niels <aj@isit.gl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -1461,8 +1461,8 @@ msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
 msgstr ""
-"returnerer 1 når IN1-spændingsniveau >2,5 volt, 0 når IN1-spændingsniveau <= "
-"2,5 volt"
+"returnerer 1 når IN1-spændingsniveau >2.5 volt, 0 når IN1-spændingsniveau <= "
+"2.5 volt"
 
 #. TRANS: Input 2 voltage level
 #: taextras.py:495
@@ -1474,8 +1474,8 @@ msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
 msgstr ""
-"returnerer 1 når IN2-spændingsniveau >2,5 volt, 0 når IN2-spændingsniveau <= "
-"2,5 volt"
+"returnerer 1 når IN2-spændingsniveau >2.5 volt, 0 når IN2-spændingsniveau <= "
+"2.5 volt"
 
 #. TRANS: Resistive sensor voltage level
 #: taextras.py:499
@@ -1487,8 +1487,8 @@ msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
 msgstr ""
-"returnerer 1 når spændingssensor (SEN) >2,5 volt, 0 når SEN-spændingsensor "
-"<= 2,5 volt"
+"returnerer 1 når spændingssensor (SEN) >2.5 volt, 0 når SEN-spændingsensor "
+"<= 2.5 volt"
 
 #: taextras.py:502
 msgid "capture"
