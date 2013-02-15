@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-11 00:33-0500\n"
-"PO-Revision-Date: 2012-12-24 00:56+0200\n"
+"PO-Revision-Date: 2013-02-15 13:45+0200\n"
 "Last-Translator: samy boutayeb <s.boutayeb@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -25,7 +25,7 @@ msgstr "turtleart-extras (master)"
 
 #: taextras.py:37
 msgid "Turtle Blocks"
-msgstr ""
+msgstr "BlocsTortue"
 
 #: taextras.py:38
 msgid "Turtle Art"
@@ -73,11 +73,11 @@ msgstr "Palette de guaranis du Paraguay"
 
 #: taextras.py:64
 msgid "Palette of Peruvian Nuevo Soles"
-msgstr "Palette de Nuevo Sol péruviens"
+msgstr "Palette de nouveaux sols péruviens"
 
 #: taextras.py:65
 msgid "Palette of Uruguayan Pesos"
-msgstr "Palette de pesos uruguayennes"
+msgstr "Palette de pesos uruguayens"
 
 #. TRANS: Butia is a Robot Project from Uruguay
 #. (http://www.fing.edu.uy/inco/proyectos/butia/)
@@ -88,7 +88,7 @@ msgstr "TurtleBots"
 #. TRANS: summary of TurtleBots activity
 #: taextras.py:73
 msgid "TurtleBlocks with Butia, Lego NxT, WeDo, Arduino, FollowMe plugins"
-msgstr ""
+msgstr "BlocsTortue avec les modules Butia, Lego NxT, WeDo, Arduino, FollowMe"
 
 #: taextras.py:74
 msgid "ERROR: The speed must be a value between 0 and 1023"
@@ -96,7 +96,7 @@ msgstr "ERREUR : la vitesse doit être une valeur entre 0 et 1023"
 
 #: taextras.py:75
 msgid "ERROR: The pin must be between 1 and 8"
-msgstr "ERREUR : Le pin doit être compris entre 1 et 8"
+msgstr "ERREUR : La broche doit être réglée entre 1 et 8"
 
 #: taextras.py:76
 msgid "ERROR: The value must be 0 or 1, LOW or HIGH"
@@ -280,28 +280,27 @@ msgstr "fait reculer le robot Butia"
 
 #: taextras.py:125
 msgid "Butia Robot extra blocks"
-msgstr ""
+msgstr "Blocs supplémentaires robot Butia"
 
 #: taextras.py:126
 msgid "hack pin mode"
-msgstr ""
+msgstr "mode broche hack"
 
 #: taextras.py:127 taextras.py:295 taextras.py:457
 msgid "pin"
-msgstr "épingle"
+msgstr "broche"
 
 #: taextras.py:128 taextras.py:458
 msgid "mode"
 msgstr "mode"
 
 #: taextras.py:129
-#, fuzzy
 msgid "Select the pin function (INPUT, OUTPUT)."
-msgstr "Choisir la function \"pin\" (ENTRÉE, SORTIE, MDL, SERVO)."
+msgstr "Choisir la fonction de la broche (ENTRÉE, SORTIE)."
 
 #: taextras.py:130
 msgid "write hack pin Butia"
-msgstr ""
+msgstr "écrire broche hack Butia"
 
 #: taextras.py:131 taextras.py:461
 msgid "value"
@@ -309,15 +308,15 @@ msgstr "valeur"
 
 #: taextras.py:132
 msgid "set a hack pin to 0 or 1"
-msgstr ""
+msgstr "fixe une broche hack à 0 ou 1"
 
 #: taextras.py:133
 msgid "read hack pin Butia"
-msgstr ""
+msgstr "lire broche hack Butia"
 
 #: taextras.py:134
 msgid "read the value of a hack pin"
-msgstr ""
+msgstr "lire la valeur d'une broche hack"
 
 #. TRANS: Arduino plugin to control an Arduino board
 #: taextras.py:135 taextras.py:435
@@ -361,12 +360,12 @@ msgstr "Butia"
 #: taextras.py:144
 #, python-format
 msgid "ERROR: The pin %s must be in OUTPUT mode."
-msgstr ""
+msgstr "ERREUR : La broche %s doit être en mode SORTIE."
 
 #: taextras.py:145
 #, python-format
 msgid "ERROR: The pin %s must be in INPUT mode."
-msgstr ""
+msgstr "ERREUR : La broche %s doit être en mode ENTRÉE."
 
 #: taextras.py:149
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
@@ -1359,11 +1358,11 @@ msgstr "Obtenir le nom d'un Arduino."
 #. in which an I/O pin is being used.
 #: taextras.py:456
 msgid "pin mode"
-msgstr "mode \"pin\""
+msgstr "mode broche"
 
 #: taextras.py:459
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
-msgstr "Choisir la function \"pin\" (ENTRÉE, SORTIE, MDL, SERVO)."
+msgstr "Choisir la fonction de la broche (ENTRÉE, SORTIE, MLI, SERVO)."
 
 #: taextras.py:460
 msgid "analog write"
