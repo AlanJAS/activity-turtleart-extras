@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-11 00:33-0500\n"
-"PO-Revision-Date: 2013-02-15 13:45+0200\n"
+"PO-Revision-Date: 2013-02-15 13:58+0200\n"
 "Last-Translator: samy boutayeb <s.boutayeb@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -332,9 +332,8 @@ msgid "INPUT"
 msgstr "ENTRÉE"
 
 #: taextras.py:138
-#, fuzzy
 msgid "Configure hack port for digital input."
-msgstr "Configurer le port Arduino pour une entrée digitale."
+msgstr "Configurer le port hack pour une entrée numérique."
 
 #: taextras.py:139 taextras.py:436
 msgid "LOW"
@@ -349,9 +348,8 @@ msgid "OUTPUT"
 msgstr "SORTIE"
 
 #: taextras.py:142
-#, fuzzy
 msgid "Configure hack port for digital output."
-msgstr "Configurer le port Arduino pour la sortie digitale."
+msgstr "Configurer le port hack pour la sortie numérique."
 
 #: taextras.py:143
 msgid "Butia"
@@ -532,23 +530,23 @@ msgstr "erreur dans la conversion d'une chaîne de caractères"
 #. with the camera
 #: taextras.py:199
 msgid "Pattern detection"
-msgstr ""
+msgstr "Détection de contour"
 
 #: taextras.py:200
 msgid "Seeing signal"
-msgstr ""
+msgstr "Visualisation du signal"
 
 #: taextras.py:201
 msgid "Returns True if the signal is in front of the camera"
-msgstr ""
+msgstr "Retourne Vrai si le signal est en face de la caméra"
 
 #: taextras.py:202
 msgid "Distance to signal"
-msgstr ""
+msgstr "Distance au signal"
 
 #: taextras.py:203
 msgid "Returns the distance of the signal to the camera in millimeters"
-msgstr ""
+msgstr "Retourne la distance du signal à la caméra en millimètres"
 
 #. TRANS: SumBot is a robot programmed for "Sumo wrestling"
 #: taextras.py:208
@@ -1382,7 +1380,7 @@ msgid ""
 "determine voltage. For USB, volt=((read)*5)/1024) approximately."
 msgstr ""
 "Lire la valeur d'un port analogique. La valeur peut être entre 0 et 1023. "
-"Utilisez Vref pour déterminer le voltage. Pour l'USB, volt=((read)*5)/1024) "
+"Utilisez Vref pour déterminer la tension. Pour l'USB, volt=((read)*5)/1024) "
 "approximativement."
 
 #: taextras.py:466
@@ -1429,25 +1427,25 @@ msgstr "définit PVS"
 
 #: taextras.py:483
 msgid "set programmable voltage output"
-msgstr "définit une sortie de voltage programmable"
+msgstr "définit une sortie de tension programmable"
 
 #. TRANS: Square wave 1 voltage output
 #: taextras.py:485
 msgid "set SQR1 voltage"
-msgstr "définit le voltage SQR1"
+msgstr "définit la tension SQR1"
 
 #: taextras.py:486
 msgid "set square wave 1 voltage output"
-msgstr ""
+msgstr "définit la sortie de tension de l'onde carrée 1"
 
 #. TRANS: Square wave 2 voltage output
 #: taextras.py:488
 msgid "set SQR2 voltage"
-msgstr "définit le voltage SQR2"
+msgstr "définit la tension SQR2"
 
 #: taextras.py:489
 msgid "set square wave 2 voltage output"
-msgstr ""
+msgstr "définit la sortie de tension de l'onde carrée 2"
 
 #. TRANS: Digital output level
 #: taextras.py:491
@@ -1468,7 +1466,7 @@ msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
 msgstr ""
-"renvoie 1 si le niveau de voltage IN1 >2.5 volts, 0 si le niveau de voltage "
+"renvoie 1 si le niveau de tension IN1 >2.5 volts, 0 si le niveau de tension "
 "IN1 <= 2.5 volts"
 
 #. TRANS: Input 2 voltage level
@@ -1481,7 +1479,7 @@ msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
 msgstr ""
-"renvoie 1 si le niveau de voltage IN2 >2.5 volts, 0 si le niveau de voltage "
+"renvoie 1 si le niveau de tension IN2 >2.5 volts, 0 si le niveau de tension "
 "IN2 <= 2.5 volts"
 
 #. TRANS: Resistive sensor voltage level
@@ -1494,8 +1492,8 @@ msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
 msgstr ""
-"renvoie 1 si le voltage du capteur résistif (SEN) > 2.5, 0 si le niveau de "
-"voltage SEN <= 2.5 volts"
+"renvoie 1 si la tension du capteur résistif (SEN) > 2.5, 0 si le niveau de "
+"tension SEN <= 2.5 volts"
 
 #: taextras.py:505
 msgid "capture"
@@ -1511,7 +1509,7 @@ msgstr "exemples"
 
 #: taextras.py:508
 msgid "interval"
-msgstr "intervale"
+msgstr "intervalle"
 
 #. TRANS: MS is microseconds
 #: taextras.py:510
@@ -1528,7 +1526,7 @@ msgstr "A1"
 
 #: taextras.py:514
 msgid "read analog input 1 voltage"
-msgstr "lire le voltage d'entrée analogique 1"
+msgstr "lire la tension d'entrée analogique 1"
 
 #. TRANS: Analog input 2 voltage level
 #: taextras.py:516
@@ -1537,7 +1535,7 @@ msgstr "A2"
 
 #: taextras.py:517
 msgid "read analog input 2 voltage"
-msgstr "lire le voltage d'entrée analogique 2"
+msgstr "lire la tension d'entrée analogique 2"
 
 #. TRANS: Read input 1 voltage
 #: taextras.py:519
@@ -1546,7 +1544,7 @@ msgstr "IN1"
 
 #: taextras.py:520
 msgid "read input 1 voltage"
-msgstr "lire le voltage de l'entrée 1"
+msgstr "lire la tension de l'entrée 1"
 
 #. TRANS: Read input 2 voltage
 #: taextras.py:522
@@ -1555,7 +1553,7 @@ msgstr "IN2"
 
 #: taextras.py:523
 msgid "read input 2 voltage"
-msgstr "lire le voltage de l'entrée 2"
+msgstr "lire la tension de l'entrée 2"
 
 #. TRANS: Read analog sensor input voltage
 #: taextras.py:525
@@ -1564,7 +1562,7 @@ msgstr "SEN"
 
 #: taextras.py:526
 msgid "read analog sensor input voltage"
-msgstr "lire le voltage d'entrée du capteur analogique"
+msgstr "lire la tension d'entrée du capteur analogique"
 
 #. TRANS: Read square wave 1 input voltage
 #: taextras.py:528
@@ -1573,7 +1571,7 @@ msgstr "SQR1"
 
 #: taextras.py:529
 msgid "read square wave 1 voltage"
-msgstr ""
+msgstr "lit la sortie de tension de l'onde carrée 1"
 
 #. TRANS: Read square wave 2 input voltage
 #: taextras.py:531
@@ -1582,7 +1580,7 @@ msgstr "SQR2"
 
 #: taextras.py:532
 msgid "read square wave 2 voltage"
-msgstr ""
+msgstr "lit la sortie de tension de l'onde carrée 2"
 
 #. TRANS: Read programmable voltage
 #: taextras.py:534
@@ -1591,7 +1589,7 @@ msgstr "PVS"
 
 #: taextras.py:535
 msgid "read programmable voltage"
-msgstr "lire le voltage programmable"
+msgstr "lire la tension programmable"
 
 #: taextras.py:536
 msgid "Expeyes device not found"
