@@ -393,6 +393,7 @@ LEGO_STRINGS = [
     _('PORT B of the brick'),
     _('PORT C'),
     _('PORT C of the brick'),
+    _('synchronize\nmotors'),
     _('start motor'),
     _('Run a motor forever.'),
     _('brake motor'),
