@@ -426,7 +426,7 @@ LEGO_STRINGS = [
     _('Set color sensor light.'),
     # TRANS: the battery level is the charge level of the brick
     _('battery level'),
-    _('Get battery level of the brick')
+    _('Get the battery level of the brick in millivolts')
 ]
 
 ARDUINO_STRINGS = [
