@@ -98,7 +98,7 @@ BUTIA_STRINGS = [
     _('refresh the state of the Butia palette and blocks'),
     #TRANS: This string is shorthand for "battery charge of Butia"
     _('battery charge Butia'),
-    _('returns the battery charge as a number between 0 and 255'),
+    _('returns the battery charge in volts. If no motors present, it returns 255'),
     #TRANS: This string is shorthand for "speed of Butia"
     _('speed Butia'),
     _('set the speed of the Butia motors'),
