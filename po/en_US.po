@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-03 00:33-0500\n"
-"PO-Revision-Date: 2013-03-06 22:34+0200\n"
+"POT-Creation-Date: 2013-04-03 00:32-0400\n"
+"PO-Revision-Date: 2013-04-03 08:17+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_US\n"
@@ -196,8 +196,10 @@ msgid "battery charge Butia"
 msgstr "battery charge Butia"
 
 #: taextras.py:101
-msgid "returns the battery charge as a number between 0 and 255"
-msgstr "returns the battery charge as a number between 0 and 255"
+msgid ""
+"returns the battery charge in volts. If no motors present, it returns 255"
+msgstr ""
+"returns the battery charge in volts. If no motors present, it returns 255"
 
 #. TRANS: This string is shorthand for "speed of Butia"
 #: taextras.py:103
@@ -1277,8 +1279,8 @@ msgid "battery level"
 msgstr "battery level"
 
 #: taextras.py:429
-msgid "Get battery level of the brick"
-msgstr "Get battery level of the brick"
+msgid "Get the battery level of the brick in millivolts"
+msgstr "Get the battery level of the brick in millivolts"
 
 #. TRANS: PWM is pulse-width modulation
 #: taextras.py:439
@@ -1577,6 +1579,12 @@ msgstr "read programmable voltage"
 #: taextras.py:535
 msgid "Expeyes device not found"
 msgstr "Expeyes device not found"
+
+#~ msgid "returns the battery charge as a number between 0 and 255"
+#~ msgstr "returns the battery charge as a number between 0 and 255"
+
+#~ msgid "Get battery level of the brick"
+#~ msgstr "Get battery level of the brick"
 
 #~ msgid "adjust LED intensity between 0 and 255"
 #~ msgstr "adjust LED intensity between 0 and 255"
