@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-03 00:32-0400\n"
-"PO-Revision-Date: 2013-01-02 06:54+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2013-04-19 16:53+0200\n"
+"Last-Translator: anushnur <anush.mkrtchyan@ca1492.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -21,11 +21,11 @@ msgstr ""
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
 msgid "turtleart-extras (master)"
-msgstr ""
+msgstr "turtleart-ավելադիրներ (վարպետ)"
 
 #: taextras.py:37
 msgid "Turtle Blocks"
-msgstr ""
+msgstr " Turtle Blocks"
 
 # Turtle Art` Կրիայի Արվեստը -դանդաղ,համբերությամբ սովորելու համար
 #: taextras.py:38
@@ -46,7 +46,7 @@ msgstr "Ընտրել մի առաջադրանք - մարտահրավեր"
 
 #: taextras.py:51
 msgid "Amazonas Tortuga"
-msgstr ""
+msgstr "Amazonas Tortuga"
 
 #: taextras.py:58
 msgid "Palette of Mexican pesos"
