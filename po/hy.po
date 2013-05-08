@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-03 00:32-0400\n"
-"PO-Revision-Date: 2013-04-19 16:53+0200\n"
-"Last-Translator: anushnur <anush.mkrtchyan@ca1492.com>\n"
+"PO-Revision-Date: 2013-05-08 02:08+0200\n"
+"Last-Translator: Jasmine <udea_jasmine@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -90,46 +90,49 @@ msgstr "Կրիայի Բոտերը"
 #: taextras.py:73
 msgid "TurtleBlocks with Butia, Lego NxT, WeDo, Arduino, FollowMe plugins"
 msgstr ""
+"Կրիայի մասնիկները կապել Butia, Lego NxT, WeDo, Arduino, FollowMe "
+"միացումներին: "
 
 #: taextras.py:74
 msgid "ERROR: The speed must be a value between 0 and 1023"
-msgstr ""
+msgstr "ՍԽԱԼ է. արագության արժեքը պետք է լինի 0 -ի և 1023 սահմաններում: "
 
 #: taextras.py:75
 msgid "ERROR: The pin must be between 1 and 8"
-msgstr ""
+msgstr "ՍԽԱԼ է. ծածկագիրը պետք է լինի -ից 8-ի սահմաններում:  "
 
 #: taextras.py:76
 msgid "ERROR: The value must be 0 or 1, LOW or HIGH"
-msgstr ""
+msgstr "ՍԽԱԼ է. արժեքը պետք է լինի 0 կամ 1, ՑԱԾՐ կամ ԲԱՐՁՐ:"
 
 #: taextras.py:77
 msgid "ERROR: The mode must be INPUT or OUTPUT."
-msgstr ""
+msgstr "ՍԽԱԼ է. ռեժիմը պետք է լինի ՄՈՒՏՔԱՅԻՆ կամ ԵԼՔԱՅԻՆ:"
 
+# ԼԱԴ=LED - Light-Emitting Diode
 #: taextras.py:78
 msgid "Turn LED on and off: 0 is off; 1 is on"
-msgstr ""
+msgstr "ԼԱԴ` լուսարձակող դիոդ անջատել և միացնել; 0-ն` անջատված է, 1`միացված է:"
 
 #: taextras.py:79
 msgid "returns the gray level"
-msgstr ""
+msgstr "Վերադարձնում է մոխրագույնի մակարդակը:"
 
 #: taextras.py:80
 msgid "returns 1 when the button is press and 0 otherwise"
-msgstr "Կոճակ"
+msgstr "Վերականգնում է 1-ը, երբ կոճակը սեղմված է և 0` եթե սեղմված չէ:"
 
 #: taextras.py:81
 msgid "returns the light level"
-msgstr ""
+msgstr "Վերականգնում է լույսի մակարդակը:"
 
 #: taextras.py:82
 msgid "returns the temperature"
-msgstr ""
+msgstr "Վերականգնում է ջերմաստիճանը:"
 
 #: taextras.py:83
 msgid "returns the distance from the object in front of the sensor"
-msgstr ""
+msgstr "Վերականգնում է կերպարի հեռավորությունը սենսորից:"
 
 #: taextras.py:84
 msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
