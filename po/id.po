@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-03 00:32-0400\n"
-"PO-Revision-Date: 2013-05-15 19:54+0200\n"
+"PO-Revision-Date: 2013-05-18 12:14+0200\n"
 "Last-Translator: andika <andika@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -100,11 +100,11 @@ msgstr "GALAT: Pin mesti di antara 1 dan 8"
 
 #: taextras.py:76
 msgid "ERROR: The value must be 0 or 1, LOW or HIGH"
-msgstr ""
+msgstr "GALAT: Nilai mesti 0 atau 1, LOW atau HIGH"
 
 #: taextras.py:77
 msgid "ERROR: The mode must be INPUT or OUTPUT."
-msgstr ""
+msgstr "GALAT: Mode mesti INPUT atau OUTPUT."
 
 #: taextras.py:78
 msgid "Turn LED on and off: 0 is off; 1 is on"
@@ -218,7 +218,6 @@ msgid "left"
 msgstr "kiri"
 
 #: taextras.py:107
-#, fuzzy
 msgid "right"
 msgstr "kanan"
 
