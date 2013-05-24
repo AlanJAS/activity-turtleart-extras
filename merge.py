@@ -30,7 +30,7 @@ else:
     path = os.path.join(
                 '~',
                 'Activities',
-                'TurtleArt.activity',
+                'TurtleBlocks.activity',
                 'po')
 
 po_files = glob.glob(os.path.join( os.path.abspath('.'), 'po', '*.po'))
