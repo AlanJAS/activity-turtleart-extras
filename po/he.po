@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-03 00:32-0400\n"
+"POT-Creation-Date: 2013-05-29 00:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,19 +106,19 @@ msgid "ERROR: The mode must be INPUT or OUTPUT."
 msgstr ""
 
 #: taextras.py:78
-msgid "Turn LED on and off: 0 is off; 1 is on"
+msgid "turns LED on and off: 1 means on, 0 means off"
 msgstr ""
 
 #: taextras.py:79
-msgid "returns the gray level"
+msgid "returns the gray level as a value between 0 and 65536"
 msgstr ""
 
 #: taextras.py:80
-msgid "returns 1 when the button is press and 0 otherwise"
+msgid "returns 1 when the button is pressed and 0 otherwise"
 msgstr ""
 
 #: taextras.py:81
-msgid "returns the light level"
+msgid "returns the light level as a value between 0 and 65536"
 msgstr ""
 
 #: taextras.py:82
@@ -126,7 +126,7 @@ msgid "returns the temperature"
 msgstr ""
 
 #: taextras.py:83
-msgid "returns the distance from the object in front of the sensor"
+msgid "returns the distance as a value between 0 and 65536"
 msgstr ""
 
 #: taextras.py:84
@@ -134,11 +134,11 @@ msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
 msgstr ""
 
 #: taextras.py:85
-msgid "returns the value of the resistance"
+msgid "returns the resistance value in ohms"
 msgstr ""
 
 #: taextras.py:86
-msgid "returns the value of the voltage"
+msgid "returns the voltage value in volts"
 msgstr ""
 
 #: taextras.py:87
