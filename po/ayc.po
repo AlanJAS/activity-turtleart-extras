@@ -2,29 +2,30 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-29 00:33-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-06-10 14:00+0200\n"
+"Last-Translator: EdgarQuispeChambi <quispedgar@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ayc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
 msgid "turtleart-extras (master)"
-msgstr ""
+msgstr "turtleart-extras (master) Jilïri wakichata"
 
 #: taextras.py:37
 msgid "Turtle Blocks"
-msgstr ""
+msgstr "TortuBlocks wakichata"
 
 #  "TortugArte"
 #: taextras.py:38
@@ -48,7 +49,7 @@ msgstr "Ch'ama wakichäwi thaqaña"
 
 #: taextras.py:51
 msgid "Amazonas Tortuga"
-msgstr ""
+msgstr "Tortuga Amazonas wakichata"
 
 #  "Paleta de Pesos Mexicanos"
 #: taextras.py:58
@@ -95,48 +96,49 @@ msgstr "TurtleBots wakichata"
 #: taextras.py:73
 msgid "TurtleBlocks with Butia, Lego NxT, WeDo, Arduino, FollowMe plugins"
 msgstr ""
+"TortuBlocks con plugins: Butiá, Lego NxT, WeDo, Arduino, FollowMe wakichata"
 
 #: taextras.py:74
 msgid "ERROR: The speed must be a value between 0 and 1023"
 msgstr ""
+"PANTJATA: K'ata saräwixa akïri chimpunaka taypinkañapawa 0 ukata 1023 jakhu"
 
 #: taextras.py:75
 msgid "ERROR: The pin must be between 1 and 8"
-msgstr ""
+msgstr "PANTJATA: Ukaru mantañaxa akïri chimpunaka taypinkañapawa 1 y 8 jakhu"
 
 #: taextras.py:76
 msgid "ERROR: The value must be 0 or 1, LOW or HIGH"
-msgstr ""
+msgstr "PANTJATA: Uka chanixa 0 o 1, JILA jani ukaxa JISK'A chimpuñapawa"
 
 #: taextras.py:77
 msgid "ERROR: The mode must be INPUT or OUTPUT."
-msgstr ""
+msgstr "PANTJATA: Ukasti akhamañapawa MANTAÑA jani ukaxa MISTUÑA."
 
 #: taextras.py:78
 msgid "turns LED on and off: 1 means on, 0 means off"
-msgstr ""
+msgstr "LED qhantayasa jiwarakma: 1 chimpunxa qhantatawa, 0 chimpunraki jiwata"
 
 #: taextras.py:79
 msgid "returns the gray level as a value between 0 and 65536"
-msgstr ""
+msgstr "uqi chimpuna chanipa kuttayi akïri jakhunaka taypita 0 ukata 65536"
 
 # "Devuelve 1 cuando el botón está presionado y 0 en otro caso."
 #: taextras.py:80
-#, fuzzy
 msgid "returns 1 when the button is pressed and 0 otherwise"
 msgstr "1 jakhu kutsuyi limt'aña limxatatipana ukata 0 kutsuyi jani ukhamipana"
 
 #: taextras.py:81
 msgid "returns the light level as a value between 0 and 65536"
-msgstr ""
+msgstr "uqi chimpuna chanipa kuttayi akïri jakhunaka taypita 0 ukata 65536"
 
 #: taextras.py:82
 msgid "returns the temperature"
-msgstr ""
+msgstr "junt'utatäwi chani kutsuyu"
 
 #: taextras.py:83
 msgid "returns the distance as a value between 0 and 65536"
-msgstr ""
+msgstr "jaya saräwi chani kutsuyi akïri jakhunaka taypita 0 ukata 65536"
 
 # "Devuelve 1 cuando el sensor detecta un campo magnético, 0 en otro caso."
 #: taextras.py:84
@@ -147,15 +149,15 @@ msgstr ""
 
 #: taextras.py:85
 msgid "returns the resistance value in ohms"
-msgstr ""
+msgstr "ch'amanchirina chanipa kutsuyi akhama chimpumpi ohms"
 
 #: taextras.py:86
 msgid "returns the voltage value in volts"
-msgstr ""
+msgstr "ch'amanchaña chanipa kutsuyi akhama chimpumpi volts"
 
 #: taextras.py:87
 msgid "gpio"
-msgstr ""
+msgstr "gpio wakichata"
 
 #  "LED"
 #: taextras.py:88
@@ -167,7 +169,6 @@ msgid "button"
 msgstr "limt'aña"
 
 #: taextras.py:90 taextras.py:358
-#, fuzzy
 msgid "gray"
 msgstr "uqiru samiri"
 
@@ -216,6 +217,8 @@ msgstr "Butiá wakichatana batería wakisiripa ch'amanchma"
 msgid ""
 "returns the battery charge in volts. If no motors present, it returns 255"
 msgstr ""
+"batería ch'amanchatapa chani kutsuyi akhama chimpumpi volts. Motor "
+"wakichatanaka jani utjipana, kutsuyarakiwa 255"
 
 #. TRANS: This string is shorthand for "speed of Butia"
 #: taextras.py:103
@@ -224,11 +227,11 @@ msgstr "Butiá wakichatana k'ata sarañapa"
 
 #: taextras.py:104
 msgid "set the speed of the Butia motors"
-msgstr ""
+msgstr "Butiá motor wakichatanakana k'ata saräwipa qhananchi "
 
 #: taextras.py:105
 msgid "move Butia"
-msgstr ""
+msgstr "Butiá jithiyaña"
 
 #  "izquierda"
 #: taextras.py:106
@@ -242,7 +245,7 @@ msgstr "kupi"
 
 #: taextras.py:108
 msgid "moves the Butia motors at the specified speed"
-msgstr ""
+msgstr "Butiá motor wakichatanakapa jithiyi k'ata saräwipirjama"
 
 #  "detener Butiá"
 #: taextras.py:109
@@ -269,9 +272,8 @@ msgid "left Butia"
 msgstr "Butiá wakichata ch'iqäxankiri"
 
 #: taextras.py:116
-#, fuzzy
 msgid "turn the Butia robot at left"
-msgstr "robot Butiá wakichata jaqi kupïxaru muytayma"
+msgstr "robot Butiá wakichata ch'iqäxaru muytayma"
 
 #  "derecha Butiá"
 #. TRANS: This string is shorthand for "turn Butia right"
@@ -294,11 +296,11 @@ msgstr "robot Butiá wakichata jaqi qhipäxaru jithiyma"
 
 #: taextras.py:123
 msgid "Butia Robot extra blocks"
-msgstr ""
+msgstr "Robot Butiá wakichataru wakisiri yaqha wakichatanaka"
 
 #: taextras.py:124
 msgid "hack pin mode"
-msgstr ""
+msgstr "hack pin wakichatana uñanaqapa"
 
 #: taextras.py:125 taextras.py:293 taextras.py:456
 msgid "pin"
@@ -309,13 +311,12 @@ msgid "mode"
 msgstr "uñanaqapa"
 
 #: taextras.py:127
-#, fuzzy
 msgid "Select the pin function (INPUT, OUTPUT)."
-msgstr "pin wakichatana lurañapa chhijllma (KATUQIRI, MISTUYIRI, PWM, SERVO)."
+msgstr "pin wakichatana lurañapa chhijllma (MANTAÑA, MISTUÑA)."
 
 #: taextras.py:128
 msgid "write hack pin Butia"
-msgstr ""
+msgstr "hack pin wakichatana qillqaña"
 
 #: taextras.py:129 taextras.py:460
 msgid "value"
@@ -323,15 +324,15 @@ msgstr "chani"
 
 #: taextras.py:130
 msgid "set a hack pin to 0 or 1"
-msgstr ""
+msgstr "hack pin wakichma uka 0 jani ukaxa 1 chanimpi"
 
 #: taextras.py:131
 msgid "read hack pin Butia"
-msgstr ""
+msgstr "hack pin wakichatana ullaña"
 
 #: taextras.py:132
 msgid "read the value of a hack pin"
-msgstr ""
+msgstr "hack pin wakichatana chanipa ullma"
 
 #. TRANS: Arduino plugin to control an Arduino board
 #: taextras.py:133 taextras.py:434
@@ -347,9 +348,8 @@ msgid "INPUT"
 msgstr "KATUQIRI"
 
 #: taextras.py:136
-#, fuzzy
 msgid "Configure hack port for digital input."
-msgstr "limt'asa mantañjama Arduino puerto wakichatapa wakichma."
+msgstr "hack puerto wakichataru limt'asa mantaña wakichma."
 
 #: taextras.py:137 taextras.py:435
 msgid "LOW"
@@ -364,9 +364,8 @@ msgid "OUTPUT"
 msgstr "MISTUYIRI"
 
 #: taextras.py:140
-#, fuzzy
 msgid "Configure hack port for digital output."
-msgstr "limt'asa mistuñjama Arduino puerto wakichatapa wakichma."
+msgstr "hack puerto wakichataru limt'asa mistuña wakichma."
 
 #  "Butiá"
 #: taextras.py:141
@@ -376,16 +375,18 @@ msgstr "Butiá wakichata"
 #: taextras.py:142
 #, python-format
 msgid "ERROR: The pin %s must be in OUTPUT mode."
-msgstr ""
+msgstr "PANTJATA: pin wakichataxa %s uka MISTUÑA uñanaqaniñapawa."
 
 #: taextras.py:143
 #, python-format
 msgid "ERROR: The pin %s must be in INPUT mode."
-msgstr ""
+msgstr "PANTJATA: pin wakichataxa %s uka MANTAÑA uñanaqaniñapawa."
 
 #: taextras.py:147
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
 msgstr ""
+"Pantjatawa Pygame wakichata apaniñana. Uka plugin wakichataxa Pygame 1.9 "
+"wakichata suyaraki"
 
 # "Error en la inicialización de la cámara."
 #: taextras.py:148
@@ -394,7 +395,7 @@ msgstr "Cámara wakichataru qhantayaskasina pantjata"
 
 #: taextras.py:149
 msgid "No camera was found"
-msgstr ""
+msgstr "Cámara wakichataxa janiwa uñasiti"
 
 #: taextras.py:150
 msgid "Error stopping camera"
@@ -407,7 +408,7 @@ msgstr "Cámara wakichata qhantaykasina pantjata"
 #. TRANS: The "mask" is used to restrict processing to a region in the image
 #: taextras.py:153
 msgid "Error in get mask"
-msgstr ""
+msgstr "Pantjatawa uka máscara wakichata thaqañana"
 
 #  "FollowMe"
 #: taextras.py:154
@@ -416,12 +417,11 @@ msgstr "FollowMe wakichata"
 
 #: taextras.py:155
 msgid "refresh FollowMe"
-msgstr ""
+msgstr "FollowMe wakichata ch'amanchaña"
 
 #: taextras.py:156
-#, fuzzy
 msgid "Search for a connected camera."
-msgstr "Brick NXT wakichata mayachatnama thaqtma."
+msgstr "Maya cámara wakichata thaqtma."
 
 #. TRANS: the calibration is used to match an RGB color to a target
 #: taextras.py:158
@@ -429,9 +429,8 @@ msgid "calibration"
 msgstr "calibración wakichata"
 
 #: taextras.py:159
-#, fuzzy
 msgid "store a personalized calibration"
-msgstr "wakisiriparjama calibración wakichata kutsuyi"
+msgstr "wakisiriparjama askichäwi wakichata imma"
 
 #: taextras.py:160
 msgid "return a personalized calibration"
@@ -452,6 +451,8 @@ msgstr "lliphi"
 #: taextras.py:164
 msgid "set the camera brightness as a value between 0 to 255."
 msgstr ""
+"cámara wakichatana qhanañapa akïri jakhunaka taypita 0 y 255 maya chanimpi "
+"wakichma."
 
 #: taextras.py:165
 msgid "minimum pixels"
@@ -476,27 +477,28 @@ msgstr "cámara wakichata uñanaqa"
 
 #. TRANS: RGB, YUV, and HSV are color spaces
 #: taextras.py:172
-#, fuzzy
 msgid "set the color mode of the camera: RGB; YUV or HSV"
-msgstr "cámara wakichata samini uñanaqapa HSV chimpuniru wakichma"
+msgstr "cámara wakichata samipa uka RGB, YUV o HSV chimpumpi wakichma"
 
 #: taextras.py:173
 msgid "get brightness"
-msgstr ""
+msgstr "qhanäwi thaqaña"
 
 #: taextras.py:174
 msgid "get the brightness of the ambient light"
-msgstr ""
+msgstr "pacha qhana lliphipa thaqma"
 
 #: taextras.py:175
 msgid "average color"
-msgstr ""
+msgstr "tantiyu sami"
 
 #: taextras.py:176
 msgid ""
 "if set to 0 then color averaging is off during calibration; for other values "
 "it is on"
 msgstr ""
+"Wakichataa 0 chaninkchixa tantiyu samixa jiwatawa askichäwi phuqañkama; "
+"yaqha chaninakataki qhantatawa"
 
 #  "posición x"
 #: taextras.py:178
@@ -553,23 +555,25 @@ msgstr "qillqata wakichata wiskhallana mayjt'ayäwina pantjata"
 #. with the camera
 #: taextras.py:197
 msgid "Pattern detection"
-msgstr ""
+msgstr "Chimpunaka thaqäwi"
 
 #: taextras.py:198
 msgid "Seeing signal"
-msgstr ""
+msgstr "Qhaniri uñjasa"
 
 #: taextras.py:199
 msgid "Returns True if the signal is in front of the camera"
-msgstr ""
+msgstr "Chiqapa kutsuyi qhaniri cámara wakichata nayrankipana"
 
 #: taextras.py:200
 msgid "Distance to signal"
-msgstr ""
+msgstr "Qhanäwi jayankiri taña"
 
 #: taextras.py:201
 msgid "Returns the distance of the signal to the camera in millimeters"
 msgstr ""
+"cámara wakichata ukata qhanäwi jayakiri tañapa kutsuyi uka milímetros "
+"chimpumpi"
 
 #. TRANS: SumBot is a robot programmed for "Sumo wrestling"
 #: taextras.py:206
