@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-29 00:33-0400\n"
-"PO-Revision-Date: 2013-05-30 15:11+0200\n"
-"Last-Translator: samy boutayeb <s.boutayeb@free.fr>\n"
+"POT-Creation-Date: 2013-06-14 00:33-0400\n"
+"PO-Revision-Date: 2013-06-17 05:04+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -106,47 +106,43 @@ msgstr "ERREUR : La valeur doit être 0 ou 1. BAS ou HAUT"
 msgid "ERROR: The mode must be INPUT or OUTPUT."
 msgstr "ERREUR : Le mode doit être ENTRÉE ou SORTIE."
 
-#: taextras.py:78
+#: taextras.py:78 taextras.py:79
 msgid "turns LED on and off: 1 means on, 0 means off"
 msgstr "Allume et éteint les DEL : 1 pour allumé, 0 pour éteint"
 
-#: taextras.py:79
-msgid "returns the gray level as a value between 0 and 65536"
-msgstr "retourne le niveau de gris avec une valeur entre 0 et 65536"
-
 #: taextras.py:80
+msgid "returns the gray level as a value between 0 and 65535"
+msgstr "retourne le niveau de gris avec une valeur entre 0 et 65535"
+
+#: taextras.py:81
 msgid "returns 1 when the button is pressed and 0 otherwise"
 msgstr "renvoie 1 lorsque le bouton est actionné et 0 dans le cas contraire"
 
-#: taextras.py:81
-msgid "returns the light level as a value between 0 and 65536"
-msgstr "retourne le niveau de luminosité avec une valeur entre 0 et 65536"
-
 #: taextras.py:82
+msgid "returns the light level as a value between 0 and 65535"
+msgstr "retourne le niveau de luminosité avec une valeur entre 0 et 65535"
+
+#: taextras.py:83
+msgid "returns the distance as a value between 0 and 65535"
+msgstr "retourne la distance avec une valeur entre 0 et 65535"
+
+#: taextras.py:84
+msgid "returns the resistance value (ohms)"
+msgstr "retourne la valeur de résistance (ohms)"
+
+#: taextras.py:85
+msgid "returns the voltage value (volts)"
+msgstr "retourne la valeur de tension (volts)"
+
+#: taextras.py:86
 msgid "returns the temperature"
 msgstr "renvoie la température"
 
-#: taextras.py:83
-msgid "returns the distance as a value between 0 and 65536"
-msgstr "retourne la distance avec une valeur entre 0 et 65536"
-
-#: taextras.py:84
+#: taextras.py:87
 msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
 msgstr ""
 "retourne 1 lorsque les capteurs détectent un champ magnétique, 0 dans le cas "
 "contraire"
-
-#: taextras.py:85
-msgid "returns the resistance value in ohms"
-msgstr "retourne la valeur de résistance en ohms"
-
-#: taextras.py:86
-msgid "returns the voltage value in volts"
-msgstr "retourne la valeur de tension en volts"
-
-#: taextras.py:87
-msgid "gpio"
-msgstr "gpio"
 
 #: taextras.py:88
 msgid "LED"
@@ -1591,6 +1587,9 @@ msgstr "lire la tension programmable"
 #: taextras.py:535
 msgid "Expeyes device not found"
 msgstr "Instrument Expeyes non trouvé"
+
+#~ msgid "gpio"
+#~ msgstr "gpio"
 
 #~ msgid "Turn LED on and off: 0 is off; 1 is on"
 #~ msgstr "Allume et éteint le voyant : 0 pour allumé ; 1 pour éteint"
