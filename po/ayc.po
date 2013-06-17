@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-29 00:33-0400\n"
-"PO-Revision-Date: 2013-06-10 14:00+0200\n"
-"Last-Translator: EdgarQuispeChambi <quispedgar@yahoo.es>\n"
+"PO-Revision-Date: 2013-06-17 04:26+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ayc\n"
 "MIME-Version: 1.0\n"
@@ -227,7 +227,7 @@ msgstr "Butiá wakichatana k'ata sarañapa"
 
 #: taextras.py:104
 msgid "set the speed of the Butia motors"
-msgstr "Butiá motor wakichatanakana k'ata saräwipa qhananchi "
+msgstr "Butiá motor wakichatanakana k'ata saräwipa qhananchi"
 
 #: taextras.py:105
 msgid "move Butia"
@@ -950,15 +950,15 @@ msgstr "WeDo wakichata tamanaka limt'aña"
 
 #: taextras.py:324
 msgid "WeDo"
-msgstr ""
+msgstr "WeDo wakichata"
 
 #: taextras.py:325
 msgid "set current WeDo device"
-msgstr ""
+msgstr "Jichha WeDo wakichata mayampi qhantayma"
 
 #: taextras.py:326
 msgid "number of WeDo devices"
-msgstr ""
+msgstr "WeDo wakichatanaka jakhu"
 
 #  "inclinación"
 #: taextras.py:327
@@ -1005,20 +1005,20 @@ msgstr "Motor B wakichatana chanipa machaqachma"
 
 #: taextras.py:339
 msgid "WeDo is unavailable"
-msgstr ""
+msgstr "WeDo wakichataxa chhaqatawa"
 
 #. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
 #: taextras.py:341
 #, python-format
 msgid "WeDo %d is unavailable; defaulting to 1"
-msgstr ""
+msgstr "Wedo %d wakichataxa chhaqatawa; pantjatana apnaqatawa 1"
 
 #. TRANS: %(device)s and %(wedo_number)d are substitution strings;
 #. please leave untranslated
 #: taextras.py:344
 #, python-format
 msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
-msgstr ""
+msgstr "%(device)s wakichata janiwa utjiti WeDo wakichatana %(wedo_number)d"
 
 #. TRANS: Lego NXT is a robotics product of the LEGO company
 #: taextras.py:349
@@ -1052,35 +1052,38 @@ msgstr "sijiqi"
 #. TRANS: The brick is the NXT controller
 #: taextras.py:360
 msgid "Please check the connection with the brick"
-msgstr ""
+msgstr "Mira suma brick wakichataru mayachäwi uñakipma"
 
 #: taextras.py:361
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT A, B or C"
-msgstr ""
+msgstr "Mayachäwi '%s' pantjatawa. Mayachäwi akhamañapawa: MAYACHÄWI A, B o C"
 
 #: taextras.py:362
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
 msgstr ""
+"Mayachäwi '%s' pantjatawa. Mayachäwi akhamañapawa: MAYACHÄWI 1, 2, 3 o 4"
 
 #: taextras.py:363
 msgid "The value of power must be between -127 to 127"
-msgstr ""
+msgstr "Payanchäwi chanixa aka jakhunaka taypinkañapawa -127 y 127"
 
 #: taextras.py:364
 #, python-format
 msgid "The parameter must be a integer, not '%s'"
-msgstr ""
+msgstr "Chanixa parisa jakhuñapawa, jani '%s'"
 
 #: taextras.py:365
 msgid "An error has occurred: check all connections and try to reconnect"
 msgstr ""
+"Maya pantjatawa uñasi: mayachäwinaka qawayata uñakipasa mayampi mayachaña "
+"yant'apxma"
 
 #: taextras.py:366
 #, python-format
 msgid "NXT found %s bricks"
-msgstr ""
+msgstr "NXT wakichataxa %s bricks wakichata uñstayi"
 
 #: taextras.py:367
 msgid "NXT not found"
@@ -1089,7 +1092,7 @@ msgstr "NXT wakichata chhaqata"
 #: taextras.py:368
 #, python-format
 msgid "Brick number %s was not found"
-msgstr ""
+msgstr "brick wakichatana jakhu chimpupaxa %s janiwa uñasiti"
 
 #: taextras.py:369
 msgid "refresh NXT"
@@ -1101,23 +1104,23 @@ msgstr "Brick NXT wakichata mayachatnama thaqtma."
 
 #: taextras.py:371
 msgid "NXT"
-msgstr ""
+msgstr "NXT chimpu"
 
 #: taextras.py:372
 msgid "set current NXT device"
-msgstr ""
+msgstr "NXT jichha chimpuni wakichata wakichma"
 
 #: taextras.py:373
 msgid "number of NXT devices"
-msgstr ""
+msgstr "NXT chimpuni wakichatanaka jakhu"
 
 #: taextras.py:374
 msgid "brick name"
-msgstr ""
+msgstr "brick wakichatana sutipa"
 
 #: taextras.py:375
 msgid "Get the name of a brick."
-msgstr ""
+msgstr "brick wakichatana sutipa katjma."
 
 #: taextras.py:376
 msgid "play tone"
@@ -1142,6 +1145,8 @@ msgid ""
 "turn motor\n"
 "\n"
 msgstr ""
+"motor wakichata muytayaña\n"
+"\n"
 
 #: taextras.py:382
 msgid "port"
@@ -1166,10 +1171,13 @@ msgid ""
 "\n"
 "motors"
 msgstr ""
+"thaqthapiña\n"
+"\n"
+"motor wakichatanaka"
 
 #: taextras.py:388
 msgid "steering"
-msgstr ""
+msgstr "Jikxatäwi"
 
 #: taextras.py:389
 msgid "synchronize two motors connected in PORT B and PORT C"
@@ -1203,7 +1211,7 @@ msgstr "brick wakichatana PUERTO C wakichatapa"
 msgid ""
 "synchronize\n"
 "motors"
-msgstr ""
+msgstr "motor wakichatanaka thaqthapiña"
 
 #: taextras.py:397
 msgid "start motor"
@@ -1272,7 +1280,7 @@ msgstr "lliphirini katjiri"
 
 #: taextras.py:414
 msgid "gray sensor"
-msgstr ""
+msgstr "uqi saminaka katjiri"
 
 #: taextras.py:415
 msgid "PORT 3"
@@ -1323,7 +1331,7 @@ msgstr "batería ch'amanchiripa"
 
 #: taextras.py:429
 msgid "Get the battery level of the brick in millivolts"
-msgstr ""
+msgstr "brick wakichatana batería ch'amapa tupt'ma milivolts chanimpi."
 
 #. TRANS: PWM is pulse-width modulation
 #: taextras.py:439
@@ -1354,35 +1362,35 @@ msgstr ""
 
 #: taextras.py:445
 msgid "refresh Arduino"
-msgstr ""
+msgstr "Arduino ch'amanchaña"
 
 #: taextras.py:446
 msgid "Search for connected Arduinos."
-msgstr ""
+msgstr "Arduinos wakichatanaka mayachata thaqma."
 
 #: taextras.py:447
 msgid "Arduino"
-msgstr ""
+msgstr "Arduino wakichata"
 
 #: taextras.py:448
 msgid "set current Arduino board"
-msgstr ""
+msgstr "Arduino jichha wakichatana chimpupa wakichma"
 
 #: taextras.py:449
 msgid "number of Arduinos"
-msgstr ""
+msgstr "Arduinos wakichatanaka jakhu"
 
 #: taextras.py:450
 msgid "number of Arduino boards"
-msgstr ""
+msgstr "chimpunaka jakhu"
 
 #: taextras.py:451
 msgid "Arduino name"
-msgstr ""
+msgstr "Arduino wakichatana sutipa"
 
 #: taextras.py:452
 msgid "Get the name of an Arduino."
-msgstr ""
+msgstr "Arduino wakichatana sutipa katjma"
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
@@ -1449,176 +1457,183 @@ msgstr ""
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:479
-#, fuzzy
 msgid "Palette of Expeyes blocks"
-msgstr "WeDo wakichata tamanaka limt'aña"
+msgstr "Expeyes wakichata tamanaka limt'aña"
 
 #. TRANS: Programmable voltage output
 #: taextras.py:481
 msgid "set PVS"
-msgstr ""
+msgstr "PVS wakichaña"
 
 #: taextras.py:482
 msgid "set programmable voltage output"
-msgstr ""
+msgstr "ch'amampi mistuña wakichäwi wakichma"
 
 #. TRANS: Square wave 1 voltage output
 #: taextras.py:484
 msgid "set SQR1 voltage"
-msgstr ""
+msgstr "SQR1 ch'amapa chani wakichaña"
 
 #: taextras.py:485
 msgid "set square wave 1 voltage output"
-msgstr ""
+msgstr "ch'amampi mistuña wakichäwina onda cuadrada chani wakichma"
 
 #. TRANS: Square wave 2 voltage output
 #: taextras.py:487
 msgid "set SQR2 voltage"
-msgstr ""
+msgstr "SQR2 ch'amapa wakichaña"
 
 #: taextras.py:488
 msgid "set square wave 2 voltage output"
-msgstr ""
+msgstr "ch'amampi mistuña wakichäwina 2 onda cuadrada chani wakichma"
 
 #. TRANS: Digital output level
 #: taextras.py:490
 msgid "set OD1"
-msgstr ""
+msgstr "OD1 chani wakichaña"
 
 #: taextras.py:491
 msgid "set digital output level (OD1) low (0) or high (1)"
-msgstr ""
+msgstr "ch'amampi mistuña wakichma (OD1) jisk'a (0) jach'a (1)"
 
 #. TRANS: Input 1 voltage level
 #: taextras.py:493
 msgid "IN1 level"
-msgstr ""
+msgstr "IN1 chani"
 
 #: taextras.py:494
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
 msgstr ""
+"kutsuyiwa 1 ch'amakiti IN1 jilächi 2,5 volts, 0 ch'amakiti <= 2,5 volts "
+"jukha chaninïchi"
 
 #. TRANS: Input 2 voltage level
 #: taextras.py:497
 msgid "IN2 level"
-msgstr ""
+msgstr "IN2 chani"
 
 #: taextras.py:498
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
 msgstr ""
+"kutsuyiwa 1 ch'amakiti IN2 jilächi 2,5 volts, 0 ch'amakiti <= 2,5 volts "
+"jukha chaninïchi"
 
 #. TRANS: Resistive sensor voltage level
 #: taextras.py:501
 msgid "SEN level"
-msgstr ""
+msgstr "SEN chani"
 
 #: taextras.py:502
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
 msgstr ""
+"kutsuyiwa 1 ch'amakiti ch'amani katjirina (SEN) jilächi 2,5 volts, 0 "
+"ch'amakiti <= 2,5 volts jukha chaninïchi"
 
 #: taextras.py:504
 msgid "capture"
-msgstr ""
+msgstr "katjaña"
 
 #: taextras.py:505
 msgid "input"
-msgstr ""
+msgstr "mantaña"
 
 #: taextras.py:506
 msgid "samples"
-msgstr ""
+msgstr "uñachayañanaka"
 
 #: taextras.py:507
 msgid "interval"
-msgstr ""
+msgstr "taypicha"
 
 #. TRANS: MS is microseconds
 #: taextras.py:509
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr ""
+"walja uñachayañanaka taypichanakana katjma (MS); kuts<úwinakaxa FIFO "
+"wakichataru uchasi"
 
 #. TRANS: Analog input 1 voltage level
 #: taextras.py:512
 msgid "A1"
-msgstr ""
+msgstr "A1 chani"
 
 #: taextras.py:513
 msgid "read analog input 1 voltage"
-msgstr ""
+msgstr "aliqa mantañana ch'amapa chani ullma 1"
 
 #. TRANS: Analog input 2 voltage level
 #: taextras.py:515
 msgid "A2"
-msgstr ""
+msgstr "A2 chani"
 
 #: taextras.py:516
 msgid "read analog input 2 voltage"
-msgstr ""
+msgstr "aliqa mantañana ch'amapa chani ullma 2"
 
 #. TRANS: Read input 1 voltage
 #: taextras.py:518
 msgid "IN1"
-msgstr ""
+msgstr "IN1 chani"
 
 #: taextras.py:519
 msgid "read input 1 voltage"
-msgstr ""
+msgstr "mantaña ch'amapa chani ullma 1"
 
 #. TRANS: Read input 2 voltage
 #: taextras.py:521
 msgid "IN2"
-msgstr ""
+msgstr "IN2 chani"
 
 #: taextras.py:522
 msgid "read input 2 voltage"
-msgstr ""
+msgstr "mantaña ch'amapa chani ullma 2"
 
 #. TRANS: Read analog sensor input voltage
 #: taextras.py:524
 msgid "SEN"
-msgstr ""
+msgstr "SEN chani"
 
 #: taextras.py:525
 msgid "read analog sensor input voltage"
-msgstr ""
+msgstr "aliqa katjiri mantaña ch'amapa chani ullma"
 
 #. TRANS: Read square wave 1 input voltage
 #: taextras.py:527
 msgid "SQR1"
-msgstr ""
+msgstr "SQR1 chani"
 
 #: taextras.py:528
 msgid "read square wave 1 voltage"
-msgstr ""
+msgstr "onda cuadrada 1 chani ch'amapa ullma"
 
 #. TRANS: Read square wave 2 input voltage
 #: taextras.py:530
 msgid "SQR2"
-msgstr ""
+msgstr "SQR2 chani"
 
 #: taextras.py:531
 msgid "read square wave 2 voltage"
-msgstr ""
+msgstr "onda cuadrada 2 chani ch'amapa ullma"
 
 #. TRANS: Read programmable voltage
 #: taextras.py:533
 msgid "PVS"
-msgstr ""
+msgstr "PVS chani"
 
 #: taextras.py:534
 msgid "read programmable voltage"
-msgstr ""
+msgstr "ch'amapa wakichäwi ullaña"
 
 #: taextras.py:535
 msgid "Expeyes device not found"
-msgstr ""
+msgstr "Expeyes wakichataxa janiwa jakiyasiti"
 
 # "Devuelve la temperatura en el ambiente como un número entre 0 y 255."
 #~ msgid "returns the battery charge as a number between 0 and 255"
