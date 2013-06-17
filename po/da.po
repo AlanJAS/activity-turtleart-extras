@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-29 00:33-0400\n"
-"PO-Revision-Date: 2013-05-30 09:35+0200\n"
+"POT-Creation-Date: 2013-06-14 00:33-0400\n"
+"PO-Revision-Date: 2013-06-17 18:09+0200\n"
 "Last-Translator: Aputsiaq Niels <aj@isit.gl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -108,45 +108,41 @@ msgstr "FEJL: Værdien skal være 0 eller 1, LOW eller HIGH"
 msgid "ERROR: The mode must be INPUT or OUTPUT."
 msgstr "FEJL: Tilstanden skal være INPUT eller OUTPUT."
 
-#: taextras.py:78
+#: taextras.py:78 taextras.py:79
 msgid "turns LED on and off: 1 means on, 0 means off"
 msgstr "slå LED til og fra: 1 betyder til, 0 betyder fra"
 
-#: taextras.py:79
-msgid "returns the gray level as a value between 0 and 65536"
-msgstr "returnerer gråniveauet som en værdi mellem 0 og 65536"
-
 #: taextras.py:80
+msgid "returns the gray level as a value between 0 and 65535"
+msgstr "returnerer gråniveauet som en værdi mellem 0 og 65535"
+
+#: taextras.py:81
 msgid "returns 1 when the button is pressed and 0 otherwise"
 msgstr "returnerer 1 når knappen holdes nede, og hvis ikke 0"
 
-#: taextras.py:81
-msgid "returns the light level as a value between 0 and 65536"
-msgstr "returnerer lysniveauet som en værdi mellem 0 og 65536"
-
 #: taextras.py:82
+msgid "returns the light level as a value between 0 and 65535"
+msgstr "returnerer lysniveauet som en værdi mellem 0 og 65535"
+
+#: taextras.py:83
+msgid "returns the distance as a value between 0 and 65535"
+msgstr "returnerer afstanden som en værdi mellem 0 og 65535"
+
+#: taextras.py:84
+msgid "returns the resistance value (ohms)"
+msgstr "returnerer modstandsværdien (ohm)"
+
+#: taextras.py:85
+msgid "returns the voltage value (volts)"
+msgstr "returnerer værdien for elektrisk spænding (volt)"
+
+#: taextras.py:86
 msgid "returns the temperature"
 msgstr "returnerer temperaturen"
 
-#: taextras.py:83
-msgid "returns the distance as a value between 0 and 65536"
-msgstr "returnerer afstanden som en værdi mellem 0 og 65536"
-
-#: taextras.py:84
+#: taextras.py:87
 msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
 msgstr "returnerer 1 når sensoren registrerer et magnetfelt, hvis ikke 0"
-
-#: taextras.py:85
-msgid "returns the resistance value in ohms"
-msgstr "returnerer modstandsværdien i ohm"
-
-#: taextras.py:86
-msgid "returns the voltage value in volts"
-msgstr "returnerer værdien for elektrisk spænding i volt"
-
-#: taextras.py:87
-msgid "gpio"
-msgstr "gpio"
 
 #: taextras.py:88
 msgid "LED"
@@ -1585,6 +1581,9 @@ msgstr "læs programmérbar spænding"
 #: taextras.py:535
 msgid "Expeyes device not found"
 msgstr "Fandt ikke Expeyes-enhed"
+
+#~ msgid "gpio"
+#~ msgstr "gpio"
 
 #~ msgid "Turn LED on and off: 0 is off; 1 is on"
 #~ msgstr "Slå LED til og fra: 0 er fra; 1 er til"
