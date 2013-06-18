@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-#Copyright (c) 2011-13 Walter Bender
-#Copyright (c) 2011-13 Alan Jhonn Aguiar Schwyn
+# Copyright (c) 2011-13 Walter Bender
+# Copyright (c) 2011-13 Alan Jhonn Aguiar Schwyn
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -34,7 +34,7 @@ TODO: build some automated way of maintaining this file.
 # ACTIVITIES
 
 TURTLEBLOCK_STRINGS = [
-    _('Turtle Blocks')
+    _('Turtle Blocks'),
     _('Turtle Art')
     ]
 
@@ -431,6 +431,7 @@ LEGO_STRINGS = [
 
 ARDUINO_STRINGS = [
     #TRANS: Arduino plugin to control an Arduino board
+    _('Palette of Arduino blocks'),
     _('HIGH'),
     _('LOW'),
     _('INPUT'),
@@ -440,8 +441,10 @@ ARDUINO_STRINGS = [
     _('SERVO'),
     _('ERROR: Check the Arduino and the number of port.'),
     _('ERROR: Value must be a number from 0 to 255.'),
-    _('ERROR: Value must be either HIGH or LOW.'),
+    _('ERROR: Value must be either HIGH or LOW, 0 or 1'),
     _('ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO.'),
+    _('ERROR: The value must be an integer.'),
+    _('ERROR: The pin must be an integer.'),
     _('refresh Arduino'),
     _('Search for connected Arduinos.'),
     _('Arduino'),
@@ -471,67 +474,70 @@ to determine voltage. For USB, volt=((read)*5)/1024) approximately.'),
     _('Configure Arduino port to drive a servo.'),
     _('Set LOW value for digital port.'),
     _('Configure Arduino port for digital output.'),
-    _('Configure Arduino port for PWM (pulse-width modulation).')
+    _('Configure Arduino port for PWM (pulse-width modulation).'),
+    _('Not found Arduino %s'),
+    _('The pin must be an integer'),
+    _('The device must be an integer')
 ]
 
 EXPEYES_STRINGS = [
     #TRANS: plugin to control an ExpEyes device
-    _("Palette of Expeyes blocks"),
+    _('Palette of Expeyes blocks'),
     # TRANS: Programmable voltage output
-    _("set PVS"),
-    _("set programmable voltage output"),
+    _('set PVS'),
+    _('set programmable voltage output'),
     # TRANS: Square wave 1 voltage output
-    _("set SQR1 voltage"),
-    _("set square wave 1 voltage output"),
+    _('set SQR1 voltage'),
+    _('set square wave 1 voltage output'),
     # TRANS: Square wave 2 voltage output
-    _("set SQR2 voltage"),
-    _("set square wave 2 voltage output"),
+    _('set SQR2 voltage'),
+    _('set square wave 2 voltage output'),
     # TRANS: Digital output level
-    _("set OD1"),
-    _("set digital output level (OD1) low (0) or high (1)"),
+    _('set OD1'),
+    _('set digital output level (OD1) low (0) or high (1)'),
     # TRANS: Input 1 voltage level
-    _("IN1 level"),
-    _("returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level \
-<= 2.5 volts"),
+    _('IN1 level'),
+    _('returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level \
+<= 2.5 volts'),
     # TRANS: Input 2 voltage level
-    _("IN2 level"),
-    _("returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level \
-<= 2.5 volts"),
+    _('IN2 level'),
+    _('returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level \
+<= 2.5 volts'),
     # TRANS: Resistive sensor voltage level
-    _("SEN level"),
-    _("returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN \
-voltage level <= 2.5 volts"),
-    _("capture"),
-    _("input"),
-    _("samples"),
-    _("interval"),
+    _('SEN level'),
+    _('returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN \
+voltage level <= 2.5 volts'),
+    _('capture'),
+    _('input'),
+    _('samples'),
+    _('interval'),
     # TRANS: MS is microseconds
-    _("capture multiple samples from input at interval (MS); results pushed \
-to FIFO"),
+    _('capture multiple samples from input at interval (MS); results pushed \
+to FIFO'),
     # TRANS: Analog input 1 voltage level
-    _("A1"),
-    _("read analog input 1 voltage"),
+    _('A1'),
+    _('read analog input 1 voltage'),
     # TRANS: Analog input 2 voltage level
-    _("A2"),
-    _("read analog input 2 voltage"),
+    _('A2'),
+    _('read analog input 2 voltage'),
     # TRANS: Read input 1 voltage
-    _("IN1"),
-    _("read input 1 voltage"),
+    _('IN1'),
+    _('read input 1 voltage'),
     # TRANS: Read input 2 voltage
-    _("IN2"),
-    _("read input 2 voltage"),
+    _('IN2'),
+    _('read input 2 voltage'),
     # TRANS: Read analog sensor input voltage
-    _("SEN"),
-    _("read analog sensor input voltage"),
+    _('SEN'),
+    _('read analog sensor input voltage'),
     # TRANS: Read square wave 1 input voltage
-    _("SQR1"),
-    _("read square wave 1 voltage"),
+    _('SQR1'),
+    _('read square wave 1 voltage'),
     # TRANS: Read square wave 2 input voltage
-    _("SQR2"),
-    _("read square wave 2 voltage"),
+    _('SQR2'),
+    _('read square wave 2 voltage'),
     # TRANS: Read programmable voltage
-    _("PVS"),
-    _("read programmable voltage"),
-    _("Expeyes device not found")
+    _('PVS'),
+    _('read programmable voltage'),
+    _('Expeyes device not found')
 ]
 
