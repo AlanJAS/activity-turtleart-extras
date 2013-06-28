@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-09 00:33-0500\n"
+"POT-Creation-Date: 2013-06-19 00:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,669 +22,784 @@ msgstr ""
 msgid "turtleart-extras (master)"
 msgstr ""
 
-#: taextras.py:36
+#: taextras.py:37
+msgid "Turtle Blocks"
+msgstr ""
+
+#: taextras.py:38
+msgid "Turtle Art"
+msgstr "टर्टल आर्ट"
+
+#: taextras.py:42
 msgid "Turtle Art Mini"
 msgstr "टर्टल आर्ट मिनि"
 
-#: taextras.py:40
+#: taextras.py:46
 msgid "Turtle Confusion"
 msgstr "टर्टल स्तब्घ"
 
-#: taextras.py:41 taextras.py:46
+#: taextras.py:47 taextras.py:52
 msgid "Select a challenge"
 msgstr "एउटा मुकाब्ला छान"
 
-#: taextras.py:45
+#: taextras.py:51
 msgid "Amazonas Tortuga"
 msgstr ""
 
-#: taextras.py:52
+#: taextras.py:58
 msgid "Palette of Mexican pesos"
 msgstr "मेक्सिकन पेसोको प्यालेट"
 
-#: taextras.py:53
+#: taextras.py:59
 msgid "Palette of Colombian pesos"
 msgstr "कोल्म्बियन पेसोको प्यालेट"
 
-#: taextras.py:54
+#: taextras.py:60
 msgid "Palette of Rwandan francs"
 msgstr "रूआण्डान फ्रेकंको प्यालेट"
 
-#: taextras.py:55
+#: taextras.py:61
 msgid "Palette of US dollars"
 msgstr "अमेरिकी डलरको प्यालेट"
 
-#: taextras.py:56
+#: taextras.py:62
 msgid "Palette of Australian dollars"
 msgstr "अस्ट्रेलियन डलरको प्यालेट"
 
-#: taextras.py:57
+#: taextras.py:63
 msgid "Palette of Paraguayan Guaranies"
 msgstr ""
 
-#: taextras.py:58
+#: taextras.py:64
 msgid "Palette of Peruvian Nuevo Soles"
 msgstr ""
 
-#: taextras.py:59
+#: taextras.py:65
 msgid "Palette of Uruguayan Pesos"
 msgstr "उरुगुएन पेसोको प्यालेट"
 
-#. TRANS: Butia is the Arduino Robot Project from Uruguay
+#. TRANS: Butia is a Robot Project from Uruguay
 #. (http://www.fing.edu.uy/inco/proyectos/butia/)
-#: taextras.py:65
+#: taextras.py:71
 msgid "TurtleBots"
 msgstr "टर्टलबोट्स"
 
-#: taextras.py:66
-msgid "adjust LED intensity between 0 and 255"
-msgstr "LEDको प्रकाश-तीव्रता ० देखि २५५ भित्र समायोजित गर।"
-
-#: taextras.py:67
-msgid "returns the gray level"
-msgstr ""
-
-#: taextras.py:68
-msgid "returns 1 when the button is press and 0 otherwise"
-msgstr "बटन थिच्दा १ फर्काउँछ अथवा ० फर्काउँछ।"
-
-#: taextras.py:69
-msgid "returns the ambient light level"
-msgstr ""
-
-#: taextras.py:70
-msgid "returns the ambient temperature"
-msgstr ""
-
-#: taextras.py:71
-msgid "returns the distance from the object in front of the sensor"
-msgstr ""
-
-#: taextras.py:72
-msgid "returns 0 or 1 depending on the sensor inclination"
-msgstr "सेंसर झुकावमा निर्भर भई ० वा १ फिर्ता गर्छ"
-
+#. TRANS: summary of TurtleBots activity
 #: taextras.py:73
-msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
-msgstr "सेंसरले चुंबकीय क्षेत्र पता लगाउँदा १ फिर्ता गर्छ, अथवा ० फिर्ता गर्छ।"
+msgid "TurtleBlocks with Butia, Lego NxT, WeDo, Arduino, FollowMe plugins"
+msgstr ""
 
 #: taextras.py:74
-msgid "switches from 0 to 1, the frequency depends on the vibration"
-msgstr "० देखि १ मा बदल्नछ, आवृत्ति कंपनमा निर्भर हुन्छ"
+msgid "ERROR: The speed must be a value between 0 and 1023"
+msgstr ""
 
 #: taextras.py:75
-msgid "returns the value of the resistance"
+msgid "ERROR: The pin must be between 1 and 8"
 msgstr ""
 
 #: taextras.py:76
+msgid "ERROR: The value must be 0 or 1, LOW or HIGH"
+msgstr ""
+
+#: taextras.py:77
+msgid "ERROR: The mode must be INPUT or OUTPUT."
+msgstr ""
+
+#: taextras.py:78 taextras.py:79
+msgid "turns LED on and off: 1 means on, 0 means off"
+msgstr ""
+
+#: taextras.py:80
+msgid "returns the gray level as a value between 0 and 65535"
+msgstr ""
+
+#: taextras.py:81
+#, fuzzy
+msgid "returns 1 when the button is pressed and 0 otherwise"
+msgstr "बटन थिच्दा १ फर्काउँछ अथवा ० फर्काउँछ।"
+
+#: taextras.py:82
+msgid "returns the light level as a value between 0 and 65535"
+msgstr ""
+
+#: taextras.py:83
+msgid "returns the distance as a value between 0 and 65535"
+msgstr ""
+
+#: taextras.py:84
+msgid "returns the resistance value (ohms)"
+msgstr ""
+
+#: taextras.py:85
+msgid "returns the voltage value (volts)"
+msgstr ""
+
+#: taextras.py:86
+msgid "returns the temperature"
+msgstr ""
+
+#: taextras.py:87
+msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
+msgstr "सेंसरले चुंबकीय क्षेत्र पता लगाउँदा १ फिर्ता गर्छ, अथवा ० फिर्ता गर्छ।"
+
+#: taextras.py:88
 msgid "LED"
 msgstr "LED"
 
-#: taextras.py:77
+#: taextras.py:89
 msgid "button"
 msgstr "बटन"
 
-#: taextras.py:78
-msgid "grayscale"
-msgstr "ग्रेस्केल"
+#: taextras.py:90 taextras.py:358
+#, fuzzy
+msgid "gray"
+msgstr "खरानी रङ"
 
-#: taextras.py:79
-msgid "ambient light"
-msgstr "अ्यामबीअन्ट प्रकाश"
+#: taextras.py:91 taextras.py:356
+msgid "light"
+msgstr "उज्यालो"
 
-#: taextras.py:80
+#: taextras.py:92
 msgid "temperature"
 msgstr "तापमान"
 
-#: taextras.py:81 taextras.py:292
+#: taextras.py:93 taextras.py:330
 msgid "distance"
 msgstr "दुरी"
 
-#: taextras.py:82 taextras.py:289
-msgid "tilt"
-msgstr "झुकाव"
-
-#: taextras.py:83
-msgid "magnetic induction"
-msgstr "चुंबकीय प्रेरण"
-
-#: taextras.py:84
-msgid "vibration"
-msgstr "कंपन"
-
-#: taextras.py:85
+#: taextras.py:94
 msgid "resistance"
 msgstr "प्रतिबन्ध"
 
-#: taextras.py:86
+#: taextras.py:95
+msgid "voltage"
+msgstr "भोल्टेज"
+
+#: taextras.py:96
 msgid "Butia Robot"
 msgstr "बुटिया रोबट"
 
-#: taextras.py:87
+#: taextras.py:97
 msgid "refresh Butia"
 msgstr ""
 
-#: taextras.py:88
+#: taextras.py:98
 msgid "refresh the state of the Butia palette and blocks"
 msgstr ""
 
 #. TRANS: This string is shorthand for "battery charge of Butia"
-#: taextras.py:90
+#: taextras.py:100
 msgid "battery charge Butia"
 msgstr "बुटियाको बैटरी चार्ज"
 
-#: taextras.py:91
-msgid "returns the battery charge as a number between 0 and 255"
-msgstr "ब्याटरी चार्ज ० देखि २५५ सम्म अंकको रुपमा फिर्ता गर्छ"
+#: taextras.py:101
+msgid ""
+"returns the battery charge in volts. If no motors present, it returns 255"
+msgstr ""
 
 #. TRANS: This string is shorthand for "speed of Butia"
-#: taextras.py:93
+#: taextras.py:103
 msgid "speed Butia"
 msgstr "बुटियाको गति बढाऊ"
 
-#: taextras.py:94
+#: taextras.py:104
 msgid "set the speed of the Butia motors"
 msgstr ""
 
-#: taextras.py:95
-msgid "the speed must be a value between 0 and 1023"
-msgstr ""
-
-#: taextras.py:96
+#: taextras.py:105
 msgid "move Butia"
 msgstr ""
 
-#: taextras.py:97
+#: taextras.py:106
+msgid "left"
+msgstr "बायाँ"
+
+#: taextras.py:107
+msgid "right"
+msgstr "दायाँ"
+
+#: taextras.py:108
 msgid "moves the Butia motors at the specified speed"
 msgstr ""
 
+#: taextras.py:109
+msgid "stop Butia"
+msgstr "बुटियालाई रोक"
+
+#: taextras.py:110
+msgid "stop the Butia robot"
+msgstr "बुटिया रोबटलाई रोक"
+
 #. TRANS: This string is shorthand for "move Butia forward"
-#: taextras.py:99
+#: taextras.py:112
 msgid "forward Butia"
 msgstr "बुटियालाई अगाडि लग"
 
-#: taextras.py:100
+#: taextras.py:113
 msgid "move the Butia robot forward"
 msgstr "बुटिया रोबटलाई अगाडि सार"
 
-#: taextras.py:101
-msgid "move the Butia robot forward a predefined distance"
-msgstr "बुटिया रोबटलाई पूर्वनिर्धारित दुरीमा अगाडि सार"
-
 #. TRANS: This string is shorthand for "turn Butia left"
-#: taextras.py:103
+#: taextras.py:115
 msgid "left Butia"
 msgstr "बायाँ बुटिया"
 
-#: taextras.py:104
+#: taextras.py:116
 #, fuzzy
 msgid "turn the Butia robot at left"
 msgstr "बुटिया रोबटलाई दायाँ मोड़"
 
-#. TRANS: This string is shorthand for "move Butia backward"
-#: taextras.py:106
-msgid "backward Butia"
-msgstr "बुटियालाई पछाडि सार"
-
-#: taextras.py:107
-msgid "move the Butia robot backward"
-msgstr "बुटिया रोबटलाई पछाडि सार"
-
-#: taextras.py:108
-msgid "move the Butia robot backward a predefined distance"
-msgstr "बुटिया रोबटलाई पूर्वनिर्धारित दुरीमा पछाडि सार"
-
 #. TRANS: This string is shorthand for "turn Butia right"
-#: taextras.py:110
+#: taextras.py:118
 msgid "right Butia"
 msgstr "दायाँ बुटिया"
 
-#: taextras.py:111
+#: taextras.py:119
 msgid "turn the Butia robot at right"
 msgstr "बुटिया रोबटलाई दायाँ मोड़"
 
-#: taextras.py:112
-msgid "turn Butia"
-msgstr "बुटियालाई मोड़"
-
-#: taextras.py:113
-msgid "turn the Butia robot x degrees"
-msgstr "बुटिया रोबटलाई x डिग्री मोड़"
-
-#: taextras.py:114
-msgid "stop Butia"
-msgstr "बुटियालाई रोक"
-
-#: taextras.py:115
-msgid "stop the Butia robot"
-msgstr "बुटिया रोबटलाई रोक"
-
-#: taextras.py:116
-msgid "Butia"
-msgstr "बुटिया"
-
-#: taextras.py:120
-msgid "Error importing Pygame. This plugin require Pygame 1.9"
-msgstr ""
-
+#. TRANS: This string is shorthand for "move Butia backward"
 #: taextras.py:121
-msgid "Error on initialization of the camera"
-msgstr ""
+msgid "backward Butia"
+msgstr "बुटियालाई पछाडि सार"
 
 #: taextras.py:122
-msgid "No camera was found"
-msgstr ""
+msgid "move the Butia robot backward"
+msgstr "बुटिया रोबटलाई पछाडि सार"
 
 #: taextras.py:123
-msgid "Error stopping camera"
+msgid "Butia Robot extra blocks"
 msgstr ""
 
 #: taextras.py:124
+msgid "hack pin mode"
+msgstr ""
+
+#: taextras.py:125 taextras.py:293 taextras.py:459
+msgid "pin"
+msgstr "पिन"
+
+#: taextras.py:126 taextras.py:460
+msgid "mode"
+msgstr "विधि"
+
+#: taextras.py:127
+#, fuzzy
+msgid "Select the pin function (INPUT, OUTPUT)."
+msgstr "पिन कार्य(INPUT, OUTPUT, PWM, SERVO) छान।"
+
+#: taextras.py:128
+msgid "write hack pin Butia"
+msgstr ""
+
+#: taextras.py:129 taextras.py:463
+msgid "value"
+msgstr "मान"
+
+#: taextras.py:130
+msgid "set a hack pin to 0 or 1"
+msgstr ""
+
+#: taextras.py:131
+msgid "read hack pin Butia"
+msgstr ""
+
+#: taextras.py:132
+msgid "read the value of a hack pin"
+msgstr ""
+
+#: taextras.py:133 taextras.py:435
+msgid "HIGH"
+msgstr "HIGH"
+
+#: taextras.py:134 taextras.py:472
+msgid "Set HIGH value for digital port."
+msgstr "डिजिटल पोर्टको लागि HIGH मान सेट गर।"
+
+#: taextras.py:135 taextras.py:437
+msgid "INPUT"
+msgstr "INPUT"
+
+#: taextras.py:136
+#, fuzzy
+msgid "Configure hack port for digital input."
+msgstr "डिजिटल आगतको लागि Arduino समनुरूप गर"
+
+#: taextras.py:137 taextras.py:436
+msgid "LOW"
+msgstr "LOW"
+
+#: taextras.py:138 taextras.py:475
+msgid "Set LOW value for digital port."
+msgstr "डिजिटल पोर्टको लागि LOW मान सेट गर।"
+
+#: taextras.py:139 taextras.py:438
+msgid "OUTPUT"
+msgstr "OUTPUT"
+
+#: taextras.py:140
+#, fuzzy
+msgid "Configure hack port for digital output."
+msgstr "डिजिटल उत्पादको लागि Arduino समनुरूप गर"
+
+#: taextras.py:141
+msgid "Butia"
+msgstr "बुटिया"
+
+#: taextras.py:142
+#, python-format
+msgid "ERROR: The pin %s must be in OUTPUT mode."
+msgstr ""
+
+#: taextras.py:143
+#, python-format
+msgid "ERROR: The pin %s must be in INPUT mode."
+msgstr ""
+
+#: taextras.py:147
+msgid "Error importing Pygame. This plugin require Pygame 1.9"
+msgstr ""
+
+#: taextras.py:148
+msgid "Error on initialization of the camera"
+msgstr ""
+
+#: taextras.py:149
+msgid "No camera was found"
+msgstr ""
+
+#: taextras.py:150
+msgid "Error stopping camera"
+msgstr ""
+
+#: taextras.py:151
 msgid "Error starting camera"
 msgstr ""
 
 #. TRANS: The "mask" is used to restrict processing to a region in the image
-#: taextras.py:126
+#: taextras.py:153
 msgid "Error in get mask"
 msgstr ""
 
-#: taextras.py:127
+#: taextras.py:154
 msgid "FollowMe"
 msgstr "मलाई अनुगमन गर"
 
-#: taextras.py:128
+#: taextras.py:155
 msgid "refresh FollowMe"
 msgstr ""
 
-#: taextras.py:129
+#: taextras.py:156
 #, fuzzy
 msgid "Search for a connected camera."
 msgstr "जडान भएको NXT ब्रिकलाई खोज।"
 
 #. TRANS: the calibration is used to match an RGB color to a target
-#: taextras.py:131
+#: taextras.py:158
 msgid "calibration"
 msgstr "व्यासमापन"
 
-#: taextras.py:132
+#: taextras.py:159
 #, fuzzy
 msgid "store a personalized calibration"
 msgstr "व्यक्तिगत व्यासमापन फिर्ता गर"
 
-#: taextras.py:133
+#: taextras.py:160
 msgid "return a personalized calibration"
 msgstr "व्यक्तिगत व्यासमापन फिर्ता गर"
 
-#: taextras.py:134
+#: taextras.py:161
 msgid "follow"
 msgstr "अनुगमन"
 
-#: taextras.py:135
+#: taextras.py:162
 msgid "follow a color or calibration"
 msgstr "रंग वा व्यासमापन अनुकरण गर"
 
-#: taextras.py:136
+#: taextras.py:163
 msgid "brightness"
 msgstr "चम्किलोपन"
 
-#: taextras.py:137
+#: taextras.py:164
 msgid "set the camera brightness as a value between 0 to 255."
 msgstr ""
 
-#: taextras.py:138
+#: taextras.py:165
 msgid "minimum pixels"
 msgstr "न्युनत्तम पिक्सेल"
 
-#: taextras.py:139
+#: taextras.py:166
 msgid "set the minimal number of pixels to follow"
 msgstr "परिणाम हेर्न न्यूनतम संख्या सेट गर"
 
-#: taextras.py:140
+#: taextras.py:167
 msgid "threshold"
 msgstr "सीमा"
 
 #. TRANS: RGB color space (red, green, blue)
-#: taextras.py:142
+#: taextras.py:169
 msgid "set a threshold for a RGB color"
 msgstr "RGB रंगको लागि सीमा रेखा सेट गर"
 
-#: taextras.py:143
+#: taextras.py:170
 msgid "camera mode"
 msgstr ""
 
 #. TRANS: RGB, YUV, and HSV are color spaces
-#: taextras.py:145
+#: taextras.py:172
 msgid "set the color mode of the camera: RGB; YUV or HSV"
 msgstr ""
 
-#: taextras.py:146
+#: taextras.py:173
 msgid "get brightness"
 msgstr ""
 
-#: taextras.py:147
+#: taextras.py:174
 msgid "get the brightness of the ambient light"
 msgstr ""
 
-#: taextras.py:148
+#: taextras.py:175
 msgid "average color"
 msgstr ""
 
-#: taextras.py:149
+#: taextras.py:176
 msgid ""
 "if set to 0 then color averaging is off during calibration; for other values "
 "it is on"
 msgstr ""
 
-#: taextras.py:150
+#: taextras.py:178
 msgid "x position"
 msgstr "x स्थान"
 
-#: taextras.py:151
+#: taextras.py:179
 msgid "return x position"
 msgstr "x स्थान फिर्ता गर"
 
-#: taextras.py:152
+#: taextras.py:180
 msgid "y position"
 msgstr "y स्थान"
 
-#: taextras.py:153
+#: taextras.py:181
 msgid "return y position"
 msgstr "y स्थान फिर्ता गर"
 
-#: taextras.py:154
+#: taextras.py:182
 msgid "pixels"
 msgstr "पिक्सेलहरु"
 
-#: taextras.py:155
+#: taextras.py:183
 msgid "return the number of pixels of the biggest blob"
 msgstr "सबैभन्दा ठुलो बल्बको पिक्सेलहरुको सङ्ख्या फर्काउँछ"
 
 #. TRANS: RGB color space (red, green, blue)
-#: taextras.py:157
+#: taextras.py:185
 msgid "set the color mode of the camera to RGB"
 msgstr ""
 
 #. TRANS: YUV color space (luminance, chrominance)
-#: taextras.py:159
+#: taextras.py:187
 msgid "set the color mode of the camera to YUV"
 msgstr ""
 
 #. TRANS: HSV color space (hue, saturation, value)
-#: taextras.py:161
+#: taextras.py:189
 msgid "set the color mode of the camera to HSV"
 msgstr ""
 
-#: taextras.py:162
+#: taextras.py:190
 msgid "empty calibration"
 msgstr "खाली व्यासमापन"
 
-#: taextras.py:163
+#: taextras.py:191
 msgid "error in string conversion"
 msgstr "स्ट्रिंग सम्परिवर्तनमा त्रुटि छ"
 
+#. TRANS: Pattern detection is a plugin that allow detect signals
+#. with the camera
+#: taextras.py:197
+msgid "Pattern detection"
+msgstr ""
+
+#: taextras.py:198
+msgid "Seeing signal"
+msgstr ""
+
+#: taextras.py:199
+msgid "Returns True if the signal is in front of the camera"
+msgstr ""
+
+#: taextras.py:200
+msgid "Distance to signal"
+msgstr ""
+
+#: taextras.py:201
+msgid "Returns the distance of the signal to the camera in millimeters"
+msgstr ""
+
 #. TRANS: SumBot is a robot programmed for "Sumo wrestling"
-#: taextras.py:168
+#: taextras.py:206
 msgid "SumBot"
 msgstr "समबोट्"
 
-#: taextras.py:169
+#: taextras.py:207
 msgid "speed SumBot"
 msgstr "सम्बोट्को गति बढाऊ"
 
-#: taextras.py:170
+#: taextras.py:208
 msgid "submit the speed to the SumBot"
 msgstr "सम्बोट्लाई गति देऊ"
 
-#: taextras.py:171
+#: taextras.py:209
 msgid "set the default speed for the movement commands"
 msgstr "चाल आदेशहरुको लागि पूर्वनिर्धारित गति सेट गर।"
 
 #. TRANS: This string is shorthand for "move SumBot forward"
-#: taextras.py:173
+#: taextras.py:211
 msgid "forward SumBot"
 msgstr "सम्बोट्लाई अगाडि लग"
 
-#: taextras.py:174
+#: taextras.py:212
 msgid "move SumBot forward"
 msgstr "सम्बोट्लाई अगाडि सार"
 
 #. TRANS: This string is shorthand for "move SumBot backward"
-#: taextras.py:176
+#: taextras.py:214
 msgid "backward SumBot"
 msgstr "सम्बोट्लाई पछाडि लग"
 
-#: taextras.py:177
+#: taextras.py:215
 msgid "move SumBot backward"
 msgstr "सम्बोट्लाई पछाडि सार"
 
-#: taextras.py:178
+#: taextras.py:216
 msgid "stop SumBot"
 msgstr "सम्बोट्लाई रोक"
 
-#: taextras.py:179
+#: taextras.py:217
 msgid "stop the SumBot"
 msgstr "सम्बोट्लाई रोक"
 
 #. TRANS: This string is shorthand for "turn SumBot left"
-#: taextras.py:181
+#: taextras.py:219
 msgid "left SumBot"
 msgstr "सम्बोट्लाई बायाँ मोड़"
 
-#: taextras.py:182
+#: taextras.py:220
 msgid "turn left the SumBot"
 msgstr "सम्बोट्लाई बायाँ मोड़"
 
 #. TRANS: This string is shorthand for "move SumBot right"
-#: taextras.py:184
+#: taextras.py:222
 msgid "right SumBot"
 msgstr "सम्बोट्लाई दायाँ मोड़"
 
-#: taextras.py:185
+#: taextras.py:223
 msgid "turn right the SumBot"
 msgstr "सम्बोट्लाई दायाँ मोड़"
 
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the center of the playing field
-#: taextras.py:188
+#: taextras.py:226
 msgid "angle to center"
 msgstr "केंद्र तर्फ कोण गर"
 
 #. TRANS: dohyo is the playing field
-#: taextras.py:190
+#: taextras.py:228
 msgid "get the angle to the center of the dohyo"
 msgstr "डोजोको केंद्र तर्फ कोण मिलाऊ"
 
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the Enemy (opponent)
-#: taextras.py:193
+#: taextras.py:231
 msgid "angle to Enemy"
 msgstr "शत्रु तर्फ कोण राख"
 
-#: taextras.py:194
+#: taextras.py:232
 msgid "get the angle to the Enemy"
 msgstr "शत्रु तर्फ कोण मिलाऊ"
 
 #. TRANS: This string is shorthand for "x coordinate of SumBot"
-#: taextras.py:196
+#: taextras.py:234
 msgid "x coor. SumBot"
 msgstr "सम्बोट्को x निर्देशांक"
 
-#: taextras.py:197
+#: taextras.py:235
 msgid "get the x coordinate of the SumBot"
 msgstr "सम्बोट्को x निर्देशांक लिऊ ।"
 
 #. TRANS: This string is shorthand for "y coordinate of SumBot"
-#: taextras.py:199
+#: taextras.py:237
 msgid "y coor. SumBot"
 msgstr "सम्बोट्को y निर्देशांक"
 
-#: taextras.py:200
+#: taextras.py:238
 msgid "get the y coordinate of the SumBot"
 msgstr "सम्बोट्को य निर्देशांक लिऊ ।"
 
 #. TRANS: This string is shorthand for "x coordinate of SumBot's enemy"
-#: taextras.py:202
+#: taextras.py:240
 msgid "x coor. Enemy"
 msgstr "सम्बोट्को शत्रुको x निर्देशांक"
 
-#: taextras.py:203
+#: taextras.py:241
 msgid "get the x coordinate of the Enemy"
 msgstr "शत्रुको x निर्देशांक लिऊ ।"
 
 #. TRANS: This string is shorthand for "y coordinate of SumBot's enemy"
-#: taextras.py:205
+#: taextras.py:243
 msgid "y coor. Enemy"
 msgstr "सम्बोट्को शत्रुको y निर्देशांक"
 
-#: taextras.py:206
+#: taextras.py:244
 msgid "get the y coordinate of the Enemy"
 msgstr "शत्रुको ञ निर्देशांक लिऊ ।"
 
 #. TRANS: This string is shorthand for "rotation of SumBot"
-#: taextras.py:208
+#: taextras.py:246
 msgid "rotation SumBot"
 msgstr "सम्बोट्को परिक्रमण"
 
-#: taextras.py:209
+#: taextras.py:247
 msgid "get the rotation of the Sumbot"
 msgstr "सम्बोट्को परिक्रमण लिऊ ।"
 
 #. TRANS: This string is shorthand for "rotation of SumBot's enemy"
-#: taextras.py:211
+#: taextras.py:249
 msgid "rotation Enemy"
 msgstr "शत्रुको परिक्रमण"
 
-#: taextras.py:212
+#: taextras.py:250
 msgid "get the rotation of the Enemy"
 msgstr "शत्रुको परिक्रमण लिऊ ।"
 
-#: taextras.py:213
+#: taextras.py:251
 msgid "distance to center"
 msgstr "केंद्र सम्मको दुरी"
 
 #. TRANS: dohyo is the playing field
-#: taextras.py:215
+#: taextras.py:253
 msgid "get the distance to the center of the dohyo"
 msgstr "डोजोको केंद्र सम्मको दुरी लिऊ ।"
 
-#: taextras.py:216
+#: taextras.py:254
 msgid "distance to Enemy"
 msgstr "शत्रुसम्मको दुरी"
 
-#: taextras.py:217
+#: taextras.py:255
 msgid "get the distance to the Enemy"
 msgstr "शत्रुसम्मको दुरी लिऊ ।"
 
-#: taextras.py:218
+#: taextras.py:256
 msgid "update information"
 msgstr "सुचना अद्यावधिक गर"
 
-#: taextras.py:219
+#: taextras.py:257
 msgid "update information from the server"
 msgstr "सर्भरबाट सुचना अद्यावधिक गर"
 
 #. TRANS: Please use similar terms to those used in the Physics Activity
-#: taextras.py:224
+#: taextras.py:262
 msgid "Palette of physics blocks"
 msgstr "भौतिकविज्ञान खण्डहरुको प्यालेट"
 
-#: taextras.py:225
+#: taextras.py:263
 msgid "start polygon"
 msgstr "बहुभुज सुरु गर"
 
-#: taextras.py:226
+#: taextras.py:264
 msgid "Begin defining a new polygon based on the current Turtle xy position."
 msgstr "हालको टर्टलको xy स्थानमा आधारित नयाँ बहुभुज परिभाषा गर्न सुरु गर।"
 
-#: taextras.py:228
+#: taextras.py:266
 msgid "add point"
 msgstr "बिन्दु थप"
 
-#: taextras.py:229
+#: taextras.py:267
 msgid ""
 "Add a new point to the current polygon based on the current Turtle xy "
 "position."
 msgstr "हालको टर्टलको xy स्थानमा आधारित हालको बहुभुजमा नयाँ बिन्दु थप ।"
 
-#: taextras.py:231
+#: taextras.py:269
 msgid "end polygon"
 msgstr "बहुभुज अन्त गर"
 
-#: taextras.py:232
+#: taextras.py:270
 msgid "Define a new polygon."
 msgstr "नयाँ बहुभुज परिभाषा गर।"
 
-#: taextras.py:233
+#: taextras.py:271
 msgid "end filled polygon"
 msgstr "भरेको बहुभुज अन्त गर"
 
-#: taextras.py:234
+#: taextras.py:272
 msgid "Not a simple polygon"
 msgstr "सामान्य बहुभुज हैन"
 
-#: taextras.py:235
+#: taextras.py:273
 msgid "Define a new filled polygon."
 msgstr "नयाँ भरेको बहुभुज परिभाषा गर।"
 
-#: taextras.py:236
+#: taextras.py:274
 msgid "triangle"
 msgstr "त्रिभुज"
 
 #. TRANS: base of a triangle
-#: taextras.py:238
+#: taextras.py:276
 msgid "base"
 msgstr "सतह"
 
-#: taextras.py:239 taextras.py:245
+#: taextras.py:277 taextras.py:283
 msgid "height"
 msgstr "उचाइ"
 
-#: taextras.py:240
+#: taextras.py:278
 msgid "Add a triangle object to the project."
 msgstr "परियोजनामा त्रिभुज वस्तु थप ।"
 
-#: taextras.py:241
+#: taextras.py:279
 msgid "circle"
 msgstr "वृत्त"
 
-#: taextras.py:242
+#: taextras.py:280
 msgid "Add a circle object to the project."
 msgstr "परियोजनामा वृत्त वस्तु थप ।"
 
-#: taextras.py:243
+#: taextras.py:281
 msgid "rectangle"
 msgstr "समकोण आयत"
 
-#: taextras.py:244
+#: taextras.py:282
 msgid "width"
 msgstr "चौडाइ"
 
-#: taextras.py:246
+#: taextras.py:284
 msgid "Add a rectangle object to the project."
 msgstr "परियोजनामा समकोण आयत वस्तु थप ।"
 
-#: taextras.py:247
+#: taextras.py:285
 msgid "reset"
 msgstr "पुनराम्भ"
 
-#: taextras.py:248
+#: taextras.py:286
 msgid "Reset the project; clear the object list."
 msgstr "परियोजना पुनराम्भ गर; वस्तु सुचि सफा गर।"
 
-#: taextras.py:249
+#: taextras.py:287
 msgid "motor"
 msgstr "मोटर"
 
 #. TRANS: torque as in engine torque
-#: taextras.py:251
+#: taextras.py:289
 msgid "torque"
 msgstr "चक्रिय गति"
 
-#: taextras.py:252
+#: taextras.py:290
 msgid "speed"
 msgstr "गति"
 
-#: taextras.py:253
+#: taextras.py:291
 msgid ""
 "Motor torque and speed range from 0 (off) to positive numbers; motor is "
 "placed on the most recent object created."
@@ -692,65 +807,61 @@ msgstr ""
 "मोटरको चक्रिय गति र गति ०(बन्द) देखि सकारात्मक अंकहरु सम्म फैलिएको हुन्छ; "
 "मोटर हालै मात्र बनाएको वस्तुमा राखिन्छ।"
 
-#: taextras.py:255 taextras.py:418
-msgid "pin"
-msgstr "पिन"
-
-#: taextras.py:256
+#: taextras.py:294
 msgid "Pin an object down so that it cannot fall."
 msgstr "वस्तुलाई नखस्ने गरि त्यसलाई अड्याऊ।"
 
-#: taextras.py:257
+#: taextras.py:295
 msgid "joint"
 msgstr "संयुक्त"
 
-#: taextras.py:258
+#: taextras.py:296
 msgid "x"
 msgstr "x"
 
-#: taextras.py:259
+#: taextras.py:297
 msgid "y"
 msgstr "y"
 
-#: taextras.py:260
+#: taextras.py:298
 msgid ""
 "Join two objects together (the most recent object created and the object at "
 "point x, y)."
 msgstr "दुईवटा वस्तुहरु साथमा जोड(हालैमात्र बनाएको वस्तु र बिन्दु x, yको वस्तु)"
 
-#: taextras.py:262
+#: taextras.py:300
 msgid "save as Physics activity"
 msgstr ""
 
-#: taextras.py:263
+#: taextras.py:301
 msgid "Save the project to the Journal as a Physics activity."
 msgstr "भौतिकविज्ञान क्रियाकलापको रुपमा परियोजनालाई पंजिकामा सेभ गर।"
 
 #. TRANS: Here, gear means a toothed wheel, as in a clock-works
-#: taextras.py:265
+#: taextras.py:303
 msgid "gear"
 msgstr ""
 
-#: taextras.py:266
+#: taextras.py:304
 #, fuzzy
 msgid "Add a gear object to the project."
 msgstr "परियोजनामा वृत्त वस्तु थप ।"
 
-#: taextras.py:267
+#: taextras.py:305
 msgid "density"
 msgstr "घनत्व"
 
-#: taextras.py:268
+#: taextras.py:306
 msgid ""
 "Set the density property for objects (density can be any positive number)."
 msgstr ""
 "वस्तुहरुको लागि घनत्व गुण सेट गर(घनत्व कुनै पनि सकारात्मक अंक हुन सक्छ)।"
 
-#: taextras.py:270
+#: taextras.py:308
 msgid "friction"
 msgstr "घर्षण"
 
-#: taextras.py:271
+#: taextras.py:309
 msgid ""
 "Set the friction property for objects (value from 0 to 1, where 0 turns "
 "friction off and 1 is strong friction)."
@@ -759,11 +870,11 @@ msgstr ""
 "बन्द गर्छ र १ मज़बूत घर्षण हो)।"
 
 #. TRANS: bounciness is coefficient of restitution
-#: taextras.py:274
+#: taextras.py:312
 msgid "bounciness"
 msgstr "ठोक्किएर फर्कने गुण"
 
-#: taextras.py:275
+#: taextras.py:313
 msgid ""
 "Set the bounciness property for objects (a value from 0 to 1, where 0 means "
 "no bounce and 1 is very bouncy)."
@@ -772,11 +883,11 @@ msgstr ""
 "भन्नाले शून्य उछाल र १ घेरै उत्फुल्ल हो)।"
 
 #. TRANS: dynamic here means moving vs in a fixed position
-#: taextras.py:278
+#: taextras.py:316
 msgid "dynamic"
 msgstr "गतिशील शक्ति"
 
-#: taextras.py:279
+#: taextras.py:317
 msgid ""
 "If dynamic = 1, the object can move; if dynamic = 0, it is fixed in position."
 msgstr ""
@@ -784,23 +895,27 @@ msgstr ""
 "स्थानमा स्थापित हुन्छ।"
 
 #. TRANS: WeDo is a robotics product of the LEGO company
-#: taextras.py:285
+#: taextras.py:323
 msgid "Palette of WeDo blocks"
 msgstr "WeDo खण्डहरुको प्यालेट"
 
-#: taextras.py:286
+#: taextras.py:324
 msgid "WeDo"
 msgstr ""
 
-#: taextras.py:287
+#: taextras.py:325
 msgid "set current WeDo device"
 msgstr ""
 
-#: taextras.py:288
+#: taextras.py:326
 msgid "number of WeDo devices"
 msgstr ""
 
-#: taextras.py:290
+#: taextras.py:327
+msgid "tilt"
+msgstr "झुकाव"
+
+#: taextras.py:328
 msgid ""
 "tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
 "tilt left, 2 == tilt right)"
@@ -809,461 +924,448 @@ msgstr ""
 "झुकाऊ,२‍‍‍‍==दायाँ झुकाऊ)"
 
 #. TRANS: This string is shorthand for "output of the distance sensor"
-#: taextras.py:294
+#: taextras.py:332
 msgid "distance sensor output"
 msgstr "सेन्सरको आउट्पुटको दुरी"
 
-#: taextras.py:295
+#: taextras.py:333
 msgid "Motor A"
 msgstr "मोटर A"
 
-#: taextras.py:296
+#: taextras.py:334
 msgid "returns the current value of Motor A"
 msgstr "मोटर Aको हालको मान फर्काउँछ"
 
-#: taextras.py:297
+#: taextras.py:335
 msgid "Motor B"
 msgstr "मोटर B"
 
-#: taextras.py:298
+#: taextras.py:336
 msgid "returns the current value of Motor B"
 msgstr "मोटर Bको हालको मान फर्काउँछ"
 
-#: taextras.py:299
+#: taextras.py:337
 msgid "set the value for Motor A"
 msgstr "मोटर Aको मान सेट गर"
 
-#: taextras.py:300
+#: taextras.py:338
 msgid "set the value for Motor B"
 msgstr "मोटर Bको मान सेट गर"
 
-#: taextras.py:301
+#: taextras.py:339
 msgid "WeDo is unavailable"
 msgstr ""
 
 #. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
-#: taextras.py:303
+#: taextras.py:341
 #, python-format
 msgid "WeDo %d is unavailable; defaulting to 1"
 msgstr ""
 
 #. TRANS: %(device)s and %(wedo_number)d are substitution strings;
 #. please leave untranslated
-#: taextras.py:306
+#: taextras.py:344
 #, python-format
 msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
 msgstr ""
 
 #. TRANS: Lego NXT is a robotics product of the LEGO company
-#: taextras.py:312
+#: taextras.py:349
 msgid "Palette of LEGO NXT blocks of motors"
 msgstr "मोटरहरुको LEGO NXT खण्डहरुको प्यालेट"
 
-#: taextras.py:313
+#: taextras.py:350
 msgid "Palette of LEGO NXT blocks of sensors"
 msgstr "सेन्सरहरुको LEGO NXT खण्डहरुको प्यालेट"
 
 #. TRANS: touch sensor (implemented as a button)
-#: taextras.py:315
+#: taextras.py:352
 msgid "touch"
 msgstr "टच"
 
 #. TRANS: distance sensor (implemented using ultrasonics)
-#: taextras.py:317
+#: taextras.py:354
 msgid "ultrasonic"
 msgstr "अल्त्रासोनिक"
 
-#: taextras.py:318
+#: taextras.py:355
 msgid "color"
 msgstr "रंग"
 
-#: taextras.py:319
-msgid "light"
-msgstr "उज्यालो"
-
-#: taextras.py:320
+#: taextras.py:357
 msgid "sound"
 msgstr "ध्बनि"
 
-#: taextras.py:321
-#, fuzzy
-msgid "gray"
-msgstr "खरानी रङ"
-
 #. TRANS: The brick is the NXT controller
-#: taextras.py:323
+#: taextras.py:360
 msgid "Please check the connection with the brick"
 msgstr ""
 
-#: taextras.py:324
+#: taextras.py:361
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT A, B or C"
 msgstr ""
 
-#: taextras.py:325
+#: taextras.py:362
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
 msgstr ""
 
-#: taextras.py:326
+#: taextras.py:363
 msgid "The value of power must be between -127 to 127"
 msgstr ""
 
-#: taextras.py:327
+#: taextras.py:364
 #, python-format
 msgid "The parameter must be a integer, not '%s'"
 msgstr ""
 
-#: taextras.py:328
+#: taextras.py:365
 msgid "An error has occurred: check all connections and try to reconnect"
 msgstr ""
 
-#: taextras.py:329
+#: taextras.py:366
 #, python-format
 msgid "NXT found %s bricks"
 msgstr ""
 
-#: taextras.py:330
+#: taextras.py:367
 msgid "NXT not found"
 msgstr "NXT भटिएन"
 
-#: taextras.py:331
+#: taextras.py:368
 #, python-format
 msgid "Brick number %s was not found"
 msgstr ""
 
-#: taextras.py:332
+#: taextras.py:369
 msgid "refresh NXT"
 msgstr "NXTलाई ताजा पार"
 
-#: taextras.py:333
+#: taextras.py:370
 msgid "Search for a connected NXT brick."
 msgstr "जडान भएको NXT ब्रिकलाई खोज।"
 
-#: taextras.py:334
+#: taextras.py:371
 msgid "NXT"
 msgstr ""
 
-#: taextras.py:335
+#: taextras.py:372
 msgid "set current NXT device"
 msgstr ""
 
-#: taextras.py:336
+#: taextras.py:373
 msgid "number of NXT devices"
 msgstr ""
 
-#: taextras.py:337
+#: taextras.py:374
 msgid "brick name"
 msgstr ""
 
-#: taextras.py:338
+#: taextras.py:375
 msgid "Get the name of a brick."
 msgstr ""
 
-#: taextras.py:339
+#: taextras.py:376
 msgid "play tone"
 msgstr "टोन सुरु गर"
 
-#: taextras.py:340
+#: taextras.py:377
 msgid "frequency"
 msgstr "आवृत्ति"
 
-#: taextras.py:341
+#: taextras.py:378
 msgid "time"
 msgstr "समय"
 
-#: taextras.py:342
+#: taextras.py:379
 msgid "Play a tone at frequency for time."
 msgstr "समयको लागि आवृतिमा आवाज सुरु गर।"
 
 #. TRANS: turn is the action
-#: taextras.py:344
+#: taextras.py:381
 msgid ""
 "turn motor\n"
 "\n"
 msgstr ""
 
-#: taextras.py:345
+#: taextras.py:382
 msgid "port"
 msgstr "पोर्ट"
 
-#: taextras.py:346
+#: taextras.py:383
 msgid "power"
 msgstr "शक्ति"
 
 #. TRANS: rotations is quantity of turns
-#: taextras.py:348
+#: taextras.py:385
 msgid "rotations"
 msgstr "आवर्तनहरु"
 
-#: taextras.py:349
+#: taextras.py:386
 msgid "turn a motor"
 msgstr "मोटरलाई घूमाऊ"
 
-#: taextras.py:350
+#: taextras.py:387
 msgid ""
 "synchronize\n"
 "\n"
 "motors"
 msgstr ""
 
-#: taextras.py:351
+#: taextras.py:388
 msgid "steering"
 msgstr ""
 
-#: taextras.py:352
+#: taextras.py:389
 msgid "synchronize two motors connected in PORT B and PORT C"
 msgstr "PORT B र PORT C मा जडान भएको दुईवटा मोटरहरु संकालन गर"
 
-#: taextras.py:353
+#: taextras.py:390
 msgid "PORT A"
 msgstr "PORT A"
 
-#: taextras.py:354
+#: taextras.py:391
 msgid "PORT A of the brick"
 msgstr "ब्रिकको PORT A"
 
-#: taextras.py:355
+#: taextras.py:392
 msgid "PORT B"
 msgstr "PORT B"
 
-#: taextras.py:356
+#: taextras.py:393
 msgid "PORT B of the brick"
 msgstr "ब्रिकको PORT B"
 
-#: taextras.py:357
+#: taextras.py:394
 msgid "PORT C"
 msgstr "PORT C"
 
-#: taextras.py:358
+#: taextras.py:395
 msgid "PORT C of the brick"
 msgstr "ब्रिकको PORT C"
 
-#: taextras.py:359
+#: taextras.py:396
+msgid ""
+"synchronize\n"
+"motors"
+msgstr ""
+
+#: taextras.py:397
 msgid "start motor"
 msgstr "मोटर सुरु गर"
 
-#: taextras.py:360
+#: taextras.py:398
 msgid "Run a motor forever."
 msgstr "मोटरलाई सधैको लागि चलाऊ।"
 
-#: taextras.py:361
+#: taextras.py:399
 msgid "brake motor"
 msgstr "मोटरलाई ब्रेक लगाऊ"
 
-#: taextras.py:362
+#: taextras.py:400
 msgid "Stop a specified motor."
 msgstr "उल्लेखित मोटर बन्द गर।"
 
 #. TRANS: reset is used to reset the counter associated with the motor
-#: taextras.py:364
+#: taextras.py:402
 msgid "reset motor"
 msgstr "मोटरलाई रिसेट गर"
 
-#: taextras.py:365
+#: taextras.py:403
 msgid "Reset the motor counter."
 msgstr "मोटर काउन्टर रिसेट गर"
 
-#: taextras.py:366
+#: taextras.py:404
 msgid "motor position"
 msgstr "मोटरको स्थान"
 
-#: taextras.py:367
+#: taextras.py:405
 msgid "Get the motor position."
 msgstr "मोटरको स्थान प्राप्त गर।"
 
-#: taextras.py:368
+#: taextras.py:406
 msgid "PORT 1"
 msgstr "PORT 1"
 
-#: taextras.py:369
+#: taextras.py:407
 msgid "PORT 1 of the brick"
 msgstr "ब्रिकको PORT १"
 
-#: taextras.py:370
+#: taextras.py:408
 msgid "read"
 msgstr "पढ"
 
-#: taextras.py:371
+#: taextras.py:409
 msgid "sensor"
 msgstr "संवेदक"
 
-#: taextras.py:372
+#: taextras.py:410
 msgid "Read sensor output."
 msgstr "संवेदकको उपज पढ।"
 
-#: taextras.py:373
+#: taextras.py:411
 msgid "PORT 2"
 msgstr "PORT 2"
 
-#: taextras.py:374
+#: taextras.py:412
 msgid "PORT 2 of the brick"
 msgstr "ब्रिकको PORT २"
 
-#: taextras.py:375
+#: taextras.py:413
 msgid "light sensor"
 msgstr "प्रकाश संवेदक"
 
-#: taextras.py:376
+#: taextras.py:414
 msgid "gray sensor"
 msgstr ""
 
-#: taextras.py:377
+#: taextras.py:415
 msgid "PORT 3"
 msgstr "PORT 2"
 
-#: taextras.py:378
+#: taextras.py:416
 msgid "PORT 3 of the brick"
 msgstr "ब्रिकको PORT ३"
 
-#: taextras.py:379
+#: taextras.py:417
 msgid "touch sensor"
 msgstr "टच संवेदक"
 
-#: taextras.py:380
+#: taextras.py:418
 msgid "distance sensor"
 msgstr "दुरी संवेदक"
 
-#: taextras.py:381
+#: taextras.py:419
 msgid "PORT 4"
 msgstr "PORT 4"
 
-#: taextras.py:382
+#: taextras.py:420
 msgid "PORT 4 of the brick"
 msgstr "ब्रिकको PORT ४"
 
-#: taextras.py:383
+#: taextras.py:421
 msgid "sound sensor"
 msgstr "ध्वनिको सेन्सर"
 
-#: taextras.py:384
+#: taextras.py:422
 msgid "color sensor"
 msgstr "रंगको संवेदक"
 
 #. TRANS: set light is used to set the light level associated with
 #. the color sensor (which can emit light as well as sense it)
-#: taextras.py:387
+#: taextras.py:425
 msgid "set light"
 msgstr "प्रकाश सेट गर"
 
-#: taextras.py:388
+#: taextras.py:426
 msgid "Set color sensor light."
 msgstr "अनुरुप पढ"
 
 #. TRANS: the battery level is the charge level of the brick
-#: taextras.py:390
+#: taextras.py:428
 msgid "battery level"
 msgstr ""
 
-#: taextras.py:391
-msgid "Get battery level of the brick"
+#: taextras.py:429
+msgid "Get the battery level of the brick in millivolts"
 msgstr ""
 
 #. TRANS: Arduino plugin to control an Arduino board
-#: taextras.py:396
-msgid "HIGH"
-msgstr "HIGH"
-
-#: taextras.py:397
-msgid "LOW"
-msgstr "LOW"
-
-#: taextras.py:398
-msgid "INPUT"
-msgstr "INPUT"
-
-#: taextras.py:399
-msgid "OUTPUT"
-msgstr "OUTPUT"
+#: taextras.py:434
+#, fuzzy
+msgid "Palette of Arduino blocks"
+msgstr "WeDo खण्डहरुको प्यालेट"
 
 #. TRANS: PWM is pulse-width modulation
-#: taextras.py:401
+#: taextras.py:440
 msgid "PWM"
 msgstr "PWM"
 
-#: taextras.py:402
+#: taextras.py:441
 msgid "SERVO"
 msgstr "SERVO"
 
-#: taextras.py:403
+#: taextras.py:442
 msgid "ERROR: Check the Arduino and the number of port."
 msgstr "ERROR: अर्दिनो र पोर्टको सङ्ख्या जाच।"
 
-#: taextras.py:404
+#: taextras.py:443
 msgid "ERROR: Value must be a number from 0 to 255."
 msgstr "ERROR: मान ० देखि २५५ सम्मको अंक हुनुपर्छ।"
 
-#: taextras.py:405
-msgid "ERROR: Value must be either HIGH or LOW."
+#: taextras.py:444
+#, fuzzy
+msgid "ERROR: Value must be either HIGH or LOW, 0 or 1"
 msgstr "ERROR: मान कि HIGH अथवा LOW हुनुपर्छ।"
 
-#: taextras.py:406
+#: taextras.py:445
 msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
 msgstr "ERROR: विधि कि INPUT, OUTPUT, PWM अथवा SERVO हुनुपर्छ।"
 
-#: taextras.py:407
+#: taextras.py:446
+msgid "ERROR: The value must be an integer."
+msgstr ""
+
+#: taextras.py:447
+msgid "ERROR: The pin must be an integer."
+msgstr ""
+
+#: taextras.py:448
 msgid "refresh Arduino"
 msgstr ""
 
-#: taextras.py:408
+#: taextras.py:449
 msgid "Search for connected Arduinos."
 msgstr ""
 
-#: taextras.py:409
+#: taextras.py:450
 msgid "Arduino"
 msgstr ""
 
-#: taextras.py:410
+#: taextras.py:451
 msgid "set current Arduino board"
 msgstr ""
 
-#: taextras.py:411
+#: taextras.py:452
 msgid "number of Arduinos"
 msgstr ""
 
-#: taextras.py:412
+#: taextras.py:453
 msgid "number of Arduino boards"
 msgstr ""
 
-#: taextras.py:413
+#: taextras.py:454
 msgid "Arduino name"
 msgstr ""
 
-#: taextras.py:414
+#: taextras.py:455
 msgid "Get the name of an Arduino."
 msgstr ""
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
-#: taextras.py:417
+#: taextras.py:458
 msgid "pin mode"
 msgstr "पिन विधि"
 
-#: taextras.py:419
-msgid "mode"
-msgstr "विधि"
-
-#: taextras.py:420
+#: taextras.py:461
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
 msgstr "पिन कार्य(INPUT, OUTPUT, PWM, SERVO) छान।"
 
-#: taextras.py:421
+#: taextras.py:462
 msgid "analog write"
 msgstr "अनुरुप लेख"
 
-#: taextras.py:422
-msgid "value"
-msgstr "मान"
-
-#: taextras.py:423
+#: taextras.py:464
 msgid "Write analog value in specified port."
 msgstr "उल्लेखित पोर्टमा अनुरुप मान लेख।"
 
-#: taextras.py:424
+#: taextras.py:465
 msgid "analog read"
 msgstr "अनुरुप पढ"
 
-#: taextras.py:425
+#: taextras.py:466
 msgid ""
 "Read value from analog port. Value may be between 0 and 1023. Use Vref to "
 "determine voltage. For USB, volt=((read)*5)/1024) approximately."
@@ -1271,218 +1373,259 @@ msgstr ""
 "अनुरुप पोर्टबाट मान पढ। मान ० देखि १०२३ सम्मको हुन सक्छ। वोल्टेज निर्धारित "
 "गर्न Vref प्रयोग गर। USBको लागि, volt = लगभग (((read)*5)/1024)"
 
-#: taextras.py:427
+#: taextras.py:468
 msgid "digital write"
 msgstr "डिजिटल लेख"
 
-#: taextras.py:428
+#: taextras.py:469
 msgid "Write digital value to specified port."
 msgstr "उल्लेखित पोर्टमा डिजिटल मान लेख।"
 
-#: taextras.py:429
+#: taextras.py:470
 msgid "digital read"
 msgstr "डिजिटल पढ"
 
-#: taextras.py:430
+#: taextras.py:471
 msgid "Read value from digital port."
 msgstr "डिजिटल पोर्टबाट मान पढ।"
 
-#: taextras.py:431
-msgid "Set HIGH value for digital port."
-msgstr "डिजिटल पोर्टको लागि HIGH मान सेट गर।"
-
-#: taextras.py:432
+#: taextras.py:473
 msgid "Configure Arduino port for digital input."
 msgstr "डिजिटल आगतको लागि Arduino समनुरूप गर"
 
-#: taextras.py:433
+#: taextras.py:474
 msgid "Configure Arduino port to drive a servo."
 msgstr "सर्वो चलाउन Arduino समनुरूप गर।"
 
-#: taextras.py:434
-msgid "Set LOW value for digital port."
-msgstr "डिजिटल पोर्टको लागि LOW मान सेट गर।"
-
-#: taextras.py:435
+#: taextras.py:476
 msgid "Configure Arduino port for digital output."
 msgstr "डिजिटल उत्पादको लागि Arduino समनुरूप गर"
 
-#: taextras.py:436
+#: taextras.py:477
 msgid "Configure Arduino port for PWM (pulse-width modulation)."
 msgstr "PWM(pulse-width modulation)को लागि समनुरूप गर।"
 
+#: taextras.py:478
+#, python-format
+msgid "Not found Arduino %s"
+msgstr ""
+
+#: taextras.py:479
+msgid "The pin must be an integer"
+msgstr ""
+
+#: taextras.py:480
+msgid "The device must be an integer"
+msgstr ""
+
 #. TRANS: plugin to control an ExpEyes device
-#: taextras.py:441
+#: taextras.py:485
 #, fuzzy
 msgid "Palette of Expeyes blocks"
 msgstr "WeDo खण्डहरुको प्यालेट"
 
 #. TRANS: Programmable voltage output
-#: taextras.py:443
+#: taextras.py:487
 msgid "set PVS"
 msgstr ""
 
-#: taextras.py:444
+#: taextras.py:488
 msgid "set programmable voltage output"
 msgstr ""
 
 #. TRANS: Square wave 1 voltage output
-#: taextras.py:446
+#: taextras.py:490
 msgid "set SQR1 voltage"
 msgstr ""
 
-#: taextras.py:447
+#: taextras.py:491
 msgid "set square wave 1 voltage output"
 msgstr ""
 
 #. TRANS: Square wave 2 voltage output
-#: taextras.py:449
+#: taextras.py:493
 msgid "set SQR2 voltage"
 msgstr ""
 
-#: taextras.py:450
+#: taextras.py:494
 msgid "set square wave 2 voltage output"
 msgstr ""
 
 #. TRANS: Digital output level
-#: taextras.py:452
+#: taextras.py:496
 msgid "set OD1"
 msgstr ""
 
-#: taextras.py:453
+#: taextras.py:497
 msgid "set digital output level (OD1) low (0) or high (1)"
 msgstr ""
 
 #. TRANS: Input 1 voltage level
-#: taextras.py:455
+#: taextras.py:499
 msgid "IN1 level"
 msgstr ""
 
-#: taextras.py:456
+#: taextras.py:500
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
 msgstr ""
 
 #. TRANS: Input 2 voltage level
-#: taextras.py:459
+#: taextras.py:503
 msgid "IN2 level"
 msgstr ""
 
-#: taextras.py:460
+#: taextras.py:504
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
 msgstr ""
 
 #. TRANS: Resistive sensor voltage level
-#: taextras.py:463
+#: taextras.py:507
 msgid "SEN level"
 msgstr ""
 
-#: taextras.py:464
+#: taextras.py:508
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
 msgstr ""
 
-#: taextras.py:466
+#: taextras.py:510
 msgid "capture"
 msgstr ""
 
-#: taextras.py:467
+#: taextras.py:511
 msgid "input"
 msgstr ""
 
-#: taextras.py:468
+#: taextras.py:512
 msgid "samples"
 msgstr ""
 
-#: taextras.py:469
+#: taextras.py:513
 msgid "interval"
 msgstr ""
 
 #. TRANS: MS is microseconds
-#: taextras.py:471
+#: taextras.py:515
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr ""
 
 #. TRANS: Analog input 1 voltage level
-#: taextras.py:474
+#: taextras.py:518
 msgid "A1"
 msgstr ""
 
-#: taextras.py:475
+#: taextras.py:519
 msgid "read analog input 1 voltage"
 msgstr ""
 
 #. TRANS: Analog input 2 voltage level
-#: taextras.py:477
+#: taextras.py:521
 msgid "A2"
 msgstr ""
 
-#: taextras.py:478
+#: taextras.py:522
 msgid "read analog input 2 voltage"
 msgstr ""
 
 #. TRANS: Read input 1 voltage
-#: taextras.py:480
+#: taextras.py:524
 msgid "IN1"
 msgstr ""
 
-#: taextras.py:481
+#: taextras.py:525
 msgid "read input 1 voltage"
 msgstr ""
 
 #. TRANS: Read input 2 voltage
-#: taextras.py:483
+#: taextras.py:527
 msgid "IN2"
 msgstr ""
 
-#: taextras.py:484
+#: taextras.py:528
 msgid "read input 2 voltage"
 msgstr ""
 
 #. TRANS: Read analog sensor input voltage
-#: taextras.py:486
+#: taextras.py:530
 msgid "SEN"
 msgstr ""
 
-#: taextras.py:487
+#: taextras.py:531
 msgid "read analog sensor input voltage"
 msgstr ""
 
 #. TRANS: Read square wave 1 input voltage
-#: taextras.py:489
+#: taextras.py:533
 msgid "SQR1"
 msgstr ""
 
-#: taextras.py:490
+#: taextras.py:534
 msgid "read square wave 1 voltage"
 msgstr ""
 
 #. TRANS: Read square wave 2 input voltage
-#: taextras.py:492
+#: taextras.py:536
 msgid "SQR2"
 msgstr ""
 
-#: taextras.py:493
+#: taextras.py:537
 msgid "read square wave 2 voltage"
 msgstr ""
 
 #. TRANS: Read programmable voltage
-#: taextras.py:495
+#: taextras.py:539
 msgid "PVS"
 msgstr ""
 
-#: taextras.py:496
+#: taextras.py:540
 msgid "read programmable voltage"
 msgstr ""
 
-#: taextras.py:497
+#: taextras.py:541
 msgid "Expeyes device not found"
 msgstr ""
+
+#~ msgid "returns the battery charge as a number between 0 and 255"
+#~ msgstr "ब्याटरी चार्ज ० देखि २५५ सम्म अंकको रुपमा फिर्ता गर्छ"
+
+#~ msgid "adjust LED intensity between 0 and 255"
+#~ msgstr "LEDको प्रकाश-तीव्रता ० देखि २५५ भित्र समायोजित गर।"
+
+#~ msgid "returns 0 or 1 depending on the sensor inclination"
+#~ msgstr "सेंसर झुकावमा निर्भर भई ० वा १ फिर्ता गर्छ"
+
+#~ msgid "switches from 0 to 1, the frequency depends on the vibration"
+#~ msgstr "० देखि १ मा बदल्नछ, आवृत्ति कंपनमा निर्भर हुन्छ"
+
+#~ msgid "grayscale"
+#~ msgstr "ग्रेस्केल"
+
+#~ msgid "ambient light"
+#~ msgstr "अ्यामबीअन्ट प्रकाश"
+
+#~ msgid "magnetic induction"
+#~ msgstr "चुंबकीय प्रेरण"
+
+#~ msgid "vibration"
+#~ msgstr "कंपन"
+
+#~ msgid "move the Butia robot forward a predefined distance"
+#~ msgstr "बुटिया रोबटलाई पूर्वनिर्धारित दुरीमा अगाडि सार"
+
+#~ msgid "move the Butia robot backward a predefined distance"
+#~ msgstr "बुटिया रोबटलाई पूर्वनिर्धारित दुरीमा पछाडि सार"
+
+#~ msgid "turn Butia"
+#~ msgstr "बुटियालाई मोड़"
+
+#~ msgid "turn the Butia robot x degrees"
+#~ msgstr "बुटिया रोबटलाई x डिग्री मोड़"
 
 #~ msgid "returns the object gray level as a number between 0 and 1023"
 #~ msgstr "ऐम्बीअन्ट प्रकाश मात्रा ० देखि १०२३ भित्रको अंकको रुपमा फिर्ता गर्छ"
@@ -2380,9 +2523,6 @@ msgstr ""
 #~ msgid "Port"
 #~ msgstr "द्वार"
 
-#~ msgid "left"
-#~ msgstr "बायाँ"
-
 #~ msgid "comment"
 #~ msgstr "टिप्पणी"
 
@@ -2397,9 +2537,6 @@ msgstr ""
 
 #~ msgid "Cartesian"
 #~ msgstr "कार्टेसन"
-
-#~ msgid "voltage"
-#~ msgstr "भोल्टेज"
 
 #~ msgid "clears the screen and reset the turtle"
 #~ msgstr "स्क्रिन खाली गर्छ र टर्टललाई रिसेट गर्छ"
@@ -2421,9 +2558,6 @@ msgstr ""
 
 #~ msgid "show aligned"
 #~ msgstr "पङ्क्तिबद्धरुपमा देखाऊ"
-
-#~ msgid "Turtle Art"
-#~ msgstr "टर्टल आर्ट"
 
 #, python-format
 #~ msgid "Do you want to reinstall %s?"
@@ -2473,9 +2607,6 @@ msgstr ""
 
 #~ msgid "Quit"
 #~ msgstr "बन्द गर्नुहोस्"
-
-#~ msgid "right"
-#~ msgstr "दायाँ"
 
 #~ msgid "Sugar Journal description field"
 #~ msgstr "सुगर पंजिका वर्णन फाँट"

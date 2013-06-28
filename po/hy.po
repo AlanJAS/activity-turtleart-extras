@@ -358,13 +358,15 @@ msgstr "Բութիա"
 
 # needs to have %s
 #: taextras.py:142
-#, python-format, 
+#, python-format
+#, python-format,
 msgid "ERROR: The pin %s must be in OUTPUT mode."
 msgstr "ՍԽԱԼ. Փինը %s պետք է լինի ԱՐՏԱԾՄԱՆ ռեժիմում"
 
 # needs to have %s
 #: taextras.py:143
-#, python-format, 
+#, python-format
+#, python-format,
 msgid "ERROR: The pin %s must be in INPUT mode."
 msgstr "ՍԽԱԼ. Փինը %s պետք է լինի ՆԵՐԱԾՄԱՆ ռեժիմում"
 

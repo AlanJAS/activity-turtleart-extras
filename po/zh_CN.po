@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-15 00:34-0500\n"
-"PO-Revision-Date: 2013-02-22 05:06+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"POT-Creation-Date: 2013-06-19 00:33-0400\n"
+"PO-Revision-Date: 2013-06-20 20:21+0200\n"
+"Last-Translator: lite <litekok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -106,45 +106,41 @@ msgstr "错误：该值必须为0或1，“低”或“高"
 msgid "ERROR: The mode must be INPUT or OUTPUT."
 msgstr "错误：该模式必须是输入或输出。"
 
-#: taextras.py:78
-msgid "Turn LED on and off: 0 is off; 1 is on"
-msgstr "开关LED：0为关；1为开"
-
-#: taextras.py:79
-msgid "returns the gray level"
-msgstr "返回灰度等级"
+#: taextras.py:78 taextras.py:79
+msgid "turns LED on and off: 1 means on, 0 means off"
+msgstr "开关LED：1 是开, 0是关"
 
 #: taextras.py:80
-msgid "returns 1 when the button is press and 0 otherwise"
-msgstr "当按钮按下返回1，否则为0"
+msgid "returns the gray level as a value between 0 and 65535"
+msgstr "返回灰度等级，为0和65536之间的一个数值"
 
 #: taextras.py:81
-msgid "returns the light level"
-msgstr "返回灯光等级"
+msgid "returns 1 when the button is pressed and 0 otherwise"
+msgstr "当按钮按下返回1，否则为0"
 
 #: taextras.py:82
+msgid "returns the light level as a value between 0 and 65535"
+msgstr "返回光照等级，为0和65536之间的一个数值"
+
+#: taextras.py:83
+msgid "returns the distance as a value between 0 and 65535"
+msgstr "返回距离，为0和65536之间的一个数值"
+
+#: taextras.py:84
+msgid "returns the resistance value (ohms)"
+msgstr "返回电阻值（欧姆）"
+
+#: taextras.py:85
+msgid "returns the voltage value (volts)"
+msgstr "返回电压值（伏特）"
+
+#: taextras.py:86
 msgid "returns the temperature"
 msgstr "返回温度"
 
-#: taextras.py:83
-msgid "returns the distance from the object in front of the sensor"
-msgstr "返回物体和传感器的距离"
-
-#: taextras.py:84
+#: taextras.py:87
 msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
 msgstr "当传感器检测到磁场返回1，否则为0"
-
-#: taextras.py:85
-msgid "returns the value of the resistance"
-msgstr "返回电阻值"
-
-#: taextras.py:86
-msgid "returns the value of the voltage"
-msgstr "返回电压值"
-
-#: taextras.py:87
-msgid "gpio"
-msgstr "gpio"
 
 #: taextras.py:88
 msgid "LED"
@@ -196,8 +192,9 @@ msgid "battery charge Butia"
 msgstr "布迪充电"
 
 #: taextras.py:101
-msgid "returns the battery charge as a number between 0 and 255"
-msgstr "返回电池充电度（0到255之间）"
+msgid ""
+"returns the battery charge in volts. If no motors present, it returns 255"
+msgstr "返回电池充电（单位为伏）。如果没有电机，返回255"
 
 #. TRANS: This string is shorthand for "speed of Butia"
 #: taextras.py:103
@@ -276,11 +273,11 @@ msgstr "布迪机器人额外模块"
 msgid "hack pin mode"
 msgstr "破解引脚模式"
 
-#: taextras.py:125 taextras.py:293 taextras.py:455
+#: taextras.py:125 taextras.py:293 taextras.py:459
 msgid "pin"
 msgstr "引脚"
 
-#: taextras.py:126 taextras.py:456
+#: taextras.py:126 taextras.py:460
 msgid "mode"
 msgstr "模式"
 
@@ -292,7 +289,7 @@ msgstr "选择引脚功能（输入，输出）。"
 msgid "write hack pin Butia"
 msgstr "写入破解引脚布迪"
 
-#: taextras.py:129 taextras.py:459
+#: taextras.py:129 taextras.py:463
 msgid "value"
 msgstr "值"
 
@@ -308,16 +305,15 @@ msgstr "读取破解引脚布迪"
 msgid "read the value of a hack pin"
 msgstr "读取一个破解引脚的值"
 
-#. TRANS: Arduino plugin to control an Arduino board
-#: taextras.py:133 taextras.py:433
+#: taextras.py:133 taextras.py:435
 msgid "HIGH"
 msgstr "高"
 
-#: taextras.py:134 taextras.py:468
+#: taextras.py:134 taextras.py:472
 msgid "Set HIGH value for digital port."
 msgstr "设置数字端口为高值。"
 
-#: taextras.py:135 taextras.py:435
+#: taextras.py:135 taextras.py:437
 msgid "INPUT"
 msgstr "输入"
 
@@ -325,15 +321,15 @@ msgstr "输入"
 msgid "Configure hack port for digital input."
 msgstr "为数字输入配置破解端口。"
 
-#: taextras.py:137 taextras.py:434
+#: taextras.py:137 taextras.py:436
 msgid "LOW"
 msgstr "低"
 
-#: taextras.py:138 taextras.py:471
+#: taextras.py:138 taextras.py:475
 msgid "Set LOW value for digital port."
 msgstr "设置数字端口为低值。"
 
-#: taextras.py:139 taextras.py:436
+#: taextras.py:139 taextras.py:438
 msgid "OUTPUT"
 msgstr "输出"
 
@@ -1136,413 +1132,474 @@ msgid "PORT C of the brick"
 msgstr "积木的端口 C"
 
 #: taextras.py:396
+msgid ""
+"synchronize\n"
+"motors"
+msgstr ""
+"同步\n"
+"电机"
+
+#: taextras.py:397
 msgid "start motor"
 msgstr "启动电机"
 
-#: taextras.py:397
+#: taextras.py:398
 msgid "Run a motor forever."
 msgstr "持续运行电机。"
 
-#: taextras.py:398
+#: taextras.py:399
 msgid "brake motor"
 msgstr "制动电机"
 
-#: taextras.py:399
+#: taextras.py:400
 msgid "Stop a specified motor."
 msgstr "停止指定的电机。"
 
 #. TRANS: reset is used to reset the counter associated with the motor
-#: taextras.py:401
+#: taextras.py:402
 msgid "reset motor"
 msgstr "复位电机"
 
-#: taextras.py:402
+#: taextras.py:403
 msgid "Reset the motor counter."
 msgstr "复位电机计数器。"
 
-#: taextras.py:403
+#: taextras.py:404
 msgid "motor position"
 msgstr "电机位置"
 
-#: taextras.py:404
+#: taextras.py:405
 msgid "Get the motor position."
 msgstr "得到电机位置。"
 
-#: taextras.py:405
+#: taextras.py:406
 msgid "PORT 1"
 msgstr "端口 1"
 
-#: taextras.py:406
+#: taextras.py:407
 msgid "PORT 1 of the brick"
 msgstr "积木的端口 1"
 
-#: taextras.py:407
+#: taextras.py:408
 msgid "read"
 msgstr "读取"
 
-#: taextras.py:408
+#: taextras.py:409
 msgid "sensor"
 msgstr "传感器"
 
-#: taextras.py:409
+#: taextras.py:410
 msgid "Read sensor output."
 msgstr "读取传感器输出。"
 
-#: taextras.py:410
+#: taextras.py:411
 msgid "PORT 2"
 msgstr "端口 2"
 
-#: taextras.py:411
+#: taextras.py:412
 msgid "PORT 2 of the brick"
 msgstr "积木的端口 2"
 
-#: taextras.py:412
+#: taextras.py:413
 msgid "light sensor"
 msgstr "灯光传感器"
 
-#: taextras.py:413
+#: taextras.py:414
 msgid "gray sensor"
 msgstr "灰色传感器"
 
-#: taextras.py:414
+#: taextras.py:415
 msgid "PORT 3"
 msgstr "端口 3"
 
-#: taextras.py:415
+#: taextras.py:416
 msgid "PORT 3 of the brick"
 msgstr "积木的端口 3"
 
-#: taextras.py:416
+#: taextras.py:417
 msgid "touch sensor"
 msgstr "触控传感器"
 
-#: taextras.py:417
+#: taextras.py:418
 msgid "distance sensor"
 msgstr "距离传感器"
 
-#: taextras.py:418
+#: taextras.py:419
 msgid "PORT 4"
 msgstr "端口 4"
 
-#: taextras.py:419
+#: taextras.py:420
 msgid "PORT 4 of the brick"
 msgstr "积木的端口 4"
 
-#: taextras.py:420
+#: taextras.py:421
 msgid "sound sensor"
 msgstr "声音传感器"
 
-#: taextras.py:421
+#: taextras.py:422
 msgid "color sensor"
 msgstr "颜色传感器"
 
 #. TRANS: set light is used to set the light level associated with
 #. the color sensor (which can emit light as well as sense it)
-#: taextras.py:424
+#: taextras.py:425
 msgid "set light"
 msgstr "设置灯"
 
-#: taextras.py:425
+#: taextras.py:426
 msgid "Set color sensor light."
 msgstr "设置颜色感应灯。"
 
 #. TRANS: the battery level is the charge level of the brick
-#: taextras.py:427
+#: taextras.py:428
 msgid "battery level"
 msgstr "电池电量"
 
-#: taextras.py:428
-msgid "Get battery level of the brick"
-msgstr "得到块的电池电量"
+#: taextras.py:429
+msgid "Get the battery level of the brick in millivolts"
+msgstr "得到拼块的电池电量（单位为毫伏）"
+
+#. TRANS: Arduino plugin to control an Arduino board
+#: taextras.py:434
+msgid "Palette of Arduino blocks"
+msgstr "Arduino模板"
 
 #. TRANS: PWM is pulse-width modulation
-#: taextras.py:438
+#: taextras.py:440
 msgid "PWM"
 msgstr "调速"
 
-#: taextras.py:439
+#: taextras.py:441
 msgid "SERVO"
 msgstr "伺服"
 
-#: taextras.py:440
+#: taextras.py:442
 msgid "ERROR: Check the Arduino and the number of port."
 msgstr "错误：请检查的Arduino和端口号。"
 
-#: taextras.py:441
+#: taextras.py:443
 msgid "ERROR: Value must be a number from 0 to 255."
 msgstr "错误：数值必须从0到255。"
 
-#: taextras.py:442
-msgid "ERROR: Value must be either HIGH or LOW."
-msgstr "错误：值必须是高或低。"
+#: taextras.py:444
+msgid "ERROR: Value must be either HIGH or LOW, 0 or 1"
+msgstr "错误：值必须是高或低，0或1"
 
-#: taextras.py:443
+#: taextras.py:445
 msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
 msgstr "错误：模式必须是输入，输出，调速或伺服。"
 
-#: taextras.py:444
+#: taextras.py:446
+msgid "ERROR: The value must be an integer."
+msgstr "错误：值必须是一个整数。"
+
+#: taextras.py:447
+msgid "ERROR: The pin must be an integer."
+msgstr "错误：pin值必须是一个整数。"
+
+#: taextras.py:448
 msgid "refresh Arduino"
 msgstr "刷新Arduino"
 
-#: taextras.py:445
+#: taextras.py:449
 msgid "Search for connected Arduinos."
 msgstr "搜索已连接的Arduino。"
 
-#: taextras.py:446
+#: taextras.py:450
 msgid "Arduino"
 msgstr "Arduino"
 
-#: taextras.py:447
+#: taextras.py:451
 msgid "set current Arduino board"
 msgstr "设置当前的Arduino板"
 
-#: taextras.py:448
+#: taextras.py:452
 msgid "number of Arduinos"
 msgstr "Arduino 的数量"
 
-#: taextras.py:449
+#: taextras.py:453
 msgid "number of Arduino boards"
 msgstr "Arduino 板的数量"
 
-#: taextras.py:450
+#: taextras.py:454
 msgid "Arduino name"
 msgstr "Arduino 名称"
 
-#: taextras.py:451
+#: taextras.py:455
 msgid "Get the name of an Arduino."
 msgstr "得到一个 Arduino 的名称。"
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
-#: taextras.py:454
+#: taextras.py:458
 msgid "pin mode"
 msgstr "引脚模式"
 
-#: taextras.py:457
+#: taextras.py:461
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
 msgstr "选择引脚功能（输入，输出，调速，伺服）。"
 
-#: taextras.py:458
+#: taextras.py:462
 msgid "analog write"
 msgstr "模拟写"
 
-#: taextras.py:460
+#: taextras.py:464
 msgid "Write analog value in specified port."
 msgstr "写模拟值到指定的端口。"
 
-#: taextras.py:461
+#: taextras.py:465
 msgid "analog read"
 msgstr "模拟读"
 
-#: taextras.py:462
+#: taextras.py:466
 msgid ""
 "Read value from analog port. Value may be between 0 and 1023. Use Vref to "
 "determine voltage. For USB, volt=((read)*5)/1024) approximately."
 msgstr "从模拟端口读值。值可能是0到1023之间。使用Vref来确定电压。对于USB，电压大约等于 ((read)*5)/1024。"
 
-#: taextras.py:464
+#: taextras.py:468
 msgid "digital write"
 msgstr "数字写"
 
-#: taextras.py:465
+#: taextras.py:469
 msgid "Write digital value to specified port."
 msgstr "写数字值到指定的端口。"
 
-#: taextras.py:466
+#: taextras.py:470
 msgid "digital read"
 msgstr "数字读"
 
-#: taextras.py:467
+#: taextras.py:471
 msgid "Read value from digital port."
 msgstr "从数字端口读取值。"
 
-#: taextras.py:469
+#: taextras.py:473
 msgid "Configure Arduino port for digital input."
 msgstr "配置用于数字输入的Arduino端口。"
 
-#: taextras.py:470
+#: taextras.py:474
 msgid "Configure Arduino port to drive a servo."
 msgstr "配置用于驱动伺服电机的Arduino端口。"
 
-#: taextras.py:472
+#: taextras.py:476
 msgid "Configure Arduino port for digital output."
 msgstr "配置用于数字输出的Arduino端口。"
 
-#: taextras.py:473
+#: taextras.py:477
 msgid "Configure Arduino port for PWM (pulse-width modulation)."
 msgstr "配置用于调速（脉宽调制）的Arduino端口"
 
-#. TRANS: plugin to control an ExpEyes device
 #: taextras.py:478
+#, python-format
+msgid "Not found Arduino %s"
+msgstr "未找到Arduino %s"
+
+#: taextras.py:479
+msgid "The pin must be an integer"
+msgstr "pin值必须为一个整数"
+
+#: taextras.py:480
+msgid "The device must be an integer"
+msgstr "device值必须为一个整数"
+
+#. TRANS: plugin to control an ExpEyes device
+#: taextras.py:485
 msgid "Palette of Expeyes blocks"
 msgstr "Expeyes 块模板"
 
 #. TRANS: Programmable voltage output
-#: taextras.py:480
+#: taextras.py:487
 msgid "set PVS"
 msgstr "设置 PVS"
 
-#: taextras.py:481
+#: taextras.py:488
 msgid "set programmable voltage output"
 msgstr "设置可编程电压输出"
 
 #. TRANS: Square wave 1 voltage output
-#: taextras.py:483
+#: taextras.py:490
 msgid "set SQR1 voltage"
 msgstr "设置 SQR1 电压"
 
-#: taextras.py:484
+#: taextras.py:491
 msgid "set square wave 1 voltage output"
 msgstr "设置方波1电压输出"
 
 #. TRANS: Square wave 2 voltage output
-#: taextras.py:486
+#: taextras.py:493
 msgid "set SQR2 voltage"
 msgstr "设置 SQR2 电压"
 
-#: taextras.py:487
+#: taextras.py:494
 msgid "set square wave 2 voltage output"
 msgstr "设置方波2电压输出"
 
 #. TRANS: Digital output level
-#: taextras.py:489
+#: taextras.py:496
 msgid "set OD1"
 msgstr "设置 OD1"
 
-#: taextras.py:490
+#: taextras.py:497
 msgid "set digital output level (OD1) low (0) or high (1)"
 msgstr "设置数字输出电平 (OD1) 高 (0) 或低 (1)"
 
 #. TRANS: Input 1 voltage level
-#: taextras.py:492
+#: taextras.py:499
 msgid "IN1 level"
 msgstr "IN1 电平"
 
-#: taextras.py:493
+#: taextras.py:500
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
 msgstr "如果 IN1 电平>2.5伏返回1，如果<=2.5伏返回0"
 
 #. TRANS: Input 2 voltage level
-#: taextras.py:496
+#: taextras.py:503
 msgid "IN2 level"
 msgstr "IN2 电平"
 
-#: taextras.py:497
+#: taextras.py:504
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
 msgstr "如果 IN2 电平>2.5伏返回1，如果 <=2.5伏返回0"
 
 #. TRANS: Resistive sensor voltage level
-#: taextras.py:500
+#: taextras.py:507
 msgid "SEN level"
 msgstr "SEN 电平"
 
-#: taextras.py:501
+#: taextras.py:508
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
 msgstr "如果电阻式传感器（SEN）电压电平>2.5伏返回1，如果<=2.5伏返回0"
 
-#: taextras.py:503
+#: taextras.py:510
 msgid "capture"
 msgstr "捕获"
 
-#: taextras.py:504
+#: taextras.py:511
 msgid "input"
 msgstr "输入"
 
-#: taextras.py:505
+#: taextras.py:512
 msgid "samples"
 msgstr "采样"
 
-#: taextras.py:506
+#: taextras.py:513
 msgid "interval"
 msgstr "间隔"
 
 #. TRANS: MS is microseconds
-#: taextras.py:508
+#: taextras.py:515
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr "从输入捕获时间间隔（MS）的多个样本，结果放入 FIFO"
 
 #. TRANS: Analog input 1 voltage level
-#: taextras.py:511
+#: taextras.py:518
 msgid "A1"
 msgstr "A1"
 
-#: taextras.py:512
+#: taextras.py:519
 msgid "read analog input 1 voltage"
 msgstr "读取模拟输入1的电压"
 
 #. TRANS: Analog input 2 voltage level
-#: taextras.py:514
+#: taextras.py:521
 msgid "A2"
 msgstr "A2"
 
-#: taextras.py:515
+#: taextras.py:522
 msgid "read analog input 2 voltage"
 msgstr "读取模拟输入2的电压"
 
 #. TRANS: Read input 1 voltage
-#: taextras.py:517
+#: taextras.py:524
 msgid "IN1"
 msgstr "IN1"
 
-#: taextras.py:518
+#: taextras.py:525
 msgid "read input 1 voltage"
 msgstr "读取输入1的电压"
 
 #. TRANS: Read input 2 voltage
-#: taextras.py:520
+#: taextras.py:527
 msgid "IN2"
 msgstr "IN2"
 
-#: taextras.py:521
+#: taextras.py:528
 msgid "read input 2 voltage"
 msgstr "读取输入2的电压"
 
 #. TRANS: Read analog sensor input voltage
-#: taextras.py:523
+#: taextras.py:530
 msgid "SEN"
 msgstr "SEN"
 
-#: taextras.py:524
+#: taextras.py:531
 msgid "read analog sensor input voltage"
 msgstr "读取模拟传感器输入电压"
 
 #. TRANS: Read square wave 1 input voltage
-#: taextras.py:526
+#: taextras.py:533
 msgid "SQR1"
 msgstr "SQR1"
 
-#: taextras.py:527
+#: taextras.py:534
 msgid "read square wave 1 voltage"
 msgstr "读取方波1电压"
 
 #. TRANS: Read square wave 2 input voltage
-#: taextras.py:529
+#: taextras.py:536
 msgid "SQR2"
 msgstr "SQR2"
 
-#: taextras.py:530
+#: taextras.py:537
 msgid "read square wave 2 voltage"
 msgstr "读取方波2电压"
 
 #. TRANS: Read programmable voltage
-#: taextras.py:532
+#: taextras.py:539
 msgid "PVS"
 msgstr "PVS"
 
-#: taextras.py:533
+#: taextras.py:540
 msgid "read programmable voltage"
 msgstr "读取可编程电压"
 
-#: taextras.py:534
+#: taextras.py:541
 msgid "Expeyes device not found"
 msgstr "未找到Expeyes设备"
+
+#~ msgid "gpio"
+#~ msgstr "gpio"
+
+#~ msgid "Turn LED on and off: 0 is off; 1 is on"
+#~ msgstr "开关LED：0为关；1为开"
+
+#~ msgid "returns the gray level"
+#~ msgstr "返回灰度等级"
+
+#~ msgid "returns the light level"
+#~ msgstr "返回灯光等级"
+
+#~ msgid "returns the distance from the object in front of the sensor"
+#~ msgstr "返回物体和传感器的距离"
+
+#~ msgid "returns the value of the resistance"
+#~ msgstr "返回电阻值"
+
+#~ msgid "returns the value of the voltage"
+#~ msgstr "返回电压值"
+
+#~ msgid "returns the battery charge as a number between 0 and 255"
+#~ msgstr "返回电池充电度（0到255之间）"
+
+#~ msgid "Get battery level of the brick"
+#~ msgstr "得到块的电池电量"
 
 #~ msgid "adjust LED intensity between 0 and 255"
 #~ msgstr "调整指示灯的光强度（0到255之间）"
