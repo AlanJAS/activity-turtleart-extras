@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-19 00:33-0400\n"
-"PO-Revision-Date: 2013-06-17 18:09+0200\n"
+"PO-Revision-Date: 2013-07-09 10:24+0200\n"
 "Last-Translator: Aputsiaq Niels <aj@isit.gl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -1284,9 +1284,8 @@ msgstr "Indhent batteri-niveauet for brikken i millivolt"
 
 #. TRANS: Arduino plugin to control an Arduino board
 #: taextras.py:434
-#, fuzzy
 msgid "Palette of Arduino blocks"
-msgstr "Palette af WeDo-blokke"
+msgstr "Palette med Arduino-blokke"
 
 #. TRANS: PWM is pulse-width modulation
 #: taextras.py:440
@@ -1306,9 +1305,8 @@ msgid "ERROR: Value must be a number from 0 to 255."
 msgstr "FEJL: Værdi skal være et tal mellem 0 og 255."
 
 #: taextras.py:444
-#, fuzzy
 msgid "ERROR: Value must be either HIGH or LOW, 0 or 1"
-msgstr "FEJL: Værdiskal vær enten HØJ eller LAV."
+msgstr "FEJL: Værdiskal vær enten HØJ eller LAV, 0 eller 1"
 
 #: taextras.py:445
 msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
@@ -1316,11 +1314,11 @@ msgstr "FEJL: Tilstanden skal være enten INPUT, OUTPUT, PBM eller SERVO."
 
 #: taextras.py:446
 msgid "ERROR: The value must be an integer."
-msgstr ""
+msgstr "FEJL: Værdien skal være et heltal."
 
 #: taextras.py:447
 msgid "ERROR: The pin must be an integer."
-msgstr ""
+msgstr "FEJL: Pin skal være et heltal."
 
 #: taextras.py:448
 msgid "refresh Arduino"
@@ -1419,15 +1417,15 @@ msgstr "Sæt Arduino-port til PBM (pulsbreddemodulation)."
 #: taextras.py:478
 #, python-format
 msgid "Not found Arduino %s"
-msgstr ""
+msgstr "Ikke fundet - Arduino %s"
 
 #: taextras.py:479
 msgid "The pin must be an integer"
-msgstr ""
+msgstr "Pin skal være et heltal"
 
 #: taextras.py:480
 msgid "The device must be an integer"
-msgstr ""
+msgstr "Enheden skal være et heltal"
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:485
