@@ -54,6 +54,7 @@ TURTLEAMAZONAS_STRINGS = [
 
 TURTLEFLAGS_STRINGS = [
     _('Turtle Flags')
+    _('Use the turtle to draw country flags')
 ]
 
 # PLUGINS
