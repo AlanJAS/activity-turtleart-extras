@@ -52,6 +52,10 @@ TURTLEAMAZONAS_STRINGS = [
     _('Select a challenge')
     ]
 
+TURTLEFLAGS_STRINGS = [
+    _('Turtle Flags')
+]
+
 # PLUGINS
 
 CURRENCY_STRINGS = [
