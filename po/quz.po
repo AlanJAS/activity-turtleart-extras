@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-19 00:33-0400\n"
-"PO-Revision-Date: 2013-06-17 05:29+0200\n"
+"POT-Creation-Date: 2013-07-20 00:34-0400\n"
+"PO-Revision-Date: 2013-08-07 00:20+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: Voluntarios Quechua Sugar\n"
 "Language: quz\n"
@@ -50,48 +50,56 @@ msgstr "Huk llallipayta akllay"
 msgid "Amazonas Tortuga"
 msgstr "Yunkamanta charapacha"
 
+#: taextras.py:56
+msgid "Turtle Flags"
+msgstr ""
+
+#: taextras.py:57
+msgid "Use the turtle to draw country flags"
+msgstr ""
+
 #  "Paleta de Pesos Mexicanos"
-#: taextras.py:58
+#: taextras.py:63
 msgid "Palette of Mexican pesos"
 msgstr "Pesos Mexicanos qullqimanta"
 
 #  "Paleta de Pesos Colombianos"
-#: taextras.py:59
+#: taextras.py:64
 msgid "Palette of Colombian pesos"
 msgstr "Pesos Colombianos qullqimanta"
 
 #  "Paleta de Francos de Ruanda"
-#: taextras.py:60
+#: taextras.py:65
 msgid "Palette of Rwandan francs"
 msgstr "Francos de Ruanda qullqimanta"
 
 #  "Paleta de Dólares Americanos"
 #  [es] "Paleta de Dólares Americanos"
-#: taextras.py:61
+#: taextras.py:66
 msgid "Palette of US dollars"
 msgstr "Dolar qullqimanta"
 
 #  "Paleta de Dólares Australianos"
 #  [es] "Paleta de Dólares Australianos"
-#: taextras.py:62
+#: taextras.py:67
 msgid "Palette of Australian dollars"
 msgstr "Austrialiamanta dolar qullqimanta"
 
 #  "Paleta de Guaraníes Paraguayos"
 #  [es] "Paleta de Guaraníes Paraguayos"
-#: taextras.py:63
+#: taextras.py:68
 msgid "Palette of Paraguayan Guaranies"
 msgstr "Paraguaymanta Guaranies qullqimanta"
 
 #  "Paletea de Nuevos Soles Peruanos"
 #  [es] "Paletea de Nuevos Soles Peruanos"
-#: taextras.py:64
+#: taextras.py:69
 msgid "Palette of Peruvian Nuevo Soles"
 msgstr "Perumanta Nuevos Soles qullqimanta"
 
 #  "Paleta de Pesos Uruguayos"
 #  [es] "Paleta de Pesos Uruguayos"
-#: taextras.py:65
+#: taextras.py:70
 msgid "Palette of Uruguayan Pesos"
 msgstr "Uyuguaymanta Pesos qullqimanta"
 
@@ -99,468 +107,468 @@ msgstr "Uyuguaymanta Pesos qullqimanta"
 #  [es] "TurtleBots"
 #. TRANS: Butia is a Robot Project from Uruguay
 #. (http://www.fing.edu.uy/inco/proyectos/butia/)
-#: taextras.py:71
+#: taextras.py:76
 msgid "TurtleBots"
 msgstr "CharapaBots"
 
 #. TRANS: summary of TurtleBots activity
-#: taextras.py:73
+#: taextras.py:78
 msgid "TurtleBlocks with Butia, Lego NxT, WeDo, Arduino, FollowMe plugins"
 msgstr ""
 
 # ERROR: La velocidad debe ser un valor entre 0 y 1023
-#: taextras.py:74
+#: taextras.py:79
 #, fuzzy
 msgid "ERROR: The speed must be a value between 0 and 1023"
 msgstr "utqhay puriyqa 0 yupaymanta 1023 yupaykama kanman"
 
-#: taextras.py:75
+#: taextras.py:80
 msgid "ERROR: The pin must be between 1 and 8"
 msgstr ""
 
-#: taextras.py:76
+#: taextras.py:81
 msgid "ERROR: The value must be 0 or 1, LOW or HIGH"
 msgstr ""
 
-#: taextras.py:77
+#: taextras.py:82
 msgid "ERROR: The mode must be INPUT or OUTPUT."
 msgstr ""
 
-#: taextras.py:78 taextras.py:79
+#: taextras.py:83 taextras.py:84
 msgid "turns LED on and off: 1 means on, 0 means off"
 msgstr ""
 
-#: taextras.py:80
+#: taextras.py:85
 msgid "returns the gray level as a value between 0 and 65535"
 msgstr ""
 
 # "Devuelve 1 cuando el botón está presionado y 0 en otro caso."
-#: taextras.py:81
+#: taextras.py:86
 #, fuzzy
 msgid "returns 1 when the button is pressed and 0 otherwise"
 msgstr "rumpu q'apisqa kaptinqa 1 kutimunqa, mana chayna kaptinqa 0 kanqa"
 
-#: taextras.py:82
+#: taextras.py:87
 msgid "returns the light level as a value between 0 and 65535"
 msgstr ""
 
-#: taextras.py:83
+#: taextras.py:88
 msgid "returns the distance as a value between 0 and 65535"
 msgstr ""
 
-#: taextras.py:84
+#: taextras.py:89
 msgid "returns the resistance value (ohms)"
 msgstr ""
 
-#: taextras.py:85
+#: taextras.py:90
 msgid "returns the voltage value (volts)"
 msgstr ""
 
-#: taextras.py:86
+#: taextras.py:91
 msgid "returns the temperature"
 msgstr ""
 
 #  "devuelve 1 cuando el sensor detecta un campo magnético, 0 en otro caso"
-#: taextras.py:87
+#: taextras.py:92
 msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
 msgstr ""
 "huk campo magnetico nisqata musyana tariptinqa 1 yupaytam rikuchin mana "
 "chayqa 0 yupaytam rikuchin"
 
 #  "LED"
-#: taextras.py:88
+#: taextras.py:93
 msgid "LED"
 msgstr "LED"
 
 #  "botón"
-#: taextras.py:89
+#: taextras.py:94
 msgid "button"
 msgstr "rump'u"
 
 # "gris"
-#: taextras.py:90 taextras.py:358
+#: taextras.py:95 taextras.py:363
 msgid "gray"
 msgstr "chiqchi"
 
 # "luz"
-#: taextras.py:91 taextras.py:356
+#: taextras.py:96 taextras.py:361
 msgid "light"
 msgstr "k'anchana"
 
 #  "temperatura"
-#: taextras.py:92
+#: taextras.py:97
 msgid "temperature"
 msgstr "q'uñiynin"
 
 #  "distancia"
-#: taextras.py:93 taextras.py:330
+#: taextras.py:98 taextras.py:335
 msgid "distance"
 msgstr "karukaynin"
 
 #  "resistencia"
-#: taextras.py:94
+#: taextras.py:99
 msgid "resistance"
 msgstr "sinchikay"
 
-#: taextras.py:95
+#: taextras.py:100
 msgid "voltage"
 msgstr ""
 
 #  "Robot Butiá"
-#: taextras.py:96
+#: taextras.py:101
 msgid "Butia Robot"
 msgstr "Robot Butiá nisqa"
 
 #  [ES] "refrescar Butiá"
-#: taextras.py:97
+#: taextras.py:102
 msgid "refresh Butia"
 msgstr "Butiáta kunanyachiy"
 
 #  [ES] "actualiza el estado de la paleta y de los bloques Butiá"
-#: taextras.py:98
+#: taextras.py:103
 msgid "refresh the state of the Butia palette and blocks"
 msgstr "Butiámanta bloquekunatawan ima paletakunatawanpas kunanyachiy"
 
 #  "carga de batería Butiá"
 #. TRANS: This string is shorthand for "battery charge of Butia"
-#: taextras.py:100
+#: taextras.py:105
 msgid "battery charge Butia"
 msgstr "Butiap bateriyanmanta"
 
-#: taextras.py:101
+#: taextras.py:106
 msgid ""
 "returns the battery charge in volts. If no motors present, it returns 255"
 msgstr ""
 
 # "velocidad Butiá"
 #. TRANS: This string is shorthand for "speed of Butia"
-#: taextras.py:103
+#: taextras.py:108
 msgid "speed Butia"
 msgstr "Butiap utqhayninmanta"
 
 #  [ES] "establece la velocidad de los motores del Butiá"
-#: taextras.py:104
+#: taextras.py:109
 msgid "set the speed of the Butia motors"
 msgstr "Butiá utqhay purintanta mat'iy"
 
 #  [ES] "mover Butiá"
-#: taextras.py:105
+#: taextras.py:110
 msgid "move Butia"
 msgstr "Butiáta kuyuchiy"
 
-#: taextras.py:106
+#: taextras.py:111
 msgid "left"
 msgstr ""
 
-#: taextras.py:107
+#: taextras.py:112
 #, fuzzy
 msgid "right"
 msgstr "paña"
 
 #  [ES] "mueve los motores del Butiá a la velocidad especificada"
-#: taextras.py:108
+#: taextras.py:113
 msgid "moves the Butia motors at the specified speed"
 msgstr "Butiá utqhayta purinpaq mat'iy"
 
 #  "detener Butiá"
 #  [es] "detener Butiá"
-#: taextras.py:109
+#: taextras.py:114
 msgid "stop Butia"
 msgstr "Butiataqa sayachiy"
 
 #  "detiene al robot Butiá"
 #  [es] "detiene al robot Butiá"
-#: taextras.py:110
+#: taextras.py:115
 msgid "stop the Butia robot"
 msgstr "robot Butiatam sayachin"
 
 #  "adelante Butiá"
 #. TRANS: This string is shorthand for "move Butia forward"
-#: taextras.py:112
+#: taextras.py:117
 msgid "forward Butia"
 msgstr "ñawpaqman Butia"
 
 #  "mueve el robot Butiá hacia adelante"
 #  [es] "mueve el robot Butiá hacia adelante"
-#: taextras.py:113
+#: taextras.py:118
 msgid "move the Butia robot forward"
 msgstr "Butiataqa ñawpaqmanmi purichiy"
 
 #  "izquierda Butiá"
 #  [es] "izquierda Butiá"
 #. TRANS: This string is shorthand for "turn Butia left"
-#: taextras.py:115
+#: taextras.py:120
 msgid "left Butia"
 msgstr "qulli Butia"
 
 #  [es] "gira el robot Butiá hacia la derecha"
-#: taextras.py:116
+#: taextras.py:121
 msgid "turn the Butia robot at left"
 msgstr "pañamanhina Butiataqa muyuchiy"
 
 #  "derecha Butiá"
 #  [es] "derecha Butiá"
 #. TRANS: This string is shorthand for "turn Butia right"
-#: taextras.py:118
+#: taextras.py:123
 msgid "right Butia"
 msgstr "paña Butia"
 
 #  "gira el robot Butiá hacia la derecha"
 #  [es] "gira el robot Butiá hacia la derecha"
-#: taextras.py:119
+#: taextras.py:124
 msgid "turn the Butia robot at right"
 msgstr "pañamanhina Butiataqa muyuchiy"
 
 #  "atrás Butiá"
 #. TRANS: This string is shorthand for "move Butia backward"
-#: taextras.py:121
+#: taextras.py:126
 msgid "backward Butia"
 msgstr "qhipaman Butia"
 
 #  "mueve el robot Butiá hacia atrás"
 #  [es] "mueve el robot Butiá hacia atrás"
-#: taextras.py:122
+#: taextras.py:127
 msgid "move the Butia robot backward"
 msgstr "Butiataqa qhipamanmi purichiy"
 
-#: taextras.py:123
+#: taextras.py:128
 msgid "Butia Robot extra blocks"
 msgstr ""
 
-#: taextras.py:124
+#: taextras.py:129
 msgid "hack pin mode"
 msgstr ""
 
 #  "tachuela
-#: taextras.py:125 taextras.py:293 taextras.py:459
+#: taextras.py:130 taextras.py:298 taextras.py:464
 msgid "pin"
 msgstr "ratachiq"
 
 # "modo"
-#: taextras.py:126 taextras.py:460
+#: taextras.py:131 taextras.py:465
 msgid "mode"
 msgstr "imayna kaynin"
 
 # elecciona la función del pin (ENTRADA, SALIDA).
-#: taextras.py:127
+#: taextras.py:132
 #, fuzzy
 msgid "Select the pin function (INPUT, OUTPUT)."
 msgstr "Pin nisqapa purinanta akllay (HAYKUNA, LLUQSINA, PWM, SERVO)."
 
-#: taextras.py:128
+#: taextras.py:133
 msgid "write hack pin Butia"
 msgstr ""
 
 #  "valor"
-#: taextras.py:129 taextras.py:463
+#: taextras.py:134 taextras.py:468
 msgid "value"
 msgstr "chani"
 
-#: taextras.py:130
+#: taextras.py:135
 msgid "set a hack pin to 0 or 1"
 msgstr ""
 
-#: taextras.py:131
+#: taextras.py:136
 msgid "read hack pin Butia"
 msgstr ""
 
-#: taextras.py:132
+#: taextras.py:137
 msgid "read the value of a hack pin"
 msgstr ""
 
 #  "ALTO"
-#: taextras.py:133 taextras.py:435
+#: taextras.py:138 taextras.py:440
 msgid "HIGH"
 msgstr "ACHKHA"
 
 #  "Setea el valor ALTO en el puerto digital."
-#: taextras.py:134 taextras.py:472
+#: taextras.py:139 taextras.py:477
 msgid "Set HIGH value for digital port."
 msgstr "Puerto digitalpiqa ACHKHA sutichakuq chanita akllapay."
 
 #  "ENTRADA"
-#: taextras.py:135 taextras.py:437
+#: taextras.py:140 taextras.py:442
 msgid "INPUT"
 msgstr "HAYKUNA"
 
 # Configura el puerto hack como entrada digital.
-#: taextras.py:136
+#: taextras.py:141
 #, fuzzy
 msgid "Configure hack port for digital input."
 msgstr "Digital haykunahina kananpaqmi Arduino puertotaqa kamachiy."
 
 #  "BAJO"
-#: taextras.py:137 taextras.py:436
+#: taextras.py:142 taextras.py:441
 msgid "LOW"
 msgstr "PISI"
 
 #  "Setea el valor BAJO en el puerto digital."
-#: taextras.py:138 taextras.py:475
+#: taextras.py:143 taextras.py:480
 msgid "Set LOW value for digital port."
 msgstr "Puerto digitalpiqa PISI sutichakuq chanita akllapay."
 
 #  "SALIDA"
-#: taextras.py:139 taextras.py:438
+#: taextras.py:144 taextras.py:443
 msgid "OUTPUT"
 msgstr "LLUQSINA"
 
 # Configura el puerto hack como salida digital.
 #
-#: taextras.py:140
+#: taextras.py:145
 #, fuzzy
 msgid "Configure hack port for digital output."
 msgstr "Digital lluqsinahina kananpaqmi Arduino puertotaqa kamachiy."
 
 #  "Butiá"
 #  [es] "Butiá"
-#: taextras.py:141
+#: taextras.py:146
 msgid "Butia"
 msgstr "Butia"
 
-#: taextras.py:142
+#: taextras.py:147
 #, python-format
 msgid "ERROR: The pin %s must be in OUTPUT mode."
 msgstr ""
 
-#: taextras.py:143
+#: taextras.py:148
 #, python-format
 msgid "ERROR: The pin %s must be in INPUT mode."
 msgstr ""
 
 #  [ES] "Error importando Pygame. Este plugin requiere Pygame 1.9"
-#: taextras.py:147
+#: taextras.py:152
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
 msgstr "Pygame apachimuyqa pantarun. Kay pluginqa Pygame 1.9 nisqatam munan"
 
 # [ES] "Error en la inicialización de la cámara"
-#: taextras.py:148
+#: taextras.py:153
 msgid "Error on initialization of the camera"
 msgstr "camara qallarichiypiqa pantarunmi."
 
 #  [ES] "No se encontraró cámara"
-#: taextras.py:149
+#: taextras.py:154
 msgid "No camera was found"
 msgstr "Manam Kamaraqa tarichikunchu"
 
 #  [ES] "Error deteniendo cámara"
-#: taextras.py:150
+#: taextras.py:155
 msgid "Error stopping camera"
 msgstr "Cámara utichiyqa pantarunmi"
 
 #  [ES] "Error iniciando cámara"
-#: taextras.py:151
+#: taextras.py:156
 msgid "Error starting camera"
 msgstr "Cámara hap'ichiyqa pantarunmi"
 
 #  [ES] "Error en obtener máscara"
 #. TRANS: The "mask" is used to restrict processing to a region in the image
-#: taextras.py:153
+#: taextras.py:158
 msgid "Error in get mask"
 msgstr "Mascara nisqa hap'iyqa pantarunmi"
 
 #  "FollowMe"
 #  [es] "FollowMe"
-#: taextras.py:154
+#: taextras.py:159
 msgid "FollowMe"
 msgstr "FollowMe"
 
 #  [ES] "refrescar FollowMe"
-#: taextras.py:155
+#: taextras.py:160
 msgid "refresh FollowMe"
 msgstr "FollowMe nisqata kunanyachiy"
 
 # "Busca por un brick NXT conectado."
-#: taextras.py:156
+#: taextras.py:161
 msgid "Search for a connected camera."
 msgstr "Huk brick NXT nisqata machkhay."
 
 #  "calibración"
 #. TRANS: the calibration is used to match an RGB color to a target
-#: taextras.py:158
+#: taextras.py:163
 msgid "calibration"
 msgstr "mat'ichina"
 
 # "devuelve una calibración personalizada"
-#: taextras.py:159
+#: taextras.py:164
 msgid "store a personalized calibration"
 msgstr "munasqa mat'ichisqata rikuchin"
 
 #  "devuelve una calibración personalizada"
-#: taextras.py:160
+#: taextras.py:165
 msgid "return a personalized calibration"
 msgstr "munasqa mat'ichisqata rikuchin"
 
 #  "seguir"
 #  [es] "seguir"
-#: taextras.py:161
+#: taextras.py:166
 msgid "follow"
 msgstr "qhatiy"
 
 #  "seguir un color o calibración"
-#: taextras.py:162
+#: taextras.py:167
 msgid "follow a color or calibration"
 msgstr "llimp'i kaqta churay"
 
 #  "brillo"
-#: taextras.py:163
+#: taextras.py:168
 msgid "brightness"
 msgstr "llipipiynin"
 
 #  [ES] "establece el brillo de la cámara como un valor entre 0 y 255."
-#: taextras.py:164
+#: taextras.py:169
 msgid "set the camera brightness as a value between 0 to 255."
 msgstr "Cámaraq llipipiyninta 0 nisqamnta 255 nisqakama churay."
 
 #  "mínimo de pixeles"
-#: taextras.py:165
+#: taextras.py:170
 msgid "minimum pixels"
 msgstr "pixelkunamanta pisi kaynin"
 
 #  "define el mínimo número de píxeles a seguir"
-#: taextras.py:166
+#: taextras.py:171
 msgid "set the minimal number of pixels to follow"
 msgstr "hayk'a pixeles nisqakunawan llamk'anapaqmi rikuchin"
 
 #  [ES] "umbral"
-#: taextras.py:167
+#: taextras.py:172
 msgid "threshold"
 msgstr "illariymanta"
 
 #  [ES] "define el umbral para un color RGB"
 #. TRANS: RGB color space (red, green, blue)
-#: taextras.py:169
+#: taextras.py:174
 msgid "set a threshold for a RGB color"
 msgstr "imayna RGB kananpaq illariyninta churay"
 
 # [ES] "modo de cámara"
-#: taextras.py:170
+#: taextras.py:175
 msgid "camera mode"
 msgstr "imayna Cámara kanqa"
 
 #  [ES] "establece el modo de color de la cámara: RGB, YUV o HSV"
 #. TRANS: RGB, YUV, and HSV are color spaces
-#: taextras.py:172
+#: taextras.py:177
 msgid "set the color mode of the camera: RGB; YUV or HSV"
 msgstr "camarapaq llimp'i kananta churay: RGB; YUV utaq HSV"
 
 #  [ES] "obtener brillo"
-#: taextras.py:173
+#: taextras.py:178
 msgid "get brightness"
 msgstr "illariyninta tariy"
 
 #  [ES] "obtiene el brillo de la luz ambiente"
-#: taextras.py:174
+#: taextras.py:179
 msgid "get the brightness of the ambient light"
 msgstr "k'itip illariyninta tariy"
 
 #  [ES] "color promedio"
-#: taextras.py:175
+#: taextras.py:180
 msgid "average color"
 msgstr "chawpi kaq llimp'i"
 
 #  [ES] "Si está en 0 entonces el color promedio está apagado durante la calibración; "
 #  [ES] "para otros valores está encendido"
-#: taextras.py:176
+#: taextras.py:181
 msgid ""
 "if set to 0 then color averaging is off during calibration; for other values "
 "it is on"
@@ -569,308 +577,308 @@ msgstr ""
 "mat'inapaqqa"
 
 #  "posición x"
-#: taextras.py:178
+#: taextras.py:183
 msgid "x position"
 msgstr "X kinkay"
 
 #  "retorna la posición x"
-#: taextras.py:179
+#: taextras.py:184
 msgid "return x position"
 msgstr "X kinrayman kutiy"
 
 #  "posición y"
-#: taextras.py:180
+#: taextras.py:185
 msgid "y position"
 msgstr "Y kinray"
 
 #  "retorna la posición y"
-#: taextras.py:181
+#: taextras.py:186
 msgid "return y position"
 msgstr "Y kinrayman kutiy"
 
 #  "píxeles"
-#: taextras.py:182
+#: taextras.py:187
 msgid "pixels"
 msgstr "pixelkuna"
 
 #  "devuelve el número de píxeles de la mancha mas grande"
-#: taextras.py:183
+#: taextras.py:188
 msgid "return the number of pixels of the biggest blob"
 msgstr "hatun kaqpa hayk'a pixelniyuq kasqantam rikuchin"
 
 #  [ES] "establece el modo de color de la cámara a RGB"
 #. TRANS: RGB color space (red, green, blue)
-#: taextras.py:185
+#: taextras.py:190
 msgid "set the color mode of the camera to RGB"
 msgstr "camarap llimp'i RGB nisqaman churay"
 
 #  [ES] "establece el modo de color de la cámara a YUV"
 #. TRANS: YUV color space (luminance, chrominance)
-#: taextras.py:187
+#: taextras.py:192
 msgid "set the color mode of the camera to YUV"
 msgstr "camarap llimp'i YUV nisqaman churay"
 
 #  [ES] "establece el modo de color de la cámara a HSV"
 #. TRANS: HSV color space (hue, saturation, value)
-#: taextras.py:189
+#: taextras.py:194
 msgid "set the color mode of the camera to HSV"
 msgstr "camarap llimp'i HSV nisqaman churay"
 
 #  "calibración vacía"
-#: taextras.py:190
+#: taextras.py:195
 msgid "empty calibration"
 msgstr "ch'usaq mat'ichina"
 
 #  "error en la conversión de la cadena de texto"
-#: taextras.py:191
+#: taextras.py:196
 msgid "error in string conversion"
 msgstr "qillqasqa t'ikrakuchkaptinmi pantarun"
 
 #. TRANS: Pattern detection is a plugin that allow detect signals
 #. with the camera
-#: taextras.py:197
+#: taextras.py:202
 msgid "Pattern detection"
 msgstr ""
 
-#: taextras.py:198
+#: taextras.py:203
 msgid "Seeing signal"
 msgstr ""
 
-#: taextras.py:199
+#: taextras.py:204
 msgid "Returns True if the signal is in front of the camera"
 msgstr ""
 
-#: taextras.py:200
+#: taextras.py:205
 msgid "Distance to signal"
 msgstr ""
 
-#: taextras.py:201
+#: taextras.py:206
 msgid "Returns the distance of the signal to the camera in millimeters"
 msgstr ""
 
 #  "SumBot"
 #. TRANS: SumBot is a robot programmed for "Sumo wrestling"
-#: taextras.py:206
+#: taextras.py:211
 msgid "SumBot"
 msgstr "SumBot"
 
 #  "velocidad SumBot"
-#: taextras.py:207
+#: taextras.py:212
 msgid "speed SumBot"
 msgstr "SumBotpa utqhaynin"
 
 #  "setea la velocidad del SumBot"
-#: taextras.py:208
+#: taextras.py:213
 msgid "submit the speed to the SumBot"
 msgstr "SumBotpa utqhayninta kamachiy"
 
 # "Setea la velocidad por defecto para los comandos de movimiento."
-#: taextras.py:209
+#: taextras.py:214
 msgid "set the default speed for the movement commands"
 msgstr "kikinmanta kuyurinanpaq kamachiyta churay"
 
 # "adelante SumBot
 #. TRANS: This string is shorthand for "move SumBot forward"
-#: taextras.py:211
+#: taextras.py:216
 msgid "forward SumBot"
 msgstr "ñawpaqman SumBot"
 
 #  "mueve el SumBot hacia adelante"
-#: taextras.py:212
+#: taextras.py:217
 msgid "move SumBot forward"
 msgstr "ñawpaqman SumBot sutichakuqtaqa purichiy"
 
 # "atrás SumBot"
 #. TRANS: This string is shorthand for "move SumBot backward"
-#: taextras.py:214
+#: taextras.py:219
 msgid "backward SumBot"
 msgstr "qhipaman SumBot"
 
 #  "mueve el SumBot hacia atrás"
-#: taextras.py:215
+#: taextras.py:220
 msgid "move SumBot backward"
 msgstr "qhipaman SumBot sutichakuqtaqa purichiy"
 
 #  "detener SumBot"
-#: taextras.py:216
+#: taextras.py:221
 msgid "stop SumBot"
 msgstr "SumBot sutichakuqta utichiy"
 
 #  "detiene el SumBot"
-#: taextras.py:217
+#: taextras.py:222
 msgid "stop the SumBot"
 msgstr "SumBot sutichakuqta utichin"
 
 #  "izquierda SumBot"
 #. TRANS: This string is shorthand for "turn SumBot left"
-#: taextras.py:219
+#: taextras.py:224
 msgid "left SumBot"
 msgstr "lluqiman SumBot"
 
 #  "gira el SumBot hacia la izquierda"
-#: taextras.py:220
+#: taextras.py:225
 msgid "turn left the SumBot"
 msgstr "lluqimanhina SumBot sutichakuqta muyuchiy"
 
 #  "derecha SumBot"
 #. TRANS: This string is shorthand for "move SumBot right"
-#: taextras.py:222
+#: taextras.py:227
 msgid "right SumBot"
 msgstr "paña SumBot"
 
 #  "gira el SumBot hacia la derecha"
-#: taextras.py:223
+#: taextras.py:228
 msgid "turn right the SumBot"
 msgstr "pañamanhina SumBot sutichakuqta muyuchiy|"
 
 #  "ángulo desde el centro"
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the center of the playing field
-#: taextras.py:226
+#: taextras.py:231
 msgid "angle to center"
 msgstr "chawpimanta k'uchuchiy"
 
 # "Obtiene el ángulo desde el centro del dojo."
 #. TRANS: dohyo is the playing field
-#: taextras.py:228
+#: taextras.py:233
 msgid "get the angle to the center of the dohyo"
 msgstr "dojop chawpinmanta k'uchutaqa hurquy"
 
 #  "ángulo al Enemigo"
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the Enemy (opponent)
-#: taextras.py:231
+#: taextras.py:236
 msgid "angle to Enemy"
 msgstr "Ayqap k'uchun"
 
 #  "obtiene el ángulo al Enemigo"
-#: taextras.py:232
+#: taextras.py:237
 msgid "get the angle to the Enemy"
 msgstr "Awqaqpa k'uchunta tariy"
 
 #  "coor. x SumBot"
 #. TRANS: This string is shorthand for "x coordinate of SumBot"
-#: taextras.py:234
+#: taextras.py:239
 msgid "x coor. SumBot"
 msgstr "SumBot sutichakuqpa x coor."
 
 # "Obtiene la coordenada y del oponente."
-#: taextras.py:235
+#: taextras.py:240
 msgid "get the x coordinate of the SumBot"
 msgstr "oponentep Y coordenandanta tarin"
 
 #  "coor. y SumBot"
 #. TRANS: This string is shorthand for "y coordinate of SumBot"
-#: taextras.py:237
+#: taextras.py:242
 msgid "y coor. SumBot"
 msgstr "SumBot sutichakuqpa y coor."
 
 # "Obtiene la coordenada y del oponente."
-#: taextras.py:238
+#: taextras.py:243
 msgid "get the y coordinate of the SumBot"
 msgstr "oponentep Y coordenandanta tarin"
 
 #  "coor. x Enemigo"
 #. TRANS: This string is shorthand for "x coordinate of SumBot's enemy"
-#: taextras.py:240
+#: taextras.py:245
 msgid "x coor. Enemy"
 msgstr "Awqaqpa x coor."
 
 # "Obtiene la coordenada y del oponente."
-#: taextras.py:241
+#: taextras.py:246
 msgid "get the x coordinate of the Enemy"
 msgstr "oponentep Y coordenandanta tarin"
 
 #  "coor. y Enemigo"
 #. TRANS: This string is shorthand for "y coordinate of SumBot's enemy"
-#: taextras.py:243
+#: taextras.py:248
 msgid "y coor. Enemy"
 msgstr "Awqaqpa y coor."
 
 # "Obtiene la coordenada y del oponente."
-#: taextras.py:244
+#: taextras.py:249
 msgid "get the y coordinate of the Enemy"
 msgstr "oponentep Y coordenandanta tarin"
 
 #  "rotación SumBot"
 #. TRANS: This string is shorthand for "rotation of SumBot"
-#: taextras.py:246
+#: taextras.py:251
 msgid "rotation SumBot"
 msgstr "SumBot sutichakuqpa muyunan"
 
 #  "obtiene la rotación del SumBot"
-#: taextras.py:247
+#: taextras.py:252
 msgid "get the rotation of the Sumbot"
 msgstr "SumBot muyunanta tariy"
 
 #  "rotación Enemigo"
 #. TRANS: This string is shorthand for "rotation of SumBot's enemy"
-#: taextras.py:249
+#: taextras.py:254
 msgid "rotation Enemy"
 msgstr "Awqaqpa muyunan"
 
 #  "obtiene la rotación del Enemigo"
-#: taextras.py:250
+#: taextras.py:255
 msgid "get the rotation of the Enemy"
 msgstr "Awqa muyunanta tariy"
 
 #  "distancia al centro"
-#: taextras.py:251
+#: taextras.py:256
 msgid "distance to center"
 msgstr "chawpikama chayanapaq"
 
 # "Obtiene el ángulo desde el centro del dojo."
 #. TRANS: dohyo is the playing field
-#: taextras.py:253
+#: taextras.py:258
 msgid "get the distance to the center of the dohyo"
 msgstr "dojop chawpinmanta k'uchutaqa hurquy"
 
 #  "distancia al Enemigo"
-#: taextras.py:254
+#: taextras.py:259
 msgid "distance to Enemy"
 msgstr "Awqakama chayanapaq"
 
 #  "obtiene la distancia al Enemigo"
-#: taextras.py:255
+#: taextras.py:260
 msgid "get the distance to the Enemy"
 msgstr "Awqakama chayanapaqmi tarin"
 
 #  "actualizar información"
-#: taextras.py:256
+#: taextras.py:261
 msgid "update information"
 msgstr "willanata kunanyachiy"
 
 #  "actualiza la información desde el servidor"
-#: taextras.py:257
+#: taextras.py:262
 msgid "update information from the server"
 msgstr "servidormanta willanata kunanyachiy"
 
 #  "Paleta de bloques de física"
 #. TRANS: Please use similar terms to those used in the Physics Activity
-#: taextras.py:262
+#: taextras.py:267
 msgid "Palette of physics blocks"
 msgstr "física nisqamanta bloquekuna"
 
 #  "comenzar polígono"
-#: taextras.py:263
+#: taextras.py:268
 msgid "start polygon"
 msgstr "poligonota qallariy"
 
 #  "Comienza a definir un nuevo polígono basado en la posición actual xy de la "
 #  "Tortuga."
-#: taextras.py:264
+#: taextras.py:269
 msgid "Begin defining a new polygon based on the current Turtle xy position."
 msgstr ""
 "Kunan kaq xy nisqapi charapa tarikusqanmantam musuq poligonotaqa yurichiy."
 
 #  "agregar punto"
-#: taextras.py:266
+#: taextras.py:271
 msgid "add point"
 msgstr "Puntuta yapay"
 
 #  "Agrega un nuevo punto al polígono actual basado en la posición actual xy de "
 #  "la Tortuga."
-#: taextras.py:267
+#: taextras.py:272
 msgid ""
 "Add a new point to the current polygon based on the current Turtle xy "
 "position."
@@ -879,106 +887,106 @@ msgstr ""
 "churay."
 
 #  "terminar polígono"
-#: taextras.py:269
+#: taextras.py:274
 msgid "end polygon"
 msgstr "poligonota tukuy"
 
 #  "Define un nuevo polígono."
-#: taextras.py:270
+#: taextras.py:275
 msgid "Define a new polygon."
 msgstr "Musuq poligonota ruway."
 
 #  "termina polígono relleno"
-#: taextras.py:271
+#: taextras.py:276
 msgid "end filled polygon"
 msgstr "unt'achisqa poligonota tukuy"
 
 #  "No es un polígono simple"
-#: taextras.py:272
+#: taextras.py:277
 msgid "Not a simple polygon"
 msgstr "Manam yanqa poligono nisqachu"
 
 #  "Define un nuevo polígono relleno."
-#: taextras.py:273
+#: taextras.py:278
 msgid "Define a new filled polygon."
 msgstr "Musuq hunt'achisqa poligonota ruway."
 
 #  "triángulo"
-#: taextras.py:274
+#: taextras.py:279
 msgid "triangle"
 msgstr "Kimsak'uchu"
 
 #  "base"
 #. TRANS: base of a triangle
-#: taextras.py:276
+#: taextras.py:281
 msgid "base"
 msgstr "t'iqsi"
 
 #  "altura"
-#: taextras.py:277 taextras.py:283
+#: taextras.py:282 taextras.py:288
 msgid "height"
 msgstr "sayaynin"
 
 #  "Agrega un objeto triángulo al proyecto."
-#: taextras.py:278
+#: taextras.py:283
 msgid "Add a triangle object to the project."
 msgstr "kimsak'uchuta churay."
 
 #  "círculo"
-#: taextras.py:279
+#: taextras.py:284
 msgid "circle"
 msgstr "muyu"
 
 #  "Agrega un objeto círculo al proyecto."
-#: taextras.py:280
+#: taextras.py:285
 msgid "Add a circle object to the project."
 msgstr "muyuta churay."
 
 #  "rectángulo"
-#: taextras.py:281
+#: taextras.py:286
 msgid "rectangle"
 msgstr "suyt'u"
 
 #  "anchura"
-#: taextras.py:282
+#: taextras.py:287
 msgid "width"
 msgstr "kinraynin"
 
 #  "Agrega un objeto rectángulo al proyecto."
-#: taextras.py:284
+#: taextras.py:289
 msgid "Add a rectangle object to the project."
 msgstr "suyt'uta churay."
 
 #  "resetear"
-#: taextras.py:285
+#: taextras.py:290
 msgid "reset"
 msgstr "pichay"
 
 #  "Resetea el proyecto; limpia la lista de objetos."
-#: taextras.py:286
+#: taextras.py:291
 msgid "Reset the project; clear the object list."
 msgstr "Wakichinata pichay; llapan sinrichasqakunata pichay."
 
 #  "motor"
-#: taextras.py:287
+#: taextras.py:292
 msgid "motor"
 msgstr "motor nisqa"
 
 #  "torque"
 #. TRANS: torque as in engine torque
-#: taextras.py:289
+#: taextras.py:294
 msgid "torque"
 msgstr "q'iwinan"
 
 #  "velocidad"
-#: taextras.py:290
+#: taextras.py:295
 msgid "speed"
 msgstr "Utqhanan"
 
 #  [ES] "El torque y velocidad del motor están en el rango que va de 0 (apagado) a "
 #  [ES] "números positivos; el motor es colocado en el objeto creado mas "
 #  [ES] "recientemente."
-#: taextras.py:291
+#: taextras.py:296
 msgid ""
 "Motor torque and speed range from 0 (off) to positive numbers; motor is "
 "placed on the most recent object created."
@@ -987,28 +995,28 @@ msgstr ""
 "positivos yupanakunaman rin; motorqa chayraq ruwachasqapim churakun."
 
 #  "Sujeta un objeto para que no se caiga."
-#: taextras.py:294
+#: taextras.py:299
 msgid "Pin an object down so that it cannot fall."
 msgstr "imaynapas ama urmayananpaqmi ratachin."
 
 #  "unión"
-#: taextras.py:295
+#: taextras.py:300
 msgid "joint"
 msgstr "Huñukuy"
 
 #  "x"
-#: taextras.py:296
+#: taextras.py:301
 msgid "x"
 msgstr "X"
 
 #  "y"
-#: taextras.py:297
+#: taextras.py:302
 msgid "y"
 msgstr "Y"
 
 #  "Une dos objetos (el objeto creado mas reciententemente y el objeto en el "
 #  "punto x, y)."
-#: taextras.py:298
+#: taextras.py:303
 msgid ""
 "Join two objects together (the most recent object created and the object at "
 "point x, y)."
@@ -1017,34 +1025,34 @@ msgstr ""
 "kasqakunawan ima)."
 
 #  "guardar como Actividad Física"
-#: taextras.py:300
+#: taextras.py:305
 msgid "save as Physics activity"
 msgstr "Física ruwanatahina waqaychay"
 
 #  "Guarda el proyecto al Diario como una Actividad de Física."
-#: taextras.py:301
+#: taextras.py:306
 msgid "Save the project to the Journal as a Physics activity."
 msgstr "Física ruwanatahina P'anqapi waqaychay."
 
 #  "círculo"
 #. TRANS: Here, gear means a toothed wheel, as in a clock-works
-#: taextras.py:303
+#: taextras.py:308
 msgid "gear"
 msgstr "muyu"
 
 #  "Agrega un objeto engranaje al proyecto."
-#: taextras.py:304
+#: taextras.py:309
 msgid "Add a gear object to the project."
 msgstr "Wakichinam t'akyakuq imaymanata churay."
 
 #  "densidad"
-#: taextras.py:305
+#: taextras.py:310
 msgid "density"
 msgstr "densidad nisqa"
 
 #  "Establece la densidad de los objetos (la densidad puede ser cualquier número "
 #  "positivo)."
-#: taextras.py:306
+#: taextras.py:311
 msgid ""
 "Set the density property for objects (density can be any positive number)."
 msgstr ""
@@ -1052,13 +1060,13 @@ msgstr ""
 "kanman)."
 
 #  "fricción"
-#: taextras.py:308
+#: taextras.py:313
 msgid "friction"
 msgstr "qhaquna"
 
 #  "Establece la propiedad de fricción de los objetos (un valor entre 0 y 1, "
 #  "donde 0 es sin fricción y el 1 es fuerte)."
-#: taextras.py:309
+#: taextras.py:314
 msgid ""
 "Set the friction property for objects (value from 0 to 1, where 0 turns "
 "friction off and 1 is strong friction)."
@@ -1068,13 +1076,13 @@ msgstr ""
 
 #  "restitución"
 #. TRANS: bounciness is coefficient of restitution
-#: taextras.py:312
+#: taextras.py:317
 msgid "bounciness"
 msgstr "kikin kaqllaman kutichiq"
 
 #  "Establece la propiedad de restitución para los objetos (un valor entre 0 y "
 #  "1, donde 0 significa sin restitución y 1 mucha)."
-#: taextras.py:313
+#: taextras.py:318
 msgid ""
 "Set the bounciness property for objects (a value from 0 to 1, where 0 means "
 "no bounce and 1 is very bouncy)."
@@ -1084,13 +1092,13 @@ msgstr ""
 
 #  "dinámico"
 #. TRANS: dynamic here means moving vs in a fixed position
-#: taextras.py:316
+#: taextras.py:321
 msgid "dynamic"
 msgstr "ch'iti"
 
 #  "Si dinámico = 1, el objeto puede moverse; si dinámico = 0, queda fijo en su "
 #  "posición."
-#: taextras.py:317
+#: taextras.py:322
 msgid ""
 "If dynamic = 1, the object can move; if dynamic = 0, it is fixed in position."
 msgstr ""
@@ -1099,33 +1107,33 @@ msgstr ""
 
 #  "Paleta de bloques WeDo"
 #. TRANS: WeDo is a robotics product of the LEGO company
-#: taextras.py:323
+#: taextras.py:328
 msgid "Palette of WeDo blocks"
 msgstr "WeDo bloquekunamanta"
 
-#: taextras.py:324
+#: taextras.py:329
 msgid "WeDo"
 msgstr "WeDo"
 
 #  [ES] "setea el dispositivo WeDo actual"
-#: taextras.py:325
+#: taextras.py:330
 msgid "set current WeDo device"
 msgstr "WeDo kunan kaqtam kunanyachiy"
 
 #  [ES] "número de dispositivos WeDo"
-#: taextras.py:326
+#: taextras.py:331
 msgid "number of WeDo devices"
 msgstr "WeDo nisqap hayk'a dispositivos nisqakuna kasqan"
 
 #  "inclinación"
-#: taextras.py:327
+#: taextras.py:332
 msgid "tilt"
 msgstr "k'iraynin"
 
 #  "salida del sensor de inclinación: (-1 == no está inclinado, 0 == inclinado "
 #  "hacia adelante, 3 == inclinado hacia atrás, 1 == inclinado hacia la "
 #  "izquierda, 2 == inclinado hacia la derecha)"
-#: taextras.py:328
+#: taextras.py:333
 msgid ""
 "tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
 "tilt left, 2 == tilt right)"
@@ -1136,48 +1144,48 @@ msgstr ""
 
 #  "salida del sensor distancia"
 #. TRANS: This string is shorthand for "output of the distance sensor"
-#: taextras.py:332
+#: taextras.py:337
 msgid "distance sensor output"
 msgstr "karu kaymanta musyasqan"
 
 #  "Motor A"
-#: taextras.py:333
+#: taextras.py:338
 msgid "Motor A"
 msgstr "Motor A nisqa"
 
 #  "devuelve el valor actual del Motor A"
-#: taextras.py:334
+#: taextras.py:339
 msgid "returns the current value of Motor A"
 msgstr "Motor A nisqapa kunan kaq chanintam kutichin"
 
 #  "Motor B"
-#: taextras.py:335
+#: taextras.py:340
 msgid "Motor B"
 msgstr "Motor B nisqa"
 
 #  "devuelve el valor actual del Motor B"
-#: taextras.py:336
+#: taextras.py:341
 msgid "returns the current value of Motor B"
 msgstr "Motor B nisqapa kunan kaq chanintam kutichin"
 
 #  "setea el valor del Motor A"
-#: taextras.py:337
+#: taextras.py:342
 msgid "set the value for Motor A"
 msgstr "Motor A nisqapa chaninta akllapan"
 
 #  "setea el valor del Motor B"
-#: taextras.py:338
+#: taextras.py:343
 msgid "set the value for Motor B"
 msgstr "Motor B nisqapa chaninta akllapan"
 
 #  [ES] "WeDo no está disponible"
-#: taextras.py:339
+#: taextras.py:344
 msgid "WeDo is unavailable"
 msgstr "WeDo manam kachkanchu"
 
 #  [ES] "Wedo %d no está disponible; usando por defecto el 1"
 #. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
-#: taextras.py:341
+#: taextras.py:346
 #, python-format
 msgid "WeDo %d is unavailable; defaulting to 1"
 msgstr "Wedo %d nisqaqa manam kachkanchu; 1 kikin kasqallantam hap'ikuchkan"
@@ -1185,60 +1193,60 @@ msgstr "Wedo %d nisqaqa manam kachkanchu; 1 kikin kasqallantam hap'ikuchkan"
 #  [ES] "%(device)s no está disponible en el WeDo %(wedo_number)d"
 #. TRANS: %(device)s and %(wedo_number)d are substitution strings;
 #. please leave untranslated
-#: taextras.py:344
+#: taextras.py:349
 #, python-format
 msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
 msgstr "%(device)s kayqa manam kay %(wedo_number)d WeDo nisqapiqa kachkanchu"
 
 #  "Paleta de bloques LEGO NXT de motores"
 #. TRANS: Lego NXT is a robotics product of the LEGO company
-#: taextras.py:349
+#: taextras.py:354
 msgid "Palette of LEGO NXT blocks of motors"
 msgstr "LEGO NXT bloques motores nisqakunamanta"
 
 #  "Paleta de bloques LEGO NXT de sensores"
-#: taextras.py:350
+#: taextras.py:355
 msgid "Palette of LEGO NXT blocks of sensors"
 msgstr "LEGO NXT bloques llakllana nisqakunamanta"
 
 #  "tocar"
 #. TRANS: touch sensor (implemented as a button)
-#: taextras.py:352
+#: taextras.py:357
 msgid "touch"
 msgstr "llamina"
 
 #  "ultrasónico"
 #. TRANS: distance sensor (implemented using ultrasonics)
-#: taextras.py:354
+#: taextras.py:359
 msgid "ultrasonic"
 msgstr "ultrasónico uyarina"
 
 #  "color"
-#: taextras.py:355
+#: taextras.py:360
 msgid "color"
 msgstr "llimp'i"
 
 #  "sonido"
-#: taextras.py:357
+#: taextras.py:362
 msgid "sound"
 msgstr "uyarina"
 
 #  [ES] "Por favor chequee la conexión con el brick"
 #. TRANS: The brick is the NXT controller
-#: taextras.py:360
+#: taextras.py:365
 msgid "Please check the connection with the brick"
 msgstr "Amahina kaychu, tikaman t'inkichiyta qhawariy."
 
 #  [ES] "Puerto '%s' inválido. El puerto debe ser: PUERTO A, B o C"
-#: taextras.py:361
+#: taextras.py:366
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT A, B or C"
 msgstr ""
 "Kay '%s' puerto nisqata manam allinchu kachkan. Puertoqa kanmanpuni: PUERTO "
-"A, B utaq C "
+"A, B utaq C"
 
 #  [ES] "Puerto '%s' inválido. El puerto debe ser: PUERTO 1, 2, 3 o 4"
-#: taextras.py:362
+#: taextras.py:367
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
 msgstr ""
@@ -1246,96 +1254,96 @@ msgstr ""
 "1, 2, 3 utaq 4"
 
 #  [ES] "El valor de potencia debe estar entre -127 y 127"
-#: taextras.py:363
+#: taextras.py:368
 msgid "The value of power must be between -127 to 127"
 msgstr "Potencia nisqapa chaninqa 127 yupanmanta 127 yupaykama kanman."
 
 #  [ES] "El parámetro debe ser un entero, no '%s'"
-#: taextras.py:364
+#: taextras.py:369
 #, python-format
 msgid "The parameter must be a integer, not '%s'"
 msgstr "Yupay kaqqa hunt'am kanman mana '%s' phatmasqachu"
 
 #  [ES] "Un error ha ocurrido: chequee todas las conexiones y pruebe reconectar"
-#: taextras.py:365
+#: taextras.py:370
 msgid "An error has occurred: check all connections and try to reconnect"
 msgstr ""
 "Pantaymi rikurin: llapan t'inkichiyta qhawariy chaymantataq wakmanta "
 "t'inkichiy."
 
 #  [ES] "NXT encontró %s bricks"
-#: taextras.py:366
+#: taextras.py:371
 #, python-format
 msgid "NXT found %s bricks"
 msgstr "NXT nisqaqa kayniraq %s tikakunatam tarirqun"
 
 #  "NXT no encontrado"
-#: taextras.py:367
+#: taextras.py:372
 msgid "NXT not found"
 msgstr "NXT mana tarisqa"
 
 #  [ES] "El brick número %s no fue encontrado"
-#: taextras.py:368
+#: taextras.py:373
 #, python-format
 msgid "Brick number %s was not found"
 msgstr "Kay yupayuq %s tikaqa manam tarichikunchu"
 
 #  "refrescar NXT"
-#: taextras.py:369
+#: taextras.py:374
 msgid "refresh NXT"
 msgstr "NXT nisqata kunanyachiy"
 
 #  "Busca por un brick NXT conectado."
-#: taextras.py:370
+#: taextras.py:375
 msgid "Search for a connected NXT brick."
 msgstr "Huk brick NXT nisqata machkhay."
 
-#: taextras.py:371
+#: taextras.py:376
 msgid "NXT"
 msgstr "NXT"
 
 #  [ES] "establece el dispositivo NXT actual"
-#: taextras.py:372
+#: taextras.py:377
 msgid "set current NXT device"
 msgstr "kunan kaq NXT nisqata churay"
 
 #  [ES] "número de dispositivos NXT"
-#: taextras.py:373
+#: taextras.py:378
 msgid "number of NXT devices"
 msgstr "NXT nisqap hayk'a dispositivos nisqakuna kasqan"
 
 #  [ES] "nombre del brick"
-#: taextras.py:374
+#: taextras.py:379
 msgid "brick name"
 msgstr "Tikap sutin"
 
 #  [ES] "Obtiene el nombre del brick."
-#: taextras.py:375
+#: taextras.py:380
 msgid "Get the name of a brick."
 msgstr "Tikap sutinta tarin."
 
 #  "reproducir tono"
-#: taextras.py:376
+#: taextras.py:381
 msgid "play tone"
 msgstr "uyarinap kunkanta uyarichiy"
 
 #  "frecuencia"
-#: taextras.py:377
+#: taextras.py:382
 msgid "frequency"
 msgstr "frecuencia nisqa"
 
 #  "tiempo"
-#: taextras.py:378
+#: taextras.py:383
 msgid "time"
 msgstr "pacha"
 
 #  "Reproduce un tono a cierta frecuencia por un determinado tiempo."
-#: taextras.py:379
+#: taextras.py:384
 msgid "Play a tone at frequency for time."
 msgstr "Uyarinap kunkanta frecuenciatawan unayaynintawan churaspa uyarichiy."
 
 #. TRANS: turn is the action
-#: taextras.py:381
+#: taextras.py:386
 msgid ""
 "turn motor\n"
 "\n"
@@ -1344,27 +1352,27 @@ msgstr ""
 "\n"
 
 # "Puerto"
-#: taextras.py:382
+#: taextras.py:387
 msgid "port"
 msgstr "puerto nisqa"
 
 #  "potencia"
-#: taextras.py:383
+#: taextras.py:388
 msgid "power"
 msgstr "Potencia nisqa"
 
 # "rotación"
 #. TRANS: rotations is quantity of turns
-#: taextras.py:385
+#: taextras.py:390
 msgid "rotations"
 msgstr "muyuna"
 
 #  "gira un motor"
-#: taextras.py:386
+#: taextras.py:391
 msgid "turn a motor"
 msgstr "huk motorta muyuchiy"
 
-#: taextras.py:387
+#: taextras.py:392
 msgid ""
 "synchronize\n"
 "\n"
@@ -1375,48 +1383,48 @@ msgstr ""
 "mat'iy"
 
 #  [ES] "dirección"
-#: taextras.py:388
+#: taextras.py:393
 msgid "steering"
 msgstr "mayma rina"
 
 #  "sincroniza dos motores conectados en el PUERTO B y PUERTO C"
-#: taextras.py:389
+#: taextras.py:394
 msgid "synchronize two motors connected in PORT B and PORT C"
 msgstr ""
 "PUERTO B hinallataq PUERTO C nisqaman iskay motorkuna masichakuqta "
 "kuskanchay"
 
 #  "PUERTO A"
-#: taextras.py:390
+#: taextras.py:395
 msgid "PORT A"
 msgstr "PUERTO A nisqa"
 
 #  "PUERTO A del brick"
-#: taextras.py:391
+#: taextras.py:396
 msgid "PORT A of the brick"
 msgstr "brick nisqapa PUERTO A nisqan"
 
 #  "PUERTO B"
-#: taextras.py:392
+#: taextras.py:397
 msgid "PORT B"
 msgstr "PUERTO B nisqa"
 
 #  "PUERTO B del brick"
-#: taextras.py:393
+#: taextras.py:398
 msgid "PORT B of the brick"
 msgstr "brick nisqapa PUERTO B nisqan"
 
 #  "PUERTO C"
-#: taextras.py:394
+#: taextras.py:399
 msgid "PORT C"
 msgstr "PUERTO C nisqa"
 
 #  "PUERTO C del brick"
-#: taextras.py:395
+#: taextras.py:400
 msgid "PORT C of the brick"
 msgstr "brick nisqapa PUERTO C nisqan"
 
-#: taextras.py:396
+#: taextras.py:401
 #, fuzzy
 msgid ""
 "synchronize\n"
@@ -1427,269 +1435,269 @@ msgstr ""
 "mat'iy"
 
 #  "iniciar motor"
-#: taextras.py:397
+#: taextras.py:402
 msgid "start motor"
 msgstr "motorta qallarichiy"
 
 #  "Girar un motor por siempre."
-#: taextras.py:398
+#: taextras.py:403
 msgid "Run a motor forever."
 msgstr "Huk motorta wiñaypaq muyuchiy."
 
 #  "frenar motor"
-#: taextras.py:399
+#: taextras.py:404
 msgid "brake motor"
 msgstr "motorta utichiy"
 
 #  "Frena un motor específico."
-#: taextras.py:400
+#: taextras.py:405
 msgid "Stop a specified motor."
 msgstr "akllasqa motorta utichiy."
 
 #  "reiniciar motor"
 #. TRANS: reset is used to reset the counter associated with the motor
-#: taextras.py:402
+#: taextras.py:407
 msgid "reset motor"
 msgstr "motorta hukmanta qallarichiy"
 
 #  "Reinicia el contador del motor."
-#: taextras.py:403
+#: taextras.py:408
 msgid "Reset the motor counter."
 msgstr "Motorpa yupananta hukmanta qallarichiy."
 
 #  "posición del motor"
-#: taextras.py:404
+#: taextras.py:409
 msgid "motor position"
 msgstr "motorpa maypi kasqaynin"
 
 #  "Obtiene la posición del motor."
-#: taextras.py:405
+#: taextras.py:410
 msgid "Get the motor position."
 msgstr "Motorpa maypi kasqanta taripay."
 
 #  "PUERTO 1"
-#: taextras.py:406
+#: taextras.py:411
 msgid "PORT 1"
 msgstr "PUERTO 1 nisqa"
 
 #  "PUERTO 1 del brick"
-#: taextras.py:407
+#: taextras.py:412
 msgid "PORT 1 of the brick"
 msgstr "brick nisqapa PUERTO 1 nisqan"
 
 #  "leer"
-#: taextras.py:408
+#: taextras.py:413
 msgid "read"
 msgstr "Ñawichay"
 
 #  "sensor"
-#: taextras.py:409
+#: taextras.py:414
 msgid "sensor"
 msgstr "musyana"
 
 #  "Lee la salida del sensor."
-#: taextras.py:410
+#: taextras.py:415
 msgid "Read sensor output."
 msgstr "Musyaymanta ñawirin."
 
 #  "PUERTO 2"
-#: taextras.py:411
+#: taextras.py:416
 msgid "PORT 2"
 msgstr "PUERTO 2 nisqa"
 
 #  "PUERTO 2 del brick"
-#: taextras.py:412
+#: taextras.py:417
 msgid "PORT 2 of the brick"
 msgstr "brick nisqapa PUERTO 2 nisqan"
 
 #  "sensor de luz"
-#: taextras.py:413
+#: taextras.py:418
 msgid "light sensor"
 msgstr "k'anchariypa musyaynin"
 
-#: taextras.py:414
+#: taextras.py:419
 msgid "gray sensor"
 msgstr "chiqchikunamnta musyana"
 
 #  "PUERTO 3"
-#: taextras.py:415
+#: taextras.py:420
 msgid "PORT 3"
 msgstr "PUERTO 3 nisqa"
 
 #  "PUERTO 3 del brick"
-#: taextras.py:416
+#: taextras.py:421
 msgid "PORT 3 of the brick"
 msgstr "brick nisqapa PUERTO 3 nisqan"
 
 #  "sensor táctil"
-#: taextras.py:417
+#: taextras.py:422
 msgid "touch sensor"
 msgstr "ruk'anapa musyaynin"
 
 #  "sensor de distancia"
-#: taextras.py:418
+#: taextras.py:423
 msgid "distance sensor"
 msgstr "karu kaymanta musyaynin"
 
 #  "PUERTO 4"
-#: taextras.py:419
+#: taextras.py:424
 msgid "PORT 4"
 msgstr "PUERTO 4 nisqa"
 
 #  "PUERTO 4 del brick"
-#: taextras.py:420
+#: taextras.py:425
 msgid "PORT 4 of the brick"
 msgstr "brick nisqapa PUERTO 4 nisqan"
 
 #  "sensor de sonido"
-#: taextras.py:421
+#: taextras.py:426
 msgid "sound sensor"
 msgstr "uyarinapa musyaynin"
 
 #  "sensor de color"
-#: taextras.py:422
+#: taextras.py:427
 msgid "color sensor"
 msgstr "llimp'ip musyaynin"
 
 #  "prender luz"
 #. TRANS: set light is used to set the light level associated with
 #. the color sensor (which can emit light as well as sense it)
-#: taextras.py:425
+#: taextras.py:430
 msgid "set light"
 msgstr "k'ancharichiy"
 
 #  "Prende la luz del sensor de color."
-#: taextras.py:426
+#: taextras.py:431
 msgid "Set color sensor light."
 msgstr "Llimp'ip musyayninpa k'anchariyninta hap'ichiy."
 
 #  [ES] "nivel de batería"
 #. TRANS: the battery level is the charge level of the brick
-#: taextras.py:428
+#: taextras.py:433
 msgid "battery level"
 msgstr "baterip imayna kasqan"
 
-#: taextras.py:429
+#: taextras.py:434
 msgid "Get the battery level of the brick in millivolts"
 msgstr ""
 
 # "Paleta de bloques WeDo"
 #. TRANS: Arduino plugin to control an Arduino board
-#: taextras.py:434
+#: taextras.py:439
 #, fuzzy
 msgid "Palette of Arduino blocks"
 msgstr "WeDo bloquekunamanta"
 
 # "PWM"
 #. TRANS: PWM is pulse-width modulation
-#: taextras.py:440
+#: taextras.py:445
 msgid "PWM"
 msgstr "PWM"
 
 #  "SERVO"
-#: taextras.py:441
+#: taextras.py:446
 msgid "SERVO"
 msgstr "SERVO"
 
 #  "ERROR: Chequee la Arduino y el número de puerto."
-#: taextras.py:442
+#: taextras.py:447
 msgid "ERROR: Check the Arduino and the number of port."
 msgstr "PANTAY: Arduino nisqatawan puerto yupanantawan qhawariy."
 
 #  "ERROR: El valor debe ser un número entre 0 y 255."
-#: taextras.py:443
+#: taextras.py:448
 msgid "ERROR: Value must be a number from 0 to 255."
 msgstr "PANTAY: chaniqa 0 yupaymanta 255 yupanakamanmi kanman."
 
 # "ERROR: El valor debe ser ALTO o BAJO."
-#: taextras.py:444
+#: taextras.py:449
 #, fuzzy
 msgid "ERROR: Value must be either HIGH or LOW, 0 or 1"
 msgstr "PANTAY: chaniqa ACHKHA utaq PISI kanman."
 
 #  "ERROR: El modo debe ser ENTRADA, SALIDA, PWM o SERVO."
-#: taextras.py:445
+#: taextras.py:450
 msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
 msgstr "PANTAY: imayna kayqa HAYKUNA, LLUQSINA, PWM utaq SERVO nispam kanman."
 
-#: taextras.py:446
+#: taextras.py:451
 msgid "ERROR: The value must be an integer."
 msgstr ""
 
-#: taextras.py:447
+#: taextras.py:452
 msgid "ERROR: The pin must be an integer."
 msgstr ""
 
 #  [ES] "refrescar Arduino"
-#: taextras.py:448
+#: taextras.py:453
 msgid "refresh Arduino"
 msgstr "Arduinota kunanyachiy"
 
 #  [ES] "Busca por Arduinos conectadas."
-#: taextras.py:449
+#: taextras.py:454
 msgid "Search for connected Arduinos."
 msgstr "Sapanka Arduinokuna tinkuchisqa kasqapi machkhan."
 
-#: taextras.py:450
+#: taextras.py:455
 msgid "Arduino"
 msgstr "Arduino"
 
 #  [ES] "establece la placa Arduino actual"
-#: taextras.py:451
+#: taextras.py:456
 msgid "set current Arduino board"
 msgstr "kunan kaq placa Aduinotam churan"
 
 #  [ES] "número de Arduinos"
-#: taextras.py:452
+#: taextras.py:457
 msgid "number of Arduinos"
 msgstr "hayk'a Arduinokuna"
 
 #  [ES] "número de placas Arduino"
-#: taextras.py:453
+#: taextras.py:458
 msgid "number of Arduino boards"
 msgstr "hayk'a placa Arduinokuna"
 
 #  [ES] "nombre de Arduino"
-#: taextras.py:454
+#: taextras.py:459
 msgid "Arduino name"
 msgstr "Arduinop sutin"
 
 #  [ES] "Obtiene el nombre de la Arduino."
-#: taextras.py:455
+#: taextras.py:460
 msgid "Get the name of an Arduino."
 msgstr "Arduinop sutinta tarin."
 
 #  "modo del pin"
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
-#: taextras.py:458
+#: taextras.py:463
 msgid "pin mode"
 msgstr "pin nisqa imayna kaynin"
 
 #  "Selecciona la función del pin (ENTRADA, SALIDA, PWM, SERVO)."
-#: taextras.py:461
+#: taextras.py:466
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
 msgstr "Pin nisqapa purinanta akllay (HAYKUNA, LLUQSINA, PWM, SERVO)."
 
 #  "escribir analógico"
-#: taextras.py:462
+#: taextras.py:467
 msgid "analog write"
 msgstr "analogico nisqata qillqay"
 
 #  "Escribe un valor analógico en el puerto especificado."
-#: taextras.py:464
+#: taextras.py:469
 msgid "Write analog value in specified port."
 msgstr "alogico chanitam akllasqa puertopiqa qillqay."
 
 #  "leer analógico"
-#: taextras.py:465
+#: taextras.py:470
 msgid "analog read"
 msgstr "analogico nisqata nawichay"
 
 #  "Lee un valor desde un puerto analógico. El valor puede ser entre 0 y 1023. "
 #  "Use Vref para determinar el voltaje. Para USB, volt=((leer)*5/1024) "
 #  "aproximadamente."
-#: taextras.py:466
+#: taextras.py:471
 msgid ""
 "Read value from analog port. Value may be between 0 and 1023. Use Vref to "
 "determine voltage. For USB, volt=((read)*5)/1024) approximately."
@@ -1699,107 +1707,107 @@ msgstr ""
 "nisqapaqtaq, volt=((ñawiriy)*5/1024) nisqahinata."
 
 #  "escribir digital"
-#: taextras.py:468
+#: taextras.py:473
 msgid "digital write"
 msgstr "digitalta qillqay"
 
 #  "Escribe un valor digital en un puerto específico."
-#: taextras.py:469
+#: taextras.py:474
 msgid "Write digital value to specified port."
 msgstr "digital chanitam akllasqa puertopiqa qillqay."
 
 #  "leer digital"
-#: taextras.py:470
+#: taextras.py:475
 msgid "digital read"
 msgstr "digitalta ñawichay"
 
 #  "Lee un valor desde un puerto digital."
-#: taextras.py:471
+#: taextras.py:476
 msgid "Read value from digital port."
 msgstr "Purdo digitalmanta chanitaqa ñawichay."
 
 #  "Configura el puerto de la Arduino como entrada digital."
-#: taextras.py:473
+#: taextras.py:478
 msgid "Configure Arduino port for digital input."
 msgstr "Digital haykunahina kananpaqmi Arduino puertotaqa kamachiy."
 
 #  "Configura el puerto de la Arduino para manejar un servo."
-#: taextras.py:474
+#: taextras.py:479
 msgid "Configure Arduino port to drive a servo."
 msgstr "Servo sutichakuqta puriyachinapaqmi Arduino puertonta kamachiy."
 
 #  "Configura el puerto de la Arduino como salida digital."
-#: taextras.py:476
+#: taextras.py:481
 msgid "Configure Arduino port for digital output."
 msgstr "Digital lluqsinahina kananpaqmi Arduino puertotaqa kamachiy."
 
 #  "Configura el puerto de la Arduino para PWM modulación por ancho de pulsos)."
-#: taextras.py:477
+#: taextras.py:482
 msgid "Configure Arduino port for PWM (pulse-width modulation)."
 msgstr ""
 "PWM sutichakuqwan kananpaqmi Arduino puertonta kamachiy (sakhayninwan "
 "churachinkunqa)."
 
-#: taextras.py:478
+#: taextras.py:483
 #, python-format
 msgid "Not found Arduino %s"
 msgstr ""
 
-#: taextras.py:479
+#: taextras.py:484
 msgid "The pin must be an integer"
 msgstr ""
 
-#: taextras.py:480
+#: taextras.py:485
 msgid "The device must be an integer"
 msgstr ""
 
 # "Paleta de bloques WeDo"
 #. TRANS: plugin to control an ExpEyes device
-#: taextras.py:485
+#: taextras.py:490
 msgid "Palette of Expeyes blocks"
 msgstr "WeDo bloquekunamanta"
 
 #  [ES] "establecer PVS"
 #. TRANS: Programmable voltage output
-#: taextras.py:487
+#: taextras.py:492
 msgid "set PVS"
 msgstr "PVS nisqata churay"
 
 #  [ES] "establece el voltaje de salida programable"
-#: taextras.py:488
+#: taextras.py:493
 msgid "set programmable voltage output"
 msgstr "ima voltaje nisqawan programasqaña lluqsinapaq churay"
 
 #  [ES] "establecer voltaje SQR1"
 #. TRANS: Square wave 1 voltage output
-#: taextras.py:490
+#: taextras.py:495
 msgid "set SQR1 voltage"
 msgstr "SQR1 voltajeta churan"
 
 #  [ES] "establece una onda cuadrada en el voltaje de salida"
-#: taextras.py:491
+#: taextras.py:496
 msgid "set square wave 1 voltage output"
 msgstr "lluqsip voltajemanqa onda cuadrada nisqata churan"
 
 #  [ES] "establecer voltaje SQR2"
 #. TRANS: Square wave 2 voltage output
-#: taextras.py:493
+#: taextras.py:498
 msgid "set SQR2 voltage"
 msgstr "SQR2 voltajeta churay"
 
 # [ES] "establece una onda cuadrada en el voltaje de salida"
-#: taextras.py:494
+#: taextras.py:499
 msgid "set square wave 2 voltage output"
 msgstr "lluqsip voltajemanqa onda cuadrada nisqata churay"
 
 #  [ES] "establecer OD1"
 #. TRANS: Digital output level
-#: taextras.py:496
+#: taextras.py:501
 msgid "set OD1"
 msgstr "OD1 nisqata churay"
 
 #  [ES] "establece el nivel de la salida digital (OD1) bajo (0) o alto (1)"
-#: taextras.py:497
+#: taextras.py:502
 msgid "set digital output level (OD1) low (0) or high (1)"
 msgstr ""
 "digital lluqsinanta (OD1) antunninpichu (0) utaq huch'uyninpichu (1) "
@@ -1807,13 +1815,13 @@ msgstr ""
 
 #  [ES] "nivel IN1"
 #. TRANS: Input 1 voltage level
-#: taextras.py:499
+#: taextras.py:504
 msgid "IN1 level"
 msgstr "IN1 t'aqa"
 
 #  [ES] "devuelve 1 si el voltaje de IN1 es mayor a 2,5 volts, 0 si el voltaje es <= "
 #  [ES] "2,5 volts"
-#: taextras.py:500
+#: taextras.py:505
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
@@ -1823,13 +1831,13 @@ msgstr ""
 
 #  [ES] "nivel IN2"
 #. TRANS: Input 2 voltage level
-#: taextras.py:503
+#: taextras.py:508
 msgid "IN2 level"
 msgstr "IN2 t'aqa"
 
 #  [ES] "devuelve 1 si el voltaje de IN2 es mayor a 2,5 volts, 0 si el voltaje es <= "
 #  [ES] "2,5 volts"
-#: taextras.py:504
+#: taextras.py:509
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
@@ -1839,13 +1847,13 @@ msgstr ""
 
 #  [ES] "nivel SEN"
 #. TRANS: Resistive sensor voltage level
-#: taextras.py:507
+#: taextras.py:512
 msgid "SEN level"
 msgstr "SEN t'aqa"
 
 #  [ES] "devuelve 1 si el voltaje del sensor resistivo (SEN) es mayor a 2,5 volts, 0 "
 #  [ES] "si el voltaje es <= 2,5 volts"
-#: taextras.py:508
+#: taextras.py:513
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
@@ -1854,113 +1862,113 @@ msgstr ""
 "kutichinqa, ichaqa 2.5 volts nisqa kaptinqa 0 yupaytam kutichinqa"
 
 #  [ES] "capturar"
-#: taextras.py:510
+#: taextras.py:515
 msgid "capture"
 msgstr "hap'iy"
 
-#: taextras.py:511
+#: taextras.py:516
 msgid "input"
 msgstr "haykuna"
 
-#: taextras.py:512
+#: taextras.py:517
 msgid "samples"
 msgstr "qhawarichikuna"
 
-#: taextras.py:513
+#: taextras.py:518
 msgid "interval"
 msgstr "t'aqap pacha"
 
 #  [ES] "captura múltiples muestras de la entrada en intervalos (MS); los resultados "
 #  [ES] "son puestos en FIFO"
 #. TRANS: MS is microseconds
-#: taextras.py:515
+#: taextras.py:520
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr ""
 "t'aqasqa pachakunan puriqta (MS) hap'iy; kaykunaqa FIFO nisqapim churakunqa"
 
 #. TRANS: Analog input 1 voltage level
-#: taextras.py:518
+#: taextras.py:523
 msgid "A1"
 msgstr "A1"
 
 #  [ES] "lee el voltaje de la entrada analógica 1"
-#: taextras.py:519
+#: taextras.py:524
 msgid "read analog input 1 voltage"
 msgstr "1 analógico musyanaman voltaje haykusqanta ñawichay"
 
 #. TRANS: Analog input 2 voltage level
-#: taextras.py:521
+#: taextras.py:526
 msgid "A2"
 msgstr "A2"
 
 #  [ES] "lee el voltaje de la entrada analógica 2"
-#: taextras.py:522
+#: taextras.py:527
 msgid "read analog input 2 voltage"
 msgstr "2 analógico musyanaman voltaje haykusqanta ñawichay"
 
 #. TRANS: Read input 1 voltage
-#: taextras.py:524
+#: taextras.py:529
 msgid "IN1"
 msgstr "IN1"
 
 #  [ES] "lee el voltaje de la entrada 1"
-#: taextras.py:525
+#: taextras.py:530
 msgid "read input 1 voltage"
 msgstr "1 haykunap voltaje nisqanta ñawichan"
 
 #. TRANS: Read input 2 voltage
-#: taextras.py:527
+#: taextras.py:532
 msgid "IN2"
 msgstr "IN2"
 
 #  [ES] "lee el voltaje de la entrada 2"
-#: taextras.py:528
+#: taextras.py:533
 msgid "read input 2 voltage"
 msgstr "2 haykunap voltaje nisqanta ñawichan"
 
 #. TRANS: Read analog sensor input voltage
-#: taextras.py:530
+#: taextras.py:535
 msgid "SEN"
 msgstr "SEN"
 
 #  [ES] "lee el voltaje de entrada del sensor analógico"
-#: taextras.py:531
+#: taextras.py:536
 msgid "read analog sensor input voltage"
 msgstr "analógico musyanaman voltaje haykusqanta ñawichay"
 
 #. TRANS: Read square wave 1 input voltage
-#: taextras.py:533
+#: taextras.py:538
 msgid "SQR1"
 msgstr "SQR1"
 
 #  [ES] "lee el voltaje de la onda cuadrada 1"
-#: taextras.py:534
+#: taextras.py:539
 msgid "read square wave 1 voltage"
 msgstr "1 onda cuadrada nisqap voltajenta ñawichan"
 
 #. TRANS: Read square wave 2 input voltage
-#: taextras.py:536
+#: taextras.py:541
 msgid "SQR2"
 msgstr "SQR2"
 
 #  [ES] "lee el voltaje de la onda cuadrada 2"
-#: taextras.py:537
+#: taextras.py:542
 msgid "read square wave 2 voltage"
 msgstr "2 onda cuadrada nisqap voltajenta ñawichan"
 
 #. TRANS: Read programmable voltage
-#: taextras.py:539
+#: taextras.py:544
 msgid "PVS"
 msgstr "PVS"
 
 #  [ES] "leer voltaje programable"
-#: taextras.py:540
+#: taextras.py:545
 msgid "read programmable voltage"
 msgstr "programasqa voltajeta ñawichay"
 
 #  [ES] "El dispositivo Expeyes no fue encontrado"
-#: taextras.py:541
+#: taextras.py:546
 msgid "Expeyes device not found"
 msgstr "Expeyes dispositivo sutichakuqqa manam tarikunchu"
 
