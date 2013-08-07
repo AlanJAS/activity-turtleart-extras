@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-20 00:34-0400\n"
-"PO-Revision-Date: 2013-07-24 06:56+0200\n"
+"PO-Revision-Date: 2013-08-07 05:47+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -144,7 +144,7 @@ msgstr "devuelve el valor del voltaje (volts)"
 
 #: taextras.py:91
 msgid "returns the temperature"
-msgstr "devuelve la temperatura"
+msgstr "devuelve la temperatura (grados celsius)"
 
 #: taextras.py:92
 msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
