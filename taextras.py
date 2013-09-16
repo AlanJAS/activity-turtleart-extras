@@ -150,19 +150,23 @@ it returns 255'),
     _('Set LOW value for digital port.'),
     _('OUTPUT'),
     _('Configure hack port for digital output.'),
+    # TRANS: cast means data type conversion
     _('Butia Robot cast blocks'),
     _('Butia'),
+    # TRANS: cast means data type conversion
     _('CAST\n'),
     _('new name'),
     _('original'),
     _('f(x)='),
     _('name'),
+    # TRANS: cast means data type conversion
     _('Cast a new block'),
     _('generic module %s'),
     _('ERROR: The pin %s must be in OUTPUT mode.'),
     _('ERROR: The pin %s must be in INPUT mode.'),
     _("ERROR: Something wrong with function '%s'"),
     _('ERROR: cannot init GCONF client: %s'),
+    # TRANS: cast means data type conversion
     _('ERROR: You must cast Sensor or Actuator: A, B or C'),
     _('Creating PyBot server'),
     _('ERROR creating PyBot server'),
@@ -411,6 +415,7 @@ LEGO_STRINGS = [
     # TRANS: rotations is quantity of turns
     _('rotations'),
     _('turn a motor'),
+    # \n\n inserts two new lines into the string
     _('synchronize\n\nmotors'),
     _('steering'),
     _('synchronize two motors connected in PORT B and PORT C'),
