@@ -109,7 +109,8 @@ BUTIA_STRINGS = [
     _('refresh the state of the Butia palette and blocks'),
     #TRANS: This string is shorthand for "battery charge of Butia"
     _('battery charge Butia'),
-    _('returns the battery charge in volts. If no motors present, it returns 255'),
+    _('returns the battery charge in volts. If no motors present, \
+it returns 255'),
     #TRANS: This string is shorthand for "speed of Butia"
     _('speed Butia'),
     _('set the speed of the Butia motors'),
@@ -531,8 +532,8 @@ EXPEYES_STRINGS = [
 <= 2.5 volts'),
     # TRANS: Resistive sensor voltage level
     _('SEN level'),
-    _('returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN \
-voltage level <= 2.5 volts'),
+    _('returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, \
+0 if SEN voltage level <= 2.5 volts'),
     _('capture'),
     _('input'),
     _('samples'),
@@ -566,4 +567,3 @@ to FIFO'),
     _('read programmable voltage'),
     _('Expeyes device not found')
 ]
-
