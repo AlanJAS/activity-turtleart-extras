@@ -109,7 +109,8 @@ BUTIA_STRINGS = [
     _('refresh the state of the Butia palette and blocks'),
     #TRANS: This string is shorthand for "battery charge of Butia"
     _('battery charge Butia'),
-    _('returns the battery charge in volts. If no motors present, it returns 255'),
+    _('returns the battery charge in volts. If no motors present, \
+it returns 255'),
     #TRANS: This string is shorthand for "speed of Butia"
     _('speed Butia'),
     _('set the speed of the Butia motors'),
@@ -149,19 +150,23 @@ BUTIA_STRINGS = [
     _('Set LOW value for digital port.'),
     _('OUTPUT'),
     _('Configure hack port for digital output.'),
+    # TRANS: cast means data type conversion
     _('Butia Robot cast blocks'),
     _('Butia'),
+    # TRANS: cast means data type conversion
     _('CAST\n'),
     _('new name'),
     _('original'),
     _('f(x)='),
     _('name'),
+    # TRANS: cast means data type conversion
     _('Cast a new block'),
     _('generic module %s'),
     _('ERROR: The pin %s must be in OUTPUT mode.'),
     _('ERROR: The pin %s must be in INPUT mode.'),
     _("ERROR: Something wrong with function '%s'"),
     _('ERROR: cannot init GCONF client: %s'),
+    # TRANS: cast means data type conversion
     _('ERROR: You must cast Sensor or Actuator: A, B or C'),
     _('Creating PyBot server'),
     _('ERROR creating PyBot server'),
@@ -410,6 +415,7 @@ LEGO_STRINGS = [
     # TRANS: rotations is quantity of turns
     _('rotations'),
     _('turn a motor'),
+    # \n\n inserts two new lines into the string
     _('synchronize\n\nmotors'),
     _('steering'),
     _('synchronize two motors connected in PORT B and PORT C'),
@@ -531,8 +537,8 @@ EXPEYES_STRINGS = [
 <= 2.5 volts'),
     # TRANS: Resistive sensor voltage level
     _('SEN level'),
-    _('returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN \
-voltage level <= 2.5 volts'),
+    _('returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, \
+0 if SEN voltage level <= 2.5 volts'),
     _('capture'),
     _('input'),
     _('samples'),
@@ -566,4 +572,3 @@ to FIFO'),
     _('read programmable voltage'),
     _('Expeyes device not found')
 ]
-
