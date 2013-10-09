@@ -90,6 +90,12 @@ BUTIA_STRINGS = [
     _('returns the voltage value (volts)'),
     _('returns the temperature value (celsius degree)'),
     _('custom module %s'),
+    _('sensor a'),
+    _('sensor b'),
+    _('sensor c'),
+    _('actuator a'),
+    _('actuator b'),
+    _('actuator c'),
     _('LED'),
     _('button'),
     _('gray'),
@@ -98,19 +104,13 @@ BUTIA_STRINGS = [
     _('resistance'),
     _('voltage'),
     _('temperature'),
-    _('sensor a'),
-    _('sensor b'),
-    _('sensor c'),
-    _('actuator a'),
-    _('actuator b'),
-    _('actuator c'),
+    _('butia'),
     _('Butia Robot'),
     _('refresh Butia'),
     _('refresh the state of the Butia palette and blocks'),
     #TRANS: This string is shorthand for "battery charge of Butia"
     _('battery charge Butia'),
-    _('returns the battery charge in volts. If no motors present, \
-it returns 255'),
+    _('returns the battery charge in volts. If no motors present, it returns 255'),
     #TRANS: This string is shorthand for "speed of Butia"
     _('speed Butia'),
     _('set the speed of the Butia motors'),
@@ -132,6 +132,8 @@ it returns 255'),
     #TRANS: This string is shorthand for "move Butia backward"
     _('backward Butia'),
     _('move the Butia robot backward'),
+    _('butia-extra'),
+    # TRANS: cast means data type conversion
     _('Butia Robot extra blocks'),
     _('pin mode Butia'),
     _('pin'),
@@ -150,7 +152,7 @@ it returns 255'),
     _('Set LOW value for digital port.'),
     _('OUTPUT'),
     _('Configure hack port for digital output.'),
-    # TRANS: cast means data type conversion
+    _('butia-cast'),
     _('Butia Robot cast blocks'),
     _('Butia'),
     # TRANS: cast means data type conversion
@@ -162,12 +164,15 @@ it returns 255'),
     # TRANS: cast means data type conversion
     _('Cast a new block'),
     _('generic module %s'),
+    _('Butia IP'),
+    _('change the ip of butia robot'),
     _('ERROR: The pin %s must be in OUTPUT mode.'),
     _('ERROR: The pin %s must be in INPUT mode.'),
     _("ERROR: Something wrong with function '%s'"),
     _('ERROR: cannot init GCONF client: %s'),
     # TRANS: cast means data type conversion
     _('ERROR: You must cast Sensor or Actuator: A, B or C'),
+    _("ERROR: Invalid IP '%s'"),
     _('Creating PyBot server'),
     _('ERROR creating PyBot server'),
     _('PyBot is alive!'),
@@ -182,6 +187,7 @@ FOLLOWME_STRINGS = [
     _('Error starting camera'),
     #TRANS: The "mask" is used to restrict processing to a region in the image
     _('Error in get mask'),
+    _('followme'),
     _('FollowMe'),
     _('refresh FollowMe'),
     _('Search for a connected camera.'),
@@ -204,8 +210,8 @@ FOLLOWME_STRINGS = [
     _('get brightness'),
     _('get the brightness of the ambient light'),
     _('average color'),
-    _('if set to 0 then color averaging is off during calibration; \
-for other values it is on'),
+    _('if set to 0 then color averaging is off during calibration;\
+for other values, it is on'),
     _('x position'),
     _('return x position'),
     _('y position'),
@@ -213,11 +219,18 @@ for other values it is on'),
     _('pixels'),
     _('return the number of pixels of the biggest blob'),
     # TRANS: RGB color space (red, green, blue)
+    _('RGB'),
     _('set the color mode of the camera to RGB'),
     # TRANS: YUV color space (luminance, chrominance)
+    _('YUV'),
     _('set the color mode of the camera to YUV'),
     # TRANS: HSV color space (hue, saturation, value)
+    _('HSV'),
     _('set the color mode of the camera to HSV'),
+    _('get color'),
+    _('get the color of an object'),
+    _('color distance'),
+    _('set the distance to identify a color'),
     _('empty calibration'),
     _('error in string conversion')
 ]
@@ -226,6 +239,7 @@ PATTERN_DETECTION_STRINGS = [
     #TRANS: Pattern detection is a plugin that allow detect signals
     #with the camera
     _('Pattern detection'),
+    _('pattern_detection'),
     _('Seeing signal'),
     _('Returns True if the signal is in front of the camera'),
     _('Distance to signal'),
@@ -235,6 +249,7 @@ PATTERN_DETECTION_STRINGS = [
 SUMO_STRINGS = [
     #TRANS: SumBot is a robot programmed for "Sumo wrestling"
     _('SumBot'),
+    _('sumtia'),
     _('speed SumBot'),
     _('submit the speed to the SumBot'),
     _('set the default speed for the movement commands'),
@@ -379,10 +394,8 @@ LEGO_STRINGS = [
     # TRANS: Lego NXT is a robotics product of the LEGO company
     _('Palette of LEGO NXT blocks of motors'),
     _('Palette of LEGO NXT blocks of sensors'),
-    # TRANS: touch sensor (implemented as a button)
-    _('touch'),
-    # TRANS: distance sensor (implemented using ultrasonics)
-    _('ultrasonic'),
+    _('button'),
+    _('distance'),
     _('color'),
     _('light'),
     _('sound'),
@@ -397,10 +410,12 @@ LEGO_STRINGS = [
     _('NXT found %s bricks'),
     _('NXT not found'),
     _('Brick number %s was not found'),
+    _('nxt-motors'),
     _('refresh NXT'),
     _('Search for a connected NXT brick.'),
     _('NXT'),
     _('set current NXT device'),
+    _('number of NXTs'),
     _('number of NXT devices'),
     _('brick name'),
     _('Get the name of a brick.'),
@@ -411,9 +426,9 @@ LEGO_STRINGS = [
     # TRANS: turn is the action
     _('turn motor\n\n'),
     _('port'),
-    _('power'),
     # TRANS: rotations is quantity of turns
     _('rotations'),
+    _('power'),
     _('turn a motor'),
     # \n\n inserts two new lines into the string
     _('synchronize\n\nmotors'),
@@ -435,6 +450,7 @@ LEGO_STRINGS = [
     _('Reset the motor counter.'),
     _('motor position'),
     _('Get the motor position.'),
+    _('nxt-sensors'),
     _('PORT 1'),
     _('PORT 1 of the brick'),
     _('read'),
@@ -446,7 +462,7 @@ LEGO_STRINGS = [
     _('gray sensor'),
     _('PORT 3'),
     _('PORT 3 of the brick'),
-    _('touch sensor'),
+    _('button sensor'),
     _('distance sensor'),
     _('PORT 4'),
     _('PORT 4 of the brick'),
@@ -477,6 +493,7 @@ ARDUINO_STRINGS = [
     _('ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO.'),
     _('ERROR: The value must be an integer.'),
     _('ERROR: The pin must be an integer.'),
+    _('arduino'),
     _('refresh Arduino'),
     _('Search for connected Arduinos.'),
     _('Arduino'),
