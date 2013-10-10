@@ -165,7 +165,7 @@ BUTIA_STRINGS = [
     _('Cast a new block'),
     _('generic module %s'),
     _('Butia IP'),
-    _('change the ip of butia robot'),
+    _('change the IP of butia robot'),
     _('ERROR: The pin %s must be in OUTPUT mode.'),
     _('ERROR: The pin %s must be in INPUT mode.'),
     _("ERROR: Something wrong with function '%s'"),
