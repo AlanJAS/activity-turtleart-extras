@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-09 14:26-0400\n"
-"PO-Revision-Date: 2013-10-09 21:05+0200\n"
+"POT-Creation-Date: 2013-10-10 00:32-0400\n"
+"PO-Revision-Date: 2013-10-12 04:55+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -433,8 +433,8 @@ msgid "Butia IP"
 msgstr "Butiá IP"
 
 #: taextras.py:168
-msgid "change the ip of butia robot"
-msgstr "cambia la ip del robot Butiá"
+msgid "change the IP of butia robot"
+msgstr "cambia la IP del robot Butiá"
 
 #: taextras.py:169
 #, python-format
