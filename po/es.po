@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-10 00:32-0400\n"
-"PO-Revision-Date: 2013-10-12 04:55+0200\n"
+"PO-Revision-Date: 2013-10-14 05:03+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -1015,7 +1015,7 @@ msgstr "Guarda el proyecto al Diario como una Actividad de Física."
 #. TRANS: Here, gear means a toothed wheel, as in a clock-works
 #: taextras.py:349
 msgid "gear"
-msgstr "círculo"
+msgstr "engranaje"
 
 #: taextras.py:350
 msgid "Add a gear object to the project."
