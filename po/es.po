@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-10 00:32-0400\n"
-"PO-Revision-Date: 2013-10-14 05:06+0200\n"
+"PO-Revision-Date: 2013-10-14 05:09+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -1138,14 +1138,14 @@ msgstr "WeDo no está disponible"
 #: taextras.py:387
 #, python-format
 msgid "WeDo %d is unavailable; defaulting to 1"
-msgstr "Wedo %d no está disponible; usando por defecto el 1"
+msgstr "El Wedo %d no está disponible; usando por defecto el 1"
 
 #. TRANS: %(device)s and %(wedo_number)d are substitution strings;
 #. please leave untranslated
 #: taextras.py:390
 #, python-format
 msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
-msgstr "%(device)s no está disponible en el WeDo %(wedo_number)d"
+msgstr "El %(device)s no está disponible en el WeDo %(wedo_number)d"
 
 #. TRANS: Lego NXT is a robotics product of the LEGO company
 #: taextras.py:395
