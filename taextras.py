@@ -488,11 +488,13 @@ ARDUINO_STRINGS = [
     _('PWM'),
     _('SERVO'),
     _('ERROR: Check the Arduino and the number of port.'),
-    _('ERROR: Value must be a number from 0 to 255.'),
+    _('ERROR: Value must be a number from 0 to 1.'),
+    _('ERROR: Value must be a number from 0 to 180.'),
     _('ERROR: Value must be either HIGH or LOW, 0 or 1'),
     _('ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO.'),
     _('ERROR: The value must be an integer.'),
     _('ERROR: The pin must be an integer.'),
+    _('ERROR: You must configure the mode for the pin.'),
     _('arduino'),
     _('refresh Arduino'),
     _('Search for connected Arduinos.'),
@@ -512,8 +514,7 @@ ARDUINO_STRINGS = [
     _('value'),
     _('Write analog value in specified port.'),
     _('analog read'),
-    _('Read value from analog port. Value may be between 0 and 1023. Use Vref \
-to determine voltage. For USB, volt=((read)*5)/1024) approximately.'),
+    _('Read value from analog port. Value may be between 0 and 1.'),
     _('digital write'),
     _('Write digital value to specified port.'),
     _('digital read'),
@@ -526,7 +527,8 @@ to determine voltage. For USB, volt=((read)*5)/1024) approximately.'),
     _('Configure Arduino port for PWM (pulse-width modulation).'),
     _('Not found Arduino %s'),
     _('The pin must be an integer'),
-    _('The device must be an integer')
+    _('The device must be an integer'),
+    _('Error loading %s board')
 ]
 
 EXPEYES_STRINGS = [
