@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-10 00:32-0400\n"
-"PO-Revision-Date: 2013-10-28 21:10+0200\n"
+"POT-Creation-Date: 2013-10-14 00:33-0400\n"
+"PO-Revision-Date: 2013-10-29 23:26+0200\n"
 "Last-Translator: Markus <m.slg@gmx.de>\n"
 "Language-Team: Deutsche OLPC-Lokalisierung\n"
 "Language: de\n"
@@ -322,7 +322,7 @@ msgstr "Extra-Blöcke für Butia-Roboter"
 
 #: taextras.py:138
 msgid "pin mode Butia"
-msgstr ""
+msgstr "Pin-Modus des Butia"
 
 #: taextras.py:139 taextras.py:339 taextras.py:508
 msgid "pin"
@@ -338,24 +338,21 @@ msgstr "Wähle die Pin-Funktion (EINGANG, AUSGANG)."
 
 #: taextras.py:142
 msgid "read pin Butia"
-msgstr ""
+msgstr "Pin des Butia auslesen"
 
 #: taextras.py:143
-#, fuzzy
 msgid "read the value of a pin"
-msgstr "Lies den Wert einer Hack-Pin."
+msgstr "Lies den Wert Pin aus."
 
 #: taextras.py:144
-#, fuzzy
 msgid "write pin Butia"
-msgstr "schreibe Hack-Pin-Butia"
+msgstr "Pin des Butia schreiben"
 
 #: taextras.py:145 taextras.py:512
 msgid "value"
 msgstr "Wert"
 
 #: taextras.py:146
-#, fuzzy
 msgid "set a hack pin to 0 or 1"
 msgstr "Setze eine Hack-Pin auf 0 oder 1."
 
@@ -364,18 +361,16 @@ msgid "INPUT"
 msgstr "EINGANG"
 
 #: taextras.py:148
-#, fuzzy
 msgid "Configure hack pin for digital input."
-msgstr "Konfiguriere den Hack-Port für den digitalen Eingang."
+msgstr "Konfiguriere eine Hack-Pin als digitalen Eingang."
 
 #: taextras.py:149 taextras.py:483
 msgid "HIGH"
 msgstr "HOCH"
 
 #: taextras.py:150
-#, fuzzy
 msgid "Set HIGH value for digital pin."
-msgstr "Setze HOCH-Wert für den digitalen Port."
+msgstr "Setze HOCH-Wert für eine digitale Pin."
 
 #: taextras.py:151 taextras.py:484
 msgid "LOW"
@@ -390,18 +385,16 @@ msgid "OUTPUT"
 msgstr "AUSGANG"
 
 #: taextras.py:154
-#, fuzzy
 msgid "Configure hack port for digital output."
-msgstr "Konfiguriere den Hack-Port für den digitalen Ausgang."
+msgstr "Konfiguriere einen Hack-Port als digitalen Ausgang."
 
 #: taextras.py:155
 msgid "butia-cast"
-msgstr ""
+msgstr "Butia-Umwandlung"
 
 #: taextras.py:156
-#, fuzzy
 msgid "Butia Robot cast blocks"
-msgstr "Extra-Blöcke für Butia-Roboter"
+msgstr "Umwandlungsblöcke für Butia-Roboter"
 
 #: taextras.py:157
 msgid "Butia"
@@ -410,14 +403,13 @@ msgstr "Butia"
 #. TRANS: cast means data type conversion
 #: taextras.py:159
 msgid "CAST\n"
-msgstr ""
+msgstr "UMWANDELN\n"
 
 #: taextras.py:160
 msgid "new name"
 msgstr "Neuer Name"
 
 #: taextras.py:161
-#, fuzzy
 msgid "original"
 msgstr "ursprünglich"
 
@@ -432,27 +424,26 @@ msgstr "Name"
 #. TRANS: cast means data type conversion
 #: taextras.py:165
 msgid "Cast a new block"
-msgstr ""
+msgstr "Einen neuen Block umwandeln"
 
 #: taextras.py:166
 #, python-format
-#, fuzzy
 msgid "generic module %s"
-msgstr "generisches Modul A"
+msgstr "generisches Modul %s"
 
 #: taextras.py:167
 msgid "Butia IP"
-msgstr ""
+msgstr "Butia-IP"
 
 #: taextras.py:168
 msgid "change the IP of butia robot"
-msgstr ""
+msgstr "Ändere die IP des Butia-Roboters"
 
 #: taextras.py:169
 #, python-format
-#, python-format, fuzzy
+#, python-format, 
 msgid "ERROR: The pin %s must be in OUTPUT mode."
-msgstr "FEHLER: Die Pin %s muss im Modus EINGANG sein."
+msgstr "FEHLER: Die Pin %s muss im Modus AUSGANG sein."
 
 #: taextras.py:170
 #, python-format
@@ -472,12 +463,12 @@ msgstr "FEHLER: GCONF-Client lässt sich nicht initialisieren: %s"
 #. TRANS: cast means data type conversion
 #: taextras.py:174
 msgid "ERROR: You must cast Sensor or Actuator: A, B or C"
-msgstr ""
+msgstr "FEHLER: Du musst den Sensor oder Aktor umstellen: A, B oder C"
 
 #: taextras.py:175
 #, python-format
 msgid "ERROR: Invalid IP '%s'"
-msgstr ""
+msgstr "FEHLER: Ungültige IP '%s'"
 
 #: taextras.py:176
 msgid "Creating PyBot server"
@@ -493,7 +484,7 @@ msgstr "PyBot läuft!"
 
 #: taextras.py:179
 msgid "Ending butia polling"
-msgstr ""
+msgstr "Beende Datenabruf des Butia"
 
 #: taextras.py:183
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
@@ -521,9 +512,8 @@ msgid "Error in get mask"
 msgstr "Fehler beim Auslesen der Maske"
 
 #: taextras.py:190
-#, fuzzy
 msgid "followme"
-msgstr "folge"
+msgstr "folgeMir"
 
 #: taextras.py:191
 msgid "FollowMe"
@@ -589,7 +579,6 @@ msgstr "Kameramodus"
 
 #. TRANS: RGB, YUV, and HSV are color spaces
 #: taextras.py:209
-#, fuzzy
 msgid "set the color mode of the camera: RGB; YUV or HSV"
 msgstr "Wähle den Farbmodus der Kamera: RGB, YUV oder HSV"
 
@@ -606,7 +595,6 @@ msgid "average color"
 msgstr "Durchschnittswert der Farbe"
 
 #: taextras.py:213
-#, fuzzy
 msgid ""
 "if set to 0 then color averaging is off during calibration;for other values, "
 "it is on"
@@ -641,7 +629,7 @@ msgstr "Gib die Zahl der Pixel im größten Fleck zurück"
 #. TRANS: RGB color space (red, green, blue)
 #: taextras.py:222
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: taextras.py:223
 msgid "set the color mode of the camera to RGB"
@@ -650,7 +638,7 @@ msgstr "Setze den Farbmodus der Kamera auf RGB"
 #. TRANS: YUV color space (luminance, chrominance)
 #: taextras.py:225
 msgid "YUV"
-msgstr ""
+msgstr "YUV"
 
 #: taextras.py:226
 msgid "set the color mode of the camera to YUV"
@@ -659,28 +647,27 @@ msgstr "Setze den Farbmodus der Kamera auf YUV"
 #. TRANS: HSV color space (hue, saturation, value)
 #: taextras.py:228
 msgid "HSV"
-msgstr ""
+msgstr "HSV"
 
 #: taextras.py:229
 msgid "set the color mode of the camera to HSV"
 msgstr "Setze den Farbmodus der Kamera auf HSV"
 
 #: taextras.py:230
-#, fuzzy
 msgid "get color"
-msgstr "setze Farbe"
+msgstr "Farbe holen"
 
 #: taextras.py:231
 msgid "get the color of an object"
-msgstr ""
+msgstr "nimm die Farbe eines Objektes auf"
 
 #: taextras.py:232
 msgid "color distance"
-msgstr ""
+msgstr "Farbabstand"
 
 #: taextras.py:233
 msgid "set the distance to identify a color"
-msgstr ""
+msgstr "Wähle den Abstand zur Identifizierung einer Farbe"
 
 #: taextras.py:234
 msgid "empty calibration"
@@ -697,9 +684,8 @@ msgid "Pattern detection"
 msgstr "Mustererkennung"
 
 #: taextras.py:242
-#, fuzzy
 msgid "pattern_detection"
-msgstr "Mustererkennung"
+msgstr "mustererkennung"
 
 #: taextras.py:243
 msgid "Seeing signal"
@@ -724,7 +710,7 @@ msgstr "SumBot"
 
 #: taextras.py:252
 msgid "sumtia"
-msgstr ""
+msgstr "Sumtia"
 
 #: taextras.py:253
 msgid "speed SumBot"
@@ -1014,11 +1000,11 @@ msgstr "y"
 
 #: taextras.py:344
 msgid ""
-"Join two objects together (the most recent object created and the object at "
-"point x, y)."
+"Join two objects together (the object at the current location and the object "
+"at point x, y)."
 msgstr ""
-"Verbinde zwei Objekte miteinander (das zuletzt erzeugte Objekt und das "
-"Objekt am Punkt x, y)."
+"Verbinde zwei Objekte miteinander (das Objekt an der aktuellen Position und "
+"das Objekt am Punkt x, y)."
 
 #: taextras.py:346
 msgid "save as Physics activity"
@@ -1097,7 +1083,6 @@ msgid "WeDo"
 msgstr "WeDo"
 
 #: taextras.py:371
-#, fuzzy
 msgid "set current WeDo device"
 msgstr "Wähle das aktuelle WeDo-Gerät"
 
@@ -1228,7 +1213,7 @@ msgstr "Baustein Nummer %s wurde nicht gefunden."
 
 #: taextras.py:413
 msgid "nxt-motors"
-msgstr ""
+msgstr "NXT-Motoren"
 
 #: taextras.py:414
 msgid "refresh NXT"
@@ -1248,10 +1233,9 @@ msgstr "Wähle das aktuelle NXT-Gerät"
 
 #: taextras.py:418
 msgid "number of NXTs"
-msgstr ""
+msgstr "Anzahl der NXTs"
 
 #: taextras.py:419
-#, fuzzy
 msgid "number of NXT devices"
 msgstr "Anzahl der NXT-Geräte"
 
@@ -1391,7 +1375,7 @@ msgstr "Bestimme die Motorposition."
 
 #: taextras.py:453
 msgid "nxt-sensors"
-msgstr ""
+msgstr "NXT-Sensoren"
 
 #: taextras.py:454
 msgid "PORT 1"
@@ -1439,7 +1423,7 @@ msgstr "PORT 3 des Bausteins"
 
 #: taextras.py:465
 msgid "button sensor"
-msgstr ""
+msgstr "Schaltknopf-Sensor"
 
 #: taextras.py:466
 msgid "distance sensor"
@@ -1487,7 +1471,6 @@ msgstr "Palette der Arduino-Blöcke"
 
 #. TRANS: PWM is pulse-width modulation
 #: taextras.py:488
-#, fuzzy
 msgid "PWM"
 msgstr "PWM"
 
@@ -1522,7 +1505,6 @@ msgid "ERROR: The pin must be an integer."
 msgstr "FEHLER: Die Pin muss ganzzahlig sein."
 
 #: taextras.py:496
-#, fuzzy
 msgid "arduino"
 msgstr "Arduino"
 
@@ -1640,7 +1622,6 @@ msgstr "Das Gerät muss ganzzahlig sein."
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:534
-#, fuzzy
 msgid "Palette of Expeyes blocks"
 msgstr "Palette der Expeyes-Blöcke"
 
@@ -1659,7 +1640,6 @@ msgid "set SQR1 voltage"
 msgstr "setze SQR1-Spannung"
 
 #: taextras.py:540
-#, fuzzy
 msgid "set square wave 1 voltage output"
 msgstr "Setze den Spannungswert der Rechteckswelle 1"
 
@@ -1721,21 +1701,18 @@ msgstr ""
 "wenn die SEN-Spannung <= 2,5 V beträgt."
 
 #: taextras.py:559
-#, fuzzy
 msgid "capture"
-msgstr "erfassen"
+msgstr "aufzeichnen"
 
 #: taextras.py:560
 msgid "input"
 msgstr "Eingang"
 
 #: taextras.py:561
-#, fuzzy
 msgid "samples"
 msgstr "Rate"
 
 #: taextras.py:562
-#, fuzzy
 msgid "interval"
 msgstr "Intervall"
 
@@ -1798,7 +1775,6 @@ msgid "SQR1"
 msgstr "SQR1"
 
 #: taextras.py:583
-#, fuzzy
 msgid "read square wave 1 voltage"
 msgstr "Lies die Spannung der Rechteckswelle 1 aus"
 
@@ -1808,7 +1784,6 @@ msgid "SQR2"
 msgstr "SQR2"
 
 #: taextras.py:586
-#, fuzzy
 msgid "read square wave 2 voltage"
 msgstr "Lies die Spannung der Rechteckswelle 2 aus"
 
