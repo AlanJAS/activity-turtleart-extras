@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-30 00:33-0400\n"
-"PO-Revision-Date: 2013-10-30 14:05+0200\n"
+"POT-Creation-Date: 2013-11-07 00:33-0500\n"
+"PO-Revision-Date: 2013-11-09 22:06+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
@@ -320,11 +320,11 @@ msgstr "Butia Robot extra blocks"
 msgid "pin mode Butia"
 msgstr "pin mode Butia"
 
-#: taextras.py:139 taextras.py:339 taextras.py:510
+#: taextras.py:139 taextras.py:339 taextras.py:495
 msgid "pin"
 msgstr "pin"
 
-#: taextras.py:140 taextras.py:511
+#: taextras.py:140 taextras.py:496
 msgid "mode"
 msgstr "mode"
 
@@ -344,7 +344,7 @@ msgstr "read the value of a pin"
 msgid "write pin Butia"
 msgstr "write pin Butia"
 
-#: taextras.py:145 taextras.py:514
+#: taextras.py:145 taextras.py:499
 msgid "value"
 msgstr "value"
 
@@ -352,7 +352,7 @@ msgstr "value"
 msgid "set a hack pin to 0 or 1"
 msgstr "set a hack pin to 0 or 1"
 
-#: taextras.py:147 taextras.py:485
+#: taextras.py:147 taextras.py:470
 msgid "INPUT"
 msgstr "INPUT"
 
@@ -360,7 +360,7 @@ msgstr "INPUT"
 msgid "Configure hack pin for digital input."
 msgstr "Configure hack pin for digital input."
 
-#: taextras.py:149 taextras.py:483
+#: taextras.py:149 taextras.py:468
 msgid "HIGH"
 msgstr "HIGH"
 
@@ -368,15 +368,15 @@ msgstr "HIGH"
 msgid "Set HIGH value for digital pin."
 msgstr "Set HIGH value for digital pin."
 
-#: taextras.py:151 taextras.py:484
+#: taextras.py:151 taextras.py:469
 msgid "LOW"
 msgstr "LOW"
 
-#: taextras.py:152 taextras.py:525
+#: taextras.py:152 taextras.py:510
 msgid "Set LOW value for digital port."
 msgstr "Set LOW value for digital port."
 
-#: taextras.py:153 taextras.py:486
+#: taextras.py:153 taextras.py:471
 msgid "OUTPUT"
 msgstr "OUTPUT"
 
@@ -1251,12 +1251,10 @@ msgstr "Play a tone at frequency for time."
 
 #. TRANS: turn is the action
 #: taextras.py:427
-msgid ""
-"turn motor\n"
-"\n"
-msgstr ""
-"turn motor\n"
-"\n"
+#, python-format
+#, python-format, 
+msgid "turn motor%s"
+msgstr "turn motor%s"
 
 #: taextras.py:428
 msgid "port"
@@ -1275,389 +1273,328 @@ msgstr "power"
 msgid "turn a motor"
 msgstr "turn a motor"
 
+#: taextras.py:433
+#, python-format
+#, python-format, 
+msgid "synchronize%smotors"
+msgstr "synchronize%smotors"
+
 #: taextras.py:434
-msgid ""
-"synchronize\n"
-"\n"
-"motors"
-msgstr ""
-"synchronize\n"
-"\n"
-"motors"
-
-#: taextras.py:435
-msgid "steering"
-msgstr "steering"
-
-#: taextras.py:436
 msgid "synchronize two motors connected in PORT B and PORT C"
 msgstr "synchronize two motors connected in PORT B and PORT C"
 
+#: taextras.py:435
+#, python-format
+msgid "PORT %s"
+msgstr "PORT %s"
+
+#: taextras.py:436
+#, python-format
+#, python-format, 
+msgid "PORT %s of the brick"
+msgstr "PORT %s of the brick"
+
 #: taextras.py:437
-msgid "PORT A"
-msgstr "PORT A"
-
-#: taextras.py:438
-msgid "PORT A of the brick"
-msgstr "PORT A of the brick"
-
-#: taextras.py:439
-msgid "PORT B"
-msgstr "PORT B"
-
-#: taextras.py:440
-msgid "PORT B of the brick"
-msgstr "PORT B of the brick"
-
-#: taextras.py:441
-msgid "PORT C"
-msgstr "PORT C"
-
-#: taextras.py:442
-msgid "PORT C of the brick"
-msgstr "PORT C of the brick"
-
-#: taextras.py:443
-msgid ""
-"synchronize\n"
-"motors"
-msgstr ""
-"synchronize\n"
-"motors"
-
-#: taextras.py:444
 msgid "start motor"
 msgstr "start motor"
 
-#: taextras.py:445
+#: taextras.py:438
 msgid "Run a motor forever."
 msgstr "Run a motor forever."
 
-#: taextras.py:446
+#: taextras.py:439
 msgid "brake motor"
 msgstr "brake motor"
 
-#: taextras.py:447
+#: taextras.py:440
 msgid "Stop a specified motor."
 msgstr "Stop a specified motor."
 
 #. TRANS: reset is used to reset the counter associated with the motor
-#: taextras.py:449
+#: taextras.py:442
 msgid "reset motor"
 msgstr "reset motor"
 
-#: taextras.py:450
+#: taextras.py:443
 msgid "Reset the motor counter."
 msgstr "Reset the motor counter."
 
-#: taextras.py:451
+#: taextras.py:444
 msgid "motor position"
 msgstr "motor position"
 
-#: taextras.py:452
+#: taextras.py:445
 msgid "Get the motor position."
 msgstr "Get the motor position."
 
-#: taextras.py:453
+#: taextras.py:446
 msgid "nxt-sensors"
 msgstr "nxt-sensors"
 
-#: taextras.py:454
-msgid "PORT 1"
-msgstr "PORT 1"
-
-#: taextras.py:455
-msgid "PORT 1 of the brick"
-msgstr "PORT 1 of the brick"
-
-#: taextras.py:456
+#: taextras.py:447
 msgid "read"
 msgstr "read"
 
-#: taextras.py:457
+#: taextras.py:448
 msgid "sensor"
 msgstr "sensor"
 
-#: taextras.py:458
+#: taextras.py:449
 msgid "Read sensor output."
 msgstr "Read sensor output."
 
-#: taextras.py:459
-msgid "PORT 2"
-msgstr "PORT 2"
-
-#: taextras.py:460
-msgid "PORT 2 of the brick"
-msgstr "PORT 2 of the brick"
-
-#: taextras.py:461
+#: taextras.py:450
 msgid "light sensor"
 msgstr "light sensor"
 
-#: taextras.py:462
+#: taextras.py:451
 msgid "gray sensor"
 msgstr "gray sensor"
 
-#: taextras.py:463
-msgid "PORT 3"
-msgstr "PORT 3"
-
-#: taextras.py:464
-msgid "PORT 3 of the brick"
-msgstr "PORT 3 of the brick"
-
-#: taextras.py:465
+#: taextras.py:452
 msgid "button sensor"
 msgstr "button sensor"
 
-#: taextras.py:466
+#: taextras.py:453
 msgid "distance sensor"
 msgstr "distance sensor"
 
-#: taextras.py:467
-msgid "PORT 4"
-msgstr "PORT 4"
-
-#: taextras.py:468
-msgid "PORT 4 of the brick"
-msgstr "PORT 4 of the brick"
-
-#: taextras.py:469
+#: taextras.py:454
 msgid "sound sensor"
 msgstr "sound sensor"
 
-#: taextras.py:470
+#: taextras.py:455
 msgid "color sensor"
 msgstr "color sensor"
 
 #. TRANS: set light is used to set the light level associated with
 #. the color sensor (which can emit light as well as sense it)
-#: taextras.py:473
+#: taextras.py:458
 msgid "set light"
 msgstr "set light"
 
-#: taextras.py:474
+#: taextras.py:459
 msgid "Set color sensor light."
 msgstr "Set color sensor light."
 
 #. TRANS: the battery level is the charge level of the brick
-#: taextras.py:476
+#: taextras.py:461
 msgid "battery level"
 msgstr "battery level"
 
-#: taextras.py:477
+#: taextras.py:462
 msgid "Get the battery level of the brick in millivolts"
 msgstr "Get the battery level of the brick in millivolts"
 
 #. TRANS: Arduino plugin to control an Arduino board
-#: taextras.py:482
+#: taextras.py:467
 msgid "Palette of Arduino blocks"
 msgstr "Palette of Arduino blocks"
 
 #. TRANS: PWM is pulse-width modulation
-#: taextras.py:488
+#: taextras.py:473
 msgid "PWM"
 msgstr "PWM"
 
-#: taextras.py:489
+#: taextras.py:474
 msgid "SERVO"
 msgstr "SERVO"
 
-#: taextras.py:490
+#: taextras.py:475
 msgid "ERROR: Check the Arduino and the number of port."
 msgstr "ERROR: Check the Arduino and the number of port."
 
-#: taextras.py:491
+#: taextras.py:476
 msgid "ERROR: Value must be a number from 0 to 1."
 msgstr "ERROR: Value must be a number from 0 to 1."
 
-#: taextras.py:492
+#: taextras.py:477
 msgid "ERROR: Value must be a number from 0 to 180."
 msgstr "ERROR: Value must be a number from 0 to 180."
 
-#: taextras.py:493
+#: taextras.py:478
 msgid "ERROR: Value must be either HIGH or LOW, 0 or 1"
 msgstr "ERROR: Value must be either HIGH or LOW, 0 or 1"
 
-#: taextras.py:494
+#: taextras.py:479
 msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
 msgstr "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
 
-#: taextras.py:495
+#: taextras.py:480
 msgid "ERROR: The value must be an integer."
 msgstr "ERROR: The value must be an integer."
 
-#: taextras.py:496
+#: taextras.py:481
 msgid "ERROR: The pin must be an integer."
 msgstr "ERROR: The pin must be an integer."
 
-#: taextras.py:497
+#: taextras.py:482
 msgid "ERROR: You must configure the mode for the pin."
 msgstr "ERROR: You must configure the mode for the pin."
 
-#: taextras.py:498
+#: taextras.py:483
 msgid "arduino"
 msgstr "arduino"
 
-#: taextras.py:499
+#: taextras.py:484
 msgid "refresh Arduino"
 msgstr "refresh Arduino"
 
-#: taextras.py:500
+#: taextras.py:485
 msgid "Search for connected Arduinos."
 msgstr "Search for connected Arduinos."
 
-#: taextras.py:501
+#: taextras.py:486
 msgid "Arduino"
 msgstr "Arduino"
 
-#: taextras.py:502
+#: taextras.py:487
 msgid "set current Arduino board"
 msgstr "set current Arduino board"
 
-#: taextras.py:503
+#: taextras.py:488
 msgid "number of Arduinos"
 msgstr "number of Arduinos"
 
-#: taextras.py:504
+#: taextras.py:489
 msgid "number of Arduino boards"
 msgstr "number of Arduino boards"
 
-#: taextras.py:505
+#: taextras.py:490
 msgid "Arduino name"
 msgstr "Arduino name"
 
-#: taextras.py:506
+#: taextras.py:491
 msgid "Get the name of an Arduino."
 msgstr "Get the name of an Arduino."
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
-#: taextras.py:509
+#: taextras.py:494
 msgid "pin mode"
 msgstr "pin mode"
 
-#: taextras.py:512
+#: taextras.py:497
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
 msgstr "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
 
-#: taextras.py:513
+#: taextras.py:498
 msgid "analog write"
 msgstr "analog write"
 
-#: taextras.py:515
+#: taextras.py:500
 msgid "Write analog value in specified port."
 msgstr "Write analog value in specified port."
 
-#: taextras.py:516
+#: taextras.py:501
 msgid "analog read"
 msgstr "analog read"
 
-#: taextras.py:517
+#: taextras.py:502
 msgid "Read value from analog port. Value may be between 0 and 1."
 msgstr "Read value from analog port. Value may be between 0 and 1."
 
-#: taextras.py:518
+#: taextras.py:503
 msgid "digital write"
 msgstr "digital write"
 
-#: taextras.py:519
+#: taextras.py:504
 msgid "Write digital value to specified port."
 msgstr "Write digital value to specified port."
 
-#: taextras.py:520
+#: taextras.py:505
 msgid "digital read"
 msgstr "digital read"
 
-#: taextras.py:521
+#: taextras.py:506
 msgid "Read value from digital port."
 msgstr "Read value from digital port."
 
-#: taextras.py:522
+#: taextras.py:507
 msgid "Set HIGH value for digital port."
 msgstr "Set HIGH value for digital port."
 
-#: taextras.py:523
+#: taextras.py:508
 msgid "Configure Arduino port for digital input."
 msgstr "Configure Arduino port for digital input."
 
-#: taextras.py:524
+#: taextras.py:509
 msgid "Configure Arduino port to drive a servo."
 msgstr "Configure Arduino port to drive a servo."
 
-#: taextras.py:526
+#: taextras.py:511
 msgid "Configure Arduino port for digital output."
 msgstr "Configure Arduino port for digital output."
 
-#: taextras.py:527
+#: taextras.py:512
 msgid "Configure Arduino port for PWM (pulse-width modulation)."
 msgstr "Configure Arduino port for PWM (pulse-width modulation)."
 
-#: taextras.py:528
+#: taextras.py:513
 #, python-format
 msgid "Not found Arduino %s"
 msgstr "Not found Arduino %s"
 
-#: taextras.py:529
+#: taextras.py:514
 msgid "The pin must be an integer"
 msgstr "The pin must be an integer"
 
-#: taextras.py:530
+#: taextras.py:515
 msgid "The device must be an integer"
 msgstr "The device must be an integer"
 
-#: taextras.py:531
+#: taextras.py:516
 #, python-format
 msgid "Error loading %s board"
 msgstr "Error loading %s board"
 
 #. TRANS: plugin to control an ExpEyes device
-#: taextras.py:536
+#: taextras.py:521
 msgid "Palette of Expeyes blocks"
 msgstr "Palette of Expeyes blocks"
 
 #. TRANS: Programmable voltage output
-#: taextras.py:538
+#: taextras.py:523
 msgid "set PVS"
 msgstr "set PVS"
 
-#: taextras.py:539
+#: taextras.py:524
 msgid "set programmable voltage output"
 msgstr "set programmable voltage output"
 
 #. TRANS: Square wave 1 voltage output
-#: taextras.py:541
+#: taextras.py:526
 msgid "set SQR1 voltage"
 msgstr "set SQR1 voltage"
 
-#: taextras.py:542
+#: taextras.py:527
 msgid "set square wave 1 voltage output"
 msgstr "set square wave 1 voltage output"
 
 #. TRANS: Square wave 2 voltage output
-#: taextras.py:544
+#: taextras.py:529
 msgid "set SQR2 voltage"
 msgstr "set SQR2 voltage"
 
-#: taextras.py:545
+#: taextras.py:530
 msgid "set square wave 2 voltage output"
 msgstr "set square wave 2 voltage output"
 
 #. TRANS: Digital output level
-#: taextras.py:547
+#: taextras.py:532
 msgid "set OD1"
 msgstr "set OD1"
 
-#: taextras.py:548
+#: taextras.py:533
 msgid "set digital output level (OD1) low (0) or high (1)"
 msgstr "set digital output level (OD1) low (0) or high (1)"
 
 #. TRANS: Input 1 voltage level
-#: taextras.py:550
+#: taextras.py:535
 msgid "IN1 level"
 msgstr "IN1 level"
 
-#: taextras.py:551
+#: taextras.py:536
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
@@ -1666,11 +1603,11 @@ msgstr ""
 "volts"
 
 #. TRANS: Input 2 voltage level
-#: taextras.py:554
+#: taextras.py:539
 msgid "IN2 level"
 msgstr "IN2 level"
 
-#: taextras.py:555
+#: taextras.py:540
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
@@ -1679,11 +1616,11 @@ msgstr ""
 "volts"
 
 #. TRANS: Resistive sensor voltage level
-#: taextras.py:558
+#: taextras.py:543
 msgid "SEN level"
 msgstr "SEN level"
 
-#: taextras.py:559
+#: taextras.py:544
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
@@ -1691,104 +1628,155 @@ msgstr ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
 
-#: taextras.py:561
+#: taextras.py:546
 msgid "capture"
 msgstr "capture"
 
-#: taextras.py:562
+#: taextras.py:547
 msgid "input"
 msgstr "input"
 
-#: taextras.py:563
+#: taextras.py:548
 msgid "samples"
 msgstr "samples"
 
-#: taextras.py:564
+#: taextras.py:549
 msgid "interval"
 msgstr "interval"
 
 #. TRANS: MS is microseconds
-#: taextras.py:566
+#: taextras.py:551
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 
 #. TRANS: Analog input 1 voltage level
-#: taextras.py:569
+#: taextras.py:554
 msgid "A1"
 msgstr "A1"
 
-#: taextras.py:570
+#: taextras.py:555
 msgid "read analog input 1 voltage"
 msgstr "read analog input 1 voltage"
 
 #. TRANS: Analog input 2 voltage level
-#: taextras.py:572
+#: taextras.py:557
 msgid "A2"
 msgstr "A2"
 
-#: taextras.py:573
+#: taextras.py:558
 msgid "read analog input 2 voltage"
 msgstr "read analog input 2 voltage"
 
 #. TRANS: Read input 1 voltage
-#: taextras.py:575
+#: taextras.py:560
 msgid "IN1"
 msgstr "IN1"
 
-#: taextras.py:576
+#: taextras.py:561
 msgid "read input 1 voltage"
 msgstr "read input 1 voltage"
 
 #. TRANS: Read input 2 voltage
-#: taextras.py:578
+#: taextras.py:563
 msgid "IN2"
 msgstr "IN2"
 
-#: taextras.py:579
+#: taextras.py:564
 msgid "read input 2 voltage"
 msgstr "read input 2 voltage"
 
 #. TRANS: Read analog sensor input voltage
-#: taextras.py:581
+#: taextras.py:566
 msgid "SEN"
 msgstr "SEN"
 
-#: taextras.py:582
+#: taextras.py:567
 msgid "read analog sensor input voltage"
 msgstr "read analog sensor input voltage"
 
 #. TRANS: Read square wave 1 input voltage
-#: taextras.py:584
+#: taextras.py:569
 msgid "SQR1"
 msgstr "SQR1"
 
-#: taextras.py:585
+#: taextras.py:570
 msgid "read square wave 1 voltage"
 msgstr "read square wave 1 voltage"
 
 #. TRANS: Read square wave 2 input voltage
-#: taextras.py:587
+#: taextras.py:572
 msgid "SQR2"
 msgstr "SQR2"
 
-#: taextras.py:588
+#: taextras.py:573
 msgid "read square wave 2 voltage"
 msgstr "read square wave 2 voltage"
 
 #. TRANS: Read programmable voltage
-#: taextras.py:590
+#: taextras.py:575
 msgid "PVS"
 msgstr "PVS"
 
-#: taextras.py:591
+#: taextras.py:576
 msgid "read programmable voltage"
 msgstr "read programmable voltage"
 
-#: taextras.py:592
+#: taextras.py:577
 msgid "Expeyes device not found"
 msgstr "Expeyes device not found"
+
+#~ msgid ""
+#~ "synchronize\n"
+#~ "\n"
+#~ "motors"
+#~ msgstr ""
+#~ "synchronize\n"
+#~ "\n"
+#~ "motors"
+
+#~ msgid "steering"
+#~ msgstr "steering"
+
+#~ msgid "PORT A"
+#~ msgstr "PORT A"
+
+#~ msgid "PORT B"
+#~ msgstr "PORT B"
+
+#~ msgid "PORT B of the brick"
+#~ msgstr "PORT B of the brick"
+
+#~ msgid "PORT C"
+#~ msgstr "PORT C"
+
+#~ msgid "PORT C of the brick"
+#~ msgstr "PORT C of the brick"
+
+#~ msgid "PORT 1"
+#~ msgstr "PORT 1"
+
+#~ msgid "PORT 1 of the brick"
+#~ msgstr "PORT 1 of the brick"
+
+#~ msgid "PORT 2"
+#~ msgstr "PORT 2"
+
+#~ msgid "PORT 2 of the brick"
+#~ msgstr "PORT 2 of the brick"
+
+#~ msgid "PORT 3"
+#~ msgstr "PORT 3"
+
+#~ msgid "PORT 3 of the brick"
+#~ msgstr "PORT 3 of the brick"
+
+#~ msgid "PORT 4"
+#~ msgstr "PORT 4"
+
+#~ msgid "PORT 4 of the brick"
+#~ msgstr "PORT 4 of the brick"
 
 #~ msgid ""
 #~ "Read value from analog port. Value may be between 0 and 1023. Use Vref to "
