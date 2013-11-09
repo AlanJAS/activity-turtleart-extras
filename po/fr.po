@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-30 00:33-0400\n"
-"PO-Revision-Date: 2013-09-16 08:37+0200\n"
+"PO-Revision-Date: 2013-11-09 12:47+0200\n"
 "Last-Translator: samy boutayeb <s.boutayeb@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -212,9 +212,8 @@ msgid "temperature"
 msgstr "température"
 
 #: taextras.py:107
-#, fuzzy
 msgid "butia"
-msgstr "Butia"
+msgstr "butia"
 
 #: taextras.py:108
 msgid "Butia Robot"
@@ -311,7 +310,7 @@ msgstr "fait reculer le robot Butia"
 
 #: taextras.py:135
 msgid "butia-extra"
-msgstr ""
+msgstr "butia-extra"
 
 #. TRANS: cast means data type conversion
 #: taextras.py:137
@@ -388,7 +387,7 @@ msgstr "Configurer le port hack pour la sortie numérique."
 
 #: taextras.py:155
 msgid "butia-cast"
-msgstr ""
+msgstr "transtypage butia"
 
 #: taextras.py:156
 msgid "Butia Robot cast blocks"
@@ -432,11 +431,11 @@ msgstr "Module générique %s"
 
 #: taextras.py:167
 msgid "Butia IP"
-msgstr ""
+msgstr "adresse IP Butia"
 
 #: taextras.py:168
 msgid "change the IP of butia robot"
-msgstr ""
+msgstr "modifier l'adresse IP du robot butia"
 
 #: taextras.py:169
 #, python-format
@@ -466,7 +465,7 @@ msgstr "ERREUR : transtypage du capteur ou de l'actuateur : A, B ou C requis"
 #: taextras.py:175
 #, python-format
 msgid "ERROR: Invalid IP '%s'"
-msgstr ""
+msgstr "ERREUR : Adresse IP '%s' invalide"
 
 #: taextras.py:176
 msgid "Creating PyBot server"
@@ -512,9 +511,8 @@ msgid "Error in get mask"
 msgstr "Erreur du masque"
 
 #: taextras.py:190
-#, fuzzy
 msgid "followme"
-msgstr "suivre"
+msgstr "suis-moi"
 
 #: taextras.py:191
 msgid "FollowMe"
@@ -596,13 +594,12 @@ msgid "average color"
 msgstr "balance des couleurs"
 
 #: taextras.py:213
-#, fuzzy
 msgid ""
 "if set to 0 then color averaging is off during calibration;for other values, "
 "it is on"
 msgstr ""
-"lorsque c'est 0, la balance des couleurs est désactivée pendant\n"
-"la calibration;  pour les autres valeurs elle est activée"
+"lorsque c'est 0, la balance des couleurs est désactivée pendant la "
+"calibration ;  pour les autres valeurs elle est activée"
 
 #: taextras.py:215
 msgid "x position"
@@ -631,7 +628,7 @@ msgstr "retourner le nombre de pixels du plus gros bout"
 #. TRANS: RGB color space (red, green, blue)
 #: taextras.py:222
 msgid "RGB"
-msgstr ""
+msgstr "RVB"
 
 #: taextras.py:223
 msgid "set the color mode of the camera to RGB"
@@ -640,7 +637,7 @@ msgstr "définit le mode couleur RGB pour la caméra"
 #. TRANS: YUV color space (luminance, chrominance)
 #: taextras.py:225
 msgid "YUV"
-msgstr ""
+msgstr "YUV"
 
 #: taextras.py:226
 msgid "set the color mode of the camera to YUV"
@@ -649,28 +646,27 @@ msgstr "définit le mode couleur YUV pour la caméra"
 #. TRANS: HSV color space (hue, saturation, value)
 #: taextras.py:228
 msgid "HSV"
-msgstr ""
+msgstr "HSV"
 
 #: taextras.py:229
 msgid "set the color mode of the camera to HSV"
 msgstr "définit le mode couleur HSV pour la caméra"
 
 #: taextras.py:230
-#, fuzzy
 msgid "get color"
-msgstr "fixe la couleur"
+msgstr "obtient la couleur"
 
 #: taextras.py:231
 msgid "get the color of an object"
-msgstr ""
+msgstr "obtient la couleur d'un objet"
 
 #: taextras.py:232
 msgid "color distance"
-msgstr ""
+msgstr "distance à la couleur"
 
 #: taextras.py:233
 msgid "set the distance to identify a color"
-msgstr ""
+msgstr "définit la distance pour l'identification d'une couleur"
 
 #: taextras.py:234
 msgid "empty calibration"
@@ -687,9 +683,8 @@ msgid "Pattern detection"
 msgstr "Détection de contour"
 
 #: taextras.py:242
-#, fuzzy
 msgid "pattern_detection"
-msgstr "Détection de contour"
+msgstr "détection de motif"
 
 #: taextras.py:243
 msgid "Seeing signal"
@@ -714,7 +709,7 @@ msgstr "SumBot"
 
 #: taextras.py:252
 msgid "sumtia"
-msgstr ""
+msgstr "sumtia"
 
 #: taextras.py:253
 msgid "speed SumBot"
@@ -1002,13 +997,12 @@ msgid "y"
 msgstr "y"
 
 #: taextras.py:344
-#, fuzzy
 msgid ""
 "Join two objects together (the object at the current location and the object "
 "at point x, y)."
 msgstr ""
-"Relie deux objets ensemble (l'objet créé en dernier et l'objet au point x, "
-"y)."
+"relie deux objets ensemble (l'objet à l'emplacement actuel et l'objet au "
+"point x, y)."
 
 #: taextras.py:346
 msgid "save as Physics activity"
@@ -1213,7 +1207,7 @@ msgstr "La brique numéro %s n'a pas pu être trouvée"
 
 #: taextras.py:413
 msgid "nxt-motors"
-msgstr ""
+msgstr "moteurs nxt"
 
 #: taextras.py:414
 msgid "refresh NXT"
@@ -1233,7 +1227,7 @@ msgstr "définit l'instrument NXT courant"
 
 #: taextras.py:418
 msgid "number of NXTs"
-msgstr ""
+msgstr "nombre de NXT"
 
 #: taextras.py:419
 msgid "number of NXT devices"
@@ -1374,7 +1368,7 @@ msgstr "Récupérer la position du moteur."
 
 #: taextras.py:453
 msgid "nxt-sensors"
-msgstr ""
+msgstr "capteurs nxt"
 
 #: taextras.py:454
 msgid "PORT 1"
@@ -1422,7 +1416,7 @@ msgstr "PORT 3 de la brique"
 
 #: taextras.py:465
 msgid "button sensor"
-msgstr ""
+msgstr "capteur de bouton"
 
 #: taextras.py:466
 msgid "distance sensor"
@@ -1482,14 +1476,12 @@ msgid "ERROR: Check the Arduino and the number of port."
 msgstr "ERREUR: Vérifiez l'Arduino et le numéro de port."
 
 #: taextras.py:491
-#, fuzzy
 msgid "ERROR: Value must be a number from 0 to 1."
-msgstr "ERREUR: La valeur doit être comprise entre 0 et 255."
+msgstr "ERREUR: La valeur doit être un nombre compris entre 0 et 1."
 
 #: taextras.py:492
-#, fuzzy
 msgid "ERROR: Value must be a number from 0 to 180."
-msgstr "ERREUR: La valeur doit être comprise entre 0 et 255."
+msgstr "ERREUR: La valeur doit être un nombre compris entre 0 et 180."
 
 #: taextras.py:493
 msgid "ERROR: Value must be either HIGH or LOW, 0 or 1"
@@ -1509,12 +1501,11 @@ msgstr "ERREUR ; Le pin doit être un entier."
 
 #: taextras.py:497
 msgid "ERROR: You must configure the mode for the pin."
-msgstr ""
+msgstr "ERREUR: Vous devez configurer le mode de la broche."
 
 #: taextras.py:498
-#, fuzzy
 msgid "arduino"
-msgstr "Arduino"
+msgstr "arduino"
 
 #: taextras.py:499
 msgid "refresh Arduino"
@@ -1573,6 +1564,8 @@ msgstr "Lecture analogique"
 #: taextras.py:517
 msgid "Read value from analog port. Value may be between 0 and 1."
 msgstr ""
+"Valeur lue depuis le port analogique. La valeur doit être comprise entre 0 "
+"et 1."
 
 #: taextras.py:518
 msgid "digital write"
@@ -1626,7 +1619,7 @@ msgstr "Le périphérique doit être un entier"
 #: taextras.py:531
 #, python-format
 msgid "Error loading %s board"
-msgstr ""
+msgstr "Erreur lors du chargement de la carte %s"
 
 #. TRANS: plugin to control an ExpEyes device
 #: taextras.py:536
