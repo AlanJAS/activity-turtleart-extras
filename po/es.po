@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-07 00:33-0500\n"
-"PO-Revision-Date: 2013-11-11 07:37+0200\n"
+"PO-Revision-Date: 2013-11-11 07:48+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -1286,11 +1286,11 @@ msgstr "gira un motor"
 #: taextras.py:433
 #, python-format, 
 msgid "synchronize%smotors"
-msgstr "sincronizar\\smotores"
+msgstr "sincronizar%smotores"
 
 #: taextras.py:434
 msgid "synchronize two motors connected in PORT B and PORT C"
-msgstr "sincroniza dos motores conectados en el PUERTO B y PUERTO C"
+msgstr "sincroniza los motores conectados en el PUERTO B y PUERTO C"
 
 #: taextras.py:435
 #, python-format
