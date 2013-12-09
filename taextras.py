@@ -424,7 +424,7 @@ LEGO_STRINGS = [
     _('time'),
     _('Play a tone at frequency for time.'),
     # TRANS: turn is the action
-    _('turn motor%s'),
+    _('turn motor %s'),
     _('port'),
     # TRANS: rotations is quantity of turns
     _('rotations'),
