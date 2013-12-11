@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-07 00:33-0500\n"
-"PO-Revision-Date: 2013-12-09 22:13+0200\n"
-"Last-Translator: Markus <m.slg@gmx.de>\n"
+"POT-Creation-Date: 2013-12-10 00:32-0500\n"
+"PO-Revision-Date: 2013-12-11 03:32+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: Deutsche OLPC-Lokalisierung\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1265,9 +1265,8 @@ msgstr "Spiele einen Ton einer Frequenz für die Dauer ab."
 
 #. TRANS: turn is the action
 #: taextras.py:427
-#, python-format
 #, python-format, 
-msgid "turn motor%s"
+msgid "turn motor %s"
 msgstr "drehe Motor %s"
 
 #: taextras.py:428
@@ -1289,7 +1288,7 @@ msgstr "drehe einen Motor"
 
 #: taextras.py:433
 #, python-format
-#, python-format, 
+#, python-format,
 msgid "synchronize%smotors"
 msgstr "synchronisiere %s Motoren"
 
@@ -1305,7 +1304,7 @@ msgstr "PORT %s"
 
 #: taextras.py:436
 #, python-format
-#, python-format, 
+#, python-format,
 msgid "PORT %s of the brick"
 msgstr "PORT %s des Bausteins"
 
