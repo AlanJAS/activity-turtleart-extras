@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-07 00:33-0500\n"
-"PO-Revision-Date: 2013-11-09 23:58+0200\n"
-"Last-Translator: samy boutayeb <s.boutayeb@free.fr>\n"
+"POT-Creation-Date: 2013-12-10 00:32-0500\n"
+"PO-Revision-Date: 2013-12-11 03:34+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1259,10 +1259,9 @@ msgstr "Jouer une note à cette fréquence pour une durée."
 
 #. TRANS: turn is the action
 #: taextras.py:427
-#, python-format
-#, python-format,
-msgid "turn motor%s"
-msgstr "tourner le moteur%s"
+#, python-format, 
+msgid "turn motor %s"
+msgstr "tourner le moteur %s"
 
 #: taextras.py:428
 msgid "port"
