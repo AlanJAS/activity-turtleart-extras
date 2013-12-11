@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-07 00:33-0500\n"
-"PO-Revision-Date: 2013-11-09 22:06+0200\n"
+"POT-Creation-Date: 2013-12-10 00:32-0500\n"
+"PO-Revision-Date: 2013-12-11 03:28+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
@@ -1253,8 +1253,8 @@ msgstr "Play a tone at frequency for time."
 #: taextras.py:427
 #, python-format
 #, python-format, 
-msgid "turn motor%s"
-msgstr "turn motor%s"
+msgid "turn motor %s"
+msgstr "turn motor %s"
 
 #: taextras.py:428
 msgid "port"
@@ -1275,7 +1275,7 @@ msgstr "turn a motor"
 
 #: taextras.py:433
 #, python-format
-#, python-format, 
+#, python-format,
 msgid "synchronize%smotors"
 msgstr "synchronize%smotors"
 
@@ -1290,7 +1290,7 @@ msgstr "PORT %s"
 
 #: taextras.py:436
 #, python-format
-#, python-format, 
+#, python-format,
 msgid "PORT %s of the brick"
 msgstr "PORT %s of the brick"
 
