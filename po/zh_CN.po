@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-19 00:33-0400\n"
-"PO-Revision-Date: 2013-06-20 20:21+0200\n"
+"POT-Creation-Date: 2013-12-10 00:32-0500\n"
+"PO-Revision-Date: 2013-12-11 18:39+0200\n"
 "Last-Translator: lite <litekok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -47,1532 +47,1772 @@ msgstr "选择一个挑战"
 msgid "Amazonas Tortuga"
 msgstr "亚马逊托尔图加"
 
-#: taextras.py:58
+#: taextras.py:56
+msgid "Turtle Flags"
+msgstr "海龟国旗"
+
+#: taextras.py:57
+msgid "Use the turtle to draw country flags"
+msgstr "使用海龟来绘制国旗"
+
+#: taextras.py:63
 msgid "Palette of Mexican pesos"
 msgstr "墨西哥比索模板"
 
-#: taextras.py:59
+#: taextras.py:64
 msgid "Palette of Colombian pesos"
 msgstr "哥伦比亚比索模板"
 
-#: taextras.py:60
+#: taextras.py:65
 msgid "Palette of Rwandan francs"
 msgstr "卢旺达法郎模板"
 
-#: taextras.py:61
+#: taextras.py:66
 msgid "Palette of US dollars"
 msgstr "美元模板"
 
-#: taextras.py:62
+#: taextras.py:67
 msgid "Palette of Australian dollars"
 msgstr "澳元模板"
 
-#: taextras.py:63
+#: taextras.py:68
 msgid "Palette of Paraguayan Guaranies"
 msgstr "巴拉圭瓜拉尼模板"
 
-#: taextras.py:64
+#: taextras.py:69
 msgid "Palette of Peruvian Nuevo Soles"
 msgstr "秘鲁新索尔的模板"
 
-#: taextras.py:65
+#: taextras.py:70
 msgid "Palette of Uruguayan Pesos"
 msgstr "乌拉圭比索模板"
 
 #. TRANS: Butia is a Robot Project from Uruguay
 #. (http://www.fing.edu.uy/inco/proyectos/butia/)
-#: taextras.py:71
+#: taextras.py:76
 msgid "TurtleBots"
 msgstr "海龟机器人"
 
 #. TRANS: summary of TurtleBots activity
-#: taextras.py:73
+#: taextras.py:78
 msgid "TurtleBlocks with Butia, Lego NxT, WeDo, Arduino, FollowMe plugins"
 msgstr "海龟方块含有Butia, Lego NxT, WeDo, Arduino, FollowMe插件"
 
-#: taextras.py:74
+#: taextras.py:79
 msgid "ERROR: The speed must be a value between 0 and 1023"
 msgstr "错误：速度必须是0到1023之间的值"
 
-#: taextras.py:75
+#: taextras.py:80
+msgid "ERROR: The speed must be a value between -1023 and 1023"
+msgstr "错误：速度必须是-1023到1023之间的值"
+
+#: taextras.py:81
 msgid "ERROR: The pin must be between 1 and 8"
 msgstr "错误：该引脚必须在1和8之间"
 
-#: taextras.py:76
+#: taextras.py:82
 msgid "ERROR: The value must be 0 or 1, LOW or HIGH"
 msgstr "错误：该值必须为0或1，“低”或“高"
 
-#: taextras.py:77
+#: taextras.py:83
 msgid "ERROR: The mode must be INPUT or OUTPUT."
 msgstr "错误：该模式必须是输入或输出。"
 
-#: taextras.py:78 taextras.py:79
+#: taextras.py:84
 msgid "turns LED on and off: 1 means on, 0 means off"
 msgstr "开关LED：1 是开, 0是关"
 
-#: taextras.py:80
+#: taextras.py:85
 msgid "returns the gray level as a value between 0 and 65535"
 msgstr "返回灰度等级，为0和65536之间的一个数值"
 
-#: taextras.py:81
+#: taextras.py:86
 msgid "returns 1 when the button is pressed and 0 otherwise"
 msgstr "当按钮按下返回1，否则为0"
 
-#: taextras.py:82
+#: taextras.py:87
 msgid "returns the light level as a value between 0 and 65535"
 msgstr "返回光照等级，为0和65536之间的一个数值"
 
-#: taextras.py:83
+#: taextras.py:88
 msgid "returns the distance as a value between 0 and 65535"
 msgstr "返回距离，为0和65536之间的一个数值"
 
-#: taextras.py:84
+#: taextras.py:89
 msgid "returns the resistance value (ohms)"
 msgstr "返回电阻值（欧姆）"
 
-#: taextras.py:85
+#: taextras.py:90
 msgid "returns the voltage value (volts)"
 msgstr "返回电压值（伏特）"
 
-#: taextras.py:86
-msgid "returns the temperature"
-msgstr "返回温度"
+#: taextras.py:91
+msgid "returns the temperature value (celsius degree)"
+msgstr "返回温度值（摄氏度）"
 
-#: taextras.py:87
-msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
-msgstr "当传感器检测到磁场返回1，否则为0"
+#: taextras.py:92
+#, python-format
+msgid "custom module %s"
+msgstr "自定义模块 %s"
 
-#: taextras.py:88
+#: taextras.py:93
+msgid "sensor a"
+msgstr "传感器 a"
+
+#: taextras.py:94
+msgid "sensor b"
+msgstr "传感器 b"
+
+#: taextras.py:95
+msgid "sensor c"
+msgstr "传感器 c"
+
+#: taextras.py:96
+msgid "actuator a"
+msgstr "执行器 a"
+
+#: taextras.py:97
+msgid "actuator b"
+msgstr "执行器 b"
+
+#: taextras.py:98
+msgid "actuator c"
+msgstr "执行器 c"
+
+#: taextras.py:99
 msgid "LED"
 msgstr "指示灯"
 
-#: taextras.py:89
+#: taextras.py:100 taextras.py:397
 msgid "button"
 msgstr "按钮"
 
-#: taextras.py:90 taextras.py:358
+#: taextras.py:101 taextras.py:402
 msgid "gray"
 msgstr "灰色"
 
-#: taextras.py:91 taextras.py:356
+#: taextras.py:102 taextras.py:400
 msgid "light"
 msgstr "灯光"
 
-#: taextras.py:92
-msgid "temperature"
-msgstr "温度"
-
-#: taextras.py:93 taextras.py:330
+#: taextras.py:103 taextras.py:376 taextras.py:398
 msgid "distance"
 msgstr "距离"
 
-#: taextras.py:94
+#: taextras.py:104
 msgid "resistance"
 msgstr "电阻"
 
-#: taextras.py:95
+#: taextras.py:105
 msgid "voltage"
 msgstr "电压"
 
-#: taextras.py:96
+#: taextras.py:106
+msgid "temperature"
+msgstr "温度"
+
+#: taextras.py:107
+msgid "butia"
+msgstr "布迪"
+
+#: taextras.py:108
 msgid "Butia Robot"
 msgstr "布迪机器人"
 
-#: taextras.py:97
+#: taextras.py:109
 msgid "refresh Butia"
 msgstr "刷新布迪"
 
-#: taextras.py:98
+#: taextras.py:110
 msgid "refresh the state of the Butia palette and blocks"
 msgstr "刷新布迪模板和拼块的状态"
 
 #. TRANS: This string is shorthand for "battery charge of Butia"
-#: taextras.py:100
+#: taextras.py:112
 msgid "battery charge Butia"
 msgstr "布迪充电"
 
-#: taextras.py:101
+#: taextras.py:113
 msgid ""
 "returns the battery charge in volts. If no motors present, it returns 255"
 msgstr "返回电池充电（单位为伏）。如果没有电机，返回255"
 
 #. TRANS: This string is shorthand for "speed of Butia"
-#: taextras.py:103
+#: taextras.py:115
 msgid "speed Butia"
 msgstr "布迪加速"
 
-#: taextras.py:104
+#: taextras.py:116
 msgid "set the speed of the Butia motors"
 msgstr "设置布迪的马达速度"
 
-#: taextras.py:105
+#: taextras.py:117
 msgid "move Butia"
 msgstr "移动布迪"
 
-#: taextras.py:106
+#: taextras.py:118
 msgid "left"
 msgstr "左边"
 
-#: taextras.py:107
+#: taextras.py:119
 msgid "right"
 msgstr "右边"
 
-#: taextras.py:108
+#: taextras.py:120
 msgid "moves the Butia motors at the specified speed"
 msgstr "以指定速度移动布迪电机"
 
-#: taextras.py:109
+#: taextras.py:121
 msgid "stop Butia"
 msgstr "停止布迪"
 
-#: taextras.py:110
+#: taextras.py:122
 msgid "stop the Butia robot"
 msgstr "停止布迪机器人"
 
 #. TRANS: This string is shorthand for "move Butia forward"
-#: taextras.py:112
+#: taextras.py:124
 msgid "forward Butia"
 msgstr "布迪前进"
 
-#: taextras.py:113
+#: taextras.py:125
 msgid "move the Butia robot forward"
 msgstr "向前移动布迪机器人"
 
 #. TRANS: This string is shorthand for "turn Butia left"
-#: taextras.py:115
+#: taextras.py:127
 msgid "left Butia"
 msgstr "布迪左转"
 
-#: taextras.py:116
+#: taextras.py:128
 msgid "turn the Butia robot at left"
 msgstr "向左转动布迪机器人"
 
 #. TRANS: This string is shorthand for "turn Butia right"
-#: taextras.py:118
+#: taextras.py:130
 msgid "right Butia"
 msgstr "布迪右转"
 
-#: taextras.py:119
+#: taextras.py:131
 msgid "turn the Butia robot at right"
 msgstr "向右转动布迪机器人"
 
 #. TRANS: This string is shorthand for "move Butia backward"
-#: taextras.py:121
+#: taextras.py:133
 msgid "backward Butia"
 msgstr "布迪后退"
 
-#: taextras.py:122
+#: taextras.py:134
 msgid "move the Butia robot backward"
 msgstr "先后移动布迪机器人"
 
-#: taextras.py:123
+#: taextras.py:135
+msgid "butia-extra"
+msgstr "布迪扩展"
+
+#. TRANS: cast means data type conversion
+#: taextras.py:137
 msgid "Butia Robot extra blocks"
 msgstr "布迪机器人额外模块"
 
-#: taextras.py:124
-msgid "hack pin mode"
-msgstr "破解引脚模式"
+#: taextras.py:138
+msgid "pin mode Butia"
+msgstr "引脚模式布迪"
 
-#: taextras.py:125 taextras.py:293 taextras.py:459
+#: taextras.py:139 taextras.py:339 taextras.py:495
 msgid "pin"
 msgstr "引脚"
 
-#: taextras.py:126 taextras.py:460
+#: taextras.py:140 taextras.py:496
 msgid "mode"
 msgstr "模式"
 
-#: taextras.py:127
+#: taextras.py:141
 msgid "Select the pin function (INPUT, OUTPUT)."
 msgstr "选择引脚功能（输入，输出）。"
 
-#: taextras.py:128
-msgid "write hack pin Butia"
-msgstr "写入破解引脚布迪"
+#: taextras.py:142
+msgid "read pin Butia"
+msgstr "读取引脚布迪"
 
-#: taextras.py:129 taextras.py:463
+#: taextras.py:143
+msgid "read the value of a pin"
+msgstr "读取一个引脚的值"
+
+#: taextras.py:144
+msgid "write pin Butia"
+msgstr "写入引脚布迪"
+
+#: taextras.py:145 taextras.py:499
 msgid "value"
 msgstr "值"
 
-#: taextras.py:130
+#: taextras.py:146
 msgid "set a hack pin to 0 or 1"
 msgstr "设置破解引脚到0或1"
 
-#: taextras.py:131
-msgid "read hack pin Butia"
-msgstr "读取破解引脚布迪"
-
-#: taextras.py:132
-msgid "read the value of a hack pin"
-msgstr "读取一个破解引脚的值"
-
-#: taextras.py:133 taextras.py:435
-msgid "HIGH"
-msgstr "高"
-
-#: taextras.py:134 taextras.py:472
-msgid "Set HIGH value for digital port."
-msgstr "设置数字端口为高值。"
-
-#: taextras.py:135 taextras.py:437
+#: taextras.py:147 taextras.py:470
 msgid "INPUT"
 msgstr "输入"
 
-#: taextras.py:136
-msgid "Configure hack port for digital input."
+#: taextras.py:148
+msgid "Configure hack pin for digital input."
 msgstr "为数字输入配置破解端口。"
 
-#: taextras.py:137 taextras.py:436
+#: taextras.py:149 taextras.py:468
+msgid "HIGH"
+msgstr "高"
+
+#: taextras.py:150
+msgid "Set HIGH value for digital pin."
+msgstr "设置数字端口为高值。"
+
+#: taextras.py:151 taextras.py:469
 msgid "LOW"
 msgstr "低"
 
-#: taextras.py:138 taextras.py:475
+#: taextras.py:152 taextras.py:510
 msgid "Set LOW value for digital port."
 msgstr "设置数字端口为低值。"
 
-#: taextras.py:139 taextras.py:438
+#: taextras.py:153 taextras.py:471
 msgid "OUTPUT"
 msgstr "输出"
 
-#: taextras.py:140
+#: taextras.py:154
 msgid "Configure hack port for digital output."
 msgstr "为数字输出配置破解端口。"
 
-#: taextras.py:141
+#: taextras.py:155
+msgid "butia-cast"
+msgstr "布迪投射"
+
+#: taextras.py:156
+msgid "Butia Robot cast blocks"
+msgstr "布迪机器人投射块"
+
+#: taextras.py:157
 msgid "Butia"
 msgstr "布迪"
 
-#: taextras.py:142
+#. TRANS: cast means data type conversion
+#: taextras.py:159
+msgid "CAST\n"
+msgstr "投射\n"
+
+#: taextras.py:160
+msgid "new name"
+msgstr "新的名称"
+
+#: taextras.py:161
+msgid "original"
+msgstr "原来的"
+
+#: taextras.py:162
+msgid "f(x)="
+msgstr "f(x)="
+
+#: taextras.py:163
+msgid "name"
+msgstr "名称"
+
+#. TRANS: cast means data type conversion
+#: taextras.py:165
+msgid "Cast a new block"
+msgstr "转换一个新块"
+
+#: taextras.py:166
+#, python-format
+#, python-format,
+msgid "generic module %s"
+msgstr "通用模块 %s"
+
+#: taextras.py:167
+msgid "Butia IP"
+msgstr "布迪的IP"
+
+#: taextras.py:168
+msgid "change the IP of butia robot"
+msgstr "更改布迪机器人的IP"
+
+#: taextras.py:169
 #, python-format
 msgid "ERROR: The pin %s must be in OUTPUT mode."
 msgstr "错误：引脚 %s 必须在输出模式。"
 
-#: taextras.py:143
+#: taextras.py:170
 #, python-format
 msgid "ERROR: The pin %s must be in INPUT mode."
 msgstr "错误：引脚 %s 必须在输入模式。"
 
-#: taextras.py:147
+#: taextras.py:171
+#, python-format
+msgid "ERROR: Something wrong with function '%s'"
+msgstr "错误: 函数 '%s' 某处出错"
+
+#: taextras.py:172
+#, python-format
+msgid "ERROR: cannot init GCONF client: %s"
+msgstr "错误: 无法初始化 GCONF 客户端: %s"
+
+#. TRANS: cast means data type conversion
+#: taextras.py:174
+msgid "ERROR: You must cast Sensor or Actuator: A, B or C"
+msgstr "错误：你必须转换传感器或执行器：A, B 或 C"
+
+#: taextras.py:175
+#, python-format
+msgid "ERROR: Invalid IP '%s'"
+msgstr "错误：不合法的IP '%s'"
+
+#: taextras.py:176
+msgid "Creating PyBot server"
+msgstr "正在创建 PyBot 服务器"
+
+#: taextras.py:177
+msgid "ERROR creating PyBot server"
+msgstr "创建 PyBot 服务器出错"
+
+#: taextras.py:178
+msgid "PyBot is alive!"
+msgstr "PyBot 正在工作!"
+
+#: taextras.py:179
+msgid "Ending butia polling"
+msgstr "布迪正在结束轮询中"
+
+#: taextras.py:183
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
 msgstr "导入Pygame出错。该插件需要Pygame 1.9"
 
-#: taextras.py:148
+#: taextras.py:184
 msgid "Error on initialization of the camera"
 msgstr "摄像头初始化出错"
 
-#: taextras.py:149
+#: taextras.py:185
 msgid "No camera was found"
 msgstr "没有找到摄像头"
 
-#: taextras.py:150
+#: taextras.py:186
 msgid "Error stopping camera"
 msgstr "停止摄像头出错"
 
-#: taextras.py:151
+#: taextras.py:187
 msgid "Error starting camera"
 msgstr "启动摄像头出错"
 
 #. TRANS: The "mask" is used to restrict processing to a region in the image
-#: taextras.py:153
+#: taextras.py:189
 msgid "Error in get mask"
 msgstr "获取面罩出错"
 
-#: taextras.py:154
+#: taextras.py:190
+msgid "followme"
+msgstr "跟我来"
+
+#: taextras.py:191
 msgid "FollowMe"
 msgstr "跟我来"
 
-#: taextras.py:155
+#: taextras.py:192
 msgid "refresh FollowMe"
 msgstr "刷新 FollowMe"
 
-#: taextras.py:156
+#: taextras.py:193
 msgid "Search for a connected camera."
 msgstr "搜寻一个已连接的相机。"
 
 #. TRANS: the calibration is used to match an RGB color to a target
-#: taextras.py:158
+#: taextras.py:195
 msgid "calibration"
 msgstr "校准"
 
-#: taextras.py:159
+#: taextras.py:196
 msgid "store a personalized calibration"
 msgstr "存储个性化的校准"
 
-#: taextras.py:160
+#: taextras.py:197
 msgid "return a personalized calibration"
 msgstr "返回个性化校准"
 
-#: taextras.py:161
+#: taextras.py:198
 msgid "follow"
 msgstr "跟随"
 
-#: taextras.py:162
+#: taextras.py:199
 msgid "follow a color or calibration"
 msgstr "跟随颜色或校准"
 
-#: taextras.py:163
+#: taextras.py:200
 msgid "brightness"
 msgstr "亮度"
 
-#: taextras.py:164
+#: taextras.py:201
 msgid "set the camera brightness as a value between 0 to 255."
 msgstr "设置摄像头亮度为0到255之间的值。"
 
-#: taextras.py:165
+#: taextras.py:202
 msgid "minimum pixels"
 msgstr "最小值像素"
 
-#: taextras.py:166
+#: taextras.py:203
 msgid "set the minimal number of pixels to follow"
 msgstr "设置要跟随的最小像素数目"
 
-#: taextras.py:167
+#: taextras.py:204
 msgid "threshold"
 msgstr "阀门"
 
 #. TRANS: RGB color space (red, green, blue)
-#: taextras.py:169
+#: taextras.py:206
 msgid "set a threshold for a RGB color"
 msgstr "为RGB颜色设置一个阀门"
 
-#: taextras.py:170
+#: taextras.py:207
 msgid "camera mode"
 msgstr "摄像头模式"
 
 #. TRANS: RGB, YUV, and HSV are color spaces
-#: taextras.py:172
+#: taextras.py:209
 msgid "set the color mode of the camera: RGB; YUV or HSV"
 msgstr "设置摄像头的颜色模式：RGB，YUV或HSV"
 
-#: taextras.py:173
+#: taextras.py:210
 msgid "get brightness"
 msgstr "获得亮度"
 
-#: taextras.py:174
+#: taextras.py:211
 msgid "get the brightness of the ambient light"
 msgstr "获得环境光的亮度"
 
-#: taextras.py:175
+#: taextras.py:212
 msgid "average color"
 msgstr "平均颜色"
 
-#: taextras.py:176
+#: taextras.py:213
 msgid ""
-"if set to 0 then color averaging is off during calibration; for other values "
+"if set to 0 then color averaging is off during calibration;for other values, "
 "it is on"
-msgstr "如果设置为0，在校准过程中颜色平均为关，其他值则为开"
+msgstr "如果设置为0，在校准过程中颜色均值为关，其他值则为开"
 
-#: taextras.py:178
+#: taextras.py:215
 msgid "x position"
 msgstr "x 位置"
 
-#: taextras.py:179
+#: taextras.py:216
 msgid "return x position"
 msgstr "返回 x 位置"
 
-#: taextras.py:180
+#: taextras.py:217
 msgid "y position"
 msgstr "y 位置"
 
-#: taextras.py:181
+#: taextras.py:218
 msgid "return y position"
 msgstr "返回 y 位置"
 
-#: taextras.py:182
+#: taextras.py:219
 msgid "pixels"
 msgstr "像素"
 
-#: taextras.py:183
+#: taextras.py:220
 msgid "return the number of pixels of the biggest blob"
 msgstr "返回最大块的像素数目"
 
 #. TRANS: RGB color space (red, green, blue)
-#: taextras.py:185
+#: taextras.py:222
+msgid "RGB"
+msgstr "RGB"
+
+#: taextras.py:223
 msgid "set the color mode of the camera to RGB"
 msgstr "设置摄像头的颜色模式为RGB"
 
 #. TRANS: YUV color space (luminance, chrominance)
-#: taextras.py:187
+#: taextras.py:225
+msgid "YUV"
+msgstr "YUV"
+
+#: taextras.py:226
 msgid "set the color mode of the camera to YUV"
 msgstr "设置摄像头的颜色模式为YUV"
 
 #. TRANS: HSV color space (hue, saturation, value)
-#: taextras.py:189
+#: taextras.py:228
+msgid "HSV"
+msgstr "HSV"
+
+#: taextras.py:229
 msgid "set the color mode of the camera to HSV"
 msgstr "设置摄像头的颜色模式为HSV"
 
-#: taextras.py:190
+#: taextras.py:230
+msgid "get color"
+msgstr "取颜色"
+
+#: taextras.py:231
+msgid "get the color of an object"
+msgstr "取一个物体的颜色"
+
+#: taextras.py:232
+msgid "color distance"
+msgstr "色差"
+
+#: taextras.py:233
+msgid "set the distance to identify a color"
+msgstr "设定确定颜色的差值"
+
+#: taextras.py:234
 msgid "empty calibration"
 msgstr "空校准"
 
-#: taextras.py:191
+#: taextras.py:235
 msgid "error in string conversion"
 msgstr "字符串转换错误"
 
 #. TRANS: Pattern detection is a plugin that allow detect signals
 #. with the camera
-#: taextras.py:197
+#: taextras.py:241
 msgid "Pattern detection"
 msgstr "模式检测"
 
-#: taextras.py:198
+#: taextras.py:242
+msgid "pattern_detection"
+msgstr "pattern_detection"
+
+#: taextras.py:243
 msgid "Seeing signal"
 msgstr "发现信号"
 
-#: taextras.py:199
+#: taextras.py:244
 msgid "Returns True if the signal is in front of the camera"
 msgstr "如果信号在摄像头前面返回True"
 
-#: taextras.py:200
+#: taextras.py:245
 msgid "Distance to signal"
 msgstr "信号的距离"
 
-#: taextras.py:201
+#: taextras.py:246
 msgid "Returns the distance of the signal to the camera in millimeters"
 msgstr "返回距摄像头的毫米单位的信号距离"
 
 #. TRANS: SumBot is a robot programmed for "Sumo wrestling"
-#: taextras.py:206
+#: taextras.py:251
 msgid "SumBot"
 msgstr "桑博"
 
-#: taextras.py:207
+#: taextras.py:252
+msgid "sumtia"
+msgstr "sumtia"
+
+#: taextras.py:253
 msgid "speed SumBot"
 msgstr "加速桑博"
 
-#: taextras.py:208
+#: taextras.py:254
 msgid "submit the speed to the SumBot"
 msgstr "提交桑博的速度"
 
-#: taextras.py:209
+#: taextras.py:255
 msgid "set the default speed for the movement commands"
 msgstr "设置移动命令的默认速度"
 
 #. TRANS: This string is shorthand for "move SumBot forward"
-#: taextras.py:211
+#: taextras.py:257
 msgid "forward SumBot"
 msgstr "向前桑博"
 
-#: taextras.py:212
+#: taextras.py:258
 msgid "move SumBot forward"
 msgstr "移动桑博向前"
 
 #. TRANS: This string is shorthand for "move SumBot backward"
-#: taextras.py:214
+#: taextras.py:260
 msgid "backward SumBot"
 msgstr "向后桑博"
 
-#: taextras.py:215
+#: taextras.py:261
 msgid "move SumBot backward"
 msgstr "移动桑博向后"
 
-#: taextras.py:216
+#: taextras.py:262
 msgid "stop SumBot"
 msgstr "停止桑博"
 
-#: taextras.py:217
+#: taextras.py:263
 msgid "stop the SumBot"
 msgstr "让桑博停下来"
 
 #. TRANS: This string is shorthand for "turn SumBot left"
-#: taextras.py:219
+#: taextras.py:265
 msgid "left SumBot"
 msgstr "左转桑博"
 
-#: taextras.py:220
+#: taextras.py:266
 msgid "turn left the SumBot"
 msgstr "让桑博向左转"
 
 #. TRANS: This string is shorthand for "move SumBot right"
-#: taextras.py:222
+#: taextras.py:268
 msgid "right SumBot"
 msgstr "右转桑博"
 
-#: taextras.py:223
+#: taextras.py:269
 msgid "turn right the SumBot"
 msgstr "让桑博向右转"
 
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the center of the playing field
-#: taextras.py:226
+#: taextras.py:272
 msgid "angle to center"
 msgstr "与中心的角度"
 
 #. TRANS: dohyo is the playing field
-#: taextras.py:228
+#: taextras.py:274
 msgid "get the angle to the center of the dohyo"
 msgstr "得到相对圆环中心的角度"
 
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the Enemy (opponent)
-#: taextras.py:231
+#: taextras.py:277
 msgid "angle to Enemy"
 msgstr "与敌人的角度"
 
-#: taextras.py:232
+#: taextras.py:278
 msgid "get the angle to the Enemy"
 msgstr "得到相对敌人的角度"
 
 #. TRANS: This string is shorthand for "x coordinate of SumBot"
-#: taextras.py:234
+#: taextras.py:280
 msgid "x coor. SumBot"
 msgstr "桑博x坐标"
 
-#: taextras.py:235
+#: taextras.py:281
 msgid "get the x coordinate of the SumBot"
 msgstr "得到桑博的x坐标"
 
 #. TRANS: This string is shorthand for "y coordinate of SumBot"
-#: taextras.py:237
+#: taextras.py:283
 msgid "y coor. SumBot"
 msgstr "桑博y坐标"
 
-#: taextras.py:238
+#: taextras.py:284
 msgid "get the y coordinate of the SumBot"
 msgstr "得到桑博的y坐标"
 
 #. TRANS: This string is shorthand for "x coordinate of SumBot's enemy"
-#: taextras.py:240
+#: taextras.py:286
 msgid "x coor. Enemy"
 msgstr "敌人x坐标"
 
-#: taextras.py:241
+#: taextras.py:287
 msgid "get the x coordinate of the Enemy"
 msgstr "得到敌人的x坐标"
 
 #. TRANS: This string is shorthand for "y coordinate of SumBot's enemy"
-#: taextras.py:243
+#: taextras.py:289
 msgid "y coor. Enemy"
 msgstr "敌人y坐标"
 
-#: taextras.py:244
+#: taextras.py:290
 msgid "get the y coordinate of the Enemy"
 msgstr "得到敌人的y坐标"
 
 #. TRANS: This string is shorthand for "rotation of SumBot"
-#: taextras.py:246
+#: taextras.py:292
 msgid "rotation SumBot"
 msgstr "转动桑博"
 
-#: taextras.py:247
+#: taextras.py:293
 msgid "get the rotation of the Sumbot"
 msgstr "得到桑博的转动"
 
 #. TRANS: This string is shorthand for "rotation of SumBot's enemy"
-#: taextras.py:249
+#: taextras.py:295
 msgid "rotation Enemy"
 msgstr "转动敌人"
 
-#: taextras.py:250
+#: taextras.py:296
 msgid "get the rotation of the Enemy"
 msgstr "得到敌人的转动"
 
-#: taextras.py:251
+#: taextras.py:297
 msgid "distance to center"
 msgstr "与中心的距离"
 
 #. TRANS: dohyo is the playing field
-#: taextras.py:253
+#: taextras.py:299
 msgid "get the distance to the center of the dohyo"
 msgstr "得到与圆环中心的距离"
 
-#: taextras.py:254
+#: taextras.py:300
 msgid "distance to Enemy"
 msgstr "与敌人的距离"
 
-#: taextras.py:255
+#: taextras.py:301
 msgid "get the distance to the Enemy"
 msgstr "得到与敌人的距离"
 
-#: taextras.py:256
+#: taextras.py:302
 msgid "update information"
 msgstr "更新信息"
 
-#: taextras.py:257
+#: taextras.py:303
 msgid "update information from the server"
 msgstr "从服务器更新信息"
 
 #. TRANS: Please use similar terms to those used in the Physics Activity
-#: taextras.py:262
+#: taextras.py:308
 msgid "Palette of physics blocks"
 msgstr "物理块模板"
 
-#: taextras.py:263
+#: taextras.py:309
 msgid "start polygon"
 msgstr "定义多边形"
 
-#: taextras.py:264
+#: taextras.py:310
 msgid "Begin defining a new polygon based on the current Turtle xy position."
 msgstr "根据当前海龟xy方向的位置开始定义新的多边形。"
 
-#: taextras.py:266
+#: taextras.py:312
 msgid "add point"
 msgstr "添加点"
 
-#: taextras.py:267
+#: taextras.py:313
 msgid ""
 "Add a new point to the current polygon based on the current Turtle xy "
 "position."
 msgstr "根据当前海龟xy方向的位置添加新的点到当前的多边形。"
 
-#: taextras.py:269
+#: taextras.py:315
 msgid "end polygon"
 msgstr "完成多边形"
 
-#: taextras.py:270
+#: taextras.py:316
 msgid "Define a new polygon."
 msgstr "定义一个新的多边形。"
 
-#: taextras.py:271
+#: taextras.py:317
 msgid "end filled polygon"
 msgstr "结束填充多边形的绘制"
 
-#: taextras.py:272
+#: taextras.py:318
 msgid "Not a simple polygon"
 msgstr "不是一个简单多边形"
 
-#: taextras.py:273
+#: taextras.py:319
 msgid "Define a new filled polygon."
 msgstr "定义一个新的填充多边形。"
 
-#: taextras.py:274
+#: taextras.py:320
 msgid "triangle"
 msgstr "三角形"
 
 #. TRANS: base of a triangle
-#: taextras.py:276
+#: taextras.py:322
 msgid "base"
 msgstr "基地"
 
-#: taextras.py:277 taextras.py:283
+#: taextras.py:323 taextras.py:329
 msgid "height"
 msgstr "高度"
 
-#: taextras.py:278
+#: taextras.py:324
 msgid "Add a triangle object to the project."
 msgstr "添加一个三角形对象到项目。"
 
-#: taextras.py:279
+#: taextras.py:325
 msgid "circle"
 msgstr "圆形"
 
-#: taextras.py:280
+#: taextras.py:326
 msgid "Add a circle object to the project."
 msgstr "添加一个圆形对象到项目。"
 
-#: taextras.py:281
+#: taextras.py:327
 msgid "rectangle"
 msgstr "长方形"
 
-#: taextras.py:282
+#: taextras.py:328
 msgid "width"
 msgstr "宽度"
 
-#: taextras.py:284
+#: taextras.py:330
 msgid "Add a rectangle object to the project."
 msgstr "添加一个长方形对象到项目。"
 
-#: taextras.py:285
+#: taextras.py:331
 msgid "reset"
 msgstr "重置"
 
-#: taextras.py:286
+#: taextras.py:332
 msgid "Reset the project; clear the object list."
 msgstr "重置项目;清除对象列表。"
 
-#: taextras.py:287
+#: taextras.py:333
 msgid "motor"
 msgstr "电机"
 
 #. TRANS: torque as in engine torque
-#: taextras.py:289
+#: taextras.py:335
 msgid "torque"
 msgstr "转矩"
 
-#: taextras.py:290
+#: taextras.py:336
 msgid "speed"
 msgstr "速度"
 
-#: taextras.py:291
+#: taextras.py:337
 msgid ""
 "Motor torque and speed range from 0 (off) to positive numbers; motor is "
 "placed on the most recent object created."
 msgstr "电机转矩和速度范围是从0（关）到正数，电机放置在最近被创建的对象上。"
 
-#: taextras.py:294
+#: taextras.py:340
 msgid "Pin an object down so that it cannot fall."
 msgstr "用图钉固定一个对象，防止掉落。"
 
-#: taextras.py:295
+#: taextras.py:341
 msgid "joint"
 msgstr "联合"
 
-#: taextras.py:296
+#: taextras.py:342
 msgid "x"
 msgstr "横"
 
-#: taextras.py:297
+#: taextras.py:343
 msgid "y"
 msgstr "纵"
 
-#: taextras.py:298
+#: taextras.py:344
 msgid ""
-"Join two objects together (the most recent object created and the object at "
-"point x, y)."
-msgstr "把两个对象连接到一起（在点x，y处最近创建的对象）。"
+"Join two objects together (the object at the current location and the object "
+"at point x, y)."
+msgstr "把两个对象连接到一起（当前位置的对象和点x，y处的对象）。"
 
-#: taextras.py:300
+#: taextras.py:346
 msgid "save as Physics activity"
 msgstr "保存为“物理”活动"
 
-#: taextras.py:301
+#: taextras.py:347
 msgid "Save the project to the Journal as a Physics activity."
 msgstr "当作一个物理活动保存该项目到日志。"
 
 #. TRANS: Here, gear means a toothed wheel, as in a clock-works
-#: taextras.py:303
+#: taextras.py:349
 msgid "gear"
 msgstr "齿轮"
 
-#: taextras.py:304
+#: taextras.py:350
 msgid "Add a gear object to the project."
 msgstr "添加一个齿轮对象到项目。"
 
-#: taextras.py:305
+#: taextras.py:351
 msgid "density"
 msgstr "密度"
 
-#: taextras.py:306
+#: taextras.py:352
 msgid ""
 "Set the density property for objects (density can be any positive number)."
 msgstr "设置对象的密度属性（密度可以是任何正数）。"
 
-#: taextras.py:308
+#: taextras.py:354
 msgid "friction"
 msgstr "摩擦"
 
-#: taextras.py:309
+#: taextras.py:355
 msgid ""
 "Set the friction property for objects (value from 0 to 1, where 0 turns "
 "friction off and 1 is strong friction)."
 msgstr "设置对象的摩擦系数（值从0到1，0无摩擦，1强摩擦）。"
 
 #. TRANS: bounciness is coefficient of restitution
-#: taextras.py:312
+#: taextras.py:358
 msgid "bounciness"
 msgstr "弹力"
 
-#: taextras.py:313
+#: taextras.py:359
 msgid ""
 "Set the bounciness property for objects (a value from 0 to 1, where 0 means "
 "no bounce and 1 is very bouncy)."
 msgstr "设置对象的弹性系数（值从0到1，0无弹性，1强弹性）。"
 
 #. TRANS: dynamic here means moving vs in a fixed position
-#: taextras.py:316
+#: taextras.py:362
 msgid "dynamic"
 msgstr "动态"
 
-#: taextras.py:317
+#: taextras.py:363
 msgid ""
 "If dynamic = 1, the object can move; if dynamic = 0, it is fixed in position."
 msgstr "动态值为1时对象可以移动；为0时位置是固定的。"
 
 #. TRANS: WeDo is a robotics product of the LEGO company
-#: taextras.py:323
+#: taextras.py:369
 msgid "Palette of WeDo blocks"
 msgstr "乐高WeDo模板"
 
-#: taextras.py:324
+#: taextras.py:370
 msgid "WeDo"
 msgstr "乐高WeDo"
 
-#: taextras.py:325
+#: taextras.py:371
 msgid "set current WeDo device"
 msgstr "设置当前的乐高WeDo设备"
 
-#: taextras.py:326
+#: taextras.py:372
 msgid "number of WeDo devices"
 msgstr "乐高WeDo设备的数量"
 
-#: taextras.py:327
+#: taextras.py:373
 msgid "tilt"
 msgstr "斜度"
 
-#: taextras.py:328
+#: taextras.py:374
 msgid ""
 "tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
 "tilt left, 2 == tilt right)"
 msgstr "倾斜传感器输出：（-1 ==没有倾斜，0 ==向前倾斜，3 ==向后倾斜，1 ==向左倾斜，2 ==向左倾斜）"
 
 #. TRANS: This string is shorthand for "output of the distance sensor"
-#: taextras.py:332
+#: taextras.py:378
 msgid "distance sensor output"
 msgstr "距离传感器输出"
 
-#: taextras.py:333
+#: taextras.py:379
 msgid "Motor A"
 msgstr "电机 A"
 
-#: taextras.py:334
+#: taextras.py:380
 msgid "returns the current value of Motor A"
 msgstr "返回电机A的当前值"
 
-#: taextras.py:335
+#: taextras.py:381
 msgid "Motor B"
 msgstr "电机B"
 
-#: taextras.py:336
+#: taextras.py:382
 msgid "returns the current value of Motor B"
 msgstr "返回电机B的当前值"
 
-#: taextras.py:337
+#: taextras.py:383
 msgid "set the value for Motor A"
 msgstr "设置电机A的值"
 
-#: taextras.py:338
+#: taextras.py:384
 msgid "set the value for Motor B"
 msgstr "设置电机B的值"
 
-#: taextras.py:339
+#: taextras.py:385
 msgid "WeDo is unavailable"
 msgstr "乐高WeDo不可用"
 
 #. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
-#: taextras.py:341
+#: taextras.py:387
 #, python-format
 msgid "WeDo %d is unavailable; defaulting to 1"
 msgstr "乐高WeDo %d 不可用; 缺省为1"
 
 #. TRANS: %(device)s and %(wedo_number)d are substitution strings;
 #. please leave untranslated
-#: taextras.py:344
+#: taextras.py:390
 #, python-format
 msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
 msgstr "%(device)s 不可用于乐高 WeDo %(wedo_number)d"
 
 #. TRANS: Lego NXT is a robotics product of the LEGO company
-#: taextras.py:349
+#: taextras.py:395
 msgid "Palette of LEGO NXT blocks of motors"
 msgstr "乐高NXT马达部件模板"
 
-#: taextras.py:350
+#: taextras.py:396
 msgid "Palette of LEGO NXT blocks of sensors"
 msgstr "乐高NXT传感器部件模板"
 
-#. TRANS: touch sensor (implemented as a button)
-#: taextras.py:352
-msgid "touch"
-msgstr "触摸"
-
-#. TRANS: distance sensor (implemented using ultrasonics)
-#: taextras.py:354
-msgid "ultrasonic"
-msgstr "超声波"
-
-#: taextras.py:355
+#: taextras.py:399
 msgid "color"
 msgstr "颜色"
 
-#: taextras.py:357
+#: taextras.py:401
 msgid "sound"
 msgstr "声音"
 
 #. TRANS: The brick is the NXT controller
-#: taextras.py:360
+#: taextras.py:404
 msgid "Please check the connection with the brick"
 msgstr "请检查该块的连接"
 
-#: taextras.py:361
+#: taextras.py:405
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT A, B or C"
 msgstr "无效的端口'%s'。端口必须是：A，B或C"
 
-#: taextras.py:362
+#: taextras.py:406
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
 msgstr "无效的端口'%s'。端口必须是：1，2，3或4"
 
-#: taextras.py:363
+#: taextras.py:407
 msgid "The value of power must be between -127 to 127"
 msgstr "功率值必须位于-127到127之间"
 
-#: taextras.py:364
+#: taextras.py:408
 #, python-format
 msgid "The parameter must be a integer, not '%s'"
 msgstr "该参数必须是一个整数，而不是 '%s'"
 
-#: taextras.py:365
+#: taextras.py:409
 msgid "An error has occurred: check all connections and try to reconnect"
 msgstr "发生了一个错误：检查所有连接​​，并尝试重新连接"
 
-#: taextras.py:366
+#: taextras.py:410
 #, python-format
 msgid "NXT found %s bricks"
 msgstr "NXT找到  %s 块"
 
-#: taextras.py:367
+#: taextras.py:411
 msgid "NXT not found"
 msgstr "没找到 NXT"
 
-#: taextras.py:368
+#: taextras.py:412
 #, python-format
 msgid "Brick number %s was not found"
 msgstr "没有找到块 %s"
 
-#: taextras.py:369
+#: taextras.py:413
+msgid "nxt-motors"
+msgstr "nxt-motors"
+
+#: taextras.py:414
 msgid "refresh NXT"
 msgstr "刷新 NXT"
 
-#: taextras.py:370
+#: taextras.py:415
 msgid "Search for a connected NXT brick."
 msgstr "搜索已连接的NXT积木。"
 
-#: taextras.py:371
+#: taextras.py:416
 msgid "NXT"
 msgstr "NXT"
 
-#: taextras.py:372
+#: taextras.py:417
 msgid "set current NXT device"
 msgstr "设置当前的NXT设备"
 
-#: taextras.py:373
+#: taextras.py:418
+msgid "number of NXTs"
+msgstr "NXT的数量"
+
+#: taextras.py:419
 msgid "number of NXT devices"
 msgstr "NXT设备的数量"
 
-#: taextras.py:374
+#: taextras.py:420
 msgid "brick name"
 msgstr "块名称"
 
-#: taextras.py:375
+#: taextras.py:421
 msgid "Get the name of a brick."
 msgstr "得到块的名称"
 
-#: taextras.py:376
+#: taextras.py:422
 msgid "play tone"
 msgstr "播放音调"
 
-#: taextras.py:377
+#: taextras.py:423
 msgid "frequency"
 msgstr "频率"
 
-#: taextras.py:378
+#: taextras.py:424
 msgid "time"
 msgstr "时间"
 
-#: taextras.py:379
+#: taextras.py:425
 msgid "Play a tone at frequency for time."
 msgstr "以时间频率播放音调。"
 
 #. TRANS: turn is the action
-#: taextras.py:381
-msgid ""
-"turn motor\n"
-"\n"
-msgstr ""
-"转动电机\n"
-"\n"
+#: taextras.py:427
+#, python-format, 
+msgid "turn motor %s"
+msgstr "转动电机%s"
 
-#: taextras.py:382
+#: taextras.py:428
 msgid "port"
 msgstr "端口"
 
-#: taextras.py:383
-msgid "power"
-msgstr "电源"
-
 #. TRANS: rotations is quantity of turns
-#: taextras.py:385
+#: taextras.py:430
 msgid "rotations"
 msgstr "旋转"
 
-#: taextras.py:386
+#: taextras.py:431
+msgid "power"
+msgstr "电源"
+
+#: taextras.py:432
 msgid "turn a motor"
 msgstr "转动电机"
 
-#: taextras.py:387
-msgid ""
-"synchronize\n"
-"\n"
-"motors"
-msgstr ""
-"同步\n"
-"\n"
-"电机"
+#: taextras.py:433
+#, python-format
+#, python-format,
+msgid "synchronize%smotors"
+msgstr "同步%s电机"
 
-#: taextras.py:388
-msgid "steering"
-msgstr "转向"
-
-#: taextras.py:389
+#: taextras.py:434
 msgid "synchronize two motors connected in PORT B and PORT C"
 msgstr "同步连接在端口B和端口C的两个电机"
 
-#: taextras.py:390
-msgid "PORT A"
-msgstr "端口 A"
+#: taextras.py:435
+#, python-format
+msgid "PORT %s"
+msgstr "端口 %s"
 
-#: taextras.py:391
-msgid "PORT A of the brick"
-msgstr "积木的端口 A"
+#: taextras.py:436
+#, python-format
+#, python-format,
+msgid "PORT %s of the brick"
+msgstr "积木块的端口 %s"
 
-#: taextras.py:392
-msgid "PORT B"
-msgstr "端口 B"
-
-#: taextras.py:393
-msgid "PORT B of the brick"
-msgstr "积木的端口 B"
-
-#: taextras.py:394
-msgid "PORT C"
-msgstr "端口 C"
-
-#: taextras.py:395
-msgid "PORT C of the brick"
-msgstr "积木的端口 C"
-
-#: taextras.py:396
-msgid ""
-"synchronize\n"
-"motors"
-msgstr ""
-"同步\n"
-"电机"
-
-#: taextras.py:397
+#: taextras.py:437
 msgid "start motor"
 msgstr "启动电机"
 
-#: taextras.py:398
+#: taextras.py:438
 msgid "Run a motor forever."
 msgstr "持续运行电机。"
 
-#: taextras.py:399
+#: taextras.py:439
 msgid "brake motor"
 msgstr "制动电机"
 
-#: taextras.py:400
+#: taextras.py:440
 msgid "Stop a specified motor."
 msgstr "停止指定的电机。"
 
 #. TRANS: reset is used to reset the counter associated with the motor
-#: taextras.py:402
+#: taextras.py:442
 msgid "reset motor"
 msgstr "复位电机"
 
-#: taextras.py:403
+#: taextras.py:443
 msgid "Reset the motor counter."
 msgstr "复位电机计数器。"
 
-#: taextras.py:404
+#: taextras.py:444
 msgid "motor position"
 msgstr "电机位置"
 
-#: taextras.py:405
+#: taextras.py:445
 msgid "Get the motor position."
 msgstr "得到电机位置。"
 
-#: taextras.py:406
-msgid "PORT 1"
-msgstr "端口 1"
+#: taextras.py:446
+msgid "nxt-sensors"
+msgstr "nxt-sensors"
 
-#: taextras.py:407
-msgid "PORT 1 of the brick"
-msgstr "积木的端口 1"
-
-#: taextras.py:408
+#: taextras.py:447
 msgid "read"
 msgstr "读取"
 
-#: taextras.py:409
+#: taextras.py:448
 msgid "sensor"
 msgstr "传感器"
 
-#: taextras.py:410
+#: taextras.py:449
 msgid "Read sensor output."
 msgstr "读取传感器输出。"
 
-#: taextras.py:411
-msgid "PORT 2"
-msgstr "端口 2"
-
-#: taextras.py:412
-msgid "PORT 2 of the brick"
-msgstr "积木的端口 2"
-
-#: taextras.py:413
+#: taextras.py:450
 msgid "light sensor"
 msgstr "灯光传感器"
 
-#: taextras.py:414
+#: taextras.py:451
 msgid "gray sensor"
 msgstr "灰色传感器"
 
-#: taextras.py:415
-msgid "PORT 3"
-msgstr "端口 3"
+#: taextras.py:452
+msgid "button sensor"
+msgstr "按钮传感器"
 
-#: taextras.py:416
-msgid "PORT 3 of the brick"
-msgstr "积木的端口 3"
-
-#: taextras.py:417
-msgid "touch sensor"
-msgstr "触控传感器"
-
-#: taextras.py:418
+#: taextras.py:453
 msgid "distance sensor"
 msgstr "距离传感器"
 
-#: taextras.py:419
-msgid "PORT 4"
-msgstr "端口 4"
-
-#: taextras.py:420
-msgid "PORT 4 of the brick"
-msgstr "积木的端口 4"
-
-#: taextras.py:421
+#: taextras.py:454
 msgid "sound sensor"
 msgstr "声音传感器"
 
-#: taextras.py:422
+#: taextras.py:455
 msgid "color sensor"
 msgstr "颜色传感器"
 
 #. TRANS: set light is used to set the light level associated with
 #. the color sensor (which can emit light as well as sense it)
-#: taextras.py:425
+#: taextras.py:458
 msgid "set light"
 msgstr "设置灯"
 
-#: taextras.py:426
+#: taextras.py:459
 msgid "Set color sensor light."
 msgstr "设置颜色感应灯。"
 
 #. TRANS: the battery level is the charge level of the brick
-#: taextras.py:428
+#: taextras.py:461
 msgid "battery level"
 msgstr "电池电量"
 
-#: taextras.py:429
+#: taextras.py:462
 msgid "Get the battery level of the brick in millivolts"
 msgstr "得到拼块的电池电量（单位为毫伏）"
 
 #. TRANS: Arduino plugin to control an Arduino board
-#: taextras.py:434
+#: taextras.py:467
 msgid "Palette of Arduino blocks"
 msgstr "Arduino模板"
 
 #. TRANS: PWM is pulse-width modulation
-#: taextras.py:440
+#: taextras.py:473
 msgid "PWM"
 msgstr "调速"
 
-#: taextras.py:441
+#: taextras.py:474
 msgid "SERVO"
 msgstr "伺服"
 
-#: taextras.py:442
+#: taextras.py:475
 msgid "ERROR: Check the Arduino and the number of port."
 msgstr "错误：请检查的Arduino和端口号。"
 
-#: taextras.py:443
-msgid "ERROR: Value must be a number from 0 to 255."
-msgstr "错误：数值必须从0到255。"
+#: taextras.py:476
+msgid "ERROR: Value must be a number from 0 to 1."
+msgstr "错误：数值必须从0到1。"
 
-#: taextras.py:444
+#: taextras.py:477
+msgid "ERROR: Value must be a number from 0 to 180."
+msgstr "错误：数值必须从0到180。"
+
+#: taextras.py:478
 msgid "ERROR: Value must be either HIGH or LOW, 0 or 1"
 msgstr "错误：值必须是高或低，0或1"
 
-#: taextras.py:445
+#: taextras.py:479
 msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
 msgstr "错误：模式必须是输入，输出，调速或伺服。"
 
-#: taextras.py:446
+#: taextras.py:480
 msgid "ERROR: The value must be an integer."
 msgstr "错误：值必须是一个整数。"
 
-#: taextras.py:447
+#: taextras.py:481
 msgid "ERROR: The pin must be an integer."
 msgstr "错误：pin值必须是一个整数。"
 
-#: taextras.py:448
+#: taextras.py:482
+msgid "ERROR: You must configure the mode for the pin."
+msgstr "错误：你必须配置该针脚的模式。"
+
+#: taextras.py:483
+msgid "arduino"
+msgstr "arduino"
+
+#: taextras.py:484
 msgid "refresh Arduino"
 msgstr "刷新Arduino"
 
-#: taextras.py:449
+#: taextras.py:485
 msgid "Search for connected Arduinos."
 msgstr "搜索已连接的Arduino。"
 
-#: taextras.py:450
+#: taextras.py:486
 msgid "Arduino"
 msgstr "Arduino"
 
-#: taextras.py:451
+#: taextras.py:487
 msgid "set current Arduino board"
 msgstr "设置当前的Arduino板"
 
-#: taextras.py:452
+#: taextras.py:488
 msgid "number of Arduinos"
 msgstr "Arduino 的数量"
 
-#: taextras.py:453
+#: taextras.py:489
 msgid "number of Arduino boards"
 msgstr "Arduino 板的数量"
 
-#: taextras.py:454
+#: taextras.py:490
 msgid "Arduino name"
 msgstr "Arduino 名称"
 
-#: taextras.py:455
+#: taextras.py:491
 msgid "Get the name of an Arduino."
 msgstr "得到一个 Arduino 的名称。"
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
-#: taextras.py:458
+#: taextras.py:494
 msgid "pin mode"
 msgstr "引脚模式"
 
-#: taextras.py:461
+#: taextras.py:497
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
 msgstr "选择引脚功能（输入，输出，调速，伺服）。"
 
-#: taextras.py:462
+#: taextras.py:498
 msgid "analog write"
 msgstr "模拟写"
 
-#: taextras.py:464
+#: taextras.py:500
 msgid "Write analog value in specified port."
 msgstr "写模拟值到指定的端口。"
 
-#: taextras.py:465
+#: taextras.py:501
 msgid "analog read"
 msgstr "模拟读"
 
-#: taextras.py:466
-msgid ""
-"Read value from analog port. Value may be between 0 and 1023. Use Vref to "
-"determine voltage. For USB, volt=((read)*5)/1024) approximately."
-msgstr "从模拟端口读值。值可能是0到1023之间。使用Vref来确定电压。对于USB，电压大约等于 ((read)*5)/1024。"
+#: taextras.py:502
+msgid "Read value from analog port. Value may be between 0 and 1."
+msgstr "从模拟端口读取数值。该值在0和1之间。"
 
-#: taextras.py:468
+#: taextras.py:503
 msgid "digital write"
 msgstr "数字写"
 
-#: taextras.py:469
+#: taextras.py:504
 msgid "Write digital value to specified port."
 msgstr "写数字值到指定的端口。"
 
-#: taextras.py:470
+#: taextras.py:505
 msgid "digital read"
 msgstr "数字读"
 
-#: taextras.py:471
+#: taextras.py:506
 msgid "Read value from digital port."
 msgstr "从数字端口读取值。"
 
-#: taextras.py:473
+#: taextras.py:507
+msgid "Set HIGH value for digital port."
+msgstr "设置数字端口为高值。"
+
+#: taextras.py:508
 msgid "Configure Arduino port for digital input."
 msgstr "配置用于数字输入的Arduino端口。"
 
-#: taextras.py:474
+#: taextras.py:509
 msgid "Configure Arduino port to drive a servo."
 msgstr "配置用于驱动伺服电机的Arduino端口。"
 
-#: taextras.py:476
+#: taextras.py:511
 msgid "Configure Arduino port for digital output."
 msgstr "配置用于数字输出的Arduino端口。"
 
-#: taextras.py:477
+#: taextras.py:512
 msgid "Configure Arduino port for PWM (pulse-width modulation)."
 msgstr "配置用于调速（脉宽调制）的Arduino端口"
 
-#: taextras.py:478
+#: taextras.py:513
 #, python-format
 msgid "Not found Arduino %s"
 msgstr "未找到Arduino %s"
 
-#: taextras.py:479
+#: taextras.py:514
 msgid "The pin must be an integer"
 msgstr "pin值必须为一个整数"
 
-#: taextras.py:480
+#: taextras.py:515
 msgid "The device must be an integer"
 msgstr "device值必须为一个整数"
 
+#: taextras.py:516
+#, python-format
+msgid "Error loading %s board"
+msgstr "加载 %s 板出错"
+
 #. TRANS: plugin to control an ExpEyes device
-#: taextras.py:485
+#: taextras.py:521
 msgid "Palette of Expeyes blocks"
 msgstr "Expeyes 块模板"
 
 #. TRANS: Programmable voltage output
-#: taextras.py:487
+#: taextras.py:523
 msgid "set PVS"
 msgstr "设置 PVS"
 
-#: taextras.py:488
+#: taextras.py:524
 msgid "set programmable voltage output"
 msgstr "设置可编程电压输出"
 
 #. TRANS: Square wave 1 voltage output
-#: taextras.py:490
+#: taextras.py:526
 msgid "set SQR1 voltage"
 msgstr "设置 SQR1 电压"
 
-#: taextras.py:491
+#: taextras.py:527
 msgid "set square wave 1 voltage output"
 msgstr "设置方波1电压输出"
 
 #. TRANS: Square wave 2 voltage output
-#: taextras.py:493
+#: taextras.py:529
 msgid "set SQR2 voltage"
 msgstr "设置 SQR2 电压"
 
-#: taextras.py:494
+#: taextras.py:530
 msgid "set square wave 2 voltage output"
 msgstr "设置方波2电压输出"
 
 #. TRANS: Digital output level
-#: taextras.py:496
+#: taextras.py:532
 msgid "set OD1"
 msgstr "设置 OD1"
 
-#: taextras.py:497
+#: taextras.py:533
 msgid "set digital output level (OD1) low (0) or high (1)"
 msgstr "设置数字输出电平 (OD1) 高 (0) 或低 (1)"
 
 #. TRANS: Input 1 voltage level
-#: taextras.py:499
+#: taextras.py:535
 msgid "IN1 level"
 msgstr "IN1 电平"
 
-#: taextras.py:500
+#: taextras.py:536
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
 msgstr "如果 IN1 电平>2.5伏返回1，如果<=2.5伏返回0"
 
 #. TRANS: Input 2 voltage level
-#: taextras.py:503
+#: taextras.py:539
 msgid "IN2 level"
 msgstr "IN2 电平"
 
-#: taextras.py:504
+#: taextras.py:540
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
 msgstr "如果 IN2 电平>2.5伏返回1，如果 <=2.5伏返回0"
 
 #. TRANS: Resistive sensor voltage level
-#: taextras.py:507
+#: taextras.py:543
 msgid "SEN level"
 msgstr "SEN 电平"
 
-#: taextras.py:508
+#: taextras.py:544
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
 msgstr "如果电阻式传感器（SEN）电压电平>2.5伏返回1，如果<=2.5伏返回0"
 
-#: taextras.py:510
+#: taextras.py:546
 msgid "capture"
 msgstr "捕获"
 
-#: taextras.py:511
+#: taextras.py:547
 msgid "input"
 msgstr "输入"
 
-#: taextras.py:512
+#: taextras.py:548
 msgid "samples"
 msgstr "采样"
 
-#: taextras.py:513
+#: taextras.py:549
 msgid "interval"
 msgstr "间隔"
 
 #. TRANS: MS is microseconds
-#: taextras.py:515
+#: taextras.py:551
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr "从输入捕获时间间隔（MS）的多个样本，结果放入 FIFO"
 
 #. TRANS: Analog input 1 voltage level
-#: taextras.py:518
+#: taextras.py:554
 msgid "A1"
 msgstr "A1"
 
-#: taextras.py:519
+#: taextras.py:555
 msgid "read analog input 1 voltage"
 msgstr "读取模拟输入1的电压"
 
 #. TRANS: Analog input 2 voltage level
-#: taextras.py:521
+#: taextras.py:557
 msgid "A2"
 msgstr "A2"
 
-#: taextras.py:522
+#: taextras.py:558
 msgid "read analog input 2 voltage"
 msgstr "读取模拟输入2的电压"
 
 #. TRANS: Read input 1 voltage
-#: taextras.py:524
+#: taextras.py:560
 msgid "IN1"
 msgstr "IN1"
 
-#: taextras.py:525
+#: taextras.py:561
 msgid "read input 1 voltage"
 msgstr "读取输入1的电压"
 
 #. TRANS: Read input 2 voltage
-#: taextras.py:527
+#: taextras.py:563
 msgid "IN2"
 msgstr "IN2"
 
-#: taextras.py:528
+#: taextras.py:564
 msgid "read input 2 voltage"
 msgstr "读取输入2的电压"
 
 #. TRANS: Read analog sensor input voltage
-#: taextras.py:530
+#: taextras.py:566
 msgid "SEN"
 msgstr "SEN"
 
-#: taextras.py:531
+#: taextras.py:567
 msgid "read analog sensor input voltage"
 msgstr "读取模拟传感器输入电压"
 
 #. TRANS: Read square wave 1 input voltage
-#: taextras.py:533
+#: taextras.py:569
 msgid "SQR1"
 msgstr "SQR1"
 
-#: taextras.py:534
+#: taextras.py:570
 msgid "read square wave 1 voltage"
 msgstr "读取方波1电压"
 
 #. TRANS: Read square wave 2 input voltage
-#: taextras.py:536
+#: taextras.py:572
 msgid "SQR2"
 msgstr "SQR2"
 
-#: taextras.py:537
+#: taextras.py:573
 msgid "read square wave 2 voltage"
 msgstr "读取方波2电压"
 
 #. TRANS: Read programmable voltage
-#: taextras.py:539
+#: taextras.py:575
 msgid "PVS"
 msgstr "PVS"
 
-#: taextras.py:540
+#: taextras.py:576
 msgid "read programmable voltage"
 msgstr "读取可编程电压"
 
-#: taextras.py:541
+#: taextras.py:577
 msgid "Expeyes device not found"
 msgstr "未找到Expeyes设备"
+
+#~ msgid ""
+#~ "synchronize\n"
+#~ "\n"
+#~ "motors"
+#~ msgstr ""
+#~ "同步\n"
+#~ "\n"
+#~ "电机"
+
+#~ msgid "steering"
+#~ msgstr "转向"
+
+#~ msgid "PORT A"
+#~ msgstr "端口 A"
+
+#~ msgid "PORT B"
+#~ msgstr "端口 B"
+
+#~ msgid "PORT B of the brick"
+#~ msgstr "积木的端口 B"
+
+#~ msgid "PORT C"
+#~ msgstr "端口 C"
+
+#~ msgid "PORT C of the brick"
+#~ msgstr "积木的端口 C"
+
+#~ msgid "PORT 1"
+#~ msgstr "端口 1"
+
+#~ msgid "PORT 1 of the brick"
+#~ msgstr "积木的端口 1"
+
+#~ msgid "PORT 2"
+#~ msgstr "端口 2"
+
+#~ msgid "PORT 2 of the brick"
+#~ msgstr "积木的端口 2"
+
+#~ msgid "PORT 3"
+#~ msgstr "端口 3"
+
+#~ msgid "PORT 3 of the brick"
+#~ msgstr "积木的端口 3"
+
+#~ msgid "PORT 4"
+#~ msgstr "端口 4"
+
+#~ msgid "PORT 4 of the brick"
+#~ msgstr "积木的端口 4"
+
+#~ msgid ""
+#~ "Read value from analog port. Value may be between 0 and 1023. Use Vref to "
+#~ "determine voltage. For USB, volt=((read)*5)/1024) approximately."
+#~ msgstr "从模拟端口读值。值可能是0到1023之间。使用Vref来确定电压。对于USB，电压大约等于 ((read)*5)/1024。"
+
+#~ msgid "touch"
+#~ msgstr "触摸"
+
+#~ msgid "ultrasonic"
+#~ msgstr "超声波"
+
+#~ msgid "touch sensor"
+#~ msgstr "触控传感器"
+
+#~ msgid "custom module sensor A"
+#~ msgstr "自定义模块传感器 A"
+
+#~ msgid "custom module sensor B"
+#~ msgstr "自定义模块传感器 B"
+
+#~ msgid "custom module sensor C"
+#~ msgstr "自定义模块传感器 C"
+
+#~ msgid "module a"
+#~ msgstr "模块 a"
+
+#~ msgid "module b"
+#~ msgstr "模块 b"
+
+#~ msgid "module c"
+#~ msgstr "模块 c"
+
+#~ msgid "hack pin mode"
+#~ msgstr "破解引脚模式"
+
+#~ msgid "read hack pin Butia"
+#~ msgstr "读取破解引脚布迪"
+
+#~ msgid "Module A"
+#~ msgstr "模块 A"
+
+#~ msgid "Module B"
+#~ msgstr "模块 B"
+
+#~ msgid "generic Module B"
+#~ msgstr "通用模块 B"
+
+#~ msgid "Module C"
+#~ msgstr "模块 C"
+
+#~ msgid "generic Module C"
+#~ msgstr "通用模块 C"
+
+#~ msgid "ERROR: You must cast Module A, B or C"
+#~ msgstr "错误: 必须抛出模块 A, B 和 C"
+
+#~ msgid "returns the temperature"
+#~ msgstr "返回温度"
+
+#~ msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
+#~ msgstr "当传感器检测到磁场返回1，否则为0"
 
 #~ msgid "gpio"
 #~ msgstr "gpio"
@@ -2170,9 +2410,6 @@ msgstr "未找到Expeyes设备"
 
 #~ msgid "holds current pen size (can be used in place of a number block)"
 #~ msgstr "包含当前画笔的大小（可以用来替换数字块）"
-
-#~ msgid "set color"
-#~ msgstr "设置颜色"
 
 #~ msgid "min"
 #~ msgstr "最小值"
