@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-10 00:32-0500\n"
-"PO-Revision-Date: 2013-12-11 03:31+0200\n"
+"POT-Creation-Date: 2013-12-14 00:32-0500\n"
+"PO-Revision-Date: 2013-12-15 18:48+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_US\n"
@@ -1251,7 +1251,8 @@ msgstr "Play a tone at frequency for time."
 
 #. TRANS: turn is the action
 #: taextras.py:427
-#, python-format, 
+#, python-format
+#, python-format,
 msgid "turn motor %s"
 msgstr "turn motor %s"
 
@@ -1273,10 +1274,9 @@ msgid "turn a motor"
 msgstr "turn a motor"
 
 #: taextras.py:433
-#, python-format
-#, python-format,
-msgid "synchronize%smotors"
-msgstr "synchronize%smotors"
+#, python-format, 
+msgid "synchronize %s motors"
+msgstr "synchronize %s motors"
 
 #: taextras.py:434
 msgid "synchronize two motors connected in PORT B and PORT C"
