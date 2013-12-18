@@ -433,7 +433,7 @@ LEGO_STRINGS = [
     _('rotations'),
     _('power'),
     _('turn a motor'),
-    _('synchronize%smotors'),
+    _('synchronize %s motors'),
     _('synchronize two motors connected in PORT B and PORT C'),
     _('PORT %s'),
     _('PORT %s of the brick'),
