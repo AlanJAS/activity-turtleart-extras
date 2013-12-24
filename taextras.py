@@ -519,6 +519,41 @@ ARDUINO_STRINGS = [
     _('Error loading %s board')
 ]
 
+RODI_STRINGS = [
+    #TRANS: Rodi is the name of Paraguayan robot based on Arduino
+    _('Palette for Rodi bots using Arduino'),
+    _('HIGH'),
+    _('LOW'),
+    _('INPUT'),
+    _('OUTPUT'),
+    #TRANS: PWM is pulse-width modulation
+    _('PWM'),
+    _('SERVO'),
+    _('ERROR: Check the connection to the robot.'),
+    _('ERROR: The speed must be a value between 0 and %d'),
+    _('ERROR: The speed must be a value between %(min)d and %(max)d'),
+    _('refresh Rodi'),
+    _('refresh the state of the Rodi palette and blocks'),
+    _('move Rodi'),
+    _('left'),
+    _('right'),
+    _('moves the Rodi motors at the specified speed'),
+    _('stop Rodi'),
+    _('stops the Rodi robot'),
+    _('forward Rodi'),
+    _('moves the Rodi robot forward'),
+    _('left Rodi'),
+    _('turns the Rodi robot at left'),
+    _('right Rodi'),
+    _('turns the Rodi robot at right'),
+    _('backward Rodi'),
+    _('moves the Rodi robot backward'),
+    _('distance Rodi'),
+    _('returns the distance as a value between 0 and 1'),
+    _('Rodi %s not found'),
+    _('Error loading %s board')
+]
+
 EXPEYES_STRINGS = [
     #TRANS: plugin to control an ExpEyes device
     _('Palette of Expeyes blocks'),
