@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-14 00:32-0500\n"
-"PO-Revision-Date: 2013-12-15 17:38+0200\n"
+"POT-Creation-Date: 2013-12-25 00:32-0500\n"
+"PO-Revision-Date: 2014-01-09 18:07+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -183,19 +183,19 @@ msgstr "actuador c"
 msgid "LED"
 msgstr "LED"
 
-#: taextras.py:100 taextras.py:397
+#: taextras.py:100 taextras.py:400
 msgid "button"
 msgstr "botón"
 
-#: taextras.py:101 taextras.py:402
+#: taextras.py:101 taextras.py:405
 msgid "gray"
 msgstr "gris"
 
-#: taextras.py:102 taextras.py:400
+#: taextras.py:102 taextras.py:403
 msgid "light"
 msgstr "luz"
 
-#: taextras.py:103 taextras.py:376 taextras.py:398
+#: taextras.py:103 taextras.py:379 taextras.py:401
 msgid "distance"
 msgstr "distancia"
 
@@ -251,11 +251,11 @@ msgstr "establece la velocidad de los motores del Butiá"
 msgid "move Butia"
 msgstr "mover Butiá"
 
-#: taextras.py:118
+#: taextras.py:118 taextras.py:538
 msgid "left"
 msgstr "izquierda"
 
-#: taextras.py:119
+#: taextras.py:119 taextras.py:539
 msgid "right"
 msgstr "derecha"
 
@@ -320,11 +320,11 @@ msgstr "Bloques extra del Robot Butiá"
 msgid "pin mode Butia"
 msgstr "modo del pin Butiá"
 
-#: taextras.py:139 taextras.py:339 taextras.py:495
+#: taextras.py:139 taextras.py:339 taextras.py:498
 msgid "pin"
 msgstr "pin"
 
-#: taextras.py:140 taextras.py:496
+#: taextras.py:140 taextras.py:499
 msgid "mode"
 msgstr "modo"
 
@@ -344,7 +344,7 @@ msgstr "lee el valor de un pin"
 msgid "write pin Butia"
 msgstr "escribir en pin Butiá"
 
-#: taextras.py:145 taextras.py:499
+#: taextras.py:145 taextras.py:502
 msgid "value"
 msgstr "valor"
 
@@ -352,7 +352,7 @@ msgstr "valor"
 msgid "set a hack pin to 0 or 1"
 msgstr "establce el hack pin en 0 o 1"
 
-#: taextras.py:147 taextras.py:470
+#: taextras.py:147 taextras.py:473 taextras.py:527
 msgid "INPUT"
 msgstr "ENTRADA"
 
@@ -360,7 +360,7 @@ msgstr "ENTRADA"
 msgid "Configure hack pin for digital input."
 msgstr "Configura un pin como entrada digital."
 
-#: taextras.py:149 taextras.py:468
+#: taextras.py:149 taextras.py:471 taextras.py:525
 msgid "HIGH"
 msgstr "ALTO"
 
@@ -368,15 +368,15 @@ msgstr "ALTO"
 msgid "Set HIGH value for digital pin."
 msgstr "Establece el valor ALTO en un pin digital."
 
-#: taextras.py:151 taextras.py:469
+#: taextras.py:151 taextras.py:472 taextras.py:526
 msgid "LOW"
 msgstr "BAJO"
 
-#: taextras.py:152 taextras.py:510
+#: taextras.py:152 taextras.py:513
 msgid "Set LOW value for digital port."
 msgstr "Establece el valor BAJO en el puerto digital."
 
-#: taextras.py:153 taextras.py:471
+#: taextras.py:153 taextras.py:474 taextras.py:528
 msgid "OUTPUT"
 msgstr "SALIDA"
 
@@ -983,20 +983,28 @@ msgstr ""
 msgid "Pin an object down so that it cannot fall."
 msgstr "Sujeta un objeto para que no se caiga."
 
-# enPhysics es unión... podría ser articulación
 #: taextras.py:341
+msgid "pen"
+msgstr "pluma"
+
+#: taextras.py:342
+msgid "Add a pen to an object so that its movements are traced."
+msgstr "Agrega una pluma a un objeto para que sus movimientos dejen un trazo."
+
+# enPhysics es unión... podría ser articulación
+#: taextras.py:344
 msgid "joint"
 msgstr "unión"
 
-#: taextras.py:342
+#: taextras.py:345
 msgid "x"
 msgstr "x"
 
-#: taextras.py:343
+#: taextras.py:346
 msgid "y"
 msgstr "y"
 
-#: taextras.py:344
+#: taextras.py:347
 msgid ""
 "Join two objects together (the object at the current location and the object "
 "at point x, y)."
@@ -1004,39 +1012,39 @@ msgstr ""
 "Une dos objetos (el objeto en la posición actual y el objeto en el punto x, "
 "y)."
 
-#: taextras.py:346
+#: taextras.py:349
 msgid "save as Physics activity"
 msgstr "guardar como Actividad Física"
 
-#: taextras.py:347
+#: taextras.py:350
 msgid "Save the project to the Journal as a Physics activity."
 msgstr "Guarda el proyecto al Diario como una Actividad de Física."
 
 #. TRANS: Here, gear means a toothed wheel, as in a clock-works
-#: taextras.py:349
+#: taextras.py:352
 msgid "gear"
 msgstr "engranaje"
 
-#: taextras.py:350
+#: taextras.py:353
 msgid "Add a gear object to the project."
 msgstr "Agrega un objeto engranaje al proyecto."
 
-#: taextras.py:351
+#: taextras.py:354
 msgid "density"
 msgstr "densidad"
 
-#: taextras.py:352
+#: taextras.py:355
 msgid ""
 "Set the density property for objects (density can be any positive number)."
 msgstr ""
 "Establece la densidad de los objetos (la densidad puede ser cualquier número "
 "positivo)."
 
-#: taextras.py:354
+#: taextras.py:357
 msgid "friction"
 msgstr "fricción"
 
-#: taextras.py:355
+#: taextras.py:358
 msgid ""
 "Set the friction property for objects (value from 0 to 1, where 0 turns "
 "friction off and 1 is strong friction)."
@@ -1046,12 +1054,12 @@ msgstr ""
 
 # podría ser elasticidad?
 #. TRANS: bounciness is coefficient of restitution
-#: taextras.py:358
+#: taextras.py:361
 msgid "bounciness"
 msgstr "restitución"
 
 # very bouncy = muy restituible?
-#: taextras.py:359
+#: taextras.py:362
 msgid ""
 "Set the bounciness property for objects (a value from 0 to 1, where 0 means "
 "no bounce and 1 is very bouncy)."
@@ -1060,11 +1068,11 @@ msgstr ""
 "1, donde 0 significa sin restitución y 1 mucha)."
 
 #. TRANS: dynamic here means moving vs in a fixed position
-#: taextras.py:362
+#: taextras.py:365
 msgid "dynamic"
 msgstr "dinámico"
 
-#: taextras.py:363
+#: taextras.py:366
 msgid ""
 "If dynamic = 1, the object can move; if dynamic = 0, it is fixed in position."
 msgstr ""
@@ -1072,27 +1080,27 @@ msgstr ""
 "posición."
 
 #. TRANS: WeDo is a robotics product of the LEGO company
-#: taextras.py:369
+#: taextras.py:372
 msgid "Palette of WeDo blocks"
 msgstr "Paleta de bloques WeDo"
 
-#: taextras.py:370
+#: taextras.py:373
 msgid "WeDo"
 msgstr "WeDo"
 
-#: taextras.py:371
+#: taextras.py:374
 msgid "set current WeDo device"
 msgstr "setea el dispositivo WeDo actual"
 
-#: taextras.py:372
+#: taextras.py:375
 msgid "number of WeDo devices"
 msgstr "número de dispositivos WeDo"
 
-#: taextras.py:373
+#: taextras.py:376
 msgid "tilt"
 msgstr "inclinación"
 
-#: taextras.py:374
+#: taextras.py:377
 msgid ""
 "tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
 "tilt left, 2 == tilt right)"
@@ -1102,511 +1110,600 @@ msgstr ""
 "izquierda, 2 == inclinado hacia la derecha)"
 
 #. TRANS: This string is shorthand for "output of the distance sensor"
-#: taextras.py:378
+#: taextras.py:381
 msgid "distance sensor output"
 msgstr "salida del sensor distancia"
 
-#: taextras.py:379
+#: taextras.py:382
 msgid "Motor A"
 msgstr "Motor A"
 
-#: taextras.py:380
+#: taextras.py:383
 msgid "returns the current value of Motor A"
 msgstr "devuelve el valor actual del Motor A"
 
-#: taextras.py:381
+#: taextras.py:384
 msgid "Motor B"
 msgstr "Motor B"
 
-#: taextras.py:382
+#: taextras.py:385
 msgid "returns the current value of Motor B"
 msgstr "devuelve el valor actual del Motor B"
 
-#: taextras.py:383
+#: taextras.py:386
 msgid "set the value for Motor A"
 msgstr "establece el valor del Motor A"
 
-#: taextras.py:384
+#: taextras.py:387
 msgid "set the value for Motor B"
 msgstr "establece el valor del Motor B"
 
-#: taextras.py:385
+#: taextras.py:388
 msgid "WeDo is unavailable"
 msgstr "WeDo no está disponible"
 
 #. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
-#: taextras.py:387
+#: taextras.py:390
 #, python-format
 msgid "WeDo %d is unavailable; defaulting to 1"
 msgstr "El Wedo %d no está disponible; usando por defecto el 1"
 
 #. TRANS: %(device)s and %(wedo_number)d are substitution strings;
 #. please leave untranslated
-#: taextras.py:390
+#: taextras.py:393
 #, python-format
 msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
 msgstr "El %(device)s no está disponible en el WeDo %(wedo_number)d"
 
 #. TRANS: Lego NXT is a robotics product of the LEGO company
-#: taextras.py:395
+#: taextras.py:398
 msgid "Palette of LEGO NXT blocks of motors"
 msgstr "Paleta de bloques LEGO NXT de motores"
 
-#: taextras.py:396
+#: taextras.py:399
 msgid "Palette of LEGO NXT blocks of sensors"
 msgstr "Paleta de bloques LEGO NXT de sensores"
 
-#: taextras.py:399
+#: taextras.py:402
 msgid "color"
 msgstr "color"
 
-#: taextras.py:401
+#: taextras.py:404
 msgid "sound"
 msgstr "sonido"
 
 #. TRANS: The brick is the NXT controller
-#: taextras.py:404
+#: taextras.py:407
 msgid "Please check the connection with the brick"
 msgstr "Por favor chequee la conexión con el brick"
 
-#: taextras.py:405
+#: taextras.py:408
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT A, B or C"
 msgstr "Puerto '%s' inválido. El puerto debe ser: PUERTO A, B o C"
 
-#: taextras.py:406
+#: taextras.py:409
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
 msgstr "Puerto '%s' inválido. El puerto debe ser: PUERTO 1, 2, 3 o 4"
 
-#: taextras.py:407
+#: taextras.py:410
 msgid "The value of power must be between -127 to 127"
 msgstr "El valor de potencia debe estar entre -127 y 127"
 
-#: taextras.py:408
+#: taextras.py:411
 #, python-format
 #, python-format,
 msgid "The parameter must be a integer, not '%s'"
 msgstr "El parámetro debe ser un entero, no '%s'"
 
-#: taextras.py:409
+#: taextras.py:412
 msgid "An error has occurred: check all connections and try to reconnect"
 msgstr "Un error ha ocurrido: chequee todas las conexiones y pruebe reconectar"
 
-#: taextras.py:410
+#: taextras.py:413
 #, python-format
 msgid "NXT found %s bricks"
 msgstr "NXT encontró %s bricks"
 
-#: taextras.py:411
+#: taextras.py:414
 msgid "NXT not found"
 msgstr "NXT no encontrado"
 
-#: taextras.py:412
+#: taextras.py:415
 #, python-format
 #, python-format,
 msgid "Brick number %s was not found"
 msgstr "El brick número %s no fue encontrado"
 
-#: taextras.py:413
+#: taextras.py:416
 msgid "nxt-motors"
 msgstr "motores-nxt"
 
-#: taextras.py:414
+#: taextras.py:417
 msgid "refresh NXT"
 msgstr "refrescar NXT"
 
-#: taextras.py:415
+#: taextras.py:418
 msgid "Search for a connected NXT brick."
 msgstr "Busca por un brick NXT conectado."
 
-#: taextras.py:416
+#: taextras.py:419
 msgid "NXT"
 msgstr "NXT"
 
-#: taextras.py:417
+#: taextras.py:420
 msgid "set current NXT device"
 msgstr "establece el dispositivo NXT actual"
 
-#: taextras.py:418
+#: taextras.py:421
 msgid "number of NXTs"
 msgstr "número de NXTs"
 
-#: taextras.py:419
+#: taextras.py:422
 msgid "number of NXT devices"
 msgstr "número de dispositivos NXT"
 
-#: taextras.py:420
+#: taextras.py:423
 msgid "brick name"
 msgstr "nombre del brick"
 
-#: taextras.py:421
+#: taextras.py:424
 msgid "Get the name of a brick."
 msgstr "Obtiene el nombre del brick."
 
-#: taextras.py:422
+#: taextras.py:425
 msgid "play tone"
 msgstr "reproducir tono"
 
-#: taextras.py:423
+#: taextras.py:426
 msgid "frequency"
 msgstr "frecuencia"
 
-#: taextras.py:424
+#: taextras.py:427
 msgid "time"
 msgstr "tiempo"
 
-#: taextras.py:425
+#: taextras.py:428
 msgid "Play a tone at frequency for time."
 msgstr "Reproduce un tono a cierta frecuencia por un determinado tiempo."
 
 #. TRANS: turn is the action
-#: taextras.py:427
+#: taextras.py:430
 #, python-format
 #, python-format,
 msgid "turn motor %s"
 msgstr "girar motor %s"
 
-#: taextras.py:428
+#: taextras.py:431
 msgid "port"
 msgstr "puerto"
 
 #. TRANS: rotations is quantity of turns
-#: taextras.py:430
+#: taextras.py:433
 msgid "rotations"
 msgstr "rotaciones"
 
-#: taextras.py:431
+#: taextras.py:434
 msgid "power"
 msgstr "potencia"
 
-#: taextras.py:432
+#: taextras.py:435
 msgid "turn a motor"
 msgstr "gira un motor"
 
-#: taextras.py:433
-#, python-format, 
+#: taextras.py:436
+#, python-format
+#, python-format,
 msgid "synchronize %s motors"
 msgstr "sincronizar %s motores"
 
-#: taextras.py:434
+#: taextras.py:437
 msgid "synchronize two motors connected in PORT B and PORT C"
 msgstr "sincroniza los motores conectados en el PUERTO B y PUERTO C"
 
-#: taextras.py:435
+#: taextras.py:438
 #, python-format
 msgid "PORT %s"
 msgstr "PUERTO %s"
 
-#: taextras.py:436
+#: taextras.py:439
 #, python-format
 #, python-format,
 msgid "PORT %s of the brick"
 msgstr "PUERTO %s del brick"
 
-#: taextras.py:437
+#: taextras.py:440
 msgid "start motor"
 msgstr "iniciar motor"
 
-#: taextras.py:438
+#: taextras.py:441
 msgid "Run a motor forever."
 msgstr "Girar un motor por siempre."
 
-#: taextras.py:439
+#: taextras.py:442
 msgid "brake motor"
 msgstr "frenar motor"
 
-#: taextras.py:440
+#: taextras.py:443
 msgid "Stop a specified motor."
 msgstr "Frena un motor específico."
 
 #. TRANS: reset is used to reset the counter associated with the motor
-#: taextras.py:442
+#: taextras.py:445
 msgid "reset motor"
 msgstr "reiniciar motor"
 
-#: taextras.py:443
+#: taextras.py:446
 msgid "Reset the motor counter."
 msgstr "Reinicia el contador del motor."
 
-#: taextras.py:444
+#: taextras.py:447
 msgid "motor position"
 msgstr "posición del motor"
 
-#: taextras.py:445
+#: taextras.py:448
 msgid "Get the motor position."
 msgstr "Obtiene la posición del motor."
 
-#: taextras.py:446
+#: taextras.py:449
 msgid "nxt-sensors"
 msgstr "sensores-nxt"
 
-#: taextras.py:447
+#: taextras.py:450
 msgid "read"
 msgstr "leer"
 
-#: taextras.py:448
+#: taextras.py:451
 msgid "sensor"
 msgstr "sensor"
 
-#: taextras.py:449
+#: taextras.py:452
 msgid "Read sensor output."
 msgstr "Lee la salida del sensor."
 
-#: taextras.py:450
+#: taextras.py:453
 msgid "light sensor"
 msgstr "sensor de luz"
 
-#: taextras.py:451
+#: taextras.py:454
 msgid "gray sensor"
 msgstr "sensor de grises"
 
-#: taextras.py:452
+#: taextras.py:455
 msgid "button sensor"
 msgstr "sensor botón"
 
-#: taextras.py:453
+#: taextras.py:456
 msgid "distance sensor"
 msgstr "sensor de distancia"
 
-#: taextras.py:454
+#: taextras.py:457
 msgid "sound sensor"
 msgstr "sensor de sonido"
 
-#: taextras.py:455
+#: taextras.py:458
 msgid "color sensor"
 msgstr "sensor de color"
 
 #. TRANS: set light is used to set the light level associated with
 #. the color sensor (which can emit light as well as sense it)
-#: taextras.py:458
+#: taextras.py:461
 msgid "set light"
 msgstr "prender luz"
 
-#: taextras.py:459
+#: taextras.py:462
 msgid "Set color sensor light."
 msgstr "Prende la luz del sensor de color."
 
 #. TRANS: the battery level is the charge level of the brick
-#: taextras.py:461
+#: taextras.py:464
 msgid "battery level"
 msgstr "nivel de batería"
 
-#: taextras.py:462
+#: taextras.py:465
 msgid "Get the battery level of the brick in millivolts"
 msgstr "Obtiene el nivel de batería del brick en milivolts."
 
 #. TRANS: Arduino plugin to control an Arduino board
-#: taextras.py:467
+#: taextras.py:470
 msgid "Palette of Arduino blocks"
 msgstr "Paleta de bloques Arduino"
 
 #. TRANS: PWM is pulse-width modulation
-#: taextras.py:473
+#: taextras.py:476 taextras.py:530
 msgid "PWM"
 msgstr "PWM"
 
-#: taextras.py:474
+#: taextras.py:477 taextras.py:531
 msgid "SERVO"
 msgstr "SERVO"
 
-#: taextras.py:475
+#: taextras.py:478
 msgid "ERROR: Check the Arduino and the number of port."
 msgstr "ERROR: Chequee la Arduino y el número de puerto."
 
-#: taextras.py:476
+#: taextras.py:479
 msgid "ERROR: Value must be a number from 0 to 1."
 msgstr "ERROR: El valor debe ser un número entre 0 y 1."
 
-#: taextras.py:477
+#: taextras.py:480
 msgid "ERROR: Value must be a number from 0 to 180."
 msgstr "ERROR: El valor debe ser un número entre 0 y 180."
 
-#: taextras.py:478
+#: taextras.py:481
 msgid "ERROR: Value must be either HIGH or LOW, 0 or 1"
 msgstr "ERROR: El valor debe ser ALTO o BAJO, 0 o 1"
 
-#: taextras.py:479
+#: taextras.py:482
 msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
 msgstr "ERROR: El modo debe ser ENTRADA, SALIDA, PWM o SERVO."
 
-#: taextras.py:480
+#: taextras.py:483
 msgid "ERROR: The value must be an integer."
 msgstr "ERROR: El valor debe ser un entero."
 
-#: taextras.py:481
+#: taextras.py:484
 msgid "ERROR: The pin must be an integer."
 msgstr "ERROR: El pin debe ser un entero."
 
-#: taextras.py:482
+#: taextras.py:485
 msgid "ERROR: You must configure the mode for the pin."
 msgstr "ERROR: Debes configurar el modo del pin."
 
-#: taextras.py:483
+#: taextras.py:486
 msgid "arduino"
 msgstr "arduino"
 
-#: taextras.py:484
+#: taextras.py:487
 msgid "refresh Arduino"
 msgstr "refrescar Arduino"
 
-#: taextras.py:485
+#: taextras.py:488
 msgid "Search for connected Arduinos."
 msgstr "Busca por Arduinos conectadas."
 
-#: taextras.py:486
+#: taextras.py:489
 msgid "Arduino"
 msgstr "Arduino"
 
-#: taextras.py:487
+#: taextras.py:490
 msgid "set current Arduino board"
 msgstr "establece la placa Arduino actual"
 
-#: taextras.py:488
+#: taextras.py:491
 msgid "number of Arduinos"
 msgstr "número de Arduinos"
 
-#: taextras.py:489
+#: taextras.py:492
 msgid "number of Arduino boards"
 msgstr "número de placas"
 
-#: taextras.py:490
+#: taextras.py:493
 msgid "Arduino name"
 msgstr "nombre de Arduino"
 
-#: taextras.py:491
+#: taextras.py:494
 msgid "Get the name of an Arduino."
 msgstr "Obtiene el nombre de la Arduino."
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
-#: taextras.py:494
+#: taextras.py:497
 msgid "pin mode"
 msgstr "modo del pin"
 
-#: taextras.py:497
+#: taextras.py:500
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
 msgstr "Selecciona la función del pin (ENTRADA, SALIDA, PWM, SERVO)."
 
-#: taextras.py:498
+#: taextras.py:501
 msgid "analog write"
 msgstr "escribir analógico"
 
-#: taextras.py:500
+#: taextras.py:503
 msgid "Write analog value in specified port."
 msgstr "Escribe un valor analógico en el puerto especificado."
 
-#: taextras.py:501
+#: taextras.py:504
 msgid "analog read"
 msgstr "leer analógico"
 
-#: taextras.py:502
+#: taextras.py:505
 msgid "Read value from analog port. Value may be between 0 and 1."
 msgstr ""
 "Lee un valor desde el puerto analógico. El valor puede estar entre 0 y 1."
 
-#: taextras.py:503
+#: taextras.py:506
 msgid "digital write"
 msgstr "escribir digital"
 
-#: taextras.py:504
+#: taextras.py:507
 msgid "Write digital value to specified port."
 msgstr "Escribe un valor digital en un puerto específico."
 
-#: taextras.py:505
+#: taextras.py:508
 msgid "digital read"
 msgstr "leer digital"
 
-#: taextras.py:506
+#: taextras.py:509
 msgid "Read value from digital port."
 msgstr "Lee un valor desde un puerto digital."
 
-#: taextras.py:507
+#: taextras.py:510
 msgid "Set HIGH value for digital port."
 msgstr "Setea el valor ALTO en el puerto digital."
 
-#: taextras.py:508
+#: taextras.py:511
 msgid "Configure Arduino port for digital input."
 msgstr "Configura el puerto de la Arduino como entrada digital."
 
-#: taextras.py:509
+#: taextras.py:512
 msgid "Configure Arduino port to drive a servo."
 msgstr "Configura el puerto de la Arduino para manejar un servo."
 
-#: taextras.py:511
+#: taextras.py:514
 msgid "Configure Arduino port for digital output."
 msgstr "Configura el puerto de la Arduino como salida digital."
 
-#: taextras.py:512
+#: taextras.py:515
 msgid "Configure Arduino port for PWM (pulse-width modulation)."
 msgstr ""
 "Configura el puerto de la Arduino para PWM modulación por ancho de pulsos)."
 
-#: taextras.py:513
+#: taextras.py:516
 #, python-format
 msgid "Not found Arduino %s"
 msgstr "No se encontró Arduino %s"
 
-#: taextras.py:514
+#: taextras.py:517
 msgid "The pin must be an integer"
 msgstr "El pin debe ser un entero"
 
-#: taextras.py:515
+#: taextras.py:518
 msgid "The device must be an integer"
 msgstr "El número de dispositivo debe ser un entero"
 
-#: taextras.py:516
+#: taextras.py:519 taextras.py:554
 #, python-format
 msgid "Error loading %s board"
 msgstr "Error cargando la placa %s"
 
+#. TRANS: Rodi is the name of Paraguayan robot based on Arduino
+#: taextras.py:524
+msgid "Palette for Rodi bots using Arduino"
+msgstr "Paleta para robots Rodi usando Arduino"
+
+#: taextras.py:532
+msgid "ERROR: Check the connection to the robot."
+msgstr "ERROR: Verifica la conexión con el robot."
+
+#: taextras.py:533
+#, python-format, 
+msgid "ERROR: The speed must be a value between 0 and %d"
+msgstr "ERROR: La velocidad debe ser un valor entre 0 y %d"
+
+#: taextras.py:534
+#, python-format, 
+msgid "ERROR: The speed must be a value between %(min)d and %(max)d"
+msgstr "ERROR: La velocidad debe ser un valor entre %(min)d y %(max)d"
+
+#: taextras.py:535
+msgid "refresh Rodi"
+msgstr "refrescar Rodi"
+
+#: taextras.py:536
+msgid "refresh the state of the Rodi palette and blocks"
+msgstr "actualiza el estado de la paleta y de los bloques Rodi"
+
+#: taextras.py:537
+msgid "move Rodi"
+msgstr "mover Rodi"
+
+#: taextras.py:540
+msgid "moves the Rodi motors at the specified speed"
+msgstr "mueve los motores del Rodi a la velocidad especificada"
+
+#: taextras.py:541
+msgid "stop Rodi"
+msgstr "detener Rodi"
+
+#: taextras.py:542
+msgid "stops the Rodi robot"
+msgstr "detiene al robot Rodi"
+
+#: taextras.py:543
+msgid "forward Rodi"
+msgstr "adelante Rodi"
+
+#: taextras.py:544
+msgid "moves the Rodi robot forward"
+msgstr "mueve el robot Rodi hacia adelante"
+
+#: taextras.py:545
+msgid "left Rodi"
+msgstr "izquierda Rodi"
+
+#: taextras.py:546
+msgid "turns the Rodi robot at left"
+msgstr "gira el robot Rodi hacia la izquierda"
+
+#: taextras.py:547
+msgid "right Rodi"
+msgstr "derecha Rodi"
+
+#: taextras.py:548
+msgid "turns the Rodi robot at right"
+msgstr "gira el robot Rodi hacia la derecha"
+
+#: taextras.py:549
+msgid "backward Rodi"
+msgstr "atrás Rodi"
+
+#: taextras.py:550
+msgid "moves the Rodi robot backward"
+msgstr "mueve el robot Rodi hacia atrás"
+
+#: taextras.py:551
+msgid "distance Rodi"
+msgstr "distancia Rodi"
+
+#: taextras.py:552
+msgid "returns the distance as a value between 0 and 1"
+msgstr "devuelve la distancia como un valor entre 0 y 1"
+
+#: taextras.py:553
+#, python-format
+msgid "Rodi %s not found"
+msgstr "No se encontró Rodi %s"
+
 #. TRANS: plugin to control an ExpEyes device
-#: taextras.py:521
+#: taextras.py:559
 msgid "Palette of Expeyes blocks"
 msgstr "Paleta de bloques de Expeyes"
 
 #. TRANS: Programmable voltage output
-#: taextras.py:523
+#: taextras.py:561
 msgid "set PVS"
 msgstr "establecer PVS"
 
-#: taextras.py:524
+#: taextras.py:562
 msgid "set programmable voltage output"
 msgstr "establece el voltaje de salida programable"
 
 #. TRANS: Square wave 1 voltage output
-#: taextras.py:526
+#: taextras.py:564
 msgid "set SQR1 voltage"
 msgstr "establecer voltaje SQR1"
 
-#: taextras.py:527
+#: taextras.py:565
 msgid "set square wave 1 voltage output"
 msgstr "establece una onda cuadrada en el voltaje de salida"
 
 #. TRANS: Square wave 2 voltage output
-#: taextras.py:529
+#: taextras.py:567
 msgid "set SQR2 voltage"
 msgstr "establecer voltaje SQR2"
 
-#: taextras.py:530
+#: taextras.py:568
 msgid "set square wave 2 voltage output"
 msgstr "establece una onda cuadrada en el voltaje de salida"
 
 #. TRANS: Digital output level
-#: taextras.py:532
+#: taextras.py:570
 msgid "set OD1"
 msgstr "establecer OD1"
 
-#: taextras.py:533
+#: taextras.py:571
 msgid "set digital output level (OD1) low (0) or high (1)"
 msgstr "establece el nivel de la salida digital (OD1) bajo (0) o alto (1)"
 
 #. TRANS: Input 1 voltage level
-#: taextras.py:535
+#: taextras.py:573
 msgid "IN1 level"
 msgstr "nivel IN1"
 
-#: taextras.py:536
+#: taextras.py:574
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
@@ -1615,11 +1712,11 @@ msgstr ""
 "2,5 volts"
 
 #. TRANS: Input 2 voltage level
-#: taextras.py:539
+#: taextras.py:577
 msgid "IN2 level"
 msgstr "nivel IN2"
 
-#: taextras.py:540
+#: taextras.py:578
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
@@ -1628,11 +1725,11 @@ msgstr ""
 "2,5 volts"
 
 #. TRANS: Resistive sensor voltage level
-#: taextras.py:543
+#: taextras.py:581
 msgid "SEN level"
 msgstr "nivel SEN"
 
-#: taextras.py:544
+#: taextras.py:582
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
@@ -1640,24 +1737,24 @@ msgstr ""
 "devuelve 1 si el voltaje del sensor resistivo (SEN) es mayor a 2,5 volts, 0 "
 "si el voltaje es <= 2,5 volts"
 
-#: taextras.py:546
+#: taextras.py:584
 msgid "capture"
 msgstr "capturar"
 
-#: taextras.py:547
+#: taextras.py:585
 msgid "input"
 msgstr "entrada"
 
-#: taextras.py:548
+#: taextras.py:586
 msgid "samples"
 msgstr "muestras"
 
-#: taextras.py:549
+#: taextras.py:587
 msgid "interval"
 msgstr "intervalo"
 
 #. TRANS: MS is microseconds
-#: taextras.py:551
+#: taextras.py:589
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr ""
@@ -1665,78 +1762,78 @@ msgstr ""
 "son puestos en FIFO"
 
 #. TRANS: Analog input 1 voltage level
-#: taextras.py:554
+#: taextras.py:592
 msgid "A1"
 msgstr "A1"
 
-#: taextras.py:555
+#: taextras.py:593
 msgid "read analog input 1 voltage"
 msgstr "lee el voltaje de la entrada analógica 1"
 
 #. TRANS: Analog input 2 voltage level
-#: taextras.py:557
+#: taextras.py:595
 msgid "A2"
 msgstr "A2"
 
-#: taextras.py:558
+#: taextras.py:596
 msgid "read analog input 2 voltage"
 msgstr "lee el voltaje de la entrada analógica 2"
 
 #. TRANS: Read input 1 voltage
-#: taextras.py:560
+#: taextras.py:598
 msgid "IN1"
 msgstr "IN1"
 
-#: taextras.py:561
+#: taextras.py:599
 msgid "read input 1 voltage"
 msgstr "lee el voltaje de la entrada 1"
 
 #. TRANS: Read input 2 voltage
-#: taextras.py:563
+#: taextras.py:601
 msgid "IN2"
 msgstr "IN2"
 
-#: taextras.py:564
+#: taextras.py:602
 msgid "read input 2 voltage"
 msgstr "lee el voltaje de la entrada 2"
 
 #. TRANS: Read analog sensor input voltage
-#: taextras.py:566
+#: taextras.py:604
 msgid "SEN"
 msgstr "SEN"
 
-#: taextras.py:567
+#: taextras.py:605
 msgid "read analog sensor input voltage"
 msgstr "lee el voltaje de entrada del sensor analógico"
 
 #. TRANS: Read square wave 1 input voltage
-#: taextras.py:569
+#: taextras.py:607
 msgid "SQR1"
 msgstr "SQR1"
 
-#: taextras.py:570
+#: taextras.py:608
 msgid "read square wave 1 voltage"
 msgstr "lee el voltaje de la onda cuadrada 1"
 
 #. TRANS: Read square wave 2 input voltage
-#: taextras.py:572
+#: taextras.py:610
 msgid "SQR2"
 msgstr "SQR2"
 
-#: taextras.py:573
+#: taextras.py:611
 msgid "read square wave 2 voltage"
 msgstr "lee el voltaje de la onda cuadrada 2"
 
 #. TRANS: Read programmable voltage
-#: taextras.py:575
+#: taextras.py:613
 msgid "PVS"
 msgstr "PVS"
 
-#: taextras.py:576
+#: taextras.py:614
 msgid "read programmable voltage"
 msgstr "leer voltaje programable"
 
-#: taextras.py:577
+#: taextras.py:615
 msgid "Expeyes device not found"
 msgstr "El dispositivo Expeyes no fue encontrado"
 
@@ -2795,9 +2892,6 @@ msgstr "El dispositivo Expeyes no fue encontrado"
 
 #~ msgid "sets size of the line drawn by the turtle"
 #~ msgstr "fija el ancho de la línea que la tortuga dibuja"
-
-#~ msgid "Open"
-#~ msgstr "Abrir"
 
 #~ msgid "orientation"
 #~ msgstr "orientación"
