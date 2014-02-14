@@ -370,27 +370,29 @@ if dynamic = 0, it is fixed in position.')
 WEDO_STRINGS = [
     # TRANS: WeDo is a robotics product of the LEGO company
     _('Palette of WeDo blocks'),
+    _('The parameter must be a integer, not '%s''),
+    _('Motor speed must be an integer between -100 and 100'),
+    _('WeDo found %s bricks'),
+    _('WeDo not found'),
+    _('WeDo number %s was not found'),
+    _('wedo'),
+    _('refresh WeDo'),
+    _('Search for a connected WeDo.'),
     _('WeDo'),
     _('set current WeDo device'),
+    _('number of WeDos'),
     _('number of WeDo devices'),
     _('tilt'),
-    _('tilt sensor output: (-1 == no tilt,\
- 0 == tilt forward, 3 == tilt back, 1 == tilt left, 2 == tilt right)'),
+    _('tilt sensor output: (-1 == no tilt,0 == tilt forward, 3 == tilt back, 1 == tilt left, 2 == tilt right)'),
     _('distance'),
     #TRANS: This string is shorthand for "output of the distance sensor"
     _('distance sensor output'),
     _('Motor A'),
-    _('returns the current value of Motor A'),
+    _('returns the current speed of Motor A'),
     _('Motor B'),
-    _('returns the current value of Motor B'),
-    _('set the value for Motor A'),
-    _('set the value for Motor B'),
-    _('WeDo is unavailable'),
-    # TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
-    _('WeDo %d is unavailable; defaulting to 1'),
-    # TRANS: %(device)s and %(wedo_number)d are substitution strings;
-    # please leave untranslated
-    _('%(device)s is unavailable on WeDo %(wedo_number)d')
+    _('returns the current speed of Motor B'),
+    _('set the speed for Motor A'),
+    _('set the speed for Motor B')
 ]
 
 LEGO_STRINGS = [
