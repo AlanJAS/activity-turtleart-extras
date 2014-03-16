@@ -1576,12 +1576,14 @@ msgid "ERROR: Check the connection to the robot."
 msgstr "ERREUR : Vérifier la connexion avec le robot."
 
 #: taextras.py:533
-#, python-format, 
+#, python-format
+#, python-format,
 msgid "ERROR: The speed must be a value between 0 and %d"
 msgstr "ERREUR : La vitesse doit être une valeur entre 0 et %d"
 
 #: taextras.py:534
-#, python-format, 
+#, python-format
+#, python-format,
 msgid "ERROR: The speed must be a value between %(min)d and %(max)d"
 msgstr "ERREUR : La vitesse doit être une valeur entre %(min)d et %(max)d"
 
