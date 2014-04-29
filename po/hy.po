@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-20 00:34-0400\n"
-"PO-Revision-Date: 2013-07-24 14:12+0200\n"
-"Last-Translator: anushnur <anush.mkrtchyan@ca1492.com>\n"
+"POT-Creation-Date: 2014-02-16 00:32-0500\n"
+"PO-Revision-Date: 2014-04-29 02:19+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -106,26 +106,30 @@ msgid "ERROR: The speed must be a value between 0 and 1023"
 msgstr "ՍԽԱԼ է. արագության արժեքը պետք է լինի 0 -ի և 1023 սահմաններում:"
 
 #: taextras.py:80
+msgid "ERROR: The speed must be a value between -1023 and 1023"
+msgstr "ՍԽԱԼ է. արագության արժեքը պետք է լինի  -1023 -ի և 1023 սահմաններում:"
+
+#: taextras.py:81
 msgid "ERROR: The pin must be between 1 and 8"
 msgstr "ՍԽԱԼ է. ծածկագիրը պետք է լինի -ից 8-ի սահմաններում:"
 
-#: taextras.py:81
+#: taextras.py:82
 msgid "ERROR: The value must be 0 or 1, LOW or HIGH"
 msgstr "ՍԽԱԼ է. արժեքը պետք է լինի 0 կամ 1, ՑԱԾՐ կամ ԲԱՐՁՐ:"
 
-#: taextras.py:82
+#: taextras.py:83
 msgid "ERROR: The mode must be INPUT or OUTPUT."
 msgstr "ՍԽԱԼ է. ռեժիմը պետք է լինի ՄՈՒՏՔԱՅԻՆ կամ ԵԼՔԱՅԻՆ:"
 
-#: taextras.py:83 taextras.py:84
+#: taextras.py:84
 msgid "turns LED on and off: 1 means on, 0 means off"
 msgstr ""
-"միացնում և անջատում է LED -ը՝ 1 նշանակում է միացված, 0 նշանակում է անջատված"
+"Միացնում և անջատում է LED -ը՝ 1 նշանակում է միացված, 0 նշանակում է անջատված"
 
 #: taextras.py:85
 msgid "returns the gray level as a value between 0 and 65535"
 msgstr ""
-"վերականգնում է մոխրագույն մակարդակը որպես 0-ի և 65535-ի սահմաններում ընկած "
+"Վերականգնում է մոխրագույնի մակարդակը որպես 0-ի և 65535-ի սահմաններում ընկած "
 "արժեք"
 
 #: taextras.py:86
@@ -135,698 +139,861 @@ msgstr "Վերականգնում է 1-ը, երբ կոճակը սեղմված է 
 #: taextras.py:87
 msgid "returns the light level as a value between 0 and 65535"
 msgstr ""
-"վերականգնում է լույսի մակարդակը որպես 0-ի և 65535-ի սահմաններում ընկած արժեք"
+"Վերականգնում է լույսի մակարդակը` որպես 0-ի և 65535-ի սահմաններում ընկած "
+"արժեք"
 
 #: taextras.py:88
 msgid "returns the distance as a value between 0 and 65535"
 msgstr ""
-"վերականգնում է հեռավորությունը որպես 0-ի և 65535-ի սահմաններում ընկած արժեք"
+"Վերականգնում է հեռավորությունը որպես 0-ի և 65535-ի սահմաններում ընկած արժեք"
 
 # օհմ - էլեկտրական դիմադրության չափման միավոր
 #: taextras.py:89
 msgid "returns the resistance value (ohms)"
-msgstr "վերականգնում է դիմադրության արժեքը  (օհմ)"
+msgstr "Վերականգնում է դիմադրության արժեքը (օհմ)"
 
 #: taextras.py:90
 msgid "returns the voltage value (volts)"
-msgstr "վերականգնում է հոսանքի լարման արժեքը (վոլտ)"
+msgstr "Վերականգնում է հոսանքի լարման արժեքը (վոլտ)"
 
 #: taextras.py:91
-msgid "returns the temperature"
-msgstr "Վերականգնում է ջերմաստիճանը:"
+msgid "returns the temperature value (celsius degree)"
+msgstr "Վերադարձնում է ջերմաստիճանի արժեքը (ըստ Ցելսուս)"
 
 #: taextras.py:92
-msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
-msgstr ""
-"Դարձնում է 1, երբ սենսորը հայտնաբերում է մագնիսական դաշտ, իսկ հակառակ "
-"դեպքում` 0"
+#, python-format, fuzzy
+msgid "custom module %s"
+msgstr "Անհատական համակարգ"
+
+#: taextras.py:93
+msgid "sensor a"
+msgstr "Սենսոր a"
+
+#: taextras.py:94
+msgid "sensor b"
+msgstr "Սենսոր b"
+
+#: taextras.py:95
+msgid "sensor c"
+msgstr "Սենսոր c"
+
+#: taextras.py:96
+msgid "actuator a"
+msgstr "ակտուատոր a"
+
+#: taextras.py:97
+msgid "actuator b"
+msgstr "ակտուատոր b"
+
+#: taextras.py:98
+msgid "actuator c"
+msgstr "ակտուատոր c"
 
 # Լուսարձակման Դիոդ
-#: taextras.py:93
+#: taextras.py:99
 msgid "LED"
 msgstr "ԼԱԴ"
 
-#: taextras.py:94
+#: taextras.py:100 taextras.py:402
 msgid "button"
 msgstr "Կոճակ"
 
-#: taextras.py:95 taextras.py:363
+#: taextras.py:101 taextras.py:407
 msgid "gray"
-msgstr "մոխրագույն"
+msgstr "Մոխրագույն"
 
-#: taextras.py:96 taextras.py:361
+# Բաց
+#: taextras.py:102 taextras.py:405
 msgid "light"
 msgstr "Լույս"
 
-#: taextras.py:97
-msgid "temperature"
-msgstr "Ջերմաստիճանը"
-
-#: taextras.py:98 taextras.py:335
+#: taextras.py:103 taextras.py:387 taextras.py:403
 msgid "distance"
-msgstr "հեռավորություն"
+msgstr "Հեռավորություն"
 
-#: taextras.py:99
+#: taextras.py:104
 msgid "resistance"
 msgstr "Դիմադրություն"
 
-#: taextras.py:100
+#: taextras.py:105
 msgid "voltage"
 msgstr "Լարում"
 
-#: taextras.py:101
+#: taextras.py:106
+msgid "temperature"
+msgstr "Ջերմաստիճան"
+
+#: taextras.py:107
+msgid "butia"
+msgstr "Բութիա"
+
+#: taextras.py:108
 msgid "Butia Robot"
 msgstr "Բութիա Ռոբոտ"
 
-#: taextras.py:102
+#: taextras.py:109
 msgid "refresh Butia"
 msgstr "Թարմացնել Բութիան"
 
-#: taextras.py:103
+#: taextras.py:110
 msgid "refresh the state of the Butia palette and blocks"
 msgstr "Թարմացնել Բութիայի պահոցի վիճակն ու մասնիկները:"
 
 #. TRANS: This string is shorthand for "battery charge of Butia"
-#: taextras.py:105
+#: taextras.py:112
 msgid "battery charge Butia"
 msgstr "Բութիա մարտկոցի լիցքավորում"
 
-#: taextras.py:106
+#: taextras.py:113
 msgid ""
 "returns the battery charge in volts. If no motors present, it returns 255"
 msgstr ""
-"վերականգնում է մարտկոցի լիծքավորումը վոլտով: Եթե շարժիչ չկա, վերականգնում է "
+"Վերականգնում է մարտկոցի լիցքավորումը վոլտով: Եթե շարժիչ չկա, վերականգնում է "
 "255"
 
 #. TRANS: This string is shorthand for "speed of Butia"
-#: taextras.py:108
+#: taextras.py:115
 msgid "speed Butia"
 msgstr "Բութիա արագություն"
 
-#: taextras.py:109
+#: taextras.py:116
 msgid "set the speed of the Butia motors"
-msgstr "սահմանիր Բութիա շարժիչի արագությունը"
+msgstr "Սահմանել Բութիա շարժիչի արագությունը"
 
-#: taextras.py:110
+#: taextras.py:117
 msgid "move Butia"
-msgstr "շարժել Բութիային"
+msgstr "Շարժել Բութիան"
 
-#: taextras.py:111
+#: taextras.py:118 taextras.py:540
 msgid "left"
 msgstr "Ձախ"
 
-#: taextras.py:112
+#: taextras.py:119 taextras.py:541
 msgid "right"
 msgstr "Աջ"
 
-#: taextras.py:113
+#: taextras.py:120
 msgid "moves the Butia motors at the specified speed"
-msgstr "շարժում է Բութիայի շարժիչը հատկորոշված արագությամբ"
+msgstr "Շարժում է Բութիայի շարժիչը որոշված արագությամբ"
 
-#: taextras.py:114
+#: taextras.py:121
 msgid "stop Butia"
-msgstr "կանգնեցնել Բութիան"
+msgstr "Կանգնեցնել Բութիան"
 
-#: taextras.py:115
+#: taextras.py:122
 msgid "stop the Butia robot"
 msgstr "Կանգնեցնել Բութիա ռոբոտը:"
 
 #. TRANS: This string is shorthand for "move Butia forward"
-#: taextras.py:117
+#: taextras.py:124
 msgid "forward Butia"
 msgstr "Առաջ տանել Բութիան"
 
-#: taextras.py:118
+#: taextras.py:125
 msgid "move the Butia robot forward"
 msgstr "Բութիա ռոբոտը շարժել դեպի առաջ"
 
 #. TRANS: This string is shorthand for "turn Butia left"
-#: taextras.py:120
+#: taextras.py:127
 msgid "left Butia"
 msgstr "Ձախ Բութիա"
 
-#: taextras.py:121
+#: taextras.py:128
 msgid "turn the Butia robot at left"
 msgstr "Բութիա ռոբոտը շրջել դեպի աջ:"
 
 #. TRANS: This string is shorthand for "turn Butia right"
-#: taextras.py:123
+#: taextras.py:130
 msgid "right Butia"
-msgstr "աջ Բութիա"
+msgstr "Աջ Բութիա"
 
-#: taextras.py:124
+#: taextras.py:131
 msgid "turn the Butia robot at right"
 msgstr "Բութիա ռոբոտը շրջել դեպի աջ:"
 
 #. TRANS: This string is shorthand for "move Butia backward"
-#: taextras.py:126
+#: taextras.py:133
 msgid "backward Butia"
 msgstr "Բութիան` հետ"
 
-#: taextras.py:127
+#: taextras.py:134
 msgid "move the Butia robot backward"
 msgstr "Շարժել Բութիա ռոբոտը դեպի ետ"
 
-#: taextras.py:128
+#: taextras.py:135
+msgid "butia-extra"
+msgstr "բութիա-հավելյալ"
+
+#. TRANS: cast means data type conversion
+#: taextras.py:137
 msgid "Butia Robot extra blocks"
-msgstr "Բութիա Ռոբոտի լրացուցիչ մասերը"
+msgstr "Բութիա Ռոբոտի լրացուցիչ մասնիկները"
 
-#: taextras.py:129
-msgid "hack pin mode"
-msgstr "ներխուժել փին ռեժիմ"
+# pin: personal identification number - անհատական նույնացման թիվ
+#: taextras.py:138
+msgid "pin mode Butia"
+msgstr "Բութիայի անհատական նույնացման թվի ռեժիմ"
 
-#: taextras.py:130 taextras.py:298 taextras.py:464
+#: taextras.py:139 taextras.py:339 taextras.py:500
 msgid "pin"
 msgstr "Կոճգամ"
 
-# Մոդուլ
-#: taextras.py:131 taextras.py:465
+# Ռեժիմ
+#: taextras.py:140 taextras.py:501
 msgid "mode"
 msgstr "Կերպ"
 
-#: taextras.py:132
+#: taextras.py:141
 msgid "Select the pin function (INPUT, OUTPUT)."
 msgstr "Ընտրել pin գործառույթը (ՆԵՐԱԾՄԱՆ, ԱՐՏԱԾՄԱՆ)"
 
-#: taextras.py:133
-msgid "write hack pin Butia"
-msgstr "գրել Բութիայի ներխուժման փինը"
+#: taextras.py:142
+msgid "read pin Butia"
+msgstr "ընթերցել Բութիայի  անհատական նույնացման թիվը"
 
-#: taextras.py:134 taextras.py:468
+#: taextras.py:143
+msgid "read the value of a pin"
+msgstr "Ընթերցել pin-ի արժեքը"
+
+#: taextras.py:144
+msgid "write pin Butia"
+msgstr "Գրել Բութիայի pin-ը"
+
+#: taextras.py:145 taextras.py:504
 msgid "value"
 msgstr "Արժեք"
 
-#: taextras.py:135
+#: taextras.py:146
 msgid "set a hack pin to 0 or 1"
-msgstr "սահմանել ներխուժման փինը 0 կամ 1"
+msgstr "Սահմանել ներխուժման փինը 0 կամ 1"
 
-#: taextras.py:136
-msgid "read hack pin Butia"
-msgstr "ընթերցել Բութիայի ներխուժման փինը"
-
-#: taextras.py:137
-msgid "read the value of a hack pin"
-msgstr "ընթերցել ներխուժման փինի արժեքը"
-
-#: taextras.py:138 taextras.py:440
-msgid "HIGH"
-msgstr "ԲԱՐՁՐ"
-
-#: taextras.py:139 taextras.py:477
-msgid "Set HIGH value for digital port."
-msgstr "Թվայնացված Մուտքի համար սահմանել ԲԱՐՁՐ արժեքը:"
-
-#: taextras.py:140 taextras.py:442
+#: taextras.py:147 taextras.py:475 taextras.py:529
 msgid "INPUT"
 msgstr "ՄՈւՏՔ"
 
-#: taextras.py:141
-msgid "Configure hack port for digital input."
-msgstr "Կարգավորել ներխուժման մուտքը թվային եղանակով ներածման համար:"
+#: taextras.py:148
+msgid "Configure hack pin for digital input."
+msgstr "Կարգավորել մուտքի pin-ը թվային եղանակով ներածման համար:"
 
-#: taextras.py:142 taextras.py:441
+#: taextras.py:149 taextras.py:473 taextras.py:527
+msgid "HIGH"
+msgstr "ԲԱՐՁՐ"
+
+#: taextras.py:150
+msgid "Set HIGH value for digital pin."
+msgstr "Թվայնացված Մուտքի pin-ի համար սահմանել ԲԱՐՁՐ արժեքը:"
+
+#: taextras.py:151 taextras.py:474 taextras.py:528
 msgid "LOW"
 msgstr "ՑԱԾՐ"
 
-#: taextras.py:143 taextras.py:480
+#: taextras.py:152 taextras.py:515
 msgid "Set LOW value for digital port."
-msgstr "ԹվայինՄուտքի համար սահմանել ՑԱԾՐ արժեքը:"
+msgstr "Թվային Մուտքի համար սահմանել ՑԱԾՐ արժեքը:"
 
-#: taextras.py:144 taextras.py:443
+#: taextras.py:153 taextras.py:476 taextras.py:530
 msgid "OUTPUT"
 msgstr "ԱՐՏԱԾՈՒՄ"
 
-#: taextras.py:145
+#: taextras.py:154
 msgid "Configure hack port for digital output."
 msgstr "Կարգավորել ներխուժման մուտքը թվային արդյունքի համար:"
 
-#: taextras.py:146
+#: taextras.py:155
+msgid "butia-cast"
+msgstr "բութիա-փոխարկում"
+
+#: taextras.py:156
+msgid "Butia Robot cast blocks"
+msgstr "Բութիա Ռոբոտի փոխարկման մասնիկները"
+
+#: taextras.py:157
 msgid "Butia"
 msgstr "Բութիա"
 
+#. TRANS: cast means data type conversion
+#: taextras.py:159
+msgid "CAST\n"
+msgstr "ՓՈԽԱՐԿՈՒՄ\n"
+
+#: taextras.py:160
+msgid "new name"
+msgstr "Նոր անուն"
+
+#: taextras.py:161
+msgid "original"
+msgstr "Բնօրինակ"
+
+#: taextras.py:162
+msgid "f(x)="
+msgstr "f(x)="
+
+#: taextras.py:163
+msgid "name"
+msgstr "Անուն"
+
+#. TRANS: cast means data type conversion
+#: taextras.py:165
+msgid "Cast a new block"
+msgstr "Փոխարկել նոր մասնիկ"
+
+#: taextras.py:166
+#, python-format
+#, python-format,
+msgid "generic module %s"
+msgstr "Ընդհանուր Մոդուլ %s"
+
+#: taextras.py:167
+msgid "Butia IP"
+msgstr "Բութիայի Ինտերնետային IP արձանագրությունը"
+
+#: taextras.py:168
+msgid "change the IP of butia robot"
+msgstr "Փոխել բութիայ ռոբոտի Ինտերնետային IP արձանագրությունը"
+
 # needs to have %s
-#: taextras.py:147
+#: taextras.py:169
 #, python-format
 #, python-format,
 msgid "ERROR: The pin %s must be in OUTPUT mode."
-msgstr "ՍԽԱԼ. Փինը %s պետք է լինի ԱՐՏԱԾՄԱՆ ռեժիմում"
+msgstr "ՍԽԱԼ. %s pin-ը պետք է լինի ԱՐՏԱԾՄԱՆ ռեժիմում"
 
 # needs to have %s
-#: taextras.py:148
+#: taextras.py:170
 #, python-format
 #, python-format,
 msgid "ERROR: The pin %s must be in INPUT mode."
-msgstr "ՍԽԱԼ. Փինը %s պետք է լինի ՆԵՐԱԾՄԱՆ ռեժիմում"
+msgstr "ՍԽԱԼ. %s  pin-ը պետք է լինի ՆԵՐԱԾՄԱՆ ռեժիմում"
 
-#: taextras.py:152
+#: taextras.py:171
+#, python-format
+msgid "ERROR: Something wrong with function '%s'"
+msgstr "Սխալ. Ինչ որ բան սխալ է '%s' գործառույթի հետ"
+
+#: taextras.py:172
+#, python-format
+msgid "ERROR: cannot init GCONF client: %s"
+msgstr "Սխալ. հնարավոր չէ մեկնարկել հաճախորդ GCONF-ը. %s"
+
+#. TRANS: cast means data type conversion
+#: taextras.py:174
+msgid "ERROR: You must cast Sensor or Actuator: A, B or C"
+msgstr "ՍԽԱԼ. Պետք է փոխարկես Սենսերը կամ Ակտուատորը` A, B կամ C"
+
+#: taextras.py:175
+#, python-format
+msgid "ERROR: Invalid IP '%s'"
+msgstr "ՍԽԱԼ. Անվավեր ինտերնետային IP արձանագրություն '%s'"
+
+#: taextras.py:176
+msgid "Creating PyBot server"
+msgstr "Ստեղծում է PyBot սերվեր"
+
+#: taextras.py:177
+msgid "ERROR creating PyBot server"
+msgstr "Սխալ տեղի ունեցավ PyBot սերվերի ստեղծման մեջ"
+
+#: taextras.py:178
+msgid "PyBot is alive!"
+msgstr "PyBot - ը կենդանի է"
+
+#: taextras.py:179
+msgid "Ending butia polling"
+msgstr "Ավարտում է բութիա հարցախույզը"
+
+#: taextras.py:183
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
 msgstr ""
 "Վրիպում՝ Pygame-ը ներբեռնելիս: Այս ավելացվող հանգույցը պահանջում է Pygame "
 "1.9 տարբերակը"
 
-#: taextras.py:153
+#: taextras.py:184
 msgid "Error on initialization of the camera"
 msgstr "Տեսախցիկի վերամեկնարկման գործողությունը ձախողվեց"
 
-#: taextras.py:154
+#: taextras.py:185
 msgid "No camera was found"
 msgstr "Տեսախցիկը հայտնաբերված չէ"
 
-#: taextras.py:155
+#: taextras.py:186
 msgid "Error stopping camera"
-msgstr "Տեսախցիկի ընդհատման գործողությունը ձախողվեց"
+msgstr "Տեսախցիկի կասեցումը ձախողվեց"
 
-#: taextras.py:156
+#: taextras.py:187
 msgid "Error starting camera"
-msgstr "Տեսախցիկի վերամեկնարկման գործողությունը ձախողվեց"
+msgstr "Տեսախցիկի մեկնարկումը ձախողվեց"
 
 #. TRANS: The "mask" is used to restrict processing to a region in the image
-#: taextras.py:158
+#: taextras.py:189
 msgid "Error in get mask"
 msgstr "ՎՐԻՊՈՒՄ դիմակը ձեռք բերելիս"
 
-#: taextras.py:159
+#: taextras.py:190
+msgid "followme"
+msgstr "Հետևիր ինձ"
+
+#: taextras.py:191
 msgid "FollowMe"
 msgstr "Հետևիր ինձ"
 
-#: taextras.py:160
+#: taextras.py:192
 msgid "refresh FollowMe"
-msgstr "թարմացնել ՛՛Հետևիր ինձ՛՛"
+msgstr "Թարմացնել ՛՛Հետևիր ինձ՛՛"
 
-#: taextras.py:161
+#: taextras.py:193
 msgid "Search for a connected camera."
-msgstr "Փնտրել միացված տեսախցիկը:"
+msgstr "Փնտրել միացված տեսախցիկ:"
 
 # Calibration - Ելքային արժեքի հարմմարեցումը ելքի էտալոնային արժեքին:
 #. TRANS: the calibration is used to match an RGB color to a target
-#: taextras.py:163
+#: taextras.py:195
 msgid "calibration"
 msgstr "Կալիբրացիա"
 
-#: taextras.py:164
+#: taextras.py:196
 msgid "store a personalized calibration"
 msgstr "Պահել անհատականացված կալիբրացիան:"
 
-#: taextras.py:165
+#: taextras.py:197
 msgid "return a personalized calibration"
 msgstr "Վերադարձնել անհատականացված կալիբրացիան:"
 
-#: taextras.py:166
+#: taextras.py:198
 msgid "follow"
 msgstr "Հետևել"
 
-#: taextras.py:167
+#: taextras.py:199
 msgid "follow a color or calibration"
-msgstr "Հետևել գույնին կամ կալիբրացայիային:"
+msgstr "Հետևել գույնին կամ կալիբրացիային:"
 
-#: taextras.py:168
+#: taextras.py:200
 msgid "brightness"
 msgstr "Պայծառություն"
 
-#: taextras.py:169
+#: taextras.py:201
 msgid "set the camera brightness as a value between 0 to 255."
-msgstr "տեսախցիկի պայծառությունը սահմանել որպես արժեք 0-ի և 255-ի սահմաններում"
+msgstr "Տեսախցիկի պայծառությունը սահմանել որպես արժեք` 0-ի և 255-ի սահմաններում"
 
-#: taextras.py:170
+#: taextras.py:202
 msgid "minimum pixels"
 msgstr "Պիքսելների նվազագույնը"
 
-#: taextras.py:171
+#: taextras.py:203
 msgid "set the minimal number of pixels to follow"
 msgstr "Սահմանել հաջորդող պիքսելների նվազագույն քանակը:"
 
-#: taextras.py:172
+#: taextras.py:204
 msgid "threshold"
 msgstr "Նախաշեմ"
 
 #. TRANS: RGB color space (red, green, blue)
-#: taextras.py:174
+#: taextras.py:206
 msgid "set a threshold for a RGB color"
-msgstr "Սահմանել ԿԿԿ գույնի շեմը"
+msgstr "Սահմանել ԿԿԿ գույնի նախաշեմը"
 
-#: taextras.py:175
+#: taextras.py:207
 msgid "camera mode"
-msgstr "տեսախցիկի ռեժիմ"
+msgstr "Տեսախցիկի ռեժիմ"
 
 #. TRANS: RGB, YUV, and HSV are color spaces
-#: taextras.py:177
+#: taextras.py:209
 msgid "set the color mode of the camera: RGB; YUV or HSV"
 msgstr "տեղադրել տեսախցիկի RGB; YUV կամ HSV գունային ռեժիմը"
 
-#: taextras.py:178
+#: taextras.py:210
 msgid "get brightness"
-msgstr "ձեռք բերել պայծառություն"
+msgstr "Ձեռք բերել պայծառություն"
 
-#: taextras.py:179
+#: taextras.py:211
 msgid "get the brightness of the ambient light"
-msgstr "ձեռք բերել միջավայրի լույսի պայծառությունը"
+msgstr "Ձեռք բերել միջավայրի լույսի պայծառությունը"
 
-#: taextras.py:180
+#: taextras.py:212
 msgid "average color"
-msgstr "միջին գույնը"
+msgstr "Միջին գույնը"
 
-#: taextras.py:181
+#: taextras.py:213
 msgid ""
-"if set to 0 then color averaging is off during calibration; for other values "
+"if set to 0 then color averaging is off during calibration;for other values, "
 "it is on"
 msgstr ""
-"եթե սահմանված է 0, ապա գունային միջին մեծությունը անջատված է տրամաչափման "
-"ընթացքում, մյուս արժեքների դեպքում՝ միացված"
+"Եթե սահմանված է 0, ապա գունային միջին մեծությունը անջատված է տրամաչափման` "
+"կալիբրացիայի ընթացքում, մյուս արժեքների դեպքում՝ միացված"
 
-#: taextras.py:183
+#: taextras.py:215
 msgid "x position"
-msgstr "Դիրքն x -ի վրա"
+msgstr "Դիրքն x -ի առանցքի վրա"
 
-#: taextras.py:184
+#: taextras.py:216
 msgid "return x position"
 msgstr "Վերադառնալ x դիրքին"
 
-#: taextras.py:185
+#: taextras.py:217
 msgid "y position"
-msgstr "Դիրքն y - ի վրա"
+msgstr "Դիրքն y - ի առանցքի վրա"
 
-#: taextras.py:186
+#: taextras.py:218
 msgid "return y position"
 msgstr "Վերադառնալ y դիրքին"
 
-#: taextras.py:187
+#: taextras.py:219
 msgid "pixels"
 msgstr "Պիքսել"
 
-#: taextras.py:188
+#: taextras.py:220
 msgid "return the number of pixels of the biggest blob"
 msgstr "Վերականգնել ամենամեծ բծի պիքսելների քանակը:"
 
+# Գունային տիրույթ (կարմիր, կանաչ, կապույտ)
 #. TRANS: RGB color space (red, green, blue)
-#: taextras.py:190
+#: taextras.py:222
+msgid "RGB"
+msgstr "RGB"
+
+# RGB - ԿԿԿ Կարմիր, Կապույտ, Կանաչ
+#: taextras.py:223
 msgid "set the color mode of the camera to RGB"
-msgstr "տեղադրել տեսախցիկի RGB գունային ռեժիմը"
+msgstr "Տեղադրել տեսախցիկի RGB գունային ռեժիմը"
 
+# YUV գունային տիրույթ (պայծառություն, գունավառություն)
 #. TRANS: YUV color space (luminance, chrominance)
-#: taextras.py:192
+#: taextras.py:225
+msgid "YUV"
+msgstr "YUV"
+
+#: taextras.py:226
 msgid "set the color mode of the camera to YUV"
-msgstr "տեղադրել տեսախցիկի YUV գունային ռեժիմը"
+msgstr "Տեղադրել տեսախցիկի YUV գունային ռեժիմը"
 
+# HSV գունային տիրույթ (նրբերանգ, հագեցում, արժեք)
 #. TRANS: HSV color space (hue, saturation, value)
-#: taextras.py:194
-msgid "set the color mode of the camera to HSV"
-msgstr "տեղադրել տեսախցիկի HSV գունային ռեժիմը"
+#: taextras.py:228
+msgid "HSV"
+msgstr "HSV"
 
-#: taextras.py:195
+#: taextras.py:229
+msgid "set the color mode of the camera to HSV"
+msgstr "Տեղադրել տեսախցիկի HSV գունային ռեժիմը"
+
+#: taextras.py:230
+msgid "get color"
+msgstr "Ստանալ գույնը"
+
+#: taextras.py:231
+msgid "get the color of an object"
+msgstr "Ստանալ առարկայի գույնը"
+
+#: taextras.py:232
+msgid "color distance"
+msgstr "գույնի հեռավորությունը"
+
+#: taextras.py:233
+msgid "set the distance to identify a color"
+msgstr "սահմանել հեռավորությունը, գույնը տարբերակելու համար"
+
+#: taextras.py:234
 msgid "empty calibration"
 msgstr "Կալիբրացիան. դատարկ"
 
-#: taextras.py:196
+#: taextras.py:235
 msgid "error in string conversion"
 msgstr "Տեքստային շղթայի փոխակերպման սխալ:"
 
 #. TRANS: Pattern detection is a plugin that allow detect signals
 #. with the camera
-#: taextras.py:202
+#: taextras.py:241
 msgid "Pattern detection"
 msgstr "Օրինակի հայտնաբերում"
 
-#: taextras.py:203
-msgid "Seeing signal"
-msgstr "Տեսնելու ազդանշան"
+#: taextras.py:242
+msgid "pattern_detection"
+msgstr "Օրինակի հայտնաբերում"
 
-#: taextras.py:204
+#: taextras.py:243
+msgid "Seeing signal"
+msgstr "Ազդանշանի նշմարումը"
+
+#: taextras.py:244
 msgid "Returns True if the signal is in front of the camera"
 msgstr "Դարձնում է Ճիշտ, եթե ազդանշանը տեսախցիկի առջև է"
 
-#: taextras.py:205
+#: taextras.py:245
 msgid "Distance to signal"
 msgstr "Ազդանշանի հեռավորությունը"
 
-#: taextras.py:206
+#: taextras.py:246
 msgid "Returns the distance of the signal to the camera in millimeters"
-msgstr "Վերադարձնում է ազդանշանի հեռավորությունը տեսախցիկին միլիմետրերով"
+msgstr "Վերադարձնում է ազդանշանի հեռավորությունը տեսախցիկին`միլիմետրերով"
 
 #. TRANS: SumBot is a robot programmed for "Sumo wrestling"
-#: taextras.py:211
+#: taextras.py:251
 msgid "SumBot"
 msgstr "SumBot"
 
-#: taextras.py:212
-msgid "speed SumBot"
-msgstr "SumBot -ի արագացում"
+#: taextras.py:252
+msgid "sumtia"
+msgstr "sumtia"
 
-#: taextras.py:213
+#: taextras.py:253
+msgid "speed SumBot"
+msgstr "SumBot -ի արագություն"
+
+#: taextras.py:254
 msgid "submit the speed to the SumBot"
 msgstr "Ներմուծել SumBot -ի արագությունը:"
 
-#: taextras.py:214
+#: taextras.py:255
 msgid "set the default speed for the movement commands"
 msgstr "Սահմանել նախնական արագությունը`տեղաշարժման հրահանգների համար"
 
 #. TRANS: This string is shorthand for "move SumBot forward"
-#: taextras.py:216
+#: taextras.py:257
 msgid "forward SumBot"
 msgstr "SumBot առաջ"
 
-#: taextras.py:217
+#: taextras.py:258
 msgid "move SumBot forward"
 msgstr "SumBot-ը շարժել դեպի առաջ"
 
 #. TRANS: This string is shorthand for "move SumBot backward"
-#: taextras.py:219
+#: taextras.py:260
 msgid "backward SumBot"
 msgstr "SumBot` ետ"
 
-#: taextras.py:220
+#: taextras.py:261
 msgid "move SumBot backward"
 msgstr "SumBot շարժել դեպի ետ"
 
-#: taextras.py:221
+#: taextras.py:262
 msgid "stop SumBot"
 msgstr "SumBot կանգ"
 
-#: taextras.py:222
+#: taextras.py:263
 msgid "stop the SumBot"
 msgstr "Կանգնեցնել SumBot-ը"
 
 #. TRANS: This string is shorthand for "turn SumBot left"
-#: taextras.py:224
+#: taextras.py:265
 msgid "left SumBot"
 msgstr "SumBot Ձախ"
 
-#: taextras.py:225
+#: taextras.py:266
 msgid "turn left the SumBot"
 msgstr "SumBot-ը շրջել դեպի ձախ:"
 
 #. TRANS: This string is shorthand for "move SumBot right"
-#: taextras.py:227
+#: taextras.py:268
 msgid "right SumBot"
 msgstr "SumBot` աջ"
 
-#: taextras.py:228
+#: taextras.py:269
 msgid "turn right the SumBot"
 msgstr "SumBot -ը շրջել դեպի աջ:"
 
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the center of the playing field
-#: taextras.py:231
+#: taextras.py:272
 msgid "angle to center"
 msgstr "Շրջել դեպի կենտրոն անկյան տակ"
 
 # Dohyo կան dojo - Սումո ըմբշամարտի բեմն է
 #. TRANS: dohyo is the playing field
-#: taextras.py:233
+#: taextras.py:274
 msgid "get the angle to the center of the dohyo"
 msgstr "Անկյունը հասցնում է dohyo- ի կենտրոնին"
 
 #. TRANS: The angle to the center is the angle SumBot must turn to
 #. face the Enemy (opponent)
-#: taextras.py:236
+#: taextras.py:277
 msgid "angle to Enemy"
 msgstr "Շրջել դեպի հակառակորդն ուղղող անկյան տակ:"
 
-#: taextras.py:237
+#: taextras.py:278
 msgid "get the angle to the Enemy"
 msgstr "Պարզել անկյան չափը մինչև հակառակորդը"
 
 #. TRANS: This string is shorthand for "x coordinate of SumBot"
-#: taextras.py:239
+#: taextras.py:280
 msgid "x coor. SumBot"
 msgstr "SumBot -ի X դիրքացույցը"
 
-#: taextras.py:240
+#: taextras.py:281
 msgid "get the x coordinate of the SumBot"
 msgstr "Պարզել SumBot ռոբոտի x դիրքացույցը"
 
 #. TRANS: This string is shorthand for "y coordinate of SumBot"
-#: taextras.py:242
+#: taextras.py:283
 msgid "y coor. SumBot"
 msgstr "y coor. SumBot"
 
-#: taextras.py:243
+#: taextras.py:284
 msgid "get the y coordinate of the SumBot"
 msgstr "Պարզել SumBot ռոբոտի y դիրքացույցը"
 
 #. TRANS: This string is shorthand for "x coordinate of SumBot's enemy"
-#: taextras.py:245
+#: taextras.py:286
 msgid "x coor. Enemy"
 msgstr "x coor. Հակառակորդի"
 
-#: taextras.py:246
+#: taextras.py:287
 msgid "get the x coordinate of the Enemy"
 msgstr "Պարզել հակառակորդի ռոբոտի x դիրքացույցը"
 
 #. TRANS: This string is shorthand for "y coordinate of SumBot's enemy"
-#: taextras.py:248
+#: taextras.py:289
 msgid "y coor. Enemy"
 msgstr "y coor. Հակառակորդի"
 
-#: taextras.py:249
+#: taextras.py:290
 msgid "get the y coordinate of the Enemy"
 msgstr "Պարզել հակառակորդի ռոբոտի y դիրքացույցը"
 
 #. TRANS: This string is shorthand for "rotation of SumBot"
-#: taextras.py:251
+#: taextras.py:292
 msgid "rotation SumBot"
 msgstr "SumBot պտույտ"
 
-#: taextras.py:252
+#: taextras.py:293
 msgid "get the rotation of the Sumbot"
 msgstr "Հասնում է Sumbot -ի պտույտին"
 
 # rotation պտույտ կամ շրջադարձ
 #. TRANS: This string is shorthand for "rotation of SumBot's enemy"
-#: taextras.py:254
+#: taextras.py:295
 msgid "rotation Enemy"
 msgstr "Հակառակորդի պտույտ"
 
-#: taextras.py:255
+#: taextras.py:296
 msgid "get the rotation of the Enemy"
 msgstr "Հասնում է Հակառակորդի պտույտին"
 
-#: taextras.py:256
+#: taextras.py:297
 msgid "distance to center"
 msgstr "հեռավորություն կենտրոնից"
 
 #. TRANS: dohyo is the playing field
-#: taextras.py:258
+#: taextras.py:299
 msgid "get the distance to the center of the dohyo"
 msgstr "Պարզել հեռավորությունը «dojo»-ի կենտրոնից"
 
-#: taextras.py:259
+#: taextras.py:300
 msgid "distance to Enemy"
 msgstr "Հեռավորությունը մինչև Հակառակորդը"
 
-#: taextras.py:260
+#: taextras.py:301
 msgid "get the distance to the Enemy"
 msgstr "Պարզել հեռավորությունը մինչև հակառակորդը"
 
-#: taextras.py:261
+#: taextras.py:302
 msgid "update information"
 msgstr "արդիականացնել տեղեկությունը"
 
-#: taextras.py:262
+#: taextras.py:303
 msgid "update information from the server"
 msgstr "Արդիականացնել տեղեկությունը` սերվերից"
 
 #. TRANS: Please use similar terms to those used in the Physics Activity
-#: taextras.py:267
+#: taextras.py:308
 msgid "Palette of physics blocks"
 msgstr "Ֆիզիկայի մասնիկների պահոց"
 
-#: taextras.py:268
+#: taextras.py:309
 msgid "start polygon"
 msgstr "Սկսել բազմանկյունը"
 
-#: taextras.py:269
+#: taextras.py:310
 msgid "Begin defining a new polygon based on the current Turtle xy position."
 msgstr "Սկսել նոր բազմանկյան սահմանումը` ելնելով Կրիայի առկա XY դիրքից"
 
-#: taextras.py:271
+#: taextras.py:312
 msgid "add point"
 msgstr "Կետ ավելացնել"
 
-#: taextras.py:272
+#: taextras.py:313
 msgid ""
 "Add a new point to the current polygon based on the current Turtle xy "
 "position."
 msgstr "Նոր կետ ավելացնել առկա բազմանկյանը` ելնելով Կրիայի ներկա XY դիրքից:"
 
-#: taextras.py:274
+#: taextras.py:315
 msgid "end polygon"
 msgstr "Ավարտել բազմանկյունը:"
 
-#: taextras.py:275
+#: taextras.py:316
 msgid "Define a new polygon."
 msgstr "Սահմանել նոր բազմանկյուն"
 
-#: taextras.py:276
+#: taextras.py:317
 msgid "end filled polygon"
 msgstr "Ավարտել լցված բազմանկյունը:"
 
-#: taextras.py:277
+#: taextras.py:318
 msgid "Not a simple polygon"
 msgstr "Պարզ բազմանկյուն չէ"
 
-#: taextras.py:278
+#: taextras.py:319
 msgid "Define a new filled polygon."
 msgstr "Սահմանել նոր, լցոնված բազմանկյուն:"
 
-#: taextras.py:279
+#: taextras.py:320
 msgid "triangle"
 msgstr "Եռանկյուն"
 
 #. TRANS: base of a triangle
-#: taextras.py:281
+#: taextras.py:322
 msgid "base"
 msgstr "Հիմք"
 
-#: taextras.py:282 taextras.py:288
+#: taextras.py:323 taextras.py:329
 msgid "height"
 msgstr "բարձրություն"
 
-#: taextras.py:283
+#: taextras.py:324
 msgid "Add a triangle object to the project."
 msgstr "Եռանկյունաձև օբյեկտ ավելացնել նախագծին:"
 
-#: taextras.py:284
+#: taextras.py:325
 msgid "circle"
 msgstr "Շրջանագիծ"
 
-#: taextras.py:285
+#: taextras.py:326
 msgid "Add a circle object to the project."
 msgstr "Շրջանաձև օբյեկտ ավելացնել նախագծին:"
 
-#: taextras.py:286
+#: taextras.py:327
 msgid "rectangle"
 msgstr "Ուղղանկյուն"
 
-#: taextras.py:287
+#: taextras.py:328
 msgid "width"
 msgstr "լայնք"
 
-#: taextras.py:289
+#: taextras.py:330
 msgid "Add a rectangle object to the project."
 msgstr "Ուղղանկյունաձև օբյեկտ ավելացնել նախագծին"
 
-#: taextras.py:290
+#: taextras.py:331
 msgid "reset"
 msgstr "Վերակարգավորել"
 
-#: taextras.py:291
+#: taextras.py:332
 msgid "Reset the project; clear the object list."
 msgstr "Վերակարգավորել Նախագիծը, վերացնել օբյեկտների ցանկը:"
 
-#: taextras.py:292
+#: taextras.py:333
 msgid "motor"
 msgstr "Շարժիչ"
 
 #. TRANS: torque as in engine torque
-#: taextras.py:294
+#: taextras.py:335
 msgid "torque"
 msgstr "Շարժիչի պտտվող մասը"
 
-#: taextras.py:295
+#: taextras.py:336
 msgid "speed"
 msgstr "Արագություն"
 
-#: taextras.py:296
+#: taextras.py:337
 msgid ""
 "Motor torque and speed range from 0 (off) to positive numbers; motor is "
 "placed on the most recent object created."
@@ -834,61 +1001,69 @@ msgstr ""
 "Շարժիչի պտույտները և արագության աստիճանները 0-ից /անջատված/ մինչև դրական "
 "թվեր; շարժիչը տեղավորվում է ամենավերջում ստեղծված օբյեկտի մոտ:"
 
-#: taextras.py:299
+#: taextras.py:340
 msgid "Pin an object down so that it cannot fall."
 msgstr "Կոճգամով ամրացրու օբյեկտը, որպեսզի չընկնի:"
 
-#: taextras.py:300
+#: taextras.py:341
+msgid "pen"
+msgstr "գրիչ"
+
+#: taextras.py:342
+msgid "Add a pen to an object so that its movements are traced."
+msgstr "Ավելացնել գրիչ առարկային, որպեսզի վերջինիս շարժումները հետապնդվեն:"
+
+#: taextras.py:344
 msgid "joint"
 msgstr "Միացյալ"
 
-#: taextras.py:301
+#: taextras.py:345
 msgid "x"
 msgstr "x"
 
-#: taextras.py:302
+#: taextras.py:346
 msgid "y"
 msgstr "y"
 
-#: taextras.py:303
+#: taextras.py:347
 msgid ""
-"Join two objects together (the most recent object created and the object at "
-"point x, y)."
+"Join two objects together (the object at the current location and the object "
+"at point x, y)."
 msgstr ""
 "Միացնել 2 օբյեկտները (ամենավերջում ստեղծված օբյեկտն ու x, y կետի վրա գտնվող "
 "օբյեկտը):"
 
-#: taextras.py:305
+#: taextras.py:349
 msgid "save as Physics activity"
 msgstr "Պահել ֆիզիկա գործունեությունը"
 
-#: taextras.py:306
+#: taextras.py:350
 msgid "Save the project to the Journal as a Physics activity."
 msgstr "Պահել Նախագիծը Մատյանում որպես Ֆիզիկայի գործունեություն:"
 
 #. TRANS: Here, gear means a toothed wheel, as in a clock-works
-#: taextras.py:308
+#: taextras.py:352
 msgid "gear"
 msgstr "Ատամնանիվ"
 
-#: taextras.py:309
+#: taextras.py:353
 msgid "Add a gear object to the project."
 msgstr "Նախագծին ատամնանիվ ավելացնել"
 
-#: taextras.py:310
+#: taextras.py:354
 msgid "density"
 msgstr "Խտություն"
 
-#: taextras.py:311
+#: taextras.py:355
 msgid ""
 "Set the density property for objects (density can be any positive number)."
 msgstr "Սահմանել օբյեկտների խտությունը (կարող է լինել միայն դրական թիվ):"
 
-#: taextras.py:313
+#: taextras.py:357
 msgid "friction"
 msgstr "Շփում"
 
-#: taextras.py:314
+#: taextras.py:358
 msgid ""
 "Set the friction property for objects (value from 0 to 1, where 0 turns "
 "friction off and 1 is strong friction)."
@@ -898,11 +1073,11 @@ msgstr ""
 
 # Առաձգական մակերեսի շնորհիվ
 #. TRANS: bounciness is coefficient of restitution
-#: taextras.py:317
+#: taextras.py:361
 msgid "bounciness"
 msgstr "Ետցատկ"
 
-#: taextras.py:318
+#: taextras.py:362
 msgid ""
 "Set the bounciness property for objects (a value from 0 to 1, where 0 means "
 "no bounce and 1 is very bouncy)."
@@ -912,11 +1087,11 @@ msgstr ""
 
 # Դինամիկ
 #. TRANS: dynamic here means moving vs in a fixed position
-#: taextras.py:321
+#: taextras.py:365
 msgid "dynamic"
 msgstr "Շարժուն"
 
-#: taextras.py:322
+#: taextras.py:366
 msgid ""
 "If dynamic = 1, the object can move; if dynamic = 0, it is fixed in position."
 msgstr ""
@@ -925,591 +1100,659 @@ msgstr ""
 
 # WeDo - LEGO ընկերության ռոբոտային արտադրանք է:
 #. TRANS: WeDo is a robotics product of the LEGO company
-#: taextras.py:328
+#: taextras.py:372
 msgid "Palette of WeDo blocks"
 msgstr "WeDo մասնիկների պահոց"
 
-#: taextras.py:329
+#: taextras.py:373
+msgid "The parameter must be a integer, not "
+msgstr "Պարամետրը պետք է լինի ամբողջ թիվ, ոչ "
+
+#: taextras.py:374
+msgid "Motor speed must be an integer between -100 and 100"
+msgstr "Շարժիչի արգությունը պետք է լինի -100-ից 100-ի միջև ընկած ամբողջ թիվ"
+
+#: taextras.py:375
+#, python-format, fuzzy
+msgid "WeDo found %s bricks"
+msgstr "NXT գտավ %s կառավարման սարքը"
+
+#: taextras.py:376
+msgid "WeDo not found"
+msgstr "WeDo-ն չգտնվեց"
+
+#: taextras.py:377
+#, python-format, fuzzy
+msgid "WeDo number %s was not found"
+msgstr "NXT կառավարման թիվը %s չհայտնաբերվեց"
+
+#: taextras.py:378
+msgid "wedo"
+msgstr ""
+
+#: taextras.py:379
+msgid "refresh WeDo"
+msgstr ""
+
+#: taextras.py:380
+#, fuzzy
+msgid "Search for a connected WeDo."
+msgstr "Փնտրել միացված տեսախցիկ:"
+
+#: taextras.py:381
 msgid "WeDo"
 msgstr "WeDo"
 
-#: taextras.py:330
+#: taextras.py:382
 msgid "set current WeDo device"
 msgstr "սահմանել ներկայիս WeDo սարքը"
 
-#: taextras.py:331
+#: taextras.py:383
+msgid "number of WeDos"
+msgstr "WeDo-ների քանակը"
+
+#: taextras.py:384
 msgid "number of WeDo devices"
 msgstr "WeDo սարքերի թիվը"
 
-#: taextras.py:332
+#: taextras.py:385
 msgid "tilt"
 msgstr "թեքություն"
 
-#: taextras.py:333
+#: taextras.py:386
 msgid ""
-"tilt sensor output: (-1 == no tilt, 0 == tilt forward, 3 == tilt back, 1 == "
+"tilt sensor output: (-1 == no tilt,0 == tilt forward, 3 == tilt back, 1 == "
 "tilt left, 2 == tilt right)"
 msgstr ""
 "Թեքման սենսորի արդյունքը. (-1 == թեքում չկա, 0 == թեքում դեպի առաջ, 3 == "
 "թեքում դեպի ետ, 1 == թեքում դեպի ձախ, 2 == թեքում դեպի աջ)"
 
 #. TRANS: This string is shorthand for "output of the distance sensor"
-#: taextras.py:337
+#: taextras.py:389
 msgid "distance sensor output"
 msgstr "Հեռավորության սենսորի արդյունքը:"
 
-#: taextras.py:338
+#: taextras.py:390
 msgid "Motor A"
 msgstr "Շարժիչ A"
 
-#: taextras.py:339
-msgid "returns the current value of Motor A"
-msgstr "Վերադարձնում է A շարժիչի ընթացիկ արժեքը:"
+#: taextras.py:391
+msgid "returns the current speed of Motor A"
+msgstr "Վերադարձնում է A շարժիչի ընթացիկ արագությունը:"
 
-#: taextras.py:340
+#: taextras.py:392
 msgid "Motor B"
 msgstr "Շարժիչ B"
 
-#: taextras.py:341
-msgid "returns the current value of Motor B"
-msgstr "Վերադարձնում է B շարժիչի ընթացիկ արժեքը:"
+#: taextras.py:393
+msgid "returns the current speed of Motor B"
+msgstr "Վերադարձնում է B շարժիչի ընթացիկ արագությունը:"
 
-#: taextras.py:342
-msgid "set the value for Motor A"
-msgstr "Սահմանել A շարժիչի արժեքը:"
+#: taextras.py:394
+msgid "set the speed for Motor A"
+msgstr "Սահմանել A շարժիչի արագությունը:"
 
-#: taextras.py:343
-msgid "set the value for Motor B"
-msgstr "Սահմանել B շարժիչի արժեքը:"
-
-#: taextras.py:344
-msgid "WeDo is unavailable"
-msgstr "WeDo - ն հասանելի չէ"
-
-#. TRANS: e.g., Wedo 2 is unavailable, defaulting to 1
-#: taextras.py:346
-#, python-format
-msgid "WeDo %d is unavailable; defaulting to 1"
-msgstr "WeDo %d անհասանելի է, լռելյայնությունը 1"
-
-#. TRANS: %(device)s and %(wedo_number)d are substitution strings;
-#. please leave untranslated
-#: taextras.py:349
-#, python-format
-msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
-msgstr "%(device)s անհասանելի է WeDo %(wedo_number)d սարքի վրա"
+#: taextras.py:395
+msgid "set the speed for Motor B"
+msgstr "Սահմանել B շարժիչի արագությունը:"
 
 # LEGO NXT - LEGO ընկերության ռոբոտային արտադրանք է:
 #. TRANS: Lego NXT is a robotics product of the LEGO company
-#: taextras.py:354
+#: taextras.py:400
 msgid "Palette of LEGO NXT blocks of motors"
 msgstr "Շարժիչի LEGO NXT մասնիկների պահոց:"
 
-#: taextras.py:355
+#: taextras.py:401
 msgid "Palette of LEGO NXT blocks of sensors"
 msgstr "LEGO NXT -ի սենսորների մասնիկների պահոց:"
 
-#. TRANS: touch sensor (implemented as a button)
-#: taextras.py:357
-msgid "touch"
-msgstr "Հպման սենսոր"
-
-# Հեռավորության չափումը գերձայնային ալիքներով
-#. TRANS: distance sensor (implemented using ultrasonics)
-#: taextras.py:359
-msgid "ultrasonic"
-msgstr "Գերձայնային"
-
-#: taextras.py:360
+#: taextras.py:404
 msgid "color"
 msgstr "գույն"
 
-#: taextras.py:362
+#: taextras.py:406
 msgid "sound"
 msgstr "Հնչյուն"
 
 #. TRANS: The brick is the NXT controller
-#: taextras.py:365
+#: taextras.py:409
 msgid "Please check the connection with the brick"
 msgstr "Խնդրեմ ստուգել կապը NXT կարգավորիչի հետ"
 
-#: taextras.py:366
+#: taextras.py:410
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT A, B or C"
 msgstr "Անվավեր մուտք '%s': Մուտքը պետք է լինի՝ ՄՈՒՏՔ Ա, Բ կամ Գ"
 
-#: taextras.py:367
+#: taextras.py:411
 #, python-format
 msgid "Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"
 msgstr "Անվավեր մուտք '%s': Մուտքը պետք է լինի՝ ՄՈՒՏՔ 1, 2, 3, կամ 4"
 
-#: taextras.py:368
+#: taextras.py:412
 msgid "The value of power must be between -127 to 127"
 msgstr "Հզորության արժեքը պետք է լինի - 127 -ի և 127 սահմաններում"
 
-#: taextras.py:369
+#: taextras.py:413
 #, python-format
 msgid "The parameter must be a integer, not '%s'"
 msgstr "Պարամետրը պետք է լինի ամբողջ թիվ, ոչ '%s'"
 
-#: taextras.py:370
+#: taextras.py:414
 msgid "An error has occurred: check all connections and try to reconnect"
 msgstr "Վրիպում. ստուգել բոլոր միացումները և կրկին փորձել միանալ"
 
-#: taextras.py:371
+#: taextras.py:415
 #, python-format
 msgid "NXT found %s bricks"
 msgstr "NXT գտավ %s կառավարման սարքը"
 
-#: taextras.py:372
+#: taextras.py:416
 msgid "NXT not found"
 msgstr "NXT չի գտնվել"
 
-#: taextras.py:373
+#: taextras.py:417
 #, python-format
 msgid "Brick number %s was not found"
 msgstr "NXT կառավարման թիվը %s չհայտնաբերվեց"
 
-#: taextras.py:374
+#: taextras.py:418
+msgid "nxt-motors"
+msgstr "nxt-շարժիչներ"
+
+#: taextras.py:419
 msgid "refresh NXT"
 msgstr "Թարմացնել NXT-ը"
 
-#: taextras.py:375
+#: taextras.py:420
 msgid "Search for a connected NXT brick."
 msgstr "Փնտրել NXT կառավարման միացված մասնիկը:"
 
-#: taextras.py:376
+#: taextras.py:421
 msgid "NXT"
 msgstr "NXT"
 
-#: taextras.py:377
+#: taextras.py:422
 msgid "set current NXT device"
 msgstr "տեղադրել ներկայիս NXT սարքը"
 
-#: taextras.py:378
+#: taextras.py:423
+msgid "number of NXTs"
+msgstr "NXT-ների թիվը"
+
+#: taextras.py:424
 msgid "number of NXT devices"
 msgstr "NXT սարքերի թիվը"
 
-#: taextras.py:379
+#: taextras.py:425
 msgid "brick name"
 msgstr "կառավարման սարքի անվանումը"
 
-#: taextras.py:380
+#: taextras.py:426
 msgid "Get the name of a brick."
 msgstr "Ստացիր կառավարման սարքի անվանումը"
 
-#: taextras.py:381
+#: taextras.py:427
 msgid "play tone"
 msgstr "Վերարտադրել հնչյունը"
 
-#: taextras.py:382
+#: taextras.py:428
 msgid "frequency"
 msgstr "Հաճախականություն"
 
-#: taextras.py:383
+#: taextras.py:429
 msgid "time"
 msgstr "ժամանակ"
 
-#: taextras.py:384
+#: taextras.py:430
 msgid "Play a tone at frequency for time."
 msgstr "Նվագարկել հաճախականությամբ հնչյունը որոշակի ժամանակի ընթացքում:"
 
 #. TRANS: turn is the action
-#: taextras.py:386
-msgid ""
-"turn motor\n"
-"\n"
-msgstr ""
-"Շրջել շարժիչը\n"
-"\n"
+#: taextras.py:432
+#, python-format
+msgid "turn motor %s"
+msgstr "Շրջել շարժիչը %s"
 
-#: taextras.py:387
+#: taextras.py:433
 msgid "port"
 msgstr "Մուտք"
 
-#: taextras.py:388
-msgid "power"
-msgstr "Հզորություն"
-
 #. TRANS: rotations is quantity of turns
-#: taextras.py:390
+#: taextras.py:435
 msgid "rotations"
 msgstr "Պտույտներ"
 
-#: taextras.py:391
+#: taextras.py:436
+msgid "power"
+msgstr "Հզորություն"
+
+#: taextras.py:437
 msgid "turn a motor"
 msgstr "Պտտել շարժիչը"
 
-#: taextras.py:392
-msgid ""
-"synchronize\n"
-"\n"
-"motors"
-msgstr ""
-"համաժամանակեցնել\n"
-"\n"
-"շարրժիչները"
+#: taextras.py:438
+#, python-format
+msgid "synchronize %s motors"
+msgstr "համաժամանակեցնել %s շարժիչները"
 
-#: taextras.py:393
-msgid "steering"
-msgstr "ղեկակառավարում"
-
-#: taextras.py:394
+#: taextras.py:439
 msgid "synchronize two motors connected in PORT B and PORT C"
 msgstr "Համաժամանակեցնել Մուտք B-ին և Մուտք C -ին միացված շարժիչները:"
 
-#: taextras.py:395
-msgid "PORT A"
-msgstr "Մուտք A"
+#: taextras.py:440
+#, python-format
+msgid "PORT %s"
+msgstr "ՄՈՒՏՔ %s"
 
-#: taextras.py:396
-msgid "PORT A of the brick"
-msgstr "Մուտք A-ի մասնիկը"
+#: taextras.py:441
+#, python-format
+#, python-format,
+msgid "PORT %s of the brick"
+msgstr "Մուտք %s Հատված"
 
-#: taextras.py:397
-msgid "PORT B"
-msgstr "Մուտք B"
-
-#: taextras.py:398
-msgid "PORT B of the brick"
-msgstr "Մուտք B-ի մասնիկը"
-
-#: taextras.py:399
-msgid "PORT C"
-msgstr "Մուտք C"
-
-#: taextras.py:400
-msgid "PORT C of the brick"
-msgstr "Մուտք C-ի մասնիկը"
-
-#: taextras.py:401
-msgid ""
-"synchronize\n"
-"motors"
-msgstr ""
-"համաժամանակեցնել\n"
-"շարժիչները"
-
-#: taextras.py:402
+#: taextras.py:442
 msgid "start motor"
 msgstr "Միացնե՛լ շարժիչը"
 
-#: taextras.py:403
+#: taextras.py:443
 msgid "Run a motor forever."
 msgstr "Աշխատեցնե՛լ շարժիչը մշտապես:"
 
-#: taextras.py:404
+#: taextras.py:444
 msgid "brake motor"
 msgstr "Արգելակել շարժիչը"
 
-#: taextras.py:405
+#: taextras.py:445
 msgid "Stop a specified motor."
 msgstr "Արգելակել որոշված շարժիչը"
 
 #. TRANS: reset is used to reset the counter associated with the motor
-#: taextras.py:407
+#: taextras.py:447
 msgid "reset motor"
 msgstr "Վերակարգավորել շարժիչը:"
 
-#: taextras.py:408
+#: taextras.py:448
 msgid "Reset the motor counter."
 msgstr "Վերակարգավորել շարժիչի հաշվիչը:"
 
-#: taextras.py:409
+#: taextras.py:449
 msgid "motor position"
 msgstr "Շարժիչի դիրքը"
 
-#: taextras.py:410
+#: taextras.py:450
 msgid "Get the motor position."
 msgstr "Պարզել շարժիչի դիրքը"
 
-#: taextras.py:411
-msgid "PORT 1"
-msgstr "Մուտք 1"
+#: taextras.py:451
+msgid "nxt-sensors"
+msgstr "nxt-սենսորներ"
 
-#: taextras.py:412
-msgid "PORT 1 of the brick"
-msgstr "Մասնիկի Մուտք 1 -ը:"
-
-#: taextras.py:413
+#: taextras.py:452
 msgid "read"
 msgstr "Կարդալ"
 
-#: taextras.py:414
+#: taextras.py:453
 msgid "sensor"
 msgstr "Սենսոր"
 
-#: taextras.py:415
+#: taextras.py:454
 msgid "Read sensor output."
 msgstr "Կարդալ սենսորի ելքի տվյալները"
 
-#: taextras.py:416
-msgid "PORT 2"
-msgstr "Մուտք 2"
-
-#: taextras.py:417
-msgid "PORT 2 of the brick"
-msgstr "Մասնիկի Մուտք 2 -ը:"
-
-#: taextras.py:418
+#: taextras.py:455
 msgid "light sensor"
 msgstr "Լույսի սենսոր"
 
-#: taextras.py:419
+#: taextras.py:456
 msgid "gray sensor"
 msgstr "մոխրագույն սենսոր"
 
-#: taextras.py:420
-msgid "PORT 3"
-msgstr "Մուտք 3"
+#: taextras.py:457
+msgid "button sensor"
+msgstr "կոճակի սենսորը"
 
-#: taextras.py:421
-msgid "PORT 3 of the brick"
-msgstr "Մասնիկի Մուտք 3 -ը:"
-
-#: taextras.py:422
-msgid "touch sensor"
-msgstr "Հպման սենսոր"
-
-#: taextras.py:423
+#: taextras.py:458
 msgid "distance sensor"
 msgstr "Հեռավորության սենսոր"
 
-#: taextras.py:424
-msgid "PORT 4"
-msgstr "Մուտք 4"
-
-#: taextras.py:425
-msgid "PORT 4 of the brick"
-msgstr "Մասնիկի Մուտք 4 -ը:"
-
-#: taextras.py:426
+#: taextras.py:459
 msgid "sound sensor"
 msgstr "Ձայնային սենսոր"
 
-#: taextras.py:427
+#: taextras.py:460
 msgid "color sensor"
 msgstr "Գույնի սենսոր"
 
 #. TRANS: set light is used to set the light level associated with
 #. the color sensor (which can emit light as well as sense it)
-#: taextras.py:430
+#: taextras.py:463
 msgid "set light"
 msgstr "Կարգավորել լույսը"
 
-#: taextras.py:431
+#: taextras.py:464
 msgid "Set color sensor light."
 msgstr "Միացնել գունային սենսորի լույսը:"
 
 #. TRANS: the battery level is the charge level of the brick
-#: taextras.py:433
+#: taextras.py:466
 msgid "battery level"
 msgstr "մարտկոցի մակարդակը"
 
-#: taextras.py:434
+#: taextras.py:467
 msgid "Get the battery level of the brick in millivolts"
 msgstr "Ձեռք բերել կառավարման սարքի մարտկոցի մակարդակը միլիվոլտով"
 
 # WeDo - LEGO ընկերության ռոբոտային արտադրանք է:
 #. TRANS: Arduino plugin to control an Arduino board
-#: taextras.py:439
+#: taextras.py:472
 msgid "Palette of Arduino blocks"
 msgstr "Arduino մասնիկների պահոց"
 
 # PWM - pulse width modulation, ԲԼՄ -բաբախյունի լայնքի մոդուլացիա
 #. TRANS: PWM is pulse-width modulation
-#: taextras.py:445
+#: taextras.py:478 taextras.py:532
 msgid "PWM"
 msgstr "PWM"
 
 # SERVO - փոքր չափի ռոբոտների հեռակա ռադիոկառավարման սարք:
 #
-#: taextras.py:446
+#: taextras.py:479 taextras.py:533
 msgid "SERVO"
 msgstr "SERVO"
 
-#: taextras.py:447
+#: taextras.py:480
 msgid "ERROR: Check the Arduino and the number of port."
 msgstr "ՍԽԱԼ. Ստուգել Arduino -ն և մուտքի համարը:"
 
-#: taextras.py:448
-msgid "ERROR: Value must be a number from 0 to 255."
-msgstr "ՍԽԱԼ. Արժեքը պետք է լինի 0-ից մինչև 255:"
+#: taextras.py:481
+msgid "ERROR: Value must be a number from 0 to 1."
+msgstr "ՍԽԱԼ. Արժեքը պետք է լինի 0-ից մինչև 1:"
 
-#: taextras.py:449
+#: taextras.py:482
+msgid "ERROR: Value must be a number from 0 to 180."
+msgstr "ՍԽԱԼ. Արժեքը պետք է լինի 0-ից մինչև 180:"
+
+#: taextras.py:483
 msgid "ERROR: Value must be either HIGH or LOW, 0 or 1"
 msgstr "ՍԽԱԼ. Արժեքը պետք է լինի կամ ԲԱՐՁՐ, կամ` ՑԱԾՐ, 0 կամ 1"
 
-#: taextras.py:450
+#: taextras.py:484
 msgid "ERROR: The mode must be either INPUT, OUTPUT, PWM or SERVO."
 msgstr "ՍԽԱԼ. պետք է լինի, ՆԵՐԱԾՈՒՄ, ԱՐՏԱԾՈՒՄ, PWM կամ SERVO կերպով:"
 
-#: taextras.py:451
+#: taextras.py:485
 msgid "ERROR: The value must be an integer."
 msgstr "ՍԽԱԼ. արժեքը պետք է լինի ամբողջ թիվ:"
 
-#: taextras.py:452
+#: taextras.py:486
 msgid "ERROR: The pin must be an integer."
 msgstr "ՍԽԱԼ. Փինը պետք է լինի ամբողջ թիվ:"
 
-#: taextras.py:453
+#: taextras.py:487
+msgid "ERROR: You must configure the mode for the pin."
+msgstr "ՍԽԱԼ. Պետք է կոնֆիգուրացնես անձնական նույնացման թվի ռեժիմը"
+
+#: taextras.py:488
+msgid "arduino"
+msgstr "Arduino"
+
+#: taextras.py:489
 msgid "refresh Arduino"
 msgstr "թարմացնել Arduino-ն"
 
-#: taextras.py:454
+#: taextras.py:490
 msgid "Search for connected Arduinos."
 msgstr "Փնտրել միացված Arduino-ներ"
 
-#: taextras.py:455
+#: taextras.py:491
 msgid "Arduino"
 msgstr "Arduino"
 
-#: taextras.py:456
+#: taextras.py:492
 msgid "set current Arduino board"
 msgstr "տեղադրել ներկայիս Arduino պլատան"
 
-#: taextras.py:457
+#: taextras.py:493
 msgid "number of Arduinos"
 msgstr "Arduinos քանակը"
 
-#: taextras.py:458
+#: taextras.py:494
 msgid "number of Arduino boards"
 msgstr "Arduino պլատաների թիվը"
 
-#: taextras.py:459
+#: taextras.py:495
 msgid "Arduino name"
 msgstr "Arduino անվանումը"
 
-#: taextras.py:460
+#: taextras.py:496
 msgid "Get the name of an Arduino."
 msgstr "Ձեոք բեր Arduino անվանումը"
 
 #. TRANS: pin mode is used to specify the mode (INPUT, OUTPUT, etc)
 #. in which an I/O pin is being used.
-#: taextras.py:463
+#: taextras.py:499
 msgid "pin mode"
 msgstr "pin ռեժիմ"
 
-#: taextras.py:466
+#: taextras.py:502
 msgid "Select the pin function (INPUT, OUTPUT, PWM, SERVO)."
 msgstr "Ընտրել pin գործառույթը (INPUT, OUTPUT, PWM, SERVO)"
 
-#: taextras.py:467
+#: taextras.py:503
 msgid "analog write"
 msgstr "Գրել անալոգային տեսքով"
 
-#: taextras.py:469
+#: taextras.py:505
 msgid "Write analog value in specified port."
 msgstr "Գրել անալոգային արժեքը որոշակի Մուտքի վրա:"
 
-#: taextras.py:470
+#: taextras.py:506
 msgid "analog read"
 msgstr "Կարդալ անալոգային արդյունքը"
 
-# վոլտ=((կարդալ)*5)/1024)
-#: taextras.py:471
-msgid ""
-"Read value from analog port. Value may be between 0 and 1023. Use Vref to "
-"determine voltage. For USB, volt=((read)*5)/1024) approximately."
+#: taextras.py:507
+msgid "Read value from analog port. Value may be between 0 and 1."
 msgstr ""
-"Կարդալ արժեքն անալոգային Մուտքից: Արժեքը կարող է լինել 0 -ի և 1023-ի միջև. "
-"USB -ի համար` volt=((read)*5)/1024) մոտավորապես:"
+"Ընթերցել արժեքը համօրինակային մուտքից: Արժեքը կարող է լինել 0-ից մինչև է:"
 
-#: taextras.py:473
+#: taextras.py:508
 msgid "digital write"
 msgstr "Թվայնացված գրություն"
 
-#: taextras.py:474
+#: taextras.py:509
 msgid "Write digital value to specified port."
 msgstr "Գրել թվայնացված արժեքը որոշակի Մուտքի համար:"
 
-#: taextras.py:475
+#: taextras.py:510
 msgid "digital read"
 msgstr "Թվայնացված ընթերցում"
 
-#: taextras.py:476
+#: taextras.py:511
 msgid "Read value from digital port."
 msgstr "Կարդալ արժեքը թվայնացված մուտքից"
 
-#: taextras.py:478
+#: taextras.py:512
+msgid "Set HIGH value for digital port."
+msgstr "Թվայնացված Մուտքի համար սահմանել ԲԱՐՁՐ արժեքը:"
+
+#: taextras.py:513
 msgid "Configure Arduino port for digital input."
 msgstr "Կարգավորել Arduino մուտքը թվային եղանակով ներմուծման համար:"
 
-#: taextras.py:479
+#: taextras.py:514
 msgid "Configure Arduino port to drive a servo."
 msgstr "Կարգավորել Arduino մուտքը servo -ի համար:"
 
-#: taextras.py:481
+#: taextras.py:516
 msgid "Configure Arduino port for digital output."
 msgstr "Կարգավորել Arduino մուտքը թվային արդյունքի համար:"
 
-#: taextras.py:482
+#: taextras.py:517
 msgid "Configure Arduino port for PWM (pulse-width modulation)."
 msgstr ""
 "Կարգավորել Arduino մուտքը համար PWM համար (բաբախյուն- լայնության "
 "մոդուլյացիան)"
 
-#: taextras.py:483
+#: taextras.py:518
 #, python-format
 msgid "Not found Arduino %s"
 msgstr "Arduino %s հայտնաբերված չէ"
 
-#: taextras.py:484
+#: taextras.py:519
 msgid "The pin must be an integer"
 msgstr "Փինը պետք է լինի ամբողջական"
 
-#: taextras.py:485
+#: taextras.py:520
 msgid "The device must be an integer"
 msgstr "Սարքը պետք է լինի ամբողջ թիվ"
 
+#: taextras.py:521 taextras.py:556
+#, python-format
+msgid "Error loading %s board"
+msgstr "Սխալ  %s սարքը բեռնելու ընթացքում"
+
+#. TRANS: Rodi is the name of Paraguayan robot based on Arduino
+#: taextras.py:526
+msgid "Palette for Rodi bots using Arduino"
+msgstr "Ներկապնակ Rodi ռոբոտի համար` օգտագործելով Arduino"
+
+#: taextras.py:534
+msgid "ERROR: Check the connection to the robot."
+msgstr "ՍԽԱԼ. Ստուգել կապը ռոբոտի հետ:"
+
+#: taextras.py:535
+#, python-format
+#, python-format,
+msgid "ERROR: The speed must be a value between 0 and %d"
+msgstr "ՍԽԱԼ է. արագության արժեքը պետք է լինի 0 -ի և %d սահմաններում:"
+
+#: taextras.py:536
+#, python-format, fuzzy
+#, python-format,
+msgid "ERROR: The speed must be a value between %(min)d and %(max)d"
+msgstr ""
+"ՍԽԱԼ է. արագության արժեքը պետք է լինի %(նվազագույնը)d և %(առավելագունը)d "
+"սահմաններում"
+
+#: taextras.py:537
+msgid "refresh Rodi"
+msgstr "թարմացնել Rodi-ին"
+
+#: taextras.py:538
+msgid "refresh the state of the Rodi palette and blocks"
+msgstr "Թարմացնել Բութիայի պահոցի վիճակն ու հատվածները:"
+
+#: taextras.py:539
+msgid "move Rodi"
+msgstr "տեղաշարժել Rodi -ին"
+
+#: taextras.py:542
+msgid "moves the Rodi motors at the specified speed"
+msgstr "Շարժում է Rodi -ի շարժիչը որոշված արագությամբ"
+
+#: taextras.py:543
+msgid "stop Rodi"
+msgstr "կանգնեցնել Rodi-ին"
+
+#: taextras.py:544
+msgid "stops the Rodi robot"
+msgstr "Կանգնեցնել Rodi ռոբոտը:"
+
+#: taextras.py:545
+msgid "forward Rodi"
+msgstr "առաջ Rodi"
+
+#: taextras.py:546
+msgid "moves the Rodi robot forward"
+msgstr "Բութիա ռոբոտը շարժել դեպի առաջ"
+
+#: taextras.py:547
+msgid "left Rodi"
+msgstr "Rodi լքեց"
+
+#: taextras.py:548
+msgid "turns the Rodi robot at left"
+msgstr "Բութիա ռոբոտը շրջել դեպի աջ:"
+
+#: taextras.py:549
+msgid "right Rodi"
+msgstr "աջ Rodi"
+
+#: taextras.py:550
+msgid "turns the Rodi robot at right"
+msgstr "Rodi ռոբոտը շրջել դեպի աջ:"
+
+#: taextras.py:551
+msgid "backward Rodi"
+msgstr "հետ Rodi"
+
+#: taextras.py:552
+msgid "moves the Rodi robot backward"
+msgstr "Շարժել Rodi ռոբոտը դեպի ետ"
+
+#: taextras.py:553
+msgid "distance Rodi"
+msgstr "հեռավորություն Rodi"
+
+#: taextras.py:554
+msgid "returns the distance as a value between 0 and 1"
+msgstr ""
+"Վերականգնում է հեռավորությունը որպես 0-ի և 65535-ի սահմաններում ընկած արժեք"
+
+#: taextras.py:555
+#, python-format
+msgid "Rodi %s not found"
+msgstr "Rodi %s չի գտնվում"
+
 # WeDo - LEGO ընկերության ռոբոտային արտադրանք է:
 #. TRANS: plugin to control an ExpEyes device
-#: taextras.py:490
+#: taextras.py:561
 msgid "Palette of Expeyes blocks"
-msgstr "Expeyes մասնիկների պահոց"
+msgstr "Expeyes հատվածների պահոց"
 
 #. TRANS: Programmable voltage output
-#: taextras.py:492
+#: taextras.py:563
 msgid "set PVS"
 msgstr "տեղադրել PVS"
 
-#: taextras.py:493
+#: taextras.py:564
 msgid "set programmable voltage output"
 msgstr "տեղադրել ծրագրային վոլտի արտածում"
 
 #. TRANS: Square wave 1 voltage output
-#: taextras.py:495
+#: taextras.py:566
 msgid "set SQR1 voltage"
 msgstr "տեղադրել SQR1 վոլտ"
 
-#: taextras.py:496
+#: taextras.py:567
 msgid "set square wave 1 voltage output"
 msgstr "տեղադրել քառակուսի ալիքի 1 վոլտ արտածում"
 
 #. TRANS: Square wave 2 voltage output
-#: taextras.py:498
+#: taextras.py:569
 msgid "set SQR2 voltage"
 msgstr "տեղադրել SQR2 վոլտ"
 
-#: taextras.py:499
+#: taextras.py:570
 msgid "set square wave 2 voltage output"
 msgstr "տեղադրել քառակուսի ալիքի 2 վոլտ արտածում"
 
 #. TRANS: Digital output level
-#: taextras.py:501
+#: taextras.py:572
 msgid "set OD1"
 msgstr "տեղադրել OD1"
 
-#: taextras.py:502
+#: taextras.py:573
 msgid "set digital output level (OD1) low (0) or high (1)"
 msgstr "տեղադրել թվային արտածման մակարդակը (OD1) ցածր (0) կամ բարձր (1)"
 
 #. TRANS: Input 1 voltage level
-#: taextras.py:504
+#: taextras.py:575
 msgid "IN1 level"
 msgstr "IN1 մակարդակ"
 
-#: taextras.py:505
+#: taextras.py:576
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
@@ -1518,11 +1761,11 @@ msgstr ""
 "մակարդակը <= 2.5 վոլտ"
 
 #. TRANS: Input 2 voltage level
-#: taextras.py:508
+#: taextras.py:579
 msgid "IN2 level"
 msgstr "IN2 մակարդակ"
 
-#: taextras.py:509
+#: taextras.py:580
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
@@ -1532,11 +1775,11 @@ msgstr ""
 
 # Դիմակայուն սենսորի վոլտային մակարդակ
 #. TRANS: Resistive sensor voltage level
-#: taextras.py:512
+#: taextras.py:583
 msgid "SEN level"
 msgstr "SEN մակարդակ"
 
-#: taextras.py:513
+#: taextras.py:584
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
@@ -1544,25 +1787,25 @@ msgstr ""
 "դառնում է 1եթե դիամակայուն սենսորի (SEN) վոլտային մակարդակը > 2.5 վոլտ է, 0 "
 "եթե SEN վոլտային մակարդակը <= 2.5 վոլտ է"
 
-#: taextras.py:515
+#: taextras.py:586
 msgid "capture"
 msgstr "գերևարել"
 
-#: taextras.py:516
+#: taextras.py:587
 msgid "input"
 msgstr "ներածում"
 
-#: taextras.py:517
+#: taextras.py:588
 msgid "samples"
 msgstr "օրինակներ"
 
-#: taextras.py:518
+#: taextras.py:589
 msgid "interval"
 msgstr "ընդմիջում"
 
 # (ՄՎ) - միկրո վայրկյան
 #. TRANS: MS is microseconds
-#: taextras.py:520
+#: taextras.py:591
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr ""
@@ -1570,82 +1813,212 @@ msgstr ""
 "առաջանում հրել FIFO"
 
 #. TRANS: Analog input 1 voltage level
-#: taextras.py:523
+#: taextras.py:594
 msgid "A1"
 msgstr "A1"
 
-#: taextras.py:524
+#: taextras.py:595
 msgid "read analog input 1 voltage"
 msgstr "կարդալ անալոգի ներածման 1 վոլտը"
 
 #. TRANS: Analog input 2 voltage level
-#: taextras.py:526
+#: taextras.py:597
 msgid "A2"
 msgstr "A2"
 
-#: taextras.py:527
+#: taextras.py:598
 msgid "read analog input 2 voltage"
 msgstr "կարդալ անալոգի ներածման 2 վոլտը"
 
 #. TRANS: Read input 1 voltage
-#: taextras.py:529
+#: taextras.py:600
 msgid "IN1"
 msgstr "IN1"
 
-#: taextras.py:530
+#: taextras.py:601
 msgid "read input 1 voltage"
 msgstr "կարդալ ներածման 1 վոլտը"
 
 #. TRANS: Read input 2 voltage
-#: taextras.py:532
+#: taextras.py:603
 msgid "IN2"
 msgstr "IN2"
 
-#: taextras.py:533
+#: taextras.py:604
 msgid "read input 2 voltage"
 msgstr "կարդալ ներածման 2 վոլտը"
 
 # կարդալ անալոգի սենսորի ներածման վոլտը
 #. TRANS: Read analog sensor input voltage
-#: taextras.py:535
+#: taextras.py:606
 msgid "SEN"
 msgstr "SEN"
 
-#: taextras.py:536
+#: taextras.py:607
 msgid "read analog sensor input voltage"
 msgstr "կարդալ անալոգի սենսորի ներածման վոլտը"
 
 #. TRANS: Read square wave 1 input voltage
-#: taextras.py:538
+#: taextras.py:609
 msgid "SQR1"
 msgstr "SQR1"
 
-#: taextras.py:539
+#: taextras.py:610
 msgid "read square wave 1 voltage"
 msgstr "կարդալ քառակուսի ալիքի 1 վոլտը"
 
 #. TRANS: Read square wave 2 input voltage
-#: taextras.py:541
+#: taextras.py:612
 msgid "SQR2"
 msgstr "SQR2"
 
-#: taextras.py:542
+#: taextras.py:613
 msgid "read square wave 2 voltage"
 msgstr "կարդալ քառակուսի ալիքի 2 վոլտը"
 
 # կարդալ ծրագրային վոլտը
 #. TRANS: Read programmable voltage
-#: taextras.py:544
+#: taextras.py:615
 msgid "PVS"
 msgstr "PVS"
 
-#: taextras.py:545
+#: taextras.py:616
 msgid "read programmable voltage"
 msgstr "կարդալ ծրագրային վոլտը"
 
-#: taextras.py:546
+#: taextras.py:617
 msgid "Expeyes device not found"
 msgstr "Expeyes սարքը հայտնաբերված չէ"
+
+#~ msgid "WeDo is unavailable"
+#~ msgstr "WeDo - ն հասանելի չէ"
+
+#, python-format
+#~ msgid "WeDo %d is unavailable; defaulting to 1"
+#~ msgstr "WeDo %d անհասանելի է, լռելյայնությունը 1"
+
+#, python-format
+#~ msgid "%(device)s is unavailable on WeDo %(wedo_number)d"
+#~ msgstr "%(device)s անհասանելի է WeDo %(wedo_number)d սարքի վրա"
+
+#~ msgid ""
+#~ "synchronize\n"
+#~ "\n"
+#~ "motors"
+#~ msgstr ""
+#~ "համաժամանակեցնել\n"
+#~ "\n"
+#~ "շարրժիչները"
+
+#~ msgid "steering"
+#~ msgstr "ղեկակառավարում"
+
+#~ msgid "PORT A"
+#~ msgstr "Մուտք A"
+
+#~ msgid "PORT B"
+#~ msgstr "Մուտք B"
+
+#~ msgid "PORT B of the brick"
+#~ msgstr "Մուտք B-ի մասնիկը"
+
+#~ msgid "PORT C"
+#~ msgstr "Մուտք C"
+
+#~ msgid "PORT C of the brick"
+#~ msgstr "Մուտք C-ի մասնիկը"
+
+#~ msgid "PORT 1"
+#~ msgstr "Մուտք 1"
+
+#~ msgid "PORT 1 of the brick"
+#~ msgstr "Մասնիկի Մուտք 1 -ը:"
+
+#~ msgid "PORT 2"
+#~ msgstr "Մուտք 2"
+
+#~ msgid "PORT 2 of the brick"
+#~ msgstr "Մասնիկի Մուտք 2 -ը:"
+
+#~ msgid "PORT 3"
+#~ msgstr "Մուտք 3"
+
+#~ msgid "PORT 3 of the brick"
+#~ msgstr "Մասնիկի Մուտք 3 -ը:"
+
+#~ msgid "PORT 4"
+#~ msgstr "Մուտք 4"
+
+#~ msgid "PORT 4 of the brick"
+#~ msgstr "Մասնիկի Մուտք 4 -ը:"
+
+# վոլտ=((կարդալ)*5)/1024)
+#~ msgid ""
+#~ "Read value from analog port. Value may be between 0 and 1023. Use Vref to "
+#~ "determine voltage. For USB, volt=((read)*5)/1024) approximately."
+#~ msgstr ""
+#~ "Կարդալ արժեքն անալոգային Մուտքից: Արժեքը կարող է լինել 0 -ի և 1023-ի միջև. "
+#~ "USB -ի համար` volt=((read)*5)/1024) մոտավորապես:"
+
+#~ msgid "touch"
+#~ msgstr "Հպման սենսոր"
+
+# Հեռավորության չափումը գերձայնային ալիքներով
+#~ msgid "ultrasonic"
+#~ msgstr "Գերձայնային"
+
+#~ msgid "touch sensor"
+#~ msgstr "Հպման սենսոր"
+
+#~ msgid "custom module sensor A"
+#~ msgstr "անհատական մոդուլ սենսոր Ա"
+
+#~ msgid "custom module sensor B"
+#~ msgstr "անհատական մոդուլ սենսոր Բ"
+
+#~ msgid "custom module sensor C"
+#~ msgstr "անհատական մոդուլ սենսոր Գ"
+
+#~ msgid "module a"
+#~ msgstr "մոդուլ ա"
+
+#~ msgid "module b"
+#~ msgstr "մոդուլ բ"
+
+#~ msgid "module c"
+#~ msgstr "մոդուլ գ"
+
+#~ msgid "hack pin mode"
+#~ msgstr "ներխուժել փին ռեժիմ"
+
+#~ msgid "read hack pin Butia"
+#~ msgstr "ընթերցել Բութիայի ներխուժման փինը"
+
+#~ msgid "Module A"
+#~ msgstr "Մոդուլ Ա"
+
+#~ msgid "Module B"
+#~ msgstr "Մոդուլ Բ"
+
+#~ msgid "generic Module B"
+#~ msgstr "ընդհանուր Մոդուլ Բ"
+
+#~ msgid "Module C"
+#~ msgstr "Մոդուլ Գ"
+
+#~ msgid "generic Module C"
+#~ msgstr "ընդհանուր Մոդուլ Գ"
+
+#~ msgid "ERROR: You must cast Module A, B or C"
+#~ msgstr "Սխալ.Պետք է փոխարկես Մոդուլ Ա, Բ կամ Գ"
+
+#~ msgid "returns the temperature"
+#~ msgstr "Վերականգնում է ջերմաստիճանը:"
+
+#~ msgid "returns 1 when the sensors detects a magnetic field, 0 otherwise"
+#~ msgstr ""
+#~ "Դարձնում է 1, երբ սենսորը հայտնաբերում է մագնիսական դաշտ, իսկ հակառակ "
+#~ "դեպքում` 0"
 
 # ԼԱԴ=LED - Light-Emitting Diode
 #~ msgid "Turn LED on and off: 0 is off; 1 is on"
@@ -2241,9 +2614,6 @@ msgstr "Expeyes սարքը հայտնաբերված չէ"
 #~ "Պահում է գրչի ներկայիս չափսը (կարող է օգտագործվել թվային արժեք պարունակող "
 #~ "մասնիկի փոխարեն):"
 
-#~ msgid "set color"
-#~ msgstr "Սահմանել գույնը"
-
 #~ msgid "min"
 #~ msgstr "նվազագույն"
 
@@ -2549,9 +2919,6 @@ msgstr "Expeyes սարքը հայտնաբերված չէ"
 
 #~ msgid "sets size of the line drawn by the turtle"
 #~ msgstr "Սահմանում է կրիայի գծած գծի չափսը"
-
-#~ msgid "Open"
-#~ msgstr "Բացել"
 
 # Ուղղվածություն
 #~ msgid "orientation"
