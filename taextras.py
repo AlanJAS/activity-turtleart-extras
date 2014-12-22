@@ -75,7 +75,7 @@ BUTIA_STRINGS = [
     #(http://www.fing.edu.uy/inco/proyectos/butia/)
     _('TurtleBots'),
     #TRANS: summary of TurtleBots activity
-    _('TurtleBlocks with Butia, Lego NxT, WeDo, Arduino, FollowMe plugins'),
+    _('TurtleBlocks with robotic plugins'),
     _('ERROR: The speed must be a value between 0 and 1023'),
     _('ERROR: The speed must be a value between -1023 and 1023'),
     _('ERROR: The pin must be between 1 and 8'),
