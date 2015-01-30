@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-19 00:33-0400\n"
-"PO-Revision-Date: 2015-01-02 16:17+0000\n"
+"PO-Revision-Date: 2015-01-30 00:53+0000\n"
 "Last-Translator: Alan <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1420215461.000000\n"
+"X-POOTLE-MTIME: 1422579222.000000\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -774,7 +774,7 @@ msgstr "rectángulo"
 
 #: taextras.py:282
 msgid "width"
-msgstr "anchura"
+msgstr "ancho"
 
 #: taextras.py:284
 msgid "Add a rectangle object to the project."
@@ -913,7 +913,7 @@ msgstr "WeDo"
 
 #: taextras.py:325
 msgid "set current WeDo device"
-msgstr "setea el dispositivo WeDo actual"
+msgstr "selecciona el dispositivo WeDo actual"
 
 #: taextras.py:326
 msgid "number of WeDo devices"
