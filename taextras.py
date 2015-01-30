@@ -90,8 +90,12 @@ BUTIA_STRINGS = [
     _('returns the voltage value (volts)'),
     _('returns the temperature value (celsius degree)'),
     _('custom module %s'),
-    _('sensor %s'),
-    _('actuator %s'),
+    _('sensor a'),
+    _('sensor b'),
+    _('sensor c'),
+    _('actuator a'),
+    _('actuator b'),
+    _('actuator c'),
     _('LED'),
     _('button'),
     _('gray'),
@@ -100,8 +104,8 @@ BUTIA_STRINGS = [
     _('resistance'),
     _('voltage'),
     _('temperature'),
-    _('butia'),
     _('Butia Robot'),
+    _('butia'),
     _('refresh Butia'),
     _('refresh the state of the Butia palette and blocks'),
     #TRANS: This string is shorthand for "battery charge of Butia"
@@ -128,9 +132,28 @@ BUTIA_STRINGS = [
     #TRANS: This string is shorthand for "move Butia backward"
     _('backward Butia'),
     _('move the Butia robot backward'),
+    _('Butia Robot extra blocks'),
     _('butia-extra'),
     # TRANS: cast means data type conversion
-    _('Butia Robot extra blocks'),
+    _('CAST\nsensor'),
+    _('name'),
+    _('original'),
+    _('f(x)='),
+    # TRANS: cast means data type conversion
+    _('Cast a new sensor block'),
+    # TRANS: cast means data type conversion
+    _('CAST sensor'),
+    # TRANS: cast means data type conversion
+    _('Cast a new actuator block'),
+    # TRANS: cast means data type conversion
+    _('CAST\nactuator'),
+    # TRANS: cast means data type conversion
+    _('CAST actuator'),
+    # TRANS: cast means data type conversion
+    _('Butia Robot cast blocks'),
+    # TRANS: cast means data type conversion
+    _('butia-cast'),
+    _('Butia'),
     _('pin mode Butia'),
     _('pin'),
     _('mode'),
@@ -148,27 +171,25 @@ BUTIA_STRINGS = [
     _('Set LOW value for digital port.'),
     _('OUTPUT'),
     _('Configure hack port for digital output.'),
-    _('butia-cast'),
-    _('Butia Robot cast blocks'),
-    _('Butia'),
-    # TRANS: cast means data type conversion
-    _('CAST\n'),
-    _('new name'),
-    _('original'),
-    _('f(x)='),
-    _('name'),
-    # TRANS: cast means data type conversion
-    _('Cast a new block'),
-    _('generic module %s'),
+    _('firmware Butia'),
+    _('returns the Firmware version of butia robot'),
+    _('get IP'),
+    _('returns the current IP of the computer'),
     _('Butia IP'),
-    _('change the IP of butia robot'),
+    _('change the ip of butia robot'),
+    _('wireless'),
+    _('wireless network'),
+    _('wired'),
+    _('wired network'),
+    _('set current Butia robot'),
     _('ERROR: The pin %s must be in OUTPUT mode.'),
     _('ERROR: The pin %s must be in INPUT mode.'),
-    _("ERROR: Something wrong with function '%s'"),
+    _('The device must be an integer'),
+    _('Not found Butia %s'),
+    _('ERROR: Something wrong with function '%s''),
     _('ERROR: cannot init GCONF client: %s'),
-    # TRANS: cast means data type conversion
     _('ERROR: You must cast Sensor or Actuator: A, B or C'),
-    _("ERROR: Invalid IP '%s'"),
+    _('ERROR: Invalid IP '%s''),
     _('Creating PyBot server'),
     _('ERROR creating PyBot server'),
     _('PyBot is alive!'),
@@ -183,8 +204,8 @@ FOLLOWME_STRINGS = [
     _('Error starting camera'),
     #TRANS: The "mask" is used to restrict processing to a region in the image
     _('Error in get mask'),
-    _('followme'),
     _('FollowMe'),
+    _('followme'),
     _('refresh FollowMe'),
     _('Search for a connected camera.'),
     #TRANS: the calibration is used to match an RGB color to a target
@@ -195,8 +216,6 @@ FOLLOWME_STRINGS = [
     _('follow a color or calibration'),
     _('brightness'),
     _('set the camera brightness as a value between 0 to 255.'),
-    _('minimum pixels'),
-    _('set the minimal number of pixels to follow'),
     _('threshold'),
     # TRANS: RGB color space (red, green, blue)
     _('set a threshold for a RGB color'),
@@ -206,8 +225,7 @@ FOLLOWME_STRINGS = [
     _('get brightness'),
     _('get the brightness of the ambient light'),
     _('average color'),
-    _('if set to 0 then color averaging is off during calibration;\
-for other values, it is on'),
+    _('if set to 0 then color averaging is off during calibration; for other values it is on'),
     _('x position'),
     _('return x position'),
     _('y position'),
@@ -227,8 +245,29 @@ for other values, it is on'),
     _('get the color of an object'),
     _('color distance'),
     _('set the distance to identify a color'),
+    _('minimum pixels'),
+    _('set the minimal number of pixels to follow'),
     _('empty calibration'),
     _('error in string conversion')
+]
+
+
+COLOR_STRINGS = [
+    _('Error importing Pygame. This plugin requires Pygame 1.9'),
+    _('Error on initialization of the camera'),
+    _('No camera was found'),
+    _('Error stopping camera'),
+    _('Error starting camera'),
+    _('colorview'),
+    _('Detector de colores'),
+    _('color compare'),
+    _('compares a color with the palette'),
+    _('set tolerance'),
+    _('sets the tolerance between colors'),
+    _('set brightness'),
+    _('sets the brightness of the camera'),
+    _('view camera'),
+    _('shows the camera')
 ]
 
 PATTERN_DETECTION_STRINGS = [
@@ -550,6 +589,35 @@ RODI_STRINGS = [
     _('returns the distance as a value between 0 and 1'),
     _('Rodi %s not found'),
     _('Error loading %s board')
+]
+
+FISCHER_STRINGS = [
+    # TRANS: Fischer is a shortest of fischertechnik robot
+    _('Please check the connection with the fischer'),
+    _("Invalid port '%s'. Port must be: PORT 1 or 2"),
+    _("Invalid port '%s'. Port must be: PORT 1, 2 or 3"),
+    _('The value of power must be an integer between -100 to 100'),
+    _("The parameter must be a integer, not '%s'"),
+    _('An error has occurred: check all connections and try to reconnect'),
+    _('Found %s Fischers'),
+    _('Fischer not found'),
+    _('Fischer number %s was not found'),
+    _('Palette of Fischertechnik robot'),
+    _('fischer'),
+    _('refresh Fischer'),
+    _('Search for a connected Fischer brick.'),
+    _('Fischer'),
+    _('set current Fischer device'),
+    _('number of Fischers'),
+    _('number of Fischer devices'),
+    _('light'),
+    _('light sensor'),
+    _('button'),
+    _('button sensor'),
+    _('turn actuator'),
+    _('port'),
+    _('power'),
+    _('turn an actuator')
 ]
 
 EXPEYES_STRINGS = [
