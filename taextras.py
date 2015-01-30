@@ -186,10 +186,10 @@ BUTIA_STRINGS = [
     _('ERROR: The pin %s must be in INPUT mode.'),
     _('The device must be an integer'),
     _('Not found Butia %s'),
-    _('ERROR: Something wrong with function '%s''),
+    _("ERROR: Something wrong with function '%s'"),
     _('ERROR: cannot init GCONF client: %s'),
     _('ERROR: You must cast Sensor or Actuator: A, B or C'),
-    _('ERROR: Invalid IP '%s''),
+    _("ERROR: Invalid IP '%s'"),
     _('Creating PyBot server'),
     _('ERROR creating PyBot server'),
     _('PyBot is alive!'),
@@ -404,12 +404,12 @@ if dynamic = 0, it is fixed in position.')
 
 WEDO_STRINGS = [
     # TRANS: WeDo is a robotics product of the LEGO company
-    _('Palette of WeDo blocks'),
-    _('The parameter must be a integer, not '%s''),
+    _("The parameter must be a integer, not '%s'"),
     _('Motor speed must be an integer between -100 and 100'),
     _('WeDo found %s bricks'),
     _('WeDo not found'),
     _('WeDo number %s was not found'),
+    _('Palette of WeDo blocks'),
     _('wedo'),
     _('refresh WeDo'),
     _('Search for a connected WeDo.'),
@@ -418,7 +418,7 @@ WEDO_STRINGS = [
     _('number of WeDos'),
     _('number of WeDo devices'),
     _('tilt'),
-    _('tilt sensor output: (-1 == no tilt,0 == tilt forward, 3 == tilt back, 1 == tilt left, 2 == tilt right)'),
+    _("tilt sensor output: (-1 == no tilt,0 == tilt forward, 3 == tilt back, 1 == tilt left, 2 == tilt right)"),
     _('distance'),
     #TRANS: This string is shorthand for "output of the distance sensor"
     _('distance sensor output'),
@@ -432,8 +432,6 @@ WEDO_STRINGS = [
 
 LEGO_STRINGS = [
     # TRANS: Lego NXT is a robotics product of the LEGO company
-    _('Palette of LEGO NXT blocks of motors'),
-    _('Palette of LEGO NXT blocks of sensors'),
     _('button'),
     _('distance'),
     _('color'),
@@ -450,6 +448,7 @@ LEGO_STRINGS = [
     _('NXT found %s bricks'),
     _('NXT not found'),
     _('Brick number %s was not found'),
+    _('Palette of LEGO NXT blocks of motors'),
     _('nxt-motors'),
     _('refresh NXT'),
     _('Search for a connected NXT brick.'),
@@ -483,23 +482,23 @@ LEGO_STRINGS = [
     _('Reset the motor counter.'),
     _('motor position'),
     _('Get the motor position.'),
+    _('Palette of LEGO NXT blocks of sensors'),
     _('nxt-sensors'),
-    _('read'),
-    _('sensor'),
-    _('Read sensor output.'),
     _('light sensor'),
     _('gray sensor'),
     _('button sensor'),
     _('distance sensor'),
     _('sound sensor'),
     _('color sensor'),
+    # TRANS: the battery level is the charge level of the brick
+    _('battery level'),
+    _('Get the battery level of the brick in millivolts'),
+    _('color as light'),
+    _('use color sensor as light sensor'),
     # TRANS: set light is used to set the light level associated with
     # the color sensor (which can emit light as well as sense it)
     _('set light'),
-    _('Set color sensor light.'),
-    # TRANS: the battery level is the charge level of the brick
-    _('battery level'),
-    _('Get the battery level of the brick in millivolts')
+    _('Set color sensor light.')
 ]
 
 ARDUINO_STRINGS = [
@@ -558,7 +557,6 @@ ARDUINO_STRINGS = [
 
 RODI_STRINGS = [
     #TRANS: Rodi is the name of Paraguayan robot based on Arduino
-    _('Palette for Rodi bots using Arduino'),
     _('HIGH'),
     _('LOW'),
     _('INPUT'),
@@ -566,28 +564,40 @@ RODI_STRINGS = [
     #TRANS: PWM is pulse-width modulation
     _('PWM'),
     _('SERVO'),
-    _('ERROR: Check the connection to the robot.'),
+    _('ERROR: Check the connection with the robot.'),
     _('ERROR: The speed must be a value between 0 and %d'),
-    _('ERROR: The speed must be a value between %(min)d and %(max)d'),
+    _('ERROR: The speed must be a value between -%(max)d and %(max)d'),
+    _('Palette for Rodi bots using Arduino'),
     _('refresh Rodi'),
     _('refresh the state of the Rodi palette and blocks'),
+    _('Rodi'),
+    _('set current Rodi robot'),
+    _('number of Rodis'),
+    _('number of Rodi robots'),
+    _('Rodi name'),
+    _('Get the name of a Rodi robot'),
     _('move Rodi'),
     _('left'),
     _('right'),
     _('moves the Rodi motors at the specified speed'),
     _('stop Rodi'),
-    _('stops the Rodi robot'),
+    _('stop the Rodi robot'),
     _('forward Rodi'),
-    _('moves the Rodi robot forward'),
+    _('move the Rodi robot forward'),
     _('left Rodi'),
-    _('turns the Rodi robot at left'),
+    _('turn the Rodi robot at left'),
     _('right Rodi'),
-    _('turns the Rodi robot at right'),
+    _('turn the Rodi robot at right'),
     _('backward Rodi'),
-    _('moves the Rodi robot backward'),
+    _('move the Rodi robot backward'),
     _('distance Rodi'),
     _('returns the distance as a value between 0 and 1'),
-    _('Rodi %s not found'),
+    _('left sensor Rodi'),
+    _('returns the left line sensor as a value between 0 and 1'),
+    _('right sensor Rodi'),
+    _('returns the right line sensor as a value between 0 and 1'),
+    _('The device must be an integer'),
+    _('Not found Rodi %s'),
     _('Error loading %s board')
 ]
 
@@ -618,6 +628,49 @@ FISCHER_STRINGS = [
     _('port'),
     _('power'),
     _('turn an actuator')
+]
+
+XEVENTS_STRINGS = [
+    # Palette to control X11 events
+    _('Palette of X11 event blocks'),
+    _('setXY'),
+    _('set the mouse pointer tox y coordinates'),
+    _('getMouseX'),
+    _('get the mouse pointer x coordinate'),
+    _('getMouseY'),
+    _('get the mouse pointer y coordinate'),
+    _('leftClick'),
+    _('click left click'),
+    _('rightClick'),
+    _('click right click'),
+    _('true'),
+    _('false'),
+    _('click'),
+    _('simulate a mouse click'),
+    _('getScreenWidth'),
+    _('get the screen width'),
+    _('getScreenHeight'),
+    _('get the screen height'),
+    _('pressButton'),
+    _('keeps button pressed'),
+    _('releaseButton'),
+    _('releases button'),
+    _('freeze bar'),
+    _('freeze the bar'),
+    _('setLineColorRGB'),
+    _('set line color from rgb value'),
+    _('setLineColor'),
+    _('set line color'),
+    _('setLineOpacity'),
+    _('set line opacity'),
+    _('showLine'),
+    _('show vertical line over mouse'),
+    _('setLineWidth'),
+    _('width of vertical line over mouse'),
+    _('setLineHeight'),
+    _('height of vertical line over mouse'),
+    _('setLineWidthAndHeigth'),
+    _('set width and height of line over mouse')
 ]
 
 EXPEYES_STRINGS = [
