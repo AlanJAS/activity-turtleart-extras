@@ -1614,4 +1614,3 @@ msgstr "leer voltaje programable"
 #: taextras.py:541
 msgid "Expeyes device not found"
 msgstr "El dispositivo Expeyes no fue encontrado"
-
