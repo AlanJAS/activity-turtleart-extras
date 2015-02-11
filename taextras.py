@@ -172,11 +172,11 @@ BUTIA_STRINGS = [
     _('OUTPUT'),
     _('Configure hack port for digital output.'),
     _('firmware Butia'),
-    _('returns the Firmware version of butia robot'),
+    _('returns the Firmware version of Butia robot'),
     _('get IP'),
     _('returns the current IP of the computer'),
     _('Butia IP'),
-    _('change the ip of butia robot'),
+    _('changes the IP of Butia robot'),
     _('wireless'),
     _('wireless network'),
     _('wired'),
@@ -193,7 +193,7 @@ BUTIA_STRINGS = [
     _('Creating PyBot server'),
     _('ERROR creating PyBot server'),
     _('PyBot is alive!'),
-    _('Ending butia polling')
+    _('Ending Butia polling')
 ]
 
 FOLLOWME_STRINGS = [
@@ -259,7 +259,7 @@ COLOR_STRINGS = [
     _('Error stopping camera'),
     _('Error starting camera'),
     _('colorview'),
-    _('Detector de colores'),
+    _('color detector'),
     _('color compare'),
     _('compares a color with the palette'),
     _('set tolerance'),
