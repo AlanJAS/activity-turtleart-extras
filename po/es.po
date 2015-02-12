@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-30 21:49+0000\n"
-"PO-Revision-Date: 2015-01-31 13:35+0000\n"
+"POT-Creation-Date: 2015-02-12 00:23+0000\n"
+"PO-Revision-Date: 2015-02-12 00:28+0000\n"
 "Last-Translator: Alan <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1422711323.000000\n"
+"X-POOTLE-MTIME: 1423700890.000000\n"
 
 #: ../taextras.py:37
 msgid "Turtle Blocks"
@@ -449,7 +449,7 @@ msgid "firmware Butia"
 msgstr "firmware Butiá"
 
 #: ../taextras.py:175
-msgid "returns the Firmware version of butia robot"
+msgid "returns the Firmware version of Butia robot"
 msgstr "devuelve la versión del Firmware del robot Butiá"
 
 #: ../taextras.py:176
@@ -465,8 +465,8 @@ msgid "Butia IP"
 msgstr "Butiá IP"
 
 #: ../taextras.py:179
-msgid "change the ip of butia robot"
-msgstr "cambia la ip del robot butiá"
+msgid "changes the IP of Butia robot"
+msgstr "cambia la IP del robot Butiá"
 
 #: ../taextras.py:180
 msgid "wireless"
@@ -539,8 +539,8 @@ msgid "PyBot is alive!"
 msgstr "PyBot está vivo!"
 
 #: ../taextras.py:196
-msgid "Ending butia polling"
-msgstr "Terminando butiá polling"
+msgid "Ending Butia polling"
+msgstr "Finalizando Butiá polling"
 
 #: ../taextras.py:200
 msgid "Error importing Pygame. This plugin require Pygame 1.9"
@@ -742,8 +742,8 @@ msgid "colorview"
 msgstr "colorview"
 
 #: ../taextras.py:262
-msgid "Detector de colores"
-msgstr "Detector de colores"
+msgid "color detector"
+msgstr "detector de color"
 
 #: ../taextras.py:263
 msgid "color compare"
@@ -2213,6 +2213,18 @@ msgstr "leer voltaje programable"
 #: ../taextras.py:734
 msgid "Expeyes device not found"
 msgstr "El dispositivo Expeyes no fue encontrado"
+
+#~ msgid "returns the Firmware version of butia robot"
+#~ msgstr "devuelve la versión del Firmware del robot Butiá"
+
+#~ msgid "change the ip of butia robot"
+#~ msgstr "cambia la ip del robot butiá"
+
+#~ msgid "Ending butia polling"
+#~ msgstr "Terminando butiá polling"
+
+#~ msgid "Detector de colores"
+#~ msgstr "Detector de colores"
 
 #~ msgid "turtleart-extras (master)"
 #~ msgstr "turtleart-extras (master)"
