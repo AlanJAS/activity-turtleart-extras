@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-12 00:23+0000\n"
-"PO-Revision-Date: 2015-02-12 00:28+0000\n"
+"PO-Revision-Date: 2015-03-22 06:59+0000\n"
 "Last-Translator: Alan <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1423700890.000000\n"
+"X-POOTLE-MTIME: 1427007564.000000\n"
 
 #: ../taextras.py:37
 msgid "Turtle Blocks"
@@ -115,7 +115,7 @@ msgstr "ERROR: El modo debe ser ENTRADA o SALIDA."
 
 #: ../taextras.py:84
 msgid "turns LED on and off: 1 means on, 0 means off"
-msgstr "prende o apaga el LED: 1 significa prendido, 0 significa apagado"
+msgstr "prende o apaga el LED: 1 significa encendido, 0 significa apagado"
 
 #: ../taextras.py:85
 msgid "returns the gray level as a value between 0 and 65535"
