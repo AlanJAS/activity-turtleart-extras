@@ -498,7 +498,9 @@ LEGO_STRINGS = [
     # TRANS: set light is used to set the light level associated with
     # the color sensor (which can emit light as well as sense it)
     _('set light'),
-    _('Set color sensor light.')
+    _('Set color sensor light.'),
+    _('compass'),
+    _('compass sensor')
 ]
 
 ARDUINO_STRINGS = [
