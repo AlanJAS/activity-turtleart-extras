@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2011-13 Walter Bender
-# Copyright (c) 2011-13 Alan Jhonn Aguiar Schwyn
+# Copyright (c) 2011-15 Walter Bender
+# Copyright (c) 2011-15 Alan Aguiar
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -58,6 +58,39 @@ TURTLEFLAGS_STRINGS = [
 ]
 
 # PLUGINS
+
+AX12_STRINGS = [
+    #TRANS: AX12 is a special servo-motor of Dynamixel
+    _('ERROR: The degrees must be between 0 and 300'),
+    _('ERROR: The speed must be a value between 0 and 1023'),
+    _('ERROR: The value must be 0 or 1, LOW or HIGH'),
+    _('ERROR: The board is disconected or the ID is out of range'),
+    _('ERROR: The especified ID is not available'),
+    _('AX-12 Motors functions'),
+    _('ax12'),
+    _('refresh AX12'),
+    _('refresh the state of the Ax palette and blocks'),
+    _('getID'),
+    _('return a random ID of the conected AX-motors'),
+    _('get position'),
+    _('get the position of the AX-12 motors'),
+    _('set position'),
+    _('idMotor'),
+    _('degrees'),
+    _('set the position of the AX-12 motors'),
+    _('set speed'),
+    _('speed'),
+    _('set the speed of the AX-12 motors'),
+    _('stop'),
+    _('stop the AX-12 motors '),
+    _('get temperature'),
+    _('get the temperature of the AX-12 motors'),
+    _('get voltage'),
+    _('get the voltage of the AX-12 motors'),
+    _('set led'),
+    _('action'),
+    _('turns the AX led motor with id idMotor when action = 1, turn off if action = 0')
+]
 
 CURRENCY_STRINGS = [
     _('Palette of Mexican pesos'),
@@ -626,7 +659,7 @@ FISCHER_STRINGS = [
     _('light sensor'),
     _('button'),
     _('button sensor'),
-    _('turn actuator'),
+    _('actuator'),
     _('port'),
     _('power'),
     _('turn an actuator')
