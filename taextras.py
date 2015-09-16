@@ -92,6 +92,25 @@ AX12_STRINGS = [
     _('turns the AX led motor with id idMotor when action = 1, turn off if action = 0')
 ]
 
+ATYARANDU_STRINGS = [
+    _('Palette of Renewable Energy'),
+    _('refresh Energy'),
+    _('updates the status of the pallet and the Energy blocks'),
+    _('energy generated'),
+    _('Estimated value of renewable energy (MW) to generate in the next hour in Uruguay'),
+    _('max energy'),
+    _('Nominal value of renewable energy (MW) that can be generated in Uruguay'),
+    _('recommended energy'),
+    _('The preferred value of renewable energy (MW) for use'),
+    _('ON'),
+    _('Power on'),
+    _('OFF'),
+    _('Power off'),
+    _('relay'),
+    _('power on/off the relay'),
+    _('ERROR: Use 0 or 1, not %s')
+]
+
 CURRENCY_STRINGS = [
     _('Palette of Mexican pesos'),
     _('Palette of Colombian pesos'),
