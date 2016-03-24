@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-16 01:25+0000\n"
-"PO-Revision-Date: 2015-09-16 01:47+0000\n"
+"POT-Creation-Date: 2016-03-09 00:45+0000\n"
+"PO-Revision-Date: 2016-03-11 22:30+0000\n"
 "Last-Translator: Alan <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1442368021.000000\n"
+"X-POOTLE-MTIME: 1457735437.000000\n"
 
 #: ../taextras.py:37
 msgid "Turtle Blocks"
@@ -361,7 +361,7 @@ msgid "LED"
 msgstr "LED"
 
 #. TRANS: Lego NXT is a robotics product of the LEGO company
-#: ../taextras.py:152 ../taextras.py:487 ../taextras.py:679
+#: ../taextras.py:152 ../taextras.py:487 ../taextras.py:679 ../taextras.py:762
 msgid "button"
 msgstr "botón"
 
@@ -502,7 +502,7 @@ msgstr ""
 "CASTEAR\n"
 "sensor"
 
-#: ../taextras.py:191
+#: ../taextras.py:191 ../taextras.py:767
 msgid "name"
 msgstr "nombre"
 
@@ -2065,8 +2065,8 @@ msgstr "enciende un actuador"
 
 #. Palette to control X11 events
 #: ../taextras.py:689
-msgid "Palette of X11 event blocks"
-msgstr "Paleta de bloques de eventos X11"
+msgid "Palette of X11 extra event blocks"
+msgstr "Paleta extra de bloques de eventos X11"
 
 #: ../taextras.py:690
 msgid "setXY"
@@ -2093,180 +2093,336 @@ msgid "get the mouse pointer y coordinate"
 msgstr "obtiene la coordenada y del puntero del mouse"
 
 #: ../taextras.py:696
-msgid "leftClick"
-msgstr "clickIzquierdo"
-
-#: ../taextras.py:697
-msgid "click left click"
-msgstr "hace click con el botón izquierdo"
-
-#: ../taextras.py:698
-msgid "rightClick"
-msgstr "clickDerecho"
-
-#: ../taextras.py:699
-msgid "click right click"
-msgstr "hace click con el botón derecho del mouse"
-
-#: ../taextras.py:700
-msgid "true"
-msgstr "verdadero"
-
-#: ../taextras.py:701
-msgid "false"
-msgstr "falso"
-
-#: ../taextras.py:702
-msgid "click"
-msgstr "click"
-
-#: ../taextras.py:703
-msgid "simulate a mouse click"
-msgstr "simula un click del mouse"
-
-#: ../taextras.py:704
 msgid "getScreenWidth"
 msgstr "obtenerAnchoPantalla"
 
-#: ../taextras.py:705
+#: ../taextras.py:697
 msgid "get the screen width"
 msgstr "obtiene el ancho de la pantalla"
 
-#: ../taextras.py:706
+#: ../taextras.py:698
 msgid "getScreenHeight"
 msgstr "obtenerAltoPantalla"
 
-#: ../taextras.py:707
+#: ../taextras.py:699
 msgid "get the screen height"
 msgstr "obtiene el alto de la pantalla"
 
-#: ../taextras.py:708
+#: ../taextras.py:700
+msgid "click"
+msgstr "click"
+
+#: ../taextras.py:701
+msgid "simulate a mouse click"
+msgstr "simula un click del mouse"
+
+#: ../taextras.py:702
+msgid "double click"
+msgstr "doble click"
+
+#: ../taextras.py:703
+msgid "simulate a mouse double click"
+msgstr "simula un doble click del mouse"
+
+#: ../taextras.py:704
 msgid "pressButton"
 msgstr "presionarBotón"
 
-#: ../taextras.py:709
+#: ../taextras.py:705
 msgid "keeps button pressed"
 msgstr "mantiene un botón presionado"
 
-#: ../taextras.py:710
+#: ../taextras.py:706
 msgid "releaseButton"
 msgstr "soltarBotón"
 
-#: ../taextras.py:711
+#: ../taextras.py:707
 msgid "releases button"
 msgstr "suelta un botón"
 
+#: ../taextras.py:708
+msgid "leftClick"
+msgstr "clickIzquierdo"
+
+#: ../taextras.py:709
+msgid "click left click"
+msgstr "hace click con el botón izquierdo"
+
+#: ../taextras.py:710
+msgid "rightClick"
+msgstr "clickDerecho"
+
+#: ../taextras.py:711
+msgid "click right click"
+msgstr "hace click con el botón derecho del mouse"
+
 #: ../taextras.py:712
-msgid "freeze bar"
-msgstr "congelar barra"
+msgid "freezeBar"
+msgstr "congelarBarra"
 
 #: ../taextras.py:713
 msgid "freeze the bar"
 msgstr "congela la barra"
 
 #: ../taextras.py:714
-msgid "setLineColorRGB"
-msgstr "establecerColorRGB"
+msgid "unfreezeBar"
+msgstr "descongelarBarra"
 
 #: ../taextras.py:715
-msgid "set line color from rgb value"
-msgstr "establece el color rgb de la línea "
+msgid "unfreeze the bar"
+msgstr "descongela la barra"
 
 #: ../taextras.py:716
-msgid "setLineColor"
-msgstr "establecerColor"
-
-#: ../taextras.py:717
-msgid "set line color"
-msgstr "establecer color de línea"
-
-#: ../taextras.py:718
-msgid "setLineOpacity"
-msgstr "establecerOpacidad"
-
-#: ../taextras.py:719
-msgid "set line opacity"
-msgstr "establece la opacidad de la línea"
-
-#: ../taextras.py:720
 msgid "showLine"
 msgstr "mostrarLínea"
 
-#: ../taextras.py:721
+#: ../taextras.py:717
 msgid "show vertical line over mouse"
 msgstr "muestra una línea vertical sobre el mouse"
 
+#: ../taextras.py:718
+msgid "hideLine"
+msgstr "ocultarLinea"
+
+#: ../taextras.py:719
+msgid "hide vertical line over mouse"
+msgstr "oculta la línea vertical sobre el mouse"
+
+#: ../taextras.py:720
+msgid "setLineColorRGB"
+msgstr "establecerColorRGBLínea"
+
+#: ../taextras.py:721
+msgid "set line color from rgb value"
+msgstr "establece el color rgb de la línea"
+
 #: ../taextras.py:722
-msgid "setLineWidth"
-msgstr "establecerAncho"
+msgid "setLineColor"
+msgstr "establecerColor"
 
 #: ../taextras.py:723
-msgid "width of vertical line over mouse"
-msgstr "establece el ancho de la línea vertical sobre el mouse"
+msgid "set line color"
+msgstr "establecer color de línea"
 
 #: ../taextras.py:724
-msgid "setLineHeight"
-msgstr "establecerAlto"
+msgid "setLineOpacity"
+msgstr "establecerOpacidadLínea"
 
 #: ../taextras.py:725
-msgid "height of vertical line over mouse"
-msgstr "alto de la línea vertical sobre el mouse"
+msgid "set line opacity"
+msgstr "establece la opacidad de la línea"
 
 #: ../taextras.py:726
-msgid "setLineWidthAndHeigth"
-msgstr "establecerAnchoAlto"
+msgid "setLineWidthAndHeight"
+msgstr "establecerAnchoyAltoLínea"
 
 #: ../taextras.py:727
 msgid "set width and height of line over mouse"
 msgstr "establece el ancho y el alto de la línea sobre el mouse"
 
-#. TRANS: plugin to control an ExpEyes device
+#: ../taextras.py:728
+msgid "setLineWidth"
+msgstr "establecerAncho"
+
+#: ../taextras.py:729
+msgid "width of vertical line over mouse"
+msgstr "establece el ancho de la línea vertical sobre el mouse"
+
+#: ../taextras.py:730
+msgid "setLineHeight"
+msgstr "establecerAlto"
+
+#: ../taextras.py:731
+msgid "height of vertical line over mouse"
+msgstr "alto de la línea vertical sobre el mouse"
+
 #: ../taextras.py:732
+msgid "simulateKey"
+msgstr "simularTecla"
+
+#: ../taextras.py:733
+msgid "simulates pressing a key"
+msgstr "simula presionar una tecla"
+
+#: ../taextras.py:734
+msgid "simulateCopy"
+msgstr "simularCopiar"
+
+#: ../taextras.py:735
+msgid "simulate copy event"
+msgstr "simula el evento copiar"
+
+#: ../taextras.py:736
+msgid "simulatePaste"
+msgstr "simularPegar"
+
+#: ../taextras.py:737
+msgid "simulate paste event"
+msgstr "simular evento de pegar"
+
+#: ../taextras.py:738
+msgid "spaceBar"
+msgstr "barraEspaciadora"
+
+#: ../taextras.py:739
+msgid "space bar"
+msgstr "barra espaciadora"
+
+#: ../taextras.py:740
+msgid "leftArrow"
+msgstr "flechaIzquierda"
+
+#: ../taextras.py:741
+msgid "left arrow"
+msgstr "flecha izquierda"
+
+#: ../taextras.py:742
+msgid "rightArrow"
+msgstr "flechaDerecha"
+
+#: ../taextras.py:743
+msgid "right arrow"
+msgstr "flecha derecha"
+
+#: ../taextras.py:744
+msgid "upArrow"
+msgstr "flechaArriba"
+
+#: ../taextras.py:745
+msgid "up arrow"
+msgstr "flecha arriba"
+
+#: ../taextras.py:746
+msgid "downArrow"
+msgstr "flechaAbajo"
+
+#: ../taextras.py:747
+msgid "down arrow"
+msgstr "flecha abajo"
+
+#: ../taextras.py:748
+msgid "tabKey"
+msgstr "teclaTab"
+
+#: ../taextras.py:749
+msgid "tab key"
+msgstr "tecla tabulación"
+
+#: ../taextras.py:750
+msgid "returnKey"
+msgstr "teclaRetorno"
+
+#: ../taextras.py:751
+msgid "return key"
+msgstr "tecla retorno"
+
+#: ../taextras.py:752
+msgid "escapeKey"
+msgstr "teclaEscape"
+
+#: ../taextras.py:753
+msgid "escape key"
+msgstr "tecla escape"
+
+#: ../taextras.py:754
+msgid "enterKey"
+msgstr "teclaEntrar"
+
+#: ../taextras.py:755
+msgid "enter key"
+msgstr "tecla entrar"
+
+#: ../taextras.py:756
+msgid "scrollUp"
+msgstr "desplazarArriba"
+
+#: ../taextras.py:757
+msgid "simulate mouse scroll up event"
+msgstr "simula desplazar el mouse hacia arriba"
+
+#: ../taextras.py:758
+msgid "scrollDown"
+msgstr "desplazarAbajo"
+
+#: ../taextras.py:759
+msgid "simulate mouse scroll down event"
+msgstr "simula desplazar el mouse hacia abajo"
+
+#: ../taextras.py:760
+msgid "debounce"
+msgstr "sinRebote"
+
+#: ../taextras.py:761
+msgid "unique_name"
+msgstr "nombre_único"
+
+#: ../taextras.py:763
+msgid "openBrowser"
+msgstr "abrirNavegador"
+
+#: ../taextras.py:764
+msgid "http://www.example.com"
+msgstr "http://www.ejemplo.com"
+
+#: ../taextras.py:765
+msgid "simulates opening a web browser"
+msgstr "simula abrir un navegador web"
+
+#: ../taextras.py:766
+msgid "openProgram"
+msgstr "abrirPrograma"
+
+#: ../taextras.py:768
+msgid "open program"
+msgstr "abrir programa"
+
+#. TRANS: plugin to control an ExpEyes device
+#: ../taextras.py:773
 msgid "Palette of Expeyes blocks"
 msgstr "Paleta de bloques de Expeyes"
 
 #. TRANS: Programmable voltage output
-#: ../taextras.py:734
+#: ../taextras.py:775
 msgid "set PVS"
 msgstr "establecer PVS"
 
-#: ../taextras.py:735
+#: ../taextras.py:776
 msgid "set programmable voltage output"
 msgstr "establece el voltaje de salida programable"
 
 #. TRANS: Square wave 1 voltage output
-#: ../taextras.py:737
+#: ../taextras.py:778
 msgid "set SQR1 voltage"
 msgstr "establecer voltaje SQR1"
 
-#: ../taextras.py:738
+#: ../taextras.py:779
 msgid "set square wave 1 voltage output"
 msgstr "establece una onda cuadrada en el voltaje de salida"
 
 #. TRANS: Square wave 2 voltage output
-#: ../taextras.py:740
+#: ../taextras.py:781
 msgid "set SQR2 voltage"
 msgstr "establecer voltaje SQR2"
 
-#: ../taextras.py:741
+#: ../taextras.py:782
 msgid "set square wave 2 voltage output"
 msgstr "establece una onda cuadrada en el voltaje de salida"
 
 #. TRANS: Digital output level
-#: ../taextras.py:743
+#: ../taextras.py:784
 msgid "set OD1"
 msgstr "establecer OD1"
 
-#: ../taextras.py:744
+#: ../taextras.py:785
 msgid "set digital output level (OD1) low (0) or high (1)"
 msgstr "establece el nivel de la salida digital (OD1) bajo (0) o alto (1)"
 
 #. TRANS: Input 1 voltage level
-#: ../taextras.py:746
+#: ../taextras.py:787
 msgid "IN1 level"
 msgstr "nivel IN1"
 
-#: ../taextras.py:747
+#: ../taextras.py:788
 msgid ""
 "returns 1 if IN1 voltage level >2.5 volts, 0 if IN1 voltage level <= 2.5 "
 "volts"
@@ -2275,11 +2431,11 @@ msgstr ""
 "2,5 volts"
 
 #. TRANS: Input 2 voltage level
-#: ../taextras.py:750
+#: ../taextras.py:791
 msgid "IN2 level"
 msgstr "nivel IN2"
 
-#: ../taextras.py:751
+#: ../taextras.py:792
 msgid ""
 "returns 1 if IN2 voltage level >2.5 volts, 0 if IN2 voltage level <= 2.5 "
 "volts"
@@ -2288,11 +2444,11 @@ msgstr ""
 "2,5 volts"
 
 #. TRANS: Resistive sensor voltage level
-#: ../taextras.py:754
+#: ../taextras.py:795
 msgid "SEN level"
 msgstr "nivel SEN"
 
-#: ../taextras.py:755
+#: ../taextras.py:796
 msgid ""
 "returns 1 if resistive sensor (SEN) voltage level > 2.5 volts, 0 if SEN "
 "voltage level <= 2.5 volts"
@@ -2300,24 +2456,24 @@ msgstr ""
 "devuelve 1 si el voltaje del sensor resistivo (SEN) es mayor a 2,5 volts, 0 "
 "si el voltaje es <= 2,5 volts"
 
-#: ../taextras.py:757
+#: ../taextras.py:798
 msgid "capture"
 msgstr "capturar"
 
-#: ../taextras.py:758
+#: ../taextras.py:799
 msgid "input"
 msgstr "entrada"
 
-#: ../taextras.py:759
+#: ../taextras.py:800
 msgid "samples"
 msgstr "muestras"
 
-#: ../taextras.py:760
+#: ../taextras.py:801
 msgid "interval"
 msgstr "intervalo"
 
 #. TRANS: MS is microseconds
-#: ../taextras.py:762
+#: ../taextras.py:803
 msgid ""
 "capture multiple samples from input at interval (MS); results pushed to FIFO"
 msgstr ""
@@ -2325,80 +2481,95 @@ msgstr ""
 "son puestos en FIFO"
 
 #. TRANS: Analog input 1 voltage level
-#: ../taextras.py:765
+#: ../taextras.py:806
 msgid "A1"
 msgstr "A1"
 
-#: ../taextras.py:766
+#: ../taextras.py:807
 msgid "read analog input 1 voltage"
 msgstr "lee el voltaje de la entrada analógica 1"
 
 #. TRANS: Analog input 2 voltage level
-#: ../taextras.py:768
+#: ../taextras.py:809
 msgid "A2"
 msgstr "A2"
 
-#: ../taextras.py:769
+#: ../taextras.py:810
 msgid "read analog input 2 voltage"
 msgstr "lee el voltaje de la entrada analógica 2"
 
 #. TRANS: Read input 1 voltage
-#: ../taextras.py:771
+#: ../taextras.py:812
 msgid "IN1"
 msgstr "IN1"
 
-#: ../taextras.py:772
+#: ../taextras.py:813
 msgid "read input 1 voltage"
 msgstr "lee el voltaje de la entrada 1"
 
 #. TRANS: Read input 2 voltage
-#: ../taextras.py:774
+#: ../taextras.py:815
 msgid "IN2"
 msgstr "IN2"
 
-#: ../taextras.py:775
+#: ../taextras.py:816
 msgid "read input 2 voltage"
 msgstr "lee el voltaje de la entrada 2"
 
 #. TRANS: Read analog sensor input voltage
-#: ../taextras.py:777
+#: ../taextras.py:818
 msgid "SEN"
 msgstr "SEN"
 
-#: ../taextras.py:778
+#: ../taextras.py:819
 msgid "read analog sensor input voltage"
 msgstr "lee el voltaje de entrada del sensor analógico"
 
 #. TRANS: Read square wave 1 input voltage
-#: ../taextras.py:780
+#: ../taextras.py:821
 msgid "SQR1"
 msgstr "SQR1"
 
-#: ../taextras.py:781
+#: ../taextras.py:822
 msgid "read square wave 1 voltage"
 msgstr "lee el voltaje de la onda cuadrada 1"
 
 #. TRANS: Read square wave 2 input voltage
-#: ../taextras.py:783
+#: ../taextras.py:824
 msgid "SQR2"
 msgstr "SQR2"
 
-#: ../taextras.py:784
+#: ../taextras.py:825
 msgid "read square wave 2 voltage"
 msgstr "lee el voltaje de la onda cuadrada 2"
 
 #. TRANS: Read programmable voltage
-#: ../taextras.py:786
+#: ../taextras.py:827
 msgid "PVS"
 msgstr "PVS"
 
-#: ../taextras.py:787
+#: ../taextras.py:828
 msgid "read programmable voltage"
 msgstr "leer voltaje programable"
 
-#: ../taextras.py:788
+#: ../taextras.py:829
 msgid "Expeyes device not found"
 msgstr "El dispositivo Expeyes no fue encontrado"
+
+#~ msgid "Palette of X11 event blocks"
+#~ msgstr "Paleta de bloques de eventos X11"
+
+#~ msgid "true"
+#~ msgstr "verdadero"
+
+#~ msgid "false"
+#~ msgstr "falso"
+
+#~ msgid "freeze bar"
+#~ msgstr "congelar barra"
+
+#~ msgid "setLineWidthAndHeigth"
+#~ msgstr "establecerAnchoAlto"
 
 #~ msgid "turn actuator"
 #~ msgstr "encender actuador"
