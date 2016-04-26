@@ -1681,14 +1681,6 @@ msgstr ""
 #~ msgid "the canvas width"
 #~ msgstr "a largura da tela"
 
-# KSp54N  <a href="http://ntmbjiiaoekm.com/">ntmbjiiaoekm</a>, [url=http://bewqzxbwopvt.com/]bewqzxbwopvt[/url], [link=http://vsvihmzobocj.com/]vsvihmzobocj[/link], http://elhuengzhnsf.com/
-#, fuzzy
-#~ msgid "empty heap?"
-#~ msgstr ""
-#~ "KSp54N  <a href=\"http://ntmbjiiaoekm.com/\">ntmbjiiaoekm</a>, "
-#~ "[url=http://bewqzxbwopvt.com/]bewqzxbwopvt[/url], "
-#~ "[link=http://vsvihmzobocj.com/]vsvihmzobocj[/link], http://elhuengzhnsf.com/"
-
 #~ msgid "named variable (numeric value)"
 #~ msgstr "variável nomeada (valor numérico)"
 
@@ -2136,14 +2128,6 @@ msgstr ""
 
 #~ msgid "did not output to"
 #~ msgstr "não houve saída para"
-
-# KSp54N  <a href="http://ntmbjiiaoekm.com/">ntmbjiiaoekm</a>, [url=http://bewqzxbwopvt.com/]bewqzxbwopvt[/url], [link=http://vsvihmzobocj.com/]vsvihmzobocj[/link], http://elhuengzhnsf.com/
-#, fuzzy
-#~ msgid "empty heap"
-#~ msgstr ""
-#~ "KSp54N  <a href=\"http://ntmbjiiaoekm.com/\">ntmbjiiaoekm</a>, "
-#~ "[url=http://bewqzxbwopvt.com/]bewqzxbwopvt[/url], "
-#~ "[link=http://vsvihmzobocj.com/]vsvihmzobocj[/link], http://elhuengzhnsf.com/"
 
 #, fuzzy
 #~ msgid "pops value off FILO (first-in last-out heap)"
