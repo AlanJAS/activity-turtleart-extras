@@ -87,7 +87,7 @@ AX12_STRINGS = [
     _('get the temperature of the AX-12 motors'),
     _('get voltage'),
     _('get the voltage of the AX-12 motors'),
-    _('set led'),
+    _('set LED'),
     _('action'),
     _('turns the AX led motor with id idMotor when action = 1, turn off if action = 0')
 ]
