@@ -492,8 +492,8 @@ LEGO_STRINGS = [
     _('gray'),
     # TRANS: The brick is the NXT controller
     _('Please check the connection with the brick'),
-    _("Invalid port '%s'. Port must be: PORT A, B or C"),
-    _("Invalid port '%s'. Port must be: PORT 1, 2, 3 or 4"),
+    _("Invalid port '%s'. Port must be: A, B or C"),
+    _("Invalid port '%s'. Port must be: 1, 2, 3 or 4"),
     _('The value of power must be between -127 to 127'),
     _("The parameter must be a integer, not '%s'"),
     _('An error has occurred: check all connections and try to reconnect'),
