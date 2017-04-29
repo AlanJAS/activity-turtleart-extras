@@ -788,7 +788,9 @@ XEVENTS_STRINGS = [
     _('setProgramName'),
     _('my program'),
     _('name this program'),
-    _('ERROR: cannot init GCONF client: %s')
+    _('ERROR: cannot init GCONF client: %s'),
+    _('getColorAt'),
+    _('Get rgb color from specific display position')
 ]
 
 EXPEYES_STRINGS = [
